@@ -21,6 +21,8 @@ rec {
 
     buildInputs = [ rsync ];
 
+    configPatches = map mkPatch cfg.configPatches;
+
     builder = mkBuilder ''
       mkdir -p $out/mods
 
@@ -37,8 +39,17 @@ rec {
       for extraDir in $extraDirs; do
         rsync -a $extraDir/ $out
       done
+
+      chmod -R 0755 $out/config
+      for configPatch in $configPatches; do
+        (cd $out/config/; source $configPatch)
+      done
     '';
   };
+
+  mkPatch = patch:
+    if builtins.isString patch then builtins.toFile "patch.sh" patch
+    else error "Structured patches are not yet implemented";
 
   fetchMod = self: mkDerivation ({
 

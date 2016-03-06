@@ -1,4 +1,3 @@
-#with import <nixpkgs> {};
 with import <nixpkgs> {};
 with stdenv;
 
@@ -22,6 +21,13 @@ rec {
       (bevos.getDir "config")
       (bevos.getDir "scripts")
       (bevos.getDir "libraries")
+    ];
+
+    # These are applied after everything else.
+    # And in order, if it matters.
+    # TODO: Write something that understands what it's doing.
+    configPatches = [
+      ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
     ];
   };
 
