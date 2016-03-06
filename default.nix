@@ -26,6 +26,7 @@ rec {
   };
 
   mods = bevos.mods // {
+    # TODO: A fetchCurse which autogenerates most of this.
     dynmap = fetchMod {
       name = "dynmap-2.2";
 
@@ -34,6 +35,42 @@ rec {
       src = fetchurl {
         url = http://minecraft.curseforge.com/projects/dynmapforge/files/2246830/download;
         md5 = "36dcb76c6aba48be4f80e73fc27fe137";
+      };
+    };
+
+    agricraft = fetchMod {
+      name = "agricraft-1.5.0";
+
+      src = fetchurl {
+        url = http://minecraft.curseforge.com/projects/agricraft/files/2284130/download;
+        md5 = "12103c50b42df790479492781326928d";
+      };
+    };
+
+    automagy = fetchMod {
+      name = "automagy-0.28.2";
+
+      src = fetchurl {
+        url = http://minecraft.curseforge.com/projects/automagy/files/2285272/download;
+        md5 = "0d1b46683a9c69a59368406b7db4671f";
+      };
+    };
+
+    DragonAPI = fetchMod {
+      name = "DragonAPI-11b";
+
+      src = fetchurl {
+        url = http://minecraft.curseforge.com/projects/dragonapi/files/2284316/download;
+        md5 = "ea92328be71f2ba685e33cdcc468cf57";
+      };
+    };
+
+    RotaryCraft  = fetchMod {
+      name = "RotaryCraft-11b";
+
+      src = fetchurl {
+        url = http://minecraft.curseforge.com/projects/rotarycraft/files/2284297/download;
+        md5 = "39305dd786c456db7dcd9fe326d41bea";
       };
     };
   };
