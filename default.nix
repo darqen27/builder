@@ -1,22 +1,33 @@
 with import <nixpkgs> {};
 with stdenv;
 
-with import ./lib.nix;
+with import ./lib/lib.nix;
 
-let serverName = "erisia-12"; in
+let
+  serverId = "erisia";
+  serverName = "erisia-12";
+  serverDesc = "Erisia #12: Vivat Apparatus";
+
+  forgeMajor = "1.7.10";
+  forgeMinor = "10.13.4.1566";
+
+  packUrlBase = "https://madoka.brage.info/mods/";
+in
 
 rec {
+
   server = mkServer {
     name = serverName;
 
     mods = mods;
 
     forge = fetchForge {
-      major = "1.7.10"; minor = "10.13.4.1566";
+      major = forgeMajor; minor = forgeMinor;
       sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
     };
 
     # These are applied in order. In case of overwrites nothing is deleted.
+    # They're also copied to the client, after applying the below patches.
     extraDirs = [
       (bevos.getDir "config")
       (bevos.getDir "scripts")
@@ -33,9 +44,10 @@ rec {
 
   mods = bevos.mods // {
     # TODO: A fetchCurse which autogenerates most of this.
-    dynmap = fetchMod {
+    dynmap = mkMod {
       name = "dynmap-2.2";
 
+      # Options such as 'required' also work.
       side = "SERVER";
 
       src = fetchurl {
@@ -44,36 +56,32 @@ rec {
       };
     };
 
-    agricraft = fetchMod {
+    agricraft = mkMod {
       name = "agricraft-1.5.0";
-
       src = fetchurl {
         url = http://minecraft.curseforge.com/projects/agricraft/files/2284130/download;
         md5 = "12103c50b42df790479492781326928d";
       };
     };
 
-    automagy = fetchMod {
+    automagy = mkMod {
       name = "automagy-0.28.2";
-
       src = fetchurl {
         url = http://minecraft.curseforge.com/projects/automagy/files/2285272/download;
         md5 = "0d1b46683a9c69a59368406b7db4671f";
       };
     };
 
-    DragonAPI = fetchMod {
+    DragonAPI = mkMod {
       name = "DragonAPI-11b";
-
       src = fetchurl {
         url = http://minecraft.curseforge.com/projects/dragonapi/files/2284316/download;
         md5 = "ea92328be71f2ba685e33cdcc468cf57";
       };
     };
 
-    RotaryCraft  = fetchMod {
+    RotaryCraft = mkMod {
       name = "RotaryCraft-11b";
-
       src = fetchurl {
         url = http://minecraft.curseforge.com/projects/rotarycraft/files/2284297/download;
         md5 = "39305dd786c456db7dcd9fe326d41bea";
@@ -88,8 +96,53 @@ rec {
       stripRoot = false;
     };
 
-    sides = {
-      #AOBD = "CLIENT";
+    # This lets you set options for mods in the base back.
+    # Same way as for mods added above.
+    modConfig = {
+      AOBD = {
+        # Probably don't want to, though.
+        # required = false;
+        # side = "CLIENT";
+      };
     };
   };
+
+  ServerPack = mkDerivation (rec {
+    name = "ServerPack";
+
+    buildInputs = [ libxslt ];
+
+    stylesheet = ./lib/serverpack.xsl;
+
+    modList = builtins.attrValues mods;
+
+    params = writeTextFile {
+      name = "params.xml";
+      text = builtins.toXML {
+        serverId = serverId;
+        serverDesc = serverDesc;
+        forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
+        mods = lib.mapAttrs (name: mod: {
+          modId = name;
+          url = packUrlBase + builtins.baseNameOf mod.outPath;
+          side = mod.side;
+          required = mod.required;
+          modtype = mod.modtype;
+          md5 = (import mod).md5;
+        }) mods;
+      };
+    };
+
+    builder = mkBuilder ''
+      mkdir -p $out/mods
+      xsltproc ${stylesheet} $params > $out/ServerPack.xml
+
+      for mod in $modList; do
+        ln -s $mod/mods/*.jar $out/mods/$(basename $mod)
+      done
+    '';
+
+
+  });
+              
 }

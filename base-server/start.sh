@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jdk --pure
+#!nix-shell -i bash -p jdk rsync --pure
 
 set -eux
 
@@ -10,9 +10,17 @@ JAR=forge-universal.jar
 # This is very much intended. To avoid redownloads, let's put things in scripts.
 for f in $BASE/*; do
     b=$(basename $f)
-    rm -rf $b
-    cp -a $f .
-    chmod -R 0755 $b
+    if [[ $b != "config" ]]; then
+        rm -rf $b
+        cp -aL $f .
+    else
+        # Except for the config dir, just because a lot of mods cache things there.
+        # For some reason.
+        rsync -a result/config .
+    fi
+    find $b -exec chmod a+r {} +
+    find $b -exec chmod u+w {} +
+    find $b -type d -exec chmod a+x {} +
 done
 
 java -d64 -server -Xmn512m -Xms1g -Xmx10g \

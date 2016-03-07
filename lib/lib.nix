@@ -1,27 +1,27 @@
 with import <nixpkgs> {};
 with stdenv;
 
-let
-  mkBuilder = code: builtins.toFile "builder.sh" ("source $stdenv/setup\n" + code);
-in
-
 rec {
+  mkBuilder = code: builtins.toFile "builder.sh" ("source $stdenv/setup\n" + code);
+
   mkServer = cfg: mkDerivation {
     name = cfg.name;
 
-    src = ./base-server;
+    src = ../base-server;
 
     forge = cfg.forge;
-    modDirs = builtins.attrValues cfg.mods;
-    extraDirs = cfg.extraDirs;
+    modDirs = builtins.filter (m: m.side != "CLIENT") (builtins.attrValues cfg.mods);
     minecraft = fetchurl {
       url = https://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/minecraft_server.1.7.10.jar;
       sha256 = "1z7kf8wm27yq10rnlwlig7c2vc45x3sfbxslw4lxh9201kq70267";
     };
 
-    buildInputs = [ rsync ];
+    baseMinecraft = mkBaseMinecraft {
+      extraDirs = cfg.extraDirs;
+      configPatches = map mkPatch cfg.configPatches;
+    };
 
-    configPatches = map mkPatch cfg.configPatches;
+    buildInputs = [ rsync ];
 
     builder = mkBuilder ''
       mkdir -p $out/mods
@@ -29,15 +29,35 @@ rec {
       rsync -a $src/ $out/
       chmod 0755 $out
 
-      cp -p $forge $out/forge-universal.jar
-      cp -p $minecraft $out/minecraft_server.1.7.10.jar
+      ln -s $forge $out/forge-universal.jar
+      ln -s $minecraft $out/minecraft_server.1.7.10.jar
+
+      rsync -a $baseMinecraft/ $out/
 
       for modDir in $modDirs; do
         rsync -a $modDir/mods/ $out/mods/
       done
+    '';
+  };
+
+  mkBaseMinecraft = {
+    # Directories to copy in verbatim. Well, derivations.
+    extraDirs ? []
+
+    # Config patches to apply.
+   ,configPatches ? []
+  }: mkDerivation {
+    name = "base-minecraft";
+
+    inherit extraDirs configPatches;
+
+    buildInputs = [ rsync ];
+
+    builder = mkBuilder ''
+      mkdir $out
 
       for extraDir in $extraDirs; do
-        rsync -a $extraDir/ $out
+        rsync -aL $extraDir/ $out
       done
 
       chmod -R 0755 $out/config
@@ -49,15 +69,21 @@ rec {
 
   mkPatch = patch:
     if builtins.isString patch then builtins.toFile "patch.sh" patch
-    else error "Structured patches are not yet implemented";
+    else abort "Structured patches are not yet implemented";
 
-  fetchMod = self: mkDerivation ({
-
+  mkMod = self: mkDerivation ({
     builder = mkBuilder ''
       mkdir -p $out/mods
-      cp -p $src $out/mods/$name.jar
+      ln -s "$src" $out/mods/"$name".jar
+      md5=$(md5sum "$src" | awk '{print $1}')
+      cat >> $out/default.nix <<EOF
+        { md5 = "$md5"; }
+      EOF
     '';
-    
+
+    side = "BOTH";
+    required = true;
+    modtype = "Regular";
   } // self);
 
   fetchForge = cfg: fetchurl {
@@ -74,10 +100,9 @@ rec {
       src = cfg.src;
       inherit dir;
 
-      buildInputs = [ rsync ];
-
       builder = mkBuilder ''
-        rsync -a $src/$dir $out
+        mkdir $out
+        ln -s $src/$dir $out
       '';
     };
 
@@ -98,7 +123,7 @@ rec {
           $version =~ s/^[-_]//;
           print "  $base = {\n";
           print "    name = \"$base-$version\";\n";
-          print "    path = \"mods/$_\";\n";
+          print "    path = \"/mods/$_\";\n";
           print "    version = \"$version\";\n";
           print "  };\n\n";
           next;
@@ -107,10 +132,13 @@ rec {
         print "{\n";
         while (<>) {
           $_ =~ s/\s+$//;
+          # Per-mod hacks go on top.
+          # Don't think too hard about it.
           p($1, $+{version} . "-" . $+{type}) if /(.*BiblioWoods)\[(?<type>[^\]]+)\]\[v(?<version>[^\]]+)\].jar/;
           p($1, $+{version}) if /(.*BiblioCraft)\[v(?<version>[^\]]+)\]\[MC(?<mcversion>[^\]]+)\].jar/;
           p("ProjectRed" . $2, $1) if /ProjectRed-([0-9].*)-(.*).jar/;
           p($1, $2) if /(Steves.*?)([0-9A-Z][0-9\.].*).jar/;
+          # This one works on the 98% of mods remaining.
           p($1, $2) if /(.*?)[-_ ]((mc|MC|rv|r|v|\[)?[0-9].*).jar/;
           print "ERROR: Couldn't parse " . $_;
         }
@@ -125,24 +153,12 @@ rec {
         grep ^ERROR: $out && exit 1 || true
       '';
     };
-
     
-    mods = lib.mapAttrs mkMod (import baseModsNix);
-   
-    mkMod = name: mod: let
-    in mkDerivation {
-      inherit name;
+    mods = lib.mapAttrs splitMod (import baseModsNix);
 
-      src = cfg.src;
-
-      side = cfg.sides.${name} or "BOTH";
-
-      builder = mkBuilder ''
-        mkdir -p $out/mods
-
-        cp -p $src/"${mod.path}" $out/mods/
-        #echo $side > $out/SIDE
-      '';
-    };
+    splitMod = name: mod: mkMod ((cfg.modConfig.${name} or {}) // {
+      name = mod.name;
+      src = cfg.src + mod.path;
+    });
   };
 }
