@@ -107,19 +107,46 @@ rec {
     };
   };
 
+  ## Nothing below here is particularly relevant ##
+
+  # A quick hack to get MCUpdater running on NixOS.
+  mcupdater = with xlibs; mkDerivation {
+    name = "mcupdater";
+
+    src = fetchurl {
+      url = https://madoka.brage.info/MCU-Bootstrap.jar;
+      sha256 = "1rm287bf4m0lnxc7yk5ahrmbbqnrp3ywq7ig5wm3wc5zpsjpfp0n";
+    };
+
+    phases = "installPhase";
+
+    installPhase = ''
+      mkdir -p $out/bin
+      cp $src $out/mcupdater.jar
+      cat > $out/bin/mcupdater << EOF
+        #!${stdenv.shell}
+        # wrapper for mcupdater/minecraft
+        export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${libX11}/lib/:${libXext}/lib/:${libXcursor}/lib/:${libXrandr}/lib/:${libXxf86vm}/lib/:${mesa}/lib/:${openal}/lib/
+        java -jar $out/mcupdater.jar
+      EOF
+      chmod +x $out/bin/mcupdater
+    '';
+  };
+
   # TODO: Move most of this into the lib. Or something.
   ServerPack = let
     baseParams = {
       serverId = serverId;
       serverDesc = serverDesc;
       forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
-      mods = lib.mapAttrs (name: mod: {
+      mods = lib.mapAttrs (name: mod: let details = import mod; in {
         modId = name;
         url = packUrlBase + builtins.baseNameOf mod.outPath;
+        modpath = "mods/" + details.modpath;
         side = mod.side;
         required = mod.required;
         modtype = mod.modtype;
-        md5 = (import mod).md5;
+        md5 = details.md5;
       }) mods;
       configs = lib.mapAttrs (name: md5: {
         configId = name;
@@ -156,5 +183,5 @@ rec {
       ln -s $configs/*.zip $out/mods/configs/
     '';
   });
-              
+
 }

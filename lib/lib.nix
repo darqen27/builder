@@ -90,13 +90,15 @@ rec {
       ln -s "$src" $out/mods/"$name".jar
       md5=$(md5sum "$src" | awk '{print $1}')
       cat >> $out/default.nix <<EOF
-        { md5 = "$md5"; }
+        { md5 = "$md5";
+          modpath = "$modpath"; }
       EOF
     '';
 
     side = "BOTH";
     required = true;
     modtype = "Regular";
+    modpath = builtins.baseNameOf self.src;
   } // self);
 
   fetchForge = cfg: fetchurl {
