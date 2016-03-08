@@ -107,7 +107,22 @@ rec {
     };
   };
 
-  ServerPack = mkDerivation (rec {
+  ServerPack = let
+    baseParams = {
+      serverId = serverId;
+      serverDesc = serverDesc;
+      forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
+      mods = lib.mapAttrs (name: mod: {
+        modId = name;
+        url = packUrlBase + builtins.baseNameOf mod.outPath;
+        side = mod.side;
+        required = mod.required;
+        modtype = mod.modtype;
+        md5 = (import mod).md5;
+      }) mods;
+    };
+  in
+  mkDerivation (rec {
     name = "ServerPack";
 
     buildInputs = [ libxslt ];
@@ -118,19 +133,9 @@ rec {
 
     params = writeTextFile {
       name = "params.xml";
-      text = builtins.toXML {
-        serverId = serverId;
-        serverDesc = serverDesc;
-        forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
-        mods = lib.mapAttrs (name: mod: {
-          modId = name;
-          url = packUrlBase + builtins.baseNameOf mod.outPath;
-          side = mod.side;
-          required = mod.required;
-          modtype = mod.modtype;
-          md5 = (import mod).md5;
-        }) mods;
-      };
+      text = builtins.toXML (baseParams // {
+        revision = builtins.hashString "sha256" (builtins.toXML baseParams);
+      });
     };
 
     builder = mkBuilder ''

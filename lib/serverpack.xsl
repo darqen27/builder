@@ -11,6 +11,9 @@
           <xsl:attribute name='name'>
             <xsl:value-of select="attr[@name='serverDesc']/string/@value" />
           </xsl:attribute>
+          <xsl:attribute name='revision'>
+            <xsl:value-of select="attr[@name='revision']/string/@value" />
+          </xsl:attribute>
           <Import>
           <xsl:attribute name='url'>
             <xsl:value-of select="attr[@name='forgeUrl']/string/@value" />
