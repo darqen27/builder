@@ -107,6 +107,7 @@ rec {
     };
   };
 
+  # TODO: Move most of this into the lib. Or something.
   ServerPack = let
     baseParams = {
       serverId = serverId;
@@ -120,6 +121,11 @@ rec {
         modtype = mod.modtype;
         md5 = (import mod).md5;
       }) mods;
+      configs = lib.mapAttrs (name: md5: {
+        configId = name;
+        url = packUrlBase + "configs/" + name + ".zip";
+        inherit md5;
+      }) (import server.baseMinecraft);
     };
   in
   mkDerivation (rec {
@@ -130,6 +136,7 @@ rec {
     stylesheet = ./lib/serverpack.xsl;
 
     modList = builtins.attrValues mods;
+    configs = server.baseMinecraft;
 
     params = writeTextFile {
       name = "params.xml";
@@ -139,15 +146,15 @@ rec {
     };
 
     builder = mkBuilder ''
-      mkdir -p $out/mods
+      mkdir -p $out/mods/configs
       xsltproc ${stylesheet} $params > $out/ServerPack.xml
 
       for mod in $modList; do
         ln -s $mod/mods/*.jar $out/mods/$(basename $mod)
       done
+
+      ln -s $configs/*.zip $out/mods/configs/
     '';
-
-
   });
               
 }

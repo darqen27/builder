@@ -34,6 +34,20 @@
               <ModType><xsl:value-of select="attrs/attr[@name='modtype']/string/@value" /></ModType>
             </Module>
           </xsl:for-each>
+          <xsl:for-each select="attr[@name='configs']/attrs/attr">
+            <Module>
+              <xsl:attribute name='id'>
+                <xsl:value-of select="attrs/attr[@name='configId']/string/@value" />
+              </xsl:attribute>
+              <xsl:attribute name='name'>
+                <xsl:value-of select="@name" />
+              </xsl:attribute>
+              <URL><xsl:value-of select="attrs/attr[@name='url']/string/@value" /></URL>
+              <Required>true</Required>
+              <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
+              <ModType inRoot="true">Extract</ModType>
+            </Module>
+          </xsl:for-each>
         </Server>
       </xsl:for-each>
     </ServerPack>

@@ -51,7 +51,7 @@ rec {
 
     inherit extraDirs configPatches;
 
-    buildInputs = [ rsync ];
+    buildInputs = [ rsync zip ];
 
     builder = mkBuilder ''
       mkdir $out
@@ -64,6 +64,19 @@ rec {
       for configPatch in $configPatches; do
         (cd $out/config/; source $configPatch)
       done
+
+      # This is for the serverpack.
+      cd $out
+      chmod u+w .
+      tmp=$(mktemp)
+      echo '{' > $tmp
+      for dir in *; do
+        zip -qr $dir.zip $dir
+        md5=$(md5sum $dir.zip | awk '{print $1}')
+        printf '%s = "%s";\n' $dir $md5 >> $tmp
+      done
+      echo '}' >> $tmp
+      mv $tmp default.nix
     '';
   };
 
