@@ -98,7 +98,7 @@ rec {
     side = "BOTH";
     required = true;
     modtype = "Regular";
-    modpath = builtins.baseNameOf self.src;
+    modpath = self.name + ".jar";
   } // self);
 
   fetchForge = cfg: fetchurl {
@@ -174,6 +174,7 @@ rec {
     splitMod = name: mod: mkMod ((cfg.modConfig.${name} or {}) // {
       name = mod.name;
       src = cfg.src + mod.path;
+      modpath = builtins.baseNameOf mod.path;
     });
   };
 }
