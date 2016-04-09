@@ -8,13 +8,188 @@ let
   serverName = "erisia-12";
   serverDesc = "Erisia #12: Vivat Apparatus";
 
+  # lib.nix actually assumes 1.7.10 in a lot of places. This isn't plumbed through.
   forgeMajor = "1.7.10";
   forgeMinor = "10.13.4.1566";
 
-  packUrlBase = "https://madoka.brage.info/mods/";
+  packUrlBase = "https://madoka.brage.info/";
 in
 
 rec {
+
+  bevos = mkBasePack {
+    src = fetchzip {
+      # url = https://madoka.brage.info/baughn/BevosK.zip;
+      # sha256 = "0m9mlqhshzxj26a2gjrh6ag9387ff3qz3v7r52gknxrn4qgyiz42";
+      url = https://madoka.brage.info/baughn/BevosM.zip;
+      sha256 = "0qw9h4iai51ky7jd7kn6ijwvrcnm1xj8yrhzxs7qyi3c2infqd8x";
+      stripRoot = false;
+    };
+
+    # This lets you set options for mods in the base back.
+    # Same way as for mods added to it, below.
+    modConfig = {
+      AOBD = {
+        # Probably don't want to do anything with this one, though.
+        # required = false;
+        # side = "CLIENT";
+      };
+    };
+  };
+
+  # TODO: Don't forget the BoP biome mismatch.
+
+  # This is where we add mods that weren't part of Bevos.
+  mods = bevos.mods // {
+    # TODO: The below has a hell of a lot of not-using-the-version-option.
+    # Because it never works.
+    # It should be possible to make use of the perl version-number parser to fix that.
+
+    # These mod(s) override mods that exist in Bevo's pack, so the attribute name
+    # actually matters. For everything else, it pretty much doesn't.
+
+    # Okay, so it's just growthcraft.
+    growthcraft = fetchCurse {
+      name = "growthcraft-community-edition";
+      target = "Growthcraft 2.5.0 Complete";
+    };
+
+    # Server-side mods:
+    dynmap = fetchCurse {
+      name = "dynmapforge";
+      target = "Dynmap v2.2 for MC 1.7.10 (Forge 10.13.2)";
+      side = "SERVER";
+    };
+
+    eirairc = fetchCurse {
+      name = "eirairc";
+      target = "eirairc-mc1.7.10-2.9.402.jar";
+      side = "SERVER";
+    };
+
+    # Client-side:
+    WhatsThisPack = fetchCurse {
+      name = "wtp-whats-this-pack";
+      target = "WTP-1.7.10-1.0.29.1.jar";
+      side = "CLIENT";
+    };
+
+    # Both-sided:
+    ImmibisCore = mkMod {
+      name = "ImmibisCore-59.1.4";
+      src = fetchurl {
+        url = http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar;
+        md5 = "14dbc89ce3d361541234ac183270b5a1";
+      };
+    };
+
+    DimensionalAnchors = mkMod {
+      name = "DimensionalAnchors-59.0.3";
+      src = fetchurl {
+        url = http://immibis.com/mcmoddl/files/dimensional-anchor-59.0.3.jar;
+        md5 = "65669c1fab43ae1d3ef41a659fdd530c";
+      };
+    };
+
+    ElectricalAge = mkMod {
+      name = "ElectricalAge-51.1";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/ElectricalAge-51.1.jar;
+        sha256 = "cc5a0c18a52c700b56be8e1d4beb0b97bbf585fa76306a93273da777f39f2dc3";
+      };
+    };
+    
+    PrometheusIntegration = mkMod {
+      name = "PrometheusIntegration-1.0.1";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/prometheus-integration-1.0.1.jar;
+        sha256 = "afb91f49cb033a8d734ee4711caf872c31d7f7edb537e3303679bbdb92364f52";
+      };
+    };
+
+    Agricraft = fetchCurse {
+      name = "AgriCraft";
+      version = "1.5.0";
+    };
+    Automagy = fetchCurse {
+      name = "Automagy";
+      target = "v0.28.2";
+    };
+    BiomesOPlenty = fetchCurse {
+      name = "biomes-o-plenty";
+      target = "BiomesOPlenty-1.7.10-2.1.0.1889-universal.jar";
+    };
+    Farseek = fetchCurse { # streams dependency
+      name = "Farseek";
+      target = "Farseek-1.0.11.jar";
+    };
+    Flatsigns = fetchCurse {
+      name = "flatsigns";
+      target = "FlatSigns-1.7.10-universal-2.1.0.19.jar";
+    };
+    ForbiddenMagic = fetchCurse {
+      name = "forbidden-magic";
+      target = "Forbidden Magic-1.7.10-0.574.jar";
+    };
+    IguanasTinkerTweaks = fetchCurse {
+      name = "iguanas-tinker-tweaks";
+      target = "IguanaTinkerTweaks-1.7.10-2.1.6.jar";
+    };
+    MagicBees = fetchCurse {
+      name = "magic-bees";
+      target = "magicbees-1.7.10-2.4.3.jar";
+    };
+    Streams = fetchCurse {
+      name = "streams";
+      target = "Streams-0.2.jar";
+    };
+    RTG = fetchCurse {
+      name = "realistic-terrain-generation";
+      target = "RTG-1.7.10-0.7.0";
+    };
+    TcNodeTracker = fetchCurse {
+      name = "thaumcraft-node-tracker";
+      target = "tcnodetracker-1.7.10-1.1.2.jar";
+    };
+    ThaumicEnergistics = fetchCurse {
+      name = "thaumic-energistics";
+      target = "Thaumic Energistics 1.0.0.1";
+    };
+    ThaumicHorizons = fetchCurse {
+      name = "thaumic-horizons";
+      target = "thaumichorizons-1.7.10-1.1.9.jar";
+    };
+    ThaumicTinkerer = fetchCurse {
+      name = "thaumic-tinkerer";
+      target = "Thaumic Tinkerer 164";
+    };
+    TravellersGear = fetchCurse {
+      name = "travellers-gear";
+      target = "Traveller's Gear v1.16.6";
+    };
+    Witchery = fetchCurse {
+      name = "witchery";
+      version = "0.24.1";
+    };
+    WitchingGadgets = fetchCurse {
+      name = "witching-gadgets";
+      target = "Witching Gadgets v1.1.10";
+    };
+    Ztones = fetchCurse {
+      name = "ztones";
+      target = "Ztones-1.7.10-2.2.1.jar";
+    };
+
+    # Reika's mods below. Beware.
+    DragonAPI = fetchCurse {
+      name = "dragonapi";
+      target = "DragonAPI 1.7.10 V12e.jar";
+    };
+    RotaryCraft = fetchCurse {
+      name = "rotarycraft";
+      target = "RotaryCraft 1.7.10 V12e.jar";
+    };
+  };
 
   server = mkServer {
     name = serverName;
@@ -32,6 +207,10 @@ rec {
       (bevos.getDir "config")
       (bevos.getDir "scripts")
       (bevos.getDir "libraries")
+      (bevos.getDir "mods/resources")
+      # This is, of course, inside the git repository. Being last, any files you
+      # put here override files in Bevos' zips.
+      ./base
     ];
 
     # These are applied after everything else.
@@ -39,79 +218,27 @@ rec {
     # TODO: Write something that understands what it's doing.
     configPatches = [
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+      # I hope no-one was using this. Reconsider if Bevos updates their own version.
+      # Why did we need 2.5.0 again? ...I assume there was a good reason.
+      ''rm growthcraft/cellar/*.json''
     ];
   };
 
-  mods = bevos.mods // {
-    # TODO: A fetchCurse which autogenerates most of this.
-    dynmap = mkMod {
-      name = "dynmap-2.2";
 
-      # Options such as 'required' also work.
-      side = "SERVER";
-
-      src = fetchurl {
-        url = http://minecraft.curseforge.com/projects/dynmapforge/files/2246830/download;
-        md5 = "36dcb76c6aba48be4f80e73fc27fe137";
-      };
-    };
-
-    agricraft = mkMod {
-      name = "agricraft-1.5.0";
-      src = fetchurl {
-        url = http://minecraft.curseforge.com/projects/agricraft/files/2284130/download;
-        md5 = "12103c50b42df790479492781326928d";
-      };
-    };
-
-    automagy = mkMod {
-      name = "automagy-0.28.2";
-      src = fetchurl {
-        url = http://minecraft.curseforge.com/projects/automagy/files/2285272/download;
-        md5 = "0d1b46683a9c69a59368406b7db4671f";
-      };
-    };
-
-    DragonAPI = mkMod {
-      name = "DragonAPI-11b";
-      src = fetchurl {
-        url = http://minecraft.curseforge.com/projects/dragonapi/files/2284316/download;
-        md5 = "ea92328be71f2ba685e33cdcc468cf57";
-      };
-    };
-
-    RotaryCraft = mkMod {
-      name = "RotaryCraft-11b";
-      src = fetchurl {
-        url = http://minecraft.curseforge.com/projects/rotarycraft/files/2284297/download;
-        md5 = "39305dd786c456db7dcd9fe326d41bea";
-      };
-    };
-  };
-
-  bevos = mkBasePack {
-    src = fetchzip {
-      url = https://madoka.brage.info/baughn/Bevos.zip;
-      sha256 = "1d2n1zyx17ggdf84rsay9yjqc3kd51d2gqmiri6y5g15i9jrm3jf";
-      stripRoot = false;
-    };
-
-    # This lets you set options for mods in the base back.
-    # Same way as for mods added above.
-    modConfig = {
-      AOBD = {
-        # Probably don't want to, though.
-        # required = false;
-        # side = "CLIENT";
-      };
-    };
-  };
-
-  ## Nothing below here is particularly relevant ##
+  #####################################################    
+  ## Nothing below here is particularly relevant     ##
+  ##                                                 ##
+  ## Stop reading.                                   ##
+  ##                                                 ##
+  ## I mean it. You don't want to read what's below. ##
+  ##                                                 ##
+  #####################################################
+  ## On your head be it.                             ##
+  #####################################################
 
   # A quick hack to get MCUpdater running on NixOS.
   mcupdater = with xlibs; mkDerivation {
-    name = "mcupdater";
+    name = "mcupdater-3";
 
     src = fetchurl {
       url = https://madoka.brage.info/MCU-Bootstrap.jar;
@@ -121,13 +248,13 @@ rec {
     phases = "installPhase";
 
     installPhase = ''
-      mkdir -p $out/bin
-      cp $src $out/mcupdater.jar
+      mkdir -p $out/bin $out/share/mcupdater/
+      cp $src $out/share/mcupdater/mcupdater.jar
       cat > $out/bin/mcupdater << EOF
         #!${stdenv.shell}
         # wrapper for mcupdater/minecraft
-        export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${libX11}/lib/:${libXext}/lib/:${libXcursor}/lib/:${libXrandr}/lib/:${libXxf86vm}/lib/:${mesa}/lib/:${openal}/lib/
-        java -jar $out/mcupdater.jar
+        export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${libX11}/lib/:${libXext}/lib/:${libXcursor}/lib/:${libXrandr}/lib/:${libXxf86vm}/lib/:${mesa}/lib/:${openal}/lib/:${pulseaudioLight}/lib
+        java -jar $out/share/mcupdater/mcupdater.jar
       EOF
       chmod +x $out/bin/mcupdater
     '';
@@ -141,7 +268,7 @@ rec {
       forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
       mods = lib.mapAttrs (name: mod: let details = import mod; in {
         modId = name;
-        url = packUrlBase + builtins.baseNameOf mod.outPath;
+        url = packUrlBase + "mods/" + builtins.baseNameOf mod.outPath;
         modpath = "mods/" + details.modpath;
         side = mod.side;
         required = mod.required;
@@ -173,14 +300,14 @@ rec {
     };
 
     builder = mkBuilder ''
-      mkdir -p $out/mods/configs
+      mkdir -p $out/{mods,configs}
       xsltproc ${stylesheet} $params > $out/ServerPack.xml
 
       for mod in $modList; do
         ln -s $mod/mods/*.jar $out/mods/$(basename $mod)
       done
 
-      ln -s $configs/*.zip $out/mods/configs/
+      ln -s $configs/*.zip $out/configs/
     '';
   });
 

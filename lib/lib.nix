@@ -2,7 +2,10 @@ with import <nixpkgs> {};
 with stdenv;
 
 rec {
-  mkBuilder = code: builtins.toFile "builder.sh" ("source $stdenv/setup\n" + code);
+  mkBuilder = code: writeTextFile {
+    name = "builder.sh";
+    text = "source $stdenv/setup\n" + code;
+  };
 
   mkServer = cfg: mkDerivation {
     name = cfg.name;
@@ -111,13 +114,13 @@ rec {
   mkBasePack = cfg: rec {
 
     getDir = dir: mkDerivation {
-      name = dir;
+      name = builtins.replaceStrings ["/"] ["_"] dir;
       src = cfg.src;
       inherit dir;
 
       builder = mkBuilder ''
-        mkdir $out
-        ln -s $src/$dir $out
+        mkdir -p $out/$(dirname $dir)
+        ln -s $src/$dir $out/$(dirname $dir)
       '';
     };
 
@@ -132,8 +135,8 @@ rec {
 
         sub p {
           my $base = shift;
-          $base =~ s/ /_/g;
           my $version = shift;
+          $base =~ s/ /_/g;
           $version =~ s/[\[\]()]/_/g;
           $version =~ s/^[-_]//;
           print "  $base = {\n";
@@ -153,9 +156,10 @@ rec {
           p($1, $+{version}) if /(.*BiblioCraft)\[v(?<version>[^\]]+)\]\[MC(?<mcversion>[^\]]+)\].jar/;
           p("ProjectRed" . $2, $1) if /ProjectRed-([0-9].*)-(.*).jar/;
           p($1, $2) if /(Steves.*?)([0-9A-Z][0-9\.].*).jar/;
+          p($1, $2) if /^(Carpenters.Blocks).v([0-9.]+).-.MC.*.jar/;
           # This one works on the 98% of mods remaining.
           p($1, $2) if /(.*?)[-_ ]((mc|MC|rv|r|v|\[)?[0-9].*).jar/;
-          print "ERROR: Couldn't parse " . $_;
+          print "ERROR: Couldn't parse " . $_ . "\n";
         }
         print "}\n";
       '';
@@ -177,4 +181,36 @@ rec {
       modpath = builtins.baseNameOf mod.path;
     });
   };
+
+
+  ## Fetching mods from Curse.
+  
+  fetchCurse = {
+      name,
+      version ? "unknown",
+      # This is bloody useless. This whole thing could use a rewrite. It'll do for now.
+      target ? name + "-1.7.10-" + version + ".jar",
+      side ? "BOTH",
+      required ? true
+  }: let
+    curse = "http://minecraft.curseforge.com";
+    fullName = builtins.replaceStrings ["-" "(" ")"] ["" "_" "_"] name + "-" + version;
+    filesUrl = curse + "/projects/" + name + "/files?filter-game-version=2020709689%3A4449";
+    download = import (mkDerivation rec {
+      name = "drv-" + fullName;
+
+      buildInputs = [ xidel ];
+
+      inherit curse filesUrl target;
+      builder = ./fetchCurse.sh;
+    });
+    in mkMod {
+      name = name + "-" + version;
+      src = fetchurl {
+        url = download.url;
+        md5 = download.md5;
+      };
+      inherit side required;
+    };
+
 }
