@@ -1,18 +1,15 @@
 #!/usr/bin/env bash
 
-set -eux
+set -eu
 cd $(dirname $0)
 
-# Create a cache dir to keep the mods live, so they don't get GC'd.
-# I don't trust CurseForge.
-[ -d mod_cache ] || mkdir mod_cache
-(cd mod_cache; nix-build .. -A mods -o mod --show-trace)
+[ -d mutable ] || echo 'No server exists! Use update-and-start.sh instead.' && exit 1
 
 # Start the server.
-[ -d mutable ] || mkdir mutable
 cd mutable
 
-nix-build .. -A server -o server --show-trace
-nix-build .. -A ServerPack -o pack --show-trace
-
-exec server/start.sh
+while true; do
+    server/start.sh
+    echo 'Waiting 10 seconds before restarting'
+    sleep 10
+done
