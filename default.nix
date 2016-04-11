@@ -29,9 +29,8 @@ rec {
     # This lets you set options for mods in the base back.
     # Same way as for mods added to it, below.
     modConfig = {
-      AOBD = {
-        # Probably don't want to do anything with this one, though.
-        # required = false;
+      fastcraft = {
+        required = false;
         # side = "CLIENT";
       };
     };
