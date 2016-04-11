@@ -28,6 +28,9 @@
               <xsl:attribute name='name'>
                 <xsl:value-of select="@name" />
               </xsl:attribute>
+              <xsl:attribute name='side'>
+                <xsl:value-of select="attrs/attr[@name='side']/string/@value" />
+              </xsl:attribute>
               <URL><xsl:value-of select="attrs/attr[@name='url']/string/@value" /></URL>
               <Required><xsl:value-of select="attrs/attr[@name='required']/bool/@value" /></Required>
               <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
