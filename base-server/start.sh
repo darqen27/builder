@@ -17,13 +17,16 @@ fixperms() {
 # into the pack definition in default.nix.
 for f in $BASE/*; do
     b=$(basename $f)
-    if [[ $b != "config" ]]; then
-        [[ -e $b ]] && fixperms $b && rm -rf $b
-        cp -aL $f .
-    else
+    if [[ $b = "config" ]]; then
         # Except for the config dir, just because a lot of mods cache things there.
         # For some reason. Isn't this what the world dir is for, guys?
         rsync -a server/config .
+    elif [[ $b = "start.sh" ]]; then
+        # Don't copy this script.
+        true
+    else
+        [[ -e $b ]] && fixperms $b && rm -rf $b
+        cp -aL $f .
     fi
     fixperms $b
 done
