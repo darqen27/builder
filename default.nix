@@ -31,7 +31,7 @@ rec {
     modConfig = {
       fastcraft = {
         required = false;
-        # side = "CLIENT";
+        side = "CLIENT";
       };
     };
   };
