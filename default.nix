@@ -19,10 +19,8 @@ rec {
 
   bevos = mkBasePack {
     src = fetchzip {
-      # url = https://madoka.brage.info/baughn/BevosK.zip;
-      # sha256 = "0m9mlqhshzxj26a2gjrh6ag9387ff3qz3v7r52gknxrn4qgyiz42";
-      url = https://madoka.brage.info/baughn/BevosM.zip;
-      sha256 = "0qw9h4iai51ky7jd7kn6ijwvrcnm1xj8yrhzxs7qyi3c2infqd8x";
+      url = https://madoka.brage.info/baughn/BevosN.zip;
+      sha256 = "05g931wyql033lxkwqkcxvr6w998jwj59v93009fslh1jandp3k7";
       stripRoot = false;
     };
 

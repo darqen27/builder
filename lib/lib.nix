@@ -152,6 +152,7 @@ rec {
           $_ =~ s/\s+$//;
           # Per-mod hacks go on top.
           # Don't think too hard about it.
+          p("ASP GS Patcher", "unknown") if /^ASP +GS Patcher.jar$/;
           p($1, $+{version} . "-" . $+{type}) if /(.*BiblioWoods)\[(?<type>[^\]]+)\]\[v(?<version>[^\]]+)\].jar/;
           p($1, $+{version}) if /(.*BiblioCraft)\[v(?<version>[^\]]+)\]\[MC(?<mcversion>[^\]]+)\].jar/;
           p("ProjectRed" . $2, $1) if /ProjectRed-([0-9].*)-(.*).jar/;
