@@ -36,8 +36,6 @@ rec {
     };
   };
 
-  # TODO: Don't forget the BoP biome mismatch.
-
   # This is where we add mods that weren't part of Bevos.
   mods = bevos.mods // {
     # TODO: The below has a hell of a lot of not-using-the-version-option.
@@ -217,6 +215,8 @@ rec {
     # TODO: Write something that understands what it's doing.
     configPatches = [
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+      # So many client configs.
+      ''find . | grep -i client | xargs rm''
       # I hope no-one was using this. Reconsider if Bevos updates their own version.
       # Why did we need 2.5.0 again? ...I assume there was a good reason.
       ''rm growthcraft/cellar/*.json''
