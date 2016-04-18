@@ -193,7 +193,7 @@ rec {
     };
     ForgeEssentialsClient = fetchCurse {
       name = "forge-essentials-client";
-      target = " forgeessentials-1.7.10-1.4.4.1146-client";
+      target = "forgeessentials-1.7.10-1.4.4.1146-client";
       side = "CLIENT";
       required = false;
     };
