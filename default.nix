@@ -186,17 +186,17 @@ rec {
     };
     
     #ForgeEssentials
-+    ForgeEssentials = fetchCurse {
-+      name = "forge-essentials-74735";
-+      target = "forgeessentials-1.7.10-1.4.4.1146-server.jar";
-+      side = "SERVER";
-+    };
-+    ForgeEssentialsClient = fetchCurse {
-+      name = "forge-essentials-client";
-+      target = " forgeessentials-1.7.10-1.4.4.1146-client.jar";
-+      side = "CLIENT";
-+      required = false;
-+    };
+    ForgeEssentials = fetchCurse {
+      name = "forge-essentials-74735";
+      target = "forgeessentials-1.7.10-1.4.4.1146";
+      side = "SERVER";
+    };
+    ForgeEssentialsClient = fetchCurse {
+      name = "forge-essentials-client";
+      target = " forgeessentials-1.7.10-1.4.4.1146-client";
+      side = "CLIENT";
+      required = false;
+    };
   };
 
   server = mkServer {
