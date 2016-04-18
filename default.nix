@@ -43,10 +43,18 @@ rec {
     # These mod(s) override mods that exist in Bevo's pack, so the attribute name
     # actually matters. For everything else, it pretty much doesn't.
 
-    # Okay, so it's just growthcraft.
+    # Okay, so it's just growthcraft and Steve's Carts.
     growthcraft = fetchCurse {
       name = "growthcraft-community-edition";
       target = "Growthcraft 2.5.0 Complete";
+    };
+    StevesCarts = mkMod {
+      name = "StevesCarts-da3d_2016.04.18";
+    
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/StevesCarts-2.0.0.b16-1.7.10.jar;
+        sha256 = "1jwpg369hqypv1kln92ay0y4zzgahygji5vsdhc95p3mzzyijj21";
+      };
     };
 
     # Server-side mods:
