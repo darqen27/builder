@@ -199,6 +199,24 @@ rec {
     };
   };
 
+  resourcepack = mkDerivation {
+    name = "resourcepack-1";
+
+    dontbuild = true;
+    buildInputs = [ unzip ];
+
+    installPhase = ''
+      mkdir $out
+      cd $out
+      unzip $src
+    '';
+
+    src = fetchurl {
+      url = https://madoka.brage.info/baughn/ResourcePack.zip;
+      sha256 = "061y2n9zx3h7n3275k2ald6kls10ckvp5j82c4fpxw096bviqy0j";
+    };
+  };
+
   server = mkServer {
     name = serverName;
 
@@ -216,6 +234,7 @@ rec {
       (bevos.getDir "scripts")
       (bevos.getDir "libraries")
       (bevos.getDir "mods/resources")
+      resourcepack
       # This is, of course, inside the git repository. Being last, any files you
       # put here override files in Bevos' zips.
       ./base
