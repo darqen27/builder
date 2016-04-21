@@ -69,6 +69,28 @@ rec {
       side = "CLIENT";
     };
 
+    DynamicSurroundings = fetchCurse {
+      name = "238891-dynamic-surroundings";
+      target = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
+      side = "CLIENT";
+      required = false;
+    };
+
+    StellarSky = fetchCurse {
+      name = "stellar-sky";
+      target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
+      side = "CLIENT";
+      required = false;
+      # TODO: Make this depend on sciapi, make both optional.
+      # Implement dependencies.
+    };
+
+    sciapi = fetchCurse {
+      name = "sciapi";
+      target = "SciAPI v1.1.0.0[1.7.10]";
+      side = "CLIENT";
+    };
+
     # Both-sided:
     ImmibisCore = mkMod {
       name = "ImmibisCore-59.1.4";
