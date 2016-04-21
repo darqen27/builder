@@ -13,9 +13,9 @@ source files.sh
 echo Target: "$target"
 lim=${#names[@]}
 for i in $(seq 0 $(($lim - 1))); do
-    name=${names[$i]}
-    link=${links[$i]}
-    if [[ $name = $target ]]; then
+    name="${names[$i]}"
+    link="${links[$i]}"
+    if [[ "$name" = "$target" ]]; then
         break
     fi
     link=
@@ -25,7 +25,7 @@ if [[ -z $link ]]; then
     echo "Target not found!"
     echo Alternatives:
     for i in $(seq 0 $(($lim - 1))); do
-        echo ${names[$i]}
+        echo "${names[$i]}"
     done
     exit 1
 fi
