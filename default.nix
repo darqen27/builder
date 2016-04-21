@@ -221,8 +221,9 @@ rec {
     };
   };
 
+  # TODO: Gah!
   resourcepack = mkDerivation {
-    name = "resourcepack-1";
+    name = "resourcepack-2";
 
     dontbuild = true;
     buildInputs = [ unzip ];
@@ -235,7 +236,7 @@ rec {
 
     src = fetchurl {
       url = https://madoka.brage.info/baughn/ResourcePack.zip;
-      sha256 = "061y2n9zx3h7n3275k2ald6kls10ckvp5j82c4fpxw096bviqy0j";
+      sha256 = "cb4b0ac27d0f26f8fca1ea3f82d04a6ffe5e06ab57ee10d72ca8fa57e4463424";
     };
   };
 
