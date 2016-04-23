@@ -107,6 +107,15 @@ rec {
     #   target = "MobiusCore-1.2.5_1.7.10.jar";
     #   required = false;
     # };
+
+    TickProfiler = mkMod {
+      name = "TickProfiler-1.7.20-jenkins-29";
+      src = fetchurl {
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.29.jar;
+        sha256 = "10k8h6aybaswvqbxpqn3rrka929dacfra2n9g7l6knzym8k3ghp3";
+      };
+      side = "SERVER";
+    };
     
     ImmibisCore = mkMod {
       name = "ImmibisCore-59.1.4";
