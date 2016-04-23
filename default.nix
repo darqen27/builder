@@ -92,6 +92,22 @@ rec {
     };
 
     # Both-sided:
+
+    # Opis appears to be incompatible with ForgeEssentials.
+    
+    # Opis = fetchCurse {
+    #   name = "opis";
+    #   target = "Opis-1.2.5_1.7.10.jar";
+    #   required = false;
+    # };
+
+    # # TODO: Opis depends on this.
+    # MobiusCore = fetchCurse {
+    #   name = "mobiuscore";
+    #   target = "MobiusCore-1.2.5_1.7.10.jar";
+    #   required = false;
+    # };
+    
     ImmibisCore = mkMod {
       name = "ImmibisCore-59.1.4";
       src = fetchurl {
