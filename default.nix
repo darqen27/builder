@@ -43,10 +43,15 @@ rec {
     # These mod(s) override mods that exist in Bevo's pack, so the attribute name
     # actually matters. For everything else, it pretty much doesn't.
 
-    # Okay, so it's just growthcraft.
     growthcraft = fetchCurse {
       name = "growthcraft-community-edition";
       target = "Growthcraft 2.5.0 Complete";
+    };
+
+    # Awaiting Bevos update for PL. Meanwhile:
+    Practical-Logistics = fetchCurse {
+      name = "240562-practical-logistics";
+      target = "Practical-Logistics-0.2.1";
     };
 
     # Server-side mods:
