@@ -147,10 +147,10 @@ rec {
     };
     
     PrometheusIntegration = mkMod {
-      name = "PrometheusIntegration-1.0.1";
+      name = "PrometheusIntegration-1.1.0";
       src = fetchurl {
-        url = https://madoka.brage.info/baughn/prometheus-integration-1.0.1.jar;
-        sha256 = "afb91f49cb033a8d734ee4711caf872c31d7f7edb537e3303679bbdb92364f52";
+        url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
+        sha256 = "0ebb3a888c79c25555911f3ee6f21f9242f20af219ae3293a9343d853a0191dd";
       };
     };
 
