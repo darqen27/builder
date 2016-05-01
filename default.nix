@@ -19,8 +19,8 @@ rec {
 
   bevos = mkBasePack {
     src = fetchzip {
-      url = https://madoka.brage.info/baughn/BevosN.zip;
-      sha256 = "05g931wyql033lxkwqkcxvr6w998jwj59v93009fslh1jandp3k7";
+      url = https://madoka.brage.info/baughn/BevosP.zip;
+      sha256 = "02rcc3zmkdb4kylld05q0nv42a6mzf9hqbaa3xi41dshff49w32h";
       stripRoot = false;
     };
 
@@ -43,16 +43,7 @@ rec {
     # These mod(s) override mods that exist in Bevo's pack, so the attribute name
     # actually matters. For everything else, it pretty much doesn't.
 
-    growthcraft = fetchCurse {
-      name = "growthcraft-community-edition";
-      target = "Growthcraft 2.5.0 Complete";
-    };
-
-    # Awaiting Bevos update for PL. Meanwhile:
-    Practical-Logistics = fetchCurse {
-      name = "240562-practical-logistics";
-      target = "Practical-Logistics-0.2.1";
-    };
+    # None at the moment.
 
     # Server-side mods:
     dynmap = fetchCurse {
@@ -300,9 +291,6 @@ rec {
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
       # So many client configs.
       ''find . | grep -i client | xargs rm''
-      # I hope no-one was using this. Reconsider if Bevos updates their own version.
-      # Why did we need 2.5.0 again? ...I assume there was a good reason.
-      ''rm growthcraft/cellar/*.json''
     ];
   };
 
