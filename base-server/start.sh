@@ -31,11 +31,14 @@ for f in $BASE/*; do
     fixperms $b
 done
 
-exec java -d64 -server -Xmn512m -Xms1g -Xmx10g \
+rm -f gc.log
+
+exec java -d64 -server -mx10G \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
   -XX:+UseG1GC \
-  -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=150 -XX:SurvivorRatio=8 \
-  -XX:TargetSurvivorRatio=85 -XX:+UseAdaptiveGCBoundary \
+  -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=500 \
+  -XX:+UseAdaptiveGCBoundary \
   -XX:+StartAttachListener \
+  -XX:+PrintGC -XX:+PrintGCTimeStamps -Xloggc:gc.log \
   -jar $JAR nogui
