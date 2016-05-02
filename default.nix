@@ -141,7 +141,7 @@ rec {
       name = "PrometheusIntegration-1.1.0";
       src = fetchurl {
         url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
-        sha256 = "0ebb3a888c79c25555911f3ee6f21f9242f20af219ae3293a9343d853a0191dd";
+        sha256 = "0656c784a212ba9e6a02526d6983ff52c97c2400db1669785f515045151710b0";
       };
     };
 
