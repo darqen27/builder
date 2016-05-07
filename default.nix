@@ -240,6 +240,33 @@ rec {
       side = "CLIENT";
       required = false;
     };
+
+    # Adds extra paintings!
+    BiblioCraft = mkMod {
+      name = bevos.mods.BiblioCraft.name;
+
+      src = mkDerivation {
+        name = "BiblioCraft-tampered";
+
+        src = bevos.mods.BiblioCraft;
+        extraPaintings = ./extraPaintings;
+
+        buildInputs = [ zip imagemagick ];
+
+        builder = mkBuilder ''
+          mkdir -p assets/bibliocraft/textures/custompaintings
+          pushd assets/bibliocraft/textures/custompaintings
+          for i in $(find $extraPaintings -type f); do
+            convert $i $(basename $i .jpg).png
+          done
+          popd
+          cp $(find $src -name \*.jar) tmp.zip
+          chmod u+w tmp.zip
+          zip -r tmp.zip assets
+          mv tmp.zip $out
+        '';
+      };
+    };
   };
 
   # TODO: Gah!
