@@ -254,13 +254,14 @@ rec {
         buildInputs = [ zip imagemagick ];
 
         builder = mkBuilder ''
+          cp $(find $src -name \*.jar) tmp.zip &
           mkdir -p assets/bibliocraft/textures/custompaintings
           pushd assets/bibliocraft/textures/custompaintings
           for i in $(find $extraPaintings -type f); do
-            convert $i $(echo $(basename $i) | sed 's/\..*//').png
+            convert $i $(echo $(basename $i) | sed 's/\..*//').png &
           done
+          wait
           popd
-          cp $(find $src -name \*.jar) tmp.zip
           chmod u+w tmp.zip
           zip -r tmp.zip assets
           mv tmp.zip $out
