@@ -257,7 +257,7 @@ rec {
           mkdir -p assets/bibliocraft/textures/custompaintings
           pushd assets/bibliocraft/textures/custompaintings
           for i in $(find $extraPaintings -type f); do
-            convert $i $(basename $i .jpg).png
+            convert $i $(echo $(basename $i) | sed 's/\..*//').png
           done
           popd
           cp $(find $src -name \*.jar) tmp.zip
