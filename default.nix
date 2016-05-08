@@ -258,7 +258,7 @@ rec {
           mkdir -p assets/bibliocraft/textures/custompaintings
           pushd assets/bibliocraft/textures/custompaintings
           for i in $(find $extraPaintings -type f); do
-            convert $i $(echo $(basename $i) | sed 's/\..*//').png &
+            convert $i -resize '512x512>' $(echo $(basename $i) | sed 's/\..*//').png &
           done
           wait
           popd
