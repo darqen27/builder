@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jdk rsync --pure
+#!nix-shell -i bash -p jdk rsync screen --pure
 
 set -eux
 
@@ -32,6 +32,27 @@ for f in $BASE/*; do
 done
 
 rm -f gc.log
+
+(
+  # TODO: Factor in scripts.sh
+  say() {
+    screen -S e12 -p 0 -X stuff  "$@"`echo -ne '\015'`
+  }
+  set +e
+
+  sleep 300
+  while true; do
+    sleep 60
+    say 'save-on'
+    say 'save-all'
+    sleep 5
+    say 'save-off'
+    sleep 1200
+  done
+) &
+spid=$!
+trap "kill $spid" EXIT
+
 
 exec java -d64 -server -mx10G \
   -Djava.net.preferIPv4Stack=true \
