@@ -53,8 +53,7 @@ rm -f gc.log
 spid=$!
 trap "kill $spid" EXIT
 
-
-exec java -d64 -server -mx10G \
+java -d64 -server -mx10G \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
   -XX:+UseG1GC \
