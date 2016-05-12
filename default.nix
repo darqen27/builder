@@ -221,11 +221,11 @@ rec {
     # Reika's mods below. Beware.
     DragonAPI = fetchCurse {
       name = "dragonapi";
-      target = "DragonAPI 1.7.10 V12e.jar";
+      target = "DragonAPI 1.7.10 V13b.jar";
     };
     RotaryCraft = fetchCurse {
       name = "rotarycraft";
-      target = "RotaryCraft 1.7.10 V12e.jar";
+      target = "RotaryCraft 1.7.10 V13a.jar";
     };
     
     #ForgeEssentials
