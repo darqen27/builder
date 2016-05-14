@@ -116,7 +116,7 @@ rec {
     ImmibisCore = mkMod {
       name = "ImmibisCore-59.1.4";
       src = fetchurl {
-        url = http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar;
+        url = https://madoka.brage.info/baughn/ImmibisCore-59.1.4.jar;
         md5 = "14dbc89ce3d361541234ac183270b5a1";
       };
     };
@@ -124,7 +124,7 @@ rec {
     DimensionalAnchors = mkMod {
       name = "DimensionalAnchors-59.0.3";
       src = fetchurl {
-        url = http://immibis.com/mcmoddl/files/dimensional-anchor-59.0.3.jar;
+        url = https://madoka.brage.info/baughn/DimensionalAnchors-59.0.3.jar;
         md5 = "65669c1fab43ae1d3ef41a659fdd530c";
       };
     };
