@@ -317,6 +317,10 @@ rec {
     # TODO: Write something that understands what it's doing.
     configPatches = [
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+
+      #disable extremely annoying tree planting
+      ''sed -i scottstweaks.cfg -e s/B:doPlantGrowable=true/B:doPlantGrowable=false/''
+
       # So many client configs.
       ''find . | grep -i client | xargs rm''
     ];
