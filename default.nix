@@ -341,7 +341,7 @@ rec {
 
   # A quick hack to get MCUpdater running on NixOS.
   mcupdater = with xlibs; mkDerivation {
-    name = "mcupdater-3";
+    name = "mcupdater-4";
 
     src = fetchurl {
       url = https://madoka.brage.info/MCU-Bootstrap.jar;
@@ -350,13 +350,19 @@ rec {
 
     phases = "installPhase";
 
+    libraries = stdenv.lib.makeLibraryPath [
+      stdenv.cc.cc libX11 libXext libXcursor libXrandr libXxf86vm mesa openal
+    ];
+
+    buildDepends = [ makeWrapper ];
+
     installPhase = ''
       mkdir -p $out/bin $out/share/mcupdater/
       cp $src $out/share/mcupdater/mcupdater.jar
       cat > $out/bin/mcupdater << EOF
         #!${stdenv.shell}
         # wrapper for mcupdater/minecraft
-        export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${libX11}/lib/:${libXext}/lib/:${libXcursor}/lib/:${libXrandr}/lib/:${libXxf86vm}/lib/:${mesa}/lib/:${openal}/lib/:${pulseaudioLight}/lib
+        export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:$libraries
         java -jar $out/share/mcupdater/mcupdater.jar
       EOF
       chmod +x $out/bin/mcupdater
