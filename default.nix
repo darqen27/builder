@@ -46,9 +46,12 @@ rec {
     # None at the moment.
 
     # Server-side mods:
-    dynmap = fetchCurse {
+    dynmap = mkMod {
       name = "dynmapforge";
-      target = "Dynmap v2.2 for MC 1.7.10 (Forge 10.13.2)";
+      src = fetchurl {
+        url = https://bloxgaming.com/bloxgate/Dynmap-2.2-forge-1.7.10.jar;
+        sha256 = "d6391dc83af1cd2ec51ffceb4e6bb58bf1419a96336ca92360acfd90a91ce9b9";
+      };
       side = "SERVER";
     };
 
