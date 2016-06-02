@@ -47,7 +47,7 @@ rm -f gc.log
     say 'save-all'
     sleep 5
     say 'save-off'
-    sleep 1200
+    sleep 1800
   done
 ) &
 spid=$!
