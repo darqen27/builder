@@ -223,19 +223,13 @@ rec {
     };
 
     # Reika's mods below. Beware.
-    DragonAPI = mkMod {
+    DragonAPI = fetchCurse {
       name = "dragonapi";
-      src = fetchurl {
-        url = https://madoka.brage.info/baughn/dragonapi.jar;
-        sha256 = "1qw2p7smk9kad74cy7pkj9fzmfmhwiz9abdc8p10hrry3jsp2qsb";
-      };
+      target = "DragonAPI 1.7.10 V14b.jar";
     };
-    RotaryCraft = mkMod {
+    RotaryCraft = fetchCurse {
       name = "rotarycraft";
-      src = fetchurl {
-        url = https://madoka.brage.info/baughn/rotarycraft.jar;
-        sha256 = "1szzfl90lp5sfnjiq4p5cck6wc995abr3gcjwpaa539k6rxcwmbz";
-      };
+      target = "RotaryCraft 1.7.10 V14b.jar";
     };
     
     #ForgeEssentials
@@ -327,6 +321,12 @@ rec {
     # TODO: Write something that understands what it's doing.
     configPatches = [
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+
+      # AOBD / RotC integration is frequently buggy, and nearly pointless anyway.
+      ''sed -i aobd.cfg -e s/B:RotaryCraft=true/B:RotaryCraft=false/''
+
+      # Start AE off with a more useful default, if we're overwriting the config every time anyway.
+      ''sed -i AppliedEnergistics2/AppliedEnergistics2.cfg -e "s/S:SEARCH_MODE=.*/S:SEARCH_MODE=NEI_AUTOSEARCH/"''
 
       #disable extremely annoying tree planting
       ''sed -i scottstweaks.cfg -e s/B:doPlantGrowable=true/B:doPlantGrowable=false/''
