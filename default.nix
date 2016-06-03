@@ -223,13 +223,19 @@ rec {
     };
 
     # Reika's mods below. Beware.
-    DragonAPI = fetchCurse {
+    DragonAPI = mkMod {
       name = "dragonapi";
-      target = "DragonAPI 1.7.10 V13b.jar";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/dragonapi.jar;
+        sha256 = "1qw2p7smk9kad74cy7pkj9fzmfmhwiz9abdc8p10hrry3jsp2qsb";
+      };
     };
-    RotaryCraft = fetchCurse {
+    RotaryCraft = mkMod {
       name = "rotarycraft";
-      target = "RotaryCraft 1.7.10 V13a.jar";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/rotarycraft.jar;
+        sha256 = "1szzfl90lp5sfnjiq4p5cck6wc995abr3gcjwpaa539k6rxcwmbz";
+      };
     };
     
     #ForgeEssentials
