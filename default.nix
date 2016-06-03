@@ -46,9 +46,12 @@ rec {
     # None at the moment.
 
     # Server-side mods:
-    dynmap = fetchCurse {
+    dynmap = mkMod {
       name = "dynmapforge";
-      target = "Dynmap v2.2 for MC 1.7.10 (Forge 10.13.2)";
+      src = fetchurl {
+        url = https://bloxgaming.com/bloxgate/Dynmap-2.2-forge-1.7.10.jar;
+        sha256 = "d6391dc83af1cd2ec51ffceb4e6bb58bf1419a96336ca92360acfd90a91ce9b9";
+      };
       side = "SERVER";
     };
 
@@ -220,13 +223,19 @@ rec {
     };
 
     # Reika's mods below. Beware.
-    DragonAPI = fetchCurse {
+    DragonAPI = mkMod {
       name = "dragonapi";
-      target = "DragonAPI 1.7.10 V13b.jar";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/dragonapi.jar;
+        sha256 = "1qw2p7smk9kad74cy7pkj9fzmfmhwiz9abdc8p10hrry3jsp2qsb";
+      };
     };
-    RotaryCraft = fetchCurse {
+    RotaryCraft = mkMod {
       name = "rotarycraft";
-      target = "RotaryCraft 1.7.10 V13a.jar";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/rotarycraft.jar;
+        sha256 = "1szzfl90lp5sfnjiq4p5cck6wc995abr3gcjwpaa539k6rxcwmbz";
+      };
     };
     
     #ForgeEssentials
