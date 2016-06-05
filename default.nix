@@ -363,6 +363,8 @@ rec {
       stdenv.cc.cc libX11 libXext libXcursor libXrandr libXxf86vm mesa openal libpulseaudio
     ];
 
+    openalLib = stdenv.lib.makeLibraryPath [ openal ];
+
     buildDepends = [ makeWrapper ];
 
     installPhase = ''
@@ -372,6 +374,7 @@ rec {
         #!${stdenv.shell}
         # wrapper for mcupdater/minecraft
         export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:$libraries
+        export LD_PRELOAD=$openalLib/libopenal.so
         source ${jdk}/nix-support/setup-hook
         ${jdk}/bin/java -jar $out/share/mcupdater/mcupdater.jar
       EOF
