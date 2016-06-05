@@ -19,8 +19,8 @@ rec {
 
   bevos = mkBasePack {
     src = fetchzip {
-      url = https://madoka.brage.info/baughn/BevosP.zip;
-      sha256 = "02rcc3zmkdb4kylld05q0nv42a6mzf9hqbaa3xi41dshff49w32h";
+      url = https://madoka.brage.info/baughn/BevosT.zip;
+      sha256 = "09q0vv8qnm3hspz5bks80jf3n5cmn94b2y9bv8svffxisf0l6k0y";
       stripRoot = false;
     };
 
@@ -133,11 +133,11 @@ rec {
     };
 
     ElectricalAge = mkMod rec {
-      ver = "51.12";
+      ver = "51.13";
       name = "ElectricalAge-${ver}";
       src = fetchurl {
         url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
-        sha256 = "63eaa4cd8797c5ed31c2cf33e94af792dd38fa8dcbff22c990e2f8f77e9e403e";
+        sha256 = "b1cab423c480b7c40e741bdc33f5f26473a00fdc41042f001cd10ec8f42e31b5";
       };
     };
     
@@ -333,6 +333,9 @@ rec {
 
       # So many client configs.
       ''find . | grep -i client | xargs rm''
+
+      # Patch an entity ID conflict. It didn't happen before. ...I don't know.
+      ''sed -i "MatterOverdrive/Matter Overdrive.cfg" -e "s/I:entity.failed_pig.id=38/I:entity.failed_pig.id=138/"''
     ];
   };
 
