@@ -157,6 +157,7 @@ rec {
         url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
         sha256 = "43b9e40cdd3bee422ed7017a37c713f6e2ac1b9c309e981ffa4be326a0a02212";
       };
+      side = "SERVER";
     };
 
     Agricraft = fetchCurse {
