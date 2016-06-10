@@ -200,7 +200,7 @@ rec {
     download = import (mkDerivation rec {
       name = "drv-" + fullName;
 
-      buildInputs = [ xidel ];
+      buildInputs = [ curl xidel ];
 
       inherit curse filesUrl target;
       builder = ./fetchCurse.sh;

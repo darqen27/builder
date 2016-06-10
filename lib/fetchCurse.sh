@@ -1,12 +1,13 @@
 source $stdenv/setup
 
-XIDEL="xidel --output-format=bash --user-agent=MCPackBuilder"
+CURL="curl -LA MCPackBuilder"
+XIDEL="xidel --output-format=bash"
 
 # First, find the correct download for the requested version.
-$XIDEL "$filesUrl" \
-       -e 'links:=//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href' \
-       -e 'names:=//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()' \
-       > files.sh
+$CURL "$filesUrl" | $XIDEL - \
+        -e 'links:=//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href' \
+        -e 'names:=//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()' \
+        > files.sh
 
 source files.sh
 
@@ -33,10 +34,10 @@ fi
 echo 'Found requested mod:' $name at $link
 
 # Now create the derivation spec.
-$XIDEL "$curse""$link" \
-       -e 'md5:=//span[@class="md5"]/text()' \
-       -e 'url:=//a[@class="button fa-icon-download"]/@href' \
-       > file.sh
+$CURL "$curse""$link" | $XIDEL - \
+      -e 'md5:=//span[@class="md5"]/text()' \
+      -e 'url:=//a[@class="button fa-icon-download"]/@href' \
+      > file.sh
 
 source file.sh
 
