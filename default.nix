@@ -155,7 +155,7 @@ rec {
       name = "PrometheusIntegration-1.1.0";
       src = fetchurl {
         url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
-        sha256 = "82c3a4dc8ed6c0769e55ea008db1cd46ecde35c498df552aff44b93c1191da3b";
+        sha256 = "04i2l2h2dqsbz8gri7ihkhdsrqpn2g3kfyh1swp45vivvl6f9fa3";
       };
       side = "SERVER";
     };
@@ -236,11 +236,11 @@ rec {
     # Reika's mods below. Beware.
     DragonAPI = fetchCurse {
       name = "dragonapi";
-      target = "DragonAPI 1.7.10 V14c.jar";
+      target = "DragonAPI 1.7.10 V14d.jar";
     };
     RotaryCraft = fetchCurse {
       name = "rotarycraft";
-      target = "RotaryCraft 1.7.10 V14c.jar";
+      target = "RotaryCraft 1.7.10 V14d.jar";
     };
     
     #ForgeEssentials
