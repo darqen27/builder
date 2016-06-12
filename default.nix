@@ -362,40 +362,6 @@ rec {
   ## On your head be it.                             ##
   #####################################################
 
-  # A quick hack to get MCUpdater running on NixOS.
-  mcupdater = with xlibs; mkDerivation {
-    name = "mcupdater-5";
-
-    src = fetchurl {
-      url = https://madoka.brage.info/MCU-Bootstrap.jar;
-      sha256 = "1rm287bf4m0lnxc7yk5ahrmbbqnrp3ywq7ig5wm3wc5zpsjpfp0n";
-    };
-
-    phases = "installPhase";
-
-    libraries = stdenv.lib.makeLibraryPath [
-      stdenv.cc.cc libX11 libXext libXcursor libXrandr libXxf86vm mesa openal libpulseaudio
-    ];
-
-    openalLib = stdenv.lib.makeLibraryPath [ openal ];
-
-    buildDepends = [ makeWrapper ];
-
-    installPhase = ''
-      mkdir -p $out/bin $out/share/mcupdater/
-      cp $src $out/share/mcupdater/mcupdater.jar
-      cat > $out/bin/mcupdater << EOF
-        #!${stdenv.shell}
-        # wrapper for mcupdater/minecraft
-        export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:$libraries
-        export LD_PRELOAD=$openalLib/libopenal.so
-        source ${jdk}/nix-support/setup-hook
-        ${jdk}/bin/java -jar $out/share/mcupdater/mcupdater.jar
-      EOF
-      chmod +x $out/bin/mcupdater
-    '';
-  };
-
   # TODO: Move most of this into the lib. Or something.
   ServerPack = let
     baseParams = {
