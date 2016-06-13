@@ -347,6 +347,10 @@ rec {
 
       # Patch an entity ID conflict. It didn't happen before. ...I don't know.
       ''sed -i "MatterOverdrive/Matter Overdrive.cfg" -e "s/I:entity.failed_pig.id=38/I:entity.failed_pig.id=138/"''
+
+     # Why on notch's green overworld would anyone ever want expensive safari nets?    
+     ''sed -i "powercrystals/minefactoryreloaded/common.cfg" -e "s/B:ExpensiveSafariNet=true/B:ExpensiveSafariNet=false/"''
+
     ];
   };
 
