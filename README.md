@@ -1,4 +1,10 @@
 # builder
 Build scripts for the server
 
-Just run start.sh
+Make a server directory, then run update-and-start.sh using its relative path. Example:
+```
+$ mkdir erisia
+$ cd erisia
+$ git clone https://github.com/Erisia/builder.git git
+$ git/update-and-start.sh
+```

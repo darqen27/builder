@@ -136,7 +136,8 @@ rec {
         sub p {
           my $base = shift;
           my $version = shift;
-          $base =~ s/ /_/g;
+          $base =~ s/ /_/g; 
+          $base =~ s/'//g;
           $version =~ s/[\[\]()]/_/g;
           $version =~ s/^[-_]//;
           print "  $base = {\n";
@@ -158,8 +159,14 @@ rec {
           p("ProjectRed" . $2, $1) if /ProjectRed-([0-9].*)-(.*).jar/;
           p($1, $2) if /(Steves.*?)([0-9A-Z][0-9\.].*).jar/;
           p($1, $2) if /^(Carpenters.Blocks).v([0-9.]+).-.MC.*.jar/;
+          p($1, $2) if /^(Carpenter's.Blocks).v([0-9.]+_dev_r[0-9]+).-.MC.*.jar/;
+          p($1, $2) if /^(ComputerCraft)([0-9.]+).jar/;
+          p($1, $2) if /^\[1.7.10\]\[[0-9.]+\+?\](TFC-Additions)-([0-9.]+).jar/;
+          p($1, $2) if /^(LycanitesMobs.*) ([0-9.]+) \[1.7.10\].jar/;
+          # Some people like to put the minecraft version number first.
+          p($1, $2) if /^(?:client-)?\[?1.7.10\]?-?([\w]+)-(.*).jar/;
           # This one works on the 98% of mods remaining.
-          p($1, $2) if /(.*?)[-_ ]((mc|MC|rv|r|v|\[)?[0-9].*).jar/;
+          p($1, $2) if /(?:client-)?(.*?)[-_ ]((mc|MC|rv|r|v|\[)?[0-9].*).jar/;
           print "ERROR: Couldn't parse " . $_ . "\n";
         }
         print "}\n";
