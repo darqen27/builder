@@ -23,7 +23,7 @@ for f in $BASE/*; do
         rsync -a server/config .
     elif [[ $b = "start.sh" ]]; then
         # Don't copy this script.
-        true
+        continue
     else
         [[ -e $b ]] && fixperms $b && rm -rf $b
         cp -aL $f .

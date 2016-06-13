@@ -17,6 +17,156 @@ in
 
 rec {
 
+  tfp = mkBasePack {
+    src = fetchzip {
+      url = https://madoka.brage.info/baughn/TerraFirmaPunk-2.0.0.zip;
+      sha256 = "0fi3dlsv3klhd7xzn8m5zjm93069gq1dk4hrgfhd9kcsa3vd23n4";
+    };
+
+    modConfig = {
+      Opis = {
+        required = false;
+      };
+      AutoRun = {
+        side = "CLIENT";
+      };
+      BetterFoliage = {
+        side = "CLIENT";
+        required = false;
+      };
+      DynamicLights = {
+        side = "CLIENT";
+        required = false;
+      };
+      MobDismemberment = {
+        side = "CLIENT";
+      };
+      SoundFilters = {
+        side = "CLIENT";
+      };
+      ArmorStatusHUD = {
+        side = "CLIENT";
+        required = false;
+      };
+      DamageIndicatorsMod = {
+        side = "CLIENT";
+        required = false;
+      };
+      PlayerAPI = {
+        side = "CLIENT";
+      };
+      SmartMoving = {
+        side = "CLIENT";
+      };
+      SmartRender = {
+        side = "CLIENT";
+      };
+      fastcraft = {
+        side = "CLIENT";
+      };
+    };
+  };
+
+  tfp-mods = (builtins.removeAttrs tfp.mods [
+    "Aroma1997Core"
+    "AromaBackup"
+    "BiblioWoods"  # Some bug. Re-add once fixed.
+  ]) // {
+    ForgeMultiPart = mkMod {
+      name = "ForgeMultiPart-1.7.10";
+      src = fetchurl {
+        url = http://files.minecraftforge.net/maven/codechicken/ForgeMultipart/1.7.10-1.2.0.347/ForgeMultipart-1.7.10-1.2.0.347-universal.jar;
+        sha256 = "0r3mgss1fakbrrkiifrf06dcdwnxbwsryiiw0l2k4sbjvk58hah0";
+      };
+    };
+
+    DynamicSurroundings = fetchCurse {
+      name = "238891-dynamic-surroundings";
+      target = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
+      side = "CLIENT";
+      required = false;
+    };
+
+    StellarSky = fetchCurse {
+      name = "stellar-sky";
+      target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
+      side = "CLIENT";
+      required = false;
+      # TODO: Make this depend on sciapi, make both optional.
+      # Implement dependencies.
+    };
+
+    sciapi = fetchCurse {
+      name = "sciapi";
+      target = "SciAPI v1.1.0.0[1.7.10]";
+      side = "CLIENT";
+    };
+
+    Shaders = mkMod {
+      name = "shaders";
+      src = fetchurl {
+        url = http://www.karyonix.net/shadersmod/files/ShadersModCore-v2.3.31-mc1.7.10-f.jar;
+        sha256 = "1a5wz4haa6639asrskraj1vdafi7f16gv9dib9inqsjdc9hvkv3j";
+      };
+      side = "CLIENT";
+      required = false;
+    };
+
+    TickProfiler = mkMod {
+      name = "TickProfiler-1.7.20-jenkins-29";
+      src = fetchurl {
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.29.jar;
+        sha256 = "10k8h6aybaswvqbxpqn3rrka929dacfra2n9g7l6knzym8k3ghp3";
+      };
+      side = "SERVER";
+    };
+  };
+
+  tfp-resourcepack = fetchzip {
+    url = https://madoka.brage.info/baughn/ResourcePack-tfp.zip;
+    sha256 = "01wrf1vnwwgd5vazmbs24kwhb4njys33wbx65inagkfpz7sg9mxs";
+    stripRoot = false;
+  };
+
+  tfp-server = mkServer {
+    name = "erisia-13";
+
+    mods = tfp-mods;
+
+    forge = fetchForge {
+      major = forgeMajor; minor = forgeMinor;
+      sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
+    };
+
+    # These are applied in order. In case of overwrites nothing is deleted.
+    # They're also copied to the client, after applying the below patches.
+    extraDirs = [
+      (tfp.getDir "asm")
+      (tfp.getDir "config")
+      (tfp.getDir "hats")
+      (tfp.getDir "journeymap")
+      (tfp.getDir "scripts")
+      (tfp.getDir "mods/resources")
+      (bevos.getDir "libraries")
+      # tfp-resourcepack
+      # This is, of course, inside the git repository. Being last, any files you
+      # put here override files in TFP's zips.
+      # ./base
+    ];
+
+    # These are applied after everything else.
+    # And in order, if it matters.
+    # TODO: Write something that understands what it's doing.
+    configPatches = [
+      # Keep the SD behaviour we're used to.
+      ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+    ];
+  };
+
+  ##########################
+  ## Erisia 12 below here ##
+  ##########################
+
   bevos = mkBasePack {
     src = fetchzip {
       url = https://madoka.brage.info/baughn/BevosT.zip;
