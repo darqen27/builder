@@ -151,10 +151,7 @@ rec {
       (tfp.getDir "scripts")
       (tfp.getDir "mods/resources")
       (bevos.getDir "libraries")
-      # tfp-resourcepack
-      # This is, of course, inside the git repository. Being last, any files you
-      # put here override files in TFP's zips.
-      # ./base
+      tfp-resourcepack
     ];
 
     # These are applied after everything else.
