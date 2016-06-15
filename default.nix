@@ -75,26 +75,26 @@ rec {
     "Aroma1997Core"
   ]) // {
     # Libraries.
-    ForgeMultiPart = mkMod {
-      name = "ForgeMultiPart-1.7.10";
-      src = fetchurl {
-        url = http://files.minecraftforge.net/maven/codechicken/ForgeMultipart/1.7.10-1.2.0.347/ForgeMultipart-1.7.10-1.2.0.347-universal.jar;
-        sha256 = "0r3mgss1fakbrrkiifrf06dcdwnxbwsryiiw0l2k4sbjvk58hah0";
-      };
-    };
+    # ForgeMultiPart = mkMod {
+    #   name = "ForgeMultiPart-1.7.10";
+    #   src = fetchurl {
+    #     url = http://files.minecraftforge.net/maven/codechicken/ForgeMultipart/1.7.10-1.2.0.347/ForgeMultipart-1.7.10-1.2.0.347-universal.jar;
+    #     sha256 = "0r3mgss1fakbrrkiifrf06dcdwnxbwsryiiw0l2k4sbjvk58hah0";
+    #   };
+    # };
 
-    bspkrsCore = fetchCurse {
-      name = "bspkrsCore";
-      target = "[1.7.10]bspkrsCore-universal-6.16.jar";
-    };
+    # bspkrsCore = fetchCurse {
+    #   name = "bspkrsCore";
+    #   target = "[1.7.10]bspkrsCore-universal-6.16.jar";
+    # };
 
-    CodeChickenLib = mkMod {
-      name = "CodeChickenLib-1.1.3.140";
-      src = fetchurl {
-        url = http://files.minecraftforge.net/maven/codechicken/CodeChickenLib/1.7.10-1.1.3.140/CodeChickenLib-1.7.10-1.1.3.140-universal.jar;
-        sha256 = "06jf4h34by7d9dfbgsb3ii7fm6kqirny645afvb8c8wlg65n0rvr";
-      };
-    };
+    # CodeChickenLib = mkMod {
+    #   name = "CodeChickenLib-1.1.3.140";
+    #   src = fetchurl {
+    #     url = http://files.minecraftforge.net/maven/codechicken/CodeChickenLib/1.7.10-1.1.3.140/CodeChickenLib-1.7.10-1.1.3.140-universal.jar;
+    #     sha256 = "06jf4h34by7d9dfbgsb3ii7fm6kqirny645afvb8c8wlg65n0rvr";
+    #   };
+    # };
 
     # Extra cosmetic mods.
     DynamicSurroundings = fetchCurse {
@@ -427,7 +427,7 @@ rec {
         buildInputs = [ zip imagemagick ];
 
         builder = mkBuilder ''
-          cp $(find $src -name \*.jar) tmp.zip &
+          cp "$(find $src -name \*.jar)" tmp.zip &
           mkdir -p assets/bibliocraft/textures/custompaintings
           pushd assets/bibliocraft/textures/custompaintings
           for i in $(find $extraPaintings -type f); do

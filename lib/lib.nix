@@ -101,7 +101,7 @@ rec {
   mkMod = self: mkDerivation ({
     builder = mkBuilder ''
       mkdir -p $out/mods
-      ln -s "$src" $out/mods/"$name".jar
+      ln -s "$src" $out/mods/"$modpath"
       md5=$(md5sum "$src" | awk '{print $1}')
       cat >> $out/default.nix <<EOF
         { md5 = "$md5";
