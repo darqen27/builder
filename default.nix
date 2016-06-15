@@ -65,26 +65,16 @@ rec {
         side = "CLIENT";
         required = false;
       };
-      PlayerAPI = {
-        side = "CLIENT";
-      };
-      SmartMoving = {
-        side = "CLIENT";
-      };
-      SmartRender = {
-        side = "CLIENT";
-      };
       fastcraft = {
-        side = "CLIENT";
+        required = false;
       };
     };
   };
 
   tfp-mods = (builtins.removeAttrs tfp.mods [
     "Aroma1997Core"
-    "AromaBackup"
-    "BiblioWoods"  # Some bug. Re-add once fixed.
   ]) // {
+    # Libraries.
     ForgeMultiPart = mkMod {
       name = "ForgeMultiPart-1.7.10";
       src = fetchurl {
@@ -93,6 +83,20 @@ rec {
       };
     };
 
+    bspkrsCore = fetchCurse {
+      name = "bspkrsCore";
+      target = "[1.7.10]bspkrsCore-universal-6.16.jar";
+    };
+
+    CodeChickenLib = mkMod {
+      name = "CodeChickenLib-1.1.3.140";
+      src = fetchurl {
+        url = http://files.minecraftforge.net/maven/codechicken/CodeChickenLib/1.7.10-1.1.3.140/CodeChickenLib-1.7.10-1.1.3.140-universal.jar;
+        sha256 = "06jf4h34by7d9dfbgsb3ii7fm6kqirny645afvb8c8wlg65n0rvr";
+      };
+    };
+
+    # Extra cosmetic mods.
     DynamicSurroundings = fetchCurse {
       name = "238891-dynamic-surroundings";
       target = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
@@ -100,20 +104,24 @@ rec {
       required = false;
     };
 
-    # StellarSky = fetchCurse {
-    #   name = "stellar-sky";
-    #   target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
-    #   side = "CLIENT";
-    #   required = false;
-    #   # TODO: Make this depend on sciapi, make both optional.
-    #   # Implement dependencies.
-    # };
+    # Needed by StellarSky and Photoptics.
+    StellarAPI = fetchCurse {
+      name = "stellar-api";
+      target = "Stellar API v0.1.3.6b [1.7.10]";
+    };
 
-    # sciapi = fetchCurse {
-    #   name = "sciapi";
-    #   target = "SciAPI v1.1.0.0[1.7.10]";
-    #   side = "CLIENT";
-    # };
+    # TODO: Tweak this to work with TFC.
+    Photoptics = fetchCurse {
+      name = "photoptics";
+      target = "Photoptics v0.1.1.7 [1.7.10] (Stellar API v0.1.3.6)";
+    };
+
+    StellarSky = fetchCurse {
+      name = "stellar-sky";
+      target = "Stellar Sky v0.1.5.3d[1.7.10] (Stellar API v0.1.3.6(b))";
+      # side = "CLIENT";
+      required = false;
+    };
 
     Shaders = mkMod {
       name = "shaders";
@@ -125,14 +133,16 @@ rec {
       required = false;
     };
 
-    TickProfiler = mkMod {
-      name = "TickProfiler-1.7.20-jenkins-29";
-      src = fetchurl {
-        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.29.jar;
-        sha256 = "10k8h6aybaswvqbxpqn3rrka929dacfra2n9g7l6knzym8k3ghp3";
-      };
-      side = "SERVER";
-    };
+    # Fastcraft conflicts with TickProfiler.
+    # For now, disabling the latter. Not sure if the former is of any use, but we've got Opis.
+    # TickProfiler = mkMod {
+    #   name = "TickProfiler-1.7.20-jenkins-29";
+    #   src = fetchurl {
+    #     url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.29.jar;
+    #     sha256 = "10k8h6aybaswvqbxpqn3rrka929dacfra2n9g7l6knzym8k3ghp3";
+    #   };
+    #   side = "SERVER";
+    # };
   };
 
   tfp-resourcepack = fetchzip {
