@@ -7,7 +7,7 @@ rec {
     text = "source $stdenv/setup\n" + code;
   };
 
-  mkServer = cfg: mkDerivation {
+  mkServer = cfg: mkDerivation rec {
     name = cfg.name;
 
     src = ../base-server;
@@ -25,6 +25,11 @@ rec {
     };
 
     buildInputs = [ rsync ];
+
+    passthru = {
+      mods = cfg.mods;
+      inherit baseMinecraft;
+    };
 
     builder = mkBuilder ''
       mkdir -p $out/mods
@@ -220,5 +225,87 @@ rec {
       };
       inherit side required;
     };
+
+  ## Server-pack builder:
+
+  serverParams = {
+    serverId,
+    serverDesc,
+    server,
+    packUrlBase ? "https://madoka.brage.info/pack",
+    forgeMajor ? "1.7.10",
+    forgeMinor ? "10.13.4.1566",
+  }: let
+    serverUrlBase = packUrlBase + "/packs/" + serverId;
+  in {
+    serverId = serverId;
+    serverDesc = serverDesc;
+    forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
+    mods = lib.mapAttrs (name: mod: let details = import mod; in {
+      modId = name;
+      url = serverUrlBase + "/mods/" + builtins.baseNameOf mod.outPath;
+      modpath = "mods/" + details.modpath;
+      side = mod.side;
+      required = mod.required;
+      modtype = mod.modtype;
+      md5 = details.md5;
+    }) server.mods;
+    configs = lib.mapAttrs (name: md5: {
+      configId = name;
+      url = serverUrlBase + "/configs/" + name + ".zip";
+      inherit md5;
+    }) (import server.baseMinecraft);
+  };
+
+  mkServerPackDir = {
+    serverId,
+    serverDesc,
+    server,
+  }: mkDerivation rec {
+    name = serverId + "-packdir";
+
+    modList = builtins.attrValues server.mods;
+    configs = server.baseMinecraft;
+    inherit serverId;
+
+    builder = mkBuilder ''
+      mkdir -p $out/$serverId/{mods,configs}
+      
+      for mod in $modList; do
+        ln -s $mod/mods/*.jar $out/$serverId/mods/$(basename $mod)
+      done
+
+      ln -s $configs/*.zip $out/$serverId/configs/
+    '';
+  };
+
+  mkServerPack = servers: mkDerivation rec {
+    name = "ServerPack";
+
+    buildInputs = [ libxslt ];
+
+    stylesheet = ./serverpack.xsl;
+
+    paramsText = let
+      params = lib.mapAttrs (name: desc: serverParams desc) servers;
+      paramsWRevision = lib.mapAttrs (name: desc: desc // {
+        revision = builtins.hashString "sha256" (builtins.toXML desc);
+      }) params;
+    in writeTextFile {
+      name = "params.xml";
+      text = builtins.toXML paramsWRevision;
+    };
+    
+    packDirs = builtins.map mkServerPackDir (builtins.attrValues servers);
+
+    builder = mkBuilder ''
+      mkdir -p $out/packs
+      xsltproc ${stylesheet} $paramsText > $out/ServerPack.xml
+
+      for pack in $packDirs; do
+        ln -s $pack/* $out/packs/
+      done
+    '';
+  };
 
 }

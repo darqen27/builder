@@ -3,24 +3,30 @@ with stdenv;
 
 with import ./lib/lib.nix;
 
-let
-  serverId = "erisia";
-  serverName = "erisia-12";
-  serverDesc = "Erisia #12: Vivat Apparatus";
-
-  # lib.nix actually assumes 1.7.10 in a lot of places. This isn't plumbed through.
-  forgeMajor = "1.7.10";
-  forgeMinor = "10.13.4.1566";
-
-  packUrlBase = "https://madoka.brage.info/";
-in
-
 rec {
+
+  servers = {
+    erisia-12 = {
+      serverId = "erisia";
+      serverDesc = "Erisia #12: Vivat Apparatus";
+      server = server;
+    };
+
+    erisia-13 = {
+      serverId = "test-tfp";
+      serverDesc = "TFP: Ave Dolor";
+      server = tfp-server;
+    };
+  };
+
+  ServerPack = mkServerPack servers;
+
+  ## TerraFirmaPunk ##
 
   tfp = mkBasePack {
     src = fetchzip {
-      url = https://madoka.brage.info/baughn/TerraFirmaPunk-2.0.0.zip;
-      sha256 = "0fi3dlsv3klhd7xzn8m5zjm93069gq1dk4hrgfhd9kcsa3vd23n4";
+      url = https://madoka.brage.info/baughn/TerraFirmaPunk-2.0.3.zip;
+      sha256 = "0qvqg81jkrg1p4rl3q965dgdr0k5930vyv748g2b399071b30cbf";
     };
 
     modConfig = {
@@ -87,20 +93,20 @@ rec {
       required = false;
     };
 
-    StellarSky = fetchCurse {
-      name = "stellar-sky";
-      target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
-      side = "CLIENT";
-      required = false;
-      # TODO: Make this depend on sciapi, make both optional.
-      # Implement dependencies.
-    };
+    # StellarSky = fetchCurse {
+    #   name = "stellar-sky";
+    #   target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
+    #   side = "CLIENT";
+    #   required = false;
+    #   # TODO: Make this depend on sciapi, make both optional.
+    #   # Implement dependencies.
+    # };
 
-    sciapi = fetchCurse {
-      name = "sciapi";
-      target = "SciAPI v1.1.0.0[1.7.10]";
-      side = "CLIENT";
-    };
+    # sciapi = fetchCurse {
+    #   name = "sciapi";
+    #   target = "SciAPI v1.1.0.0[1.7.10]";
+    #   side = "CLIENT";
+    # };
 
     Shaders = mkMod {
       name = "shaders";
@@ -141,10 +147,7 @@ rec {
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
     extraDirs = [
-      (tfp.getDir "asm")
       (tfp.getDir "config")
-      (tfp.getDir "hats")
-      (tfp.getDir "journeymap")
       (tfp.getDir "scripts")
       (tfp.getDir "mods/resources")
       (bevos.getDir "libraries")
@@ -225,30 +228,20 @@ rec {
       required = false;
     };
 
-    StellarSky = fetchCurse {
-      name = "stellar-sky";
-      target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
-      side = "CLIENT";
-      required = false;
-      # TODO: Make this depend on sciapi, make both optional.
-      # Implement dependencies.
-    };
+    # StellarSky = fetchCurse {
+    #   name = "stellar-sky";
+    #   target = "Stellar Sky v0.1.2.9b[1.7.10] (SciAPI v1.1.0.0)";
+    #   side = "CLIENT";
+    #   required = false;
+    #   # TODO: Make this depend on sciapi, make both optional.
+    #   # Implement dependencies.
+    # };
 
-    sciapi = fetchCurse {
-      name = "sciapi";
-      target = "SciAPI v1.1.0.0[1.7.10]";
-      side = "CLIENT";
-    };
-
-    Shaders = mkMod {
-      name = "shaders";
-      src = fetchurl {
-        url = http://www.karyonix.net/shadersmod/files/ShadersModCore-v2.3.31-mc1.7.10-f.jar;
-        sha256 = "1a5wz4haa6639asrskraj1vdafi7f16gv9dib9inqsjdc9hvkv3j";
-      };
-      side = "CLIENT";
-      required = false;
-    };
+    # sciapi = fetchCurse {
+    #   name = "sciapi";
+    #   target = "SciAPI v1.1.0.0[1.7.10]";
+    #   side = "CLIENT";
+    # };
 
     # Both-sided:
 
@@ -435,27 +428,14 @@ rec {
     };
   };
 
-  # TODO: Gah!
-  resourcepack = mkDerivation {
-    name = "resourcepack-2";
-
-    dontbuild = true;
-    buildInputs = [ unzip ];
-
-    installPhase = ''
-      mkdir $out
-      cd $out
-      unzip $src
-    '';
-
-    src = fetchurl {
-      url = https://madoka.brage.info/baughn/ResourcePack.zip;
-      sha256 = "cb4b0ac27d0f26f8fca1ea3f82d04a6ffe5e06ab57ee10d72ca8fa57e4463424";
-    };
+  resourcepack = fetchzip {
+    url = https://madoka.brage.info/baughn/ResourcePack.zip;
+    sha256 = "1xlw05895qvrhdn075lg88g07f1bc5h8xmj7v76434rcwbr5s2dd";
+    stripRoot = false;
   };
 
   server = mkServer {
-    name = serverName;
+    name = "erisia-12";
 
     mods = mods;
 
@@ -503,68 +483,5 @@ rec {
 
     ];
   };
-
-
-  #####################################################    
-  ## Nothing below here is particularly relevant     ##
-  ##                                                 ##
-  ## Stop reading.                                   ##
-  ##                                                 ##
-  ## I mean it. You don't want to read what's below. ##
-  ##                                                 ##
-  #####################################################
-  ## On your head be it.                             ##
-  #####################################################
-
-  # TODO: Move most of this into the lib. Or something.
-  ServerPack = let
-    baseParams = {
-      serverId = serverId;
-      serverDesc = serverDesc;
-      forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
-      mods = lib.mapAttrs (name: mod: let details = import mod; in {
-        modId = name;
-        url = packUrlBase + "mods/" + builtins.baseNameOf mod.outPath;
-        modpath = "mods/" + details.modpath;
-        side = mod.side;
-        required = mod.required;
-        modtype = mod.modtype;
-        md5 = details.md5;
-      }) mods;
-      configs = lib.mapAttrs (name: md5: {
-        configId = name;
-        url = packUrlBase + "configs/" + name + ".zip";
-        inherit md5;
-      }) (import server.baseMinecraft);
-    };
-  in
-  mkDerivation (rec {
-    name = "ServerPack";
-
-    buildInputs = [ libxslt ];
-
-    stylesheet = ./lib/serverpack.xsl;
-
-    modList = builtins.attrValues mods;
-    configs = server.baseMinecraft;
-
-    params = writeTextFile {
-      name = "params.xml";
-      text = builtins.toXML (baseParams // {
-        revision = builtins.hashString "sha256" (builtins.toXML baseParams);
-      });
-    };
-
-    builder = mkBuilder ''
-      mkdir -p $out/{mods,configs}
-      xsltproc ${stylesheet} $params > $out/ServerPack.xml
-
-      for mod in $modList; do
-        ln -s $mod/mods/*.jar $out/mods/$(basename $mod)
-      done
-
-      ln -s $configs/*.zip $out/configs/
-    '';
-  });
 
 }
