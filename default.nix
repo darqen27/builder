@@ -75,13 +75,13 @@ rec {
     "Aroma1997Core"
   ]) // {
     # Libraries.
-    # ForgeMultiPart = mkMod {
-    #   name = "ForgeMultiPart-1.7.10";
-    #   src = fetchurl {
-    #     url = http://files.minecraftforge.net/maven/codechicken/ForgeMultipart/1.7.10-1.2.0.347/ForgeMultipart-1.7.10-1.2.0.347-universal.jar;
-    #     sha256 = "0r3mgss1fakbrrkiifrf06dcdwnxbwsryiiw0l2k4sbjvk58hah0";
-    #   };
-    # };
+    ForgeMultiPart = mkMod {
+      name = "ForgeMultiPart-1.7.10";
+      src = fetchurl {
+        url = http://files.minecraftforge.net/maven/codechicken/ForgeMultipart/1.7.10-1.2.0.347/ForgeMultipart-1.7.10-1.2.0.347-universal.jar;
+        sha256 = "0r3mgss1fakbrrkiifrf06dcdwnxbwsryiiw0l2k4sbjvk58hah0";
+      };
+    };
 
     # bspkrsCore = fetchCurse {
     #   name = "bspkrsCore";
@@ -95,6 +95,12 @@ rec {
     #     sha256 = "06jf4h34by7d9dfbgsb3ii7fm6kqirny645afvb8c8wlg65n0rvr";
     #   };
     # };
+
+    eirairc = fetchCurse {
+      name = "eirairc";
+      target = "eirairc-mc1.7.10-2.9.402.jar";
+      side = "SERVER";
+    };
 
     # Extra cosmetic mods.
     DynamicSurroundings = fetchCurse {
