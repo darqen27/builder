@@ -3,6 +3,11 @@ with stdenv;
 
 with import ./lib/lib.nix;
 
+let
+  forgeMajor = "1.7.10";
+  forgeMinor = "10.13.4.1566";
+in
+
 rec {
 
   servers = {
@@ -19,7 +24,9 @@ rec {
     };
   };
 
-  ServerPack = mkServerPack servers;
+  ServerPack = mkServerPack {
+    inherit forgeMajor forgeMinor servers;
+  };
 
   ## TerraFirmaPunk ##
 
@@ -139,6 +146,7 @@ rec {
 
     mods = tfp-mods;
 
+    inherit forgeMajor;
     forge = fetchForge {
       major = forgeMajor; minor = forgeMinor;
       sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
@@ -436,6 +444,7 @@ rec {
 
     mods = mods;
 
+    inherit forgeMajor;
     forge = fetchForge {
       major = forgeMajor; minor = forgeMinor;
       sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";

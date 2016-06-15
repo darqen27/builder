@@ -7,28 +7,34 @@ rec {
     text = "source $stdenv/setup\n" + code;
   };
 
-  mkServer = cfg: mkDerivation rec {
-    name = cfg.name;
+  mkServer = {
+    name,
+    forge,
+    forgeMajor,
+    mods,
+    extraDirs ? [],
+    configPatches ? [],
+  }: mkDerivation rec {
+    inherit name;
 
     src = ../base-server;
 
-    forge = cfg.forge;
-    modDirs = builtins.filter (m: m.side != "CLIENT") (builtins.attrValues cfg.mods);
+    inherit forge;
+    modDirs = builtins.filter (m: m.side != "CLIENT") (builtins.attrValues mods);
     minecraft = fetchurl {
-      url = https://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/minecraft_server.1.7.10.jar;
+      url = "https://s3.amazonaws.com/Minecraft.Download/versions/${forgeMajor}/minecraft_server.${forgeMajor}.jar";
       sha256 = "1z7kf8wm27yq10rnlwlig7c2vc45x3sfbxslw4lxh9201kq70267";
     };
 
     baseMinecraft = mkBaseMinecraft {
-      extraDirs = cfg.extraDirs;
-      configPatches = map mkPatch cfg.configPatches;
+      extraDirs = extraDirs;
+      configPatches = map mkPatch configPatches;
     };
 
     buildInputs = [ rsync ];
 
     passthru = {
-      mods = cfg.mods;
-      inherit baseMinecraft;
+      inherit mods baseMinecraft;
     };
 
     builder = mkBuilder ''
@@ -233,8 +239,8 @@ rec {
     serverDesc,
     server,
     packUrlBase ? "https://madoka.brage.info/pack",
-    forgeMajor ? "1.7.10",
-    forgeMinor ? "10.13.4.1566",
+    forgeMajor,
+    forgeMinor,
   }: let
     serverUrlBase = packUrlBase + "/packs/" + serverId;
   in {
@@ -279,7 +285,11 @@ rec {
     '';
   };
 
-  mkServerPack = servers: mkDerivation rec {
+  mkServerPack = {
+    servers,
+    forgeMajor,
+    forgeMinor,
+  }:  mkDerivation rec {
     name = "ServerPack";
 
     buildInputs = [ libxslt ];
@@ -287,7 +297,9 @@ rec {
     stylesheet = ./serverpack.xsl;
 
     paramsText = let
-      params = lib.mapAttrs (name: desc: serverParams desc) servers;
+      params = lib.mapAttrs (name: desc: serverParams (desc // {
+        inherit forgeMajor forgeMinor;
+      })) servers;
       paramsWRevision = lib.mapAttrs (name: desc: desc // {
         revision = builtins.hashString "sha256" (builtins.toXML desc);
       }) params;
