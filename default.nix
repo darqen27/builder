@@ -125,8 +125,6 @@ rec {
     StellarSky = fetchCurse {
       name = "stellar-sky";
       target = "Stellar Sky v0.1.5.3d[1.7.10] (Stellar API v0.1.3.6(b))";
-      # side = "CLIENT";
-      required = false;
     };
 
     Shaders = mkMod {
