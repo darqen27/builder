@@ -292,7 +292,7 @@ rec {
   }:  mkDerivation rec {
     name = "ServerPack";
 
-    buildInputs = [ libxslt ];
+    buildInputs = [ saxonb ];
 
     stylesheet = ./serverpack.xsl;
 
@@ -312,7 +312,7 @@ rec {
 
     builder = mkBuilder ''
       mkdir -p $out/packs
-      xsltproc ${stylesheet} $paramsText > $out/ServerPack.xml
+      saxon8 $paramsText ${stylesheet} > $out/ServerPack.xml
 
       for pack in $packDirs; do
         ln -s $pack/* $out/packs/
