@@ -68,6 +68,9 @@ rec {
       fastcraft = {
         required = false;
       };
+      journeymap = {
+        required = false;
+      };
     };
   };
 
