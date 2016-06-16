@@ -78,6 +78,8 @@ rec {
       for configPatch in $configPatches; do
         (cd $out/config/; source $configPatch)
       done
+      find "$out" -print0 | \
+        xargs -0r touch --no-dereference --date=1970-01-01
 
       # This is for the serverpack.
       cd $out
@@ -85,7 +87,7 @@ rec {
       tmp=$(mktemp)
       echo '{' > $tmp
       for dir in *; do
-        zip -qr $dir.zip $dir
+        TZ=UTC zip -X --latest-time -qr $dir.zip $dir
         md5=$(md5sum $dir.zip | awk '{print $1}')
         printf '%s = "%s";\n' $dir $md5 >> $tmp
       done
