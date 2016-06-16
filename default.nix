@@ -182,6 +182,8 @@ rec {
     configPatches = [
       # Keep the SD behaviour we're used to.
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+      # No, don't lock people out if they die. :'(
+      ''sed -i hqm/hqmconfig.cfg -e 's/B:"Auto-start hardcore mode"=true/B:"Auto-start hardcore mode"=false/' ''
     ];
   };
 
