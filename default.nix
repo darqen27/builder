@@ -110,22 +110,22 @@ rec {
       required = false;
     };
 
-    # Needed by StellarSky and Photoptics.
-    StellarAPI = fetchCurse {
-      name = "stellar-api";
-      target = "Stellar API v0.1.3.6b [1.7.10]";
-    };
+    # # Needed by StellarSky and Photoptics.
+    # StellarAPI = fetchCurse {
+    #   name = "stellar-api";
+    #   target = "Stellar API v0.1.3.6b [1.7.10]";
+    # };
 
-    # TODO: Tweak this to work with TFC.
-    Photoptics = fetchCurse {
-      name = "photoptics";
-      target = "Photoptics v0.1.1.7 [1.7.10] (Stellar API v0.1.3.6)";
-    };
+    # # TODO: Tweak this to work with TFC.
+    # Photoptics = fetchCurse {
+    #   name = "photoptics";
+    #   target = "Photoptics v0.1.1.7 [1.7.10] (Stellar API v0.1.3.6)";
+    # };
 
-    StellarSky = fetchCurse {
-      name = "stellar-sky";
-      target = "Stellar Sky v0.1.5.3d[1.7.10] (Stellar API v0.1.3.6(b))";
-    };
+    # StellarSky = fetchCurse {
+    #   name = "stellar-sky";
+    #   target = "Stellar Sky v0.1.5.3d[1.7.10] (Stellar API v0.1.3.6(b))";
+    # };
 
     Shaders = mkMod {
       name = "shaders";
