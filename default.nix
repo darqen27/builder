@@ -73,6 +73,7 @@ rec {
 
   tfp-mods = (builtins.removeAttrs tfp.mods [
     "Aroma1997Core"
+    "MemoryCleaner" # This thing just forces even more explicit GCs. WTF? Away, foul one!
   ]) // {
     # Libraries.
     ForgeMultiPart = mkMod {
