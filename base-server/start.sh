@@ -40,7 +40,7 @@ rm -f gc.log
   }
   set +e
 
-  sleep 300
+  sleep 30
   while true; do
     sleep 60
     say 'save-on'

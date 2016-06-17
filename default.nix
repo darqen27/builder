@@ -255,18 +255,18 @@ rec {
 
     # Opis appears to be incompatible with ForgeEssentials.
     
-    # Opis = fetchCurse {
-    #   name = "opis";
-    #   target = "Opis-1.2.5_1.7.10.jar";
-    #   required = false;
-    # };
+    Opis = fetchCurse {
+      name = "opis";
+      target = "Opis-1.2.5_1.7.10.jar";
+      required = false;
+    };
 
-    # # TODO: Opis depends on this.
-    # MobiusCore = fetchCurse {
-    #   name = "mobiuscore";
-    #   target = "MobiusCore-1.2.5_1.7.10.jar";
-    #   required = false;
-    # };
+    # Opis depends on this.
+    MobiusCore = fetchCurse {
+      name = "mobiuscore";
+      target = "MobiusCore-1.2.5_1.7.10.jar";
+      required = false;
+    };
 
     TickProfiler = mkMod {
       name = "TickProfiler-1.7.20-jenkins-29";
@@ -395,17 +395,17 @@ rec {
     };
     
     #ForgeEssentials
-    ForgeEssentials = fetchCurse {
-      name = "forge-essentials-74735";
-      target = "forgeessentials-1.7.10-1.4.4.1146";
-      side = "SERVER";
-    };
-    ForgeEssentialsClient = fetchCurse {
-      name = "forge-essentials-client";
-      target = "forgeessentials-1.7.10-1.4.4.1146-client";
-      side = "CLIENT";
-      required = false;
-    };
+    #ForgeEssentials = fetchCurse {
+    #  name = "forge-essentials-74735";
+    #  target = "forgeessentials-1.7.10-1.4.4.1146";
+    #  side = "SERVER";
+    #};
+    #ForgeEssentialsClient = fetchCurse {
+    #  name = "forge-essentials-client";
+    #  target = "forgeessentials-1.7.10-1.4.4.1146-client";
+    #  side = "CLIENT";
+    #  required = false;
+    #};
 
     # Adds extra paintings!
     BiblioCraft = mkMod {
