@@ -87,7 +87,8 @@ rec {
       tmp=$(mktemp)
       echo '{' > $tmp
       for dir in *; do
-        TZ=UTC zip -X --latest-time -qr $dir.zip $dir
+        TZ=UTC find $dir -print0 | sort -z | \
+          xargs -0 zip -X --latest-time -q $dir.zip
         md5=$(md5sum $dir.zip | awk '{print $1}')
         printf '%s = "%s";\n' $dir $md5 >> $tmp
       done
