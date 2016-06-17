@@ -180,8 +180,8 @@ rec {
 
   bevos = mkBasePack {
     src = fetchzip {
-      url = https://madoka.brage.info/baughn/BevosT.zip;
-      sha256 = "09q0vv8qnm3hspz5bks80jf3n5cmn94b2y9bv8svffxisf0l6k0y";
+      url = https://madoka.brage.info/baughn/BevosUNC.zip;
+      sha256 = "1w5ks89lga3lrv5gzc24sxx0szqryn111xn2k8zmb78v0vk8mmsc";
       stripRoot = false;
     };
 
