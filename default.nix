@@ -18,8 +18,8 @@ rec {
     };
 
     erisia-13 = {
-      serverId = "test-tfp";
-      serverDesc = "TFP: Ave Dolor";
+      serverId = "erisia-13";
+      serverDesc = "Testing: (Ave Dolor)";
       server = tfp-server;
     };
   };
