@@ -6,6 +6,16 @@ with import ./lib/lib.nix;
 let
   forgeMajor = "1.7.10";
   forgeMinor = "10.13.4.1566";
+  common-mods = {
+    chunkgen = mkMod {
+      name = "chunkgen-1.2.4-dev";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/chunkgen-1.7.10-1.2.3+10.jar;
+        sha256 = "0pd77rzghp3fh1pnvk7paws2ksk6alx0riar9wk2b4g67wmn8sn6";
+      };
+      side = "SERVER";
+    };
+  };
 in
 
 rec {
@@ -77,7 +87,7 @@ rec {
   tfp-mods = (builtins.removeAttrs tfp.mods [
     "Aroma1997Core"
     "MemoryCleaner" # This thing just forces even more explicit GCs. WTF? Away, foul one!
-  ]) // {
+  ]) // common-mods // {
     # Libraries.
     ForgeMultiPart = mkMod {
       name = "ForgeMultiPart-1.7.10";
