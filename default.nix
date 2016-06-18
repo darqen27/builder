@@ -124,6 +124,17 @@ rec {
       required = false;
     };
 
+    # Needed by StellarSky and Photoptics.
+    StellarAPI = fetchCurse {
+      name = "stellar-api";
+      target = "Stellar API v0.1.3.7b [1.7.10]";
+    };
+
+    StellarSky = fetchCurse {
+      name = "stellar-sky";
+      target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)";
+    };
+
     # Fastcraft conflicts with TickProfiler.
     # For now, disabling the latter. Not sure if the former is of any use, but we've got Opis.
     # TickProfiler = mkMod {
@@ -494,22 +505,3 @@ rec {
   };
 
 }
-
-
-## For E14:
-
-    # # Needed by StellarSky and Photoptics.
-    # StellarAPI = fetchCurse {
-    #   name = "stellar-api";
-    #   target = "Stellar API v0.1.3.6b [1.7.10]";
-    # };
-
-    # Photoptics = fetchCurse {
-    #   name = "photoptics";
-    #   target = "Photoptics v0.1.1.7 [1.7.10] (Stellar API v0.1.3.6)";
-    # };
-
-    # StellarSky = fetchCurse {
-    #   name = "stellar-sky";
-    #   target = "Stellar Sky v0.1.5.3d[1.7.10] (Stellar API v0.1.3.6(b))";
-    # };
