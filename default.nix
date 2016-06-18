@@ -15,6 +15,21 @@ let
       };
       side = "SERVER";
     };
+
+    dynmap = mkMod {
+      name = "dynmapforge";
+      src = fetchurl {
+        url = https://bloxgaming.com/bloxgate/Dynmap-2.2-forge-1.7.10.jar;
+        sha256 = "d6391dc83af1cd2ec51ffceb4e6bb58bf1419a96336ca92360acfd90a91ce9b9";
+      };
+      side = "SERVER";
+    };
+
+    eirairc = fetchCurse {
+      name = "eirairc";
+      target = "eirairc-mc1.7.10-2.9.402.jar";
+      side = "SERVER";
+    };
   };
 in
 
@@ -109,12 +124,6 @@ rec {
     #     sha256 = "06jf4h34by7d9dfbgsb3ii7fm6kqirny645afvb8c8wlg65n0rvr";
     #   };
     # };
-
-    eirairc = fetchCurse {
-      name = "eirairc";
-      target = "eirairc-mc1.7.10-2.9.402.jar";
-      side = "SERVER";
-    };
 
     # Extra cosmetic mods.
     DynamicSurroundings = fetchCurse {
@@ -219,7 +228,7 @@ rec {
   };
 
   # This is where we add mods that weren't part of Bevos.
-  mods = bevos.mods // {
+  mods = bevos.mods // common-mods // {
     # TODO: The below has a hell of a lot of not-using-the-version-option.
     # Because it never works.
     # It should be possible to make use of the perl version-number parser to fix that.
@@ -228,22 +237,6 @@ rec {
     # actually matters. For everything else, it pretty much doesn't.
 
     # None at the moment.
-
-    # Server-side mods:
-    dynmap = mkMod {
-      name = "dynmapforge";
-      src = fetchurl {
-        url = https://bloxgaming.com/bloxgate/Dynmap-2.2-forge-1.7.10.jar;
-        sha256 = "d6391dc83af1cd2ec51ffceb4e6bb58bf1419a96336ca92360acfd90a91ce9b9";
-      };
-      side = "SERVER";
-    };
-
-    eirairc = fetchCurse {
-      name = "eirairc";
-      target = "eirairc-mc1.7.10-2.9.402.jar";
-      side = "SERVER";
-    };
 
     # Client-side:
     WhatsThisPack = fetchCurse {
