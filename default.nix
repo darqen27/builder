@@ -124,6 +124,8 @@ rec {
       required = false;
     };
 
+    GardenStuff = bevos.mods.GardenStuff;
+
     # Needed by StellarSky and Photoptics.
     StellarAPI = fetchCurse {
       name = "stellar-api";
