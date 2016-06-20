@@ -126,6 +126,12 @@ rec {
     #   };
     # };
 
+    # Extra paintings!
+    BiblioCraft = bibliocraftWithPaintings {
+      bibliocraft = tfp.mods.BiblioCraft;
+      paintings = ./extraPaintings;
+    };
+
     # Extra cosmetic mods.
     DynamicSurroundings = fetchCurse {
       name = "238891-dynamic-surroundings";
@@ -440,31 +446,9 @@ rec {
     #};
 
     # Adds extra paintings!
-    BiblioCraft = mkMod {
-      name = bevos.mods.BiblioCraft.name;
-
-      src = mkDerivation {
-        name = "BiblioCraft-tampered";
-
-        src = bevos.mods.BiblioCraft;
-        extraPaintings = ./extraPaintings;
-
-        buildInputs = [ zip imagemagick ];
-
-        builder = mkBuilder ''
-          cp "$(find $src -name \*.jar)" tmp.zip &
-          mkdir -p assets/bibliocraft/textures/custompaintings
-          pushd assets/bibliocraft/textures/custompaintings
-          for i in $(find $extraPaintings -type f); do
-            convert $i -resize '512x512>' $(echo $(basename $i) | sed 's/\..*//').png &
-          done
-          wait
-          popd
-          chmod u+w tmp.zip
-          zip -r tmp.zip assets
-          mv tmp.zip $out
-        '';
-      };
+    BiblioCraft = bibliocraftWithPaintings {
+      bibliocraft = bevos.mods.BiblioCraft;
+      paintings = ./extraPaintings;
     };
   };
 

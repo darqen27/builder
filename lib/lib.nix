@@ -204,6 +204,36 @@ rec {
     });
   };
 
+  ## Modifies Bibliocraft to add paintings, yay!
+  bibliocraftWithPaintings = {
+    bibliocraft,
+    paintings,
+  }: mkMod {
+    name = bibliocraft.name + "-tampered";
+    src = mkDerivation {
+        name = "BiblioCraft-tampered-jar";
+
+        src = bibliocraft;
+
+        buildInputs = [ zip imagemagick ];
+        inherit paintings;
+
+        builder = mkBuilder ''
+          cp "$(find $src -name \*.jar)" tmp.zip &
+          mkdir -p assets/bibliocraft/textures/custompaintings
+          pushd assets/bibliocraft/textures/custompaintings
+          for i in $(find $paintings -type f); do
+            convert $i -resize '512x512>' $(echo $(basename $i) | sed 's/\..*//').png &
+          done
+          wait
+          popd
+          chmod u+w tmp.zip
+          zip -r tmp.zip assets
+          mv tmp.zip $out
+        '';
+      };
+  };
+
 
   ## Fetching mods from Curse.
   
