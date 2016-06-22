@@ -144,18 +144,30 @@ rec {
       required = false;
     };
 
+    Optifine = mkMod {
+      name = "optifine";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/OptiFine_1.7.10_HD_U_D4.jar;
+        sha256 = "0h4920r69cfzfgyca6xv46m4ynbc2jb09ipvf3z5rb4a6jms3qqw";
+      };
+      side = "CLIENT";
+      required = false;
+    };
+        
+
     GardenStuff = bevos.mods.GardenStuff;
 
-    # Needed by StellarSky and Photoptics.
-    StellarAPI = fetchCurse {
-      name = "stellar-api";
-      target = "Stellar API v0.1.3.7b [1.7.10]";
-    };
-
-    StellarSky = fetchCurse {
-      name = "stellar-sky";
-      target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)";
-    };
+    # Stellar Sky is disabled for now, due to various apparent bugs and incompatibilities. Sorry~
+    #
+    # # Needed by StellarSky and Photoptics.
+    # StellarAPI = fetchCurse {
+    #   name = "stellar-api";
+    #   target = "Stellar API v0.1.3.7b [1.7.10]";
+    # };
+    # StellarSky = fetchCurse {
+    #   name = "stellar-sky";
+    #   target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)";
+    # };
 
     # Fastcraft conflicts with TickProfiler.
     TickProfiler = mkMod {
