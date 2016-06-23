@@ -12,6 +12,20 @@ fixperms() {
     find $1 -type d -exec chmod a+x {} +
 }
 
+if [[ -n $STY ]]; then
+    echo "Expected to run inside a screen session named @screenName@."
+    echo "Press enter if you know what you're doing, otherwise ctrl-c. Maintenance scripts will not be run."
+    read
+    EXTRAS=0
+elif [[ ${STY##*.} != @screenName@ ]]; then
+    echo "Expected to run inside a screen session named @screenName@."
+    echo "Actually running in ${STY##*.}."
+    echo "Aborting."
+    exit 1
+else
+    EXTRAS=1
+fi
+
 # Yes, we delete everything on every startup.
 # This is very much intended. To avoid redownloads, let's put anything that got downloaded
 # into the pack definition in default.nix.
@@ -33,25 +47,34 @@ done
 
 rm -f gc.log
 
-(
-  # TODO: Factor in scripts.sh
-  say() {
-    screen -S e12 -p 0 -X stuff  "$@"`echo -ne '\015'`
-  }
-  set +e
+say() {
+  screen -S @screenName@ -p 0 -X stuff  "$@"`echo -ne '\015'`
+}
 
-  sleep 30
-  while true; do
-    sleep 60
-    say 'save-on'
-    say 'save-all'
-#    sleep 5
-    say 'save-off'
-    sleep 1800
-  done
-) &
-spid=$!
-trap "kill $spid" EXIT
+antiChunkChurn() {
+    set +e
+    sleep 30
+    while true; do
+      sleep 60
+      say 'save-on'
+      say 'save-all'
+      # sleep 5
+      say 'save-off'
+      sleep 1800
+    done
+}
+
+killAllExtras() {
+    echo 'Killing all subprocesses...'
+    kill $(jobs -p)
+    wait
+}
+
+# TODO: Factor in scripts.sh, and other scripts.
+if [[ $EXTRAS -eq 1 ]]; then
+    trap killAllExtras EXIT
+    antiChunkChurn &
+fi
 
 java -d64 -server -mx10G \
   -Djava.net.preferIPv4Stack=true \

@@ -12,6 +12,7 @@ rec {
     forge,
     forgeMajor,
     mods,
+    screenName,
     extraDirs ? [],
     configPatches ? [],
   }: mkDerivation rec {
@@ -37,11 +38,15 @@ rec {
       inherit mods baseMinecraft;
     };
 
+    inherit screenName;
+
     builder = mkBuilder ''
       mkdir -p $out/mods
 
       rsync -a $src/ $out/
       chmod 0755 $out
+
+      substituteAllInPlace $out/start.sh
 
       ln -s $forge $out/forge-universal.jar
       ln -s $minecraft $out/minecraft_server.1.7.10.jar

@@ -205,6 +205,8 @@ rec {
       sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
     };
 
+    screenName = "e13";
+
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
     extraDirs = [
@@ -470,6 +472,8 @@ rec {
       major = forgeMajor; minor = forgeMinor;
       sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
     };
+
+    screenName = "e12";
 
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
