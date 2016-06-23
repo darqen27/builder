@@ -281,6 +281,7 @@ rec {
     packUrlBase ? "https://madoka.brage.info/pack",
     forgeMajor,
     forgeMinor,
+    hacks ? {},
   }: let
     serverUrlBase = packUrlBase + "/packs/" + serverId;
   in {
@@ -309,6 +310,7 @@ rec {
     serverDesc,
     server,
     port,
+    hacks ? {},
   }: mkDerivation rec {
     name = serverId + "-packdir";
 
