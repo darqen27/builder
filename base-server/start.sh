@@ -1,7 +1,7 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i bash -p jdk rsync screen --pure
 
-set -eux
+set -eu
 
 BASE=$(dirname $0)
 JAR=forge-universal.jar
@@ -12,7 +12,7 @@ fixperms() {
     find $1 -type d -exec chmod a+x {} +
 }
 
-if [[ -n $STY ]]; then
+if [[ -z ${STY:-} ]]; then
     echo "Expected to run inside a screen session named @screenName@."
     echo "Press enter if you know what you're doing, otherwise ctrl-c. Maintenance scripts will not be run."
     read
@@ -69,6 +69,8 @@ killAllExtras() {
     kill $(jobs -p)
     wait
 }
+
+set -x
 
 # TODO: Factor in scripts.sh, and other scripts.
 if [[ $EXTRAS -eq 1 ]]; then
