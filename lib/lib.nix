@@ -13,9 +13,10 @@ rec {
     forgeMajor,
     mods,
     screenName,
+    hacks ? {},
     extraDirs ? [],
     configPatches ? [],
-  }: mkDerivation rec {
+  }: mkDerivation (rec {
     inherit name;
 
     src = ../base-server;
@@ -57,7 +58,7 @@ rec {
         rsync -a $modDir/mods/ $out/mods/
       done
     '';
-  };
+  } // hacks);
 
   mkBaseMinecraft = {
     # Directories to copy in verbatim. Well, derivations.

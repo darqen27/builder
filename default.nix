@@ -41,6 +41,9 @@ rec {
       serverDesc = "Erisia #12: Vivat Apparatus";
       server = server;
       port = 25565;
+      hacks = {
+        enableAntiChunkChurn = true;
+      };
     };
 
     erisia-13 = {
@@ -474,6 +477,7 @@ rec {
     };
 
     screenName = "e12";
+    hacks = servers.erisia-12.hacks;
 
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.

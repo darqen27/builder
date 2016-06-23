@@ -65,9 +65,11 @@ antiChunkChurn() {
 }
 
 killAllExtras() {
-    echo 'Killing all subprocesses...'
-    kill $(jobs -p)
-    wait
+    if [[ -n "$(jobs -p)" ]]; then
+        echo 'Killing all subprocesses...'
+        kill $(jobs -p)
+        wait
+    fi
 }
 
 set -x
@@ -75,7 +77,7 @@ set -x
 # TODO: Factor in scripts.sh, and other scripts.
 if [[ $EXTRAS -eq 1 ]]; then
     trap killAllExtras EXIT
-    antiChunkChurn &
+    [[ "@enableAntiChunkChurn@" = "1" ]] && antiChunkChurn &
 fi
 
 java -d64 -server -mx10G \
