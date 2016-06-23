@@ -271,6 +271,7 @@ rec {
     serverId,
     serverDesc,
     server,
+    port,
     packUrlBase ? "https://madoka.brage.info/pack",
     forgeMajor,
     forgeMinor,
@@ -279,6 +280,7 @@ rec {
   in {
     serverId = serverId;
     serverDesc = serverDesc;
+    serverAddress = "madoka.brage.info:" + toString port;
     forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${forgeMajor}&forge=${forgeMinor}";
     mods = lib.mapAttrs (name: mod: let details = import mod; in {
       modId = name;
@@ -300,6 +302,7 @@ rec {
     serverId,
     serverDesc,
     server,
+    port,
   }: mkDerivation rec {
     name = serverId + "-packdir";
 
