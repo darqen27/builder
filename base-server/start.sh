@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jdk rsync screen at
+#!nix-shell -i bash -p jdk rsync screen
 
 set -eu
 
