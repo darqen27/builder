@@ -35,7 +35,12 @@
                 <xsl:value-of select="attrs/attr[@name='side']/string/@value" />
               </xsl:attribute>
               <URL><xsl:value-of select="attrs/attr[@name='url']/string/@value" /></URL>
-              <Required><xsl:value-of select="attrs/attr[@name='required']/bool/@value" /></Required>
+              <Required>
+                <xsl:attribute name='isDefault'>
+                  <xsl:value-of select="attrs/attr[@name='isDefault']/bool/@value" />
+                </xsl:attribute>
+                <xsl:value-of select="attrs/attr[@name='required']/bool/@value" />
+              </Required>
               <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
               <ModType><xsl:value-of select="attrs/attr[@name='modtype']/string/@value" /></ModType>
               <ModPath><xsl:value-of select="attrs/attr[@name='modpath']/string/@value" /></ModPath>

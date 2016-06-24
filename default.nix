@@ -80,6 +80,7 @@ rec {
       DynamicLights = {
         side = "CLIENT";
         required = false;
+        isDefault = true;
       };
       MobDismemberment = {
         side = "CLIENT";
@@ -90,17 +91,21 @@ rec {
       ArmorStatusHUD = {
         side = "CLIENT";
         required = false;
+        isDefault = true;
       };
       DamageIndicatorsMod = {
         side = "CLIENT";
         required = false;
+        isDefault = true;
       };
       fastcraft = {
         required = false;
         side = "CLIENT";
+        isDefault = true;
       };
       journeymap = {
         required = false;
+        isDefault = true;
       };
     };
   };
@@ -143,6 +148,7 @@ rec {
       target = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
       side = "CLIENT";
       required = false;
+      isDefault = true;
     };
 
     Shaders = mkMod {
@@ -163,6 +169,7 @@ rec {
       };
       side = "CLIENT";
       required = false;
+      isDefault = true;
     };
         
 
@@ -279,6 +286,7 @@ rec {
       target = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
       side = "CLIENT";
       required = false;
+      isDefault = true;
     };
 
     # StellarSky = fetchCurse {

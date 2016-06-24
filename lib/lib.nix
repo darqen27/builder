@@ -120,6 +120,7 @@ rec {
 
     side = "BOTH";
     required = true;
+    isDefault = false;
     modtype = "Regular";
     modpath = self.name + ".jar";
   } // self);
@@ -249,7 +250,8 @@ rec {
       # This is bloody useless. This whole thing could use a rewrite. It'll do for now.
       target ? name + "-1.7.10-" + version + ".jar",
       side ? "BOTH",
-      required ? true
+      required ? true,
+      isDefault ? false,
   }: let
     curse = "http://minecraft.curseforge.com";
     fullName = builtins.replaceStrings ["-" "(" ")"] ["" "_" "_"] name + "-" + version;
@@ -268,7 +270,7 @@ rec {
         url = download.url;
         md5 = download.md5;
       };
-      inherit side required;
+      inherit side required isDefault;
     };
 
   ## Server-pack builder:
@@ -295,6 +297,7 @@ rec {
       modpath = "mods/" + details.modpath;
       side = mod.side;
       required = mod.required;
+      isDefault = mod.isDefault;
       modtype = mod.modtype;
       md5 = details.md5;
     }) server.mods;
