@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jdk rsync screen
+#!nix-shell -i bash -p jdk rsync screen at
 
 set -eu
 
@@ -51,6 +51,8 @@ say() {
   screen -S @screenName@ -p 0 -X stuff  "$@"`echo -ne '\015'`
 }
 
+
+## Maintenance scripts ##
 antiChunkChurn() {
     set +e
     sleep 30
@@ -62,6 +64,10 @@ antiChunkChurn() {
       say 'save-off'
       sleep 1800
     done
+}
+
+dailyRestart() {
+    at 06:00 -f <(echo "kill $$")
 }
 
 killAllExtras() {
@@ -78,6 +84,7 @@ set -x
 if [[ $EXTRAS -eq 1 ]]; then
     trap killAllExtras EXIT
     [[ "@enableAntiChunkChurn@" = "1" ]] && antiChunkChurn &
+    dailyRestart
 fi
 
 java -d64 -server -mx10G \
