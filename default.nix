@@ -30,6 +30,15 @@ let
       target = "eirairc-mc1.7.10-2.9.402.jar";
       side = "SERVER";
     };
+    
+    PrometheusIntegration = mkMod {
+      name = "PrometheusIntegration-1.1.0";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
+        sha256 = "04i2l2h2dqsbz8gri7ihkhdsrqpn2g3kfyh1swp45vivvl6f9fa3";
+      };
+      side = "SERVER";
+    };
   };
 in
 
@@ -353,15 +362,6 @@ rec {
         url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
         sha256 = "c5d7e665f743f8e7122b551b0f11c335b1e7dfc8a021acbfd7d2edddc1bbe374";
       };
-    };
-    
-    PrometheusIntegration = mkMod {
-      name = "PrometheusIntegration-1.1.0";
-      src = fetchurl {
-        url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
-        sha256 = "04i2l2h2dqsbz8gri7ihkhdsrqpn2g3kfyh1swp45vivvl6f9fa3";
-      };
-      side = "SERVER";
     };
 
     Agricraft = fetchCurse {
