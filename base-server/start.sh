@@ -67,22 +67,25 @@ antiChunkChurn() {
 }
 
 dailyRestart() {
-    at 06:00 -f <(echo "kill $$")
+    # Restart the server at 06:00, and.. save the job ID in case we exit sooner.
+    # Don't want to kill random processes.
+    RESTARTJOB=$(at 06:00 -f <(echo "kill $$") 2>&1 | grep '^job ' | sed -r 's/job //; s/ at.*//')
 }
 
-killAllExtras() {
+cleanup() {
     if [[ -n "$(jobs -p)" ]]; then
         echo 'Killing all subprocesses...'
         kill $(jobs -p)
         wait
     fi
+    atrm $RESTARTJOB
 }
 
 set -x
 
 # TODO: Factor in scripts.sh, and other scripts.
 if [[ $EXTRAS -eq 1 ]]; then
-    trap killAllExtras EXIT
+    trap cleanup EXIT
     [[ "@enableAntiChunkChurn@" = "1" ]] && antiChunkChurn &
     dailyRestart
 fi
