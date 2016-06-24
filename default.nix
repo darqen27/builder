@@ -35,7 +35,7 @@ let
       name = "PrometheusIntegration-1.1.0";
       src = fetchurl {
         url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
-        sha256 = "04i2l2h2dqsbz8gri7ihkhdsrqpn2g3kfyh1swp45vivvl6f9fa3";
+        sha256 = "b38cdb14dd571fc6e257737d2c5464ec8b9f1fbf942b4da2bfab736dd309f247";
       };
       side = "SERVER";
     };
