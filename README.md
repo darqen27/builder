@@ -1,4 +1,4 @@
-# Erisia server-builder <img align="right" src="https://travis-ci.org/Erisia/builder.svg?branch=master">
+# Erisia server-builder <a href="https://travis-ci.org/Erisia/builder"><img align="right" src="https://travis-ci.org/Erisia/builder.svg?branch=master"></a>
 Build scripts for the server
 
 Make a server directory, then run update-and-start.sh using its relative path. Example:
