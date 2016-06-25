@@ -60,7 +60,7 @@ antiChunkChurn() {
       sleep 60
       say 'save-on'
       say 'save-all'
-      # sleep 5
+      sleep @saveTime@
       say 'save-off'
       sleep 1800
     done

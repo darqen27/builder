@@ -79,6 +79,7 @@ rec {
       port = 25565;
       hacks = {
         enableAntiChunkChurn = true;
+        saveTime = 0;
       };
     };
 
@@ -87,6 +88,10 @@ rec {
       serverDesc = "Erisia #13: Ave Dolor";
       server = tfp-server;
       port = 25566;
+      hacks = {
+        enableAntiChunkChurn = true;
+        saveTime = 15;
+      };
     };
   };
 
@@ -249,6 +254,7 @@ rec {
     };
 
     screenName = "e13";
+    hacks = servers.erisia-13.hacks;
 
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
