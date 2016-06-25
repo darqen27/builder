@@ -194,15 +194,15 @@ rec {
       isDefault = true;
     };
 
-    Shaders = mkMod {
-      name = "shaders";
-      src = fetchurl {
-        url = http://www.karyonix.net/shadersmod/files/ShadersModCore-v2.3.31-mc1.7.10-f.jar;
-        sha256 = "1a5wz4haa6639asrskraj1vdafi7f16gv9dib9inqsjdc9hvkv3j";
-      };
-      side = "CLIENT";
-      required = false;
-    };
+    # Shaders = mkMod {
+    #   name = "shaders";
+    #   src = fetchurl {
+    #     url = http://www.karyonix.net/shadersmod/files/ShadersModCore-v2.3.31-mc1.7.10-f.jar;
+    #     sha256 = "1a5wz4haa6639asrskraj1vdafi7f16gv9dib9inqsjdc9hvkv3j";
+    #   };
+    #   side = "CLIENT";
+    #   required = false;
+    # };
 
     Optifine = mkMod {
       name = "optifine";
