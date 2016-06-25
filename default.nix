@@ -48,6 +48,24 @@ let
       };
       side = "SERVER";
     };
+
+    ElectricalAge = mkMod rec {
+      ver = "51.15";
+      name = "ElectricalAge-${ver}";
+      src = fetchurl {
+        url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
+        sha256 = "c5d7e665f743f8e7122b551b0f11c335b1e7dfc8a021acbfd7d2edddc1bbe374";
+      };
+    };
+
+    TickProfiler = mkMod {
+      name = "TickProfiler-1.7.10-jenkins-30";
+      src = fetchurl {
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.30.jar;
+        sha256 = "1b23jl3xf354nm7x9dmyr9wgj444v26xy6c8v69vxzv0bmayh49q";
+      };
+      side = "SERVER";
+    };
   };
 in
 
@@ -191,7 +209,6 @@ rec {
       required = false;
       isDefault = true;
     };
-        
 
     GardenStuff = bevos.mods.GardenStuff;
 
@@ -211,16 +228,6 @@ rec {
         url = https://madoka.brage.info/baughn/weather2-1.7.10-2.3.10.jar;
         sha256 = "edca9d4adff5dcf090b7f9cd370d80ee978646fe72dd6487bd05663b2883164b";
       };
-    };
-
-    # Fastcraft conflicts with TickProfiler.
-    TickProfiler = mkMod {
-      name = "TickProfiler-1.7.20-jenkins-29";
-      src = fetchurl {
-        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.30.jar;
-        sha256 = "1b23jl3xf354nm7x9dmyr9wgj444v26xy6c8v69vxzv0bmayh49q";
-      };
-      side = "SERVER";
     };
   };
 
@@ -346,15 +353,6 @@ rec {
       target = "MobiusCore-1.2.5_1.7.10.jar";
       required = false;
     };
-
-    TickProfiler = mkMod {
-      name = "TickProfiler-1.7.20-jenkins-29";
-      src = fetchurl {
-        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.29.jar;
-        sha256 = "10k8h6aybaswvqbxpqn3rrka929dacfra2n9g7l6knzym8k3ghp3";
-      };
-      side = "SERVER";
-    };
     
     ImmibisCore = mkMod {
       name = "ImmibisCore-59.1.4";
@@ -369,15 +367,6 @@ rec {
       src = fetchurl {
         url = https://madoka.brage.info/baughn/DimensionalAnchors-59.0.3.jar;
         md5 = "65669c1fab43ae1d3ef41a659fdd530c";
-      };
-    };
-
-    ElectricalAge = mkMod rec {
-      ver = "51.15";
-      name = "ElectricalAge-${ver}";
-      src = fetchurl {
-        url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
-        sha256 = "c5d7e665f743f8e7122b551b0f11c335b1e7dfc8a021acbfd7d2edddc1bbe374";
       };
     };
 
