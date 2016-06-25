@@ -203,7 +203,7 @@ rec {
     };
     StellarSky = fetchCurse {
       name = "stellar-sky";
-      target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)";
+      target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)  (Final for 1.7.10)";
     };
     Weather = mkMod {
       name = "Weather-2.3.10";
@@ -217,8 +217,8 @@ rec {
     TickProfiler = mkMod {
       name = "TickProfiler-1.7.20-jenkins-29";
       src = fetchurl {
-        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.29.jar;
-        sha256 = "10k8h6aybaswvqbxpqn3rrka929dacfra2n9g7l6knzym8k3ghp3";
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.30.jar;
+        sha256 = "1b23jl3xf354nm7x9dmyr9wgj444v26xy6c8v69vxzv0bmayh49q";
       };
       side = "SERVER";
     };
