@@ -1,5 +1,4 @@
-with import <nixpkgs> {};
-with stdenv;
+{ runCommand, jekyll }:
 
 runCommand "erisia-website" {
   src = builtins.filterSource

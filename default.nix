@@ -76,6 +76,8 @@ rec {
     inherit forgeMajor forgeMinor servers;
   };
 
+  web = callPackage ./web {};
+
   ## TerraFirmaPunk ##
 
   tfp = mkBasePack {
