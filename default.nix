@@ -196,16 +196,22 @@ rec {
     GardenStuff = bevos.mods.GardenStuff;
 
     # Stellar Sky is disabled for now, due to various apparent bugs and incompatibilities. Sorry~
-    #
-    # # Needed by StellarSky and Photoptics.
-    # StellarAPI = fetchCurse {
-    #   name = "stellar-api";
-    #   target = "Stellar API v0.1.3.7b [1.7.10]";
-    # };
-    # StellarSky = fetchCurse {
-    #   name = "stellar-sky";
-    #   target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)";
-    # };
+    # Needed by StellarSky and Photoptics.
+    StellarAPI = fetchCurse {
+      name = "stellar-api";
+      target = "Stellar API v0.1.3.7b [1.7.10]";
+    };
+    StellarSky = fetchCurse {
+      name = "stellar-sky";
+      target = "Stellar Sky v0.1.5.7[1.7.10] (Stellar API v0.1.3.7)";
+    };
+    Weather = mkMod {
+      name = "Weather-2.3.10";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/weather2-1.7.10-2.3.10.jar;
+        sha256 = "edca9d4adff5dcf090b7f9cd370d80ee978646fe72dd6487bd05663b2883164b";
+      };
+    };
 
     # Fastcraft conflicts with TickProfiler.
     TickProfiler = mkMod {
