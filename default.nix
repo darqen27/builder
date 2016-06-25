@@ -39,6 +39,15 @@ let
       };
       side = "SERVER";
     };
+
+    Terminator = mkMod {
+      name = "Terminator-1.0";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/terminator-1.0.jar;
+        sha256 = "8b56b632d09eeb24c52bfeb4fda576f99490c97d8d26f88cd489869c4dc38c95";
+      };
+      side = "SERVER";
+    };
   };
 in
 
