@@ -66,7 +66,7 @@ rec {
 
     erisia-13 = {
       serverId = "erisia-13";
-      serverDesc = "Testing: (Ave Dolor)";
+      serverDesc = "Erisia #13: Ave Dolor";
       server = tfp-server;
       port = 25566;
     };
