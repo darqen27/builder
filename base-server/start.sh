@@ -69,7 +69,7 @@ antiChunkChurn() {
 dailyRestart() {
     while true; do
       sleep 45
-      if [[ $(date +%R = 06:00 ]]; then
+      if [[ $(date +%R) = 06:00 ]]; then
         ./stop.sh
         exit
       fi
