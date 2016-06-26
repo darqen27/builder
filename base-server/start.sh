@@ -82,7 +82,6 @@ cleanup() {
         kill $(jobs -p)
         wait
     fi
-    atrm $RESTARTJOB
 }
 
 set -x
