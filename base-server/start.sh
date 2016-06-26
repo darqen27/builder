@@ -67,9 +67,13 @@ antiChunkChurn() {
 }
 
 dailyRestart() {
-    # Restart the server at 06:00, and.. save the job ID in case we exit sooner.
-    # Don't want to kill random processes.
-    RESTARTJOB=$(at 06:00 -f <(echo "kill $$") 2>&1 | grep '^job ' | sed -r 's/job //; s/ at.*//')
+    while true; do
+      sleep 45
+      if [[ $(date +%R = 06:00 ]]; then
+        ./stop.sh
+        exit
+      fi
+    done
 }
 
 cleanup() {
@@ -87,7 +91,7 @@ set -x
 if [[ $EXTRAS -eq 1 ]]; then
     trap cleanup EXIT
     [[ "@enableAntiChunkChurn@" = "1" ]] && antiChunkChurn &
-    dailyRestart
+    dailyRestart &
 fi
 
 java -d64 -server -mx10G \
