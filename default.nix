@@ -274,10 +274,10 @@ rec {
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
       # No, don't lock people out if they die. :'(
       ''sed -i hqm/hqmconfig.cfg -e 's/B:"Auto-start hardcore mode"=true/B:"Auto-start hardcore mode"=false/' ''
-      # Avoid spawning certain Steamcraft blocks through Ruins, as they cause rendering glitches.
+      # Avoid spawning Steamcraft blocks, because they kill TPS and glitch rendering.
       ''cd ../mods/resources/ruins/
         chmod -R u+w .
-        find . -type f -print0 | xargs -0 sed -ri 's/,Steamcraft:(boilerOn|hammer|horn|meter|ruptureDisc)(-[0-9]+)?/,air/g' ''
+        find . -type f -print0 | xargs -0 sed -ri 's/,Steamcraft:[^,]+/,air/g' ''
     ];
   };
 
