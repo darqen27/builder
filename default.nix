@@ -264,6 +264,7 @@ rec {
       (tfp.getDir "mods/resources")
       (bevos.getDir "libraries")
       tfp-resourcepack
+      ./base
     ];
 
     # These are applied after everything else.
