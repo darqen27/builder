@@ -150,6 +150,11 @@ rec {
         required = false;
         isDefault = true;
       };
+      HQM-The_Journey = {
+        required = false;
+        isDefault = true;
+        side = "CLIENT";
+      };
     };
   };
 
@@ -279,6 +284,9 @@ rec {
       ''cd ../mods/resources/ruins/
         chmod -R u+w .
         find . -type f -print0 | xargs -0 sed -ri 's/,Steamcraft:[^,]+/,air/g' ''
+      # We've diked out HQM. Remove its drops.
+      ''find MobProperties -name \*.json -print0 \
+          | xargs -0 sed -ri 's/HardcoreQuesting:[^"]+/terrafirmacraft:Torch/g' ''
     ];
   };
 
