@@ -89,8 +89,8 @@ rec {
       server = tfp-server;
       port = 25566;
       hacks = {
-        enableAntiChunkChurn = true;
-        saveTime = 15;
+        enableAntiChunkChurn = false;
+        saveTime = 45;
       };
     };
   };
