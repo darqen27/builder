@@ -1,7 +1,7 @@
 source $stdenv/setup
 
 # https://github.com/NixOS/nixpkgs/issues/13744
-unset SSL_CERT_FILE
+export SSL_CERT_FILE=${cacert}/etc/ssl/certs/ca-bundle.crt
 
 CURL="curl -LA MCPackBuilder"
 XIDEL="xidel --output-format=bash"
