@@ -93,6 +93,17 @@ rec {
         saveTime = 45;
       };
     };
+    
+    erisia-14 = {
+      serverId = "erisia-14";
+      serverDesc = "Erisia #14: TBD";
+      server = mm-server;
+      port = 25565;
+      hacks = {
+        enableAntiChunkChurn = false;
+        saveTime = 45;
+      };
+    };
   };
 
   ServerPack = mkServerPack {
@@ -547,5 +558,238 @@ rec {
 
     ];
   };
+  
+    ## Modular Mayhem ##
 
+  mm = mkBasePack {
+    src = fetchzip {
+      url = https://madoka.brage.info/ModularMayhem.zip;
+      sha256 = "0yv9dy6ligxjn1jr5fbai2216hzhx84lgym5v5slni6pszcjlvnh";
+    };
+    
+    modConfig = {
+      Opis = {
+        required = false;
+      };
+      fastcraft = {
+        required = false;
+        side = "CLIENT";
+        isDefault = true;
+      };
+      journeymap = {
+        required = false;
+        isDefault = true;
+      };
+    };
+  };
+
+  mm-mods = (builtins.removeAttrs mm.mods [
+  	"GalacticraftCore"
+  	"Galacticraft-Planets"
+  	"GalaxySpace"
+  	"MicdoodleCore"
+  ]
+  	) // {
+#  	) // common-mods // {
+    # Libraries.
+#    ForgeMultiPart = mkMod {
+#      name = "ForgeMultiPart-1.7.10";
+#      src = fetchurl {
+#        url = http://files.minecraftforge.net/maven/codechicken/ForgeMultipart/1.7.10-1.2.0.347/ForgeMultipart-1.7.10-1.2.0.347-universal.jar;
+#        sha256 = "0r3mgss1fakbrrkiifrf06dcdwnxbwsryiiw0l2k4sbjvk58hah0";
+#      };
+#    };
+
+    Botania = fetchCurse {
+      name = "botania";
+      version = "1.8-249";
+      target = "Botania r1.8-249.jar";
+    };
+    
+    Witchery = fetchCurse {
+      name = "witchery";
+      version = "0.24.1";
+    };
+    
+    BloodMagic = fetchCurse {
+      name = "blood-magic";
+      version = "1.3.3-17";
+      target = "BloodMagic-1.7.10-1.3.3-17.jar";
+    };
+
+    GuideAPI = fetchCurse {
+      name = "guide-api";
+      version = "1.0.1-29";
+      target = "Guide-API - 1.0.1-29";
+    };
+    
+    Sanguimancy = fetchCurse {
+      name = "sanguimancy";
+      version = "1.1.9-35";
+      target = "Sanguimancy-1.7.10-1.1.9-35.jar";
+    };
+    
+    Totemic = fetchCurse {
+      name = "Totemic";
+      version = "0.6.2";
+    };
+    
+    inpurecore = fetchCurse {
+      name = "inpurecore";
+      version = "1.0.0B9-62";
+      target = "INpureCore-[1.7.10]1.0.0B9-62.jar";
+    };
+    
+    modtweaker = fetchCurse {
+      name = "modtweaker";
+      version = "2-0.9.6";
+      target = "ModTweaker2 - 0.9.6";
+    };
+
+	### Terraingen - start
+    RTG = fetchCurse {
+      name = "realistic-terrain-generation";
+      version = "1.1.1";
+      target = "RTG-1.7.10-1.1.1";
+    };
+    
+    Natura = fetchCurse {
+      name = "natura";
+      version = "2.2.0.1";
+    };
+    ### Terraingen - end
+    
+    ### Nice looking stuff - start
+    GardenStuff = bevos.mods.GardenStuff;
+ 
+    ### Nice looking stuff - end
+    
+    ### Project Red stuff - start 
+    ProjectRedCore = fetchCurse {
+      name = "project-red-base";
+      version = "4.7.0pre12.95";
+      target = "ProjectRed-1.7.10-4.7.0pre12.95-Base.jar";
+    };
+
+    ProjectRedCompat = fetchCurse {
+      name = "project-red-compat";
+      version = "4.7.0pre12.95";
+      target = "ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar";
+    };
+    
+    ProjectRedLighting = fetchCurse {
+      name = "project-red-lighting";
+      version = "4.7.0pre12.95";
+      target = "ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar";
+    };
+    
+    ProjectRedIntegration = fetchCurse {
+      name = "project-red-integration";
+      version = "4.7.0pre12.95";
+      target = "ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar";
+    };
+    
+    ### Project Red stuff - end
+    
+    ### temporary - will be replaced by common-mods
+    chunkgen = mkMod {
+      name = "chunkgen-1.2.4-dev";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/chunkgen-1.7.10-1.2.3+10.jar;
+        sha256 = "0pd77rzghp3fh1pnvk7paws2ksk6alx0riar9wk2b4g67wmn8sn6";
+      };
+      side = "SERVER";
+    };
+
+    eirairc = fetchCurse {
+      name = "eirairc";
+      target = "eirairc-mc1.7.10-2.9.402.jar";
+      side = "SERVER";
+    };
+    
+    PrometheusIntegration = mkMod {
+      name = "PrometheusIntegration-1.1.0";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
+        sha256 = "b38cdb14dd571fc6e257737d2c5464ec8b9f1fbf942b4da2bfab736dd309f247";
+      };
+      side = "SERVER";
+    };
+
+    Terminator = mkMod {
+      name = "Terminator-1.0";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/terminator-1.0.jar;
+        sha256 = "8b56b632d09eeb24c52bfeb4fda576f99490c97d8d26f88cd489869c4dc38c95";
+      };
+      side = "SERVER";
+    };
+
+    ElectricalAge = mkMod rec {
+      ver = "51.19";
+      name = "ElectricalAge-${ver}";
+      src = fetchurl {
+        url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
+        sha256 = "7d0cda0e505fccee5fe97489316ce50c1917e14573fe53802d85e5309008726f";
+      };
+    };
+
+    TickProfiler = mkMod {
+      name = "TickProfiler-1.7.10-jenkins-32";
+      src = fetchurl {
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.32.jar;
+        sha256 = "2672088dfc035bf02e3ec1bf16f2070c05b43ca92cfd2492aaee2ad9b398ac1d";
+      };
+      side = "SERVER";
+    };
+    #### End of temporary
+    
+    #update outdated mods
+#    DragonAPI = fetchCurse {
+#      name = "dragonapi";
+#      version = "1.7.10-V15a";
+#      target = "DragonAPI 1.7.10 V15a.jar";
+#    };
+#    
+#	ChromatiCraft = fetchCurse {
+#      name = "chromaticraft";
+#      version = "1.7.10-V15a";
+#      target = "ChromatiCraft 1.7.10 V15a.jar";
+#    };
+  };
+
+
+  mm-server = mkServer {
+    name = "erisia-14";
+
+    mods = mm-mods;
+
+    inherit forgeMajor;
+    forge = fetchForge {
+      major = forgeMajor; minor = forgeMinor;
+      sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
+    };
+
+    screenName = "e14";
+    hacks = servers.erisia-14.hacks;
+
+    # These are applied in order. In case of overwrites nothing is deleted.
+    # They're also copied to the client, after applying the below patches.
+    extraDirs = [
+      (mm.getDir "config")
+      (mm.getDir "scripts")
+      (bevos.getDir "libraries")
+      ./base
+      ./base-e14
+    ];
+
+    # These are applied after everything else.
+    # And in order, if it matters.
+    # TODO: Write something that understands what it's doing.
+    configPatches = [
+      # Keep the SD behaviour we're used to.
+      ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+    ];
+  };
 }
+
