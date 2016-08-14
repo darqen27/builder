@@ -261,7 +261,7 @@ rec {
 
       buildInputs = [ curl xidel ];
 
-      inherit curse filesUrl target;
+      inherit curse filesUrl target cacert;
       builder = ./fetchCurse.sh;
     });
     in mkMod {
