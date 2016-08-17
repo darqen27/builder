@@ -144,6 +144,21 @@ rec {
   	"GalaxySpace"
   	"MicdoodleCore"
   ]) // common-mods // {
+    # Paintings!
+    BiblioCraft = bibliocraftWithPaintings {
+      bibliocraft = mm.mods.BiblioCraft;
+      paintings = ./extraPaintings;
+    };
+
+    # Remove the outdated ComputerCraft API so ChromatiCraft won't crash.
+    EngineersToolbox = removeAPI {
+      mod = mm.mods.EngineersToolbox;
+      path = "dan200";
+    };
+    tardismod = removeAPI {
+      mod = mm.mods.tardismod;
+      path = "dan200";
+    };
   };
 
   mm-server = mkServer {

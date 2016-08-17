@@ -274,6 +274,22 @@ rec {
       };
   };
 
+  # Removes a subtree of a zip. Such as APIs.
+  removeAPI = { mod, path }: mkMod {
+    name = mod.name + "-tampered";
+    src = mkDerivation {
+      name = mod.name + "-tampered-jar";
+      src = mod;
+      buildInputs = [ zip ];
+      inherit path;
+      builder = mkBuilder ''
+        cp "$(find $src -name \*.jar)" tmp.zip
+        chmod u+w tmp.zip
+        zip -d tmp.zip $path/\*
+        mv tmp.zip $out
+      '';
+    };
+  };
 
   ## Fetching mods from Curse.
   
