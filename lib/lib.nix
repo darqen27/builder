@@ -159,7 +159,7 @@ rec {
           my $version = shift;
           $base =~ s/ /_/g; 
           $base =~ s/'//g;
-          $version =~ s/[\[\]()]/_/g;
+          $version =~ s/[\[\]() ]/_/g;
           $version =~ s/^[-_]//;
           print "  $base = {\n";
           print "    name = \"$base-$version\";\n";
@@ -205,7 +205,7 @@ rec {
         grep ^ERROR: $out && exit 1 || true
       '';
     };
-    
+
     mods = lib.mapAttrs splitMod (import baseModsNix);
 
     splitMod = name: mod: mkMod ((cfg.modConfig.${name} or {}) // {
@@ -213,6 +213,35 @@ rec {
       src = cfg.src + mod.path;
       modpath = builtins.baseNameOf mod.path;
     });
+  };
+
+  ## Curse-based base pack generation ##
+  mkCursePack = {
+    manifest, updates, modConfig ? {}
+  }: rec {
+    pack = mkDerivation {
+      name = "modpack";
+      buildInputs = [ unzip rsync ];
+      inherit manifest updatedMods;
+      builder = mkBuilder ''
+        unzip "$manifest"
+        mkdir $out
+        rsync -a overrides/ $out/
+        for mod in $updatedMods; do
+          find $mod -mindepth 1 -maxdepth 1 -exec ln -s {} $out/mods/ \;
+        done
+        ls $out/mods/
+      '';
+    };
+    updatedMods = map updatedMod updates;
+    updatedMod = { name, url, md5, filename }: mkDerivation {
+      inherit name filename;
+      src = fetchurl { inherit url md5; };
+      builder = mkBuilder ''
+        mkdir $out
+        ln -s "$src" "$out"/"$filename"
+      '';
+    };
   };
 
   ## Modifies Bibliocraft to add paintings, yay!

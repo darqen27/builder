@@ -1,0 +1,19 @@
+{
+  "files": [
+      { "projectID": "botania" },    
+      { "projectID": "witchery" },    
+      { "projectID": "blood-magic" },
+      { "projectID": "guide-api" },    
+      { "projectID": "sanguimancy" },    
+      { "projectID": "Totemic" },    
+      { "projectID": "inpurecore" },    
+      { "projectID": "modtweaker" },
+      { "projectID": "realistic-terrain-generation" },    
+      { "projectID": "natura" },
+      { "projectID": "project-red-base" },
+      { "projectID": "project-red-compat" },    
+      { "projectID": "project-red-lighting" },    
+      { "projectID": "project-red-integration" },
+      { "projectID": "garden-stuff" }
+  ]
+}
