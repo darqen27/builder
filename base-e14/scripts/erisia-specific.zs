@@ -26,3 +26,12 @@ val ecMagicalWings = <essentialcraft:magicalWings>;
 recipes.removeShaped(anyAngelRing);
 
 recipes.addShaped(angelRingInvisible,[[flugelTiara,null,flugelTiara],[dawnInscriptionTool,null,dawnInscriptionTool],[null,ecMagicalWings,null]]);
+
+### Now Healing axe troll
+val healingAxe = <ExtraUtilities:defoliageAxe>;
+val unstableBlock = <ore:blockUnstable>;
+val soulRunicPlate = <AWWayofTime:bloodMagicBaseItems:30>;
+val gaiaGuardianHead = <Botania:gaiaHead>;
+
+recipes.remove(healingAxe);
+recipes.addShaped(healingAxe,[[unstableBlock,gaiaGuardianHead,unstableBlock],[null,soulRunicPlate,null],[null,soulRunicPlate,null]]);
