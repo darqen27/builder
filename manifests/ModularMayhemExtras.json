@@ -1,5 +1,9 @@
 {
   "files": [
+      { "projectID": "pams-harvestcraft" },
+      { "projectID": "applecore" },
+      { "projectID": "jaffa-foods-a-harvestcraft-addon" },
+      { "projectID": "the-spice-of-life" },
       { "projectID": "smart-moving" },
       { "projectID": "smart-render" },
       { "projectID": "player-api" },
