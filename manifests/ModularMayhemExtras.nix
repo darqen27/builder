@@ -48,12 +48,6 @@
     md5 = "157633c119127d9d0112a7b9f8c2c334";
   }
   {
-    name = "RTG-1.7.10-1.1.1";
-    filename = "RTG-1.7.10-1.1.1.jar";
-    url = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2319524/download";
-    md5 = "88b73ebbf92f06a2988a65bc0912dba9";
-  }
-  {
     name = "natura-1.7.10-2.2.1a2.jar";
     filename = "natura-1.7.10-2.2.1a2.jar";
     url = "https://minecraft.curseforge.com/projects/natura/files/2257670/download";

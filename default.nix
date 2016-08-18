@@ -179,6 +179,13 @@ rec {
       mod = mm.mods.tardismod;
       path = "dan200";
     };
+
+    # Terrain generation:
+    # These should generally *not* be updated, as it'd break the terrain.
+    RTG = fetchCurse {
+      name = "realistic-terrain-generation";
+      target = "RTG-1.7.10-1.1.1";
+    };
   };
 
   mm-server = mkServer {
