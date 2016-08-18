@@ -212,19 +212,6 @@ rec {
       name = "roguelike-dungeons";
       target = "roguelike-1.7.10-1.5.0b.jar";
     };
-    CaveBiomes = fetchCurse {
-      name = "wtfs-expedition-cavebiomes-ores-trees-and-tweaks";
-      target = "WTFCaveBiomes-1.7.10_v1.6.jar";
-    };
-    # CaveBiomes dependency.
-    WTFCore = fetchCurse {
-      name = "wtfcore";
-      target = "WTFCore-1.7.10_v1.7.jar";
-    };
-    TextureGeneratorLib = fetchCurse {
-      name = "wtfs-texturegeneratorlib";
-      target = "TextureGeneratorLib-1.7.10_vBeta1.jar";
-    };
   };
 
   mm-server = mkServer {
