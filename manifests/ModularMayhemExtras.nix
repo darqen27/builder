@@ -6,6 +6,12 @@
     md5 = "1bc053443cdf15aea99bb4e433c20c79";
   }
   {
+    name = "Smart_Render_version_2.1_for_Minecraft_1.7.10";
+    filename = "Smart Render version 2.1 for Minecraft 1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/smart-render/files/2248949/download";
+    md5 = "be355043a11bde3beaf204a7cae942b7";
+  }
+  {
     name = "Player_API_version_1.4_for_Minecraft_1.7.10";
     filename = "Player API version 1.4 for Minecraft 1.7.10.jar";
     url = "https://minecraft.curseforge.com/projects/player-api/files/2248928/download";

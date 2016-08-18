@@ -1,6 +1,7 @@
 {
   "files": [
       { "projectID": "smart-moving" },
+      { "projectID": "smart-render" },
       { "projectID": "player-api" },
       { "projectID": "render-player-api" },
       { "projectID": "botania" },    
