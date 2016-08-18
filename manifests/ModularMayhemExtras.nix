@@ -131,4 +131,10 @@
     url = "https://minecraft.curseforge.com/projects/project-red-integration/files/2280731/download";
     md5 = "0a4a94ed01d34d7dcca33c9ca54f674d";
   }
+  {
+    name = "notenoughwands-1.2.3.jar";
+    filename = "notenoughwands-1.2.3.jar";
+    url = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2266560/download";
+    md5 = "f47a29b421966abb212a3d606608af27";
+  }
 ]
