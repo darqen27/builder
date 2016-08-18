@@ -212,6 +212,13 @@ rec {
       name = "roguelike-dungeons";
       target = "roguelike-1.7.10-1.5.0b.jar";
     };
+
+    # Pin to the stable AE2 version.
+    # (Beta causes CC crashes.)
+    appliedenergistics2 = fetchCurse {
+      name = "applied-energistics-2";
+      target = "appliedenergistics2-rv2-stable-10.jar";
+    };
   };
 
   mm-server = mkServer {
