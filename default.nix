@@ -251,6 +251,8 @@ rec {
     configPatches = [
       # Keep the SD behaviour we're used to.
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+      # Overpowered worldgen is overpowered.
+      ''sed -i "MatterOverdrive/Matter Overdrive.cfg" -e 's/"generate buildings"=true/"generate buildings"=false/' ''
     ];
   };
 
