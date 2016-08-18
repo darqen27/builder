@@ -159,10 +159,11 @@ rec {
   };
 
   mm-mods = (builtins.removeAttrs mm.mods [
-  	"GalacticraftCore"
-  	"Galacticraft-Planets"
-  	"GalaxySpace"
-  	"MicdoodleCore"
+    "GalacticraftCore"
+    "Galacticraft-Planets"
+    "GalaxySpace"
+    "MicdoodleCore"
+    "extrabiomesxl"
   ]) // common-mods // {
     # Paintings!
     BiblioCraft = bibliocraftWithPaintings {
@@ -185,6 +186,31 @@ rec {
     RTG = fetchCurse {
       name = "realistic-terrain-generation";
       target = "RTG-1.7.10-1.1.1";
+    };
+    ClimateControl = fetchCurse {
+      name = "climate-control";
+      target = "ClimateControl-0.6.beta59.jar";
+    };
+    ATG = fetchCurse {
+      name = "alternate-terrain-generation";
+      target = "ATG 0.12.0 for Minecraft 1.7.10";
+    };
+    Streams = fetchCurse {
+      name = "streams";
+      target = "Streams-0.2.jar";
+    };
+    # Streams dependency.
+    Farseek = fetchCurse {
+      name = "farseek";
+      target = "Farseek-1.0.11.jar";
+    };
+    Highlands = fetchCurse {
+      name = "highlands";
+      target = "Highlands-1.7.2-v-2.2.3.jar";
+    };
+    RoguelikeDungeons = fetchCurse {
+      name = "roguelike-dungeons";
+      target = "roguelike-1.7.10-1.5.0b.jar";
     };
   };
 
@@ -671,4 +697,3 @@ rec {
   };
   
 }
-
