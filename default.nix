@@ -66,6 +66,11 @@ let
       };
       side = "SERVER";
     };
+
+    HelpFixer = fetchCurse {
+      name = "helpfixer";
+      target = "HelpFixer-1.0.7.jar";
+    };
   };
 in
 
