@@ -1,5 +1,8 @@
 {
   "files": [
+      { "projectID": "smart-moving" },
+      { "projectID": "player-api" },
+      { "projectID": "render-player-api" },
       { "projectID": "botania" },    
       { "projectID": "witchery" },    
       { "projectID": "blood-magic" },
