@@ -54,6 +54,12 @@
     md5 = "482d41a7e4bab7f6fbd5c31dc9dcb372";
   }
   {
+    name = "craftingtweaks-mc1.7.10-1.0.82.jar";
+    filename = "craftingtweaks-mc1.7.10-1.0.82.jar";
+    url = "https://minecraft.curseforge.com/projects/crafting-tweaks/files/2294204/download";
+    md5 = "ab22dce3869593b990de26c633c290cf";
+  }
+  {
     name = "ProjectRed-1.7.10-4.7.0pre12.95-Base.jar";
     filename = "ProjectRed-1.7.10-4.7.0pre12.95-Base.jar";
     url = "https://minecraft.curseforge.com/projects/project-red-base/files/2280728/download";
