@@ -13,7 +13,6 @@
       { "projectID": "project-red-base" },
       { "projectID": "project-red-compat" },    
       { "projectID": "project-red-lighting" },    
-      { "projectID": "project-red-integration" },
-      { "projectID": "garden-stuff" }
+      { "projectID": "project-red-integration" }
   ]
 }

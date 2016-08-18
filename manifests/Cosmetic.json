@@ -1,0 +1,8 @@
+{
+  "files": [
+      { "projectID": "better-foliage" },
+      { "projectID": "dynamic-lights" },
+      { "projectID": "sound-filters" },
+      { "projectID": "garden-stuff" }
+  ]
+}

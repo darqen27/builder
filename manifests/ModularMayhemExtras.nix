@@ -83,10 +83,4 @@
     url = "https://minecraft.curseforge.com/projects/project-red-integration/files/2280731/download";
     md5 = "0a4a94ed01d34d7dcca33c9ca54f674d";
   }
-  {
-    name = "GardenStuff-1.7.10-1.7.0.jar";
-    filename = "GardenStuff-1.7.10-1.7.0.jar";
-    url = "https://minecraft.curseforge.com/projects/garden-stuff/files/2269692/download";
-    md5 = "5abcd31ea6aa0c174a67d5f459fe5fe3";
-  }
 ]
