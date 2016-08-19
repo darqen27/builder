@@ -164,6 +164,7 @@ rec {
     "GalaxySpace"
     "MicdoodleCore"
     "extrabiomesxl"
+    "StevesWorkshop-"  # Duplicate of Ewy's.
   ]) // common-mods // {
     # Paintings!
     BiblioCraft = bibliocraftWithPaintings {
