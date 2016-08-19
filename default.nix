@@ -213,6 +213,13 @@ rec {
       name = "roguelike-dungeons";
       target = "roguelike-1.7.10-1.5.0b.jar";
     };
+    WildCaves = mkMod {
+      name = "WildCaves-3";
+      src = fetchurl {
+        url = "https://madoka.brage.info/baughn/WildCaves3-0.4.3.7.jar";
+        sha256 = "1yc71myww1l80xpl2wj954j43z1d1cvb40yfqgnlp5z2rdrcgfac";
+      };
+    };
 
     # Pin to the stable AE2 version.
     # (Beta causes CC crashes.)
