@@ -1,5 +1,17 @@
 [
   {
+    name = "BiblioWoods_Natura_edition_v1.5_for_BiblioCraft_v1.9.x+";
+    filename = "BiblioWoods Natura edition v1.5 for BiblioCraft v1.9.x+.jar";
+    url = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition/files/2229581/download";
+    md5 = "024d7f63683833acfa7aea93da18036e";
+  }
+  {
+    name = "BiblioWoods_Highlands_edition_v1.4_for_BiblioCraft_v1.9.x+";
+    filename = "BiblioWoods Highlands edition v1.4 for BiblioCraft v1.9.x+.jar";
+    url = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-highlands-edition/files/2229583/download";
+    md5 = "276f4d6bc59d61fe7ac9b0464fb55984";
+  }
+  {
     name = "Pam_s_HarvestCraft_1.7.10Lb.jar";
     filename = "Pam's HarvestCraft 1.7.10Lb.jar";
     url = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2270206/download";
