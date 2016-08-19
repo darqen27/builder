@@ -137,4 +137,10 @@
     url = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2266560/download";
     md5 = "f47a29b421966abb212a3d606608af27";
   }
+  {
+    name = "Buildcraft_7.1.17";
+    filename = "Buildcraft 7.1.17.jar";
+    url = "https://minecraft.curseforge.com/projects/buildcraft/files/2322106/download";
+    md5 = "8b6a20bce409fff6cdc5d22c4d122f5a";
+  }
 ]

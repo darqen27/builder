@@ -22,6 +22,7 @@
         { "projectID": "project-red-compat" },
         { "projectID": "project-red-lighting" },
         { "projectID": "project-red-integration" },
-        { "projectID": "not-enough-wands" }
+        { "projectID": "not-enough-wands" },
+        { "projectID": "buildcraft" }
     ]
 }
