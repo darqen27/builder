@@ -21,6 +21,7 @@
         { "projectID": "project-red-base" },
         { "projectID": "project-red-compat" },
         { "projectID": "project-red-lighting" },
-        { "projectID": "project-red-integration" }
+        { "projectID": "project-red-integration" },
+        { "projectID": "not-enough-wands" }
     ]
 }
