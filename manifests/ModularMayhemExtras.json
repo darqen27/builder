@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "ztones" },
         { "projectID": "bibliocraft-bibliowoods-natura-edition" },
         { "projectID": "bibliocraft-bibliowoods-highlands-edition" },
         { "projectID": "pams-harvestcraft" },

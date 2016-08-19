@@ -1,5 +1,11 @@
 [
   {
+    name = "Ztones-1.7.10-2.2.1.jar";
+    filename = "Ztones-1.7.10-2.2.1.jar";
+    url = "https://minecraft.curseforge.com/projects/ztones/files/2223720/download";
+    md5 = "4f517be3ad447c4f41742fa7e1ae959f";
+  }
+  {
     name = "BiblioWoods_Natura_edition_v1.5_for_BiblioCraft_v1.9.x+";
     filename = "BiblioWoods Natura edition v1.5 for BiblioCraft v1.9.x+.jar";
     url = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition/files/2229581/download";
