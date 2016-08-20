@@ -101,7 +101,7 @@ rec {
     
     erisia-14 = {
       serverId = "erisia-14";
-      serverDesc = "Erisia #14: TBD";
+      serverDesc = "Erisia #14: Cave Creeperum";
       server = mm-server;
       port = 25565;
       hacks = {
