@@ -231,6 +231,15 @@ rec {
       name = "applied-energistics-2";
       target = "appliedenergistics2-rv2-stable-10.jar";
     };
+
+    # Books.
+    LostBooks = mkMod {
+      name = "LostBooks";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/LostBooks-1.7.10-1.2.2.jar;
+        sha256 = "1mf8amqq591idzid7qsqik3kb98s7nb0iihzyb5vcl92n6pdn9m9";
+      };
+    };
   };
 
   mm-server = mkServer {
@@ -241,7 +250,7 @@ rec {
     inherit forgeMajor;
     forge = fetchForge {
       major = forgeMajor; minor = forgeMinor;
-      sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
+      sha1 = "1mf8amqq591idzid7qsqik3kb98s7nb0iihzyb5vcl92n6pdn9m9";
     };
 
     screenName = "e14";
