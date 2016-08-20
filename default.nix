@@ -220,6 +220,10 @@ rec {
         sha256 = "1yc71myww1l80xpl2wj954j43z1d1cvb40yfqgnlp5z2rdrcgfac";
       };
     };
+    PerfectSpawn = fetchCurse {
+      name = "perfect-spawn";
+      target = "PerfectSpawn-1.1.jar";
+    };
 
     # Pin to the stable AE2 version.
     # (Beta causes CC crashes.)
