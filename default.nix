@@ -240,6 +240,8 @@ rec {
         sha256 = "1mf8amqq591idzid7qsqik3kb98s7nb0iihzyb5vcl92n6pdn9m9";
       };
     };
+
+    Optifine = tfp-mods.Optifine;
   };
 
   mm-server = mkServer {
