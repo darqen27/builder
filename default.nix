@@ -250,7 +250,7 @@ rec {
     inherit forgeMajor;
     forge = fetchForge {
       major = forgeMajor; minor = forgeMinor;
-      sha1 = "1mf8amqq591idzid7qsqik3kb98s7nb0iihzyb5vcl92n6pdn9m9";
+      sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
     };
 
     screenName = "e14";
