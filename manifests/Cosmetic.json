@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "fullscreen-windowed-borderless-for-minecraft" },
         { "projectID": "better-foliage" },
         { "projectID": "dynamic-lights" },
         { "projectID": "sound-filters" },
