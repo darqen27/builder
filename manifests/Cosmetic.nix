@@ -1,11 +1,5 @@
 [
   {
-    name = "Fullscreen_Windowed_1.3.0b_for_MC_1.7.10";
-    filename = "Fullscreen Windowed 1.3.0b for MC 1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2317743/download";
-    md5 = "8797d422aa9768c3b570a0f90fa15d5a";
-  }
-  {
     name = "BetterFoliage-MC1.7.10-2.0.14.jar";
     filename = "BetterFoliage-MC1.7.10-2.0.14.jar";
     url = "https://minecraft.curseforge.com/projects/better-foliage/files/2322543/download";
