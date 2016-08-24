@@ -150,6 +150,11 @@ rec {
         required = false;
         isDefault = true;
       };
+      DynamicSurroundings = {
+        side = "CLIENT";
+        required = false;
+        isDefault = true;
+      };
       SoundFilters = {
         side = "CLIENT";
         required = false;

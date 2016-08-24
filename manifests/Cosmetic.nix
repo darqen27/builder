@@ -12,6 +12,12 @@
     md5 = "4bbf7071a221436a21978344d291a9ac";
   }
   {
+    name = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
+    filename = "DynamicSurroundings-1.7.10-1.0.5.6.jar";
+    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2290472/download";
+    md5 = "28e3263921a43b2b816998e1cdd76784";
+  }
+  {
     name = "DynamicLights-1.7.10.jar";
     filename = "DynamicLights-1.7.10.jar";
     url = "https://minecraft.curseforge.com/projects/dynamic-lights/files/2231444/download";
