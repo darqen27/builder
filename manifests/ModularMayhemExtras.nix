@@ -1,5 +1,11 @@
 [
   {
+    name = "cookingbook-mc1.7.10-1.0.140.jar";
+    filename = "cookingbook-mc1.7.10-1.0.140.jar";
+    url = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135/download";
+    md5 = "38f41daf5b96bcca2520887ecb7bd446";
+  }
+  {
     name = "Ztones-1.7.10-2.2.1.jar";
     filename = "Ztones-1.7.10-2.2.1.jar";
     url = "https://minecraft.curseforge.com/projects/ztones/files/2223720/download";
@@ -36,10 +42,10 @@
     md5 = "79d94660a75478521b722bf71890ac8e";
   }
   {
-    name = "SpiceOfLife-mc1.7.10-1.3.2.jar";
-    filename = "SpiceOfLife-mc1.7.10-1.3.2.jar";
-    url = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2305603/download";
-    md5 = "2b8416564ab0022dc18c49a4e1d7b2ce";
+    name = "SpiceOfLife-mc1.7.10-1.3.4.jar";
+    filename = "SpiceOfLife-mc1.7.10-1.3.4.jar";
+    url = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2325328/download";
+    md5 = "881206758d68bf5563f1549d8130b454";
   }
   {
     name = "Smart_Moving_version_15.6_for_Minecraft_1.7.10";
