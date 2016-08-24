@@ -155,6 +155,11 @@ rec {
         required = false;
         isDefault = true;
       };
+      Fullscreen_Windowed = {
+        side = "CLIENT";
+        required = false;
+        isDefault = true;
+      };
     };
   };
 
