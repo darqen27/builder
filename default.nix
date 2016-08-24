@@ -276,6 +276,9 @@ rec {
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
       # Overpowered worldgen is overpowered.
       ''sed -i "MatterOverdrive/Matter Overdrive.cfg" -e 's/"generate buildings"=true/"generate buildings"=false/' ''
+      # Kill the annoying analytics spam.
+      ''sed -i -e "s/analytics=true/analytics=false/" *.cfg */*.cfg''
+      ''sed -i -e "s/usageStatistics=true/usageStatistics=false/" *.cfg */*.cfg''
     ];
   };
 
