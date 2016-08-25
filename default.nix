@@ -165,6 +165,9 @@ rec {
         required = false;
         isDefault = true;
       };
+      morpheus = {
+        side = "SERVER";
+      };
     };
   };
 
@@ -242,7 +245,12 @@ rec {
       name = "applied-energistics-2";
       target = "appliedenergistics2-rv2-stable-10.jar";
     };
-
+    
+    morpheus = fetchCurse {
+      name = "morpheus";
+      target = "Morpheus-1.7.10-1.6.21.jar";
+    };
+    
     # Books.
     LostBooks = mkMod {
       name = "LostBooks";
