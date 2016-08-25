@@ -175,6 +175,7 @@ rec {
     "MicdoodleCore"
     "extrabiomesxl"
     "StevesWorkshop-"  # Duplicate of Ewy's.
+    "CyanosLootableBodies"  # Buggy.
   ]) // common-mods // {
     # Paintings!
     BiblioCraft = bibliocraftWithPaintings {
@@ -289,6 +290,9 @@ rec {
       # Kill the annoying analytics spam.
       ''sed -i -e "s/analytics=true/analytics=false/" *.cfg */*.cfg''
       ''sed -i -e "s/usageStatistics=true/usageStatistics=false/" *.cfg */*.cfg''
+      # Enable OpenBlocks graves
+      ''sed -i -e "s/B:grave=false/B:grave=true/" OpenBlocks.cfg''
+      ''sed -i -e "s/B:destructiveGraves=false/B:destructiveGraves=true/" OpenBlocks.cfg''
     ];
   };
 
