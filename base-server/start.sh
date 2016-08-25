@@ -93,9 +93,10 @@ if [[ $EXTRAS -eq 1 ]]; then
     dailyRestart &
 fi
 
-java -d64 -server -mx10G \
+java -d64 -server -Xmx5800m \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
+  -XX:+UseLargePages \
   -XX:+UseG1GC \
   -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=500 \
   -XX:+UseAdaptiveGCBoundary \
