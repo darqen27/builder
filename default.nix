@@ -253,6 +253,15 @@ rec {
     };
 
     Optifine = tfp-mods.Optifine;
+
+    # Fixes the shelving units.
+    MagneticraftPatcher = mkMod {
+      name = "MagneticraftPatcher";
+      src = fetchurl {
+        url = https://github.com/Belgabor/MagneticraftPatcher/releases/download/Release_v0.1/MagneticraftPatcher-1.7.10-0.1.jar;
+        sha256 = "1grdgdp4clvf5mldkva0wrdkmcdn4rvx5q2zc1mg0m5xb9v67w7s";
+      };
+    };
   };
 
   mm-server = mkServer {
