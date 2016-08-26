@@ -293,6 +293,8 @@ rec {
       # Enable OpenBlocks graves
       ''sed -i -e "s/B:grave=false/B:grave=true/" OpenBlocks.cfg''
       ''sed -i -e "s/B:destructiveGraves=false/B:destructiveGraves=true/" OpenBlocks.cfg''
+      # So many client configs.
+      ''find . | grep -i client | xargs rm''
     ];
   };
 
