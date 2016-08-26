@@ -1,5 +1,11 @@
 [
   {
+    name = "RealTimeClock-1.7.10-0.2.jar";
+    filename = "RealTimeClock-1.7.10-0.2.jar";
+    url = "https://minecraft.curseforge.com/projects/real-time-clock/files/2240604/download";
+    md5 = "61f6dcd802ab8dfa8acb652092c39805";
+  }
+  {
     name = "BetterFoliage-MC1.7.10-2.0.14.jar";
     filename = "BetterFoliage-MC1.7.10-2.0.14.jar";
     url = "https://minecraft.curseforge.com/projects/better-foliage/files/2322543/download";
