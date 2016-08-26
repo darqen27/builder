@@ -251,6 +251,11 @@ rec {
       target = "Morpheus-1.7.10-1.6.21.jar";
     };
     
+    chiseltones = fetchCurse {
+      name = "chiseltones";
+      target = "ChiselTones-1.7.10-1.0-3.jar";
+    };
+    
     # Books.
     LostBooks = mkMod {
       name = "LostBooks";
