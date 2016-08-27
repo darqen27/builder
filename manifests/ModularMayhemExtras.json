@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "nei-addons" },
         { "projectID": "cooking-for-blockheads" },
         { "projectID": "ztones" },
         { "projectID": "bibliocraft-bibliowoods-natura-edition" },
@@ -27,6 +28,7 @@
         { "projectID": "project-red-lighting" },
         { "projectID": "project-red-integration" },
         { "projectID": "not-enough-wands" },
-        { "projectID": "buildcraft" }
+        { "projectID": "buildcraft" },
+        { "projectID": "buildcraft-compat" }
     ]
 }

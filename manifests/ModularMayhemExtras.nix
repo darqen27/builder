@@ -1,5 +1,11 @@
 [
   {
+    name = "neiaddons-1.12.15.41-mc1.7.10.jar";
+    filename = "neiaddons-1.12.15.41-mc1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749/download";
+    md5 = "caf83daf3a9a5dbdc6386389ef977a95";
+  }
+  {
     name = "cookingbook-mc1.7.10-1.0.140.jar";
     filename = "cookingbook-mc1.7.10-1.0.140.jar";
     url = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135/download";
@@ -166,5 +172,11 @@
     filename = "Buildcraft 7.1.17.jar";
     url = "https://minecraft.curseforge.com/projects/buildcraft/files/2322106/download";
     md5 = "8b6a20bce409fff6cdc5d22c4d122f5a";
+  }
+  {
+    name = "Buildcraft_Compat_7.1.5";
+    filename = "Buildcraft Compat 7.1.5.jar";
+    url = "https://minecraft.curseforge.com/projects/buildcraft-compat/files/2297230/download";
+    md5 = "84e2152be9f7e5656b5d9d7513c4f7a4";
   }
 ]
