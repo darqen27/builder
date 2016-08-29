@@ -317,6 +317,8 @@ rec {
       ''sed -i -e "s/B:destructiveGraves=false/B:destructiveGraves=true/" OpenBlocks.cfg''
       # Surpress COFH Deathspam.
       ''sed -i "cofh/core/common.cfg" -e 's/B:EnableGenericDeathMessage=true/B:EnableGenericDeathMessage=false/' ''
+      # Remove heat blocks; fix CC pylon rebuilding
+      ''sed -i "railcraft/blocks.cfg" -e 's/B:residual.heat=true/B:residual.heat=false/' ''
       # So many client configs.
       ''find . | grep -i client | xargs rm''
     ];
