@@ -5,5 +5,6 @@ set -eu
 cd $(dirname $0)
 
 for f in *.json; do
-    ./genNix.py < "$f" > $(basename "$f" .json).nix
+    ./genNix.py < "$f" > $(basename "$f" .json).nix &
 done
+wait

@@ -306,10 +306,10 @@
     md5 = "0864caf4280229154ca7f158502d4bee";
   }
   {
-    name = "Ewy_s_Workshop-1.1.2.jar";
-    filename = "Ewy's Workshop-1.1.2.jar";
-    url = "https://minecraft.curseforge.com/projects/ewys-workshop/files/2310605/download";
-    md5 = "c581ea13342240100bf13b3674ffb677";
+    name = "Ewy_s_Workshop-1.1.3-ServerFix.jar";
+    filename = "Ewy's Workshop-1.1.3-ServerFix.jar";
+    url = "https://minecraft.curseforge.com/projects/ewys-workshop/files/2326838/download";
+    md5 = "5a4917fb084d2d607d984092bacd56e6";
   }
   {
     name = "HydCraft-1.7.10-2.1.253-universal.jar";
