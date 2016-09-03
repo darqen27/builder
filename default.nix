@@ -275,6 +275,15 @@ rec {
         sha256 = "1grdgdp4clvf5mldkva0wrdkmcdn4rvx5q2zc1mg0m5xb9v67w7s";
       };
     };
+
+    #Use own fixed version until upstream merges PRs and releases a new version - fixes some crashes with Botania+backpacks
+    IronBackpacks = mkMod {
+      name = "IronBackpacks";
+      src = fetchurl {
+        url = http://madoka.brage.info/release/IronBackpacks-1.7.10-1.2.15-tampered.jar;
+        sha256 = "1zcm3qsnzimhmhbdymnrsd9k6hrz9gayr13bwclwyww6z21rgsq1";
+      };
+    };
   };
 
   mm-server = mkServer {
