@@ -280,8 +280,8 @@ rec {
     IronBackpacks = mkMod {
       name = "IronBackpacks";
       src = fetchurl {
-        url = http://madoka.brage.info/release/IronBackpacks-1.7.10-1.2.15-tampered.jar;
-        sha256 = "1zcm3qsnzimhmhbdymnrsd9k6hrz9gayr13bwclwyww6z21rgsq1";
+        url = http://madoka.brage.info/release/IronBackpacks-1.7.10-1.2.15-tampered-v2.jar;
+        sha256 = "0cqdqji4r3609imvwq6481s1486vf2fnhlmxxxj5p3kyj0yq7gf6";
       };
     };
   };
