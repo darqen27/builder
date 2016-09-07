@@ -186,10 +186,10 @@
     md5 = "6712775335e93dce584fd15c62a93c07";
   }
   {
-    name = "EnderCore-1.7.10-0.2.0.36_beta.jar";
-    filename = "EnderCore-1.7.10-0.2.0.36_beta.jar";
-    url = "https://minecraft.curseforge.com/projects/endercore/files/2307830/download";
-    md5 = "28c6c6270c307b9d88d36962acf1e614";
+    name = "EnderCore-1.7.10-0.2.0.38_beta.jar";
+    filename = "EnderCore-1.7.10-0.2.0.38_beta.jar";
+    url = "https://minecraft.curseforge.com/projects/endercore/files/2327500/download";
+    md5 = "3c907c646cc575b642e1fb289f24d2a0";
   }
   {
     name = "NoMoreRecipeConflict-0.3";
@@ -258,10 +258,10 @@
     md5 = "02f81c0c4a350fed8c8e2eb526cf09ad";
   }
   {
-    name = "IronBackpacks-1.7.10-1.2.15.jar";
-    filename = "IronBackpacks-1.7.10-1.2.15.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2274484/download";
-    md5 = "c6a97495c4de706db6e31bd7e89c7ea8";
+    name = "IronBackpacks-1.7.10-1.2.16.jar";
+    filename = "IronBackpacks-1.7.10-1.2.16.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2328708/download";
+    md5 = "5ca94a814f3d0220de2b8ad32fccfbdf";
   }
   {
     name = "JavaChecker_v2.0__Shading_";
@@ -444,10 +444,10 @@
     md5 = "874f5373e586fac2845336acf612495e";
   }
   {
-    name = "StorageDrawers-1.7.10-1.10.1.jar";
-    filename = "StorageDrawers-1.7.10-1.10.1.jar";
-    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2320359/download";
-    md5 = "4b5e3c1607bca231ba324bc2fe81503f";
+    name = "StorageDrawers-1.7.10-1.10.2.jar";
+    filename = "StorageDrawers-1.7.10-1.10.2.jar";
+    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2328368/download";
+    md5 = "f7d1b6c7e1ad9ed02d59194dcdd7c84d";
   }
   {
     name = "fastcraft-1.23.jar";
