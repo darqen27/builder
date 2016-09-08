@@ -18,6 +18,12 @@
     md5 = "4f517be3ad447c4f41742fa7e1ae959f";
   }
   {
+    name = "ChiselTones-1.7.10-1.0-3.jar";
+    filename = "ChiselTones-1.7.10-1.0-3.jar";
+    url = "https://minecraft.curseforge.com/projects/chiseltones/files/2254543/download";
+    md5 = "6a1ac643ebf1a694222a8cd56cf1dbf0";
+  }
+  {
     name = "BiblioWoods_Natura_edition_v1.5_for_BiblioCraft_v1.9.x+";
     filename = "BiblioWoods Natura edition v1.5 for BiblioCraft v1.9.x+.jar";
     url = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition/files/2229581/download";

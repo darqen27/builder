@@ -72,12 +72,6 @@
     md5 = "1577bf224a027a56c461d1842b0f34d0";
   }
   {
-    name = "appliedenergistics2-rv3-beta-6.jar";
-    filename = "appliedenergistics2-rv3-beta-6.jar";
-    url = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430/download";
-    md5 = "0a555df010345a27e0956a3f05517510";
-  }
-  {
     name = "DummyCore-2.0.1710.0A.jar";
     filename = "DummyCore-2.0.1710.0A.jar";
     url = "https://minecraft.curseforge.com/projects/dummycore/files/2256966/download";

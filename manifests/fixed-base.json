@@ -1,0 +1,12 @@
+{
+    "files": [
+        { "projectID": "realistic-terrain-generation" },
+        { "projectID": "climate-control" },
+        { "projectID": "alternate-terrain-generation" },
+        { "projectID": "streams" },
+        { "projectID": "farseek" },
+        { "projectID": "highlands" },
+        { "projectID": "roguelike-dungeons" },
+        { "projectID": "applied-energistics-2" }
+    ]
+}

@@ -5,6 +5,8 @@ set -eu
 cd $(dirname $0)
 
 for f in *.json; do
-    ./genNix.py < "$f" > $(basename "$f" .json).nix &
+    if [[ ${f:0:6} != 'fixed-' ]]; then
+       ./genNix.py < "$f" > $(basename "$f" .json).nix &
+    fi
 done
 wait

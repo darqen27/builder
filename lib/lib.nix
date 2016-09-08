@@ -233,7 +233,7 @@ rec {
         ls $out/mods/
       '';
     };
-    updatedMods = map updatedMod updates;
+    updatedMods = map updatedMod (builtins.concatLists (map import updates));
     updatedMod = { name, url, md5, filename }: mkDerivation {
       inherit name filename;
       src = fetchurl { inherit url md5; };
@@ -290,37 +290,6 @@ rec {
       '';
     };
   };
-
-  ## Fetching mods from Curse.
-  
-  fetchCurse = {
-      name,
-      version ? "unknown",
-      # This is bloody useless. This whole thing could use a rewrite. It'll do for now.
-      target ? name + "-1.7.10-" + version + ".jar",
-      side ? "BOTH",
-      required ? true,
-      isDefault ? false,
-  }: let
-    curse = "http://minecraft.curseforge.com";
-    fullName = builtins.replaceStrings ["-" "(" ")"] ["" "_" "_"] name + "-" + version;
-    filesUrl = curse + "/projects/" + name + "/files?filter-game-version=2020709689%3A4449";
-    download = import (mkDerivation rec {
-      name = "drv-" + fullName;
-
-      buildInputs = [ curl xidel ];
-
-      inherit curse filesUrl target cacert;
-      builder = ./fetchCurse.sh;
-    });
-    in mkMod {
-      name = name + "-" + version;
-      src = fetchurl {
-        url = download.url;
-        md5 = download.md5;
-      };
-      inherit side required isDefault;
-    };
 
   ## Server-pack builder:
 
