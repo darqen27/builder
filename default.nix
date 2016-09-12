@@ -10,8 +10,8 @@ let
     chunkgen = mkMod {
       name = "chunkgen-1.2.4-dev";
       src = fetchurl {
-        url = https://madoka.brage.info/baughn/chunkgen-1.7.10-1.2.3+10.jar;
-        sha256 = "0pd77rzghp3fh1pnvk7paws2ksk6alx0riar9wk2b4g67wmn8sn6";
+        url = https://madoka.brage.info/baughn/chunkgen-1.7.10-dev.jar;
+        sha256 = "c6789ce071781ba2ec409d0c8874dba988e1d61f43136effa9231c4c89e3b29d";
       };
       side = "SERVER";
     };
