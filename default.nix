@@ -26,10 +26,10 @@ let
     };
     
     PrometheusIntegration = mkMod {
-      name = "PrometheusIntegration-1.1.0";
+      name = "PrometheusIntegration-1.2.0";
       src = fetchurl {
-        url = https://madoka.brage.info/baughn/prometheus-integration-1.1.0.jar;
-        sha256 = "b38cdb14dd571fc6e257737d2c5464ec8b9f1fbf942b4da2bfab736dd309f247";
+        url = https://madoka.brage.info/baughn/prometheus-integration-1.2.0.jar;
+        sha256 = "4891a053f1db9d6ed856a694b51c9099d38db91c6cfbfb42ad76a9ba1f874414";
       };
       side = "SERVER";
     };
@@ -44,11 +44,11 @@ let
     };
 
     ElectricalAge = mkMod rec {
-      ver = "51.26";
+      ver = "51.28";
       name = "ElectricalAge-${ver}";
       src = fetchurl {
         url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
-        sha256 = "8fe075ccbfe3194a4b0813f1413b327fba2300836de3600a0a9f97a7404ae918";
+        sha256 = "f837168e722c6acf6ab95644a8ac60a4d6560e754d6f1fb0f8d54c169890112e";
       };
     };
 
