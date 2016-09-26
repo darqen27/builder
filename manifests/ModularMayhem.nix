@@ -72,6 +72,12 @@
     md5 = "1577bf224a027a56c461d1842b0f34d0";
   }
   {
+    name = "appliedenergistics2-rv3-beta-6.jar";
+    filename = "appliedenergistics2-rv3-beta-6.jar";
+    url = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430/download";
+    md5 = "0a555df010345a27e0956a3f05517510";
+  }
+  {
     name = "DummyCore-2.0.1710.0A.jar";
     filename = "DummyCore-2.0.1710.0A.jar";
     url = "https://minecraft.curseforge.com/projects/dummycore/files/2256966/download";
@@ -180,10 +186,10 @@
     md5 = "6712775335e93dce584fd15c62a93c07";
   }
   {
-    name = "EnderCore-1.7.10-0.2.0.38_beta.jar";
-    filename = "EnderCore-1.7.10-0.2.0.38_beta.jar";
-    url = "https://minecraft.curseforge.com/projects/endercore/files/2327500/download";
-    md5 = "3c907c646cc575b642e1fb289f24d2a0";
+    name = "EnderCore-1.7.10-0.2.0.39_beta.jar";
+    filename = "EnderCore-1.7.10-0.2.0.39_beta.jar";
+    url = "https://minecraft.curseforge.com/projects/endercore/files/2331048/download";
+    md5 = "e6c8b5dc1ae0f01e34673ba608f8ffd9";
   }
   {
     name = "NoMoreRecipeConflict-0.3";
@@ -240,10 +246,10 @@
     md5 = "ac0c9c1bd5321ecc2c62de45ed6a05a2";
   }
   {
-    name = "MatterOverdrive-1.7.10-0.4.1-_hotfix1_-_Edux_rejects";
-    filename = "MatterOverdrive-1.7.10-0.4.1- hotfix1 - Edux rejects.jar";
-    url = "https://minecraft.curseforge.com/projects/matter-overdrive/files/2274331/download";
-    md5 = "678737af35e73ef15212208f19f6e7e7";
+    name = "MatterOverdrive-1.7.10-0.4.2-_hotfix1";
+    filename = "MatterOverdrive-1.7.10-0.4.2- hotfix1.jar";
+    url = "https://minecraft.curseforge.com/projects/matter-overdrive/files/2331162/download";
+    md5 = "a069c8febff265b39d3e25325b5ea9eb";
   }
   {
     name = "extrabiomesxl_1.7.10-3.16.4.jar";
@@ -252,10 +258,10 @@
     md5 = "02f81c0c4a350fed8c8e2eb526cf09ad";
   }
   {
-    name = "IronBackpacks-1.7.10-1.2.16.jar";
-    filename = "IronBackpacks-1.7.10-1.2.16.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2328708/download";
-    md5 = "5ca94a814f3d0220de2b8ad32fccfbdf";
+    name = "IronBackpacks-1.7.10-1.2.17.jar";
+    filename = "IronBackpacks-1.7.10-1.2.17.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2330495/download";
+    md5 = "eace2da3d08452375147695703ba0c67";
   }
   {
     name = "JavaChecker_v2.0__Shading_";
@@ -300,10 +306,10 @@
     md5 = "0864caf4280229154ca7f158502d4bee";
   }
   {
-    name = "Ewy_s_Workshop-1.1.3-ServerFix.jar";
-    filename = "Ewy's Workshop-1.1.3-ServerFix.jar";
-    url = "https://minecraft.curseforge.com/projects/ewys-workshop/files/2326838/download";
-    md5 = "5a4917fb084d2d607d984092bacd56e6";
+    name = "Ewy_s_Workshop-1.1.4.jar";
+    filename = "Ewy's Workshop-1.1.4.jar";
+    url = "https://minecraft.curseforge.com/projects/ewys-workshop/files/2330885/download";
+    md5 = "2ce4656693e169d269ee552fd996e957";
   }
   {
     name = "HydCraft-1.7.10-2.1.253-universal.jar";
@@ -420,10 +426,10 @@
     md5 = "74d7523f3084db7d98af486b43bdd938";
   }
   {
-    name = "NuclearCraft-1.9c";
-    filename = "NuclearCraft-1.9c.jar";
-    url = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2323321/download";
-    md5 = "38a887bf7731f82c22d42a661a657108";
+    name = "NuclearCraft-1.9d";
+    filename = "NuclearCraft-1.9d.jar";
+    url = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2330045/download";
+    md5 = "03854225d95e0699310846b2fff0871b";
   }
   {
     name = "RefinedRelocation-mc1.7.10-1.1.28.jar";
@@ -438,10 +444,10 @@
     md5 = "874f5373e586fac2845336acf612495e";
   }
   {
-    name = "StorageDrawers-1.7.10-1.10.2.jar";
-    filename = "StorageDrawers-1.7.10-1.10.2.jar";
-    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2328368/download";
-    md5 = "f7d1b6c7e1ad9ed02d59194dcdd7c84d";
+    name = "StorageDrawers-1.7.10-1.10.3.jar";
+    filename = "StorageDrawers-1.7.10-1.10.3.jar";
+    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2331064/download";
+    md5 = "b1dfd32030b2b9ac27bb9f44f7814861";
   }
   {
     name = "fastcraft-1.23.jar";

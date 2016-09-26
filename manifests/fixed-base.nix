@@ -41,10 +41,4 @@
     url = "https://minecraft.curseforge.com/projects/roguelike-dungeons/files/2294894/download";
     md5 = "d62d30d52d3f51dc39bdc61ce224e6c6";
   }
-  {
-    name = "appliedenergistics2-rv2-stable-10.jar";
-    filename = "appliedenergistics2-rv2-stable-10.jar";
-    url = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2245762/download";
-    md5 = "f7a60fa036240da11da4a739c5c4137d";
-  }
 ]
