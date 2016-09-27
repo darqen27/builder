@@ -23,4 +23,10 @@
     url = "https://minecraft.curseforge.com/projects/morpheus/files/2280761/download";
     md5 = "5d31a1480db8b091757ea5ccd4e220d9";
   }
+  {
+    name = "Opis-1.2.5_1.7.10.jar";
+    filename = "Opis-1.2.5_1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
+    md5 = "82e98ab306d952f3371a514333c226b4";
+  }
 ]

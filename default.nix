@@ -139,6 +139,9 @@ rec {
       morpheus = {
         side = "SERVER";
       };
+      Opis = {
+        required = false;
+      };
     };
   };
 
