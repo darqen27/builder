@@ -60,10 +60,10 @@
     md5 = "31530c8565a72477d0dd5c52f9e43b7f";
   }
   {
-    name = "Carpenter_s_Blocks_v3.3.8";
-    filename = "Carpenter's Blocks v3.3.8.jar";
-    url = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2303358/download";
-    md5 = "2509da4c55d7ba92b2a760308e52dd07";
+    name = "Carpenter_s_Blocks_v3.3.8.1_-_MC_1.7.10.jar";
+    filename = "Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195/download";
+    md5 = "796185b3d2cfd50f74955346ba92614c";
   }
   {
     name = "FluxPads_1.1.0.0";
@@ -258,10 +258,10 @@
     md5 = "02f81c0c4a350fed8c8e2eb526cf09ad";
   }
   {
-    name = "IronBackpacks-1.7.10-1.2.17.jar";
-    filename = "IronBackpacks-1.7.10-1.2.17.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2330495/download";
-    md5 = "eace2da3d08452375147695703ba0c67";
+    name = "IronBackpacks-1.7.10-1.2.18.jar";
+    filename = "IronBackpacks-1.7.10-1.2.18.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2333158/download";
+    md5 = "277cebee10c220c5904ce4c35b830eef";
   }
   {
     name = "JavaChecker_v2.0__Shading_";
