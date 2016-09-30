@@ -60,30 +60,6 @@
     md5 = "c7a284a59ccf67cf6e6e7e4553c1ce1c";
   }
   {
-    name = "Smart_Moving_version_15.6_for_Minecraft_1.7.10";
-    filename = "Smart Moving version 15.6 for Minecraft 1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/smart-moving/files/2248946/download";
-    md5 = "1bc053443cdf15aea99bb4e433c20c79";
-  }
-  {
-    name = "Smart_Render_version_2.1_for_Minecraft_1.7.10";
-    filename = "Smart Render version 2.1 for Minecraft 1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/smart-render/files/2248949/download";
-    md5 = "be355043a11bde3beaf204a7cae942b7";
-  }
-  {
-    name = "Player_API_version_1.4_for_Minecraft_1.7.10";
-    filename = "Player API version 1.4 for Minecraft 1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/player-api/files/2248928/download";
-    md5 = "a86805d3720f12610ae1f28f7eb08b53";
-  }
-  {
-    name = "Render_Player_API_version_1.4_for_Minecraft_1.7.10";
-    filename = "Render Player API version 1.4 for Minecraft 1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/render-player-api/files/2248933/download";
-    md5 = "82be83e59a2dd005425b988fd4b04f92";
-  }
-  {
     name = "Botania_r1.8-249.jar";
     filename = "Botania r1.8-249.jar";
     url = "https://minecraft.curseforge.com/projects/botania/files/2283837/download";
