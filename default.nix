@@ -60,6 +60,26 @@ let
       };
       side = "SERVER";
     };
+
+    Shaders = mkMod {
+      name = "ShadersMod-2.3.31";
+      src = fetchurl {
+        sha256 = "72ecb961624d6a6c635ab1a5fd4c70273ad576902a4f9db54ac318a520f9bca8";
+        url = https://madoka.brage.info/baughn/ShadersModCore-v2.3.31-mc1.7.10-f.jar;
+      };
+      side = "CLIENT";
+      required = false;
+   };
+     
+   Optifine = mkMod {
+       name = "Optifine-1.7.10";
+       src = fetchurl {
+         url = https://madoka.brage.info/baughn/OptiFine_1.7.10_HD_U_D6.jar;
+         sha256 = "415cba487ea5eddca981c6a00a5426236f8df36c635f5808aba227ad96d1b478";
+       };
+       side = "CLIENT";
+       required = false;
+    };
   };
 in
 
@@ -188,8 +208,6 @@ rec {
         sha256 = "1mf8amqq591idzid7qsqik3kb98s7nb0iihzyb5vcl92n6pdn9m9";
       };
     };
-
-    # Optifine = tfp-mods.Optifine;
 
     # Fixes the shelving units.
     MagneticraftPatcher = mkMod {
