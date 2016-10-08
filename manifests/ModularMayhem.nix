@@ -414,10 +414,10 @@
     md5 = "9091571243da9b1532ba2d8fef3f2eea";
   }
   {
-    name = "DragonAPI_1.7.10_V15a.jar";
-    filename = "DragonAPI 1.7.10 V15a.jar";
-    url = "https://minecraft.curseforge.com/projects/dragonapi/files/2309347/download";
-    md5 = "62679c8f2609e6e5d194c4919bbdb452";
+    name = "DragonAPI_1.7.10_V16c.jar";
+    filename = "DragonAPI 1.7.10 V16c.jar";
+    url = "https://minecraft.curseforge.com/projects/dragonapi/files/2335129/download";
+    md5 = "42d9fb2fa0cdf0ddc71a25191a872271";
   }
   {
     name = "malisisdoors-1.7.10-1.13.2.jar";
@@ -456,10 +456,10 @@
     md5 = "1253dfe58b85393a04b005d28ba83369";
   }
   {
-    name = "ChromatiCraft_1.7.10_V15a.jar";
-    filename = "ChromatiCraft 1.7.10 V15a.jar";
-    url = "https://minecraft.curseforge.com/projects/chromaticraft/files/2309361/download";
-    md5 = "1d7b59e7b820a529e65ab438d3d37aba";
+    name = "ChromatiCraft_1.7.10_V16b.jar";
+    filename = "ChromatiCraft 1.7.10 V16b.jar";
+    url = "https://minecraft.curseforge.com/projects/chromaticraft/files/2334856/download";
+    md5 = "fd0783a54b40ea881e137ddd5d0bb28a";
   }
   {
     name = "MobiusCore-1.2.5_1.7.10.jar";
