@@ -4,6 +4,7 @@
         { "projectID": "helpfixer" },
         { "projectID": "perfect-spawn" },
         { "projectID": "morpheus" },
-        { "projectID": "opis" }
+        { "projectID": "opis" },
+        { "projectID": "controlling" }
     ]
 }

@@ -29,4 +29,10 @@
     url = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
     md5 = "82e98ab306d952f3371a514333c226b4";
   }
+  {
+    name = "Controlling-1.7.10-1.0.0.";
+    filename = "Controlling-1.7.10-1.0.0..jar";
+    url = "https://minecraft.curseforge.com/projects/controlling/files/2328181/download";
+    md5 = "8589f6fa0a0f8f0b69fe88f9aa518e7f";
+  }
 ]

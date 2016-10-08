@@ -162,6 +162,11 @@ rec {
       Opis = {
         required = false;
       };
+      Controlling = {
+        side = "CLIENT";
+        required = false;
+        isDefault = true;
+      };
     };
   };
 
