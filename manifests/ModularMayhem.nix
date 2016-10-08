@@ -444,10 +444,10 @@
     md5 = "874f5373e586fac2845336acf612495e";
   }
   {
-    name = "StorageDrawers-1.7.10-1.10.3.jar";
-    filename = "StorageDrawers-1.7.10-1.10.3.jar";
-    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2331064/download";
-    md5 = "b1dfd32030b2b9ac27bb9f44f7814861";
+    name = "StorageDrawers-1.7.10-1.10.4.jar";
+    filename = "StorageDrawers-1.7.10-1.10.4.jar";
+    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2334235/download";
+    md5 = "376d86ee19a3fa6c3e9717d542c80252";
   }
   {
     name = "fastcraft-1.23.jar";

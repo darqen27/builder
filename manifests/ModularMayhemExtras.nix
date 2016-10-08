@@ -150,10 +150,10 @@
     md5 = "f47a29b421966abb212a3d606608af27";
   }
   {
-    name = "Buildcraft_7.1.17";
-    filename = "Buildcraft 7.1.17.jar";
-    url = "https://minecraft.curseforge.com/projects/buildcraft/files/2322106/download";
-    md5 = "8b6a20bce409fff6cdc5d22c4d122f5a";
+    name = "Buildcraft_7.1.18";
+    filename = "Buildcraft 7.1.18.jar";
+    url = "https://minecraft.curseforge.com/projects/buildcraft/files/2334985/download";
+    md5 = "d9cdbd399c717e5b957affc24bd7f84b";
   }
   {
     name = "Buildcraft_Compat_7.1.5";
