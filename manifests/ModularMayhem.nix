@@ -258,10 +258,10 @@
     md5 = "02f81c0c4a350fed8c8e2eb526cf09ad";
   }
   {
-    name = "IronBackpacks-1.7.10-1.2.18.jar";
-    filename = "IronBackpacks-1.7.10-1.2.18.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2333158/download";
-    md5 = "277cebee10c220c5904ce4c35b830eef";
+    name = "IronBackpacks-1.7.10-1.2.19.jar";
+    filename = "IronBackpacks-1.7.10-1.2.19.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2335077/download";
+    md5 = "3ed8f819bea985251a08010820f41c81";
   }
   {
     name = "JavaChecker_v2.0__Shading_";
