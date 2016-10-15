@@ -80,6 +80,14 @@ let
        side = "CLIENT";
        required = false;
     };
+
+    DimensionalDoors = mkMod {
+      name = "DimensionalDoors-2.2.5";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/DimensionalDoors-2.2.5-null.jar;
+        sha256 = "0d27478ee75d1654bfb59f743edaa0afde80acd3679d6a2488c2bd87b4183865";
+      };
+    };
   };
 in
 
