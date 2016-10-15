@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "openglasses" },
         { "projectID": "nei-addons" },
         { "projectID": "cooking-for-blockheads" },
         { "projectID": "ztones" },

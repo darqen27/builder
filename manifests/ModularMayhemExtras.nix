@@ -1,5 +1,11 @@
 [
   {
+    name = "OpenGlasses-1.0.46.jar";
+    filename = "OpenGlasses-1.0.46.jar";
+    url = "https://minecraft.curseforge.com/projects/openglasses/files/2237199/download";
+    md5 = "76c1adb8f62b5f6e196ceb569063f9a6";
+  }
+  {
     name = "neiaddons-1.12.15.41-mc1.7.10.jar";
     filename = "neiaddons-1.12.15.41-mc1.7.10.jar";
     url = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749/download";
