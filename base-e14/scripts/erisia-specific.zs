@@ -35,3 +35,9 @@ val gaiaGuardianHead = <Botania:gaiaHead>;
 
 recipes.remove(healingAxe);
 recipes.addShaped(healingAxe,[[unstableBlock,gaiaGuardianHead,unstableBlock],[null,soulRunicPlate,null],[null,soulRunicPlate,null]]);
+
+
+### Diamond nugget conflicts.
+recipes.remove(<Translocator:diamondNugget>);
+recipes.addShapeless(<Translocator:diamondNugget>*9,
+  [<minecraft:diamond>, <minecraft:flint>]);
