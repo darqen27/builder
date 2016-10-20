@@ -41,3 +41,11 @@ recipes.addShaped(healingAxe,[[unstableBlock,gaiaGuardianHead,unstableBlock],[nu
 recipes.remove(<Translocator:diamondNugget>);
 recipes.addShapeless(<Translocator:diamondNugget>*9,
   [<minecraft:diamond>, <minecraft:flint>]);
+
+
+val wool = <ore:blockWool>;
+
+# Curtains conflict with Malisis Doors vs ExU
+recipes.remove(<ExtraUtilities:curtains>);
+recipes.addShaped(<ExtraUtilities:curtains>*12,
+  [[wool,wool,wool],[wool,wool,wool]]);
