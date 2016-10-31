@@ -238,7 +238,7 @@ rec {
       filename = " Immersive Engineering v0.7.7-tampered.jar";
       src = fetchurl {
         url = https://madoka.brage.info/release/ImmersiveEngineering-0.7.7-tampered.jar;
-        sha256 = "b93687cd76daacb6cc3e58bd2c7605414495a302a9c1a72002ea6c8e52f87ede";
+        sha256 = "53f9af054c5bee1fcd333b40c421c7218f09773814e83b233f3ad531d31759f8";
       };
     };
   };
