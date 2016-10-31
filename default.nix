@@ -186,6 +186,7 @@ rec {
     "extrabiomesxl"
     "StevesWorkshop-"  # Duplicate of Ewy's.
     "CyanosLootableBodies"  # Buggy.
+    "_Immersive_Engineering"
   ]) // common-mods // {
     # Paintings!
     BiblioCraft = bibliocraftWithPaintings {
@@ -228,6 +229,16 @@ rec {
       src = fetchurl {
         url = https://github.com/Belgabor/MagneticraftPatcher/releases/download/Release_v0.1/MagneticraftPatcher-1.7.10-0.1.jar;
         sha256 = "1grdgdp4clvf5mldkva0wrdkmcdn4rvx5q2zc1mg0m5xb9v67w7s";
+      };
+    };
+
+    # Fixes crash with Magneticraft chunkloading
+    ImmersiveEngineering = mkMod {
+      name = "_Immersive_Engineering_v0.7.7";
+      filename = " Immersive Engineering v0.7.7-tampered.jar";
+      src = fetchurl {
+        url = https://madoka.brage.info/release/ImmersiveEngineering-0.7.7-tampered.jar;
+        sha256 = "b93687cd76daacb6cc3e58bd2c7605414495a302a9c1a72002ea6c8e52f87ede";
       };
     };
   };
