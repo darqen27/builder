@@ -294,6 +294,8 @@ rec {
       ''sed -i railcraft/railcraft.cfg -e "s/S:world.fuel=minecraft:ender_pearl=12/S:world.fuel=/" ''
       # Enable TE Activator - as no other block except OC robots can properly left click
       ''perl -i -pe "BEGIN{undef $/;} s/(Activator .*?B:Recipe.Enable=)false/\$1true/smg" cofh/thermalexpansion/common.cfg''
+      # Floodlights cause a CPU leak, or something.
+      ''sed -i ImmersiveEngineering.cfg -e 's/B:"Floodlight: Spawn Prevention"=true/B:"Floodlight: Spawn Prevention"=false/' ''
     ];
   };
 
