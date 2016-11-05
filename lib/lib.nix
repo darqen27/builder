@@ -81,6 +81,8 @@ rec {
       done
 
       chmod -R 0755 $out/config
+      chmod -R 0755 $out/scripts
+
       for configPatch in $configPatches; do
         (cd $out/config/; source $configPatch)
       done

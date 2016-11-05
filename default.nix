@@ -296,6 +296,8 @@ rec {
       ''perl -i -pe "BEGIN{undef $/;} s/(Activator .*?B:Recipe.Enable=)false/\$1true/smg" cofh/thermalexpansion/common.cfg''
       # Floodlights cause a CPU leak, or something.
       ''sed -i ImmersiveEngineering.cfg -e 's/B:"Floodlight: Spawn Prevention"=true/B:"Floodlight: Spawn Prevention"=false/' ''
+      # Fix of IE Excavator scripts to properly add ores - failure chance was too high
+      ''sed -i ../scripts/Tweaks.zs -e "s_\(mods.immersiveengineering.Excavator.addMineral[^,]*, [0-9]\+, \)_\10._" ''
     ];
   };
 
