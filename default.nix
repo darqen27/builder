@@ -246,7 +246,7 @@ rec {
     "extrabiomesxl"
     "StevesWorkshop-"  # Duplicate of Ewy's.
     "CyanosLootableBodies"  # Buggy.
-    "_Immersive_Engineering"
+    "Immersive_Engineering"
   ]) // common-mods // {
     # Paintings!
     BiblioCraft = bibliocraftWithPaintings {
@@ -293,9 +293,9 @@ rec {
     };
 
     # Fixes crash with Magneticraft chunkloading
-    ImmersiveEngineering = mkMod {
-      name = "_Immersive_Engineering_v0.7.7";
-      filename = " Immersive Engineering v0.7.7-tampered.jar";
+    Immersive_Engineering = mkMod {
+      name = "Immersive_Engineering_v0.7.7";
+      filename = "Immersive Engineering v0.7.7-tampered.jar";
       src = fetchurl {
         url = https://madoka.brage.info/release/ImmersiveEngineering-0.7.7-tampered.jar;
         sha256 = "53f9af054c5bee1fcd333b40c421c7218f09773814e83b233f3ad531d31759f8";
