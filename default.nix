@@ -128,13 +128,54 @@ rec {
       manifest = manifests/DireWolf20.zip;
       updates = [
         manifests/1.10.2-DireWolf20.nix
+        manifests/1.10.2-base.nix
+        manifests/1.10.2-Cosmetic.nix
+        manifests/1.10.2-DireWolf20-extras.nix
+        manifests/1.10.2-fixed-base.nix
       ];
     }).pack;
 
-    modConfig = {};
+    modConfig = {
+      journeymap = {
+        required = false;
+        isDefault = true;
+      };
+      BetterFoliage = {
+        side = "CLIENT";
+        required = false;
+      };
+      DynamicSurroundings = {
+        side = "CLIENT";
+        required = false;
+        isDefault = true;
+      };
+      SoundFilters = {
+        side = "CLIENT";
+        required = false;
+        isDefault = true;
+      };
+      morpheus = {
+        side = "SERVER";
+      };
+      Opis = {
+        required = false;
+      };
+      Thump = {
+        required = false;
+      };
+    };
   };
 
-  direwolf-mods = direwolf.mods // {
+  direwolf-mods = (builtins.removeAttrs direwolf.mods [
+    # Crashes. Won't bother fixing right now, try SCM instead, it's nice.
+    "rftools"
+    "rftoolsctrl"
+    # No, just no.
+    "rftoolsdim"
+    # Has issues, and we have our own backup system.
+    "FTBLib"
+    "FTBUtilities"
+  ]) // {
   };
 
   direwolf-server = mkServer rec {

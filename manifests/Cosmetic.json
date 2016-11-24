@@ -3,8 +3,8 @@
         { "projectID": "real-time-clock" },
         { "projectID": "better-foliage" },
         { "projectID": "dynamic-surroundings" },
-        { "projectID": "dynamic-lights" },
         { "projectID": "sound-filters" },
-        { "projectID": "garden-stuff" }
+        { "projectID": "garden-stuff" },
+        { "projectID": "decocraft2" }
     ]
 }

@@ -1,0 +1,15 @@
+{
+    "files": [
+        { "projectID": "recurrent-complex" },
+        { "projectID": "ivtoolkit" },
+        { "projectID": "pams-harvestcraft" },
+        { "projectID": "cooking-for-blockheads" },
+        { "projectID": "realistic-terrain-generation" },
+        { "projectID": "climate-control" },
+        { "projectID": "alternate-terrain-generation" },
+        { "projectID": "streams" },
+        { "projectID": "farseek" },
+        { "projectID": "highlands" },
+        { "projectID": "roguelike-dungeons" }
+    ]
+}
