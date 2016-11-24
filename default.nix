@@ -157,6 +157,8 @@ rec {
     extraDirs = [
       (direwolf.getDir "config")
       (direwolf.getDir "scripts")
+      (direwolf.getDir "resources")
+      (direwolf.getDir "modpack")
 #      (bevos.getDir "libraries")
     ];
 
