@@ -163,6 +163,9 @@ rec {
       Thump = {
         required = false;
       };
+      Dynmap = {
+        side = "SERVER";
+      };
     };
   };
 

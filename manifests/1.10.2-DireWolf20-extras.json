@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "dynmapforge" },
         { "projectID": "minecolonies" },
         { "projectID": "prefab" }
     ]
