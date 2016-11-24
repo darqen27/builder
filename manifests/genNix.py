@@ -9,6 +9,13 @@ import urllib2
 
 from lxml.html import soupparser
 
+
+VERSION = "1.10.2"
+VERSION_FILTER = {
+  "1.10.2": "2020709689%3A6170",
+  "1.7.10": "2020709689%3A4449",
+}[VERSION]
+
 def Get(url):
     print >> sys.stderr, 'Fetching', url
     try:
@@ -34,22 +41,23 @@ def GetNewestVersions(manifest):
         projectUrl = baseUrl + '/projects/' + str(mod['projectID'])
         projectUrl = DerefUrl(projectUrl).split('?')[0]
         # Find the newest copy of the mod.
-        filesUrl = projectUrl + '/files?filter-game-version=2020709689%3A4449'
+        filesUrl = projectUrl + '/files?filter-game-version=' + VERSION_FILTER
         filesPage = Get(filesUrl)
         tree = soupparser.fromstring(filesPage)
         files = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href')
         names = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()')
-        # Find the URL and MD5 of that file.
-        filePage = Get(baseUrl + files[0])
-        tree = soupparser.fromstring(filePage)
-        md5 = tree.xpath('//span[@class="md5"]/text()')
-        url = tree.xpath('//a[@class="button fa-icon-download"]/@href')
-        yield parser.unescape(names[0]), md5[0], baseUrl + url[0]
+        if files:
+          # Find the URL and MD5 of that file.
+          filePage = Get(baseUrl + files[0])
+          tree = soupparser.fromstring(filePage)
+          md5 = tree.xpath('//span[@class="md5"]/text()')
+          url = tree.xpath('//a[@class="button fa-icon-download"]/@href')
+          yield parser.unescape(names[0]), md5[0], baseUrl + url[0]
         
 
 print '['
 for filename, md5, url in GetNewestVersions(sys.stdin):
-    name = re.subn(r"[ \[\]'()&]", '_', filename)[0]
+    name = re.subn(r"[ \[\]'()&:;]", '_', filename)[0]
     if not filename.endswith('.jar') or filename.endswith('.zip'):
         filename += '.jar'
     print '  {'

@@ -104,13 +104,68 @@ rec {
         saveTime = 45;
       };
     };
+    incognito = {
+      serverId = "erisia-14.5";
+      serverDesc = "1.10 Test Pack (DW20)";
+      server = direwolf-server;
+      port = 25566;
+      hacks = {};
+    };
   };
 
   ServerPack = mkServerPack {
-    inherit forgeMajor forgeMinor servers;
+    inherit servers;
   };
 
   web = callPackage ./web {};
+
+  ################################
+  ## 1.10 test pack: DireWolf20 ##
+  ################################
+
+  direwolf = mkBasePack {
+    src = (mkCursePack {
+      manifest = manifests/DireWolf20.zip;
+      updates = [
+        manifests/DireWolf20-1.10.nix
+      ];
+    }).pack;
+
+    modConfig = {};
+  };
+
+  direwolf-mods = direwolf.mods // {
+  };
+
+  direwolf-server = mkServer rec {
+    name = "erisia-14.5";
+
+    mods = direwolf-mods;
+
+    forgeMajor = "1.10.2";
+    forgeMinor = "12.18.2.2151";
+    forge = fetchForge {
+      major = forgeMajor; minor = forgeMinor;
+      sha1 = "xz8dgkicy9is0i8n3056gqq7d3id4i5v";
+    };
+
+    screenName = "incognito";
+    hacks = servers.incognito.hacks;
+
+    # These are applied in order. In case of overwrites nothing is deleted.
+    # They're also copied to the client, after applying the below patches.
+    extraDirs = [
+      (direwolf.getDir "config")
+      (direwolf.getDir "scripts")
+#      (bevos.getDir "libraries")
+    ];
+
+    # These are applied after everything else.
+    # And in order, if it matters.
+    # TODO: Write something that understands what it's doing.
+    configPatches = [
+    ];
+  };
 
   ###############################
   ## Erisia 14: Modular Mayhem ##
@@ -252,6 +307,7 @@ rec {
     mods = mm-mods;
 
     inherit forgeMajor;
+    inherit forgeMinor;
     forge = fetchForge {
       major = forgeMajor; minor = forgeMinor;
       sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
