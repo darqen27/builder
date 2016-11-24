@@ -258,10 +258,10 @@
     md5 = "fd851602890014f31b54ad0e009e5612";
   }
   {
-    name = "StorageDrawers-1.10.2-3.4.7.jar";
-    filename = "StorageDrawers-1.10.2-3.4.7.jar";
-    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2347860/download";
-    md5 = "b5efdb1740b154275eabda5d959439bb";
+    name = "StorageDrawers-1.10.2-3.5.0.jar";
+    filename = "StorageDrawers-1.10.2-3.5.0.jar";
+    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2348553/download";
+    md5 = "6b6904434b9936e91f822acc1640a69c";
   }
   {
     name = "Super_Circuit_Maker_1.0.4";
@@ -288,10 +288,10 @@
     md5 = "f5902d4132959148f8ec38c59326c068";
   }
   {
-    name = "Wawla-1.10.2-2.3.1.214.jar";
-    filename = "Wawla-1.10.2-2.3.1.214.jar";
-    url = "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2343128/download";
-    md5 = "d9316ef12aa7a08429caa3462e0b5416";
+    name = "Wawla-1.10.2-2.3.1.213.jar";
+    filename = "Wawla-1.10.2-2.3.1.213.jar";
+    url = "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2342267/download";
+    md5 = "0c0169c69e23ede0e999123407fae769";
   }
   {
     name = "appliedenergistics2-rv4-alpha-6.jar";
@@ -384,10 +384,10 @@
     md5 = "0e1b47819ff8befa67d74ec2e2166629";
   }
   {
-    name = "Refined_Storage_1.2.4";
-    filename = "Refined Storage 1.2.4.jar";
-    url = "https://minecraft.curseforge.com/projects/refined-storage/files/2343393/download";
-    md5 = "0c857e283bec1cecea45fa1c53f7878b";
+    name = "Refined_Storage_1.2.5";
+    filename = "Refined Storage 1.2.5.jar";
+    url = "https://minecraft.curseforge.com/projects/refined-storage/files/2348754/download";
+    md5 = "969fa68ef4fdd21940d664efae177b8f";
   }
   {
     name = "rftools-1.10-5.62.jar";

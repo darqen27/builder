@@ -46,6 +46,17 @@ def GetNewestVersions(manifest):
         tree = soupparser.fromstring(filesPage)
         files = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/@href')
         names = tree.xpath('//div[@class="project-file-name-container"]/a[@class="overflow-tip"]/text()')
+        stability = tree.xpath('//td[@class="project-file-release-type"]/div/@class')
+        assert len(files) == len(names) == len(stability)
+        files_filtered = []
+        names_filtered = []
+        for i in xrange(len(files)):
+          if 'alpha' not in stability[i]:
+            files_filtered.append(files[i])
+            names_filtered.append(names[i])
+        if files_filtered:
+          files = files_filtered
+          names = names_filtered
         if files:
           # Find the URL and MD5 of that file.
           filePage = Get(baseUrl + files[0])
@@ -53,7 +64,7 @@ def GetNewestVersions(manifest):
           md5 = tree.xpath('//span[@class="md5"]/text()')
           url = tree.xpath('//a[@class="button fa-icon-download"]/@href')
           yield parser.unescape(names[0]), md5[0], baseUrl + url[0]
-        
+
 
 print '['
 for filename, md5, url in GetNewestVersions(sys.stdin):
