@@ -142,11 +142,9 @@ rec {
 
     mods = direwolf-mods;
 
-    forgeMajor = "1.10.2";
-    forgeMinor = "12.18.2.2151";
     forge = fetchForge {
-      major = forgeMajor; minor = forgeMinor;
-      sha1 = "xz8dgkicy9is0i8n3056gqq7d3id4i5v";
+      major = "1.10.2";
+      minor = "12.18.2.2151";
     };
 
     screenName = "incognito";
@@ -159,7 +157,6 @@ rec {
       (direwolf.getDir "scripts")
       (direwolf.getDir "resources")
       (direwolf.getDir "modpack")
-#      (bevos.getDir "libraries")
     ];
 
     # These are applied after everything else.
@@ -308,11 +305,8 @@ rec {
 
     mods = mm-mods;
 
-    inherit forgeMajor;
-    inherit forgeMinor;
     forge = fetchForge {
       major = forgeMajor; minor = forgeMinor;
-      sha1 = "4d2xzm7w6xwk09q7sbcsbnsalc09xp0v";
     };
 
     screenName = "e14";
@@ -323,7 +317,6 @@ rec {
     extraDirs = [
       (mm.getDir "config")
       (mm.getDir "scripts")
-      (bevos.getDir "libraries")
       ./base
       ./base-e14
     ];

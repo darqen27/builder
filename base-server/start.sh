@@ -4,7 +4,7 @@
 set -eu
 
 BASE=$(dirname $0)
-JAR=forge-universal.jar
+JAR=$(echo forge-@forgeMajor@-@forgeMinor@-*universal.jar)
 
 fixperms() {
     find $1 -exec chmod a+r {} +

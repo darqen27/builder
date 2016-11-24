@@ -10,27 +10,21 @@ rec {
   mkServer = {
     name,
     forge,
-    forgeMajor,
-    forgeMinor,
     mods,
     screenName,
     hacks ? {},
     extraDirs ? [],
     configPatches ? [],
   }: mkDerivation (rec {
-    inherit name;
+    inherit name screenName;
 
     src = ../base-server;
 
-    inherit forge forgeMajor forgeMinor;
     modDirs = builtins.filter (m: m.side != "CLIENT") (builtins.attrValues mods);
-    minecraft = fetchurl {
-      url = "https://s3.amazonaws.com/Minecraft.Download/versions/${forgeMajor}/minecraft_server.${forgeMajor}.jar";
-      sha256 = {
-        "1.7.10" = "1z7kf8wm27yq10rnlwlig7c2vc45x3sfbxslw4lxh9201kq70267";
-        "1.10.2" = "08bss3laa265aavdgivzsv7asd5s2sdqnlqr767j3yf54y14cpqr";
-      }.${forgeMajor};
-    };
+
+    inherit forge;
+    forgeMajor = forge.major;
+    forgeMinor = forge.minor;
 
     baseMinecraft = mkBaseMinecraft {
       extraDirs = extraDirs;
@@ -42,8 +36,7 @@ rec {
     passthru = {
       inherit mods baseMinecraft;
     };
-
-    inherit screenName;
+    
 
     builder = mkBuilder ''
       mkdir -p $out/mods
@@ -53,8 +46,7 @@ rec {
 
       substituteAllInPlace $out/start.sh
 
-      ln -s $forge $out/forge-universal.jar
-      ln -s $minecraft $out/minecraft_server.1.7.10.jar
+      find $forge/ -mindepth 1 -maxdepth 1 -exec ln -s {} $out \;
 
       rsync -a $baseMinecraft/ $out/
 
@@ -131,15 +123,36 @@ rec {
     modpath = self.name + ".jar";
   } // self);
 
-  fetchForge = cfg: let
-      major = cfg.major;
-      minor = cfg.minor;
-    in fetchurl {
-      url = {
-        "1.10.2" = "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-universal.jar";
-        "1.7.10" = "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-universal.jar";
-      }.${major};
-      sha1 = cfg.sha1;
+  # TODO(?): We could use install_profile to generate nix expressions and make this thing work sandboxed.
+  # But, well, why?
+  fetchForge = { major, minor }: mkDerivation rec {
+    name = "forge-${major}-${minor}";
+
+    passthru = {
+      inherit major minor;
+    };
+
+    url = {
+      "1.7.10" = "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar";
+      "1.10.2" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
+    }.${major};
+
+    # The installer needs web access. Since it does, let's download it w/o a hash.
+    #
+    # If you get an error referring to this, you're probably using a strict sandbox.
+    # Disable it, or set it to 'relaxed'.
+    __noChroot = 1;
+    buildInputs = [ jre wget cacert ];
+
+    builder = mkBuilder ''
+      mkdir $out
+      cd $out
+      wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt
+      mkdir mods
+      INSTALLER=$(echo *.jar)
+      java -jar $INSTALLER --installServer
+      rm -r $INSTALLER mods
+    '';
   };
 
 
@@ -317,8 +330,8 @@ rec {
     hacks ? {},
   }: let
     serverUrlBase = packUrlBase + "/packs/" + serverId;
-    forgeMajor = server.forgeMajor;
-    forgeMinor = server.forgeMinor;
+    forgeMajor = server.forge.major;
+    forgeMinor = server.forge.minor;
   in {
     serverId = serverId;
     serverDesc = serverDesc;
