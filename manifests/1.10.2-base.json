@@ -1,6 +1,7 @@
 {
     "files": [
         { "projectID": "thump" },
-        { "projectID": "controlling" }
+        { "projectID": "controlling" },
+        { "projectID": "autojump-keybind-mod" }
     ]
 }

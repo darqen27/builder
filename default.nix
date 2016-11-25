@@ -166,6 +166,9 @@ rec {
       Dynmap = {
         side = "SERVER";
       };
+      AutoJumpKeybind = {
+        side = "CLIENT";
+      };
     };
   };
 
