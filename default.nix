@@ -179,6 +179,16 @@ rec {
     "FTBLib"
     "FTBUtilities"
   ]) // {
+    Optifine = mkMod {
+      name = "Optifine-1.10.2-D3";
+      src = fetchurl {
+        url = https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D3.jar;
+        sha256 = "17fn7rgb2brxbarj86ajbmr26g9c32d9hj898ygfcdh8rx66k6bx";
+      };
+      side = "CLIENT";
+      required = false;
+      isDefault = true;
+    };
   };
 
   direwolf-server = mkServer rec {
@@ -201,6 +211,11 @@ rec {
       (direwolf.getDir "scripts")
       (direwolf.getDir "resources")
       (direwolf.getDir "modpack")
+      (fetchzip {
+        url = https://madoka.brage.info/baughn/ResourcePack-1.10.zip;
+        sha256 = "1v58lhch9g4jm8mlmwb2dnr16gasa1zw1l82lyfsk7s0cqxp8gyj";
+        stripRoot = false;
+       })
     ];
 
     # These are applied after everything else.
