@@ -1,5 +1,6 @@
 {
     "files": [
-        { "projectID": "thump" }
+        { "projectID": "thump" },
+        { "projectID": "controlling" }
     ]
 }
