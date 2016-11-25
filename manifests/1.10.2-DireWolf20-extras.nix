@@ -17,4 +17,28 @@
     url = "https://minecraft.curseforge.com/projects/prefab/files/2335446/download";
     md5 = "6e5f85e6bf120f73364bd79bc9846925";
   }
+  {
+    name = "embers-0.016.jar";
+    filename = "embers-0.016.jar";
+    url = "https://minecraft.curseforge.com/projects/embers/files/2342667/download";
+    md5 = "52e506a9d6032fca6cc74f0078e1d44b";
+  }
+  {
+    name = "roots-0.206.jar";
+    filename = "roots-0.206.jar";
+    url = "https://minecraft.curseforge.com/projects/roots/files/2347364/download";
+    md5 = "5a558df36a69b57cd8abd59eebf59bc2";
+  }
+  {
+    name = "CyclopsCore-1.9.4-0.8.1.jar";
+    filename = "CyclopsCore-1.9.4-0.8.1.jar";
+    url = "https://minecraft.curseforge.com/projects/cyclops-core/files/2345114/download";
+    md5 = "83bf24f8ecd4da685cc7e7b7d212a11b";
+  }
+  {
+    name = "EvilCraft-1.10.2-0.10.15.jar";
+    filename = "EvilCraft-1.10.2-0.10.15.jar";
+    url = "https://minecraft.curseforge.com/projects/evilcraft/files/2345128/download";
+    md5 = "a2b9ee657c47e30d3119c686e9ed7fce";
+  }
 ]

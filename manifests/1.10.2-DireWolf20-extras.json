@@ -2,6 +2,10 @@
     "files": [
         { "projectID": "dynmapforge" },
         { "projectID": "minecolonies" },
-        { "projectID": "prefab" }
+        { "projectID": "prefab" },
+        { "projectID": "embers" },
+        { "projectID": "roots" },
+        { "projectID": "cyclops-core" },
+        { "projectID": "evilcraft" }
     ]
 }

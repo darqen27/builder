@@ -189,6 +189,14 @@ rec {
       required = false;
       isDefault = true;
     };
+    Chunkgen = mkMod {
+      name = "chunkgen-1.5.0";
+      src = fetchurl {
+        url = https://madoka.brage.info/mods/chunkgen-1.10.2-1.5.0.jar;
+        sha256 = "1vag4r9zr5lxz8qj2l6mlglndwvnlv476zk8h5m3g54s4na6r0gp";
+      };
+      side = "SERVER";
+    };
   };
 
   direwolf-server = mkServer rec {
