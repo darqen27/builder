@@ -197,6 +197,16 @@ rec {
       };
       side = "SERVER";
     };
+    FoamFix = mkMod {
+      name = "foamfix-0.3.2a";
+      src = fetchurl {
+        url = http://asie.pl/foamfix/foamfix-0.3.2a-law.jar;
+        sha256 = "045pchzmwdkwjrihz14v05frs4hjdig8rndxwh953k8i13d9h9mg";
+      };
+      side = "CLIENT";
+      required = false;
+      isDefault = true;
+   };
   };
 
   direwolf-server = mkServer rec {
