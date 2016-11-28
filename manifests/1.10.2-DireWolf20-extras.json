@@ -1,5 +1,8 @@
 {
     "files": [
+        { "projectID": "the-spice-of-life" },
+        { "projectID": "applecore" },
+        { "projectID": "appleskin" },
         { "projectID": "dynmapforge" },
         { "projectID": "minecolonies" },
         { "projectID": "prefab" },

@@ -228,6 +228,7 @@ rec {
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
     extraDirs = [
+      ./base-dw20
       (direwolf.getDir "config")
       (direwolf.getDir "scripts")
       (direwolf.getDir "resources")
