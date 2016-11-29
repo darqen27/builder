@@ -228,7 +228,6 @@ rec {
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
     extraDirs = [
-      ./base-dw20
       (direwolf.getDir "config")
       (direwolf.getDir "scripts")
       (direwolf.getDir "resources")
@@ -238,6 +237,7 @@ rec {
         sha256 = "1v58lhch9g4jm8mlmwb2dnr16gasa1zw1l82lyfsk7s0cqxp8gyj";
         stripRoot = false;
        })
+       ./base-dw20
     ];
 
     # These are applied after everything else.
