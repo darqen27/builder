@@ -42,10 +42,10 @@
     md5 = "52e506a9d6032fca6cc74f0078e1d44b";
   }
   {
-    name = "roots-0.206.jar";
-    filename = "roots-0.206.jar";
-    url = "https://minecraft.curseforge.com/projects/roots/files/2347364/download";
-    md5 = "5a558df36a69b57cd8abd59eebf59bc2";
+    name = "roots-0.207.jar";
+    filename = "roots-0.207.jar";
+    url = "https://minecraft.curseforge.com/projects/roots/files/2350252/download";
+    md5 = "5e68503eb00c4890d438b936a1cbf106";
   }
   {
     name = "CyclopsCore-1.9.4-0.8.1.jar";
