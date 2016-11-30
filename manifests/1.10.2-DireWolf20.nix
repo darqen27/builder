@@ -1,9 +1,9 @@
 [
   {
-    name = "ActuallyAdditions-1.10.2-r81";
-    filename = "ActuallyAdditions-1.10.2-r81.jar";
-    url = "https://minecraft.curseforge.com/projects/actually-additions/files/2348966/download";
-    md5 = "5a3e38e26bd2e3592bef3765cc6c8c75";
+    name = "ActuallyAdditions-1.10.2-r84";
+    filename = "ActuallyAdditions-1.10.2-r84.jar";
+    url = "https://minecraft.curseforge.com/projects/actually-additions/files/2350668/download";
+    md5 = "04611d646013c864b0a0e203ce66d28c";
   }
   {
     name = "AkashicTome-1.0-5.jar";
@@ -42,10 +42,10 @@
     md5 = "90c543251dd2f74713fc7098ddb24b04";
   }
   {
-    name = "BloodMagic-1.9.4-2.1.0-67.jar";
-    filename = "BloodMagic-1.9.4-2.1.0-67.jar";
-    url = "https://minecraft.curseforge.com/projects/blood-magic/files/2349872/download";
-    md5 = "c83bc33d93522f35b3e9e3db15b5079a";
+    name = "BloodMagic-1.9.4-2.1.0-68.jar";
+    filename = "BloodMagic-1.9.4-2.1.0-68.jar";
+    url = "https://minecraft.curseforge.com/projects/blood-magic/files/2350763/download";
+    md5 = "3ff9061f005095c0c55179ab4b3cdd81";
   }
   {
     name = "Bookshelf-1.10.2-1.4.3.338.jar";
@@ -72,10 +72,10 @@
     md5 = "d232f46de0a412fea901d4d956c1b433";
   }
   {
-    name = "Chisel_-_MC1.10.2-0.0.7.5";
-    filename = "Chisel - MC1.10.2-0.0.7.5.jar";
-    url = "https://minecraft.curseforge.com/projects/chisel/files/2350380/download";
-    md5 = "75de0d1464d3b8ce5f21855e5cc52a27";
+    name = "Chisel_-_MC1.10.2-0.0.7.7";
+    filename = "Chisel - MC1.10.2-0.0.7.7.jar";
+    url = "https://minecraft.curseforge.com/projects/chisel/files/2350978/download";
+    md5 = "ebf56ad04d4cb5edb272cc35b0107d54";
   }
   {
     name = "CodeChicken_Core_1.10.2-2.3.5.91-universal";
@@ -180,16 +180,16 @@
     md5 = "8f4da7daa5549267e4db51cbc9315d9f";
   }
   {
-    name = "IronBackpacks-1.10.2-2.2.17.jar";
-    filename = "IronBackpacks-1.10.2-2.2.17.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2348144/download";
-    md5 = "18624cdae87f1dcf1c3c36e73f733edd";
+    name = "IronBackpacks-1.10.2-2.2.18.jar";
+    filename = "IronBackpacks-1.10.2-2.2.18.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2350951/download";
+    md5 = "6c5140d32a9caf9ecc2f58da119deec3";
   }
   {
-    name = "JustEnoughResources-1.10.2-0.5.7.87";
-    filename = "JustEnoughResources-1.10.2-0.5.7.87.jar";
-    url = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2345082/download";
-    md5 = "848c539843de8d9738308ce68f0ea555";
+    name = "JustEnoughResources-1.10.2-0.5.7.96";
+    filename = "JustEnoughResources-1.10.2-0.5.7.96.jar";
+    url = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2350957/download";
+    md5 = "f23de688dbf08740e45dc058e56bcd33";
   }
   {
     name = "LLOverlayReloaded-1.1.1-mc_1.9-1.11_.jar";
@@ -246,10 +246,10 @@
     md5 = "cc415c298c06e3095525ac3350727da1";
   }
   {
-    name = "Railcraft_10.0.0";
-    filename = "Railcraft 10.0.0.jar";
-    url = "https://minecraft.curseforge.com/projects/railcraft/files/2340859/download";
-    md5 = "eeb14501d81df5a71befbe9702547854";
+    name = "Railcraft_10.0.1";
+    filename = "Railcraft 10.0.1.jar";
+    url = "https://minecraft.curseforge.com/projects/railcraft/files/2350816/download";
+    md5 = "4d4ab3832e74a531c0c43c1c68a947fb";
   }
   {
     name = "ResourceLoader-MC1.9.4-1.5.1.jar";
@@ -324,10 +324,10 @@
     md5 = "0bc85e6993a628d5ca2b6ede75805046";
   }
   {
-    name = "forestry_1.10.2-5.2.16.328.jar";
-    filename = "forestry_1.10.2-5.2.16.328.jar";
-    url = "https://minecraft.curseforge.com/projects/forestry/files/2349067/download";
-    md5 = "5116918296192a2115335efaa256e342";
+    name = "forestry_1.10.2-5.2.16.330.jar";
+    filename = "forestry_1.10.2-5.2.16.330.jar";
+    url = "https://minecraft.curseforge.com/projects/forestry/files/2350908/download";
+    md5 = "e00515b2dcc585a5bc7546b327bbe1ed";
   }
   {
     name = "Industrialcraft-2-2.6.105-ex110";
@@ -384,10 +384,10 @@
     md5 = "0e1b47819ff8befa67d74ec2e2166629";
   }
   {
-    name = "Refined_Storage_1.2.6";
-    filename = "Refined Storage 1.2.6.jar";
-    url = "https://minecraft.curseforge.com/projects/refined-storage/files/2349317/download";
-    md5 = "865d81ef5118882bc153ac37aae07853";
+    name = "Refined_Storage_1.2.8";
+    filename = "Refined Storage 1.2.8.jar";
+    url = "https://minecraft.curseforge.com/projects/refined-storage/files/2350970/download";
+    md5 = "71bb9954a55f2caf67b0398be992a98f";
   }
   {
     name = "rftools-1.10-5.62.jar";

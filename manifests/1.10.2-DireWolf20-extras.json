@@ -1,5 +1,7 @@
 {
     "files": [
+        { "projectID": "bdlib" },
+        { "projectID": "advanced-generators" },
         { "projectID": "the-spice-of-life" },
         { "projectID": "applecore" },
         { "projectID": "appleskin" },

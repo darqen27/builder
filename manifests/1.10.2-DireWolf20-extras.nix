@@ -1,5 +1,17 @@
 [
   {
+    name = "BDLib_1.12.2.17__MC_1.10.2_";
+    filename = "BDLib 1.12.2.17 (MC 1.10.2).jar";
+    url = "https://minecraft.curseforge.com/projects/bdlib/files/2339442/download";
+    md5 = "3a6e9143f69165298d3ae2c6338760ba";
+  }
+  {
+    name = "Advanced_Generators_0.9.20.18__MC_1.10.2_";
+    filename = "Advanced Generators 0.9.20.18 (MC 1.10.2).jar";
+    url = "https://minecraft.curseforge.com/projects/advanced-generators/files/2337357/download";
+    md5 = "436c5627093e900ae6174a999028aabc";
+  }
+  {
     name = "SpiceOfLife-mc1.9.4-1.3.6.jar";
     filename = "SpiceOfLife-mc1.9.4-1.3.6.jar";
     url = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2332060/download";
