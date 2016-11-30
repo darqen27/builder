@@ -173,11 +173,6 @@ rec {
   };
 
   direwolf-mods = (builtins.removeAttrs direwolf.mods [
-    # Crashes. Won't bother fixing right now, try SCM instead, it's nice.
-    "rftools"
-    "rftoolsctrl"
-    # No, just no.
-    "rftoolsdim"
     # Has issues, and we have our own backup system.
     "FTBLib"
     "FTBUtilities"
