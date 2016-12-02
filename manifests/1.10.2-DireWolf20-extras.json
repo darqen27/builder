@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "compatlayer" },
         { "projectID": "bagelsmore-the-return" },
         { "projectID": "bibliocraft" },
         { "projectID": "bibliocraft-bibliowoods-biomes-oplenty-edition" },
