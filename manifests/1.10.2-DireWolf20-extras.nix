@@ -36,10 +36,10 @@
     md5 = "c4a2aa2a63a46e28b0092104e4ac772a";
   }
   {
-    name = "Minecolonies_v0.5_v17";
-    filename = "Minecolonies v0.5 v17.jar";
-    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2349023/download";
-    md5 = "c9f1f0f0ea4e3c1d848f7a8819cfe701";
+    name = "Minecolonies_v0.5_v18";
+    filename = "Minecolonies v0.5 v18.jar";
+    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2351330/download";
+    md5 = "664aaaad5cd877f3f0a3a0d7efec4007";
   }
   {
     name = "prefab-1.1.1.4.jar";
