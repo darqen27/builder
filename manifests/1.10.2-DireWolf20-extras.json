@@ -1,5 +1,8 @@
 {
     "files": [
+        { "projectID": "bibliocraft" },
+        { "projectID": "bibliocraft-bibliowoods-biomes-oplenty-edition" },
+        { "projectID": "bibliocraft-bibliowoods-forestry-edition" },
         { "projectID": "bdlib" },
         { "projectID": "advanced-generators" },
         { "projectID": "the-spice-of-life" },
