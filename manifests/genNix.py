@@ -10,7 +10,7 @@ import urllib2
 from lxml.html import soupparser
 
 
-VERSION = '1.10.2'
+VERSION = sys.argv[1]
 VERSION_FILTERS = {
   '1.10.2': ['2020709689%3A6170', '2020709689%3A6084'],  # 1.9.4 mods work as well. Usually.
   '1.7.10': ['2020709689%3A4449'],
