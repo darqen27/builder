@@ -1,5 +1,11 @@
 [
   {
+    name = "Bagelsmore-1.9.4-1.0.1";
+    filename = "Bagelsmore-1.9.4-1.0.1.jar";
+    url = "https://minecraft.curseforge.com/projects/bagelsmore-the-return/files/2323365/download";
+    md5 = "83d030395901c5020accce99bd37a112";
+  }
+  {
     name = "BDLib_1.12.2.17__MC_1.10.2_";
     filename = "BDLib 1.12.2.17 (MC 1.10.2).jar";
     url = "https://minecraft.curseforge.com/projects/bdlib/files/2339442/download";
