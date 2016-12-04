@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "ambientsounds" },
         { "projectID": "real-time-clock" },
         { "projectID": "better-foliage" },
         { "projectID": "dynamic-surroundings" },

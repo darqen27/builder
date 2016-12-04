@@ -1,5 +1,11 @@
 [
   {
+    name = "AmbientSounds_v1.2.1_mc1.10.2.zip";
+    filename = "AmbientSounds v1.2.1 mc1.10.2.zip.jar";
+    url = "https://minecraft.curseforge.com/projects/ambientsounds/files/2349901/download";
+    md5 = "6b4c6620cfc1817aa5c977db54f7b897";
+  }
+  {
     name = "RealTimeClock-1.10-0.6.3.jar";
     filename = "RealTimeClock-1.10-0.6.3.jar";
     url = "https://minecraft.curseforge.com/projects/real-time-clock/files/2311044/download";

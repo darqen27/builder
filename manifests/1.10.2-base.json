@@ -1,5 +1,6 @@
 {
     "files": [
+        { "projectID": "prometheus-integration" },
         { "projectID": "thump" },
         { "projectID": "controlling" },
         { "projectID": "autojump-keybind-mod" }
