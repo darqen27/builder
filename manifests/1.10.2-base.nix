@@ -1,9 +1,9 @@
 [
   {
-    name = "Prometheus_Integration_0.2.0";
-    filename = "Prometheus Integration 0.2.0.jar";
-    url = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352186/download";
-    md5 = "19b4ca4ebdded467ec660c2b0e00ca2f";
+    name = "Forgelin-1.1.0.jar";
+    filename = "Forgelin-1.1.0.jar";
+    url = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2345526/download";
+    md5 = "de67117970343f91760b4d0eef7685be";
   }
   {
     name = "Thump-1.10.2-4.1.0.138.jar";
