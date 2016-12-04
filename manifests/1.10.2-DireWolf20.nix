@@ -1,9 +1,9 @@
 [
   {
-    name = "ActuallyAdditions-1.10.2-r85";
-    filename = "ActuallyAdditions-1.10.2-r85.jar";
-    url = "https://minecraft.curseforge.com/projects/actually-additions/files/2351236/download";
-    md5 = "125697b55c24e1623864530ac57d2026";
+    name = "ActuallyAdditions-1.10.2-r88";
+    filename = "ActuallyAdditions-1.10.2-r88.jar";
+    url = "https://minecraft.curseforge.com/projects/actually-additions/files/2352342/download";
+    md5 = "f53ee7448130e250749398ff0d80d83a";
   }
   {
     name = "AkashicTome-1.0-5.jar";
@@ -120,10 +120,10 @@
     md5 = "df1c0eb3555d28da38ac5ef9508ac398";
   }
   {
-    name = "ElecCore-1.10.2-1.6.345.jar";
-    filename = "ElecCore-1.10.2-1.6.345.jar";
-    url = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2346737/download";
-    md5 = "cc156b5753d280c45ec72327c0a7b90a";
+    name = "ElecCore-1.10.2-1.6.360.jar";
+    filename = "ElecCore-1.10.2-1.6.360.jar";
+    url = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2352315/download";
+    md5 = "d1a400255b5eaf4f827a3ce2f06258dd";
   }
   {
     name = "EnderCore_-_1.10.2-0.4.1.60-beta";
@@ -174,10 +174,10 @@
     md5 = "31a0d5f2482a01850aae3ab8cc4a3cba";
   }
   {
-    name = "Immersive_Engineering_0.10_-_51";
-    filename = "Immersive Engineering 0.10 - 51.jar";
-    url = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2351015/download";
-    md5 = "73fff15a5376ed80cef6222b86452dd4";
+    name = "Immersive_Engineering_0.10_-_52";
+    filename = "Immersive Engineering 0.10 - 52.jar";
+    url = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2351665/download";
+    md5 = "14591f7a55a79d72bfc4b23240951b38";
   }
   {
     name = "IronBackpacks-1.10.2-2.2.19.jar";
@@ -240,10 +240,10 @@
     md5 = "e32509713c8676ef4852bbbfd1723722";
   }
   {
-    name = "Quark-r1.1-62.jar";
-    filename = "Quark-r1.1-62.jar";
-    url = "https://minecraft.curseforge.com/projects/quark/files/2351469/download";
-    md5 = "48cdc25fd3777b3e1bdf6e5c8ba5cc1e";
+    name = "Quark-r1.1-64.jar";
+    filename = "Quark-r1.1-64.jar";
+    url = "https://minecraft.curseforge.com/projects/quark/files/2352104/download";
+    md5 = "a4366260bca5e056807bb7df1878f92e";
   }
   {
     name = "Railcraft_10.0.1";
@@ -294,10 +294,10 @@
     md5 = "0c0169c69e23ede0e999123407fae769";
   }
   {
-    name = "appliedenergistics2-rv4-alpha-7.jar";
-    filename = "appliedenergistics2-rv4-alpha-7.jar";
-    url = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2349416/download";
-    md5 = "4c920028f8ae5e9aa497b09b467fb865";
+    name = "appliedenergistics2-rv4-alpha-8.jar";
+    filename = "appliedenergistics2-rv4-alpha-8.jar";
+    url = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2351885/download";
+    md5 = "3c81c37b77df98a8d2048b72b3270d20";
   }
   {
     name = "chiselsandbits-12.7.jar";

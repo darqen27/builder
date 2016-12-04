@@ -66,21 +66,21 @@
     md5 = "52e506a9d6032fca6cc74f0078e1d44b";
   }
   {
-    name = "roots-0.207.jar";
-    filename = "roots-0.207.jar";
-    url = "https://minecraft.curseforge.com/projects/roots/files/2350252/download";
-    md5 = "5e68503eb00c4890d438b936a1cbf106";
+    name = "roots-0.208.jar";
+    filename = "roots-0.208.jar";
+    url = "https://minecraft.curseforge.com/projects/roots/files/2352210/download";
+    md5 = "5a152d6f1efd0cf1d25c7d526c06d5ba";
   }
   {
-    name = "CyclopsCore-1.9.4-0.8.1.jar";
-    filename = "CyclopsCore-1.9.4-0.8.1.jar";
-    url = "https://minecraft.curseforge.com/projects/cyclops-core/files/2345114/download";
-    md5 = "83bf24f8ecd4da685cc7e7b7d212a11b";
+    name = "CyclopsCore-1.9.4-0.8.2.jar";
+    filename = "CyclopsCore-1.9.4-0.8.2.jar";
+    url = "https://minecraft.curseforge.com/projects/cyclops-core/files/2351896/download";
+    md5 = "203e0336d942cff95db0f2cde4464728";
   }
   {
-    name = "EvilCraft-1.10.2-0.10.15.jar";
-    filename = "EvilCraft-1.10.2-0.10.15.jar";
-    url = "https://minecraft.curseforge.com/projects/evilcraft/files/2345128/download";
-    md5 = "a2b9ee657c47e30d3119c686e9ed7fce";
+    name = "EvilCraft-1.10.2-0.10.16.jar";
+    filename = "EvilCraft-1.10.2-0.10.16.jar";
+    url = "https://minecraft.curseforge.com/projects/evilcraft/files/2351912/download";
+    md5 = "38e263991456f8497b551883877d4297";
   }
 ]
