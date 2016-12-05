@@ -6,10 +6,10 @@
     md5 = "de67117970343f91760b4d0eef7685be";
   }
   {
-    name = "Prometheus_Integration_0.2.0";
-    filename = "Prometheus Integration 0.2.0.jar";
-    url = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352630/download";
-    md5 = "5c8b5d53fa34887da65bd34d3ba00b5d";
+    name = "Prometheus-Integration_0.2.1";
+    filename = "Prometheus-Integration 0.2.1.jar";
+    url = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
+    md5 = "bf5d489de876b487b1a78b1b3040810f";
   }
   {
     name = "Thump-1.10.2-4.1.0.138.jar";
