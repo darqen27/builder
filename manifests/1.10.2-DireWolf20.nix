@@ -306,16 +306,16 @@
     md5 = "30400ecd228a9faf69decab92a320ee4";
   }
   {
-    name = "deepresonance-1.11-1.3.1beta1.jar";
-    filename = "deepresonance-1.11-1.3.1beta1.jar";
-    url = "https://minecraft.curseforge.com/projects/deep-resonance/files/2351208/download";
-    md5 = "8b7108e59d726921fc0851069b3e1e91";
+    name = "deepresonance-1.1x-1.4.0.jar";
+    filename = "deepresonance-1.1x-1.4.0.jar";
+    url = "https://minecraft.curseforge.com/projects/deep-resonance/files/2352587/download";
+    md5 = "0e9f6a6dfa6043f9b4e22047d55b5d6b";
   }
   {
-    name = "Extra_Utilities_2_-_1.10.2_-_1.1.1";
-    filename = "Extra Utilities 2 - 1.10.2 - 1.1.1.jar";
-    url = "https://minecraft.curseforge.com/projects/extra-utilities/files/2349711/download";
-    md5 = "17068ca27ef06c1c1b36ec2294e12305";
+    name = "Extra_Utilities_2_-_1.10.2_-_1.1.2";
+    filename = "Extra Utilities 2 - 1.10.2 - 1.1.2.jar";
+    url = "https://minecraft.curseforge.com/projects/extra-utilities/files/2352596/download";
+    md5 = "c75c918b7a1ad076b4854e237be7e737";
   }
   {
     name = "flatcoloredblocks-mc1.10-v4.4.jar";
@@ -366,10 +366,10 @@
     md5 = "8944995c8b85da5f2d7d7a0f815cc010";
   }
   {
-    name = "mcjtylib-1.11-2.2.0beta1.jar";
-    filename = "mcjtylib-1.11-2.2.0beta1.jar";
-    url = "https://minecraft.curseforge.com/projects/mcjtylib/files/2351204/download";
-    md5 = "a1de278c8749401a5af4d2a6987196ae";
+    name = "mcjtylib-1.1x-2.3.0.jar";
+    filename = "mcjtylib-1.1x-2.3.0.jar";
+    url = "https://minecraft.curseforge.com/projects/mcjtylib/files/2352583/download";
+    md5 = "7e6156e96fdbfd3d68e9f01e0d239bf5";
   }
   {
     name = "notenoughwands-1.10-1.4.0.jar";
@@ -390,22 +390,22 @@
     md5 = "71bb9954a55f2caf67b0398be992a98f";
   }
   {
-    name = "rftools-1.11-5.62beta1.jar";
-    filename = "rftools-1.11-5.62beta1.jar";
-    url = "https://minecraft.curseforge.com/projects/rftools/files/2351205/download";
-    md5 = "7d16e04d210759956410197f5eacc1b5";
+    name = "rftools-1.1x-5.70.jar";
+    filename = "rftools-1.1x-5.70.jar";
+    url = "https://minecraft.curseforge.com/projects/rftools/files/2352584/download";
+    md5 = "d9bb3b2236d302ba57e2f3f8ff2bfb2f";
   }
   {
-    name = "rftoolsctrl-1.11-1.5.2beta1.jar";
-    filename = "rftoolsctrl-1.11-1.5.2beta1.jar";
-    url = "https://minecraft.curseforge.com/projects/rftools-control/files/2351207/download";
-    md5 = "01e764c3f01962a6fb9ec22dc6ffb9da";
+    name = "rftoolsctrl-1.1x-1.6.0.jar";
+    filename = "rftoolsctrl-1.1x-1.6.0.jar";
+    url = "https://minecraft.curseforge.com/projects/rftools-control/files/2352585/download";
+    md5 = "9f96b32e016496069c9f46d2f842faf9";
   }
   {
-    name = "rftoolsdim-1.11-4.45beta1.jar";
-    filename = "rftoolsdim-1.11-4.45beta1.jar";
-    url = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2351206/download";
-    md5 = "0329251f37843fa9c93012f82e67c898";
+    name = "rftoolsdim-1.1x-4.50.jar";
+    filename = "rftoolsdim-1.1x-4.50.jar";
+    url = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2352586/download";
+    md5 = "60a64a1a47da3d84a7adf010d6b4a091";
   }
   {
     name = "theoneprobe-1.10-1.3.3.jar";

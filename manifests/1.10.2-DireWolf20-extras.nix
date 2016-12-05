@@ -1,9 +1,9 @@
 [
   {
-    name = "compatlayer-1.10-0.0.39beta.jar";
-    filename = "compatlayer-1.10-0.0.39beta.jar";
-    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2351202/download";
-    md5 = "721c6f376034108fbfddb074f0a3d7f7";
+    name = "compatlayer-1.10-0.1.0.jar";
+    filename = "compatlayer-1.10-0.1.0.jar";
+    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2352581/download";
+    md5 = "f873fbc5ad74561918524bb37f34e0e2";
   }
   {
     name = "Bagelsmore-1.9.4-1.0.1";
