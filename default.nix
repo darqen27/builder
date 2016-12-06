@@ -247,6 +247,7 @@ rec {
     # And in order, if it matters.
     # TODO: Write something that understands what it's doing.
     configPatches = [
+      "sed -i 's/oreToIngotRatio=2.0/oreToIngotRatio=1.5/' tconstruct.cfg"
     ];
   };
 
