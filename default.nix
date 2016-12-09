@@ -222,7 +222,7 @@ rec {
 
     forge = fetchForge {
       major = "1.10.2";
-      minor = "12.18.2.2151";
+      minor = "12.18.3.2185";
     };
 
     screenName = "incognito";
