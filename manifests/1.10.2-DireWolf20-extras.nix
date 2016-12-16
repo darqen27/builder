@@ -1,9 +1,9 @@
 [
   {
-    name = "compatlayer-1.10-0.1.3.jar";
-    filename = "compatlayer-1.10-0.1.3.jar";
-    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2353755/download";
-    md5 = "09317686c0a4d0e495f56abd8f8e0a6a";
+    name = "compatlayer-1.10-0.1.4.jar";
+    filename = "compatlayer-1.10-0.1.4.jar";
+    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2356026/download";
+    md5 = "b129cb4cac9efbf31cf16393f492a688";
   }
   {
     name = "Bagelsmore-1.9.4-1.0.1";
@@ -48,10 +48,10 @@
     md5 = "c4a2aa2a63a46e28b0092104e4ac772a";
   }
   {
-    name = "Minecolonies_v0.5_v18";
-    filename = "Minecolonies v0.5 v18.jar";
-    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2351330/download";
-    md5 = "664aaaad5cd877f3f0a3a0d7efec4007";
+    name = "Minecolonies_v0.5_v22";
+    filename = "Minecolonies v0.5 v22.jar";
+    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2356474/download";
+    md5 = "9c6efbd9a06aef5c1eb6ce1d472e2605";
   }
   {
     name = "prefab-1.1.1.4.jar";
@@ -82,5 +82,23 @@
     filename = "EvilCraft-1.10.2-0.10.16.jar";
     url = "https://minecraft.curseforge.com/projects/evilcraft/files/2351912/download";
     md5 = "38e263991456f8497b551883877d4297";
+  }
+  {
+    name = "IntegratedDynamics-1.10.2-0.6.4.jar";
+    filename = "IntegratedDynamics-1.10.2-0.6.4.jar";
+    url = "https://minecraft.curseforge.com/projects/integrated-dynamics/files/2351902/download";
+    md5 = "5849679bd18c70f2d33ae344e88fbc7a";
+  }
+  {
+    name = "CommonCapabilities-1.9.4-1.2.1.jar";
+    filename = "CommonCapabilities-1.9.4-1.2.1.jar";
+    url = "https://minecraft.curseforge.com/projects/common-capabilities/files/2345110/download";
+    md5 = "e944467097f989bbce736331f35ef18f";
+  }
+  {
+    name = "IntegratedTunnels-1.10.2-1.0.1.jar";
+    filename = "IntegratedTunnels-1.10.2-1.0.1.jar";
+    url = "https://minecraft.curseforge.com/projects/integrated-tunnels/files/2351908/download";
+    md5 = "c2855f9adae484315afd6551b9b7cdd3";
   }
 ]
