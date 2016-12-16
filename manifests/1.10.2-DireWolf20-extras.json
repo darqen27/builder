@@ -17,5 +17,8 @@
         { "projectID": "roots" },
         { "projectID": "cyclops-core" },
         { "projectID": "evilcraft" }
+        { "projectID": "integrated-dynamics" }
+        { "projectID": "common-capabilities" }
+        { "projectID": "integrated-tunnels" }
     ]
 }
