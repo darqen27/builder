@@ -30,10 +30,10 @@
     md5 = "8df347d4f0fa02462b5e0879c2d438f5";
   }
   {
-    name = "Better_Builder_s_Wands_0.8.0__MC1.10,1.10.2__rev_170_";
-    filename = "Better Builder's Wands 0.8.0 [MC1.10,1.10.2; rev 170].jar";
-    url = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2355645/download";
-    md5 = "66fd99d704cbf6050f6d77d1a9252bf4";
+    name = "Better_Builder_s_Wands_0.6.5__MC1.10__rev_138_";
+    filename = "Better Builder's Wands 0.6.5 [MC1.10; rev 138].jar";
+    url = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2310296/download";
+    md5 = "b04686ccac361027c25e3cc926b13dda";
   }
   {
     name = "BiomesOPlenty-1.10.2-5.0.0.2109-universal.jar";
