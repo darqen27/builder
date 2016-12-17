@@ -186,10 +186,10 @@ rec {
       side = "SERVER";
     };
     Optifine = mkMod {
-      name = "Optifine-1.10.2-D3";
+      name = "Optifine-1.10.2-D4";
       src = fetchurl {
-        url = https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D3.jar;
-        sha256 = "17fn7rgb2brxbarj86ajbmr26g9c32d9hj898ygfcdh8rx66k6bx";
+        url = https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D4.jar;
+        sha256 = "19mi9azyadwidp927pws04d063l8iyfs60s2d6jp5dkxkli0gv8d";
       };
       side = "CLIENT";
       required = false;
