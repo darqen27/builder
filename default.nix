@@ -152,7 +152,7 @@ rec {
       SoundFilters = {
         side = "CLIENT";
         required = false;
-        isDefault = true;
+        isDefault = false;
       };
       morpheus = {
         side = "SERVER";
