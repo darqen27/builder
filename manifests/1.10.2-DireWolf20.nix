@@ -1,9 +1,9 @@
 [
   {
-    name = "ActuallyAdditions-1.10.2-r90";
-    filename = "ActuallyAdditions-1.10.2-r90.jar";
-    url = "https://minecraft.curseforge.com/projects/actually-additions/files/2353777/download";
-    md5 = "6dbf1699d2feac6568f155c9802b95da";
+    name = "ActuallyAdditions-1.10.2-r93";
+    filename = "ActuallyAdditions-1.10.2-r93.jar";
+    url = "https://minecraft.curseforge.com/projects/actually-additions/files/2359231/download";
+    md5 = "9837fd50d3ba8334c1740affd797d099";
   }
   {
     name = "AkashicTome-1.0-5.jar";
@@ -60,10 +60,10 @@
     md5 = "f24e46b9fe9ca6c1274447e24cc5e5f8";
   }
   {
-    name = "BrandonsCore-1.10.2-2.1.1.61-universal.jar";
-    filename = "BrandonsCore-1.10.2-2.1.1.61-universal.jar";
-    url = "https://minecraft.curseforge.com/projects/brandons-core/files/2341993/download";
-    md5 = "0dd3c1913a8fb90b7ead096984d54ac1";
+    name = "Brandon_s_Core_1.10.2-2.1.2.76-universal";
+    filename = "Brandon's Core 1.10.2-2.1.2.76-universal.jar";
+    url = "https://minecraft.curseforge.com/projects/brandons-core/files/2356916/download";
+    md5 = "64cd66ce456b84598b993f7090b5f69e";
   }
   {
     name = "Chameleon-1.10-2.2.2.jar";
@@ -78,16 +78,16 @@
     md5 = "ebf56ad04d4cb5edb272cc35b0107d54";
   }
   {
-    name = "CodeChicken_Core_1.10.2-2.3.5.91-universal";
-    filename = "CodeChicken Core 1.10.2-2.3.5.91-universal.jar";
-    url = "https://minecraft.curseforge.com/projects/codechicken-core-1-8/files/2339773/download";
-    md5 = "82a30efa8470f7b670102f278784d5e8";
+    name = "CodeChicken_Core_1.10.2-2.4.0.100-universal";
+    filename = "CodeChicken Core 1.10.2-2.4.0.100-universal.jar";
+    url = "https://minecraft.curseforge.com/projects/codechicken-core-1-8/files/2356883/download";
+    md5 = "276f5ac04eb34e73abc2f8f880a7528a";
   }
   {
-    name = "CodeChicken_Lib_1.10.2-2.4.3.145-universal";
-    filename = "CodeChicken Lib 1.10.2-2.4.3.145-universal.jar";
-    url = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2347458/download";
-    md5 = "783e262d6436ea2e18367c43ccf1f225";
+    name = "CodeChicken_Lib_1.10.2-2.5.0.178-universal";
+    filename = "CodeChicken Lib 1.10.2-2.5.0.178-universal.jar";
+    url = "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2356881/download";
+    md5 = "4aa5b57e23f15b38e8965765c3ba1eff";
   }
   {
     name = "CompactSolars-1.10.2-5.0.6.330-universal.jar";
@@ -96,10 +96,10 @@
     md5 = "ea26f74485c27a40c1e2fb992bca3426";
   }
   {
-    name = "CraftTweaker-1.10.2-3.0.15";
-    filename = "CraftTweaker-1.10.2-3.0.15.jar";
-    url = "https://minecraft.curseforge.com/projects/crafttweaker/files/2345461/download";
-    md5 = "1ca2a8131860428d897a3b2812110ab9";
+    name = "CraftTweaker-1.10.2-3.0.16";
+    filename = "CraftTweaker-1.10.2-3.0.16.jar";
+    url = "https://minecraft.curseforge.com/projects/crafttweaker/files/2360259/download";
+    md5 = "73f47136a2a6b5a68a00547a561aede6";
   }
   {
     name = "CustomMainMenu-MC1.10.2-2.0.2.jar";
@@ -114,10 +114,10 @@
     md5 = "788b17a567509916765236d03fc4a3d8";
   }
   {
-    name = "Draconic-Evolution-1.10.2-2.0.3.137-universal.jar";
-    filename = "Draconic-Evolution-1.10.2-2.0.3.137-universal.jar";
-    url = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2342747/download";
-    md5 = "df1c0eb3555d28da38ac5ef9508ac398";
+    name = "Draconic_Evolution_1.10.2-2.0.4.142-universal";
+    filename = "Draconic Evolution 1.10.2-2.0.4.142-universal.jar";
+    url = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2356918/download";
+    md5 = "ea5609759f4ae4b797942a561164befc";
   }
   {
     name = "ElecCore-1.10.2-1.6.360.jar";
@@ -132,28 +132,28 @@
     md5 = "0694bda343b5f1318ece1919c98bbd50";
   }
   {
-    name = "EnderIO_-_1.10.2-3.0.1.141_beta";
-    filename = "EnderIO - 1.10.2-3.0.1.141_beta.jar";
-    url = "https://minecraft.curseforge.com/projects/ender-io/files/2355866/download";
-    md5 = "f2f0a7dba0b470390994021819bdbc9c";
+    name = "EnderIO_-_1.10.2-3.0.1.147_beta";
+    filename = "EnderIO - 1.10.2-3.0.1.147_beta.jar";
+    url = "https://minecraft.curseforge.com/projects/ender-io/files/2360416/download";
+    md5 = "6513751868bbf9e179e4e3341540b085";
   }
   {
-    name = "Ender_Storage_1.10.2-2.1.5.84-universal";
-    filename = "Ender Storage 1.10.2-2.1.5.84-universal.jar";
-    url = "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2339775/download";
-    md5 = "b14b9af02d7becefcd8ffce9b89175f1";
+    name = "Ender_Storage_1.10.2-2.2.0.96-universal";
+    filename = "Ender Storage 1.10.2-2.2.0.96-universal.jar";
+    url = "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2358285/download";
+    md5 = "e5c459a35003cbe047610e7669064e08";
   }
   {
-    name = "FTBLib-1.10.2-3.1.5.jar";
-    filename = "FTBLib-1.10.2-3.1.5.jar";
-    url = "https://minecraft.curseforge.com/projects/ftblib/files/2344202/download";
-    md5 = "330dde43a9f9233e539a6eacd6a76a67";
+    name = "FTBLib-1.10.2-3.2.3.jar";
+    filename = "FTBLib-1.10.2-3.2.3.jar";
+    url = "https://minecraft.curseforge.com/projects/ftblib/files/2357691/download";
+    md5 = "793829ce2e41f9a77a4097d7114a9891";
   }
   {
-    name = "FTBUtilities-1.10.2-3.1.4.jar";
-    filename = "FTBUtilities-1.10.2-3.1.4.jar";
-    url = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2343868/download";
-    md5 = "14cbc460b46db2b3f70684759af09bbe";
+    name = "FTBUtilities-1.10.2-3.2.4.jar";
+    filename = "FTBUtilities-1.10.2-3.2.4.jar";
+    url = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2359422/download";
+    md5 = "ae6e2f3bf1283052136079a30ef2ec5a";
   }
   {
     name = "FastLeafDecay-v11.jar";
@@ -162,10 +162,10 @@
     md5 = "b11e8eea1578659abe1b2e3f777d0ae0";
   }
   {
-    name = "_1.10.2__Gravestone_Mod_1.5.9";
-    filename = "[1.10.2] Gravestone Mod 1.5.9.jar";
-    url = "https://minecraft.curseforge.com/projects/gravestone-mod/files/2342763/download";
-    md5 = "9967f41628fe5d68d5f0018311f8ad4e";
+    name = "_1.10.2__Gravestone_Mod_1.5.10";
+    filename = "[1.10.2] Gravestone Mod 1.5.10.jar";
+    url = "https://minecraft.curseforge.com/projects/gravestone-mod/files/2359608/download";
+    md5 = "65348c3e7af1f176d3bbb33d79eff956";
   }
   {
     name = "Guide-API-1.10.2-2.0.2-45.jar";
@@ -174,10 +174,10 @@
     md5 = "31a0d5f2482a01850aae3ab8cc4a3cba";
   }
   {
-    name = "Immersive_Engineering_0.10_-_53";
-    filename = "Immersive Engineering 0.10 - 53.jar";
-    url = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2355504/download";
-    md5 = "56825168ce7c7c480faa41d4512069a6";
+    name = "Immersive_Engineering_0.10_-_54";
+    filename = "Immersive Engineering 0.10 - 54.jar";
+    url = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2360548/download";
+    md5 = "d4a4655b2a9ebdb8398ecc4e337a6269";
   }
   {
     name = "IronBackpacks-1.10.2-2.2.20.jar";
@@ -222,16 +222,16 @@
     md5 = "cec148e18fdcbb10cd73871f5f4dac66";
   }
   {
-    name = "Morpheus-1.10.2-3.1.12.jar";
-    filename = "Morpheus-1.10.2-3.1.12.jar";
-    url = "https://minecraft.curseforge.com/projects/morpheus/files/2346198/download";
-    md5 = "5435a231a09ad2521afea03366ec0587";
+    name = "Morpheus-1.10.2-3.1.13.jar";
+    filename = "Morpheus-1.10.2-3.1.13.jar";
+    url = "https://minecraft.curseforge.com/projects/morpheus/files/2358274/download";
+    md5 = "d20ebb7c3b298b7ea03b8c787fa1bf50";
   }
   {
-    name = "OpenComputers-MC1.10.2-1.6.0.4.jar";
-    filename = "OpenComputers-MC1.10.2-1.6.0.4.jar";
-    url = "https://minecraft.curseforge.com/projects/opencomputers/files/2344182/download";
-    md5 = "e86a20daf0f33470278b654bcfa6d6f9";
+    name = "OpenComputers-MC1.10.2-1.6.1.6.jar";
+    filename = "OpenComputers-MC1.10.2-1.6.1.6.jar";
+    url = "https://minecraft.curseforge.com/projects/opencomputers/files/2357267/download";
+    md5 = "ec155f2c9a6f3b6330bf22be2afe87c2";
   }
   {
     name = "Psi-r1.0-42.jar";
@@ -240,10 +240,10 @@
     md5 = "e32509713c8676ef4852bbbfd1723722";
   }
   {
-    name = "Quark-r1.1-66.jar";
-    filename = "Quark-r1.1-66.jar";
-    url = "https://minecraft.curseforge.com/projects/quark/files/2354531/download";
-    md5 = "6f7cc8186c6bc9518d755284d66ba732";
+    name = "Quark-r1.1-68.jar";
+    filename = "Quark-r1.1-68.jar";
+    url = "https://minecraft.curseforge.com/projects/quark/files/2360598/download";
+    md5 = "d74d0d742e44fefcf23f2fc870f1aa20";
   }
   {
     name = "Railcraft_10.0.1";
@@ -258,10 +258,10 @@
     md5 = "fd851602890014f31b54ad0e009e5612";
   }
   {
-    name = "StorageDrawers-1.10.2-3.5.13.jar";
-    filename = "StorageDrawers-1.10.2-3.5.13.jar";
-    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2356601/download";
-    md5 = "18519e52b869378f8c239b704f197825";
+    name = "StorageDrawers-1.10.2-3.5.16.jar";
+    filename = "StorageDrawers-1.10.2-3.5.16.jar";
+    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2359831/download";
+    md5 = "5b83e7ce9d335840ed921357310b177c";
   }
   {
     name = "Super_Circuit_Maker_1.0.4";
@@ -324,10 +324,10 @@
     md5 = "0bc85e6993a628d5ca2b6ede75805046";
   }
   {
-    name = "forestry_1.10.2-5.2.16.335.jar";
-    filename = "forestry_1.10.2-5.2.16.335.jar";
-    url = "https://minecraft.curseforge.com/projects/forestry/files/2355320/download";
-    md5 = "d9f32f2c53c4ea8ec689104b050fa6f4";
+    name = "forestry_1.10.2-5.2.16.346.jar";
+    filename = "forestry_1.10.2-5.2.16.346.jar";
+    url = "https://minecraft.curseforge.com/projects/forestry/files/2359477/download";
+    md5 = "9a9c1f5d069c5eb87116d9ba6cb6c9b0";
   }
   {
     name = "industrialcraft-2-2.6.128-ex110";
@@ -348,10 +348,10 @@
     md5 = "b8256c7f5c810450108b35d315bb9667";
   }
   {
-    name = "jei_1.10.2-3.13.6.391.jar";
-    filename = "jei_1.10.2-3.13.6.391.jar";
-    url = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2355928/download";
-    md5 = "54f2c39d25fede22c0f77a51759c4e80";
+    name = "jei_1.10.2-3.13.6.393.jar";
+    filename = "jei_1.10.2-3.13.6.393.jar";
+    url = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2360491/download";
+    md5 = "ee123b85efea174cf6c9881b9a451a49";
   }
   {
     name = "JEI_Bees_0.9.0.4__MC_1.10.2_";
@@ -384,16 +384,16 @@
     md5 = "0e1b47819ff8befa67d74ec2e2166629";
   }
   {
-    name = "Refined_Storage_1.2.12";
-    filename = "Refined Storage 1.2.12.jar";
-    url = "https://minecraft.curseforge.com/projects/refined-storage/files/2356745/download";
-    md5 = "e85fc5f79ebaa57ab079faa0ae287d46";
+    name = "Refined_Storage_1.2.14";
+    filename = "Refined Storage 1.2.14.jar";
+    url = "https://minecraft.curseforge.com/projects/refined-storage/files/2359886/download";
+    md5 = "4ca39eeea683aa122ba78c3a7c578711";
   }
   {
-    name = "rftools-1.1x-5.71.jar";
-    filename = "rftools-1.1x-5.71.jar";
-    url = "https://minecraft.curseforge.com/projects/rftools/files/2354780/download";
-    md5 = "90367be982acf0e5651fb3c79e8a2292";
+    name = "rftools-1.1x-5.72.jar";
+    filename = "rftools-1.1x-5.72.jar";
+    url = "https://minecraft.curseforge.com/projects/rftools/files/2358974/download";
+    md5 = "ec6aff426b59f1a13e85769a36bc63ae";
   }
   {
     name = "rftoolsctrl-1.1x-1.6.3.jar";

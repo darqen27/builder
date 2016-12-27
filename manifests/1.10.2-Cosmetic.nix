@@ -12,16 +12,16 @@
     md5 = "c3eb1103fbc9dd55443f051081133396";
   }
   {
-    name = "BetterFoliage-MC1.10.2-2.1.2.jar";
-    filename = "BetterFoliage-MC1.10.2-2.1.2.jar";
-    url = "https://minecraft.curseforge.com/projects/better-foliage/files/2352448/download";
-    md5 = "4fe44156495eb3e883f15fdd79ff9695";
+    name = "BetterFoliage-MC1.10.2-2.1.3.jar";
+    filename = "BetterFoliage-MC1.10.2-2.1.3.jar";
+    url = "https://minecraft.curseforge.com/projects/better-foliage/files/2358876/download";
+    md5 = "c6d1a5c94149c659d6d84a9ed4af393e";
   }
   {
-    name = "DynamicSurroundings-3.1.0.0BETA.jar";
-    filename = "DynamicSurroundings-3.1.0.0BETA.jar";
-    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2354731/download";
-    md5 = "a5a1c876b182e0f173fb58fb448f8ae9";
+    name = "DynamicSurroundings-1.10.2-3.1.3.0BETA.jar";
+    filename = "DynamicSurroundings-1.10.2-3.1.3.0BETA.jar";
+    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2360545/download";
+    md5 = "048bb4029bf9ba36e567903687532c92";
   }
   {
     name = "SoundFilters-0.9_for_1.9.4_and_1.10";
