@@ -6,10 +6,10 @@
     md5 = "76c1adb8f62b5f6e196ceb569063f9a6";
   }
   {
-    name = "neiaddons-1.12.15.41-mc1.7.10.jar";
-    filename = "neiaddons-1.12.15.41-mc1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749/download";
-    md5 = "caf83daf3a9a5dbdc6386389ef977a95";
+    name = "neiaddons-1.12.14.40-mc1.7.10.jar";
+    filename = "neiaddons-1.12.14.40-mc1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/nei-addons/files/2262120/download";
+    md5 = "cd23917348ec450f022c13c24f196374";
   }
   {
     name = "cookingbook-mc1.7.10-1.0.140.jar";
@@ -31,13 +31,13 @@
   }
   {
     name = "BiblioWoods_Natura_edition_v1.5_for_BiblioCraft_v1.9.x+";
-    filename = "BiblioWoods Natura edition v1.5 for BiblioCraft v1.9.x+.jar";
+    filename = "BiblioWoods[Natura][v1.5].jar";
     url = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition/files/2229581/download";
     md5 = "024d7f63683833acfa7aea93da18036e";
   }
   {
     name = "BiblioWoods_Highlands_edition_v1.4_for_BiblioCraft_v1.9.x+";
-    filename = "BiblioWoods Highlands edition v1.4 for BiblioCraft v1.9.x+.jar";
+    filename = "BiblioWoods[Highlands][v1.4].jar";
     url = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-highlands-edition/files/2229583/download";
     md5 = "276f4d6bc59d61fe7ac9b0464fb55984";
   }
@@ -55,7 +55,7 @@
   }
   {
     name = "JAFFA_-_1.72.13";
-    filename = "JAFFA - 1.72.13.jar";
+    filename = "JAFFA-1.72.13.jar";
     url = "https://minecraft.curseforge.com/projects/jaffa-foods-a-harvestcraft-addon/files/2283401/download";
     md5 = "79d94660a75478521b722bf71890ac8e";
   }
@@ -85,7 +85,7 @@
   }
   {
     name = "Guide-API_-_1.0.1-29";
-    filename = "Guide-API - 1.0.1-29.jar";
+    filename = "Guide-API-1.7.10-1.0.1-29.jar";
     url = "https://minecraft.curseforge.com/projects/guide-api/files/2287184/download";
     md5 = "85b1112cffe2f2316f174aa480e6bfb4";
   }
@@ -109,15 +109,15 @@
   }
   {
     name = "ModTweaker2_-_0.9.6";
-    filename = "ModTweaker2 - 0.9.6.jar";
+    filename = "ModTweaker2-0.9.6.jar";
     url = "https://minecraft.curseforge.com/projects/modtweaker/files/2313730/download";
     md5 = "157633c119127d9d0112a7b9f8c2c334";
   }
   {
-    name = "natura-1.7.10-2.2.1a2.jar";
-    filename = "natura-1.7.10-2.2.1a2.jar";
-    url = "https://minecraft.curseforge.com/projects/natura/files/2257670/download";
-    md5 = "482d41a7e4bab7f6fbd5c31dc9dcb372";
+    name = "natura-1.7.10-2.2.0.1.jar";
+    filename = "natura-1.7.10-2.2.0.1.jar";
+    url = "https://minecraft.curseforge.com/projects/natura/files/2216125/download";
+    md5 = "ed9a7044d963b7e5ce7ca52ec628bd11";
   }
   {
     name = "craftingtweaks-mc1.7.10-1.0.82.jar";
@@ -157,13 +157,13 @@
   }
   {
     name = "Buildcraft_7.1.18";
-    filename = "Buildcraft 7.1.18.jar";
+    filename = "buildcraft-7.1.18.jar";
     url = "https://minecraft.curseforge.com/projects/buildcraft/files/2334985/download";
     md5 = "d9cdbd399c717e5b957affc24bd7f84b";
   }
   {
     name = "Buildcraft_Compat_7.1.5";
-    filename = "Buildcraft Compat 7.1.5.jar";
+    filename = "buildcraft-compat-7.1.5.jar";
     url = "https://minecraft.curseforge.com/projects/buildcraft-compat/files/2297230/download";
     md5 = "84e2152be9f7e5656b5d9d7513c4f7a4";
   }

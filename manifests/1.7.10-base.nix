@@ -31,14 +31,14 @@
   }
   {
     name = "Controlling-1.7.10-1.0.0.";
-    filename = "Controlling-1.7.10-1.0.0..jar";
+    filename = "Controlling-1.7.10-1.0.0.jar";
     url = "https://minecraft.curseforge.com/projects/controlling/files/2328181/download";
     md5 = "8589f6fa0a0f8f0b69fe88f9aa518e7f";
   }
   {
-    name = "CoFHTweaks-_1.7.10_1.1.3B3-94.jar";
-    filename = "CoFHTweaks-[1.7.10]1.1.3B3-94.jar";
-    url = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134/download";
-    md5 = "30710ffb1c9bf405592f3bd823ab3ef6";
+    name = "CoFHTweaks-_1.7.10_1.1.2-89.jar";
+    filename = "CoFHTweaks-[1.7.10]1.1.2-89.jar";
+    url = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2280773/download";
+    md5 = "cbb2193115b252c17cd7c03da9b8af3b";
   }
 ]

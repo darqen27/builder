@@ -64,13 +64,14 @@ def GetNewestVersions(manifest):
               tree = soupparser.fromstring(filePage)
               md5 = tree.xpath('//span[@class="md5"]/text()')
               url = tree.xpath('//a[@class="button fa-icon-download"]/@href')
-              yield parser.unescape(names[0]), md5[0], baseUrl + url[0]
+              filename = tree.xpath('//*[text()="Filename"]/following-sibling::div/text()')
+              yield parser.unescape(names[0]), parser.unescape(filename[0]), md5[0], baseUrl + url[0]
               break
 
 
 print '['
-for filename, md5, url in GetNewestVersions(sys.stdin):
-    name = re.subn(r"[ \[\]'()&:;]", '_', filename)[0]
+for name, filename, md5, url in GetNewestVersions(sys.stdin):
+    name = re.subn(r"[ \[\]'()&:;,]", '_', name)[0]
     if not filename.endswith('.jar') or filename.endswith('.zip'):
         filename += '.jar'
     print '  {'

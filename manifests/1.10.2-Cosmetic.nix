@@ -18,14 +18,14 @@
     md5 = "c6d1a5c94149c659d6d84a9ed4af393e";
   }
   {
-    name = "DynamicSurroundings-1.10.2-3.1.3.0BETA.jar";
-    filename = "DynamicSurroundings-1.10.2-3.1.3.0BETA.jar";
-    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2360545/download";
-    md5 = "048bb4029bf9ba36e567903687532c92";
+    name = "DynamicSurroundings-1.10.2-3.1.4.1.jar";
+    filename = "DynamicSurroundings-1.10.2-3.1.4.1.jar";
+    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2362426/download";
+    md5 = "a4a9b3eea70da26e3fbc1d99032e5b47";
   }
   {
     name = "SoundFilters-0.9_for_1.9.4_and_1.10";
-    filename = "SoundFilters-0.9 for 1.9.4 and 1.10.jar";
+    filename = "SoundFilters-0.9_for_1.9.4.jar";
     url = "https://minecraft.curseforge.com/projects/sound-filters/files/2309385/download";
     md5 = "89c50fee6271149638b94b85e5afd31f";
   }
@@ -34,5 +34,11 @@
     filename = "Decocraft-2.3.6.1_1.10.2.jar";
     url = "https://minecraft.curseforge.com/projects/decocraft2/files/2355871/download";
     md5 = "e5cf4924fc246bf3452c7b521034b1fc";
+  }
+  {
+    name = "soundCap-1.0.jar";
+    filename = "soundCap-1.0.jar";
+    url = "https://minecraft.curseforge.com/projects/soundcap/files/2264496/download";
+    md5 = "ce65914f0dc2e027d0aba17adc6c03eb";
   }
 ]

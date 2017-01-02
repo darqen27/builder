@@ -1,13 +1,13 @@
 [
   {
-    name = "Forgelin-1.1.0.jar";
-    filename = "Forgelin-1.1.0.jar";
-    url = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2345526/download";
-    md5 = "de67117970343f91760b4d0eef7685be";
+    name = "Forgelin-1.2.0.jar";
+    filename = "Forgelin-1.2.0.jar";
+    url = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2361278/download";
+    md5 = "23e9075d06f3bd0207db920731c117c8";
   }
   {
     name = "Prometheus-Integration_0.2.1";
-    filename = "Prometheus-Integration 0.2.1.jar";
+    filename = "prometheus-integration-0.2.1.jar";
     url = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
     md5 = "bf5d489de876b487b1a78b1b3040810f";
   }

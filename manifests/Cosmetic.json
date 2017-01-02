@@ -6,6 +6,7 @@
         { "projectID": "dynamic-surroundings" },
         { "projectID": "sound-filters" },
         { "projectID": "garden-stuff" },
-        { "projectID": "decocraft2" }
+        { "projectID": "decocraft2" },
+        { "projectID": "soundcap" }
     ]
 }

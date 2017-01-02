@@ -1,9 +1,9 @@
 [
   {
-    name = "compatlayer-1.10-0.1.4.jar";
-    filename = "compatlayer-1.10-0.1.4.jar";
-    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2356026/download";
-    md5 = "b129cb4cac9efbf31cf16393f492a688";
+    name = "compatlayer-1.10-0.1.6.jar";
+    filename = "compatlayer-1.10-0.1.6.jar";
+    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2360940/download";
+    md5 = "e1c594cf34d3f9140454ad9db3fd9f0a";
   }
   {
     name = "Bagelsmore-1.9.4-1.0.1";
@@ -13,13 +13,13 @@
   }
   {
     name = "BDLib_1.12.2.17__MC_1.10.2_";
-    filename = "BDLib 1.12.2.17 (MC 1.10.2).jar";
+    filename = "bdlib-1.12.2.17-mc1.10.2.jar";
     url = "https://minecraft.curseforge.com/projects/bdlib/files/2339442/download";
     md5 = "3a6e9143f69165298d3ae2c6338760ba";
   }
   {
     name = "Advanced_Generators_0.9.20.18__MC_1.10.2_";
-    filename = "Advanced Generators 0.9.20.18 (MC 1.10.2).jar";
+    filename = "generators-0.9.20.18-mc1.10.2.jar";
     url = "https://minecraft.curseforge.com/projects/advanced-generators/files/2337357/download";
     md5 = "436c5627093e900ae6174a999028aabc";
   }
@@ -36,34 +36,34 @@
     md5 = "fa643a0903d2ccab404272bd0600ee93";
   }
   {
-    name = "AppleSkin-mc1.10.2-1.0.4.jar";
-    filename = "AppleSkin-mc1.10.2-1.0.4.jar";
-    url = "https://minecraft.curseforge.com/projects/appleskin/files/2330062/download";
-    md5 = "682d5bb9795be7cb7d86445610b514ea";
+    name = "AppleSkin-mc1.10.2-1.0.5.jar";
+    filename = "AppleSkin-mc1.10.2-1.0.5.jar";
+    url = "https://minecraft.curseforge.com/projects/appleskin/files/2362296/download";
+    md5 = "d0da18e5815c25353fffd16242e804c0";
   }
   {
     name = "Dynmap_v2.3_for_MC_1.9.4__Forge_12.17.0+_";
-    filename = "Dynmap v2.3 for MC 1.9.4 (Forge 12.17.0+).jar";
+    filename = "Dynmap-2.3-forge-1.9.4.jar";
     url = "https://minecraft.curseforge.com/projects/dynmapforge/files/2307083/download";
     md5 = "c4a2aa2a63a46e28b0092104e4ac772a";
   }
   {
-    name = "Minecolonies_v0.5_v25";
-    filename = "Minecolonies v0.5 v25.jar";
-    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2360561/download";
-    md5 = "a4a4b4afea8736490d60d4eb04709406";
+    name = "Minecolonies_v0.5_v27";
+    filename = "minecolonies-universal-1.10.2-0.6.2115.jar";
+    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2361478/download";
+    md5 = "5bac2be49d7dbfde57d97ab81f4c6eab";
   }
   {
-    name = "prefab-1.1.1.5.jar";
-    filename = "prefab-1.1.1.5.jar";
-    url = "https://minecraft.curseforge.com/projects/prefab/files/2359163/download";
-    md5 = "e3a34f2eae9d4cd9b260f8c45d00c87a";
+    name = "prefab-1.1.1.6.jar";
+    filename = "prefab-1.1.1.6.jar";
+    url = "https://minecraft.curseforge.com/projects/prefab/files/2362164/download";
+    md5 = "435990b7c1d0971a935f51ac10fee701";
   }
   {
-    name = "embers-0.016.jar";
-    filename = "embers-0.016.jar";
-    url = "https://minecraft.curseforge.com/projects/embers/files/2342667/download";
-    md5 = "52e506a9d6032fca6cc74f0078e1d44b";
+    name = "embers-0.101.jar";
+    filename = "embers-0.101.jar";
+    url = "https://minecraft.curseforge.com/projects/embers/files/2361947/download";
+    md5 = "7a8c1c7ffee5f46d16d5248996ab04fc";
   }
   {
     name = "roots-0.208.jar";

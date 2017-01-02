@@ -31,7 +31,7 @@
   }
   {
     name = "Inventory_Tweaks_1.59-dev-152";
-    filename = "Inventory Tweaks 1.59-dev-152.jar";
+    filename = "InventoryTweaks-1.59-dev-152.jar";
     url = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792/download";
     md5 = "83f7ddcd5f5fd8d640aa15dc62acc6bf";
   }
@@ -55,7 +55,7 @@
   }
   {
     name = "Modular_Armour_-_1.7.10_-_1.0.18";
-    filename = "Modular Armour - 1.7.10 - 1.0.18.jar";
+    filename = "ModularArmour-1.7.10-1.0.18-41.jar";
     url = "https://minecraft.curseforge.com/projects/modular-armour/files/2252326/download";
     md5 = "31530c8565a72477d0dd5c52f9e43b7f";
   }
@@ -67,7 +67,7 @@
   }
   {
     name = "FluxPads_1.1.0.0";
-    filename = "FluxPads 1.1.0.0.jar";
+    filename = "FluxPads-1.7.10-1.1.0.0.jar";
     url = "https://minecraft.curseforge.com/projects/fluxpads/files/2254170/download";
     md5 = "1577bf224a027a56c461d1842b0f34d0";
   }
@@ -78,10 +78,10 @@
     md5 = "0a555df010345a27e0956a3f05517510";
   }
   {
-    name = "DummyCore-2.0.1710.0A.jar";
-    filename = "DummyCore-2.0.1710.0A.jar";
-    url = "https://minecraft.curseforge.com/projects/dummycore/files/2256966/download";
-    md5 = "cf66d5a565976cf976959df3b86b5d2b";
+    name = "DummyCore1.13.jar";
+    filename = "DummyCore1.13.jar";
+    url = "https://minecraft.curseforge.com/projects/dummycore/files/2244260/download";
+    md5 = "60cf9d4e9b5d9c600da2b4c379163ab4";
   }
   {
     name = "StevesCarts2.0.0.b18.jar";
@@ -102,10 +102,10 @@
     md5 = "296d5e2c504b17a4a46435b6419b9bf4";
   }
   {
-    name = "Numina-0.4.0.131.jar";
-    filename = "Numina-0.4.0.131.jar";
-    url = "https://minecraft.curseforge.com/projects/numina/files/2256264/download";
-    md5 = "f936af6dfdb12c83d8c467f43b6b29f6";
+    name = "Numina-0.4.1.104-Java-Port__1.7.10-Final-RC1_";
+    filename = "Numina-0.4.1.104.jar";
+    url = "https://minecraft.curseforge.com/projects/numina/files/2356393/download";
+    md5 = "f5bfd1505a3c5ca9c3b8f2ba31e21a92";
   }
   {
     name = "MineTweaker3-1.7.10-3.0.10B.jar";
@@ -115,7 +115,7 @@
   }
   {
     name = "Player_API_version_1.4_for_Minecraft_1.7.10";
-    filename = "Player API version 1.4 for Minecraft 1.7.10.jar";
+    filename = "PlayerAPI-1.7.10-1.4.jar";
     url = "https://minecraft.curseforge.com/projects/player-api/files/2248928/download";
     md5 = "a86805d3720f12610ae1f28f7eb08b53";
   }
@@ -139,39 +139,39 @@
   }
   {
     name = "Redstonic_v1.4.11";
-    filename = "Redstonic v1.4.11.jar";
+    filename = "Redstonic-v1.4.11.jar";
     url = "https://minecraft.curseforge.com/projects/redstonic/files/2264263/download";
     md5 = "33d91c25935ae215548434f0ce5853ab";
   }
   {
-    name = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
-    filename = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/ae2-stuff/files/2270295/download";
-    md5 = "aec535108765d13ab7c9885f60747f43";
+    name = "ae2stuff-0.5.0.56-mc1.7.10.jar";
+    filename = "ae2stuff-0.5.0.56-mc1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/ae2-stuff/files/2256440/download";
+    md5 = "e9b9def42c440301ec2bf0d385789732";
   }
   {
     name = "Extra_Utilities_1.2.12";
-    filename = "Extra Utilities 1.2.12.jar";
+    filename = "extrautilities-1.2.12.jar";
     url = "https://minecraft.curseforge.com/projects/extra-utilities/files/2264383/download";
     md5 = "0b1848ece3f6e1370e6caa8124c1480d";
   }
   {
     name = "BiblioCraft_v1.11.5";
-    filename = "BiblioCraft v1.11.5.jar";
+    filename = "BiblioCraft[v1.11.5][MC1.7.10].jar";
     url = "https://minecraft.curseforge.com/projects/bibliocraft/files/2300352/download";
     md5 = "e63cda211516c31144e9746ffc667663";
   }
   {
-    name = "Decocraft-2.3.3_1.7.10.jar";
-    filename = "Decocraft-2.3.3_1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/decocraft2/files/2319068/download";
-    md5 = "ae337eeb694dee4bab5ce074420bd0b8";
+    name = "Decocraft-2.3.6.1_1.7.10.jar";
+    filename = "Decocraft-2.3.6.1_1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/decocraft2/files/2355868/download";
+    md5 = "e1538bdf3c2cc474973a992fddae1a60";
   }
   {
-    name = "WAILAPlugins-MC1.7.10-0.2.0-23.jar";
-    filename = "WAILAPlugins-MC1.7.10-0.2.0-23.jar";
-    url = "https://minecraft.curseforge.com/projects/waila-plugins/files/2265116/download";
-    md5 = "0dc5a9a6360c2a092d00de53ea7d681b";
+    name = "WAILAPlugins-MC1.7.10-0.2.0-25.jar";
+    filename = "WAILAPlugins-MC1.7.10-0.2.0-25.jar";
+    url = "https://minecraft.curseforge.com/projects/waila-plugins/files/2351717/download";
+    md5 = "a8e67182a52e4140fa1f0b1a3770880a";
   }
   {
     name = "Translocator-1.7.10-1.1.2.16-universal.jar";
@@ -193,19 +193,19 @@
   }
   {
     name = "NoMoreRecipeConflict-0.3";
-    filename = "NoMoreRecipeConflict-0.3.jar";
+    filename = "NoMoreRecipeConflict-0.3(1.7.10).jar";
     url = "https://minecraft.curseforge.com/projects/stimmedcow-nomorerecipeconflict/files/2267374/download";
     md5 = "323386dd89be9f2b6c75b15875d58355";
   }
   {
     name = "Catwalks_2.0.4";
-    filename = "Catwalks 2.0.4.jar";
+    filename = "catwalks-2.0.4.jar";
     url = "https://minecraft.curseforge.com/projects/catwalks-2/files/2296725/download";
     md5 = "8e7200371982d2731e78cff035c46312";
   }
   {
     name = "Chisel_-_2.9.5.11";
-    filename = "Chisel - 2.9.5.11.jar";
+    filename = "Chisel-2.9.5.11.jar";
     url = "https://minecraft.curseforge.com/projects/chisel/files/2287442/download";
     md5 = "c76378129307ab7b371bb9b3b8631fce";
   }
@@ -223,13 +223,13 @@
   }
   {
     name = "ExtraCells-1.7.10-2.3.14";
-    filename = "ExtraCells-1.7.10-2.3.14.jar";
+    filename = "ExtraCells-1.7.10-2.3.14b197.jar";
     url = "https://minecraft.curseforge.com/projects/extracells2/files/2308206/download";
     md5 = "3e54980cc468ea91567f806a9c0d53d4";
   }
   {
     name = "Railcraft_9.12.2.0";
-    filename = "Railcraft 9.12.2.0.jar";
+    filename = "Railcraft_1.7.10-9.12.2.0.jar";
     url = "https://minecraft.curseforge.com/projects/railcraft/files/2299713/download";
     md5 = "c259e18bb43599134b3a6f96cba5f26d";
   }
@@ -247,7 +247,7 @@
   }
   {
     name = "MatterOverdrive-1.7.10-0.4.2-_hotfix1";
-    filename = "MatterOverdrive-1.7.10-0.4.2- hotfix1.jar";
+    filename = "MatterOverdrive-1.7.10-0.4.2.jar";
     url = "https://minecraft.curseforge.com/projects/matter-overdrive/files/2331162/download";
     md5 = "a069c8febff265b39d3e25325b5ea9eb";
   }
@@ -258,32 +258,32 @@
     md5 = "02f81c0c4a350fed8c8e2eb526cf09ad";
   }
   {
-    name = "IronBackpacks-1.7.10-1.2.19.jar";
-    filename = "IronBackpacks-1.7.10-1.2.19.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2335077/download";
-    md5 = "3ed8f819bea985251a08010820f41c81";
+    name = "IronBackpacks-1.7.10-1.2.20.jar";
+    filename = "IronBackpacks-1.7.10-1.2.20.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301/download";
+    md5 = "a7e20c4ced02e078db2f35b71796aca5";
   }
   {
     name = "JavaChecker_v2.0__Shading_";
-    filename = "JavaChecker v2.0 (Shading).jar";
+    filename = "JavaCheckerShade  MC-UNIVERSAL  v2.0.jar";
     url = "https://minecraft.curseforge.com/projects/java-version-checker/files/2274692/download";
     md5 = "20334246263cf8d6da17f21bc65ad4a3";
   }
   {
     name = "FFS_v1.3.7";
-    filename = "FFS v1.3.7.jar";
+    filename = "Fancy Fluid Storage-1.7.10-1.3.7.jar";
     url = "https://minecraft.curseforge.com/projects/ffs-fancy-fluid-storage/files/2276269/download";
     md5 = "7e5d95c29c2a8a989424edba2cb61f51";
   }
   {
     name = "_Immersive_Engineering_v0.7.7";
-    filename = " Immersive Engineering v0.7.7.jar";
+    filename = "ImmersiveEngineering-0.7.7.jar";
     url = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2299019/download";
     md5 = "24f8212228caf05e2031b1e9221146b5";
   }
   {
     name = "Magneticraft_0.6.1-final";
-    filename = "Magneticraft 0.6.1-final.jar";
+    filename = "magneticraft-0.6.1-final.jar";
     url = "https://minecraft.curseforge.com/projects/magneticraft/files/2276268/download";
     md5 = "809a225619a47b82ab04a0bfbbd4e4b7";
   }
@@ -294,10 +294,10 @@
     md5 = "48cb8aa894d046bbbada670e124cbfaf";
   }
   {
-    name = "ModularPowersuits-0.11.0.301.jar";
-    filename = "ModularPowersuits-0.11.0.301.jar";
-    url = "https://minecraft.curseforge.com/projects/modular-powersuits/files/2302332/download";
-    md5 = "6cfd5c3a7607267dcd973900c3502d7b";
+    name = "_ModularPowersuits-0.11.1.109-Java-Port__1.7.10-Final-RC2_";
+    filename = "ModularPowersuits-0.11.1.109.jar";
+    url = "https://minecraft.curseforge.com/projects/modular-powersuits/files/2360353/download";
+    md5 = "19574c73028b5bfb9e4237e16fd21dc3";
   }
   {
     name = "AOBD-2.9.2.jar";
@@ -306,10 +306,10 @@
     md5 = "0864caf4280229154ca7f158502d4bee";
   }
   {
-    name = "Ewy_s_Workshop-1.1.4.jar";
-    filename = "Ewy's Workshop-1.1.4.jar";
-    url = "https://minecraft.curseforge.com/projects/ewys-workshop/files/2330885/download";
-    md5 = "2ce4656693e169d269ee552fd996e957";
+    name = "Ewy_s_Workshop-1.1.6.jar";
+    filename = "Ewy's Workshop-1.1.6.jar";
+    url = "https://minecraft.curseforge.com/projects/ewys-workshop/files/2346187/download";
+    md5 = "3f69d0f32636fe34aa4e4a96b5b4fd2f";
   }
   {
     name = "HydCraft-1.7.10-2.1.253-universal.jar";
@@ -330,10 +330,10 @@
     md5 = "87633834e62298706da02daafd8fcf22";
   }
   {
-    name = "OpenComputers-MC1.7.10-1.6.0.7-rc.1-universal.jar";
-    filename = "OpenComputers-MC1.7.10-1.6.0.7-rc.1-universal.jar";
-    url = "https://minecraft.curseforge.com/projects/opencomputers/files/2320098/download";
-    md5 = "5b9b8e6a674150d188e894d3bbacf6bf";
+    name = "OpenComputers-MC1.7.10-1.6.1.11-universal.jar";
+    filename = "OpenComputers-MC1.7.10-1.6.1.11-universal.jar";
+    url = "https://minecraft.curseforge.com/projects/opencomputers/files/2357264/download";
+    md5 = "9a53745f645e02b4e6b59d5028f5bbfa";
   }
   {
     name = "OpenModsLib-1.7.10-0.9.1.jar";
@@ -348,10 +348,10 @@
     md5 = "10fbf105311d04f9060f0546829ca238";
   }
   {
-    name = "pressure-1.3.0.131-mc1.7.10.jar";
-    filename = "pressure-1.3.0.131-mc1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2287484/download";
-    md5 = "0b035c6193c7cab774d0718076863237";
+    name = "pressure-1.3.0.130-mc1.7.10.jar";
+    filename = "pressure-1.3.0.130-mc1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2280409/download";
+    md5 = "d6b2fc75a8da85548274eac45ab957b4";
   }
   {
     name = "StorageDrawers-Misc-1.7.10-1.1.2.jar";
@@ -366,10 +366,10 @@
     md5 = "54308ef273613b79870e9e46df86e7d9";
   }
   {
-    name = "OpenModularTurrets-1.7.10-2.2.4-225.jar";
-    filename = "OpenModularTurrets-1.7.10-2.2.4-225.jar";
-    url = "https://minecraft.curseforge.com/projects/openmodularturrets/files/2321123/download";
-    md5 = "f94ef86fdcedc17e277e6f3d50afbf33";
+    name = "OpenModularTurrets-1.7.10-2.2.9-232.jar";
+    filename = "OpenModularTurrets-1.7.10-2.2.9-232.jar";
+    url = "https://minecraft.curseforge.com/projects/openmodularturrets/files/2363116/download";
+    md5 = "e4ddd3c8dcd7fbf8594b745477e1ce7e";
   }
   {
     name = "SilentGems-1.7.10-1.3.14-172.jar";
@@ -384,16 +384,16 @@
     md5 = "c9ce4835b1b8197890ad9fa8a3f57c69";
   }
   {
-    name = "ThermalFoundation-_1.7.10_1.2.6B1-116.jar";
-    filename = "ThermalFoundation-[1.7.10]1.2.6B1-116.jar";
-    url = "https://minecraft.curseforge.com/projects/thermal-foundation/files/2322406/download";
-    md5 = "945dd59f7c9d05c06e74b993b4508ed0";
+    name = "ThermalFoundation-_1.7.10_1.2.5-115.jar";
+    filename = "ThermalFoundation-[1.7.10]1.2.5-115.jar";
+    url = "https://minecraft.curseforge.com/projects/thermal-foundation/files/2320122/download";
+    md5 = "09c9048aa35e3168d812e6e9a28bc9a0";
   }
   {
-    name = "CoFHCore-_1.7.10_3.1.3-328.jar";
-    filename = "CoFHCore-[1.7.10]3.1.3-328.jar";
-    url = "https://minecraft.curseforge.com/projects/cofhcore/files/2320817/download";
-    md5 = "66d9c1e024fdee1d2aecd32ef598fc54";
+    name = "CoFHCore-_1.7.10_3.1.3-327.jar";
+    filename = "CoFHCore-[1.7.10]3.1.3-327.jar";
+    url = "https://minecraft.curseforge.com/projects/cofhcore/files/2320124/download";
+    md5 = "84ebcfbf326ea3479807ba0d52c482dc";
   }
   {
     name = "malisiscore-1.7.10-0.14.3.jar";
@@ -403,13 +403,13 @@
   }
   {
     name = "Immersive_Integration_v0.6.8";
-    filename = "Immersive Integration v0.6.8.jar";
+    filename = "immersiveintegration-0.6.8.jar";
     url = "https://minecraft.curseforge.com/projects/immersive-integration/files/2289306/download";
     md5 = "57ee0a14a8cb09a759bc23787f1de40f";
   }
   {
     name = "journeymap-1.7.10-5.1.4p1";
-    filename = "journeymap-1.7.10-5.1.4p1.jar";
+    filename = "journeymap-1.7.10-5.1.4p1-unlimited.jar";
     url = "https://minecraft.curseforge.com/projects/journeymap-32274/files/2296716/download";
     md5 = "9091571243da9b1532ba2d8fef3f2eea";
   }
@@ -427,7 +427,7 @@
   }
   {
     name = "NuclearCraft-1.9d";
-    filename = "NuclearCraft-1.9d.jar";
+    filename = "NuclearCraft-1.9d--1.7.10.jar";
     url = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2330045/download";
     md5 = "03854225d95e0699310846b2fff0871b";
   }
@@ -444,10 +444,10 @@
     md5 = "874f5373e586fac2845336acf612495e";
   }
   {
-    name = "StorageDrawers-1.7.10-1.10.4.jar";
-    filename = "StorageDrawers-1.7.10-1.10.4.jar";
-    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2334235/download";
-    md5 = "376d86ee19a3fa6c3e9717d542c80252";
+    name = "StorageDrawers-1.7.10-1.10.8.jar";
+    filename = "StorageDrawers-1.7.10-1.10.8.jar";
+    url = "https://minecraft.curseforge.com/projects/storage-drawers/files/2355230/download";
+    md5 = "87975170dba34246691aeea8b5e41ae7";
   }
   {
     name = "fastcraft-1.23.jar";

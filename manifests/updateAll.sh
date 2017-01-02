@@ -9,9 +9,7 @@ for f in *.json; do
     continue
   fi
   if [[ "$f" == *"1.7.10"* ]]; then
-    # No 1.7 packs we'd like to update right now.
-    #./genNix.py 1.7.10 < "$f" > $(basename "$f" .json).nix &
-    true
+    ./genNix.py 1.7.10 < "$f" > $(basename "$f" .json).nix &
   elif [[ "$f" == *"1.10.2"* ]]; then
     ./genNix.py 1.10.2 < "$f" > $(basename "$f" .json).nix &
   else
