@@ -1,5 +1,11 @@
 [
   {
+    name = "dooglamoocitiesmod-1.10.2-1.2.5.jar";
+    filename = "dooglamoocitiesmod-1.10.2-1.2.5.jar";
+    url = "https://minecraft.curseforge.com/projects/dooglamoo-cities/files/2361160/download";
+    md5 = "4031519ddbded094cfb6956a319f8393";
+  }
+  {
     name = "compatlayer-1.10-0.1.6.jar";
     filename = "compatlayer-1.10-0.1.6.jar";
     url = "https://minecraft.curseforge.com/projects/compatlayer/files/2360940/download";

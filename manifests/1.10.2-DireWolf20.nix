@@ -240,10 +240,10 @@
     md5 = "e32509713c8676ef4852bbbfd1723722";
   }
   {
-    name = "Quark-r1.1-68.jar";
-    filename = "Quark-r1.1-68.jar";
-    url = "https://minecraft.curseforge.com/projects/quark/files/2360598/download";
-    md5 = "d74d0d742e44fefcf23f2fc870f1aa20";
+    name = "Quark-r1.1-69.jar";
+    filename = "Quark-r1.1-69.jar";
+    url = "https://minecraft.curseforge.com/projects/quark/files/2363291/download";
+    md5 = "f938d963f15812ee1e0303ef2dcd2b60";
   }
   {
     name = "Railcraft_10.0.1";
