@@ -144,10 +144,10 @@
     md5 = "33d91c25935ae215548434f0ce5853ab";
   }
   {
-    name = "ae2stuff-0.5.0.56-mc1.7.10.jar";
-    filename = "ae2stuff-0.5.0.56-mc1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/ae2-stuff/files/2256440/download";
-    md5 = "e9b9def42c440301ec2bf0d385789732";
+    name = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
+    filename = "ae2stuff-rv3-0.5.1.9-mc1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/ae2-stuff/files/2270295/download";
+    md5 = "aec535108765d13ab7c9885f60747f43";
   }
   {
     name = "Extra_Utilities_1.2.12";
