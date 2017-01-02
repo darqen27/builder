@@ -98,9 +98,6 @@ java -d64 -server -Xmx7500m \
   -XX:+AggressiveOpts \
   -XX:+UseLargePages \
   -XX:+UseG1GC \
-  -XX:+UnlockExperimentalVMOptions \
-  -XX:G1NewSizePercent=20 \
-  -XX:G1HeapRegionSize=32M \
   -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=500 \
   -XX:+UseAdaptiveGCBoundary \
   -XX:+StartAttachListener \
