@@ -18,10 +18,10 @@
     md5 = "7417cd54b78e895e33306a7198150934";
   }
   {
-    name = "Controlling-1.0.2";
-    filename = "Controlling-1.0.2.jar";
-    url = "https://minecraft.curseforge.com/projects/controlling/files/2355216/download";
-    md5 = "ffebb44387f334dde8950c62aff34ce6";
+    name = "Controlling-1.0.3";
+    filename = "Controlling-1.0.3.jar";
+    url = "https://minecraft.curseforge.com/projects/controlling/files/2365682/download";
+    md5 = "86b4dcef99ebb09ce5078ec928197bb9";
   }
   {
     name = "AutoJumpKeybindMod-1.10.2-1.1.0";

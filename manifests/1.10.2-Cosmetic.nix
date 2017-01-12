@@ -18,10 +18,10 @@
     md5 = "c6d1a5c94149c659d6d84a9ed4af393e";
   }
   {
-    name = "DynamicSurroundings-1.10.2-3.1.4.1.jar";
-    filename = "DynamicSurroundings-1.10.2-3.1.4.1.jar";
-    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2362426/download";
-    md5 = "a4a9b3eea70da26e3fbc1d99032e5b47";
+    name = "DynamicSurroundings-1.10.2-3.2.1.1.jar";
+    filename = "DynamicSurroundings-1.10.2-3.2.1.1.jar";
+    url = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2366942/download";
+    md5 = "5acf43cf9d6b5110b00df1732735ea33";
   }
   {
     name = "SoundFilters-0.9_for_1.9.4_and_1.10";

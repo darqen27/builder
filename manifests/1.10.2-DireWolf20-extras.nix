@@ -1,15 +1,15 @@
 [
   {
-    name = "dooglamoocitiesmod-1.10.2-1.2.5.jar";
-    filename = "dooglamoocitiesmod-1.10.2-1.2.5.jar";
-    url = "https://minecraft.curseforge.com/projects/dooglamoo-cities/files/2361160/download";
-    md5 = "4031519ddbded094cfb6956a319f8393";
+    name = "dooglamoocitiesmod-1.10.2-1.2.6.jar";
+    filename = "dooglamoocitiesmod-1.10.2-1.2.6.jar";
+    url = "https://minecraft.curseforge.com/projects/dooglamoo-cities/files/2364913/download";
+    md5 = "4436e73ba6556c2c2348d2a1aa1290f9";
   }
   {
-    name = "compatlayer-1.10-0.1.6.jar";
-    filename = "compatlayer-1.10-0.1.6.jar";
-    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2360940/download";
-    md5 = "e1c594cf34d3f9140454ad9db3fd9f0a";
+    name = "compatlayer-1.10-0.1.7.jar";
+    filename = "compatlayer-1.10-0.1.7.jar";
+    url = "https://minecraft.curseforge.com/projects/compatlayer/files/2364952/download";
+    md5 = "9ad3a6fe8cbd304246f0205c586da615";
   }
   {
     name = "Bagelsmore-1.9.4-1.0.1";
@@ -54,22 +54,22 @@
     md5 = "c4a2aa2a63a46e28b0092104e4ac772a";
   }
   {
-    name = "Minecolonies_v0.5_v27";
-    filename = "minecolonies-universal-1.10.2-0.6.2115.jar";
-    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2361478/download";
-    md5 = "5bac2be49d7dbfde57d97ab81f4c6eab";
+    name = "Minecolonies_v0.5_v28";
+    filename = "minecolonies-universal-1.10.2-0.6.2281.jar";
+    url = "https://minecraft.curseforge.com/projects/minecolonies/files/2366207/download";
+    md5 = "b068a4731b14373460c1c42770f1bd93";
   }
   {
-    name = "prefab-1.1.1.6.jar";
-    filename = "prefab-1.1.1.6.jar";
-    url = "https://minecraft.curseforge.com/projects/prefab/files/2362164/download";
-    md5 = "435990b7c1d0971a935f51ac10fee701";
+    name = "prefab-1.1.1.7.jar";
+    filename = "prefab-1.1.1.7.jar";
+    url = "https://minecraft.curseforge.com/projects/prefab/files/2364543/download";
+    md5 = "d6fa8101dd23f30a1ef97672b17c62e7";
   }
   {
-    name = "embers-0.101.jar";
-    filename = "embers-0.101.jar";
-    url = "https://minecraft.curseforge.com/projects/embers/files/2361947/download";
-    md5 = "7a8c1c7ffee5f46d16d5248996ab04fc";
+    name = "embers-0.103.jar";
+    filename = "embers-0.103.jar";
+    url = "https://minecraft.curseforge.com/projects/embers/files/2366587/download";
+    md5 = "eaace59298565510418be0709ee03c67";
   }
   {
     name = "roots-0.208.jar";
@@ -78,33 +78,33 @@
     md5 = "5a152d6f1efd0cf1d25c7d526c06d5ba";
   }
   {
-    name = "CyclopsCore-1.9.4-0.8.2.jar";
-    filename = "CyclopsCore-1.9.4-0.8.2.jar";
-    url = "https://minecraft.curseforge.com/projects/cyclops-core/files/2351896/download";
-    md5 = "203e0336d942cff95db0f2cde4464728";
+    name = "CyclopsCore-1.9.4-0.9.0.jar";
+    filename = "CyclopsCore-1.9.4-0.9.0.jar";
+    url = "https://minecraft.curseforge.com/projects/cyclops-core/files/2364204/download";
+    md5 = "3a3dbe4ca2165b8abaf5b4148dd84a7a";
   }
   {
-    name = "EvilCraft-1.10.2-0.10.17.jar";
-    filename = "EvilCraft-1.10.2-0.10.17.jar";
-    url = "https://minecraft.curseforge.com/projects/evilcraft/files/2358011/download";
-    md5 = "2522f8f83f3224de9729aec574f26c76";
+    name = "EvilCraft-1.10.2-0.10.18.jar";
+    filename = "EvilCraft-1.10.2-0.10.18.jar";
+    url = "https://minecraft.curseforge.com/projects/evilcraft/files/2364217/download";
+    md5 = "e7c1cd7dabce4f56ed9e60009989922d";
   }
   {
-    name = "IntegratedDynamics-1.10.2-0.6.5.jar";
-    filename = "IntegratedDynamics-1.10.2-0.6.5.jar";
-    url = "https://minecraft.curseforge.com/projects/integrated-dynamics/files/2358015/download";
-    md5 = "cf744e86032819b657fbff6cbd062f5c";
+    name = "IntegratedDynamics-1.10.2-0.6.6.jar";
+    filename = "IntegratedDynamics-1.10.2-0.6.6.jar";
+    url = "https://minecraft.curseforge.com/projects/integrated-dynamics/files/2364225/download";
+    md5 = "86538775d057534d000e30bbaf12f507";
   }
   {
-    name = "CommonCapabilities-1.9.4-1.2.1.jar";
-    filename = "CommonCapabilities-1.9.4-1.2.1.jar";
-    url = "https://minecraft.curseforge.com/projects/common-capabilities/files/2345110/download";
-    md5 = "e944467097f989bbce736331f35ef18f";
+    name = "CommonCapabilities-1.9.4-1.2.2.jar";
+    filename = "CommonCapabilities-1.9.4-1.2.2.jar";
+    url = "https://minecraft.curseforge.com/projects/common-capabilities/files/2364200/download";
+    md5 = "e26719f83322b750284a17932a7811f3";
   }
   {
-    name = "IntegratedTunnels-1.10.2-1.0.2.jar";
-    filename = "IntegratedTunnels-1.10.2-1.0.2.jar";
-    url = "https://minecraft.curseforge.com/projects/integrated-tunnels/files/2358005/download";
-    md5 = "ef5c656db7bc9ebcc9f713ca52c16e18";
+    name = "IntegratedTunnels-1.10.2-1.0.3.jar";
+    filename = "IntegratedTunnels-1.10.2-1.0.3.jar";
+    url = "https://minecraft.curseforge.com/projects/integrated-tunnels/files/2364229/download";
+    md5 = "fbb5c31cc94c0f88b2dcee0d93ebbfab";
   }
 ]
