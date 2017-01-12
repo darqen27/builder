@@ -384,10 +384,10 @@
     md5 = "0e1b47819ff8befa67d74ec2e2166629";
   }
   {
-    name = "Refined_Storage_1.2.14";
-    filename = "refinedstorage-1.2.14.jar";
+    name = "Refined_Storage_1.2.16";
+    filename = "refinedstorage-1.2.16.jar";
     url = "https://minecraft.curseforge.com/projects/refined-storage/files/2359886/download";
-    md5 = "4ca39eeea683aa122ba78c3a7c578711";
+    md5 = "c46952df798066d5aa15c6109a247510";
   }
   {
     name = "rftools-1.1x-5.75.jar";
