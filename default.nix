@@ -44,11 +44,11 @@ let
     };
 
     ElectricalAge = mkMod rec {
-      ver = "1.14.2";
+      ver = "dev-1";
       name = "ElectricalAge-${ver}";
       src = fetchurl {
         url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
-        sha256 = "d164de947ea65f1c4c5c445adb620dc7ad051186a481502b95d1f48799d9b6ae";
+        sha256 = "d5df2101a40b0c1fa4f8935b92ded3296793d748c73dfeda50bda339e8595389";
       };
     };
 
@@ -426,6 +426,8 @@ rec {
     # And in order, if it matters.
     # TODO: Write something that understands what it's doing.
     configPatches = [
+      # Disable the goddamned tracking aura.
+      ''sed -i railcraft/railcraft.cfg -e s/trackingAura=true/trackingAura=false/''
       # Keep the SD behaviour we're used to.
       ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
       # Overpowered worldgen is overpowered.
