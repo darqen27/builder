@@ -89,6 +89,14 @@ let
       };
     };
   };
+
+  clientMod = {
+    isDefault ? false
+  }: {
+    side = "CLIENT";
+    optional = true;
+    inherit isDefault;
+  };
 in
 
 rec {
@@ -104,10 +112,10 @@ rec {
         saveTime = 45;
       };
     };
-    incognito = {
-      serverId = "erisia-14.5";
-      serverDesc = "1.10 Test Pack (DW20)";
-      server = direwolf-server;
+    erisia-15 = {
+      serverId = "erisia-15";
+      serverDesc = "Erisia #15: Dolor et Gemitus";
+      server = br-server;
       port = 25566;
       hacks = {};
     };
@@ -117,155 +125,119 @@ rec {
     inherit servers;
   };
 
+  LocalServerPack = mkServerPack {
+    inherit servers;
+    packUrlBase = "http://localhost:8000/";
+  };
+
   web = callPackage ./web {};
 
-  ################################
-  ## 1.10 test pack: DireWolf20 ##
-  ################################
+  ###############################
+  ## Erisia 15: Beyond Reality ##
+  ###############################
 
-  direwolf = mkBasePack {
-    src = (mkCursePack {
-      manifest = manifests/DireWolf20.zip;
-      updates = [
-        manifests/1.10.2-DireWolf20.nix
-        manifests/1.10.2-base.nix
-        manifests/1.10.2-Cosmetic.nix
-        manifests/1.10.2-DireWolf20-extras.nix
-        manifests/1.10.2-fixed-base.nix
-      ];
-    }).pack;
+  br = mkBasePack {
+    src = fetchzip {
+      url = https://madoka.brage.info/baughn/BeyondReality.zip;
+      sha256 = "0x701629y403p7kjbrfjhdsfxzisy4avdrb06sr6zri3kysbwsd2";
+      stripRoot = true;
+    };
 
     modConfig = {
-      journeymap = {
+      fastcraft = {
         required = false;
+      };
+      voxelmapNoRadar = clientMod {
         isDefault = true;
-      };
-      BetterFoliage = {
-        side = "CLIENT";
-        required = false;
-      };
-      DynamicSurroundings = {
-        side = "CLIENT";
-        required = false;
-        isDefault = true;
-      };
-      SoundFilters = {
-        side = "CLIENT";
-        required = false;
-        isDefault = false;
-      };
-      morpheus = {
-        side = "SERVER";
-      };
-      Opis = {
-        required = false;
-      };
-      Thump = {
-        required = false;
-      };
-      Dynmap = {
-        side = "SERVER";
-      };
-      AutoJumpKeybindMod = {
-        side = "CLIENT";
       };
     };
   };
 
-  direwolf-mods = (builtins.removeAttrs direwolf.mods [
-    # Has issues, and we have our own backup system.
-    "FTBLib"
-    "FTBUtilities"
+  br-mods = (builtins.removeAttrs br.mods [
+    # Mods to remove.
+  ]) // common-mods // (addManifests [
+    ./manifests/BR-Extras.nix
+    ./manifests/cosmetic.nix
+    ./manifests/tools.nix
   ]) // {
-    TickProfiler = mkMod {
-      name = "TickProfiler-1.10.2.jenkins.10";
-      src = fetchurl {
-        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.10.2/10/artifact/build/libs/TickProfiler-1.10.2.jenkins.10.jar;
-        sha256 = "d667851dcf321b2800414da662a6935abb6dfa33d64e969d8a9017cc72969c54";
-      };
-      side = "SERVER";
+    # Paintings!
+    BiblioCraft = bibliocraftWithPaintings {
+      bibliocraft = br.mods.BiblioCraft;
+      paintings = ./extraPaintings;
     };
-    Optifine = mkMod {
-      name = "Optifine-1.10.2-D4";
+
+    # Terrain generation, mostly in fixed-base.nix.
+    # These should generally *not* be updated, as it'd break the terrain.
+    WildCaves = mkMod {
+      name = "WildCaves-3";
       src = fetchurl {
-        url = https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D4.jar;
-        sha256 = "19mi9azyadwidp927pws04d063l8iyfs60s2d6jp5dkxkli0gv8d";
+        url = "https://madoka.brage.info/baughn/WildCaves3-0.4.3.7.jar";
+        sha256 = "1yc71myww1l80xpl2wj954j43z1d1cvb40yfqgnlp5z2rdrcgfac";
       };
-      side = "CLIENT";
-      required = false;
-      isDefault = true;
     };
-    Chunkgen = mkMod {
-      name = "chunkgen-1.5.0";
-      src = fetchurl {
-        url = https://madoka.brage.info/mods/chunkgen-1.10.2-1.5.0.jar;
-        sha256 = "1vag4r9zr5lxz8qj2l6mlglndwvnlv476zk8h5m3g54s4na6r0gp";
-      };
-      side = "SERVER";
-    };
-    FoamFix = mkMod {
-      name = "foamfix-0.3.2a";
-      src = fetchurl {
-        url = http://asie.pl/foamfix/foamfix-0.3.2a-law.jar;
-        sha256 = "045pchzmwdkwjrihz14v05frs4hjdig8rndxwh953k8i13d9h9mg";
-      };
-      side = "CLIENT";
-      required = false;
-      isDefault = true;
-   };
-	Soundphysics = mkMod {
-	  name = "Soundphysics-mc.1.10.2-v1.0.0";
-	  src = fetchurl {
-	    url = https://beefyserv.bloxgaming.com/bloxgate/soundphysics-mc1.10.2-v1.0.0.jar;
-		sha256 = "1001kai3qjz6w4swp98ibh8xvai1jgsl66lslq0z5i69pv246gj3";
-	  };
-	  side = "CLIENT";
-	  required = false;
-	  isDefault = true;
-	};
+    
   };
+  
+  br-server = mkServer {
+    name = "erisia-15";
 
-  direwolf-server = mkServer rec {
-    name = "erisia-14.5";
-
-    mods = direwolf-mods;
+    mods = br-mods;
 
     forge = fetchForge {
-      major = "1.10.2";
-      minor = "12.18.3.2185";
+      major = forgeMajor; minor = forgeMinor;
     };
 
-    screenName = "incognito";
-    hacks = servers.incognito.hacks;
+    screenName = "e15";
+    hacks = servers.erisia-15.hacks;
 
     # These are applied in order. In case of overwrites nothing is deleted.
     # They're also copied to the client, after applying the below patches.
     extraDirs = [
-      (direwolf.getDir "config")
-      (direwolf.getDir "scripts")
-      (direwolf.getDir "resources")
-      (direwolf.getDir "modpack")
+      (br.getDir "config")
       (fetchzip {
-        url = https://madoka.brage.info/baughn/ResourcePack-1.10.zip;
-        sha256 = "1v58lhch9g4jm8mlmwb2dnr16gasa1zw1l82lyfsk7s0cqxp8gyj";
-        stripRoot = false;
-       })
-	   (fetchzip {
-	     url = https://beefyserv.bloxgaming.com/bloxgate/se-soundfix-v0.1.zip;
-		 sha256 = "15r153b9jbvjl8bwnfhqlisy2l65mxc336yhpypyi11r2h8zfd30";
-		 stripRoot = false;
-	   })
-	   
-       ./base-dw20
+        url = https://madoka.brage.info/baughn/BeyondReality-fonts.zip;
+        sha256 = "1pfcspsrd6zq28pv3vazxzw3x21xl95zahbx1k73fmb0pj73m9mr";
+        stripRoot = true;
+      })
+      (fetchzip {
+        url = https://madoka.brage.info/baughn/BeyondReality-resources.zip;
+        sha256 = "1059swym5n8695y0qvhv2ninx2qg4sx3mmvcp71lys4hipb034i6";
+      })
+      (br.getDir "hats")
+      (br.getDir "scripts")
+      (br.getDir "mods/1.7.10")
+      ./base-e15
     ];
 
     # These are applied after everything else.
     # And in order, if it matters.
     # TODO: Write something that understands what it's doing.
     configPatches = [
-      "sed -i 's/oreToIngotRatio=2.0/oreToIngotRatio=1.5/' tconstruct.cfg"
+      # Enable splash screen.
+      ''sed -i splash.properties -e s/enabled=false/enabled=true/''
+      # Disable the goddamned tracking aura.
+      ''sed -i railcraft/railcraft.cfg -e s/trackingAura=true/trackingAura=false/''
+      # Keep the SD behaviour we're used to.
+      ''sed -i StorageDrawers.cfg -e s/B:invertShift=false/B:invertShift=true/''
+      # Kill the annoying analytics spam.
+      ''sed -i -e "s/analytics=true/analytics=false/" *.cfg */*.cfg''
+      ''sed -i -e "s/usageStatistics=true/usageStatistics=false/" *.cfg */*.cfg''
+      # Enable OpenBlocks graves
+      ''sed -i -e "s/B:grave=false/B:grave=true/" OpenBlocks.cfg''
+      ''sed -i -e "s/B:destructiveGraves=false/B:destructiveGraves=true/" OpenBlocks.cfg''
+      # Surpress COFH Deathspam.
+      ''sed -i "cofh/core/common.cfg" -e 's/B:EnableGenericDeathMessage=true/B:EnableGenericDeathMessage=false/' ''
+      # Remove heat blocks; fixes CC pylon rebuilding
+      ''sed -i "railcraft/blocks.cfg" -e 's/B:residual.heat=true/B:residual.heat=false/' ''
+      # So many client configs.
+      ''find . | grep -i client | xargs rm''
+      # Chunkloaders should not need fuel.
+      ''sed -i railcraft/railcraft.cfg -e "s/S:passive.fuel=minecraft:ender_pearl=12/S:passive.fuel=/" ''
+      ''sed -i railcraft/railcraft.cfg -e "s/S:personal.fuel=minecraft:ender_pearl=12/S:personal.fuel=/" ''
+      ''sed -i railcraft/railcraft.cfg -e "s/S:world.fuel=minecraft:ender_pearl=12/S:world.fuel=/" ''
     ];
   };
+
 
   ###############################
   ## Erisia 14: Modular Mayhem ##
@@ -274,14 +246,14 @@ rec {
   mm = mkBasePack {
 
     src = (mkCursePack {
-      manifest = manifests/Modular_Mayhem-1.21.zip;
+      manifest = manifests/legacy/Modular_Mayhem-1.21.zip;
       # Generated by scraping Curse.
       updates = [
-        manifests/1.7.10-ModularMayhem.nix
-        manifests/1.7.10-ModularMayhemExtras.nix
-        manifests/1.7.10-Cosmetic.nix
-        manifests/1.7.10-fixed-base.nix
-        manifests/1.7.10-base.nix
+        manifests/legacy/1.7.10-ModularMayhem.nix
+        manifests/legacy/1.7.10-ModularMayhemExtras.nix
+        manifests/legacy/1.7.10-Cosmetic.nix
+        manifests/legacy/1.7.10-fixed-base.nix
+        manifests/legacy/1.7.10-base.nix
       ];
     }).pack;
 
@@ -456,16 +428,6 @@ rec {
       # Fix of IE Excavator scripts to properly add ores - failure chance was too high
       ''sed -i ../scripts/Tweaks.zs -e "s_\(mods.immersiveengineering.Excavator.addMineral[^,]*, [0-9]\+, \)_\10._" ''
     ];
-  };
-
-
-  # Used for the libraries only. TODO: Remove.
-  bevos = mkBasePack {
-    src = fetchzip {
-      url = https://madoka.brage.info/baughn/BevosUNC.zip;
-      sha256 = "1w5ks89lga3lrv5gzc24sxx0szqryn111xn2k8zmb78v0vk8mmsc";
-      stripRoot = false;
-    };
   };
   
 }

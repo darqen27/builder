@@ -1,0 +1,22 @@
+{
+    "ambientsounds": {
+        "side": "client"
+    },
+    "real-time-clock": {
+        "side": "client"
+    },
+    "better-foliage": {
+        "side": "client"
+    },
+    "dynamic-surroundings": {
+        "side": "client"
+    },
+    "sound-filters": {
+        "side": "client"
+    },
+    "soundcap": {
+        "side": "client"
+    },
+    "garden-stuff": {},
+    "decocraft2": {}
+}

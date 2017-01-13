@@ -20,7 +20,7 @@ rec {
 
     src = ../base-server;
 
-    modDirs = builtins.filter (m: m.side != "CLIENT") (builtins.attrValues mods);
+    modDirs = builtins.filter (m: m.side != "CLIENT" && m.side != "client") (builtins.attrValues mods);
 
     inherit forge;
     forgeMajor = forge.major;
@@ -213,6 +213,7 @@ rec {
           p($1, $2) if /^(LycanitesMobs.*) ([0-9.]+) \[1.7.10\].jar/;
           p($1, $2) if /^(DummyCore)([0-9.]+)\.jar/;
           p($1, $2) if /^(EssentialCraft)v([0-9.]+)\.jar/;
+          p($1, $2) if /^(MrCrayfish[^0-9]+)v([0-9.]+)\(1.7.10\).jar/;
           p($1, $2) if /^(\w+) 1.7.10 V([0-9\w]+).jar/;
           # Some people like to put the minecraft version number first.
           p($1, $2) if /^(?:client-)?\[?1.7.10\]?-?([\w]+)-(.*).jar/;
@@ -241,6 +242,26 @@ rec {
       src = cfg.src + mod.path;
       modpath = builtins.baseNameOf mod.path;
     });
+  };
+
+  addManifests = manifests: concatSets (map addManifest manifests);
+  addManifest = manifest: lib.mapAttrs addManifestMod (
+    lib.filterAttrs (n: v: v.type != "missing")
+                    (import manifest));
+
+  addManifestMod = name: {
+    title, version, src, md5,
+    side ? "BOTH",
+    required ? true,
+    isDefault ? false,
+    ...
+  }: mkMod {
+    name = "${name}-${version}";
+    src = fetchurl {
+      url = src;
+      inherit md5;
+    };
+    inherit side required isDefault;
   };
 
   ## Curse-based base pack generation ##
@@ -326,7 +347,7 @@ rec {
     serverDesc,
     server,
     port,
-    packUrlBase ? "https://madoka.brage.info/pack",
+    packUrlBase,
     hacks ? {},
   }: let
     serverUrlBase = packUrlBase + "/packs/" + serverId;
@@ -380,7 +401,8 @@ rec {
   };
 
   mkServerPack = {
-    servers
+    servers,
+    packUrlBase ? "https://madoka.brage.info/pack"
   }:  mkDerivation rec {
     name = "ServerPack";
 
@@ -389,7 +411,7 @@ rec {
     stylesheet = ./serverpack.xsl;
 
     paramsText = let
-      params = lib.mapAttrs (name: desc: serverParams desc) servers;
+      params = lib.mapAttrs (name: desc: serverParams (desc // { inherit packUrlBase; })) servers;
       paramsWRevision = lib.mapAttrs (name: desc: desc // {
         revision = builtins.hashString "sha256" (builtins.toXML desc);
       }) params;
@@ -410,4 +432,17 @@ rec {
     '';
   };
 
+
+  /**
+   * Concatenates a list of sets.
+   */
+  concatSets = builtins.foldl' (a: b: a // b) {};
+  
+  /**
+   * Runs a command. Locally.
+   */
+  runLocally = name: env: cmd: lib.runCommand name ({
+    preferLocalBuild = true;
+    allowSubstitutes = false;
+  } // env) cmd;
 }
