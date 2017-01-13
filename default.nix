@@ -154,7 +154,8 @@ rec {
   };
 
   br-mods = (builtins.removeAttrs br.mods [
-    # Mods to remove.
+    # Mods that dupe our manifests:
+    "HelpFixer"
   ]) // common-mods // (addManifests [
     ./manifests/BR-Extras.nix
     ./manifests/cosmetic.nix
