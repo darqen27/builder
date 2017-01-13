@@ -83,7 +83,8 @@ def ParseVersion(filename):
     we'd need to download the mod file every time.
     """
     match = re.search('[0-9].*', filename)
-    return '.'.join((match.group(0) if match else filename).split('.')[0:-1])
+    match = '.'.join((match.group(0) if match else filename).split('.')[0:-1])
+    return re.subn(r'[[\]]', '-', match)[0]
 
 
 def GetNewestVersions(mods):

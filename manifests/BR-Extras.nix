@@ -25,7 +25,7 @@
   };
   "cofhtweaks" = {
     "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2280773/download";
-    "version" = "1.7.10]1.1.2-89";
+    "version" = "1.7.10-1.1.2-89";
     "title" = "CoFHTweaks";
     "projectID" = 230020;
     "required" = false;
