@@ -1,18 +1,23 @@
 {
     "ambientsounds": {
-        "side": "client"
+        "side": "client",
+        "required": false
     },
     "real-time-clock": {
-        "side": "client"
+        "side": "client",
+        "required": false
     },
     "better-foliage": {
-        "side": "client"
+        "side": "client",
+        "required": false
     },
     "dynamic-surroundings": {
-        "side": "client"
+        "side": "client",
+        "required": false
     },
     "sound-filters": {
-        "side": "client"
+        "side": "client",
+        "required": false
     },
     "soundcap": {
         "side": "client"

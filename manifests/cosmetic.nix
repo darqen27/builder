@@ -1,16 +1,18 @@
 {
   "ambientsounds" = {
-    "projectID" = 254284;
     "title" = "AmbientSounds";
+    "projectID" = 254284;
+    "required" = false;
+    "projectPage" = "https://minecraft.curseforge.com/projects/ambientsounds";
     "type" = "missing";
     "side" = "client";
-    "projectPage" = "https://minecraft.curseforge.com/projects/ambientsounds";
   };
   "better-foliage" = {
     "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2322543/download";
     "version" = "1.7.10-2.0.14";
     "title" = "Better Foliage";
     "projectID" = 228529;
+    "required" = false;
     "filename" = "BetterFoliage-MC1.7.10-2.0.14.jar";
     "dependencies" = [];
     "encoded" = "BetterFoliage-MC1.7.10-2.0.14.jar";
@@ -36,6 +38,7 @@
     "version" = "1.7.10-1.0.5.7";
     "title" = "Dynamic Surroundings";
     "projectID" = 238891;
+    "required" = false;
     "filename" = "DynamicSurroundings-1.7.10-1.0.5.7.jar";
     "dependencies" = [];
     "encoded" = "DynamicSurroundings-1.7.10-1.0.5.7.jar";
@@ -61,6 +64,7 @@
     "version" = "1.7.10-0.2";
     "title" = "Real Time Clock";
     "projectID" = 229797;
+    "required" = false;
     "filename" = "RealTimeClock-1.7.10-0.2.jar";
     "dependencies" = [];
     "encoded" = "RealTimeClock-1.7.10-0.2.jar";
@@ -74,6 +78,7 @@
     "version" = "0.8_for_1.7.X";
     "title" = "Sound Filters";
     "projectID" = 222789;
+    "required" = false;
     "filename" = "SoundFilters-0.8_for_1.7.X.jar";
     "dependencies" = [];
     "encoded" = "SoundFilters-0.8_for_1.7.X.jar";
