@@ -1,19 +1,19 @@
 [
   {
-    name = "RTG-1.7.10-1.1.1";
-    filename = "RTG-1.7.10-1.1.1.jar";
-    url = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2319524/download";
-    md5 = "88b73ebbf92f06a2988a65bc0912dba9";
+    name = "RTG-1.7.10-1.1.1.3";
+    filename = "RTG-1.7.10-1.1.1.3.jar";
+    url = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2349800/download";
+    md5 = "c09d1a2f991675a1e3fef3955fab74d7";
   }
   {
-    name = "ClimateControl-0.6.beta59.jar";
-    filename = "ClimateControl-0.6.beta59.jar";
-    url = "https://minecraft.curseforge.com/projects/climate-control/files/2304112/download";
-    md5 = "d598060b08571f92959706f2eeaea2bc";
+    name = "ClimateControl-0.8.2.jar";
+    filename = "ClimateControl-0.8.2.jar";
+    url = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2359685/download";
+    md5 = "d0886b4d772556aa55903205a484b79b";
   }
   {
     name = "ATG_0.12.0_for_Minecraft_1.7.10";
-    filename = "ATG 0.12.0 for Minecraft 1.7.10.jar";
+    filename = "ATG-1.7.10-0.12.0.jar";
     url = "https://minecraft.curseforge.com/projects/alternate-terrain-generation/files/2231153/download";
     md5 = "624d457569301c4aef58eeeca64f0b6f";
   }

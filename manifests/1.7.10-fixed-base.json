@@ -1,11 +1,11 @@
 {
     "files": [
         { "projectID": "realistic-terrain-generation" },
-        { "projectID": "climate-control" },
+        { "projectID": "climate-control-geographicraft" },
         { "projectID": "alternate-terrain-generation" },
         { "projectID": "streams" },
         { "projectID": "farseek" },
         { "projectID": "highlands" },
-        { "projectID": "roguelike-dungeons" },
+        { "projectID": "roguelike-dungeons" }
     ]
 }
