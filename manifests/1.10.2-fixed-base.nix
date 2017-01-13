@@ -30,10 +30,10 @@
     md5 = "23ed272cad154fef07400cc2aa1679e2";
   }
   {
-    name = "GeographiCraft-1.9.4-0.7.6.jar";
-    filename = "GeographiCraft-1.9.4-0.7.6.jar";
-    url = "https://minecraft.curseforge.com/projects/climate-control/files/2342888/download";
-    md5 = "76f3a89b16d08dad77bd035c6bbc7302";
+    name = "GeographiCraft-0.8.5.jar";
+    filename = "GeographiCraft-0.8.5.jar";
+    url = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2365278/download";
+    md5 = "59ad0b27382656eee603c600c3429293";
   }
   {
     name = "Streams-1.9.4-0.2.1.jar";
