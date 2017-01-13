@@ -119,7 +119,7 @@ rec {
       server = br-server;
       port = 25566;
       hacks = { 
-        serverMemory = "5000m";
+        serverMemory = "9500m";
      };
     };
   };
