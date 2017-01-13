@@ -1,5 +1,6 @@
 # Mods added via manifest
 ## manifests/BR-Extras.json:
+- [AnimationAPI](https://minecraft.curseforge.com/projects/animationapi): 1.7.10-1.2.4
 - [Ars Magica 2](https://minecraft.curseforge.com/projects/ars-magica-2): 1.7.10_AM2-1.4.0.009
 - [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.0.11
 - [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.5

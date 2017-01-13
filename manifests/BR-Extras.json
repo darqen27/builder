@@ -4,5 +4,8 @@
     "recurrent-complex": {},
     "streams": {},
     "roguelike-dungeons": {},
-    "ars-magica-2": {}
+    "ars-magica-2": {},
+    "animationapi": {
+        "_comment": "Undeclared dependency of AM2"
+    }
 }

@@ -1,4 +1,16 @@
 {
+  "animationapi" = {
+    "src" = "https://minecraft.curseforge.com/projects/animationapi/files/2221721/download";
+    "version" = "1.7.10-1.2.4";
+    "title" = "AnimationAPI";
+    "projectID" = 77191;
+    "filename" = "AnimationAPI-1.7.10-1.2.4.jar";
+    "dependencies" = [];
+    "encoded" = "AnimationAPI-1.7.10-1.2.4.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/animationapi";
+    "type" = "remote";
+    "md5" = "7ec0b391e527461196e86f4e4974f560";
+  };
   "ars-magica-2" = {
     "src" = "https://minecraft.curseforge.com/projects/ars-magica-2/files/2280862/download";
     "version" = "1.7.10_AM2-1.4.0.009";
