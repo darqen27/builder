@@ -93,7 +93,7 @@ if [[ $EXTRAS -eq 1 ]]; then
     dailyRestart &
 fi
 
-java -d64 -server -Xmx9500m \
+java -d64 -server -Xmx"@serverMemory@" \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
   -XX:+UseLargePages \

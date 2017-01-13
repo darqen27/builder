@@ -110,6 +110,7 @@ rec {
       hacks = {
         enableAntiChunkChurn = false;
         saveTime = 45;
+        serverMemory = "9500m";
       };
     };
     erisia-15 = {
@@ -117,7 +118,9 @@ rec {
       serverDesc = "Erisia #15: Dolor et Gemitus";
       server = br-server;
       port = 25566;
-      hacks = {};
+      hacks = { 
+        serverMemory = "5000m";
+     };
     };
   };
 
