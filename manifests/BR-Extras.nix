@@ -23,6 +23,18 @@
     "type" = "remote";
     "md5" = "1e4b8c84cda22fd093c5e921374578e9";
   };
+  "climate-control-geographicraft" = {
+    "src" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2359685/download";
+    "version" = "0.8.2";
+    "title" = "Climate Control/Geographicraft";
+    "projectID" = 76544;
+    "filename" = "ClimateControl-0.8.2.jar";
+    "dependencies" = [];
+    "encoded" = "ClimateControl-0.8.2.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft";
+    "type" = "remote";
+    "md5" = "d0886b4d772556aa55903205a484b79b";
+  };
   "cofhtweaks" = {
     "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2280773/download";
     "version" = "1.7.10-1.1.2-89";

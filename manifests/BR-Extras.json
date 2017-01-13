@@ -1,6 +1,9 @@
 {
     "growing-trees": {},
     "realistic-terrain-generation": {},
+    "climate-control-geographicraft": {
+        "_comment": "Needed to use Highlands with RTG"
+    },
     "recurrent-complex": {},
     "streams": {},
     "roguelike-dungeons": {},
