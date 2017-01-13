@@ -217,6 +217,8 @@ rec {
     # And in order, if it matters.
     # TODO: Write something that understands what it's doing.
     configPatches = [
+      # No creeper griefing plz.
+      ''sed -i CodeChickenCore.cfg -e s/environmentallyFriendlyCreepers=false/environmentallyFriendlyCreepers=true/''
       # Enable splash screen.
       ''sed -i splash.properties -e s/enabled=false/enabled=true/''
       # Disable the goddamned tracking aura.
