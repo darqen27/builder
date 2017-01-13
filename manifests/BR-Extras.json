@@ -11,9 +11,6 @@
     "cooking-for-blockheads": {},
     "eirairc": {},
     "perfect-spawn": {},
-    "opis": {
-        "required": false
-    },
     "controlling": {
         "side": "client"
     },

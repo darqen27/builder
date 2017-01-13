@@ -110,31 +110,6 @@
     "type" = "remote";
     "md5" = "dd91e34daaa9be33bfa522d7a058c549";
   };
-  "mobiuscore" = {
-    "src" = "https://minecraft.curseforge.com/projects/mobiuscore/files/2232516/download";
-    "version" = "1.2.5_1.7.10";
-    "title" = "MobiusCore";
-    "projectID" = 76734;
-    "filename" = "MobiusCore-1.2.5_1.7.10.jar";
-    "dependencies" = [];
-    "encoded" = "MobiusCore-1.2.5_1.7.10.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/mobiuscore";
-    "type" = "remote";
-    "md5" = "29990acae6a30d35057380222be87294";
-  };
-  "opis" = {
-    "src" = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
-    "version" = "1.2.5_1.7.10";
-    "title" = "Opis";
-    "projectID" = 73832;
-    "required" = false;
-    "filename" = "Opis-1.2.5_1.7.10.jar";
-    "dependencies" = [76734];
-    "encoded" = "Opis-1.2.5_1.7.10.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/opis";
-    "type" = "remote";
-    "md5" = "82e98ab306d952f3371a514333c226b4";
-  };
   "perfect-spawn" = {
     "src" = "https://minecraft.curseforge.com/projects/perfect-spawn/files/2212916/download";
     "version" = "1.1";
