@@ -23,6 +23,57 @@
     "type" = "remote";
     "md5" = "1e4b8c84cda22fd093c5e921374578e9";
   };
+  "cofhtweaks" = {
+    "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2280773/download";
+    "version" = "1.7.10]1.1.2-89";
+    "title" = "CoFHTweaks";
+    "projectID" = 230020;
+    "required" = false;
+    "filename" = "CoFHTweaks-[1.7.10]1.1.2-89.jar";
+    "dependencies" = [];
+    "encoded" = "CoFHTweaks-%5B1.7.10%5D1.1.2-89.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/cofhtweaks";
+    "type" = "remote";
+    "isDefault" = true;
+    "md5" = "cbb2193115b252c17cd7c03da9b8af3b";
+  };
+  "controlling" = {
+    "src" = "https://minecraft.curseforge.com/projects/controlling/files/2328181/download";
+    "version" = "1.7.10-1.0.0";
+    "title" = "Controlling";
+    "projectID" = 250398;
+    "filename" = "Controlling-1.7.10-1.0.0.jar";
+    "dependencies" = [];
+    "encoded" = "Controlling-1.7.10-1.0.0.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/controlling";
+    "type" = "remote";
+    "side" = "client";
+    "md5" = "8589f6fa0a0f8f0b69fe88f9aa518e7f";
+  };
+  "cooking-for-blockheads" = {
+    "src" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135/download";
+    "version" = "1.7.10-1.0.140";
+    "title" = "Cooking for Blockheads";
+    "projectID" = 231484;
+    "filename" = "cookingbook-mc1.7.10-1.0.140.jar";
+    "dependencies" = [];
+    "encoded" = "cookingbook-mc1.7.10-1.0.140.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads";
+    "type" = "remote";
+    "md5" = "38f41daf5b96bcca2520887ecb7bd446";
+  };
+  "eirairc" = {
+    "src" = "https://minecraft.curseforge.com/projects/eirairc/files/2281173/download";
+    "version" = "1.7.10-2.9.402";
+    "title" = "EiraIRC";
+    "projectID" = 68420;
+    "filename" = "eirairc-mc1.7.10-2.9.402.jar";
+    "dependencies" = [];
+    "encoded" = "eirairc-mc1.7.10-2.9.402.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/eirairc";
+    "type" = "remote";
+    "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
+  };
   "farseek" = {
     "src" = "https://minecraft.curseforge.com/projects/farseek/files/2281555/download";
     "version" = "1.0.11";
@@ -58,6 +109,43 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/ivtoolkit";
     "type" = "remote";
     "md5" = "dd91e34daaa9be33bfa522d7a058c549";
+  };
+  "mobiuscore" = {
+    "src" = "https://minecraft.curseforge.com/projects/mobiuscore/files/2232516/download";
+    "version" = "1.2.5_1.7.10";
+    "title" = "MobiusCore";
+    "projectID" = 76734;
+    "filename" = "MobiusCore-1.2.5_1.7.10.jar";
+    "dependencies" = [];
+    "encoded" = "MobiusCore-1.2.5_1.7.10.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/mobiuscore";
+    "type" = "remote";
+    "md5" = "29990acae6a30d35057380222be87294";
+  };
+  "opis" = {
+    "src" = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
+    "version" = "1.2.5_1.7.10";
+    "title" = "Opis";
+    "projectID" = 73832;
+    "required" = false;
+    "filename" = "Opis-1.2.5_1.7.10.jar";
+    "dependencies" = [76734];
+    "encoded" = "Opis-1.2.5_1.7.10.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/opis";
+    "type" = "remote";
+    "md5" = "82e98ab306d952f3371a514333c226b4";
+  };
+  "perfect-spawn" = {
+    "src" = "https://minecraft.curseforge.com/projects/perfect-spawn/files/2212916/download";
+    "version" = "1.1";
+    "title" = "Perfect Spawn";
+    "projectID" = 221418;
+    "filename" = "PerfectSpawn-1.1.jar";
+    "dependencies" = [];
+    "encoded" = "PerfectSpawn-1.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/perfect-spawn";
+    "type" = "remote";
+    "md5" = "eb2fada9ee62167611a833d3d71d95d3";
   };
   "realistic-terrain-generation" = {
     "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2349800/download";

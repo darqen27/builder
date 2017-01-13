@@ -7,5 +7,18 @@
     "ars-magica-2": {},
     "animationapi": {
         "_comment": "Undeclared dependency of AM2"
+    },
+    "cooking-for-blockheads": {},
+    "eirairc": {},
+    "perfect-spawn": {},
+    "opis": {
+        "required": false
+    },
+    "controlling": {
+        "side": "client"
+    },
+    "cofhtweaks": {
+        "required": false,
+        "isDefault": true
     }
 }

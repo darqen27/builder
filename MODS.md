@@ -2,9 +2,16 @@
 ## manifests/BR-Extras.json:
 - [AnimationAPI](https://minecraft.curseforge.com/projects/animationapi): 1.7.10-1.2.4
 - [Ars Magica 2](https://minecraft.curseforge.com/projects/ars-magica-2): 1.7.10_AM2-1.4.0.009
+- [CoFHTweaks](https://minecraft.curseforge.com/projects/cofhtweaks): 1.7.10]1.1.2-89
+- [Controlling](https://minecraft.curseforge.com/projects/controlling): 1.7.10-1.0.0
+- [Cooking for Blockheads](https://minecraft.curseforge.com/projects/cooking-for-blockheads): 1.7.10-1.0.140
+- [EiraIRC](https://minecraft.curseforge.com/projects/eirairc): 1.7.10-2.9.402
 - [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.0.11
 - [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.5
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.1
+- [MobiusCore](https://minecraft.curseforge.com/projects/mobiuscore): 1.2.5_1.7.10
+- [Opis](https://minecraft.curseforge.com/projects/opis): 1.2.5_1.7.10
+- [Perfect Spawn](https://minecraft.curseforge.com/projects/perfect-spawn): 1.1
 - [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.7.10-1.1.1.3
 - [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 0.9.7.1.1
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.7.10-1.5.0b
