@@ -170,4 +170,18 @@
     "type" = "remote";
     "md5" = "4aefeee9e2c22a11b6f6c8b76ab7a267";
   };
+  "thaumcraft-node-tracker" = {
+    "src" = "https://minecraft.curseforge.com/projects/thaumcraft-node-tracker/files/2247224/download";
+    "version" = "1.7.10-1.1.2";
+    "title" = "Thaumcraft Node Tracker";
+    "projectID" = 227328;
+    "required" = false;
+    "filename" = "tcnodetracker-1.7.10-1.1.2.jar";
+    "dependencies" = [];
+    "encoded" = "tcnodetracker-1.7.10-1.1.2.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/thaumcraft-node-tracker";
+    "type" = "remote";
+    "side" = "client";
+    "md5" = "fc34a6af72eeabfe0dd8be7934a3bc67";
+  };
 }

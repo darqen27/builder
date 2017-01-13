@@ -3,5 +3,9 @@
     "helpfixer": {},
     "schematica": {
         "side": "client"
+    },
+    "journeymap-32274": {
+        "side": "client",
+        "required": false
     }
 }

@@ -17,5 +17,9 @@
     "cofhtweaks": {
         "required": false,
         "isDefault": true
+    },
+    "thaumcraft-node-tracker": {
+        "side": "client",
+        "required": false
     }
 }

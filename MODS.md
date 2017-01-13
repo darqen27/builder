@@ -14,6 +14,7 @@
 - [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 0.9.7.1.1
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.7.10-1.5.0b
 - [Streams](https://minecraft.curseforge.com/projects/streams): 0.2
+- [Thaumcraft Node Tracker](https://minecraft.curseforge.com/projects/thaumcraft-node-tracker): 1.7.10-1.1.2
 
 ## manifests/cosmetic.json:
 - [AmbientSounds](https://minecraft.curseforge.com/projects/ambientsounds): None
@@ -30,6 +31,7 @@
 
 ## manifests/tools.json:
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.0.7
+- [JourneyMap](https://minecraft.curseforge.com/projects/journeymap-32274): 1.7.10-5.1.4p1-unlimited
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.7.10-1.2
 - [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.7.10-1.1.2.21-universal
 - [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.7.10-1.7.6.131-universal
