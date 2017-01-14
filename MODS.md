@@ -9,6 +9,7 @@
 - [EiraIRC](https://minecraft.curseforge.com/projects/eirairc): 1.7.10-2.9.402
 - [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.0.11
 - [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.5
+- [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.7.10-1.2.20
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.1
 - [Perfect Spawn](https://minecraft.curseforge.com/projects/perfect-spawn): 1.1
 - [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.7.10-1.1.1.3

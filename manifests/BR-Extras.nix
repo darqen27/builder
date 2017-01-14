@@ -109,6 +109,18 @@
     "type" = "remote";
     "md5" = "95a9781a4419868239eca12537351f2b";
   };
+  "iron-backpacks" = {
+    "src" = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301/download";
+    "version" = "1.7.10-1.2.20";
+    "title" = "Iron Backpacks";
+    "projectID" = 227049;
+    "filename" = "IronBackpacks-1.7.10-1.2.20.jar";
+    "dependencies" = [];
+    "encoded" = "IronBackpacks-1.7.10-1.2.20.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/iron-backpacks";
+    "type" = "remote";
+    "md5" = "a7e20c4ced02e078db2f35b71796aca5";
+  };
   "ivtoolkit" = {
     "src" = "https://minecraft.curseforge.com/projects/ivtoolkit/files/2294442/download";
     "version" = "1.2.1";
