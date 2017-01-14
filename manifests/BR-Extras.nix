@@ -46,7 +46,6 @@
     "encoded" = "CoFHTweaks-%5B1.7.10%5D1.1.2-89.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/cofhtweaks";
     "type" = "remote";
-    "isDefault" = true;
     "md5" = "cbb2193115b252c17cd7c03da9b8af3b";
   };
   "controlling" = {

@@ -32,7 +32,7 @@
 
 ## manifests/tools.json:
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.0.7
-- [JourneyMap](https://minecraft.curseforge.com/projects/journeymap-32274): 1.7.10-5.1.4p1-unlimited
+- [JourneyMap](https://minecraft.curseforge.com/projects/journeymap-32274): 1.7.10-5.1.4p2-unlimited
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.7.10-1.2
 - [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.7.10-1.1.2.21-universal
 - [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.7.10-1.7.6.131-universal

@@ -18,8 +18,7 @@
         "side": "client"
     },
     "cofhtweaks": {
-        "required": false,
-        "isDefault": true
+        "required": false
     },
     "thaumcraft-node-tracker": {
         "side": "client",

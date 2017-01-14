@@ -12,18 +12,19 @@
     "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
   };
   "journeymap-32274" = {
-    "src" = "https://minecraft.curseforge.com/projects/journeymap-32274/files/2296716/download";
-    "version" = "1.7.10-5.1.4p1-unlimited";
+    "src" = "https://minecraft.curseforge.com/projects/journeymap-32274/files/2367915/download";
+    "version" = "1.7.10-5.1.4p2-unlimited";
     "title" = "JourneyMap";
     "projectID" = 32274;
     "required" = false;
-    "filename" = "journeymap-1.7.10-5.1.4p1-unlimited.jar";
+    "filename" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
     "dependencies" = [];
-    "encoded" = "journeymap-1.7.10-5.1.4p1-unlimited.jar";
+    "encoded" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/journeymap-32274";
     "type" = "remote";
     "side" = "client";
-    "md5" = "9091571243da9b1532ba2d8fef3f2eea";
+    "isDefault" = true;
+    "md5" = "0c3daa19789a67da328437a8635c2cf3";
   };
   "loading-profiler" = {
     "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2257233/download";
