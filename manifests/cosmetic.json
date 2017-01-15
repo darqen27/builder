@@ -11,10 +11,6 @@
         "side": "client",
         "required": false
     },
-    "dynamic-surroundings": {
-        "side": "client",
-        "required": false
-    },
     "sound-filters": {
         "side": "client",
         "required": false

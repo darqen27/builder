@@ -33,20 +33,6 @@
     "type" = "remote";
     "md5" = "e1538bdf3c2cc474973a992fddae1a60";
   };
-  "dynamic-surroundings" = {
-    "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2367769/download";
-    "version" = "1.7.10-1.0.5.7";
-    "title" = "Dynamic Surroundings";
-    "projectID" = 238891;
-    "required" = false;
-    "filename" = "DynamicSurroundings-1.7.10-1.0.5.7.jar";
-    "dependencies" = [];
-    "encoded" = "DynamicSurroundings-1.7.10-1.0.5.7.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/dynamic-surroundings";
-    "type" = "remote";
-    "side" = "client";
-    "md5" = "43c391d307ab399aac41ac0e4733e656";
-  };
   "garden-stuff" = {
     "src" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2269692/download";
     "version" = "1.7.10-1.7.0";

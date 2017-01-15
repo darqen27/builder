@@ -25,7 +25,6 @@
 ```
 - [Better Foliage](https://minecraft.curseforge.com/projects/better-foliage): 1.7.10-2.0.14
 - [DecoCraft2](https://minecraft.curseforge.com/projects/decocraft2): 2.3.6.1_1.7.10
-- [Dynamic Surroundings](https://minecraft.curseforge.com/projects/dynamic-surroundings): 1.7.10-1.0.5.7
 - [Garden Stuff](https://minecraft.curseforge.com/projects/garden-stuff): 1.7.10-1.7.0
 - [Real Time Clock](https://minecraft.curseforge.com/projects/real-time-clock): 1.7.10-0.2
 - [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.8_for_1.7.X
