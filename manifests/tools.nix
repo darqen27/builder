@@ -11,6 +11,21 @@
     "type" = "remote";
     "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
   };
+  "inventory-tweaks" = {
+    "src" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792/download";
+    "version" = "1.59-dev-152";
+    "title" = "Inventory Tweaks";
+    "projectID" = 223094;
+    "required" = false;
+    "filename" = "InventoryTweaks-1.59-dev-152.jar";
+    "dependencies" = [];
+    "encoded" = "InventoryTweaks-1.59-dev-152.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/inventory-tweaks";
+    "type" = "remote";
+    "side" = "client";
+    "isDefault" = true;
+    "md5" = "83f7ddcd5f5fd8d640aa15dc62acc6bf";
+  };
   "journeymap-32274" = {
     "src" = "https://minecraft.curseforge.com/projects/journeymap-32274/files/2367915/download";
     "version" = "1.7.10-5.1.4p2-unlimited";

@@ -8,5 +8,10 @@
         "side": "client",
         "required": false,
         "isDefault": true
+    },
+    "inventory-tweaks": {
+        "side": "client",
+        "required": false,
+        "isDefault": true
     }
 }
