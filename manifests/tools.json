@@ -13,5 +13,8 @@
         "side": "client",
         "required": false,
         "isDefault": true
+    },
+    "reauth": {
+        "side": "client"
     }
 }

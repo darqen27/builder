@@ -65,6 +65,19 @@
     "type" = "remote";
     "md5" = "435b2890f90cc256e0045eb559512eaf";
   };
+  "reauth" = {
+    "src" = "https://minecraft.curseforge.com/projects/reauth/files/2323884/download";
+    "version" = "3.2";
+    "title" = "ReAuth";
+    "projectID" = 237701;
+    "filename" = "ReAuth-3.2.jar";
+    "dependencies" = [];
+    "encoded" = "ReAuth-3.2.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/reauth";
+    "type" = "remote";
+    "side" = "client";
+    "md5" = "c01189492a3881212a2e523c5ff7182b";
+  };
   "schematica" = {
     "src" = "https://minecraft.curseforge.com/projects/schematica/files/2274295/download";
     "version" = "1.7.10-1.7.6.131-universal";
