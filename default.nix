@@ -60,7 +60,17 @@ let
       };
       side = "SERVER";
     };
-    
+
+    Sampler = mkMod {
+      name = "Sampler-1.60";
+      src = fetchurl {
+        url = https://madoka.brage.info/mods/sampler-1.60.jar;
+        sha256 = "0k4ghkwvd84x54p57wfdrd7bgd59sq0sl8ma0l16i9b9ws9k98js";
+      };
+      side = "CLIENT";
+      required = false;
+    };
+
     Shaders = mkMod {
       name = "ShadersMod-2.3.31";
       src = fetchurl {
