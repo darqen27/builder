@@ -152,7 +152,7 @@ rec {
   br = mkBasePack {
     src = fetchzip {
       url = https://madoka.brage.info/baughn/BeyondReality.zip;
-      sha256 = "0x701629y403p7kjbrfjhdsfxzisy4avdrb06sr6zri3kysbwsd2";
+      sha256 = "1kz3lc45bcca9hp7r86ys91k6ir6lfmwmr1zhjl2l4rnm2wplyyb";
       stripRoot = true;
     };
 
