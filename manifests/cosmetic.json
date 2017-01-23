@@ -1,4 +1,9 @@
 {
+    "applecore": {
+      "side": "client",
+      "required": false,
+      "isDefault": true
+    },
     "ambientsounds": {
         "side": "client",
         "required": false
