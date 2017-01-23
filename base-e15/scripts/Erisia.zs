@@ -24,3 +24,6 @@ recipes.addShapeless(<Eln:Eln.SixNode:2052>, [tinCable]);
 recipes.addShapeless(<Eln:Eln.SixNode:2056>, [copperCable]);
 recipes.addShapeless(<Eln:Eln.SixNode:2060>, [copperCable, <ore:itemRubber>]);
 recipes.addShapeless(<Eln:Eln.SixNode:2064>, [<ore:cableGt01Tungsten>]);
+
+// Re-add bread, for CfB's sake.
+furnace.addRecipe(<minecraft:bread>, <ore:foodDough>);
