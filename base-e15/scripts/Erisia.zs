@@ -5,6 +5,9 @@ val tinCable = <ore:craftingWireTin>;
 val quartz = <ore:craftingQuartz>;
 val redstone = <minecraft:redstone>;
 
+val basicChip = <Eln:Eln.sharedItem:7680>;
+val mvCable = <Eln:Eln.SixNode:2056>;
+
 // Remove the tree-tap.
 recipes.remove(<Eln:Eln.SixNode:7424>);
 
@@ -21,16 +24,25 @@ recipes.addShaped(solarPanel,
    [iron, iron, iron]]);
 
 // And basic chip recipe.
-recipes.addShaped(<Eln:Eln.sharedItem:7680>,
+recipes.addShaped(basicChip,
   [[redstone, redstone, redstone],
    [redstone, quartz, redstone],
    [redstone, redstone, redstone]]);
 
+// Fix the 200V energy exporter recipe.
+recipes.remove(<Eln:eln.EnergyConverterElnToOtherMVUBlock>);
+recipes.addShaped(<Eln:eln.EnergyConverterElnToOtherMVUBlock>,
+  [[iron, iron, iron],
+   [mvCable, basicChip, <ore:ingotIron>],
+   [iron, iron, iron]]);
+
 // Alternate, non-tungsten alloy dust recipes.
-recipes.addShapeless(<Eln:Eln.sharedItem:9>*2,
-  [<ore:dustNickel>, <ore:dustIron>, <ore:dustIron>, <ore:dustBismuth>]);
+val alloyDust = <Eln:Eln.sharedItem:9>;
+recipes.remove(alloyDust);
+recipes.addShapeless(alloyDust*2,
+  [<ore:dustNickel>, <ore:dustIron>, <ore:dustCopper>, <ore:dustCopper>]);
 recipes.addShapeless(<Eln:Eln.sharedItem:9>*4,
-  [<ore:dustNickel>, <ore:dustIron>, <ore:dustBismuth>, <ore:dustAluminium>]);
+  [<ore:dustNickel>, <ore:dustIron>, <ore:dustCopper>, <ore:dustAluminium>]);
 
 // Allow conversion from GT cables.
 recipes.addShapeless(<Eln:Eln.SixNode:2048>, [ironCable]);
