@@ -35,20 +35,6 @@
     "type" = "remote";
     "md5" = "d0886b4d772556aa55903205a484b79b";
   };
-  "cofhtweaks" = {
-    "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2280773/download";
-    "version" = "1.7.10-1.1.2-89";
-    "title" = "CoFHTweaks";
-    "projectID" = 230020;
-    "required" = false;
-    "filename" = "CoFHTweaks-[1.7.10]1.1.2-89.jar";
-    "dependencies" = [];
-    "encoded" = "CoFHTweaks-%5B1.7.10%5D1.1.2-89.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/cofhtweaks";
-    "type" = "remote";
-    "side" = "client";
-    "md5" = "cbb2193115b252c17cd7c03da9b8af3b";
-  };
   "controlling" = {
     "src" = "https://minecraft.curseforge.com/projects/controlling/files/2328181/download";
     "version" = "1.7.10-1.0.0";

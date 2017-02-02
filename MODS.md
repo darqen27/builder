@@ -3,7 +3,6 @@
 - [AnimationAPI](https://minecraft.curseforge.com/projects/animationapi): 1.7.10-1.2.4
 - [Ars Magica 2](https://minecraft.curseforge.com/projects/ars-magica-2): 1.7.10_AM2-1.4.0.009
 - [Climate Control/Geographicraft](https://minecraft.curseforge.com/projects/climate-control-geographicraft): 0.8.2
-- [CoFHTweaks](https://minecraft.curseforge.com/projects/cofhtweaks): 1.7.10-1.1.2-89
 - [Controlling](https://minecraft.curseforge.com/projects/controlling): 1.7.10-1.0.0
 - [Cooking for Blockheads](https://minecraft.curseforge.com/projects/cooking-for-blockheads): 1.7.10-1.0.140
 - [EiraIRC](https://minecraft.curseforge.com/projects/eirairc): 1.7.10-2.9.402
