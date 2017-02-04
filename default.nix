@@ -251,6 +251,8 @@ rec {
       ''sed -i railcraft/railcraft.cfg -e "s/S:passive.fuel=minecraft:ender_pearl=12/S:passive.fuel=/" ''
       ''sed -i railcraft/railcraft.cfg -e "s/S:personal.fuel=minecraft:ender_pearl=12/S:personal.fuel=/" ''
       ''sed -i railcraft/railcraft.cfg -e "s/S:world.fuel=minecraft:ender_pearl=12/S:world.fuel=/" ''
+      # Enables the crafting of world anchors.
+      ''sed -i railcraft/railcraft.cfg -e "s/B:craftable=false/B:craftable=true/" ''
     ];
   };
 
