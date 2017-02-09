@@ -73,16 +73,16 @@
     "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
   };
   "farseek" = {
-    "src" = "https://minecraft.curseforge.com/projects/farseek/files/2281555/download";
-    "version" = "1.0.11";
+    "src" = "https://minecraft.curseforge.com/projects/farseek/files/2377895/download";
+    "version" = "1.1";
     "title" = "Farseek";
     "projectID" = 229708;
-    "filename" = "Farseek-1.0.11.jar";
+    "filename" = "Farseek-1.1.jar";
     "dependencies" = [];
-    "encoded" = "Farseek-1.0.11.jar";
+    "encoded" = "Farseek-1.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/farseek";
     "type" = "remote";
-    "md5" = "e6deb2987bc0c8feb3de9edd87d89745";
+    "md5" = "797fa8ab4f5f8ccd6b2487e75cc79ce4";
   };
   "growing-trees" = {
     "src" = "https://minecraft.curseforge.com/projects/growing-trees/files/2341934/download";
