@@ -169,11 +169,15 @@ rec {
   br-mods = (builtins.removeAttrs br.mods [
     # Mods that dupe our manifests:
     "HelpFixer"
-  ]) // common-mods // (addManifests [
+    "Thaumcraft"
+  ]) // common-mods // (builtins.removeAttrs (addManifests [
     ./manifests/BR-Extras.nix
     ./manifests/cosmetic.nix
     ./manifests/tools.nix
-  ]) // {
+  ]) [
+    # TODO: Remove this from the base, not the manifest! Geez.
+    "baubles"
+   ]) // {
     # Paintings!
     BiblioCraft = bibliocraftWithPaintings {
       bibliocraft = br.mods.BiblioCraft;
