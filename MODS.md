@@ -7,9 +7,9 @@
 - [Controlling](https://minecraft.curseforge.com/projects/controlling): 1.7.10-1.0.0
 - [Cooking for Blockheads](https://minecraft.curseforge.com/projects/cooking-for-blockheads): 1.7.10-1.0.140
 - [EiraIRC](https://minecraft.curseforge.com/projects/eirairc): 1.7.10-2.9.402
-- [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.1
 - [Forbidden Magic](https://minecraft.curseforge.com/projects/forbidden-magic): 1.7.10-0.575
-- [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.7
+- [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.0.11
+- [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.5
 - [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.7.10-1.2.20
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.1
 - [Perfect Spawn](https://minecraft.curseforge.com/projects/perfect-spawn): 1.1
@@ -25,7 +25,7 @@
 ```diff
 - Not found
 ```
-- [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.7.10-1.3.8
+- [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.7.10-1.3.2
 - [Better Foliage](https://minecraft.curseforge.com/projects/better-foliage): 1.7.10-2.0.14
 - [DecoCraft2](https://minecraft.curseforge.com/projects/decocraft2): 2.3.6.1_1.7.10
 - [Garden Stuff](https://minecraft.curseforge.com/projects/garden-stuff): 1.7.10-1.7.0
