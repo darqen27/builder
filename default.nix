@@ -44,11 +44,11 @@ let
     };
 
     ElectricalAge = mkMod rec {
-      ver = "dev-17";
+      ver = "dev-18";
       name = "ElectricalAge-${ver}";
       src = fetchurl {
         url = "https://madoka.brage.info/baughn/ElectricalAge-${ver}.jar";
-        sha256 = "05f8d99ba5faf74263f4490d3dec35bd1590403b9c08277e65a6d33c76bb9212";
+        sha256 = "66abb90269f5fbeb48da8c411d4e4f90aa93582776204587c31476d9eaa58871";
       };
     };
 
