@@ -311,10 +311,9 @@ rec {
           cp "$(find $src -name \*.jar)" tmp.zip &
           mkdir -p assets/bibliocraft/textures/custompaintings
           pushd assets/bibliocraft/textures/custompaintings
-          for i in $(find $paintings -type f); do
-            convert $i -resize '512x512>' $(echo $(basename $i) | sed 's/\..*//').png &
-          done
-          wait
+          find "$paintings" -type f | (while read i; do
+            convert "$i" -resize '512x512>' "$(echo "$(basename "$i")" | sed 's/\..*//')".png &
+          done; wait)
           popd
           chmod u+w tmp.zip
           zip -r tmp.zip assets
