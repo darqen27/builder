@@ -88,3 +88,7 @@ recipes.addShaped(<minecraft:tnt>, [
   [<minecraft:sand>, <minecraft:gunpowder>, <minecraft:sand>],
   [<minecraft:gunpowder>, <minecraft:sand>, <minecraft:gunpowder>],
   [<minecraft:sand>, <minecraft:gunpowder>, <minecraft:sand>]]);
+recipes.addShaped(<minecraft:glass_bottle>, [
+  [null, null, null],
+  [<minecraft:glass>, null, <minecraft:glass>],
+  [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
