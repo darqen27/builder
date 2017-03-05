@@ -4,25 +4,33 @@ with stdenv;
 with import ./lib/lib.nix;
 with import ./lib/sprocket;
 
+let protonPack = mkDerivation {
+  name = "proton-1.0.9";
+  buildInputs = [ unzip ];
+  src = manifest/Proton-1.0.9.zip;
+  installPhase = "mkdir $out; cd $out; unzip $src";
+}; in
+
 rec {
 
   packs = {
-    TPPI3C = buildPack TPPI3C;
+    proton = buildPack proton;
   };
 
-  TPPI3C = {
-    name = "TPPI3C-0.0.1";
-    screenName = "tppi";  # On dev server.
-    port = 25567;  # On dev server.
+  proton = {
+    name = "proton";
+    screenName = "proton";
+    port = 25567;
     forge = {
       major = "1.10.2";
-      minor = "12.18.3.2185";
+      minor = "12.18.3.2239";
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
     extraDirs = [
-      ./base-tppi3
-      (generateCustomOreGenConfig ./COGConfig)
+      "${protonPack}/overrides"
+      ./base-proton
+      # (generateCustomOreGenConfig ./COGConfig)
     ];
     # Server only.
     extraServerDirs = [
@@ -31,23 +39,19 @@ rec {
     # These are all the mods we'd like to include in this pack.
     # (Not yet, they're not.)
     manifests = [
-      ./manifest/definitely.nix
-      ./manifest/maybe.nix
+      ./manifest/Proton-1.0.9.nix
       ./manifest/tools.nix
-      ./manifest/dev-only.nix
     ];
     # Not all mods are equally welcome.
     blacklist = [
-      # WAILA conflicts with HWYLA.
-      "waila"
-      # MFFS's current release is buggy, see https://github.com/nekosune/modularforcefieldsystem/issues/7
-      "modular-forcefield-system"
+      # Already exists in Proton.
+      "fullscreen-windowed-borderless-for-minecraft"
     ];
   };
 
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "tppi.brage.info";
+    hostname = "madoka.brage.info";
     urlBase = "https://" + hostname + "/";
   };
 
@@ -57,18 +61,6 @@ rec {
     inherit packs;
     hostname = "localhost";
     urlBase = "http://" + hostname + "/";
-  };
-
-  # This wraps the updater with its dependencies.
-  updater = python2Packages.buildPythonPackage rec {
-    name = "updater";
-    version = "tppi";
-
-    src = ./manifest;
-
-    propagatedBuildInputs = with pythonPackages; [
-      beautifulsoup lxml futures cacert
-    ];
   };
 
 }

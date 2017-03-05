@@ -1,0 +1,18 @@
+{
+    "discordchat": {},
+    "foamfix": {
+        "src": "../bundled/foamfix/foamfix-0.6.1-anarchy.jar"
+    },
+    "dynmapforge": {
+        "side": "server"
+    },
+    "fullscreen-windowed-borderless-for-minecraft": {
+        "side": "client"
+    },
+    "chunkgen": {},
+    "loading-profiler": {},
+    "helpfixer": {},
+    "schematica": {
+      "side": "client"
+    }
+}

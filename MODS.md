@@ -1,44 +1,80 @@
-# Mods added via manifest
-## manifests/BR-Extras.json:
-- [AnimationAPI](https://minecraft.curseforge.com/projects/animationapi): 1.7.10-1.2.4
-- [Ars Magica 2](https://minecraft.curseforge.com/projects/ars-magica-2): 1.7.10_AM2-1.4.0.009
-- [Baubles](https://minecraft.curseforge.com/projects/baubles): 1.7.10-1.0.1.10
-- [Climate Control/Geographicraft](https://minecraft.curseforge.com/projects/climate-control-geographicraft): 0.8.2
-- [Controlling](https://minecraft.curseforge.com/projects/controlling): 1.7.10-1.0.0
-- [Cooking for Blockheads](https://minecraft.curseforge.com/projects/cooking-for-blockheads): 1.7.10-1.0.140
-- [EiraIRC](https://minecraft.curseforge.com/projects/eirairc): 1.7.10-2.9.402
-- [Forbidden Magic](https://minecraft.curseforge.com/projects/forbidden-magic): 1.7.10-0.575
-- [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.0.11
-- [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.5
-- [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.7.10-1.2.20
-- [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.1
-- [Perfect Spawn](https://minecraft.curseforge.com/projects/perfect-spawn): 1.1
-- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.7.10-1.1.1.4-prerelease.1
-- [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 0.9.7.1.1
-- [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.7.10-1.5.0b
-- [Streams](https://minecraft.curseforge.com/projects/streams): 0.2
-- [Thaumcraft](https://minecraft.curseforge.com/projects/thaumcraft): 1.7.10-4.2.3.5
-- [Thaumcraft Node Tracker](https://minecraft.curseforge.com/projects/thaumcraft-node-tracker): 1.7.10-1.1.2
+# Mods
+## manifest/Proton-1.0.9.json:
+- [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.9_for_1.9.4
+- [Storage Drawers](https://minecraft.curseforge.com/projects/storage-drawers): 1.10.2-3.6.1
+- [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.10.2-2.1.1
+- [Hunger In Peace](https://minecraft.curseforge.com/projects/hunger-in-peace): 1.9.4-1.0.0
+- [Ender Zoo](https://minecraft.curseforge.com/projects/ender-zoo): 1.10-1.2.3.43
+- [MmmMmmMmmMmm](https://minecraft.curseforge.com/projects/mmmmmmmmmmmm): 1.11
+- [Fast Leaf Decay](https://minecraft.curseforge.com/projects/fast-leaf-decay): 1.10.2-1.2.3
+- [Hardcore Darkness](https://minecraft.curseforge.com/projects/hardcore-darkness): 1.9.4-1.8
+- [Bloodmoon](https://minecraft.curseforge.com/projects/bloodmoon): 1.10.2-1.5.1
+- [No Mob Spawning on Trees](https://minecraft.curseforge.com/projects/no-mob-spawning-on-trees): 1.2.0-mc1.10.2
+- [ShadowMC](https://minecraft.curseforge.com/projects/shadowmc): 1.10.2-3.6.1
+- [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.5.0
+- [Global GameRules](https://minecraft.curseforge.com/projects/global-gamerules): 1.10.2-2.0
+- [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.9.4-2.1
+- [Streams](https://minecraft.curseforge.com/projects/streams): 1.9.4-0.3
+- [Chameleon](https://minecraft.curseforge.com/projects/chameleon): 1.10-2.2.2
+- [Chisels & Bits](https://minecraft.curseforge.com/projects/chisels-bits): 12.12
+- [Ding](https://minecraft.curseforge.com/projects/ding): 1.10.2-1.0.1
+- [Ocean Floor - Clay Sand and Dirt](https://minecraft.curseforge.com/projects/ocean-floor-clay-sand-and-dirt): 1.10.2-1.0.1
+- [EnderCore](https://minecraft.curseforge.com/projects/endercore): 1.10.2-0.4.1.65-beta
+- [Default Options](https://minecraft.curseforge.com/projects/default-options): 1.10.2-6.1.5
+- [Crafting Tweaks](https://minecraft.curseforge.com/projects/crafting-tweaks): 1.10.2-6.1.16
+- [Excore](https://minecraft.curseforge.com/projects/excore): 1.6.2-1.10.2
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.14.7.415
+- [Neat](https://minecraft.curseforge.com/projects/neat): 1.3-12
+- [Mod Name Tooltip](https://minecraft.curseforge.com/projects/mod-name-tooltip): 1.10.2-1.6.0
+- [Hammerz](https://minecraft.curseforge.com/projects/hammerz): 1.10.2-1.1.5.20
+- [Placeable Gunpowder](https://minecraft.curseforge.com/projects/placeable-gunpowder): 1.1_1.9.4
+- [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker): 1.10.2-3.0.20
+- [MCMultiPart](https://minecraft.curseforge.com/projects/mcmultipart): 1.4.0-universal
+- [Just Enough Resources (JER)](https://minecraft.curseforge.com/projects/just-enough-resources-jer): 1.10.2-0.5.8.98
+- [Extend-A-Hand](https://minecraft.curseforge.com/projects/extend-a-hand): 1.10.2-1.3
+- [NetherPortalFix](https://minecraft.curseforge.com/projects/netherportalfix): 1.9.4-4.0.1
+- [Nether Core](https://minecraft.curseforge.com/projects/nether-core): 1.10.2-2.0.3
+- [KleeSlabs](https://minecraft.curseforge.com/projects/kleeslabs): 1.10.2-3.3.5
+- [Clay Bucket](https://minecraft.curseforge.com/projects/clay-bucket): 1.9.4-1.1
+- [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-70
+- [Third Person Elytra](https://minecraft.curseforge.com/projects/third-person-elytra): 110.2-1.0
+- [LLibrary](https://minecraft.curseforge.com/projects/llibrary): 1.7.4-1.10.2
+- [Vending block](https://minecraft.curseforge.com/projects/vending-block): 1.10.2-1.4.3
+- [DeathCounter](https://minecraft.curseforge.com/projects/deathcounter): 1.10.2-5
+- [Double Jump](https://minecraft.curseforge.com/projects/double-jump): 1.10.2-1.0.0
+- [Advanced Chimneys](https://minecraft.curseforge.com/projects/advanced-chimneys): 1.10.2-1.1.4.0
+- [ForgeEndertech](https://minecraft.curseforge.com/projects/forgeendertech): 1.10.2-1.1.3.0
+- [Advanced Hook Launchers](https://minecraft.curseforge.com/projects/advanced-hook-launchers): 1.10.2-1.0.2.4
+- [Can I Join Now?](https://minecraft.curseforge.com/projects/can-i-join-now): 1.10-1.0-5
+- [Fence Overhaul](https://minecraft.curseforge.com/projects/fence-overhaul): 1.10.x]FenceOverhaul-1.2.1
+- [Charset](https://minecraft.curseforge.com/projects/charset): 0.3.0-pre15
+- [Better With Mods](https://minecraft.curseforge.com/projects/better-with-mods): 0.14.12-1.10.2
+- [Dynamic Surroundings Unofficial](https://minecraft.curseforge.com/projects/dynamic-surroundings-unofficial): 1.10.2-3.0.6.1BETA
+- [Extra Alchemy](https://minecraft.curseforge.com/projects/extra-alchemy): 0.3.0.4-hotfix-release
+- [Bullseye](https://minecraft.curseforge.com/projects/bullseye): 1.9.4-1.0.3
+- [Extra Rails](https://minecraft.curseforge.com/projects/extra-rails): 1.10.2-1.1.1
+- [Drawers & Bits](https://minecraft.curseforge.com/projects/drawers-bits): 1.10.2-0.35
+- [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.4.0
+- [Just Enough Buttons](https://minecraft.curseforge.com/projects/just-enough-buttons): 1.10.2-1.7.1
+- [AppleSkin](https://minecraft.curseforge.com/projects/appleskin): 1.10.2-1.0.5
+- [CoralReef](https://minecraft.curseforge.com/projects/coralreef): 1.2
+- [Surge](https://minecraft.curseforge.com/projects/surge): 1.10.2-1.1.0.68
+- [AutoRegLib](https://minecraft.curseforge.com/projects/autoreglib): 1.0-2
+- [Waddles](https://minecraft.curseforge.com/projects/waddles): 1.10.2-0.5.0
+- [Clipboard](https://minecraft.curseforge.com/projects/clipboard): 1.10.2-1.1.1
+- [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension): 1.10.2-1.0.1.1
+- [Mouse Tweaks](https://minecraft.curseforge.com/projects/mouse-tweaks): 2.8-mc1.10.2
+- [Morpheus](https://minecraft.curseforge.com/projects/morpheus): 1.10.2-3.1.13
+- [BdLib](https://minecraft.curseforge.com/projects/bdlib): 1.12.3.22-mc1.10.2
+- [Mantle](https://minecraft.curseforge.com/projects/mantle): 1.10.2-1.1.5
 
-## manifests/cosmetic.json:
-- [AmbientSounds](https://minecraft.curseforge.com/projects/ambientsounds): None
-```diff
-- Not found
-```
-- [AppleCore](https://minecraft.curseforge.com/projects/applecore): 1.7.10-1.3.2
-- [Better Foliage](https://minecraft.curseforge.com/projects/better-foliage): 1.7.10-2.0.14
-- [DecoCraft2](https://minecraft.curseforge.com/projects/decocraft2): 2.3.6.1_1.7.10
-- [Garden Stuff](https://minecraft.curseforge.com/projects/garden-stuff): 1.7.10-1.7.0
-- [Real Time Clock](https://minecraft.curseforge.com/projects/real-time-clock): 1.7.10-0.2
-- [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.8_for_1.7.X
-- [SoundCap](https://minecraft.curseforge.com/projects/soundcap): 1.0
-- [Thaumcraft NEI Plugin](https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin): 1.7.10-1.7a
-
-## manifests/tools.json:
-- [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.0.7
-- [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.59-dev-152
-- [JourneyMap](https://minecraft.curseforge.com/projects/journeymap-32274): 1.7.10-5.1.4p2-unlimited
-- [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.7.10-1.2
-- [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.7.10-1.1.2.21-universal
-- [ReAuth](https://minecraft.curseforge.com/projects/reauth): 1.7.10-3.4.1
-- [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.7.10-1.7.6.131-universal
+## manifest/tools.json:
+- [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.10.2-1.5.0
+- [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-2.0.4
+- [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.4-forge-1.10.2
+- [foamfix](/): 0.6.1-anarchy
+- [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.5.0
+- [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.10.2-1.4.15
+- [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
+- [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.10.2-1.1.2.38-universal
+- [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.10.2-1.7.8.153-universal
