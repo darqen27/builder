@@ -131,12 +131,15 @@ rec {
    */
   filterManifests = { side, manifests, blacklist }: let
     allMods = concatSets (map (f: import f) manifests);
-  in
-    lib.filterAttrs (n: mod:
+    filteredMods = lib.filterAttrs (n: mod:
         (mod.side or side) == side &&
         mod.type != "missing" &&
         !(builtins.any (b: b == n) blacklist)
       ) allMods;
+    byProjectId = lib.mapAttrs' (name: info: lib.nameValuePair (toString info.projectID or name) { inherit name info; }) filteredMods;
+    byNameAgain = lib.mapAttrs' (name: bundle: lib.nameValuePair bundle.name bundle.info) byProjectId;
+  in
+    byNameAgain;
 
   /**
    * Returns a derivation bundling all the given mods in a directory.
@@ -264,6 +267,18 @@ rec {
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')
     echo -n $md5 > $out/${name}.md5
   '';
+
+  /**
+   * Unpacks a zipfile to a directory.
+   */
+   unpackZip = name: src: runLocally name {
+     inherit name src;
+     buildInputs = [ unzip ];
+   } ''
+     mkdir $out
+     cd $out
+     unzip "$src"
+   '';
 
   /**
    * URL-encodes a string, such as a filename.

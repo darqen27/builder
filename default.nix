@@ -4,17 +4,47 @@ with stdenv;
 with import ./lib/lib.nix;
 with import ./lib/sprocket;
 
-let protonPack = mkDerivation {
-  name = "proton-1.0.9";
-  buildInputs = [ unzip ];
-  src = manifest/Proton-1.0.9.zip;
-  installPhase = "mkdir $out; cd $out; unzip $src";
-}; in
+let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip;
+    sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.6.zip;
+in
 
 rec {
 
   packs = {
+    sf3 = buildPack sf3;
     proton = buildPack proton;
+  };
+
+  sf3 = {
+    name = "SkyFactory3";
+    screenName = "sf3";
+    port = 25567;
+    forge = {
+      major = "1.10.2";
+      minor = "12.18.3.2239";
+    };
+    # These are copied to the client as well as the server.
+    # Suggested use: Configs. Scripts. That sort of thing.
+    extraDirs = [
+      "${sf3Pack}/overrides"
+      ./base-sf3
+      # (generateCustomOreGenConfig ./COGConfig)
+    ];
+    # Server only.
+    extraServerDirs = [
+      ./base-server
+    ];
+    # These are all the mods we'd like to include in this pack.
+    # (Not yet, they're not.)
+    manifests = [
+      ./manifest/Skyfactory-3.0.6.nix
+      ./manifest/tools.nix
+    ];
+    # Not all mods are equally welcome.
+    blacklist = [
+      # Already exists in Proton.
+      # "fullscreen-windowed-borderless-for-minecraft"
+    ];
   };
 
   proton = {
@@ -25,24 +55,17 @@ rec {
       major = "1.10.2";
       minor = "12.18.3.2239";
     };
-    # These are copied to the client as well as the server.
-    # Suggested use: Configs. Scripts. That sort of thing.
     extraDirs = [
       "${protonPack}/overrides"
       ./base-proton
-      # (generateCustomOreGenConfig ./COGConfig)
     ];
-    # Server only.
     extraServerDirs = [
       ./base-server
     ];
-    # These are all the mods we'd like to include in this pack.
-    # (Not yet, they're not.)
     manifests = [
       ./manifest/Proton-1.0.9.nix
       ./manifest/tools.nix
     ];
-    # Not all mods are equally welcome.
     blacklist = [
       # Already exists in Proton.
       "fullscreen-windowed-borderless-for-minecraft"
