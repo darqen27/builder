@@ -15,10 +15,7 @@ def Convert(manifest):
     assert manifest['manifestVersion'] == 1
     data = {}
     for mod in manifest['files']:
-        opt = {}
-        if not mod['required']:
-            opt['required'] = False
-        data[mod['projectID']] = opt
+        data[mod['projectID']] = mod
     return data
 
 

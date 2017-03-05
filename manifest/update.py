@@ -140,7 +140,7 @@ def GetNewestVersions(mods):
         data[FILENAME] = mod[SRC].split('/')[-1]
         return FixupData(data)
 
-    def GetNewestCurseData(name, unused_mod):
+    def GetNewestCurseData(name, mod):
         parser = HTMLParser()
         # Name the project.
         projectUrl = baseUrl + '/projects/' + str(name)
@@ -168,6 +168,9 @@ def GetNewestVersions(mods):
         files_filtered = []
         names_filtered = []
         for i in xrange(len(files)):
+          fileID = files[i].split('/')[-1]
+          if mod and 'fileID' in mod and int(fileID) != mod['fileID']:
+            continue
           if 'alpha' not in stability[i]:
             files_filtered.append(files[i])
             names_filtered.append(names[i])
