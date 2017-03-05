@@ -271,13 +271,16 @@ rec {
   /**
    * Unpacks a zipfile to a directory.
    */
-   unpackZip = name: src: runLocally name {
+   unpackZip = name: src: {
+     exclude ? []
+   }: runLocally name {
      inherit name src;
      buildInputs = [ unzip ];
+     excludes = lib.concatMapStrings (x: "-x " + x) exclude;
    } ''
      mkdir $out
      cd $out
-     unzip "$src"
+     unzip "$src" $excludes
    '';
 
   /**
@@ -296,17 +299,17 @@ rec {
   /**
    * Gets the size of a file.
    */
- fileSize = file: import (runLocally "size" {
-   inherit file;
- } ''
-   stat -L -c %s "$file" > $out
- '');
+  fileSize = file: import (runLocally "size" {
+    inherit file;
+  } ''
+    stat -L -c %s "$file" > $out
+  '');
 
- /**
-  * Runs a command. Locally.
-  */
- runLocally = name: env: cmd: runCommand name ({
-   preferLocalBuild = true;
-   allowSubstitutes = false;
- } // env) cmd;
+  /**
+   * Runs a command. Locally.
+   */
+  runLocally = name: env: cmd: runCommand name ({
+    preferLocalBuild = true;
+    allowSubstitutes = false;
+  } // env) cmd;
 }

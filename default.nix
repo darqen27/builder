@@ -4,8 +4,10 @@ with stdenv;
 with import ./lib/lib.nix;
 with import ./lib/sprocket;
 
-let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip;
-    sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.6.zip;
+let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
+    sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.6.zip {
+      exclude = ["overrides/mods/foamfix-0.5.3-anarchy.jar"];
+    };
 in
 
 rec {
@@ -42,6 +44,8 @@ rec {
     ];
     # Not all mods are equally welcome.
     blacklist = [
+      # Conflicts with HWYLA.
+      "waila"
       # Already exists in Proton.
       # "fullscreen-windowed-borderless-for-minecraft"
     ];
