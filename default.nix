@@ -13,12 +13,13 @@ in
 rec {
 
   packs = {
-    sf3 = buildPack sf3;
+    erisia-16 = buildPack sf3;
     proton = buildPack proton;
   };
 
   sf3 = {
-    name = "SkyFactory3";
+    name = "SkyFactory-3";
+    description = "Erisia #16: Ad Mundum";
     screenName = "e16";
     port = 25565;
     forge = {
@@ -79,7 +80,7 @@ rec {
   ServerPack = buildServerPack rec {
     inherit packs;
     hostname = "madoka.brage.info";
-    urlBase = "https://" + hostname + "/";
+    urlBase = "https://" + hostname + "/pack-e16/";
   };
 
   # To use:

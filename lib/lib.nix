@@ -23,6 +23,7 @@ rec {
    */
   buildPack = self@{
     name,
+    description ? name,
     screenName,
     port,
     forge,
