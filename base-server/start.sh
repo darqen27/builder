@@ -1,10 +1,10 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jdk rsync screen
+#!nix-shell -i bash -p jre8 rsync screen
 
 set -eu
 
 BASE=$(dirname $0)
-JAR=$(echo forge-@forgeMajor@-@forgeMinor@-*universal.jar)
+JAR=forge-*-universal.jar
 
 fixperms() {
     find $1 -exec chmod a+r {} +
@@ -14,8 +14,10 @@ fixperms() {
 
 if [[ -z ${STY:-} ]]; then
     echo "Expected to run inside a screen session named @screenName@."
-    echo "Press enter if you know what you're doing, otherwise ctrl-c. Maintenance scripts will not be run."
-    read
+    if [[ -z ${FORCE:-} ]]; then
+        echo "Press enter if you know what you're doing, otherwise ctrl-c. Maintenance scripts will not be run."
+        read
+    fi
     EXTRAS=0
 elif [[ ${STY##*.} != @screenName@ ]]; then
     echo "Expected to run inside a screen session named @screenName@."
@@ -34,7 +36,7 @@ for f in $BASE/*; do
     if [[ $b = "config" ]]; then
         # Except for the config dir, just because a lot of mods cache things there.
         # For some reason. Isn't this what the world dir is for, guys?
-        rsync -a server/config .
+        rsync -aL server/config .
     elif [[ $b = "start.sh" ]]; then
         # Don't copy this script.
         continue
@@ -53,19 +55,6 @@ say() {
 
 
 ## Maintenance scripts ##
-antiChunkChurn() {
-    set +e
-    sleep 30
-    while true; do
-      sleep 60
-      say 'save-on'
-      say 'save-all'
-      sleep @saveTime@
-      say 'save-off'
-      sleep 1800
-    done
-}
-
 dailyRestart() {
     while true; do
       sleep 45
@@ -89,15 +78,17 @@ set -x
 # TODO: Factor in scripts.sh, and other scripts.
 if [[ $EXTRAS -eq 1 ]]; then
     trap cleanup EXIT
-    [[ "@enableAntiChunkChurn@" = "1" ]] && antiChunkChurn &
     dailyRestart &
 fi
 
-java -d64 -server -Xmx"@serverMemory@" \
+java -d64 -server -Xmx4000m \
+  "$@" \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
-  -XX:+UseLargePages \
   -XX:+UseG1GC \
+  -XX:+UnlockExperimentalVMOptions \
+  -XX:G1HeapRegionSize=32M \
+  -XX:G1NewSizePercent=20 \
   -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=500 \
   -XX:+UseAdaptiveGCBoundary \
   -XX:+StartAttachListener \
