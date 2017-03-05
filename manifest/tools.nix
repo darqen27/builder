@@ -99,4 +99,17 @@
     "side" = "client";
     "md5" = "6524bd7464b40b961b4c2ce14b8824bf";
   };
+  "thump" = {
+    "src" = "https://minecraft.curseforge.com/projects/thump/files/2388726/download";
+    "version" = "1.10.2-4.3.0.4";
+    "title" = "Thump";
+    "projectID" = 231124;
+    "required" = false;
+    "filename" = "Thump-1.10.2-4.3.0.4.jar";
+    "dependencies" = [];
+    "encoded" = "Thump-1.10.2-4.3.0.4.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/thump";
+    "type" = "remote";
+    "md5" = "38ec426ba4419f93fe86b96439db5749";
+  };
 }

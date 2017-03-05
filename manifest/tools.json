@@ -1,4 +1,7 @@
 {
+    "thump": {
+        "required": false
+    },
     "foamfix": {
         "src": "../bundled/foamfix/foamfix-0.6.1-anarchy.jar",
         "side": "client",
