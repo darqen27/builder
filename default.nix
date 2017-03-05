@@ -19,8 +19,8 @@ rec {
 
   sf3 = {
     name = "SkyFactory3";
-    screenName = "sf3";
-    port = 25567;
+    screenName = "e16";
+    port = 25565;
     forge = {
       major = "1.10.2";
       minor = "12.18.3.2239";
