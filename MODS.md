@@ -70,7 +70,6 @@
 
 ## manifest/tools.json:
 - [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.10.2-1.5.0
-- [DiscordChat](https://minecraft.curseforge.com/projects/discordchat): 1.10.2-2.0.4
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.4-forge-1.10.2
 - [foamfix](/): 0.6.1-anarchy
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.5.0

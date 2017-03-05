@@ -9,19 +9,8 @@
     "encoded" = "chunkgen-1.10.2-1.5.0.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/chunkgen";
     "type" = "remote";
+    "side" = "server";
     "md5" = "97b44f9ee6cfc4090d7b83c0fb14e340";
-  };
-  "discordchat" = {
-    "src" = "https://minecraft.curseforge.com/projects/discordchat/files/2367492/download";
-    "version" = "1.10.2-2.0.4";
-    "title" = "DiscordChat";
-    "projectID" = 240995;
-    "filename" = "DiscordChat-1.10.2-2.0.4.jar";
-    "dependencies" = [];
-    "encoded" = "DiscordChat-1.10.2-2.0.4.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/discordchat";
-    "type" = "remote";
-    "md5" = "05bea89cd9f2d576b81eb999bc973a9b";
   };
   "dynmapforge" = {
     "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2380601/download";
@@ -38,10 +27,12 @@
   };
   "foamfix" = {
     "src" = ../bundled/foamfix/foamfix-0.6.1-anarchy.jar;
+    "required" = false;
     "filename" = "foamfix-0.6.1-anarchy.jar";
     "version" = "0.6.1-anarchy";
     "encoded" = "foamfix-0.6.1-anarchy.jar";
     "type" = "local";
+    "side" = "client";
     "md5" = "dd34b4f22661c797cbf0424361c82842";
   };
   "fullscreen-windowed-borderless-for-minecraft" = {
@@ -49,6 +40,7 @@
     "version" = "1.10.2-1.5.0";
     "title" = "Fullscreen Windowed (Borderless) for Minecraft";
     "projectID" = 227441;
+    "required" = false;
     "filename" = "FullscreenWindowed-1.10.2-1.5.0.jar";
     "dependencies" = [];
     "encoded" = "FullscreenWindowed-1.10.2-1.5.0.jar";
@@ -98,6 +90,7 @@
     "version" = "1.10.2-1.7.8.153-universal";
     "title" = "Schematica";
     "projectID" = 225603;
+    "required" = false;
     "filename" = "Schematica-1.10.2-1.7.8.153-universal.jar";
     "dependencies" = [225605];
     "encoded" = "Schematica-1.10.2-1.7.8.153-universal.jar";

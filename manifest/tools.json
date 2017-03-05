@@ -1,18 +1,23 @@
 {
-    "discordchat": {},
     "foamfix": {
-        "src": "../bundled/foamfix/foamfix-0.6.1-anarchy.jar"
+        "src": "../bundled/foamfix/foamfix-0.6.1-anarchy.jar",
+        "side": "client",
+        "required": false
     },
     "dynmapforge": {
         "side": "server"
     },
     "fullscreen-windowed-borderless-for-minecraft": {
-        "side": "client"
+        "side": "client",
+        "required": false
     },
-    "chunkgen": {},
+    "chunkgen": {
+        "side": "server"
+    },
     "loading-profiler": {},
     "helpfixer": {},
     "schematica": {
-      "side": "client"
+        "side": "client",
+        "required": false
     }
 }
