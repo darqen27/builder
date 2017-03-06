@@ -255,7 +255,15 @@
 - [The One Probe](https://minecraft.curseforge.com/projects/the-one-probe): 1.1x-1.4.4
 - [Waila](https://minecraft.curseforge.com/projects/waila): 1.7.0-B3_1.9.4
 
+## manifest/Skyfactory-extras.json:
+- [BiblioCraft](https://minecraft.curseforge.com/projects/bibliocraft): 2.2.1][MC1.10.2]
+- [BiblioCraft: BiblioWoods Natura Edition](https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition): None
+```diff
+- Not yet on 1.10 (probably)
+```
+
 ## manifest/tools.json:
+- [Optifine](https://madoka.brage.info/): 1.10.2_HD_U_D6
 - [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.10.2-1.5.0
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.4-forge-1.10.2
 - [foamfix](/): 0.6.1-anarchy
@@ -264,3 +272,4 @@
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
 - [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.10.2-1.1.2.38-universal
 - [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.10.2-1.7.8.153-universal
+- [Thump](https://minecraft.curseforge.com/projects/thump): 1.10.2-4.3.0.4

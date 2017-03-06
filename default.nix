@@ -42,6 +42,7 @@ rec {
     manifests = [
       ./manifest/Skyfactory-3.0.6.nix
       ./manifest/tools.nix
+      ./manifest/Skyfactory-extras.nix
     ];
     # Not all mods are equally welcome.
     blacklist = [
