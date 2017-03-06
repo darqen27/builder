@@ -1,4 +1,15 @@
 {
+  "Optifine" = {
+    "src" = "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D6.jar";
+    "required" = false;
+    "filename" = "OptiFine_1.10.2_HD_U_D6.jar";
+    "version" = "1.10.2_HD_U_D6";
+    "encoded" = "OptiFine_1.10.2_HD_U_D6.jar";
+    "type" = "remote";
+    "side" = "client";
+    "isDefault" = false;
+    "md5" = "5ddc398816756f98546726828b48db74";
+  };
   "chunkgen" = {
     "src" = "https://minecraft.curseforge.com/projects/chunkgen/files/2359487/download";
     "version" = "1.10.2-1.5.0";
