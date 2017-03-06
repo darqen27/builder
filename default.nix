@@ -80,7 +80,7 @@ rec {
   ServerPack = buildServerPack rec {
     inherit packs;
     hostname = "madoka.brage.info";
-    urlBase = "https://" + hostname + "/pack-e16/";
+    urlBase = "https://" + hostname + "/pack/";
   };
 
   # To use:
