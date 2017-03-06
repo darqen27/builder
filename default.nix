@@ -8,6 +8,20 @@ let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
     sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.6.zip {
       exclude = ["overrides/mods/foamfix-0.5.3-anarchy.jar"];
     };
+    resources = runLocally "resources-1.10" {
+      soartex = fetchurl {
+        url = http://dl.soartex.net/esuzx;
+        sha256 = "065wd07pjmk37m4399jl9i1rx3yqn3v6ggg0iran1xn7nvvcn0cq";
+      };
+      seus = fetchurl {
+        url = https://madoka.brage.info/baughn/SEUS-v11.0.zip;
+        sha256 = "0mlasvmfvcbf9krl7r20h2gw0q34ws48gavpiiic6x66ngikilh3";
+      };
+    } ''
+      mkdir -p $out/resourcepacks $out/shaderpacks
+      cp $soartex $out/resourcepacks/Soartex.zip
+      cp $seus $out/shaderpacks/SEUS-v11.0.zip
+    '';
 in
 
 rec {
@@ -31,6 +45,7 @@ rec {
     extraDirs = [
       "${sf3Pack}/overrides"
       ./base-sf3
+      resources
       # (generateCustomOreGenConfig ./COGConfig)
     ];
     # Server only.
