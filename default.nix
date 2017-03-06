@@ -91,4 +91,5 @@ rec {
     urlBase = "http://" + hostname + "/";
   };
 
+  web = callPackage ./web {};
 }
