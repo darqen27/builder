@@ -401,7 +401,7 @@ rec {
 
   mkServerPack = {
     servers,
-    packUrlBase ? "https://madoka.brage.info/pack"
+    packUrlBase ? "https://madoka.brage.info/pack-legacy"
   }:  mkDerivation rec {
     name = "ServerPack";
 
