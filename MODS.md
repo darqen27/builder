@@ -271,5 +271,8 @@
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.10.2-1.4.15
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
 - [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.10.2-1.1.2.38-universal
+- [Prometheus Integration](https://minecraft.curseforge.com/projects/prometheus-integration): 0.2.1
 - [Schematica](https://minecraft.curseforge.com/projects/schematica): 1.10.2-1.7.8.153-universal
+- [Shadowfacts&#x27; Forgelin](https://minecraft.curseforge.com/projects/shadowfacts-forgelin): 1.4.0
 - [Thump](https://minecraft.curseforge.com/projects/thump): 1.10.2-4.3.0.4
+- [tick-profiler](/): 1.10.2.jenkins.31

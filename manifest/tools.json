@@ -9,9 +9,13 @@
         "required": false
     },
     "foamfix": {
-        "src": "../bundled/foamfix/foamfix-0.6.1-anarchy.jar",
+        "src": "../bundled/foamfix-0.6.1-anarchy.jar",
         "side": "client",
         "required": false
+    },
+    "tick-profiler": {
+        "src": "../bundled/TickProfiler-1.10.2.jenkins.31.jar",
+        "side": "server"
     },
     "dynmapforge": {
         "side": "server"

@@ -37,7 +37,7 @@
     "md5" = "1521eb6831dea63bd914f648629b8196";
   };
   "foamfix" = {
-    "src" = ../bundled/foamfix/foamfix-0.6.1-anarchy.jar;
+    "src" = ../bundled/foamfix-0.6.1-anarchy.jar;
     "required" = false;
     "filename" = "foamfix-0.6.1-anarchy.jar";
     "version" = "0.6.1-anarchy";
@@ -147,5 +147,14 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/thump";
     "type" = "remote";
     "md5" = "38ec426ba4419f93fe86b96439db5749";
+  };
+  "tick-profiler" = {
+    "src" = ../bundled/TickProfiler-1.10.2.jenkins.31.jar;
+    "filename" = "TickProfiler-1.10.2.jenkins.31.jar";
+    "version" = "1.10.2.jenkins.31";
+    "encoded" = "TickProfiler-1.10.2.jenkins.31.jar";
+    "type" = "local";
+    "side" = "server";
+    "md5" = "63f14ff7ebbb06800f69bb3e7b4d953b";
   };
 }
