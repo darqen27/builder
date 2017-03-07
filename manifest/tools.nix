@@ -1,4 +1,17 @@
 {
+  "Ding" = {
+    "src" = "https://minecraft.curseforge.com/projects/ding/files/2345242/download";
+    "version" = "1.10.2-1.0.1";
+    "title" = "Ding";
+    "projectID" = 231275;
+    "filename" = "Ding-1.10.2-1.0.1.jar";
+    "dependencies" = [];
+    "encoded" = "Ding-1.10.2-1.0.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/Ding";
+    "type" = "remote";
+    "side" = "client";
+    "md5" = "a6dfb094e0911deaf6e182cb3fc2ab75";
+  };
   "Optifine" = {
     "src" = "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D6.jar";
     "required" = false;

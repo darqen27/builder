@@ -1,4 +1,7 @@
 {
+    "Ding": {
+        "side": "client"
+    },
     "Optifine": {
         "required": false,
         "isDefault": false,

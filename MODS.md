@@ -263,6 +263,7 @@
 ```
 
 ## manifest/tools.json:
+- [Ding](https://minecraft.curseforge.com/projects/Ding): 1.10.2-1.0.1
 - [Optifine](https://madoka.brage.info/): 1.10.2_HD_U_D6
 - [chunkgen](https://minecraft.curseforge.com/projects/chunkgen): 1.10.2-1.5.0
 - [DynmapForge](https://minecraft.curseforge.com/projects/dynmapforge): 2.4-forge-1.10.2
