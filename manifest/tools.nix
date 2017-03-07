@@ -96,6 +96,19 @@
     "type" = "remote";
     "md5" = "5443394f11988ee81c673f93adc02e33";
   };
+  "prometheus-integration" = {
+    "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
+    "version" = "0.2.1";
+    "title" = "Prometheus Integration";
+    "projectID" = 254573;
+    "filename" = "prometheus-integration-0.2.1.jar";
+    "dependencies" = [248453];
+    "encoded" = "prometheus-integration-0.2.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/prometheus-integration";
+    "type" = "remote";
+    "side" = "server";
+    "md5" = "bf5d489de876b487b1a78b1b3040810f";
+  };
   "schematica" = {
     "src" = "https://minecraft.curseforge.com/projects/schematica/files/2342254/download";
     "version" = "1.10.2-1.7.8.153-universal";
@@ -109,6 +122,18 @@
     "type" = "remote";
     "side" = "client";
     "md5" = "6524bd7464b40b961b4c2ce14b8824bf";
+  };
+  "shadowfacts-forgelin" = {
+    "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2389163/download";
+    "version" = "1.4.0";
+    "title" = "Shadowfacts&#x27; Forgelin";
+    "projectID" = 248453;
+    "filename" = "Forgelin-1.4.0.jar";
+    "dependencies" = [];
+    "encoded" = "Forgelin-1.4.0.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin";
+    "type" = "remote";
+    "md5" = "01de64452ce15fd30aa6e3b8e5425fd1";
   };
   "thump" = {
     "src" = "https://minecraft.curseforge.com/projects/thump/files/2388726/download";

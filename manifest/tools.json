@@ -28,5 +28,8 @@
     "schematica": {
         "side": "client",
         "required": false
+    },
+    "prometheus-integration": {
+        "side": "server"
     }
 }
