@@ -11,7 +11,7 @@ let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
     resources = runLocally "resources-1.10" {
       soartex = fetchurl {
         url = http://dl.soartex.net/esuzx;
-        sha256 = "065wd07pjmk37m4399jl9i1rx3yqn3v6ggg0iran1xn7nvvcn0cq";
+        sha256 = "03rdilir5gd52rvmaqgjq8kq8gqwx348cdr14wlnq5np12lzn4gr";
       };
       seus = fetchurl {
         url = https://madoka.brage.info/baughn/SEUS-v11.0.zip;
