@@ -378,18 +378,17 @@
     "md5" = "badc7d47e0a3e79ba54d5dbcd9176705";
   };
   "228525" = {
-    "src" = "https://minecraft.curseforge.com/projects/bookshelf/files/2390115/download";
-    "version" = "1.10.2-1.4.4.345";
+    "src" = "https://minecraft.curseforge.com/projects/bookshelf/files/2347107/download";
+    "version" = "1.10.2-1.4.3.338";
     "title" = "Bookshelf";
     "projectID" = 228525;
     "required" = true;
-    "filename" = "Bookshelf-1.10.2-1.4.4.345.jar";
+    "filename" = "Bookshelf-1.10.2-1.4.3.338.jar";
     "dependencies" = [];
-    "encoded" = "Bookshelf-1.10.2-1.4.4.345.jar";
+    "encoded" = "Bookshelf-1.10.2-1.4.3.338.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/bookshelf";
-    "fileID" = 2381531;
     "type" = "remote";
-    "md5" = "b62ceeb9cca71c0067704619482d5647";
+    "md5" = "8860fb80efab36dd595e8e556ec6065f";
   };
   "228756" = {
     "src" = "https://minecraft.curseforge.com/projects/iron-chests/files/2331308/download";

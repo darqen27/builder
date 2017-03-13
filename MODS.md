@@ -96,7 +96,7 @@
 - [Baubles](https://minecraft.curseforge.com/projects/baubles): 1.10.2-1.3.9
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.5.0
 - [Actually Additions](https://minecraft.curseforge.com/projects/actually-additions): 1.10.2-r98
-- [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.4.345
+- [Bookshelf](https://minecraft.curseforge.com/projects/bookshelf): 1.10.2-1.4.3.338
 - [Iron Chests](https://minecraft.curseforge.com/projects/iron-chests): 1.10.2-7.0.11.797
 - [Guide-API](https://minecraft.curseforge.com/projects/guide-api): 1.10.2-2.0.3-46
 - [BiomeTweaker](https://minecraft.curseforge.com/projects/biometweaker): 1.10.2-2.1.230

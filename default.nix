@@ -6,7 +6,10 @@ with import ./lib/sprocket;
 
 let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
     sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.8.zip {
-      exclude = ["overrides/mods/foamfix-0.5.3-anarchy.jar"];
+      exclude = [
+        "overrides/mods/foamfix-0.6.1-anarchy.jar"
+#        "overrides/mods/CraftTweaker-1.10.2-3.0.20.14.jar"
+      ];
     };
     resources = runLocally "resources-1.10" {
       soartex = fetchurl {
@@ -61,6 +64,10 @@ rec {
     ];
     # Not all mods are equally welcome.
     blacklist = [
+      # Client-side dep in server code, wat.
+      "powercrops"
+      # Bundled by SF3.
+      "crafttweaker"
       # Conflicts with HWYLA.
       "waila"
       # Already exists in Proton.
