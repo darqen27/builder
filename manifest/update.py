@@ -57,7 +57,7 @@ def VerboseErrors(f):
 def Get(url):
     if url.startswith('.'):
         # This is a local file, in git.
-        return open(os.path.join('manifest', url)).read()
+        return open(os.path.join('manifest', url), 'rb').read()
     with http_sem:
         req = None
         try:
