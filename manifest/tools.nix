@@ -1,4 +1,15 @@
 {
+  "ClassCacheTweaker" = {
+    "src" = ../bundled/classcachetweaker-0.1.3.jar;
+    "required" = false;
+    "filename" = "classcachetweaker-0.1.3.jar";
+    "version" = "0.1.3";
+    "encoded" = "classcachetweaker-0.1.3.jar";
+    "type" = "local";
+    "side" = "client";
+    "isDefault" = false;
+    "md5" = "2fc9af24e5f42335fb272662e6d3021a";
+  };
   "Ding" = {
     "src" = "https://minecraft.curseforge.com/projects/ding/files/2345242/download";
     "version" = "1.10.2-1.0.1";

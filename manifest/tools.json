@@ -8,6 +8,12 @@
         "side": "client",
         "src": "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D6.jar"
     },
+    "ClassCacheTweaker": {
+        "required": false,
+        "isDefault": false,
+        "side": "client",
+        "src": "../bundled/classcachetweaker-0.1.3.jar"
+    },
     "thump": {
         "required": false
     },
