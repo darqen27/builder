@@ -20,10 +20,20 @@ let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
         url = https://madoka.brage.info/baughn/SEUS-v11.0.zip;
         sha256 = "0mlasvmfvcbf9krl7r20h2gw0q34ws48gavpiiic6x66ngikilh3";
       };
+      faithful = fetchurl {
+        url = https://madoka.brage.info/baughn/F32-1.10.2.zip;
+        sha256 = "0jk3sllhg1pgjpwkd8cyj3xlgrq44rriwjs7kz72jykxkcyw5h5p";
+      };
+      invictus = fetchurl {
+        url = https://madoka.brage.info/baughn/Invictus-3.1.zip;
+        sha256 = "0z03fhyxf51g5caf464gwqb3hcnpgf9n8csmf26cxq7fqfg0sbl8";
+      };
     } ''
       mkdir -p $out/resourcepacks $out/shaderpacks
-      cp $soartex $out/resourcepacks/Soartex.zip
       cp $seus $out/shaderpacks/SEUS-v11.0.zip
+      cp $soartex $out/resourcepacks/Soartex.zip
+      cp $faithful $out/resourcepacks/F32-1.10.2.zip
+      cp $invictus $out/resourcepacks/Invictus-3.1.zip
     '';
 in
 
