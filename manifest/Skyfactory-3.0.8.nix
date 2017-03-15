@@ -2529,16 +2529,16 @@
     "md5" = "7a2946d8cfbbd8da4d5b5de5a64be294";
   };
   "powercrops" = {
-    "src" = "https://minecraft.curseforge.com/projects/powercrops/files/2390163/download";
-    "version" = "1.0.1";
+    "src" = "https://minecraft.curseforge.com/projects/powercrops/files/2392791/download";
+    "version" = "1.0.2";
     "title" = "PowerCrops";
     "projectID" = 238650;
-    "filename" = "powercrops-1.0.1.jar";
+    "filename" = "powercrops-1.0.2.jar";
     "dependencies" = [];
-    "encoded" = "powercrops-1.0.1.jar";
+    "encoded" = "powercrops-1.0.2.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/powercrops";
     "type" = "remote";
-    "md5" = "c83edfa5325d1983d7a159a538c91ee4";
+    "md5" = "d8cf146859918c56746351093ce515f8";
   };
   "quark" = {
     "src" = "https://minecraft.curseforge.com/projects/quark/files/2363413/download";

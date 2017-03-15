@@ -250,7 +250,7 @@
 - [DecoCraft2](https://minecraft.curseforge.com/projects/decocraft2): 2.3.6.1_1.10.2
 - [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker): 1.10.2-3.0.24
 - [Interaction Wheel](https://minecraft.curseforge.com/projects/interaction-wheel): 1.1x-1.2.4
-- [PowerCrops](https://minecraft.curseforge.com/projects/powercrops): 1.0.1
+- [PowerCrops](https://minecraft.curseforge.com/projects/powercrops): 1.0.2
 - [Quark](https://minecraft.curseforge.com/projects/quark): 1.1-70
 - [TESLA](https://minecraft.curseforge.com/projects/tesla): 1.10.2-1.2.1.49
 - [The One Probe](https://minecraft.curseforge.com/projects/the-one-probe): 1.1x-1.4.4
@@ -262,6 +262,11 @@
 ```diff
 - Not yet on 1.10 (probably)
 ```
+- [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.2.2
+- [computronics](/): 1.10.2-1.6.2
+- [Deep Resonance](https://minecraft.curseforge.com/projects/deep-resonance): 1.1x-1.4.6
+- [ElecCore | Rendering Library](https://minecraft.curseforge.com/projects/eleccore-rendering-library): 1.10.2-1.7.409
+- [McJtyLib](https://minecraft.curseforge.com/projects/mcjtylib): 1.1x-2.3.10
 
 ## manifest/tools.json:
 - [ClassCacheTweaker](/): 0.1.3
