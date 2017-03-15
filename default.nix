@@ -112,7 +112,7 @@ rec {
 
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "madoka.brage.info";
+    hostname = "brage-cdn.stream";
     urlBase = "https://" + hostname + "/pack/";
   };
 
