@@ -44,5 +44,6 @@
     },
     "prometheus-integration": {
         "side": "server"
-    }
+    },
+    "reauth": {}
 }
