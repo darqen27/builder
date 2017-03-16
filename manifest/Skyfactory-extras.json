@@ -4,5 +4,6 @@
   "computronics": {
     "src": "../bundled/Computronics-1.10.2-1.6.2.jar"
   },
-  "deep-resonance": {}
+  "deep-resonance": {},
+  "applied-energistics-2": {}
 }

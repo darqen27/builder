@@ -1,4 +1,16 @@
 {
+  "applied-energistics-2" = {
+    "src" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2362522/download";
+    "version" = "2-rv4-alpha-11";
+    "title" = "Applied Energistics 2";
+    "projectID" = 223794;
+    "filename" = "appliedenergistics2-rv4-alpha-11.jar";
+    "dependencies" = [];
+    "encoded" = "appliedenergistics2-rv4-alpha-11.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/applied-energistics-2";
+    "type" = "remote";
+    "md5" = "eb260814bd83440787cc3a97dcd8e645";
+  };
   "bibliocraft" = {
     "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2378365/download";
     "version" = "2.2.1][MC1.10.2]";

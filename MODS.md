@@ -6,7 +6,7 @@
 - [Hunger In Peace](https://minecraft.curseforge.com/projects/hunger-in-peace): 1.9.4-1.0.0
 - [Ender Zoo](https://minecraft.curseforge.com/projects/ender-zoo): 1.10-1.2.3.43
 - [MmmMmmMmmMmm](https://minecraft.curseforge.com/projects/mmmmmmmmmmmm): 1.11
-- [Fast Leaf Decay](https://minecraft.curseforge.com/projects/fast-leaf-decay): 1.10.2-1.2.3
+- [Quick Leaf Decay](https://minecraft.curseforge.com/projects/quick-leaf-decay): 1.10.2-1.2.3
 - [Hardcore Darkness](https://minecraft.curseforge.com/projects/hardcore-darkness): 1.9.4-1.8
 - [Bloodmoon](https://minecraft.curseforge.com/projects/bloodmoon): 1.10.2-1.5.1
 - [No Mob Spawning on Trees](https://minecraft.curseforge.com/projects/no-mob-spawning-on-trees): 1.1.9-mc1.10.2
@@ -257,6 +257,7 @@
 - [Waila](https://minecraft.curseforge.com/projects/waila): 1.7.0-B3_1.9.4
 
 ## manifest/Skyfactory-extras.json:
+- [Applied Energistics 2](https://minecraft.curseforge.com/projects/applied-energistics-2): 2-rv4-alpha-11
 - [BiblioCraft](https://minecraft.curseforge.com/projects/bibliocraft): 2.2.1][MC1.10.2]
 - [BiblioCraft: BiblioWoods Natura Edition](https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition): None
 ```diff

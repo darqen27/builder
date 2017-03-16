@@ -84,15 +84,15 @@
     "md5" = "5b06af33a63a54372daef651743660d6";
   };
   "225839" = {
-    "src" = "https://minecraft.curseforge.com/projects/fast-leaf-decay/files/2342061/download";
+    "src" = "https://minecraft.curseforge.com/projects/quick-leaf-decay/files/2342061/download";
     "version" = "1.10.2-1.2.3";
-    "title" = "Fast Leaf Decay";
+    "title" = "Quick Leaf Decay";
     "projectID" = 225839;
     "required" = true;
     "filename" = "FastLeaveDecay-MC1.10.2-1.2.3.jar";
     "dependencies" = [];
     "encoded" = "FastLeaveDecay-MC1.10.2-1.2.3.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/fast-leaf-decay";
+    "projectPage" = "https://minecraft.curseforge.com/projects/quick-leaf-decay";
     "fileID" = 2342061;
     "type" = "remote";
     "md5" = "816301259f069c9c39d6fd324be65991";
