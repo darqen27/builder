@@ -85,4 +85,16 @@
     "type" = "remote";
     "md5" = "16fae69f359422ee86a8e07ee6ba7604";
   };
+  "xnet" = {
+    "src" = "https://minecraft.curseforge.com/projects/xnet/files/2394096/download";
+    "version" = "1.1.0";
+    "title" = "XNet";
+    "projectID" = 260912;
+    "filename" = "xnet-1.1.0.jar";
+    "dependencies" = [233105 253729];
+    "encoded" = "xnet-1.1.0.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/xnet";
+    "type" = "remote";
+    "md5" = "a6f32be8d72218434d18a566360b728d";
+  };
 }

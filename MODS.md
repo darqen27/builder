@@ -268,6 +268,7 @@
 - [Deep Resonance](https://minecraft.curseforge.com/projects/deep-resonance): 1.1x-1.4.6
 - [ElecCore | Rendering Library](https://minecraft.curseforge.com/projects/eleccore-rendering-library): 1.10.2-1.7.409
 - [McJtyLib](https://minecraft.curseforge.com/projects/mcjtylib): 1.1x-2.3.10
+- [XNet](https://minecraft.curseforge.com/projects/xnet): 1.1.0
 
 ## manifest/tools.json:
 - [ClassCacheTweaker](/): 0.1.3
