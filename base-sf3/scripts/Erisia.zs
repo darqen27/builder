@@ -1,3 +1,10 @@
+# Some SCM recipes are a tad unreasonable
+val scmLamp = <rscircuits:resource:4>;
+recipes.remove(scmLamp);
+recipes.addShaped(scmLamp*3,
+  [[null, <minecraft:redstone_lamp>, null],
+   [null, <rscircuits:circuit>, null]]);
+
 # AE2 Press Crafting Recipes
 recipes.addShaped(
   <appliedenergistics2:material:19>,
