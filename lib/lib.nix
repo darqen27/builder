@@ -263,6 +263,7 @@ rec {
     # This is fiddly because we want very badly to make the output depend only on file contents.
     mkdir $name $out
     lndir $src $name
+    touch -t 197001010000 $name
     TZ=UTC find $name -print0 | sort -z | \
       xargs -0 zip -X --latest-time $out/${name}.zip
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')

@@ -26,9 +26,9 @@ let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
       };
     } ''
       mkdir -p $out/resourcepacks $out/shaderpacks
-      cp $seus $out/shaderpacks/SEUS-v11.0.zip
-      cp $faithful $out/resourcepacks/F32-1.10.2.zip
-      cp $invictus $out/resourcepacks/Invictus-3.1.zip
+      ln -s $seus $out/shaderpacks/SEUS-v11.0.zip
+      ln -s $faithful $out/resourcepacks/F32-1.10.2.zip
+      ln -s $invictus $out/resourcepacks/Invictus-3.1.zip
     '';
 in
 
@@ -56,9 +56,11 @@ rec {
       resources
       # (generateCustomOreGenConfig ./COGConfig)
     ];
-    # Server only.
     extraServerDirs = [
       ./base-server
+    ];
+    extraClientDirs = [
+      resources
     ];
     # These are all the mods we'd like to include in this pack.
     # (Not yet, they're not.)
