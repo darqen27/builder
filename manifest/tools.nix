@@ -120,18 +120,6 @@
     "type" = "remote";
     "md5" = "5443394f11988ee81c673f93adc02e33";
   };
-  "minetweaker-recipemaker" = {
-    "src" = "https://minecraft.curseforge.com/projects/minetweaker-recipemaker/files/2344049/download";
-    "version" = "1.10.2-1.2.1.20";
-    "title" = "MineTweaker RecipeMaker";
-    "projectID" = 226294;
-    "filename" = "MineTweakerRecipeMaker-1.10.2-1.2.1.20.jar";
-    "dependencies" = [];
-    "encoded" = "MineTweakerRecipeMaker-1.10.2-1.2.1.20.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/minetweaker-recipemaker";
-    "type" = "remote";
-    "md5" = "ee3e0babcfe11d90b78b649e7d5db40b";
-  };
   "prometheus-integration" = {
     "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
     "version" = "0.2.1";

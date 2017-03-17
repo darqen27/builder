@@ -45,6 +45,5 @@
     "prometheus-integration": {
         "side": "server"
     },
-    "reauth": {},
-    "minetweaker-recipemaker": {}
+    "reauth": {}
 }
