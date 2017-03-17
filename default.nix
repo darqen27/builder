@@ -12,10 +12,6 @@ let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
       ];
     };
     resources = runLocally "resources-1.10" {
-      soartex = fetchurl {
-        url = http://dl.soartex.net/esuzx;
-        sha256 = "03rdilir5gd52rvmaqgjq8kq8gqwx348cdr14wlnq5np12lzn4gr";
-      };
       seus = fetchurl {
         url = https://madoka.brage.info/baughn/SEUS-v11.0.zip;
         sha256 = "0mlasvmfvcbf9krl7r20h2gw0q34ws48gavpiiic6x66ngikilh3";
@@ -31,7 +27,6 @@ let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
     } ''
       mkdir -p $out/resourcepacks $out/shaderpacks
       cp $seus $out/shaderpacks/SEUS-v11.0.zip
-      cp $soartex $out/resourcepacks/Soartex.zip
       cp $faithful $out/resourcepacks/F32-1.10.2.zip
       cp $invictus $out/resourcepacks/Invictus-3.1.zip
     '';
