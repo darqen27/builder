@@ -38,6 +38,19 @@ recipes.addShaped(
    [<ore:blockCoal>, <ore:stone>, <ore:blockCoal>],
    [<ore:obsidian>, <ore:blockCoal>, <ore:obsidian>]]);
 
+# AE2 crystal recipes
+val certus = <appliedenergistics2:material>;
+val charged = <appliedenergistics2:material:1>;
+val skydust = <appliedenergistics2:material:45>;
+recipes.addShaped(charged,
+  [[skydust, <minecraft:redstone>, skydust],
+   [<minecraft:redstone>, <ore:crystalNetherQuartz>, <minecraft:redstone>],
+   [skydust, <minecraft:redstone>, skydust]]);
+recipes.addShaped(certus,
+  [[null, <minecraft:redstone>, null],
+   [<minecraft:redstone>, <ore:crystalNetherQuartz>, <minecraft:redstone>],
+   [null, <minecraft:redstone>, null]]);
+
 
 # Disable Refined Storage
 
