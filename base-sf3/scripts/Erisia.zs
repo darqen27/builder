@@ -1,3 +1,7 @@
+# Disable Simple Labels, it's corruptive.
+recipes.remove(<simplelabels:label>);
+recipes.remove(<simplelabels:blockVSU>);
+
 # Some SCM recipes are a tad unreasonable
 val scmLamp = <rscircuits:resource:4>;
 recipes.remove(scmLamp);
