@@ -5,4 +5,11 @@
 # exit with non-zero status after issuing an appropriate message if
 # it wants to stop the commit.
 
+git stash --keep-index -q
+
 nix-build --no-build-output
+RESULT=$?
+
+git stash pop -q
+
+exit $RESULT
