@@ -96,6 +96,30 @@
     "type" = "remote";
     "md5" = "099ab3a625afe62cce93a6716472e7c3";
   };
+  "just-enough-calculation" = {
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2391935/download";
+    "version" = "1.10.2-2.6.2";
+    "title" = "Just Enough Calculation";
+    "projectID" = 242223;
+    "filename" = "JustEnoughCalculation-1.10.2-2.6.2.jar";
+    "dependencies" = [238222];
+    "encoded" = "JustEnoughCalculation-1.10.2-2.6.2.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-calculation";
+    "type" = "remote";
+    "md5" = "c1efa838ecfc76423054eefea6e45205";
+  };
+  "just-enough-items-jei" = {
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2390097/download";
+    "version" = "1.10.2-3.14.7.416";
+    "title" = "Just Enough Items (JEI)";
+    "projectID" = 238222;
+    "filename" = "jei_1.10.2-3.14.7.416.jar";
+    "dependencies" = [];
+    "encoded" = "jei_1.10.2-3.14.7.416.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-items-jei";
+    "type" = "remote";
+    "md5" = "d197db4087256754e9d891ccac931e02";
+  };
   "loading-profiler" = {
     "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2301416/download";
     "version" = "1.9.4-1.3";

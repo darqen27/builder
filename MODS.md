@@ -263,12 +263,12 @@
 ```diff
 - Not yet on 1.10 (probably)
 ```
-- [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.2.2
+- [CompatLayer](https://minecraft.curseforge.com/projects/compatlayer): 1.10-0.2.5
 - [computronics](/): 1.10.2-1.6.2
 - [Deep Resonance](https://minecraft.curseforge.com/projects/deep-resonance): 1.1x-1.4.6
 - [ElecCore | Rendering Library](https://minecraft.curseforge.com/projects/eleccore-rendering-library): 1.10.2-1.7.409
-- [McJtyLib](https://minecraft.curseforge.com/projects/mcjtylib): 1.1x-2.3.10
-- [XNet](https://minecraft.curseforge.com/projects/xnet): 1.1.0
+- [McJtyLib](https://minecraft.curseforge.com/projects/mcjtylib): 1.1x-2.3.11
+- [XNet](https://minecraft.curseforge.com/projects/xnet): 1.1.2
 
 ## manifest/tools.json:
 - [ClassCacheTweaker](/): 0.1.3
@@ -279,6 +279,8 @@
 - [foamfix](/): 0.6.1-anarchy
 - [Fullscreen Windowed (Borderless) for Minecraft](https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft): 1.10.2-1.5.0
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.10.2-1.4.15
+- [Just Enough Calculation](https://minecraft.curseforge.com/projects/just-enough-calculation): 1.10.2-2.6.2
+- [Just Enough Items (JEI)](https://minecraft.curseforge.com/projects/just-enough-items-jei): 1.10.2-3.14.7.416
 - [Loading Profiler](https://minecraft.curseforge.com/projects/loading-profiler): 1.9.4-1.3
 - [LunatriusCore](https://minecraft.curseforge.com/projects/lunatriuscore): 1.10.2-1.1.2.38-universal
 - [Prometheus Integration](https://minecraft.curseforge.com/projects/prometheus-integration): 0.2.1

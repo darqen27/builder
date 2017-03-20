@@ -45,5 +45,6 @@
     "prometheus-integration": {
         "side": "server"
     },
-    "reauth": {}
+    "reauth": {},
+    "just-enough-calculation": {}
 }

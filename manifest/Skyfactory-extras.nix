@@ -30,16 +30,16 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition";
   };
   "compatlayer" = {
-    "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2378812/download";
-    "version" = "1.10-0.2.2";
+    "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2395312/download";
+    "version" = "1.10-0.2.5";
     "title" = "CompatLayer";
     "projectID" = 253729;
-    "filename" = "compatlayer-1.10-0.2.2.jar";
+    "filename" = "compatlayer-1.10-0.2.5.jar";
     "dependencies" = [];
-    "encoded" = "compatlayer-1.10-0.2.2.jar";
+    "encoded" = "compatlayer-1.10-0.2.5.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/compatlayer";
     "type" = "remote";
-    "md5" = "ffdd265386306d6550f0ad8542ea597b";
+    "md5" = "0bd34d539281311396eeacf9708ac21f";
   };
   "computronics" = {
     "src" = ../bundled/Computronics-1.10.2-1.6.2.jar;
@@ -74,27 +74,27 @@
     "md5" = "af0b54ea724f857c5fa7782d7f2ee093";
   };
   "mcjtylib" = {
-    "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2393496/download";
-    "version" = "1.1x-2.3.10";
+    "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2395314/download";
+    "version" = "1.1x-2.3.11";
     "title" = "McJtyLib";
     "projectID" = 233105;
-    "filename" = "mcjtylib-1.1x-2.3.10.jar";
+    "filename" = "mcjtylib-1.1x-2.3.11.jar";
     "dependencies" = [253729];
-    "encoded" = "mcjtylib-1.1x-2.3.10.jar";
+    "encoded" = "mcjtylib-1.1x-2.3.11.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/mcjtylib";
     "type" = "remote";
-    "md5" = "16fae69f359422ee86a8e07ee6ba7604";
+    "md5" = "e847130d754f0dc65fb59d57f7cf20b8";
   };
   "xnet" = {
-    "src" = "https://minecraft.curseforge.com/projects/xnet/files/2394096/download";
-    "version" = "1.1.0";
+    "src" = "https://minecraft.curseforge.com/projects/xnet/files/2395315/download";
+    "version" = "1.1.2";
     "title" = "XNet";
     "projectID" = 260912;
-    "filename" = "xnet-1.1.0.jar";
+    "filename" = "xnet-1.1.2.jar";
     "dependencies" = [233105 253729];
-    "encoded" = "xnet-1.1.0.jar";
+    "encoded" = "xnet-1.1.2.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/xnet";
     "type" = "remote";
-    "md5" = "a6f32be8d72218434d18a566360b728d";
+    "md5" = "e3f3ab4aacd440ec1929700b7acd436b";
   };
 }
