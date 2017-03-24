@@ -50,9 +50,10 @@ rec {
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
+    # Higher entries override later ones.
     extraDirs = [
-      "${sf3Pack}/overrides"
       ./base-sf3
+      "${sf3Pack}/overrides"
       resources
       # (generateCustomOreGenConfig ./COGConfig)
     ];

@@ -45,7 +45,7 @@ rec {
       buildInputs = [ xorg.lndir ];
       base = symlinkJoin {
         name = "${name}-client-config";
-        paths = extraDirs ++ extraClientDirs;
+        paths = extraClientDirs ++ extraDirs;
       };
     } ''
       mkdir $out; cd $out
@@ -91,7 +91,7 @@ rec {
       paths = [
         forgeDir
         (wrapDir "mods" serverModsDir)
-      ] ++ extraDirs ++ extraServerDirs;
+      ] ++ extraServerDirs ++ extraDirs;
 
       postBuild = ''
         substituteAll $out/start.sh start.sh
