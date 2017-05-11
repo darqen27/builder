@@ -600,20 +600,6 @@
     "type" = "remote";
     "md5" = "ad51df85c6e4d44b4c0ec418a23088bf";
   };
-  "233105" = {
-    "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2384075/download";
-    "version" = "1.1x-2.3.9";
-    "title" = "McJtyLib";
-    "projectID" = 233105;
-    "required" = true;
-    "filename" = "mcjtylib-1.1x-2.3.9.jar";
-    "dependencies" = [253729];
-    "encoded" = "mcjtylib-1.1x-2.3.9.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/mcjtylib";
-    "fileID" = 2384075;
-    "type" = "remote";
-    "md5" = "a287d7d771e8083ffcdbe1828731ef23";
-  };
   "233113" = {
     "src" = "https://minecraft.curseforge.com/projects/chance-cubes/files/2372149/download";
     "version" = "1.10.2-2.3.4.171";
@@ -2069,20 +2055,6 @@
     "fileID" = 2386797;
     "type" = "remote";
     "md5" = "5794fd0f977813f93b955ae2020bea7c";
-  };
-  "253729" = {
-    "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2378812/download";
-    "version" = "1.10-0.2.2";
-    "title" = "CompatLayer";
-    "projectID" = 253729;
-    "required" = true;
-    "filename" = "compatlayer-1.10-0.2.2.jar";
-    "dependencies" = [];
-    "encoded" = "compatlayer-1.10-0.2.2.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/compatlayer";
-    "fileID" = 2378812;
-    "type" = "remote";
-    "md5" = "ffdd265386306d6550f0ad8542ea597b";
   };
   "253952" = {
     "src" = "https://minecraft.curseforge.com/projects/ex-nihilo-adscensio/files/2389363/download";
