@@ -97,6 +97,7 @@ rec {
       ./base-server
     ];
     manifests = [
+      ./manifest/Proton-extras.nix
       ./manifest/Proton-1.0.9.nix
       ./manifest/tools.nix
     ];
