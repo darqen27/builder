@@ -34,6 +34,30 @@
     "isDefault" = false;
     "md5" = "5ddc398816756f98546726828b48db74";
   };
+  "akashic-tome" = {
+    "src" = "https://minecraft.curseforge.com/projects/akashic-tome/files/2345167/download";
+    "version" = "1.0-5";
+    "title" = "Akashic Tome";
+    "projectID" = 250577;
+    "filename" = "AkashicTome-1.0-5.jar";
+    "dependencies" = [250363];
+    "encoded" = "AkashicTome-1.0-5.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/akashic-tome";
+    "type" = "remote";
+    "md5" = "5bf91bdd7a6a42f56da8e13ef2202692";
+  };
+  "autoreglib" = {
+    "src" = "https://minecraft.curseforge.com/projects/autoreglib/files/2327403/download";
+    "version" = "1.0-2";
+    "title" = "AutoRegLib";
+    "projectID" = 250363;
+    "filename" = "AutoRegLib-1.0-2.jar";
+    "dependencies" = [];
+    "encoded" = "AutoRegLib-1.0-2.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/autoreglib";
+    "type" = "remote";
+    "md5" = "527a86197be2f4c804747a7ae564a181";
+  };
   "chunkgen" = {
     "src" = "https://minecraft.curseforge.com/projects/chunkgen/files/2359487/download";
     "version" = "1.10.2-1.5.0";
@@ -202,5 +226,17 @@
     "type" = "local";
     "side" = "server";
     "md5" = "63f14ff7ebbb06800f69bb3e7b4d953b";
+  };
+  "tool-belt" = {
+    "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2413882/download";
+    "version" = "1.10.2-1.6.1";
+    "title" = "Tool Belt";
+    "projectID" = 260262;
+    "filename" = "ToolBelt-1.10.2-1.6.1.jar";
+    "dependencies" = [];
+    "encoded" = "ToolBelt-1.10.2-1.6.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/tool-belt";
+    "type" = "remote";
+    "md5" = "b052500cb0160a4e43e371a2f55ba8d0";
   };
 }

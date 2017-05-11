@@ -45,5 +45,7 @@
         "side": "server"
     },
     "reauth": {},
-    "just-enough-calculation": {}
+    "just-enough-calculation": {},
+    "akashic-tome": {},
+    "tool-belt": {}
 }
