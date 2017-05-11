@@ -86,7 +86,7 @@ rec {
   proton = {
     name = "proton";
     screenName = "proton";
-    port = 25567;
+    port = 25566;
     forge = {
       major = "1.10.2";
       minor = "12.18.3.2239";
@@ -94,9 +94,13 @@ rec {
     extraDirs = [
       "${protonPack}/overrides"
       ./base-proton
+      resources
     ];
     extraServerDirs = [
       ./base-server
+    ];
+    extraClientDirs = [
+      resources
     ];
     manifests = [
       ./manifest/Proton-extras.nix
