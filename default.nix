@@ -78,6 +78,8 @@ rec {
     blacklist = [
       # Conflicts with HWYLA.
       "waila"
+      # Don't want roguelikes.
+      "221585"
     ];
   };
 
