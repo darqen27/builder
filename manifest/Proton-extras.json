@@ -1,3 +1,6 @@
 {
-  "earthworks": {}
+    "earthworks": {},
+    "pixelmon": {
+	"src": "https://madoka.brage.info/baughn/Pixelmon-1.10.2-5.0.4-universal.jar"
+    }
 }
