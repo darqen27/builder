@@ -18,8 +18,7 @@
         "required": false
     },
     "foamfix": {
-        "src": "../bundled/foamfix-0.6.1-anarchy.jar",
-        "side": "client",
+        "src": "../bundled/foamfix-0.6.2-anarchy.jar",
         "required": false
     },
     "tick-profiler": {

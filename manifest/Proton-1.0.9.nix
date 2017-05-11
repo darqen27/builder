@@ -11,6 +11,7 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/sound-filters";
     "fileID" = 2309385;
     "type" = "remote";
+    "side" = "client";
     "md5" = "89c50fee6271149638b94b85e5afd31f";
   };
   "223852" = {
@@ -322,18 +323,18 @@
     "md5" = "5d045b92565e6902d754675373617c5f";
   };
   "238222" = {
-    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2390097/download";
-    "version" = "1.10.2-3.14.7.416";
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2412009/download";
+    "version" = "1.10.2-3.14.7.419";
     "title" = "Just Enough Items (JEI)";
     "projectID" = 238222;
     "required" = true;
-    "filename" = "jei_1.10.2-3.14.7.416.jar";
+    "filename" = "jei_1.10.2-3.14.7.419.jar";
     "dependencies" = [];
-    "encoded" = "jei_1.10.2-3.14.7.416.jar";
+    "encoded" = "jei_1.10.2-3.14.7.419.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-items-jei";
     "fileID" = 2349441;
     "type" = "remote";
-    "md5" = "d197db4087256754e9d891ccac931e02";
+    "md5" = "0218d1af77de19642a0c3c6f902ef5d7";
   };
   "238372" = {
     "src" = "https://minecraft.curseforge.com/projects/neat/files/2327663/download";
@@ -672,18 +673,18 @@
     "md5" = "2610961164c7740fe1972ed6f5000e51";
   };
   "246760" = {
-    "src" = "https://minecraft.curseforge.com/projects/better-with-mods/files/2354236/download";
-    "version" = "0.14.2-1.10.2-hotfix1";
+    "src" = "https://minecraft.curseforge.com/projects/better-with-mods/files/2407024/download";
+    "version" = "0.14.22-1.10.2";
     "title" = "Better With Mods";
     "projectID" = 246760;
     "required" = true;
-    "filename" = "Better With Mods-0.14.2-1.10.2-hotfix1.jar";
+    "filename" = "Better With Mods-0.14.22-1.10.2.jar";
     "dependencies" = [];
-    "encoded" = "Better%20With%20Mods-0.14.2-1.10.2-hotfix1.jar";
+    "encoded" = "Better%20With%20Mods-0.14.22-1.10.2.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/better-with-mods";
     "fileID" = 2354236;
     "type" = "remote";
-    "md5" = "afd4a8657dbd9b03ce959279a2a9660e";
+    "md5" = "1fc3ad7788dbd13075c21116af04cf89";
   };
   "247053" = {
     "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings-unofficial/files/2313364/download";
@@ -823,6 +824,7 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/surge";
     "fileID" = 2326450;
     "type" = "remote";
+    "side" = "client";
     "md5" = "17417bd727569435ef2017903d8f0f41";
   };
   "250363" = {

@@ -5,6 +5,11 @@ with import ./lib/lib.nix;
 with import ./lib/sprocket;
 
 let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
+    torquedPack = unpackZip "torqued-packfile" manifest/NutsandBoltsTorqued-1.6.4.7.zip {
+      exclude = [
+        "overrides/mods/foamfix-0.5.4-anarchy.jar"
+      ];
+    };
     sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.8.zip {
       exclude = [
         "overrides/mods/foamfix-0.6.1-anarchy.jar"
@@ -35,25 +40,25 @@ in
 rec {
 
   packs = {
-    erisia-16 = buildPack sf3;
+    erisia-17 = buildPack torqued;
     proton = buildPack proton;
   };
 
-  sf3 = {
-    name = "SkyFactory-3";
-    description = "Erisia #16: Ad Mundum";
-    screenName = "e16";
+  torqued = {
+    name = "NutsAndBoltsTorqued";
+    description = "Erisia #17: Canis meus id comedit";
+    screenName = "e17";
     port = 25565;
     forge = {
       major = "1.10.2";
-      minor = "12.18.3.2239";
+      minor = "12.18.3.2254";
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
     # Higher entries override later ones.
     extraDirs = [
-      ./base-sf3
-      "${sf3Pack}/overrides"
+      ./base-torqued
+      "${torquedPack}/overrides"
       resources
       # (generateCustomOreGenConfig ./COGConfig)
     ];
@@ -66,20 +71,13 @@ rec {
     # These are all the mods we'd like to include in this pack.
     # (Not yet, they're not.)
     manifests = [
-      ./manifest/Skyfactory-3.0.8.nix
+      ./manifest/NutsandBoltsTorqued-1.6.4.7.nix
       ./manifest/tools.nix
-      ./manifest/Skyfactory-extras.nix
     ];
     # Not all mods are equally welcome.
     blacklist = [
-      # Client-side dep in server code, wat.
-      "powercrops"
-      # Bundled by SF3.
-      "crafttweaker"
       # Conflicts with HWYLA.
       "waila"
-      # Already exists in Proton.
-      # "fullscreen-windowed-borderless-for-minecraft"
     ];
   };
 

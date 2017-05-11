@@ -61,14 +61,13 @@
     "md5" = "1521eb6831dea63bd914f648629b8196";
   };
   "foamfix" = {
-    "src" = ../bundled/foamfix-0.6.1-anarchy.jar;
+    "src" = ../bundled/foamfix-0.6.2-anarchy.jar;
     "required" = false;
-    "filename" = "foamfix-0.6.1-anarchy.jar";
-    "version" = "0.6.1-anarchy";
-    "encoded" = "foamfix-0.6.1-anarchy.jar";
+    "filename" = "foamfix-0.6.2-anarchy.jar";
+    "version" = "0.6.2-anarchy";
+    "encoded" = "foamfix-0.6.2-anarchy.jar";
     "type" = "local";
-    "side" = "client";
-    "md5" = "dd34b4f22661c797cbf0424361c82842";
+    "md5" = "8745b006cf71f99e4b42b57548b0b285";
   };
   "fullscreen-windowed-borderless-for-minecraft" = {
     "src" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2374585/download";
@@ -97,28 +96,28 @@
     "md5" = "099ab3a625afe62cce93a6716472e7c3";
   };
   "just-enough-calculation" = {
-    "src" = "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2391935/download";
-    "version" = "1.10.2-2.6.2";
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-calculation/files/2413434/download";
+    "version" = "1.10.2-2.6.4";
     "title" = "Just Enough Calculation";
     "projectID" = 242223;
-    "filename" = "JustEnoughCalculation-1.10.2-2.6.2.jar";
+    "filename" = "JustEnoughCalculation-1.10.2-2.6.4.jar";
     "dependencies" = [238222];
-    "encoded" = "JustEnoughCalculation-1.10.2-2.6.2.jar";
+    "encoded" = "JustEnoughCalculation-1.10.2-2.6.4.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-calculation";
     "type" = "remote";
-    "md5" = "c1efa838ecfc76423054eefea6e45205";
+    "md5" = "28bb054843f0be81d921a102939a1b81";
   };
   "just-enough-items-jei" = {
-    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2390097/download";
-    "version" = "1.10.2-3.14.7.416";
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2412009/download";
+    "version" = "1.10.2-3.14.7.419";
     "title" = "Just Enough Items (JEI)";
     "projectID" = 238222;
-    "filename" = "jei_1.10.2-3.14.7.416.jar";
+    "filename" = "jei_1.10.2-3.14.7.419.jar";
     "dependencies" = [];
-    "encoded" = "jei_1.10.2-3.14.7.416.jar";
+    "encoded" = "jei_1.10.2-3.14.7.419.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-items-jei";
     "type" = "remote";
-    "md5" = "d197db4087256754e9d891ccac931e02";
+    "md5" = "0218d1af77de19642a0c3c6f902ef5d7";
   };
   "loading-profiler" = {
     "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2301416/download";
@@ -143,19 +142,6 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/lunatriuscore";
     "type" = "remote";
     "md5" = "5443394f11988ee81c673f93adc02e33";
-  };
-  "prometheus-integration" = {
-    "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
-    "version" = "0.2.1";
-    "title" = "Prometheus Integration";
-    "projectID" = 254573;
-    "filename" = "prometheus-integration-0.2.1.jar";
-    "dependencies" = [248453];
-    "encoded" = "prometheus-integration-0.2.1.jar";
-    "projectPage" = "https://minecraft.curseforge.com/projects/prometheus-integration";
-    "type" = "remote";
-    "side" = "server";
-    "md5" = "bf5d489de876b487b1a78b1b3040810f";
   };
   "reauth" = {
     "src" = "https://minecraft.curseforge.com/projects/reauth/files/2370015/download";
@@ -184,16 +170,16 @@
     "md5" = "6524bd7464b40b961b4c2ce14b8824bf";
   };
   "shadowfacts-forgelin" = {
-    "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2389163/download";
-    "version" = "1.4.0";
+    "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2413458/download";
+    "version" = "1.4.2";
     "title" = "Shadowfacts&#x27; Forgelin";
     "projectID" = 248453;
-    "filename" = "Forgelin-1.4.0.jar";
+    "filename" = "Forgelin-1.4.2.jar";
     "dependencies" = [];
-    "encoded" = "Forgelin-1.4.0.jar";
+    "encoded" = "Forgelin-1.4.2.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin";
     "type" = "remote";
-    "md5" = "01de64452ce15fd30aa6e3b8e5425fd1";
+    "md5" = "91b731bcb253b1af3829e98ddef23941";
   };
   "thump" = {
     "src" = "https://minecraft.curseforge.com/projects/thump/files/2391715/download";

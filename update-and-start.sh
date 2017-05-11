@@ -5,7 +5,7 @@ GITDIR="$(dirname "$(readlink -f "$0")")"
 
 if [ -z "${FORCE:-}" -a ! \( -d world -a -d mods -a -d server \) ]; then
     echo "$(pwd) doesn't look like a Minecraft server directory."
-    echo "Are you sure you want to setup TPPI3 in it?"
+    echo "Are you sure you want to setup a server in it?"
     echo "Press return to continue, ctrl-c to abort."
     read
 fi
