@@ -148,7 +148,7 @@ rec {
   fetchMods = mods: let
     fetchMod = info: {
       local = info.src;
-      remote = fetchurl {
+      remote = fetchmd5 {
         url = info.src;
         md5 = info.md5;
       };
@@ -314,4 +314,9 @@ rec {
     preferLocalBuild = true;
     allowSubstitutes = false;
   } // env) cmd;
+
+  /**
+   * A fetchurl fork that still supports md5. :/
+   */
+  fetchmd5 = import <nix/fetchurl.nix>;
 }
