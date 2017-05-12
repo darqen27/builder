@@ -71,6 +71,18 @@
     "side" = "server";
     "md5" = "97b44f9ee6cfc4090d7b83c0fb14e340";
   };
+  "custom-npcs" = {
+    "src" = "https://minecraft.curseforge.com/projects/custom-npcs/files/2417355/download";
+    "version" = "1.10.2(08may17)";
+    "title" = "Custom NPCs";
+    "projectID" = 221826;
+    "filename" = "CustomNPCs_1.10.2(08may17).jar";
+    "dependencies" = [];
+    "encoded" = "CustomNPCs_1.10.2%2808may17%29.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/custom-npcs";
+    "type" = "remote";
+    "md5" = "d3633183daf1eb85ec82b642bf228f61";
+  };
   "dynmapforge" = {
     "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2380601/download";
     "version" = "2.4-forge-1.10.2";
@@ -166,6 +178,19 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/lunatriuscore";
     "type" = "remote";
     "md5" = "5443394f11988ee81c673f93adc02e33";
+  };
+  "prometheus-integration" = {
+    "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
+    "version" = "0.2.1";
+    "title" = "Prometheus Integration";
+    "projectID" = 254573;
+    "filename" = "prometheus-integration-0.2.1.jar";
+    "dependencies" = [248453];
+    "encoded" = "prometheus-integration-0.2.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/prometheus-integration";
+    "type" = "remote";
+    "side" = "server";
+    "md5" = "bf5d489de876b487b1a78b1b3040810f";
   };
   "reauth" = {
     "src" = "https://minecraft.curseforge.com/projects/reauth/files/2370015/download";
