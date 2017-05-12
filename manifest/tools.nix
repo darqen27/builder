@@ -1,14 +1,14 @@
 {
   "ClassCacheTweaker" = {
-    "src" = ../bundled/classcachetweaker-0.1.3.jar;
+    "src" = ../bundled/classcachetweaker-0.1.4.jar;
     "required" = false;
-    "filename" = "classcachetweaker-0.1.3.jar";
-    "version" = "0.1.3";
-    "encoded" = "classcachetweaker-0.1.3.jar";
+    "filename" = "classcachetweaker-0.1.4.jar";
+    "version" = "0.1.4";
+    "encoded" = "classcachetweaker-0.1.4.jar";
     "type" = "local";
     "side" = "client";
     "isDefault" = false;
-    "md5" = "2fc9af24e5f42335fb272662e6d3021a";
+    "md5" = "1ea7a4c2e68487546a0e78fb6bf7e022";
   };
   "Ding" = {
     "src" = "https://minecraft.curseforge.com/projects/ding/files/2345242/download";
