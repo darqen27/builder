@@ -59,6 +59,18 @@
     "type" = "remote";
     "md5" = "8a2840b92a9f9526ebc553eaf94f6ebb";
   };
+  "morpheus" = {
+    "src" = "https://minecraft.curseforge.com/projects/morpheus/files/2358274/download";
+    "version" = "1.10.2-3.1.13";
+    "title" = "Morpheus";
+    "projectID" = 69118;
+    "filename" = "Morpheus-1.10.2-3.1.13.jar";
+    "dependencies" = [];
+    "encoded" = "Morpheus-1.10.2-3.1.13.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/morpheus";
+    "type" = "remote";
+    "md5" = "d20ebb7c3b298b7ea03b8c787fa1bf50";
+  };
   "mouse-tweaks" = {
     "src" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2388574/download";
     "version" = "2.8-mc1.10.2";
