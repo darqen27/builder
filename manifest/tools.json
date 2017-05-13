@@ -7,7 +7,7 @@
         "required": false,
         "isDefault": false,
         "side": "client",
-        "src": "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D6.jar"
+        "src": "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D8.jar"
     },
     "ClassCacheTweaker": {
         "required": false,

@@ -24,15 +24,15 @@
     "md5" = "a6dfb094e0911deaf6e182cb3fc2ab75";
   };
   "Optifine" = {
-    "src" = "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D6.jar";
+    "src" = "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D8.jar";
     "required" = false;
-    "filename" = "OptiFine_1.10.2_HD_U_D6.jar";
-    "version" = "1.10.2_HD_U_D6";
-    "encoded" = "OptiFine_1.10.2_HD_U_D6.jar";
+    "filename" = "OptiFine_1.10.2_HD_U_D8.jar";
+    "version" = "1.10.2_HD_U_D8";
+    "encoded" = "OptiFine_1.10.2_HD_U_D8.jar";
     "type" = "remote";
     "side" = "client";
     "isDefault" = false;
-    "md5" = "5ddc398816756f98546726828b48db74";
+    "md5" = "d2a99a8d96d1067cb9e384bbdc560c70";
   };
   "akashic-tome" = {
     "src" = "https://minecraft.curseforge.com/projects/akashic-tome/files/2345167/download";
