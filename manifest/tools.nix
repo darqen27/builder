@@ -155,6 +155,18 @@
     "type" = "remote";
     "md5" = "0218d1af77de19642a0c3c6f902ef5d7";
   };
+  "just-enough-resources-jer" = {
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2351189/download";
+    "version" = "1.10.2-0.5.8.98";
+    "title" = "Just Enough Resources (JER)";
+    "projectID" = 240630;
+    "filename" = "JustEnoughResources-1.10.2-0.5.8.98.jar";
+    "dependencies" = [238222];
+    "encoded" = "JustEnoughResources-1.10.2-0.5.8.98.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer";
+    "type" = "remote";
+    "md5" = "04f218c0eee3a05870a994816a86e0a5";
+  };
   "loading-profiler" = {
     "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2301416/download";
     "version" = "1.9.4-1.3";
