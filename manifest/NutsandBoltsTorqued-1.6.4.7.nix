@@ -2534,18 +2534,18 @@
     "md5" = "ef1bed2bb775da7ce714b69a13218a1b";
   };
   "77027" = {
-    "src" = "https://minecraft.curseforge.com/projects/hardcore-questing-mode/files/2402526/download";
-    "version" = "1.10.2-5.1.0alpha4";
+    "src" = "https://minecraft.curseforge.com/projects/hardcore-questing-mode/files/2328625/download";
+    "version" = "1.10.2-5.0.0beta4";
     "title" = "Hardcore Questing Mode";
     "projectID" = 77027;
     "required" = true;
-    "filename" = "HQM-New Heights-1.10.2-5.1.0alpha4.jar";
+    "filename" = "HQM-New Heights-1.10.2-5.0.0beta4.jar";
     "dependencies" = [];
-    "encoded" = "HQM-New%20Heights-1.10.2-5.1.0alpha4.jar";
+    "encoded" = "HQM-New%20Heights-1.10.2-5.0.0beta4.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/hardcore-questing-mode";
-    "fileID" = 2402526;
+    "fileID" = 2328625;
     "type" = "remote";
-    "md5" = "655b7a96b515d2a5456b0ebc8a2f2c7b";
+    "md5" = "cfc3bb8ba791c481bc49e55b0d8109ea";
   };
   "buildcraft" = {
     "projectID" = 61811;
