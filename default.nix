@@ -81,6 +81,8 @@ rec {
       "waila"
       # Don't want roguelikes.
       "221585"
+      # HQM sucks.
+      "77027"
     ];
   };
 
