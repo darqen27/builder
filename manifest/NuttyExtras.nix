@@ -95,4 +95,16 @@
     "type" = "remote";
     "md5" = "cdc7c2a5ae1092ed0c4eeb7b906479dd";
   };
+  "tis-3d" = {
+    "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2418572/download";
+    "version" = "3D-MC1.10.2-1.2.1.19";
+    "title" = "TIS-3D";
+    "projectID" = 238603;
+    "filename" = "TIS-3D-MC1.10.2-1.2.1.19.jar";
+    "dependencies" = [];
+    "encoded" = "TIS-3D-MC1.10.2-1.2.1.19.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/tis-3d";
+    "type" = "remote";
+    "md5" = "adf03371b40a5268ad06e51589d44659";
+  };
 }
