@@ -224,18 +224,18 @@
     "md5" = "c280d3cc919472e7adce149cc4f7bb4a";
   };
   "224218" = {
-    "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2408764/download";
-    "version" = "2-2.0.0-b101";
+    "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2418543/download";
+    "version" = "2-2.0.0-b104";
     "title" = "Compact Machines";
     "projectID" = 224218;
     "required" = true;
-    "filename" = "cm2-2.0.0-b101.jar";
+    "filename" = "cm2-2.0.0-b104.jar";
     "dependencies" = [];
-    "encoded" = "cm2-2.0.0-b101.jar";
+    "encoded" = "cm2-2.0.0-b104.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/compact-machines";
     "fileID" = 2406121;
     "type" = "remote";
-    "md5" = "824994b9b8d8df0beda92d83a3a675f4";
+    "md5" = "8c354f4722736b59a26c434d15eefd7f";
   };
   "224472" = {
     "src" = "https://minecraft.curseforge.com/projects/applecore/files/2391970/download";
@@ -532,18 +532,18 @@
     "md5" = "9bb32e509e80d83de02e07cd7f37fed3";
   };
   "227391" = {
-    "src" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2418230/download";
-    "version" = "1.10.2-1.7.419";
+    "src" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2418477/download";
+    "version" = "1.10.2-1.7.420";
     "title" = "ElecCore | Rendering Library";
     "projectID" = 227391;
     "required" = true;
-    "filename" = "ElecCore-1.10.2-1.7.419.jar";
+    "filename" = "ElecCore-1.10.2-1.7.420.jar";
     "dependencies" = [];
-    "encoded" = "ElecCore-1.10.2-1.7.419.jar";
+    "encoded" = "ElecCore-1.10.2-1.7.420.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library";
     "fileID" = 2408169;
     "type" = "remote";
-    "md5" = "6a92cd8b3f4cefcc4c6b3fa0b8615f53";
+    "md5" = "a89e25a6176462c3442b258c482bc416";
   };
   "227441" = {
     "src" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2374585/download";
@@ -924,18 +924,18 @@
     "md5" = "b0aedb71705ee44caa03cb8c4334f218";
   };
   "235442" = {
-    "src" = "https://minecraft.curseforge.com/projects/modular-powersuits/files/2416285/download";
-    "version" = "1.10.2-1.2.114";
+    "src" = "https://minecraft.curseforge.com/projects/modular-powersuits/files/2419299/download";
+    "version" = "1.10.2-1.2.116";
     "title" = "Modular Powersuits";
     "projectID" = 235442;
     "required" = true;
-    "filename" = "ModularPowersuits-1.10.2-1.2.114.jar";
+    "filename" = "ModularPowersuits-1.10.2-1.2.116.jar";
     "dependencies" = [];
-    "encoded" = "ModularPowersuits-1.10.2-1.2.114.jar";
+    "encoded" = "ModularPowersuits-1.10.2-1.2.116.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/modular-powersuits";
     "fileID" = 2407039;
     "type" = "remote";
-    "md5" = "19e31c18d980d62cc014944717b989ad";
+    "md5" = "ade5fc82b1c493fc56b50d14d0bc80b2";
   };
   "235577" = {
     "src" = "https://minecraft.curseforge.com/projects/trashslot/files/2350629/download";
@@ -1008,32 +1008,32 @@
     "md5" = "3d599a2cddd7227bef1ef1df4d841696";
   };
   "236541" = {
-    "src" = "https://minecraft.curseforge.com/projects/libvulpes/files/2407877/download";
-    "version" = "1.10.2-0.2.2-universal";
+    "src" = "https://minecraft.curseforge.com/projects/libvulpes/files/2419849/download";
+    "version" = "1.10.2-0.2.3-universal";
     "title" = "LibVulpes";
     "projectID" = 236541;
     "required" = true;
-    "filename" = "LibVulpes-1.10.2-0.2.2-universal.jar";
+    "filename" = "LibVulpes-1.10.2-0.2.3-universal.jar";
     "dependencies" = [];
-    "encoded" = "LibVulpes-1.10.2-0.2.2-universal.jar";
+    "encoded" = "LibVulpes-1.10.2-0.2.3-universal.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/libvulpes";
     "fileID" = 2407877;
     "type" = "remote";
-    "md5" = "acafc34ad7d586195379ec07a87317fc";
+    "md5" = "787fb8f5acbdc6210ee3c4c87ff62518";
   };
   "236542" = {
-    "src" = "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2408181/download";
-    "version" = "1.10.2-1.1.7";
+    "src" = "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2422412/download";
+    "version" = "1.10.2-1.2.0c";
     "title" = "Advanced Rocketry";
     "projectID" = 236542;
     "required" = true;
-    "filename" = "AdvancedRocketry-1.10.2-1.1.7.jar";
+    "filename" = "AdvancedRocketry-1.10.2-1.2.0c.jar";
     "dependencies" = [236541];
-    "encoded" = "AdvancedRocketry-1.10.2-1.1.7.jar";
+    "encoded" = "AdvancedRocketry-1.10.2-1.2.0c.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/advanced-rocketry";
     "fileID" = 2408181;
     "type" = "remote";
-    "md5" = "ad804aa8d9b8880fb7232464f694a95a";
+    "md5" = "f277cfba3c3adec57a646aace5203edb";
   };
   "237102" = {
     "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2406089/download";
@@ -1330,18 +1330,18 @@
     "md5" = "8619f870bfe00a0d53c1c76304816269";
   };
   "242195" = {
-    "src" = "https://minecraft.curseforge.com/projects/dark-utilities/files/2401586/download";
-    "version" = "1.10.2-1.1.7.120";
+    "src" = "https://minecraft.curseforge.com/projects/dark-utilities/files/2422077/download";
+    "version" = "1.1.8.finalrc1";
     "title" = "Dark Utilities";
     "projectID" = 242195;
     "required" = true;
-    "filename" = "DarkUtilities-1.10.2-1.1.7.120.jar";
+    "filename" = "DarkUtilities-1.1.8.finalrc1.jar";
     "dependencies" = [228525];
-    "encoded" = "DarkUtilities-1.10.2-1.1.7.120.jar";
+    "encoded" = "DarkUtilities-1.1.8.finalrc1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/dark-utilities";
     "fileID" = 2401586;
     "type" = "remote";
-    "md5" = "519cfcb219911de59769449c354227e6";
+    "md5" = "0463891b8928b7f09b7dc91cfdc84dc2";
   };
   "242390" = {
     "src" = "https://minecraft.curseforge.com/projects/chisels-bytes/files/2315933/download";
@@ -2554,16 +2554,16 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/buildcraft";
   };
   "interaction-wheel" = {
-    "src" = "https://minecraft.curseforge.com/projects/interaction-wheel/files/2384671/download";
-    "version" = "1.1x-1.2.4";
+    "src" = "https://minecraft.curseforge.com/projects/interaction-wheel/files/2420384/download";
+    "version" = "1.1x-1.2.6";
     "title" = "Interaction Wheel";
     "projectID" = 256287;
-    "filename" = "intwheel-1.1x-1.2.4.jar";
+    "filename" = "intwheel-1.1x-1.2.6.jar";
     "dependencies" = [253729];
-    "encoded" = "intwheel-1.1x-1.2.4.jar";
+    "encoded" = "intwheel-1.1x-1.2.6.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/interaction-wheel";
     "type" = "remote";
-    "md5" = "7a2946d8cfbbd8da4d5b5de5a64be294";
+    "md5" = "f24c132809e9f00b57293013a38615a6";
   };
   "tesla" = {
     "src" = "https://minecraft.curseforge.com/projects/tesla/files/2327384/download";

@@ -1,15 +1,15 @@
 {
   "bibliocraft" = {
-    "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2378365/download";
-    "version" = "2.2.1][MC1.10.2]";
+    "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2421982/download";
+    "version" = "2.2.2][MC1.10.2]";
     "title" = "BiblioCraft";
     "projectID" = 228027;
-    "filename" = "BiblioCraft[v2.2.1][MC1.10.2].jar";
+    "filename" = "BiblioCraft[v2.2.2][MC1.10.2].jar";
     "dependencies" = [];
-    "encoded" = "BiblioCraft%5Bv2.2.1%5D%5BMC1.10.2%5D.jar";
+    "encoded" = "BiblioCraft%5Bv2.2.2%5D%5BMC1.10.2%5D.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/bibliocraft";
     "type" = "remote";
-    "md5" = "cb68229c96debd47041df78b3b991c93";
+    "md5" = "166929b89d22f935e5a7685ab78c0ae6";
   };
   "bibliocraft-bibliowoods-biomes-oplenty-edition" = {
     "projectID" = 228362;
