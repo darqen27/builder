@@ -131,9 +131,9 @@ rec {
    * Returns a set of mods, of the same format as in the manifest.
    */
   filterManifests = { side, manifests, blacklist }: let
-    allMods = concatSets (map (f: import f) manifests);
+    allMods = concatSets (map (f: (import f).mods) manifests);
     filteredMods = lib.filterAttrs (n: mod:
-        (mod.side or side) == side &&
+        (mod.side == "both" || mod.side == side) &&
         mod.type != "missing" &&
         !(builtins.any (b: b == n) blacklist)
       ) allMods;

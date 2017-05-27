@@ -80,9 +80,9 @@ rec {
       # Conflicts with HWYLA.
       "waila"
       # Don't want roguelikes.
-      "221585"
+      "roguelike-dungeons"
       # HQM sucks.
-      "77027"
+      "hardcore-questing-mode"
     ];
   };
 
@@ -106,7 +106,7 @@ rec {
       resources
     ];
     manifests = [
-      ./manifest/Proton-extras.nix
+      ./manifest/ProtonExtras.nix
       ./manifest/Proton-1.0.9.nix
       ./manifest/tools.nix
     ];
