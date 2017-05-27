@@ -174,12 +174,12 @@ rec {
       minecraftVersion = pack.forge.major;
       forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${pack.forge.major}&forge=${pack.forge.minor}";
       configs = lib.mapAttrs (name: config: {
-        configId = name;
+        configId = "config-" + name;
         url = packUrlBase + "configs/" + urlencode name + ".zip";
         md5 = config.md5;
       }) pack.clientConfigs;
       mods = lib.mapAttrs (name: mod: {
-        modId = name;  # Should we use projectID instead?
+        modId = name;
         name = mod.title or name;
         isDefault = mod.isDefault or true;
         md5 = mod.md5;
