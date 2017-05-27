@@ -1,4 +1,5 @@
 {
+  "version" = "1.10.2";
   "imports" = [];
   "mods" = {
     "bibliocraft" = {
@@ -8,12 +9,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "BiblioCraft[v1.11.7][MC1.7.10].jar";
+      "filename" = "BiblioCraft[v2.2.2][MC1.10.2].jar";
       "maturity" = "release";
-      "encoded" = "BiblioCraft%5Bv1.11.7%5D%5BMC1.7.10%5D.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2423369";
-      "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2423369/download";
-      "md5" = "ff5aca99f8e04a8bb6077df853a9c72e";
+      "encoded" = "BiblioCraft%5Bv2.2.2%5D%5BMC1.10.2%5D.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2421982";
+      "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2421982/download";
+      "md5" = "166929b89d22f935e5a7685ab78c0ae6";
       "type" = "remote";
     };
     "bibliocraft-bibliowoods-biomes-oplenty-edition" = {
@@ -23,13 +24,7 @@
       "side" = "both";
       "required" = true;
       "deps" = ["bibliocraft"];
-      "filename" = "BiblioWoods[BiomesOPlenty][v1.9].jar";
-      "maturity" = "release";
-      "encoded" = "BiblioWoods%5BBiomesOPlenty%5D%5Bv1.9%5D.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-biomes-oplenty-edition/files/2229577";
-      "src" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-biomes-oplenty-edition/files/2229577/download";
-      "md5" = "3abcaaae14fd5e1ddb9b9af0642ce3c0";
-      "type" = "remote";
+      "type" = "missing";
     };
     "bibliocraft-bibliowoods-forestry-edition" = {
       "title" = "BiblioCraft: BiblioWoods Forestry Edition";
@@ -38,13 +33,7 @@
       "side" = "both";
       "required" = true;
       "deps" = ["bibliocraft"];
-      "filename" = "BiblioWoods[Forestry][v1.7].jar";
-      "maturity" = "release";
-      "encoded" = "BiblioWoods%5BForestry%5D%5Bv1.7%5D.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-forestry-edition/files/2229574";
-      "src" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-forestry-edition/files/2229574/download";
-      "md5" = "e96270e5c2fc9cf4e72b39d953eb0652";
-      "type" = "remote";
+      "type" = "missing";
     };
     "bibliocraft-bibliowoods-natura-edition" = {
       "title" = "BiblioCraft: BiblioWoods Natura Edition";
@@ -53,13 +42,7 @@
       "side" = "both";
       "required" = true;
       "deps" = ["bibliocraft"];
-      "filename" = "BiblioWoods[Natura][v1.5].jar";
-      "maturity" = "release";
-      "encoded" = "BiblioWoods%5BNatura%5D%5Bv1.5%5D.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition/files/2229581";
-      "src" = "https://minecraft.curseforge.com/projects/bibliocraft-bibliowoods-natura-edition/files/2229581/download";
-      "md5" = "024d7f63683833acfa7aea93da18036e";
-      "type" = "remote";
+      "type" = "missing";
     };
     "decocraft2" = {
       "title" = "DecoCraft2";
@@ -68,12 +51,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "Decocraft-2.4.2_1.11.2.jar";
+      "filename" = "Decocraft-2.4.2_1.10.2.jar";
       "maturity" = "release";
-      "encoded" = "Decocraft-2.4.2_1.11.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/decocraft2/files/2414542";
-      "src" = "https://minecraft.curseforge.com/projects/decocraft2/files/2414542/download";
-      "md5" = "8608b1a5583b2e61b639aa49495c652b";
+      "encoded" = "Decocraft-2.4.2_1.10.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/decocraft2/files/2414541";
+      "src" = "https://minecraft.curseforge.com/projects/decocraft2/files/2414541/download";
+      "md5" = "5c0b241d70eb3fddee9b8ff84ca94063";
       "type" = "remote";
     };
     "earthworks" = {
@@ -83,12 +66,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "Earthworks-1.11.2-1.2.3.jar";
+      "filename" = "Earthworks-1.10.2-1.2.3.jar";
       "maturity" = "release";
-      "encoded" = "Earthworks-1.11.2-1.2.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2418293";
-      "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2418293/download";
-      "md5" = "d2282e8cb9275995cd549f73a8c9bbba";
+      "encoded" = "Earthworks-1.10.2-1.2.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292";
+      "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292/download";
+      "md5" = "46422c6dc6965b8823f535c173ec8c97";
       "type" = "remote";
     };
     "farseek" = {
@@ -98,12 +81,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "Farseek-1.11-2.1.jar";
+      "filename" = "Farseek-1.9.4-2.1.jar";
       "maturity" = "release";
-      "encoded" = "Farseek-1.11-2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2377913";
-      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2377913/download";
-      "md5" = "0f1c72aa70de3100f969bdffffb5fba8";
+      "encoded" = "Farseek-1.9.4-2.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2368930";
+      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2368930/download";
+      "md5" = "8a2840b92a9f9526ebc553eaf94f6ebb";
       "type" = "remote";
     };
     "immersive-engineering" = {
@@ -128,12 +111,12 @@
       "side" = "both";
       "required" = true;
       "deps" = ["immersive-engineering"];
-      "filename" = "immersivepetroleum-1.11.2-1.0.3.jar";
-      "maturity" = "beta";
-      "encoded" = "immersivepetroleum-1.11.2-1.0.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424901";
-      "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424901/download";
-      "md5" = "db647f840f64da73ecdc50ea4177a173";
+      "filename" = "immersivepetroleum-1.10.2-1.0.3.jar";
+      "maturity" = "release";
+      "encoded" = "immersivepetroleum-1.10.2-1.0.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424367";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424367/download";
+      "md5" = "340e9232dfa35840b68f43792c28cd23";
       "type" = "remote";
     };
     "morpheus" = {
@@ -143,12 +126,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "Morpheus-1.11.2-3.2.14.jar";
+      "filename" = "Morpheus-1.10.2-3.1.13.jar";
       "maturity" = "release";
-      "encoded" = "Morpheus-1.11.2-3.2.14.jar";
-      "page" = "https://minecraft.curseforge.com/projects/morpheus/files/2421243";
-      "src" = "https://minecraft.curseforge.com/projects/morpheus/files/2421243/download";
-      "md5" = "70a9cf93da82e3cdcf0d978896c32f46";
+      "encoded" = "Morpheus-1.10.2-3.1.13.jar";
+      "page" = "https://minecraft.curseforge.com/projects/morpheus/files/2358274";
+      "src" = "https://minecraft.curseforge.com/projects/morpheus/files/2358274/download";
+      "md5" = "d20ebb7c3b298b7ea03b8c787fa1bf50";
       "type" = "remote";
     };
     "mouse-tweaks" = {
@@ -158,12 +141,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "MouseTweaks-2.8-mc1.11.2.jar";
+      "filename" = "MouseTweaks-2.8-mc1.10.2.jar";
       "maturity" = "release";
-      "encoded" = "MouseTweaks-2.8-mc1.11.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2388577";
-      "src" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2388577/download";
-      "md5" = "88f215f58fc0d75bcc94a55eac9f2f40";
+      "encoded" = "MouseTweaks-2.8-mc1.10.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2388574";
+      "src" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2388574/download";
+      "md5" = "3091db9b88a860786f8f637740996919";
       "type" = "remote";
     };
     "streams" = {
@@ -173,12 +156,12 @@
       "side" = "both";
       "required" = true;
       "deps" = ["farseek"];
-      "filename" = "Streams-1.11-0.3.jar";
+      "filename" = "Streams-1.9.4-0.3.jar";
       "maturity" = "beta";
-      "encoded" = "Streams-1.11-0.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/streams/files/2377914";
-      "src" = "https://minecraft.curseforge.com/projects/streams/files/2377914/download";
-      "md5" = "33425f2b4cb12af05e1cc01f22b49bbb";
+      "encoded" = "Streams-1.9.4-0.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/streams/files/2349886";
+      "src" = "https://minecraft.curseforge.com/projects/streams/files/2349886/download";
+      "md5" = "cdc7c2a5ae1092ed0c4eeb7b906479dd";
       "type" = "remote";
     };
     "tis-3d" = {
@@ -188,12 +171,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "TIS-3D-MC1.11.2-1.2.1.40.jar";
+      "filename" = "TIS-3D-MC1.10.2-1.2.1.19.jar";
       "maturity" = "release";
-      "encoded" = "TIS-3D-MC1.11.2-1.2.1.40.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2418573";
-      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2418573/download";
-      "md5" = "58b217486f93fcca9a2703da5fb11812";
+      "encoded" = "TIS-3D-MC1.10.2-1.2.1.19.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2418572";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2418572/download";
+      "md5" = "adf03371b40a5268ad06e51589d44659";
       "type" = "remote";
     };
   };

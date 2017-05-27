@@ -1,3 +1,4 @@
+version: "1.10.2"
 mods:
 - name: "just-enough-resources-jer"
 - name: "custom-npcs"

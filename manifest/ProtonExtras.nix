@@ -1,4 +1,5 @@
 {
+  "version" = "1.10.2";
   "imports" = [];
   "mods" = {
     "doggy-talents" = {
@@ -8,12 +9,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "DoggyTalents-1.11.2-v1.12.1d-universal.jar";
-      "maturity" = "beta";
-      "encoded" = "DoggyTalents-1.11.2-v1.12.1d-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/doggy-talents/files/2415079";
-      "src" = "https://minecraft.curseforge.com/projects/doggy-talents/files/2415079/download";
-      "md5" = "76654d0f2004e95b361dda3305fa9d5e";
+      "filename" = "DoggyTalents-1.10.2-v1.11.1d-universal.jar";
+      "maturity" = "release";
+      "encoded" = "DoggyTalents-1.10.2-v1.11.1d-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/doggy-talents/files/2415078";
+      "src" = "https://minecraft.curseforge.com/projects/doggy-talents/files/2415078/download";
+      "md5" = "78b09155600ddd55a979f3d1a2db752e";
       "type" = "remote";
     };
     "earthworks" = {
@@ -23,12 +24,12 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "Earthworks-1.11.2-1.2.3.jar";
+      "filename" = "Earthworks-1.10.2-1.2.3.jar";
       "maturity" = "release";
-      "encoded" = "Earthworks-1.11.2-1.2.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2418293";
-      "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2418293/download";
-      "md5" = "d2282e8cb9275995cd549f73a8c9bbba";
+      "encoded" = "Earthworks-1.10.2-1.2.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292";
+      "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292/download";
+      "md5" = "46422c6dc6965b8823f535c173ec8c97";
       "type" = "remote";
     };
   };
