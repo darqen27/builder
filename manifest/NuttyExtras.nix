@@ -106,6 +106,36 @@
       "md5" = "0f1c72aa70de3100f969bdffffb5fba8";
       "type" = "remote";
     };
+    "immersive-engineering" = {
+      "title" = "Immersive Engineering";
+      "name" = "immersive-engineering";
+      "id" = 231951;
+      "side" = "both";
+      "required" = true;
+      "deps" = [];
+      "filename" = "ImmersiveEngineering-0.10-58.jar";
+      "maturity" = "release";
+      "encoded" = "ImmersiveEngineering-0.10-58.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2417942";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-engineering/files/2417942/download";
+      "md5" = "d65e66645b2f9b4736e2e98c52e4c6e7";
+      "type" = "remote";
+    };
+    "immersive-petroleum" = {
+      "title" = "Immersive Petroleum";
+      "name" = "immersive-petroleum";
+      "id" = 268250;
+      "side" = "both";
+      "required" = true;
+      "deps" = ["immersive-engineering"];
+      "filename" = "immersivepetroleum-1.11.2-1.0.3.jar";
+      "maturity" = "beta";
+      "encoded" = "immersivepetroleum-1.11.2-1.0.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424901";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424901/download";
+      "md5" = "db647f840f64da73ecdc50ea4177a173";
+      "type" = "remote";
+    };
     "morpheus" = {
       "title" = "Morpheus";
       "name" = "morpheus";
