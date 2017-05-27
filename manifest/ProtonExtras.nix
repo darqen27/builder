@@ -14,8 +14,8 @@
       "encoded" = "DoggyTalents-1.10.2-v1.11.1d-universal.jar";
       "page" = "https://minecraft.curseforge.com/projects/doggy-talents/files/2415078";
       "src" = "https://minecraft.curseforge.com/projects/doggy-talents/files/2415078/download";
-      "md5" = "78b09155600ddd55a979f3d1a2db752e";
       "type" = "remote";
+      "md5" = "78b09155600ddd55a979f3d1a2db752e";
     };
     "earthworks" = {
       "title" = "Earthworks";
@@ -29,8 +29,8 @@
       "encoded" = "Earthworks-1.10.2-1.2.3.jar";
       "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292";
       "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292/download";
-      "md5" = "46422c6dc6965b8823f535c173ec8c97";
       "type" = "remote";
+      "md5" = "46422c6dc6965b8823f535c173ec8c97";
     };
   };
 }

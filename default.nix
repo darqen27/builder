@@ -83,6 +83,9 @@ rec {
       "roguelike-dungeons"
       # HQM sucks.
       "hardcore-questing-mode"
+      # "Required" libraries which we really don't want.
+      "base-metals"
+      "mmd-orespawn"
     ];
   };
 

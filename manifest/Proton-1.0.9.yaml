@@ -1,6 +1,7 @@
 version: "1.10.2"
 mods:
 - name: "dynamic-surroundings"
+- name: "compatlayer"
 - name: "double-jump"
   id: 244738
   title: "Double Jump"
@@ -176,7 +177,7 @@ mods:
     filePageUrl: "https://minecraft.curseforge.com/projects/222789/files/2309385"
     src: "https://minecraft.curseforge.com/projects/sound-filters/files/2309385/download"
     md5: "89c50fee6271149638b94b85e5afd31f"
-  side: "both"
+  side: "client"
   deps: []
   required: true
 - name: "drawers-bits"
@@ -338,7 +339,7 @@ mods:
     filePageUrl: "https://minecraft.curseforge.com/projects/250290/files/2326450"
     src: "https://minecraft.curseforge.com/projects/surge/files/2326450/download"
     md5: "17417bd727569435ef2017903d8f0f41"
-  side: "both"
+  side: "client"
   deps: []
   required: true
 - name: "chisels-bits"
@@ -733,13 +734,6 @@ mods:
 - name: "better-with-mods"
   id: 246760
   title: "Better With Mods"
-  files:
-  - name: "Better With Mods-0.14.2-1.10.2-hotfix1.jar"
-    id: 2354236
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/246760/files/2354236"
-    src: "https://minecraft.curseforge.com/projects/better-with-mods/files/2354236/download"
-    md5: "afd4a8657dbd9b03ce959279a2a9660e"
   side: "both"
   deps: []
   required: true
