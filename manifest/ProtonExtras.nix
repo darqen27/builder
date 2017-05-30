@@ -24,13 +24,13 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "Earthworks-1.10.2-1.2.3.jar";
+      "filename" = "Earthworks-1.10.2-1.3.1.jar";
       "maturity" = "release";
-      "encoded" = "Earthworks-1.10.2-1.2.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292";
-      "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2418292/download";
+      "encoded" = "Earthworks-1.10.2-1.3.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/earthworks/files/2426724";
+      "src" = "https://minecraft.curseforge.com/projects/earthworks/files/2426724/download";
       "type" = "remote";
-      "md5" = "46422c6dc6965b8823f535c173ec8c97";
+      "md5" = "7774cf0ba94a5c82d1e7c44516d9725e";
     };
   };
 }

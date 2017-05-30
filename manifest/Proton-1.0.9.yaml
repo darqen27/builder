@@ -614,13 +614,6 @@ mods:
 - name: "crafttweaker"
   id: 239197
   title: "CraftTweaker"
-  files:
-  - name: "CraftTweaker-1.10.2-3.0.16.jar"
-    id: 2360259
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/239197/files/2360259"
-    src: "https://minecraft.curseforge.com/projects/crafttweaker/files/2360259/download"
-    md5: "73f47136a2a6b5a68a00547a561aede6"
   side: "both"
   deps: []
   required: true

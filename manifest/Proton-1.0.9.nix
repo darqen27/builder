@@ -263,12 +263,13 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "CraftTweaker-1.10.2-3.0.16.jar";
-      "encoded" = "CraftTweaker-1.10.2-3.0.16.jar";
-      "page" = "https://minecraft.curseforge.com/projects/239197/files/2360259";
-      "src" = "https://minecraft.curseforge.com/projects/crafttweaker/files/2360259/download";
+      "filename" = "CraftTweaker-1.10.2-3.0.25.jar";
+      "maturity" = "release";
+      "encoded" = "CraftTweaker-1.10.2-3.0.25.jar";
+      "page" = "https://minecraft.curseforge.com/projects/crafttweaker/files/2420671";
+      "src" = "https://minecraft.curseforge.com/projects/crafttweaker/files/2420671/download";
       "type" = "remote";
-      "md5" = "73f47136a2a6b5a68a00547a561aede6";
+      "md5" = "711cf9318aba5688d9f90ea19049d5ce";
     };
     "deathcounter" = {
       "title" = "DeathCounter";
@@ -347,13 +348,13 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "DynamicSurroundings-1.10.2-3.4.5.0.jar";
+      "filename" = "DynamicSurroundings-1.10.2-3.4.5.1.jar";
       "maturity" = "beta";
-      "encoded" = "DynamicSurroundings-1.10.2-3.4.5.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2423670";
-      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2423670/download";
+      "encoded" = "DynamicSurroundings-1.10.2-3.4.5.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2426614";
+      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2426614/download";
       "type" = "remote";
-      "md5" = "ea9b960d447ebc44fb44e0b6790c279d";
+      "md5" = "e55a106eedc03236f9063c134e08ed10";
     };
     "ender-zoo" = {
       "title" = "Ender Zoo";
