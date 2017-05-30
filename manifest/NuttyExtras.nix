@@ -9,13 +9,13 @@
       "side" = "both";
       "required" = true;
       "deps" = [];
-      "filename" = "BiblioCraft[v2.2.2][MC1.10.2].jar";
+      "filename" = "BiblioCraft[v2.2.3][MC1.10.2].jar";
       "maturity" = "release";
-      "encoded" = "BiblioCraft%5Bv2.2.2%5D%5BMC1.10.2%5D.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2421982";
-      "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2421982/download";
+      "encoded" = "BiblioCraft%5Bv2.2.3%5D%5BMC1.10.2%5D.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2426409";
+      "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2426409/download";
       "type" = "remote";
-      "md5" = "166929b89d22f935e5a7685ab78c0ae6";
+      "md5" = "0b30f8059d240234b6cd341e354c1209";
     };
     "bibliocraft-bibliowoods-biomes-oplenty-edition" = {
       "title" = "BiblioCraft: BiblioWoods Biomes O'Plenty Edition";
@@ -96,13 +96,13 @@
       "side" = "both";
       "required" = true;
       "deps" = ["immersive-engineering"];
-      "filename" = "immersivepetroleum-1.10.2-1.0.3.jar";
+      "filename" = "immersivepetroleum-1.10.2-1.0.4.jar";
       "maturity" = "release";
-      "encoded" = "immersivepetroleum-1.10.2-1.0.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424367";
-      "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2424367/download";
+      "encoded" = "immersivepetroleum-1.10.2-1.0.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2426694";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2426694/download";
       "type" = "remote";
-      "md5" = "340e9232dfa35840b68f43792c28cd23";
+      "md5" = "094849c8706aa1d9b80c977861cfdb01";
     };
     "morpheus" = {
       "title" = "Morpheus";
