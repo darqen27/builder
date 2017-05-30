@@ -1602,18 +1602,6 @@ mods:
 - name: "plustic"
   id: 260327
   title: "PlusTiC"
-  files:
-  - name: "plustic-4.3.0.2.jar"
-    id: 2408230
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/260327/files/2408230"
-    src: "https://minecraft.curseforge.com/projects/plustic/files/2408230/download"
-    md5: "397d1a5b682c5e593c1b8d552d212079"
-  side: "both"
-  deps:
-  - "codechicken-lib-1-8"
-  - "mantle"
-  - "tinkers-construct"
   required: true
   default: true
   curse: true

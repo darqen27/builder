@@ -1789,13 +1789,14 @@
       "id" = 260327;
       "side" = "both";
       "required" = true;
-      "deps" = ["codechicken-lib-1-8" "mantle" "tinkers-construct"];
-      "filename" = "plustic-4.3.0.2.jar";
-      "encoded" = "plustic-4.3.0.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/260327/files/2408230";
-      "src" = "https://minecraft.curseforge.com/projects/plustic/files/2408230/download";
+      "deps" = ["mantle" "tinkers-construct"];
+      "filename" = "plustic-4.4.0.0.jar";
+      "maturity" = "release";
+      "encoded" = "plustic-4.4.0.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plustic/files/2425845";
+      "src" = "https://minecraft.curseforge.com/projects/plustic/files/2425845/download";
       "type" = "remote";
-      "md5" = "397d1a5b682c5e593c1b8d552d212079";
+      "md5" = "77898a8aa8ada8a611163e9d93bed293";
     };
     "pressure-pipes" = {
       "title" = "Pressure Pipes";
