@@ -11,13 +11,6 @@ mods:
   curse: false
   files:
     - src: "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D8.jar"
-- name: "ClassCacheTweaker"
-  required: false
-  default: false
-  side: "client"
-  curse: false
-  files:
-    - src: "../bundled/classcachetweaker-0.1.4.jar"
 - name: "thump"
   required: false
 - name: "foamfix"

@@ -2,18 +2,6 @@
   "version" = "1.10.2";
   "imports" = [];
   "mods" = {
-    "ClassCacheTweaker" = {
-      "title" = "ClassCacheTweaker";
-      "name" = "ClassCacheTweaker";
-      "side" = "client";
-      "required" = false;
-      "deps" = [];
-      "filename" = "classcachetweaker-0.1.4.jar";
-      "encoded" = "classcachetweaker-0.1.4.jar";
-      "src" = ../bundled/classcachetweaker-0.1.4.jar;
-      "type" = "local";
-      "md5" = "1ea7a4c2e68487546a0e78fb6bf7e022";
-    };
     "Optifine" = {
       "title" = "Optifine";
       "name" = "Optifine";
