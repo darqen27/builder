@@ -181,7 +181,7 @@ rec {
       mods = lib.mapAttrs (name: mod: {
         modId = name;
         name = mod.title or name;
-        isDefault = mod.isDefault or true;
+        isDefault = mod.default or true;
         md5 = mod.md5;
         modpath = "mods/" + mod.filename;
         modtype = mod.modType or "Regular";
