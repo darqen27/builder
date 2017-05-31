@@ -8,6 +8,7 @@
       "id" = 228027;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "BiblioCraft[v2.2.3][MC1.10.2].jar";
       "maturity" = "release";
@@ -23,6 +24,7 @@
       "id" = 228362;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bibliocraft"];
       "type" = "missing";
     };
@@ -32,6 +34,7 @@
       "id" = 228363;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bibliocraft"];
       "type" = "missing";
     };
@@ -41,6 +44,7 @@
       "id" = 228364;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bibliocraft"];
       "type" = "missing";
     };
@@ -50,6 +54,7 @@
       "id" = 255427;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Earthworks-1.10.2-1.2.3.jar";
       "maturity" = "release";
@@ -65,6 +70,7 @@
       "id" = 229708;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Farseek-1.9.4-2.1.jar";
       "maturity" = "release";
@@ -80,6 +86,7 @@
       "id" = 231951;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ImmersiveEngineering-0.10-58.jar";
       "maturity" = "release";
@@ -95,6 +102,7 @@
       "id" = 268250;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["immersive-engineering"];
       "filename" = "immersivepetroleum-1.10.2-1.0.4.jar";
       "maturity" = "release";
@@ -110,6 +118,7 @@
       "id" = 69118;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Morpheus-1.10.2-3.1.13.jar";
       "maturity" = "release";
@@ -125,6 +134,7 @@
       "id" = 60089;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MouseTweaks-2.8-mc1.10.2.jar";
       "maturity" = "release";
@@ -140,6 +150,7 @@
       "id" = 229769;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["farseek"];
       "filename" = "Streams-1.9.4-0.3.jar";
       "maturity" = "beta";
@@ -155,6 +166,7 @@
       "id" = 238603;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "TIS-3D-MC1.10.2-1.2.1.19.jar";
       "maturity" = "release";

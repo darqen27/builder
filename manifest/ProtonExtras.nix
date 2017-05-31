@@ -8,6 +8,7 @@
       "id" = 266567;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "DoggyTalents-1.10.2-v1.11.1d-universal.jar";
       "maturity" = "release";
@@ -23,6 +24,7 @@
       "id" = 255427;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Earthworks-1.10.2-1.3.1.jar";
       "maturity" = "release";

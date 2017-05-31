@@ -8,6 +8,7 @@
       "id" = 228404;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ActuallyAdditions-1.10.2-r105.jar";
       "encoded" = "ActuallyAdditions-1.10.2-r105.jar";
@@ -22,6 +23,7 @@
       "id" = 254544;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["actually-additions"];
       "filename" = "AAMineTweaks-1.0.jar";
       "encoded" = "AAMineTweaks-1.0.jar";
@@ -36,6 +38,7 @@
       "id" = 236542;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["libvulpes"];
       "filename" = "AdvancedRocketry-1.10.2-1.1.7.jar";
       "encoded" = "AdvancedRocketry-1.10.2-1.1.7.jar";
@@ -50,6 +53,7 @@
       "id" = 252714;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["industrial-craft"];
       "filename" = "Advanced Solar Panels-4.0.4.jar";
       "encoded" = "Advanced%20Solar%20Panels-4.0.4.jar";
@@ -64,6 +68,7 @@
       "id" = 225194;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["applied-energistics-2" "bdlib"];
       "filename" = "ae2stuff-0.6.0.9-mc1.10.2.jar";
       "encoded" = "ae2stuff-0.6.0.9-mc1.10.2.jar";
@@ -78,6 +83,7 @@
       "id" = 256224;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["baubles" "extra-utilities"];
       "filename" = "angelRingToBauble-1.10.2-0.2.3.16+d3100bf.jar";
       "encoded" = "angelRingToBauble-1.10.2-0.2.3.16%2Bd3100bf.jar";
@@ -92,6 +98,7 @@
       "id" = 229664;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["blood-magic" "guide-api"];
       "filename" = "Animus-2017-04-18.jar";
       "encoded" = "Animus-2017-04-18.jar";
@@ -106,6 +113,7 @@
       "id" = 224472;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AppleCore-mc1.10.2-2.1.2.jar";
       "encoded" = "AppleCore-mc1.10.2-2.1.2.jar";
@@ -120,6 +128,7 @@
       "id" = 248787;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AppleSkin-mc1.10.2-1.0.5.jar";
       "encoded" = "AppleSkin-mc1.10.2-1.0.5.jar";
@@ -134,6 +143,7 @@
       "id" = 223794;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "appliedenergistics2-rv4-alpha-11.jar";
       "encoded" = "appliedenergistics2-rv4-alpha-11.jar";
@@ -148,6 +158,7 @@
       "id" = 242001;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ArchitectureCraft-1.7.1-mc1.10.2.jar";
       "encoded" = "ArchitectureCraft-1.7.1-mc1.10.2.jar";
@@ -162,6 +173,7 @@
       "id" = 223735;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Aroma1997Core-1.9.4-1.1.1.2.jar";
       "encoded" = "Aroma1997Core-1.9.4-1.1.1.2.jar";
@@ -176,6 +188,7 @@
       "id" = 60092;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["aroma1997core"];
       "filename" = "Aroma1997s-Dimensional-World-1.9.4-1.2.0.6.jar";
       "encoded" = "Aroma1997s-Dimensional-World-1.9.4-1.2.0.6.jar";
@@ -190,6 +203,7 @@
       "id" = 67313;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ArsMagica2-1.10.2-1.5.0-18.jar";
       "encoded" = "ArsMagica2-1.10.2-1.5.0-18.jar";
@@ -204,6 +218,7 @@
       "id" = 241721;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "astralsorcery-1.3.2-beta.jar";
       "encoded" = "astralsorcery-1.3.2-beta.jar";
@@ -218,6 +233,7 @@
       "id" = 252208;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ATMBlacklister-0.5.jar";
       "encoded" = "ATMBlacklister-0.5.jar";
@@ -232,6 +248,7 @@
       "id" = 250363;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AutoRegLib-1.0-2.jar";
       "encoded" = "AutoRegLib-1.0-2.jar";
@@ -246,6 +263,7 @@
       "id" = 261348;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Avaritia-1.10.2-2.0.7.jar";
       "encoded" = "Avaritia-1.10.2-2.0.7.jar";
@@ -260,6 +278,7 @@
       "id" = 261519;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["avaritia-1-10"];
       "filename" = "AvaritiaAdditions-1.6_1.10.2.jar";
       "encoded" = "AvaritiaAdditions-1.6_1.10.2.jar";
@@ -274,6 +293,7 @@
       "id" = 240967;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mmd-orespawn"];
       "filename" = "BaseMetals_1.10.2-2.4.0.11.jar";
       "maturity" = "release";
@@ -289,6 +309,7 @@
       "id" = 227083;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Baubles-1.10.2-1.3.9.jar";
       "encoded" = "Baubles-1.10.2-1.3.9.jar";
@@ -303,6 +324,7 @@
       "id" = 261301;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "bbtweaks-2017-03-27.jar";
       "encoded" = "bbtweaks-2017-03-27.jar";
@@ -317,6 +339,7 @@
       "id" = 70496;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "bdlib-1.12.4.24-mc1.10.2.jar";
       "encoded" = "bdlib-1.12.4.24-mc1.10.2.jar";
@@ -331,6 +354,7 @@
       "id" = 254508;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "BedBugs-1.10.2-1.1.6.jar";
       "encoded" = "BedBugs-1.10.2-1.1.6.jar";
@@ -345,6 +369,7 @@
       "id" = 235716;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "BetterAchievements-1.10.2-0.3.3.10.jar";
       "encoded" = "BetterAchievements-1.10.2-0.3.3.10.jar";
@@ -359,6 +384,7 @@
       "id" = 229876;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "BetterFps-1.4.3-1.10.jar";
       "encoded" = "BetterFps-1.4.3-1.10.jar";
@@ -373,6 +399,7 @@
       "id" = 220318;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "BiomesOPlenty-1.10.2-5.0.0.2162-universal.jar";
       "encoded" = "BiomesOPlenty-1.10.2-5.0.0.2162-universal.jar";
@@ -387,6 +414,7 @@
       "id" = 224791;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "BloodMagic-1.10.2-2.1.9-78.jar";
       "encoded" = "BloodMagic-1.10.2-2.1.9-78.jar";
@@ -401,6 +429,7 @@
       "id" = 228525;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Bookshelf-1.10.2-1.4.4.347.jar";
       "encoded" = "Bookshelf-1.10.2-1.4.4.347.jar";
@@ -415,6 +444,7 @@
       "id" = 225643;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["baubles"];
       "filename" = "Botania r1.9-341.jar";
       "encoded" = "Botania%20r1.9-341.jar";
@@ -429,6 +459,7 @@
       "id" = 231382;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8"];
       "filename" = "BrandonsCore-1.10.2-2.1.6.98-universal.jar";
       "encoded" = "BrandonsCore-1.10.2-2.1.6.98-universal.jar";
@@ -443,6 +474,7 @@
       "id" = 232180;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["computercraft"];
       "filename" = "CCTweaks-1.10.2-1.3.3.jar";
       "encoded" = "CCTweaks-1.10.2-1.3.3.jar";
@@ -457,6 +489,7 @@
       "id" = 230497;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Chameleon-1.10-2.2.2.jar";
       "encoded" = "Chameleon-1.10-2.2.2.jar";
@@ -471,6 +504,7 @@
       "id" = 235279;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Chisel_DEV-MC1.10.2-0.0.10.19.jar";
       "encoded" = "Chisel_DEV-MC1.10.2-0.0.10.19.jar";
@@ -485,6 +519,7 @@
       "id" = 231095;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "chiselsandbits-12.12.jar";
       "encoded" = "chiselsandbits-12.12.jar";
@@ -499,6 +534,7 @@
       "id" = 242390;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["chisels-bits"];
       "filename" = "ChiselsBytes-1.9.4-0.4.jar";
       "encoded" = "ChiselsBytes-1.9.4-0.4.jar";
@@ -513,6 +549,7 @@
       "id" = 76544;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "GeographiCraft-0.8.7.jar";
       "encoded" = "GeographiCraft-0.8.7.jar";
@@ -527,6 +564,7 @@
       "id" = 243822;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8"];
       "filename" = "CodeChickenCore-1.10.2-2.4.1.102-universal.jar";
       "encoded" = "CodeChickenCore-1.10.2-2.4.1.102-universal.jar";
@@ -541,6 +579,7 @@
       "id" = 242818;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CodeChickenLib-1.10.2-2.5.7.241-universal.jar";
       "encoded" = "CodeChickenLib-1.10.2-2.5.7.241-universal.jar";
@@ -555,6 +594,7 @@
       "id" = 69162;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CoFHCore-1.10.2-4.1.1.156-universal.jar";
       "encoded" = "CoFHCore-1.10.2-4.1.1.156-universal.jar";
@@ -569,6 +609,7 @@
       "id" = 244975;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer"];
       "filename" = "combathelp-1.1x-1.1.1.jar";
       "encoded" = "combathelp-1.1x-1.1.1.jar";
@@ -583,6 +624,7 @@
       "id" = 224218;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "cm2-2.0.0-b92.jar";
       "encoded" = "cm2-2.0.0-b92.jar";
@@ -597,6 +639,7 @@
       "id" = 253729;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "compatlayer-1.10-0.2.5.jar";
       "encoded" = "compatlayer-1.10-0.2.5.jar";
@@ -611,6 +654,7 @@
       "id" = 67504;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ComputerCraft1.80pr0.jar";
       "encoded" = "ComputerCraft1.80pr0.jar";
@@ -625,6 +669,7 @@
       "id" = 250398;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Controlling-1.0.4.jar";
       "encoded" = "Controlling-1.0.4.jar";
@@ -639,6 +684,7 @@
       "id" = 231484;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CookingForBlockheads_1.10.2-4.2.39.jar";
       "encoded" = "CookingForBlockheads_1.10.2-4.2.39.jar";
@@ -653,6 +699,7 @@
       "id" = 237307;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CosmeticArmorReworked-1.10.2-v2a.jar";
       "encoded" = "CosmeticArmorReworked-1.10.2-v2a.jar";
@@ -667,6 +714,7 @@
       "id" = 233071;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CraftingTweaks_1.10.2-6.1.16.jar";
       "encoded" = "CraftingTweaks_1.10.2-6.1.16.jar";
@@ -681,6 +729,7 @@
       "id" = 239197;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CraftTweaker-1.10.2-3.0.24.jar";
       "encoded" = "CraftTweaker-1.10.2-3.0.24.jar";
@@ -695,6 +744,7 @@
       "id" = 226406;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CustomMainMenu-MC1.10.2-2.0.5.jar";
       "encoded" = "CustomMainMenu-MC1.10.2-2.0.5.jar";
@@ -709,6 +759,7 @@
       "id" = 248042;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "cyberware-1.9.4-1.10.2-beta-0.2.7.jar";
       "encoded" = "cyberware-1.9.4-1.10.2-beta-0.2.7.jar";
@@ -723,6 +774,7 @@
       "id" = 242195;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bookshelf"];
       "filename" = "DarkUtilities-1.10.2-1.1.7.120.jar";
       "encoded" = "DarkUtilities-1.10.2-1.1.7.120.jar";
@@ -737,6 +789,7 @@
       "id" = 233398;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer" "eleccore-rendering-library" "mcjtylib"];
       "filename" = "deepresonance-1.1x-1.4.6.jar";
       "encoded" = "deepresonance-1.1x-1.4.6.jar";
@@ -751,6 +804,7 @@
       "id" = 232131;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "DefaultOptions_1.10.2-6.1.5.jar";
       "encoded" = "DefaultOptions_1.10.2-6.1.5.jar";
@@ -765,6 +819,7 @@
       "id" = 223565;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["brandons-core" "codechicken-lib-1-8"];
       "filename" = "Draconic-Evolution-1.10.2-2.0.10.199-universal.jar";
       "encoded" = "Draconic-Evolution-1.10.2-2.0.10.199-universal.jar";
@@ -779,6 +834,7 @@
       "id" = 232391;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["ender-io" "thermalexpansion"];
       "filename" = "eiorteis-2.1.jar";
       "encoded" = "eiorteis-2.1.jar";
@@ -793,6 +849,7 @@
       "id" = 227391;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ElecCore-1.10.2-1.7.421.jar";
       "maturity" = "release";
@@ -808,6 +865,7 @@
       "id" = 251918;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "embers-0.104.jar";
       "encoded" = "embers-0.104.jar";
@@ -822,6 +880,7 @@
       "id" = 76612;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Enchiridion-1.10.2-3.1.17.jar";
       "encoded" = "Enchiridion-1.10.2-3.1.17.jar";
@@ -836,6 +895,7 @@
       "id" = 245445;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "EndMetals_1.9-1.0.4.jar";
       "encoded" = "EndMetals_1.9-1.0.4.jar";
@@ -850,6 +910,7 @@
       "id" = 64578;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["endercore"];
       "filename" = "EnderIO-1.10.2-3.1.180.jar";
       "encoded" = "EnderIO-1.10.2-3.1.180.jar";
@@ -864,6 +925,7 @@
       "id" = 245174;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8"];
       "filename" = "EnderStorage-1.10.2-2.2.1.106-universal.jar";
       "encoded" = "EnderStorage-1.10.2-2.2.1.106-universal.jar";
@@ -878,6 +940,7 @@
       "id" = 225247;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "EnderZoo-1.10-1.2.3.44.jar";
       "encoded" = "EnderZoo-1.10-1.2.3.44.jar";
@@ -892,6 +955,7 @@
       "id" = 231868;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "EnderCore-1.10.2-0.4.1.65-beta.jar";
       "encoded" = "EnderCore-1.10.2-0.4.1.65-beta.jar";
@@ -906,6 +970,7 @@
       "id" = 240959;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["chisels-bits"];
       "filename" = "ExtraBitManipulation-1.10.2-2.3.4.jar";
       "encoded" = "ExtraBitManipulation-1.10.2-2.3.4.jar";
@@ -920,6 +985,7 @@
       "id" = 225561;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "extrautils2-1.10.2-1.3.3.jar";
       "encoded" = "extrautils2-1.10.2-1.3.3.jar";
@@ -934,6 +1000,7 @@
       "id" = 250277;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["zerocore"];
       "filename" = "ExtremeReactors-1.10.2-0.4.5.27.jar";
       "encoded" = "ExtremeReactors-1.10.2-0.4.5.27.jar";
@@ -948,6 +1015,7 @@
       "id" = 238590;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "flatcoloredblocks-mc1.10-v4.4.jar";
       "encoded" = "flatcoloredblocks-mc1.10-v4.4.jar";
@@ -962,6 +1030,7 @@
       "id" = 248020;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["sonar-core"];
       "filename" = "FluxNetworks-1.10.2-1.2.3.jar";
       "encoded" = "FluxNetworks-1.10.2-1.2.3.jar";
@@ -976,6 +1045,7 @@
       "id" = 59751;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "forestry_1.10.2-5.2.17.374.jar";
       "encoded" = "forestry_1.10.2-5.2.17.374.jar";
@@ -990,6 +1060,7 @@
       "id" = 258426;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8"];
       "filename" = "ForgeMultipart-1.10.2-2.0.0.31-universal.jar";
       "encoded" = "ForgeMultipart-1.10.2-2.0.0.31-universal.jar";
@@ -1004,6 +1075,7 @@
       "id" = 237102;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["ftblib"];
       "filename" = "FTBUtilities-1.1x-3.5.4.jar";
       "encoded" = "FTBUtilities-1.1x-3.5.4.jar";
@@ -1018,6 +1090,7 @@
       "id" = 237167;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer"];
       "filename" = "FTBLib-1.1x-3.5.4.jar";
       "encoded" = "FTBLib-1.1x-3.5.4.jar";
@@ -1032,6 +1105,7 @@
       "id" = 227441;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "FullscreenWindowed-1.10.2-1.5.0.jar";
       "encoded" = "FullscreenWindowed-1.10.2-1.5.0.jar";
@@ -1046,6 +1120,7 @@
       "id" = 70492;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bdlib" "forestry"];
       "filename" = "gendustry-1.6.5.30-mc1.10.2.jar";
       "encoded" = "gendustry-1.6.5.30-mc1.10.2.jar";
@@ -1060,6 +1135,7 @@
       "id" = 238911;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "grapplemod-1.10-v9.jar";
       "encoded" = "grapplemod-1.10-v9.jar";
@@ -1074,6 +1150,7 @@
       "id" = 253590;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["industrial-craft"];
       "filename" = "Gravitation Suite-3.0.1.jar";
       "encoded" = "Gravitation%20Suite-3.0.1.jar";
@@ -1088,6 +1165,7 @@
       "id" = 228832;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Guide-API-1.10.2-2.0.3-46.jar";
       "encoded" = "Guide-API-1.10.2-2.0.3-46.jar";
@@ -1102,6 +1180,7 @@
       "id" = 225957;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "HardcoreDarkness-MC1.10.2-1.9.jar";
       "encoded" = "HardcoreDarkness-MC1.10.2-1.9.jar";
@@ -1116,6 +1195,7 @@
       "id" = 77027;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "HQM-New Heights-1.10.2-5.1.0alpha4.jar";
       "encoded" = "HQM-New%20Heights-1.10.2-5.1.0alpha4.jar";
@@ -1130,6 +1210,7 @@
       "id" = 223797;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "HelpFixer-1.10.2-1.4.15.jar";
       "encoded" = "HelpFixer-1.10.2-1.4.15.jar";
@@ -1144,6 +1225,7 @@
       "id" = 231951;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ImmersiveEngineering-0.10-57.jar";
       "encoded" = "ImmersiveEngineering-0.10-57.jar";
@@ -1158,6 +1240,7 @@
       "id" = 257356;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer"];
       "filename" = "incontrol-3.5.5.jar";
       "encoded" = "incontrol-3.5.5.jar";
@@ -1172,6 +1255,7 @@
       "id" = 242638;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "industrialcraft-2-2.6.188-ex110.jar";
       "encoded" = "industrialcraft-2-2.6.188-ex110.jar";
@@ -1186,6 +1270,7 @@
       "id" = 251121;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["immersive-engineering" "industrial-craft"];
       "filename" = "IndustrialWires-1.3-8.jar";
       "encoded" = "IndustrialWires-1.3-8.jar";
@@ -1200,6 +1285,7 @@
       "id" = 227049;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "IronBackpacks-1.10.2-2.2.25.jar";
       "encoded" = "IronBackpacks-1.10.2-2.2.25.jar";
@@ -1214,6 +1300,7 @@
       "id" = 228756;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ironchest-1.10.2-7.0.11.797.jar";
       "encoded" = "ironchest-1.10.2-7.0.11.797.jar";
@@ -1228,6 +1315,7 @@
       "id" = 248370;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["forestry" "just-enough-items-jei"];
       "filename" = "jeibees-0.9.0.5-mc1.10.2.jar";
       "encoded" = "jeibees-0.9.0.5-mc1.10.2.jar";
@@ -1242,6 +1330,7 @@
       "id" = 32274;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "journeymap-1.10.2-5.4.6.jar";
       "encoded" = "journeymap-1.10.2-5.4.6.jar";
@@ -1256,6 +1345,7 @@
       "id" = 254317;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "justenoughdimensions-1.10.2-1.3.7.jar";
       "encoded" = "justenoughdimensions-1.10.2-1.3.7.jar";
@@ -1270,6 +1360,7 @@
       "id" = 238222;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "jei_1.10.2-3.14.7.417.jar";
       "encoded" = "jei_1.10.2-3.14.7.417.jar";
@@ -1284,6 +1375,7 @@
       "id" = 240630;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["just-enough-items-jei"];
       "filename" = "JustEnoughResources-1.10.2-0.5.9.3.jar";
       "encoded" = "JustEnoughResources-1.10.2-0.5.9.3.jar";
@@ -1298,6 +1390,7 @@
       "id" = 228810;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "LaunchGui-1.9.4-2.0.3-23-client.jar";
       "encoded" = "LaunchGui-1.9.4-2.0.3-23-client.jar";
@@ -1312,6 +1405,7 @@
       "id" = 236541;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "LibVulpes-1.10.2-0.2.2-universal.jar";
       "encoded" = "LibVulpes-1.10.2-0.2.2-universal.jar";
@@ -1326,6 +1420,7 @@
       "id" = 243298;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "llibrary-1.7.4-1.10.2.jar";
       "encoded" = "llibrary-1.7.4-1.10.2.jar";
@@ -1340,6 +1435,7 @@
       "id" = 261339;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "LootTableTweaker-1.10.2-1.0.0.7.jar";
       "encoded" = "LootTableTweaker-1.10.2-1.0.0.7.jar";
@@ -1354,6 +1450,7 @@
       "id" = 225605;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "LunatriusCore-1.10.2-1.1.2.38-universal.jar";
       "encoded" = "LunatriusCore-1.10.2-1.1.2.38-universal.jar";
@@ -1368,6 +1465,7 @@
       "id" = 223896;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "malisiscore-1.10.2-4.4.0.jar";
       "encoded" = "malisiscore-1.10.2-4.4.0.jar";
@@ -1382,6 +1480,7 @@
       "id" = 223891;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["malisiscore"];
       "filename" = "malisisdoors-1.10.2-5.2.0.jar";
       "encoded" = "malisisdoors-1.10.2-5.2.0.jar";
@@ -1396,6 +1495,7 @@
       "id" = 240828;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["malisiscore"];
       "filename" = "malisisswitches-1.10.2-3.2.0.jar";
       "encoded" = "malisisswitches-1.10.2-3.2.0.jar";
@@ -1410,6 +1510,7 @@
       "id" = 74924;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Mantle-1.10.2-1.1.5.jar";
       "encoded" = "Mantle-1.10.2-1.1.5.jar";
@@ -1424,6 +1525,7 @@
       "id" = 229595;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "mdecore-1.10.2-1.5.1.jar";
       "encoded" = "mdecore-1.10.2-1.5.1.jar";
@@ -1438,6 +1540,7 @@
       "id" = 233105;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer"];
       "filename" = "mcjtylib-1.1x-2.3.11.jar";
       "encoded" = "mcjtylib-1.1x-2.3.11.jar";
@@ -1452,6 +1555,7 @@
       "id" = 239431;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MCMultiPart-1.4.0-universal.jar";
       "encoded" = "MCMultiPart-1.4.0-universal.jar";
@@ -1466,6 +1570,7 @@
       "id" = 226294;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MineTweakerRecipeMaker-1.10.2-1.2.1.26.jar";
       "encoded" = "MineTweakerRecipeMaker-1.10.2-1.2.1.26.jar";
@@ -1480,6 +1585,7 @@
       "id" = 236199;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "missing_pieces-1.10.2-4.1.3.jar";
       "encoded" = "missing_pieces-1.10.2-4.1.3.jar";
@@ -1494,6 +1600,7 @@
       "id" = 245586;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "OreSpawn-1.10.2-2.0.0.15.jar";
       "maturity" = "alpha";
@@ -1509,6 +1616,7 @@
       "id" = 225738;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MmmMmmMmmMmm-1.11.jar";
       "encoded" = "MmmMmmMmmMmm-1.11.jar";
@@ -1523,6 +1631,7 @@
       "id" = 238747;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "modnametooltip_1.10.2-1.6.0.jar";
       "encoded" = "modnametooltip_1.10.2-1.6.0.jar";
@@ -1537,6 +1646,7 @@
       "id" = 220954;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["crafttweaker" "mtlib"];
       "filename" = "ModTweaker2-2.0.11.jar";
       "encoded" = "ModTweaker2-2.0.11.jar";
@@ -1551,6 +1661,7 @@
       "id" = 235442;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ModularPowersuits-1.10.2-1.2.111.jar";
       "encoded" = "ModularPowersuits-1.10.2-1.2.111.jar";
@@ -1565,6 +1676,7 @@
       "id" = 250226;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "morebees-1.10.2-1.3.2.jar";
       "encoded" = "morebees-1.10.2-1.3.2.jar";
@@ -1579,6 +1691,7 @@
       "id" = 243478;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "moreoverlays-1.11-mc1.10.2.jar";
       "encoded" = "moreoverlays-1.11-mc1.10.2.jar";
@@ -1593,6 +1706,7 @@
       "id" = 245287;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["autoreglib"];
       "filename" = "Morph-o-Tool-1.0-12.jar";
       "encoded" = "Morph-o-Tool-1.0-12.jar";
@@ -1607,6 +1721,7 @@
       "id" = 229002;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8"];
       "filename" = "MrTJPCore-1.10.2-2.0.0.17-universal.jar";
       "encoded" = "MrTJPCore-1.10.2-2.0.0.17-universal.jar";
@@ -1621,6 +1736,7 @@
       "id" = 253211;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["crafttweaker"];
       "filename" = "MTLib-1.0.2.jar";
       "encoded" = "MTLib-1.0.2.jar";
@@ -1635,6 +1751,7 @@
       "id" = 74120;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mantle"];
       "filename" = "natura-1.10.2-4.1.0.48.jar";
       "encoded" = "natura-1.10.2-4.1.0.48.jar";
@@ -1649,6 +1766,7 @@
       "id" = 252848;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "NaturesCompass-1.10.2-1.3.0.jar";
       "encoded" = "NaturesCompass-1.10.2-1.3.0.jar";
@@ -1663,6 +1781,7 @@
       "id" = 238372;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Neat 1.3-12.jar";
       "encoded" = "Neat%201.3-12.jar";
@@ -1677,6 +1796,7 @@
       "id" = 243277;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["base-metals"];
       "filename" = "NetherMetals_1.9-1.1.2.jar";
       "encoded" = "NetherMetals_1.9-1.1.2.jar";
@@ -1691,6 +1811,7 @@
       "id" = 235595;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer"];
       "filename" = "notenoughwands-1.1x-1.5.4.jar";
       "encoded" = "notenoughwands-1.1x-1.5.4.jar";
@@ -1705,6 +1826,7 @@
       "id" = 252354;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "OpenGlider-1.10.2-0.2.3.jar";
       "encoded" = "OpenGlider-1.10.2-0.2.3.jar";
@@ -1719,6 +1841,7 @@
       "id" = 250832;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ElevatorMod[V.1.3.0][MC.1.10.2].jar";
       "encoded" = "ElevatorMod%5BV.1.3.0%5D%5BMC.1.10.2%5D.jar";
@@ -1733,6 +1856,7 @@
       "id" = 223008;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "OpenComputers-MC1.10.2-1.6.2.7.jar";
       "encoded" = "OpenComputers-MC1.10.2-1.6.2.7.jar";
@@ -1747,6 +1871,7 @@
       "id" = 225819;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["opencomputers"];
       "filename" = "OpenGlasses-1.4.2.jar";
       "encoded" = "OpenGlasses-1.4.2.jar";
@@ -1761,6 +1886,7 @@
       "id" = 255232;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "p455w0rdslib-1.10.2-1.0.13.jar";
       "encoded" = "p455w0rdslib-1.10.2-1.0.13.jar";
@@ -1775,6 +1901,7 @@
       "id" = 221857;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Pam_s HarvestCraft 1.9.4-1.10.2h.jar";
       "encoded" = "Pam's%20HarvestCraft%201.9.4-1.10.2h.jar";
@@ -1789,6 +1916,7 @@
       "id" = 260327;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mantle" "tinkers-construct"];
       "filename" = "plustic-4.4.0.0.jar";
       "maturity" = "release";
@@ -1804,6 +1932,7 @@
       "id" = 221214;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bdlib"];
       "filename" = "pressure-1.3.1.25-mc1.10.2.jar";
       "encoded" = "pressure-1.3.1.25-mc1.10.2.jar";
@@ -1818,6 +1947,7 @@
       "id" = 228702;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8" "mrtjpcore"];
       "filename" = "ProjectRed-1.10.2-4.8.1.30-Base.jar";
       "encoded" = "ProjectRed-1.10.2-4.8.1.30-Base.jar";
@@ -1832,6 +1962,7 @@
       "id" = 229046;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["project-red-base"];
       "filename" = "ProjectRed-1.10.2-4.8.1.30-lighting.jar";
       "encoded" = "ProjectRed-1.10.2-4.8.1.30-lighting.jar";
@@ -1846,6 +1977,7 @@
       "id" = 226410;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ProjectE-1.10.2-PE1.2.0.jar";
       "encoded" = "ProjectE-1.10.2-PE1.2.0.jar";
@@ -1860,6 +1992,7 @@
       "id" = 241665;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["autoreglib"];
       "filename" = "Psi-r1.0-42.jar";
       "encoded" = "Psi-r1.0-42.jar";
@@ -1874,6 +2007,7 @@
       "id" = 235121;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["reborncore"];
       "filename" = "QuantumStorage-1.10.2-3.3.2.jar";
       "encoded" = "QuantumStorage-1.10.2-3.3.2.jar";
@@ -1888,6 +2022,7 @@
       "id" = 243121;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["autoreglib"];
       "filename" = "Quark-r1.1-70.jar";
       "encoded" = "Quark-r1.1-70.jar";
@@ -1902,6 +2037,7 @@
       "id" = 225839;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "FastLeaveDecay-MC1.10.2-1.2.3.jar";
       "encoded" = "FastLeaveDecay-MC1.10.2-1.2.3.jar";
@@ -1916,6 +2052,7 @@
       "id" = 59816;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "RandomThings-MC1.10.2-3.7.7.1.jar";
       "encoded" = "RandomThings-MC1.10.2-3.7.7.1.jar";
@@ -1930,6 +2067,7 @@
       "id" = 247496;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "rangedpumps-0.3.jar";
       "encoded" = "rangedpumps-0.3.jar";
@@ -1944,6 +2082,7 @@
       "id" = 237989;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "RTG-1.10.2-4.1.2.4.jar";
       "encoded" = "RTG-1.10.2-4.1.2.4.jar";
@@ -1958,6 +2097,7 @@
       "id" = 237701;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ReAuth-1.10-3.4.1.jar";
       "encoded" = "ReAuth-1.10-3.4.1.jar";
@@ -1972,6 +2112,7 @@
       "id" = 237903;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "RebornCore-1.10.2-2.13.5.136-universal.jar";
       "encoded" = "RebornCore-1.10.2-2.13.5.136-universal.jar";
@@ -1986,6 +2127,7 @@
       "id" = 70631;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["cofhcore"];
       "filename" = "RedstoneArsenal-1.10.2-2.0.3.29-universal.jar";
       "encoded" = "RedstoneArsenal-1.10.2-2.0.3.29-universal.jar";
@@ -2000,6 +2142,7 @@
       "id" = 226447;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ResourceLoader-MC1.9.4-1.5.1.jar";
       "encoded" = "ResourceLoader-MC1.9.4-1.5.1.jar";
@@ -2014,6 +2157,7 @@
       "id" = 224641;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer" "mcjtylib"];
       "filename" = "rftools-1.1x-5.92.jar";
       "encoded" = "rftools-1.1x-5.92.jar";
@@ -2028,6 +2172,7 @@
       "id" = 250763;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer" "mcjtylib" "rftools"];
       "filename" = "rftoolsctrl-1.1x-1.6.6.jar";
       "encoded" = "rftoolsctrl-1.1x-1.6.6.jar";
@@ -2042,6 +2187,7 @@
       "id" = 240950;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer" "mcjtylib" "rftools"];
       "filename" = "rftoolsdim-1.1x-4.55.jar";
       "encoded" = "rftoolsdim-1.1x-4.55.jar";
@@ -2056,6 +2202,7 @@
       "id" = 253171;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "atmrockhounding-1.2.1.jar";
       "encoded" = "atmrockhounding-1.2.1.jar";
@@ -2070,6 +2217,7 @@
       "id" = 251992;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "rockhounding_oretiers-1.10.2-v1.19.jar";
       "encoded" = "rockhounding_oretiers-1.10.2-v1.19.jar";
@@ -2084,6 +2232,7 @@
       "id" = 221585;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "RoguelikeDungeons-1.10.2-1.5.9.jar";
       "encoded" = "RoguelikeDungeons-1.10.2-1.5.9.jar";
@@ -2098,6 +2247,7 @@
       "id" = 246183;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "roots-0.208.jar";
       "encoded" = "roots-0.208.jar";
@@ -2112,6 +2262,7 @@
       "id" = 245849;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "roughMobs1.0.9-1.10.2.jar";
       "encoded" = "roughMobs1.0.9-1.10.2.jar";
@@ -2126,6 +2277,7 @@
       "id" = 223722;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["blood-magic"];
       "filename" = "Sanguimancy-1.10.2-2.0.2.jar";
       "encoded" = "Sanguimancy-1.10.2-2.0.2.jar";
@@ -2140,6 +2292,7 @@
       "id" = 248453;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Forgelin-1.4.1.jar";
       "encoded" = "Forgelin-1.4.1.jar";
@@ -2154,6 +2307,7 @@
       "id" = 226780;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["shadowfacts-forgelin"];
       "filename" = "ShadowMC-1.10.2-3.6.1.jar";
       "encoded" = "ShadowMC-1.10.2-3.6.1.jar";
@@ -2168,6 +2322,7 @@
       "id" = 245824;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Signals-1.10.2-0.5.1-universal.jar";
       "encoded" = "Signals-1.10.2-0.5.1-universal.jar";
@@ -2182,6 +2337,7 @@
       "id" = 242498;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["bdlib" "mcmultipart"];
       "filename" = "covers-0.4.1.17-mc1.10.2.jar";
       "encoded" = "covers-0.4.1.17-mc1.10.2.jar";
@@ -2196,6 +2352,7 @@
       "id" = 254466;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["reborncore"];
       "filename" = "Simple-Void-World-1.10.2-1.1.0.4-universal.jar";
       "encoded" = "Simple-Void-World-1.10.2-1.1.0.4-universal.jar";
@@ -2210,6 +2367,7 @@
       "id" = 232134;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "simplelabels-1-10.2-0.0.3.jar";
       "encoded" = "simplelabels-1-10.2-0.0.3.jar";
@@ -2224,6 +2382,7 @@
       "id" = 251792;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "SimplyJetpacks2-1.10.2-2.1.1.43.jar";
       "encoded" = "SimplyJetpacks2-1.10.2-2.1.1.43.jar";
@@ -2238,6 +2397,7 @@
       "id" = 244584;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["shadowmc"];
       "filename" = "SleepingBag-1.10.2-1.4.0.jar";
       "encoded" = "SleepingBag-1.10.2-1.4.0.jar";
@@ -2252,6 +2412,7 @@
       "id" = 239418;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "SonarCore-1.10.2-3.2.7.jar";
       "encoded" = "SonarCore-1.10.2-3.2.7.jar";
@@ -2266,6 +2427,7 @@
       "id" = 261562;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "spontaneouscollection-0.0.2.jar";
       "encoded" = "spontaneouscollection-0.0.2.jar";
@@ -2280,6 +2442,7 @@
       "id" = 225606;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["lunatriuscore"];
       "filename" = "Stackie-1.10.2-1.6.0.44-universal.jar";
       "encoded" = "Stackie-1.10.2-1.6.0.44-universal.jar";
@@ -2294,6 +2457,7 @@
       "id" = 235753;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mcmultipart"];
       "filename" = "StacksOnStacks2-1.1.4.jar";
       "encoded" = "StacksOnStacks2-1.1.4.jar";
@@ -2308,6 +2472,7 @@
       "id" = 223852;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["chameleon"];
       "filename" = "StorageDrawers-1.10.2-3.7.1.jar";
       "encoded" = "StorageDrawers-1.10.2-3.7.1.jar";
@@ -2322,6 +2487,7 @@
       "id" = 248619;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mcmultipart"];
       "filename" = "SuperCircuitMaker-1.0.4.jar";
       "encoded" = "SuperCircuitMaker-1.0.4.jar";
@@ -2336,6 +2502,7 @@
       "id" = 245211;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer"];
       "filename" = "theoneprobe-1.1x-1.4.6.jar";
       "encoded" = "theoneprobe-1.1x-1.4.6.jar";
@@ -2350,6 +2517,7 @@
       "id" = 220811;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["applecore"];
       "filename" = "SpiceOfLife-mc1.9.4-1.3.8.jar";
       "encoded" = "SpiceOfLife-mc1.9.4-1.3.8.jar";
@@ -2364,6 +2532,7 @@
       "id" = 222880;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["cofhcore"];
       "filename" = "ThermalFoundation-1.10.2-2.0.5.81-universal.jar";
       "encoded" = "ThermalFoundation-1.10.2-2.0.5.81-universal.jar";
@@ -2378,6 +2547,7 @@
       "id" = 69163;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8" "cofhcore" "thermal-foundation"];
       "filename" = "ThermalExpansion-1.10.2-5.0.4.90-universal.jar";
       "encoded" = "ThermalExpansion-1.10.2-5.0.4.90-universal.jar";
@@ -2392,6 +2562,7 @@
       "id" = 74072;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mantle"];
       "filename" = "TConstruct-1.10.2-2.6.3.jar";
       "encoded" = "TConstruct-1.10.2-2.6.3.jar";
@@ -2406,6 +2577,7 @@
       "id" = 250957;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mantle" "tinkers-construct"];
       "filename" = "TinkerToolLeveling-1.10.2-1.0.1.jar";
       "encoded" = "TinkerToolLeveling-1.10.2-1.0.1.jar";
@@ -2420,6 +2592,7 @@
       "id" = 245224;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "TombManyGraves-1.10.2-2.1.16.jar";
       "encoded" = "TombManyGraves-1.10.2-2.1.16.jar";
@@ -2434,6 +2607,7 @@
       "id" = 247111;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["the-one-probe"];
       "filename" = "topaddons-1.10.2-0.9.1c.jar";
       "encoded" = "topaddons-1.10.2-0.9.1c.jar";
@@ -2448,6 +2622,7 @@
       "id" = 254268;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "torchmaster_1.10.2-1.2.1.23.jar";
       "encoded" = "torchmaster_1.10.2-1.2.1.23.jar";
@@ -2462,6 +2637,7 @@
       "id" = 247695;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["codechicken-lib-1-8"];
       "filename" = "Translocators-1.10.2-2.1.4.55-universal.jar";
       "encoded" = "Translocators-1.10.2-2.1.4.55-universal.jar";
@@ -2476,6 +2652,7 @@
       "id" = 235577;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "TrashSlot_1.10.2-6.3.7.jar";
       "encoded" = "TrashSlot_1.10.2-6.3.7.jar";
@@ -2490,6 +2667,7 @@
       "id" = 264071;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["extreme-reactors" "industrial-craft"];
       "filename" = "ExtremeUraniumReactor-1.0.jar";
       "encoded" = "ExtremeUraniumReactor-1.0.jar";
@@ -2504,6 +2682,7 @@
       "id" = 244559;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["applied-energistics-2" "p455w0rds-library"];
       "filename" = "WirelessCraftingTerminal-1.10.2-0.1.29.jar";
       "encoded" = "WirelessCraftingTerminal-1.10.2-0.1.29.jar";
@@ -2518,6 +2697,7 @@
       "id" = 244049;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "woot-1.10.2-1.4.0-alpha1.jar";
       "encoded" = "woot-1.10.2-1.4.0-alpha1.jar";
@@ -2532,6 +2712,7 @@
       "id" = 225608;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "worldedit-forge-mc1.10.2-6.1.4-dist.jar";
       "encoded" = "worldedit-forge-mc1.10.2-6.1.4-dist.jar";
@@ -2546,6 +2727,7 @@
       "id" = 260912;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["compatlayer" "mcjtylib"];
       "filename" = "xnet-1.2.0.jar";
       "encoded" = "xnet-1.2.0.jar";
@@ -2560,6 +2742,7 @@
       "id" = 257573;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Xtones-1.10.2-1.0.1-3.jar";
       "encoded" = "Xtones-1.10.2-1.0.1-3.jar";
@@ -2574,6 +2757,7 @@
       "id" = 247921;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "zerocore-1.10.2-0.1.0.4.jar";
       "encoded" = "zerocore-1.10.2-0.1.0.4.jar";

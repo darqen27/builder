@@ -8,6 +8,7 @@
       "id" = 244830;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["forgeendertech"];
       "filename" = "AdChimneys-1.10.2-1.1.4.0.jar";
       "encoded" = "AdChimneys-1.10.2-1.1.4.0.jar";
@@ -22,6 +23,7 @@
       "id" = 244849;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["forgeendertech"];
       "filename" = "AdHooks-1.10.2-1.0.2.4.jar";
       "encoded" = "AdHooks-1.10.2-1.0.2.4.jar";
@@ -36,6 +38,7 @@
       "id" = 224472;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AppleCore-mc1.10.2-2.1.0.jar";
       "encoded" = "AppleCore-mc1.10.2-2.1.0.jar";
@@ -50,6 +53,7 @@
       "id" = 248787;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AppleSkin-mc1.10.2-1.0.4.jar";
       "encoded" = "AppleSkin-mc1.10.2-1.0.4.jar";
@@ -64,6 +68,7 @@
       "id" = 250363;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AutoRegLib-1.0-2.jar";
       "encoded" = "AutoRegLib-1.0-2.jar";
@@ -78,6 +83,7 @@
       "id" = 70496;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "bdlib-1.12.2.17-mc1.10.2.jar";
       "encoded" = "bdlib-1.12.2.17-mc1.10.2.jar";
@@ -92,6 +98,7 @@
       "id" = 246760;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Better With Mods-0.14.24-1.10.2.jar";
       "maturity" = "beta";
@@ -107,6 +114,7 @@
       "id" = 226321;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Bloodmoon-MC1.10.2-1.5.1.jar";
       "encoded" = "Bloodmoon-MC1.10.2-1.5.1.jar";
@@ -121,6 +129,7 @@
       "id" = 247395;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Bullseye-1.9.4-1.0.3.jar";
       "encoded" = "Bullseye-1.9.4-1.0.3.jar";
@@ -135,6 +144,7 @@
       "id" = 246125;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CanIJoinNow-1.10-1.0-4.jar";
       "encoded" = "CanIJoinNow-1.10-1.0-4.jar";
@@ -149,6 +159,7 @@
       "id" = 230497;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Chameleon-1.10-2.2.2.jar";
       "encoded" = "Chameleon-1.10-2.2.2.jar";
@@ -163,6 +174,7 @@
       "id" = 246634;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mcmultipart"];
       "filename" = "Charset-0.3.0-pre15.jar";
       "encoded" = "Charset-0.3.0-pre15.jar";
@@ -177,6 +189,7 @@
       "id" = 231095;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "chiselsandbits-12.8.jar";
       "encoded" = "chiselsandbits-12.8.jar";
@@ -191,6 +204,7 @@
       "id" = 242568;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ClayBucket-1.9.4-1.1.jar";
       "encoded" = "ClayBucket-1.9.4-1.1.jar";
@@ -205,6 +219,7 @@
       "id" = 252676;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["shadowfacts-forgelin" "shadowmc"];
       "filename" = "Clipboard-1.10.2-1.1.1.jar";
       "encoded" = "Clipboard-1.10.2-1.1.1.jar";
@@ -219,6 +234,7 @@
       "id" = 253729;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "compatlayer-1.10-0.2.9.jar";
       "maturity" = "release";
@@ -234,6 +250,7 @@
       "id" = 248994;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CoralReef-1.2.jar";
       "encoded" = "CoralReef-1.2.jar";
@@ -248,6 +265,7 @@
       "id" = 233071;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CraftingTweaks_1.10.2-6.1.16.jar";
       "encoded" = "CraftingTweaks_1.10.2-6.1.16.jar";
@@ -262,6 +280,7 @@
       "id" = 239197;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CraftTweaker-1.10.2-3.0.25.jar";
       "maturity" = "release";
@@ -277,6 +296,7 @@
       "id" = 244330;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "DeathCounter-1.10.2-5.jar";
       "encoded" = "DeathCounter-1.10.2-5.jar";
@@ -291,6 +311,7 @@
       "id" = 232131;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "DefaultOptions_1.10.2-6.1.5.jar";
       "encoded" = "DefaultOptions_1.10.2-6.1.5.jar";
@@ -305,6 +326,7 @@
       "id" = 231275;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Ding-1.10.2-1.0.1.jar";
       "encoded" = "Ding-1.10.2-1.0.1.jar";
@@ -319,6 +341,7 @@
       "id" = 244738;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "DoubleJump-1.10.2-1.0.0.jar";
       "encoded" = "DoubleJump-1.10.2-1.0.0.jar";
@@ -333,6 +356,7 @@
       "id" = 247712;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["chisels-bits" "storage-drawers"];
       "filename" = "DrawersBits-1.10.2-0.35.jar";
       "encoded" = "DrawersBits-1.10.2-0.35.jar";
@@ -347,6 +371,7 @@
       "id" = 238891;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "DynamicSurroundings-1.10.2-3.4.5.1.jar";
       "maturity" = "beta";
@@ -362,6 +387,7 @@
       "id" = 225247;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "EnderZoo-1.10-1.2.3.43.jar";
       "encoded" = "EnderZoo-1.10-1.2.3.43.jar";
@@ -376,6 +402,7 @@
       "id" = 231868;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "EnderCore-1.10.2-0.4.1.61-beta.jar";
       "encoded" = "EnderCore-1.10.2-0.4.1.61-beta.jar";
@@ -390,6 +417,7 @@
       "id" = 233180;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Excore-1.6.2-1.10.2.jar";
       "encoded" = "Excore-1.6.2-1.10.2.jar";
@@ -404,6 +432,7 @@
       "id" = 240712;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ExtendAHand-1.10.2-1.3.jar";
       "encoded" = "ExtendAHand-1.10.2-1.3.jar";
@@ -418,6 +447,7 @@
       "id" = 247357;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "extraalchemy-0.3.0.4-hotfix-release.jar";
       "encoded" = "extraalchemy-0.3.0.4-hotfix-release.jar";
@@ -432,6 +462,7 @@
       "id" = 247665;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["shadowmc"];
       "filename" = "ExtraRails-1.10.2-1.1.1.jar";
       "encoded" = "ExtraRails-1.10.2-1.1.1.jar";
@@ -446,6 +477,7 @@
       "id" = 229708;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Farseek-1.9.4-2.0.jar";
       "encoded" = "Farseek-1.9.4-2.0.jar";
@@ -460,6 +492,7 @@
       "id" = 246222;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "[1.10.x]FenceOverhaul-1.2.1.jar";
       "encoded" = "%5B1.10.x%5DFenceOverhaul-1.2.1.jar";
@@ -474,6 +507,7 @@
       "id" = 244844;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ForgeEndertech-1.10.2-1.1.3.0.jar";
       "encoded" = "ForgeEndertech-1.10.2-1.1.3.0.jar";
@@ -488,6 +522,7 @@
       "id" = 227441;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "FullscreenWindowed-1.10.2-1.3.0b.jar";
       "encoded" = "FullscreenWindowed-1.10.2-1.3.0b.jar";
@@ -502,6 +537,7 @@
       "id" = 227657;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "GlobalGameRules-1.10.2-2.0.jar";
       "encoded" = "GlobalGameRules-1.10.2-2.0.jar";
@@ -516,6 +552,7 @@
       "id" = 238928;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "hammerz-1.10.2-1.1.5.20.jar";
       "encoded" = "hammerz-1.10.2-1.1.5.20.jar";
@@ -530,6 +567,7 @@
       "id" = 225957;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "HardcoreDarkness-MC1.9.4-1.8.jar";
       "encoded" = "HardcoreDarkness-MC1.9.4-1.8.jar";
@@ -544,6 +582,7 @@
       "id" = 224473;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["applecore"];
       "filename" = "HungerInPeace-mc1.9.4-1.0.0.jar";
       "encoded" = "HungerInPeace-mc1.9.4-1.0.0.jar";
@@ -558,6 +597,7 @@
       "id" = 248747;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "justenoughbuttons-1.10.2-1.6.3.jar";
       "encoded" = "justenoughbuttons-1.10.2-1.6.3.jar";
@@ -572,6 +612,7 @@
       "id" = 238222;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "jei_1.10.2-3.13.6.387.jar";
       "encoded" = "jei_1.10.2-3.13.6.387.jar";
@@ -586,6 +627,7 @@
       "id" = 240630;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["just-enough-items-jei"];
       "filename" = "JustEnoughResources-1.10.2-0.5.8.98.jar";
       "encoded" = "JustEnoughResources-1.10.2-0.5.8.98.jar";
@@ -600,6 +642,7 @@
       "id" = 241895;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "KleeSlabs_1.10.2-3.3.5.jar";
       "encoded" = "KleeSlabs_1.10.2-3.3.5.jar";
@@ -614,6 +657,7 @@
       "id" = 253021;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["llibrary" "shadowfacts-forgelin"];
       "filename" = "literalascension-1.10.2-1.0.0.3.jar";
       "encoded" = "literalascension-1.10.2-1.0.0.3.jar";
@@ -628,6 +672,7 @@
       "id" = 243298;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "llibrary-1.7.2-1.10.2.jar";
       "encoded" = "llibrary-1.7.2-1.10.2.jar";
@@ -642,6 +687,7 @@
       "id" = 74924;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Mantle-1.10.2-1.1.3.jar";
       "encoded" = "Mantle-1.10.2-1.1.3.jar";
@@ -656,6 +702,7 @@
       "id" = 239431;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MCMultiPart-1.3.0-universal.jar";
       "encoded" = "MCMultiPart-1.3.0-universal.jar";
@@ -670,6 +717,7 @@
       "id" = 225738;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MmmMmmMmmMmm-1.11.jar";
       "encoded" = "MmmMmmMmmMmm-1.11.jar";
@@ -684,6 +732,7 @@
       "id" = 238747;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "modnametooltip_1.10.2-1.6.0.jar";
       "encoded" = "modnametooltip_1.10.2-1.6.0.jar";
@@ -698,6 +747,7 @@
       "id" = 69118;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Morpheus-1.10.2-3.1.13.jar";
       "encoded" = "Morpheus-1.10.2-3.1.13.jar";
@@ -712,6 +762,7 @@
       "id" = 60089;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "MouseTweaks-2.6.4-mc1.10.2.jar";
       "encoded" = "MouseTweaks-2.6.4-mc1.10.2.jar";
@@ -726,6 +777,7 @@
       "id" = 238372;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Neat 1.3-12.jar";
       "encoded" = "Neat%201.3-12.jar";
@@ -740,6 +792,7 @@
       "id" = 241576;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["mantle"];
       "filename" = "nethercore-1.10.2-2.0.3.jar";
       "encoded" = "nethercore-1.10.2-2.0.3.jar";
@@ -754,6 +807,7 @@
       "id" = 241160;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "netherportalfix-mc1.9.4-4.0.1.jar";
       "encoded" = "netherportalfix-mc1.9.4-4.0.1.jar";
@@ -768,6 +822,7 @@
       "id" = 226779;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "NoMobSpawningOnTrees-1.1.9-mc1.10.2.jar";
       "encoded" = "NoMobSpawningOnTrees-1.1.9-mc1.10.2.jar";
@@ -782,6 +837,7 @@
       "id" = 231837;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "OceanFloor-1.10.2-1.0.1.jar";
       "encoded" = "OceanFloor-1.10.2-1.0.1.jar";
@@ -796,6 +852,7 @@
       "id" = 239170;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "PlaceableGunpowder-1.1_1.9.4.jar";
       "encoded" = "PlaceableGunpowder-1.1_1.9.4.jar";
@@ -810,6 +867,7 @@
       "id" = 243121;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["autoreglib"];
       "filename" = "Quark-r1.1-68.jar";
       "encoded" = "Quark-r1.1-68.jar";
@@ -824,6 +882,7 @@
       "id" = 225839;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "FastLeaveDecay-MC1.10.2-1.2.3.jar";
       "encoded" = "FastLeaveDecay-MC1.10.2-1.2.3.jar";
@@ -838,6 +897,7 @@
       "id" = 248453;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Forgelin-1.1.0.jar";
       "encoded" = "Forgelin-1.1.0.jar";
@@ -852,6 +912,7 @@
       "id" = 226780;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["shadowfacts-forgelin"];
       "filename" = "ShadowMC-1.10.2-3.6.0.jar";
       "encoded" = "ShadowMC-1.10.2-3.6.0.jar";
@@ -866,6 +927,7 @@
       "id" = 222789;
       "side" = "client";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "SoundFilters-0.9_for_1.9.4.jar";
       "encoded" = "SoundFilters-0.9_for_1.9.4.jar";
@@ -880,6 +942,7 @@
       "id" = 223852;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["chameleon"];
       "filename" = "StorageDrawers-1.10.2-3.5.16.jar";
       "encoded" = "StorageDrawers-1.10.2-3.5.16.jar";
@@ -894,6 +957,7 @@
       "id" = 229769;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["farseek"];
       "filename" = "Streams-1.9.4-0.3.jar";
       "encoded" = "Streams-1.9.4-0.3.jar";
@@ -908,6 +972,7 @@
       "id" = 250290;
       "side" = "client";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Surge-1.10.2-1.0.0.50.jar";
       "encoded" = "Surge-1.10.2-1.0.0.50.jar";
@@ -922,6 +987,7 @@
       "id" = 243280;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "thirdpersonelytra-110.2-1.0.jar";
       "encoded" = "thirdpersonelytra-110.2-1.0.jar";
@@ -936,6 +1002,7 @@
       "id" = 243315;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "vending-1.9.4-1.3.4.jar";
       "encoded" = "vending-1.9.4-1.3.4.jar";
@@ -950,6 +1017,7 @@
       "id" = 251767;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Waddles-1.10.2-0.5.0.jar";
       "encoded" = "Waddles-1.10.2-0.5.0.jar";

@@ -7,6 +7,7 @@
       "name" = "Optifine";
       "side" = "client";
       "required" = false;
+      "default" = false;
       "deps" = [];
       "filename" = "OptiFine_1.10.2_HD_U_D8.jar";
       "encoded" = "OptiFine_1.10.2_HD_U_D8.jar";
@@ -20,6 +21,7 @@
       "id" = 250577;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["autoreglib"];
       "filename" = "AkashicTome-1.0-5.jar";
       "maturity" = "release";
@@ -35,6 +37,7 @@
       "id" = 250363;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "AutoRegLib-1.0-2.jar";
       "maturity" = "release";
@@ -50,6 +53,7 @@
       "id" = 235036;
       "side" = "server";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "chunkgen-1.10.2-1.5.0.jar";
       "maturity" = "beta";
@@ -65,6 +69,7 @@
       "id" = 221826;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "CustomNPCs_1.10.2(25may17).jar";
       "maturity" = "release";
@@ -80,6 +85,7 @@
       "id" = 231275;
       "side" = "client";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Ding-1.10.2-1.0.1.jar";
       "maturity" = "release";
@@ -95,6 +101,7 @@
       "id" = 59433;
       "side" = "server";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Dynmap-2.4-forge-1.10.2.jar";
       "maturity" = "release";
@@ -109,6 +116,7 @@
       "name" = "foamfix";
       "side" = "both";
       "required" = false;
+      "default" = true;
       "deps" = [];
       "filename" = "foamfix-0.6.2-anarchy.jar";
       "encoded" = "foamfix-0.6.2-anarchy.jar";
@@ -122,6 +130,7 @@
       "id" = 227441;
       "side" = "client";
       "required" = false;
+      "default" = true;
       "deps" = [];
       "filename" = "FullscreenWindowed-1.10.2-1.5.0.jar";
       "maturity" = "release";
@@ -137,6 +146,7 @@
       "id" = 223797;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "HelpFixer-1.10.2-1.4.15.jar";
       "maturity" = "release";
@@ -152,6 +162,7 @@
       "id" = 242223;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["just-enough-items-jei"];
       "filename" = "JustEnoughCalculation-1.10.2-2.6.4.jar";
       "maturity" = "release";
@@ -167,6 +178,7 @@
       "id" = 238222;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "jei_1.10.2-3.14.7.419.jar";
       "maturity" = "release";
@@ -182,6 +194,7 @@
       "id" = 240630;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = ["just-enough-items-jei"];
       "filename" = "JustEnoughResources-1.10.2-0.5.9.3.jar";
       "maturity" = "alpha";
@@ -197,6 +210,7 @@
       "id" = 228513;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "LoadingProfiler-MC1.9.4-1.3.jar";
       "maturity" = "release";
@@ -212,6 +226,7 @@
       "id" = 225605;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "LunatriusCore-1.10.2-1.1.2.38-universal.jar";
       "maturity" = "release";
@@ -227,6 +242,7 @@
       "id" = 254573;
       "side" = "server";
       "required" = true;
+      "default" = true;
       "deps" = ["shadowfacts-forgelin"];
       "filename" = "prometheus-integration-0.2.1.jar";
       "maturity" = "alpha";
@@ -242,6 +258,7 @@
       "id" = 237701;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ReAuth-1.10-3.4.1.jar";
       "maturity" = "release";
@@ -257,6 +274,7 @@
       "id" = 225603;
       "side" = "client";
       "required" = false;
+      "default" = true;
       "deps" = ["lunatriuscore"];
       "filename" = "Schematica-1.10.2-1.7.8.153-universal.jar";
       "maturity" = "release";
@@ -272,6 +290,7 @@
       "id" = 248453;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "Forgelin-1.4.2.jar";
       "maturity" = "release";
@@ -287,6 +306,7 @@
       "id" = 268347;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "signalcatcher-1.0.jar";
       "maturity" = "release";
@@ -302,6 +322,7 @@
       "id" = 231124;
       "side" = "both";
       "required" = false;
+      "default" = true;
       "deps" = [];
       "filename" = "Thump-1.10.2-4.3.0.3.jar";
       "maturity" = "release";
@@ -316,6 +337,7 @@
       "name" = "tick-profiler";
       "side" = "server";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "TickProfiler-1.10.2.jenkins.31.jar";
       "encoded" = "TickProfiler-1.10.2.jenkins.31.jar";
@@ -329,6 +351,7 @@
       "id" = 260262;
       "side" = "both";
       "required" = true;
+      "default" = true;
       "deps" = [];
       "filename" = "ToolBelt-1.10.2-1.6.1.jar";
       "maturity" = "release";
