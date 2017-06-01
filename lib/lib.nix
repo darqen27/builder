@@ -27,6 +27,7 @@ rec {
     screenName,
     port,
     forge,
+    ram ? "4000m",
     manifests ? [],
     blacklist ? [],
     extraDirs ? [],
@@ -86,7 +87,7 @@ rec {
     server = symlinkJoin {
       name = name + "-server";
 
-      inherit screenName;
+      inherit screenName ram;
 
       paths = [
         forgeDir
