@@ -49,7 +49,7 @@ rec {
     description = "Erisia #17: Canis meus id comedit";
     screenName = "e17";
     port = 25565;
-    ram = "8000m";
+    ram = "10000m";
     forge = {
       major = "1.10.2";
       minor = "12.18.3.2254";
