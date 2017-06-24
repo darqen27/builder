@@ -180,13 +180,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "jei_1.10.2-3.14.7.419.jar";
-      "maturity" = "release";
-      "encoded" = "jei_1.10.2-3.14.7.419.jar";
-      "page" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2412009";
-      "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2412009/download";
+      "filename" = "jei_1.10.2-3.14.7.420.jar";
+      "maturity" = "beta";
+      "encoded" = "jei_1.10.2-3.14.7.420.jar";
+      "page" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2428966";
+      "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2428966/download";
       "type" = "remote";
-      "md5" = "0218d1af77de19642a0c3c6f902ef5d7";
+      "md5" = "3032232d12936443ae20a9ea1b505340";
     };
     "just-enough-resources-jer" = {
       "title" = "Just Enough Resources (JER)";
@@ -260,13 +260,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ReAuth-1.10-3.4.1.jar";
+      "filename" = "ReAuth-3.5.0.jar";
       "maturity" = "release";
-      "encoded" = "ReAuth-1.10-3.4.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/reauth/files/2370015";
-      "src" = "https://minecraft.curseforge.com/projects/reauth/files/2370015/download";
+      "encoded" = "ReAuth-3.5.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/reauth/files/2432898";
+      "src" = "https://minecraft.curseforge.com/projects/reauth/files/2432898/download";
       "type" = "remote";
-      "md5" = "8d073dfe54bf69c460c1966e59ae957d";
+      "md5" = "094da00434c5d053e0096dd2aa8275d6";
     };
     "schematica" = {
       "title" = "Schematica";
@@ -292,13 +292,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Forgelin-1.4.2.jar";
+      "filename" = "Forgelin-1.5.0.jar";
       "maturity" = "release";
-      "encoded" = "Forgelin-1.4.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2413458";
-      "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2413458/download";
+      "encoded" = "Forgelin-1.5.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2432572";
+      "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2432572/download";
       "type" = "remote";
-      "md5" = "91b731bcb253b1af3829e98ddef23941";
+      "md5" = "11ed600a3bc30c036fcb2a8a3acdb25a";
     };
     "signal-catcher" = {
       "title" = "Signal-Catcher";
@@ -332,18 +332,21 @@
       "type" = "remote";
       "md5" = "2fd6e4babedde91f341d6bf6b3e17019";
     };
-    "tick-profiler" = {
-      "title" = "tick-profiler";
-      "name" = "tick-profiler";
+    "tickprofiler" = {
+      "title" = "TickProfiler";
+      "name" = "tickprofiler";
+      "id" = 270330;
       "side" = "server";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "TickProfiler-1.10.2.jenkins.31.jar";
-      "encoded" = "TickProfiler-1.10.2.jenkins.31.jar";
-      "src" = ../bundled/TickProfiler-1.10.2.jenkins.31.jar;
-      "type" = "local";
-      "md5" = "63f14ff7ebbb06800f69bb3e7b4d953b";
+      "filename" = "TickProfiler-1.10.2-jenkins.57.jar";
+      "maturity" = "beta";
+      "encoded" = "TickProfiler-1.10.2-jenkins.57.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tickprofiler/files/2440301";
+      "src" = "https://minecraft.curseforge.com/projects/tickprofiler/files/2440301/download";
+      "type" = "remote";
+      "md5" = "d33bb9b881d7699aedc9a635cb23ff4e";
     };
     "tool-belt" = {
       "title" = "Tool Belt";

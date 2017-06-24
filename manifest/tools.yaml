@@ -18,11 +18,8 @@ mods:
   curse: false
   files:
     - src: "../bundled/foamfix-0.6.2-anarchy.jar"
-- name: "tick-profiler"
+- name: "tickprofiler"
   side: "server"
-  curse: false
-  files:
-  - src: "../bundled/TickProfiler-1.10.2.jenkins.31.jar"
 - name: "dynmapforge"
   side: "server"
 - name: "fullscreen-windowed-borderless-for-minecraft"
