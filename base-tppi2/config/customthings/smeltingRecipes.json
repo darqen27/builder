@@ -1,0 +1,57 @@
+{"data":
+	[
+		{
+			"input":"foodBottlewater",
+			"output":"foodSalt",
+			"outputAmount":8
+		},
+
+		{
+			"input":"minecraft:cooked_beef",
+			"output":"foodJerky",
+			"outputAmount":2
+		},
+
+		{
+			"input":"minecraft:cooked_porkchop",
+			"output":"foodBacon",
+			"outputAmount":2
+		},
+
+		{
+			"input":"foodDough",
+			"output":"foodToast",
+			"outputAmount":2
+		},
+
+		{
+			"input":"foodUncookedrice",
+			"output":"foodSteamedrice"
+		},
+
+		{
+			"input":"foodUncookedfrenchfries",
+			"output":"foodFrenchfries"
+		},
+
+		{
+			"input":"foodUncookedfruitpie",
+			"output":"foodFruitpie"
+		},
+
+		{
+			"input":"minecraft:egg",
+			"output":"foodFriedegg"
+		},
+        
+        {
+            "input":"foodUncookedburgerbun",
+            "output":"foodBurgerbun"
+        },
+        
+        {
+            "input":"foodUncookedpatty",
+            "output":"foodCookedpatty"
+        }
+	]
+}

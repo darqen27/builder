@@ -1,0 +1,5 @@
+NOTE: We recommend the use of FastCraft by Player, a mod that provides increased performance.  It is available through a GUI when you first launch the game. Any bug reports made to Mod Authors while using it must state if you are using it.
+
+Welcome to the second iteration of TestPackPleaseIgnore, a mod pack that's designed and configured to have better balance between the variety of mods included.  This, along with a varied modlist, allows for longer lived worlds than the norms for modded minecraft.  Remember: You can report all bugs on our GitHub repo.
+
+Mod List: https://github.com/TPPIDev/TestPackPleaseIgnore2/blob/Development/ModVersions.txt

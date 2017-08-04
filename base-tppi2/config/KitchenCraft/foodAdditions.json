@@ -1,0 +1,315 @@
+{"foods":
+	[{
+		"name": "lettuce",
+		"food": "1",
+		"saturation": 0.3,
+		"isMeat": false,
+		"color": 8112513,
+		"makeSeed": true,
+		"isEdible": true,
+		"seedRecipe": true,
+		"oreDictNames":["foodVeggie"]
+	},
+
+	{
+		"name": "onion",
+		"food": "1",
+		"saturation": 0.3,
+		"isMeat": false,
+		"color": 15790028,
+		"makeSeed": true,
+		"isEdible": true,
+		"seedRecipe": true,
+		"oreDictNames":["foodCrop", "foodVeggie"]
+	},
+
+	{
+		"name": "rice",
+		"food": "1",
+		"saturation": 0.3,
+		"isMeat": false,
+		"color": 14077372,
+		"makeSeed": true,
+		"isEdible": true,
+		"seedRecipe": true
+	},
+
+	{
+		"name": "salt",
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": false,
+		"oreDictNames":["itemSalt"]
+	},
+
+	{
+		"name": "dough",
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": false
+	},
+	
+	{
+		"name": "bottlewater",
+		"food": "0",
+		"saturation": 0,
+		"isMeat": false,
+		"makeSeed": false,
+		"isAlwaysEdible": true,
+		"isDrink": true
+	},
+
+	{
+		"name": "uncookedfrenchfries",
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": false
+	},
+
+	{
+		"name": "uncookedrice",
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": false
+	},
+
+	{
+		"name": "uncookedfruitpie",
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": false
+	},
+
+	{
+		"name": "jerky",
+		"food": "4",
+		"saturation": 1.1,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "bacon",
+		"food": "4",
+		"saturation": 1.1,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "friedegg",
+		"food": "4",
+		"saturation": 1.1,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "homefries",
+		"food": "4",
+		"saturation": 1.1,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "toast",
+		"food": "5",
+		"saturation": 0.3,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "frenchfries",
+		"food": "4",
+		"saturation": 1.1,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "ultimatebreakfast",
+		"food": "12",
+		"saturation": 0.7,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "steamedrice",
+		"food": "6",
+		"saturation": 0.9,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "friedrice",
+		"food": "8",
+		"saturation": 0.8,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "springsalad",
+		"food": "6",
+		"saturation": 0.9,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+    
+	{
+		"name": "fruitpie",
+		"food": "10",
+		"saturation": 0.75,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "uncookedburgerbun",
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": false
+	},
+
+	{
+		"name": "burgerbun",
+		"food": "2",
+		"saturation": 1,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "cheese",
+		"food": "2",
+		"saturation": 0.5,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "dragonpepper",
+		"food": "3",
+		"saturation": 0.3,
+		"color": 10701220,
+		"isMeat": false,
+		"makeSeed": true,
+		"isEdible": true,
+		"seedRecipe": true,
+		"oreDictNames":["foodFruit"]
+	},
+
+	{
+		"name": "uncookedpatty",
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": false
+	},
+
+	{
+		"name": "cookedpatty",
+		"food": "4",
+		"saturation": 1.5,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name":	"burger",
+		"food": "8",
+		"saturation": 1.25,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "baconburger",
+		"food": "8",
+		"saturation": 1.6,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "cheeseburger",
+		"food": "8",
+		"saturation": 1.6,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "dragonburger",
+		"food": "8",
+		"saturation": 1.6,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "cheesydragonburger",
+		"food": "10",
+		"saturation": 1.6,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "baconcheeseburger",
+		"food": "10",
+		"saturation": 1.6,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "bacondragonburger",
+		"food": "10",
+		"saturation": 1.6,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+
+	{
+		"name": "slysdragonburger",
+		"food": "14",
+		"saturation": 1.35,
+		"isMeat": true,
+		"makeSeed": false,
+		"isEdible": true
+	},
+	
+	{
+		"name": "grilledcheesesammich",
+		"food": "6",
+		"saturation": 0.8,
+		"isMeat": false,
+		"makeSeed": false,
+		"isEdible": true
+	}]
+}

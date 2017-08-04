@@ -1,0 +1,142 @@
+TPPI2v0.2.5~
+- Updated Mekanism (Generators)
+~
+- Updated Carpenter's Blocks
+~
+- Fixed Quarry recipe
+~~~
+- Disabled ExtraTiC Mekanism support due to OP values
+~~~
+TPPI2v0.2.5~
+- Updated EnderCore
+~
+- Updated EnderIO
+~
+- Updated EnderStorage
+~~~
+- Updated NotEnoughItems
+~
+- Fixed NBT crash with Mekanism
+~
+- Slightly increased BigReactors fuel multiplier
+~~~
+- Fixed recipe for the MT Core
+~~~
+TPPI2v0.2.4~
+- EndermanMiningAssistant doesn't accept LM portal anymore. Again.
+~
+- More unification of `dustWood` types.
+~
+- Fix a crash with Mekanism not checking for null NBT tags.
+~~~
+- Fixed a Malisis Doors crash
+~
+- Fixed Nightvision Goggles not being craftable
+~
+- Updated Minetweaker to new version since it's fixed now
+~~~
+TPPI2v0.2.3~
+- Updated Sanguimancy to fix crash with BM rituals
+~
+- Downgraded Minetweaker to fix desync issue
+~
+- Re-disable EnderIO's "replaceWitherSkeletons" config option.
+~~~
+- EiraIRC now uploads to Imgur correctly out of the box.
+~
+- ServerStart scripts now start with 4Gb RAM
+~
+- Disabled ExtraTiC ThermalFoundation support due to OP values
+~~~
+- Standard Mekanism Atomic Alloy recipe re-disabled
+~
+- ThermalExpansion Sawdust recipe now uses OreDict
+~
+- Compressed Sawdust recipe uses correct meta
+~~~
+TPPI2v0.2.2~
+- Fixed client crash with EiraIRC when updating pack. Fresh installs were unaffected.
+~
+- Re-enabled mod download GUI for Fastcraft.
+~~~
+- TPPITweaks is now built from the correct branch.
+~
+- Added KitchenCraft back into Server Jar.
+~~~
+TPPI2v0.2.1~
+- Fixed requirement of Java 8 (KitchenCraft)
+~
+- Fixed EnderIO conduit crash
+~~~
+TPPI2v0.2.0~
+- Too many mod updates to list. Almost everything was updated
+~
+- Added EnderCore
+~
+- Added Steve's Addons
+~~~
+- Removed ttCore
+~
+- Fixed all Mekanism tweaks
+~
+- Added a note on Compressed Diamonds/Obsidian.
+~~~
+- Fixed Angel Ring Recipe
+~
+- Fixed some broken IC2 recipes
+~
+- Blacklisted Pink Wither in MFR Autospawner
+~~~
+- Blocked DeepDark Portal from Cardboard Box
+~
+- Fixed Unifier Recipe
+~
+- Began shipping a default server.properties
+~~~
+- Added a new custom item for Soul Fragment crafting.
+~
+- Slightly tweaked the Imbued Control Circuit recipe.
+~
+- Fixed Mek CardboardBox blacklist not working correctly.
+TPPI2v0.1.5~
+- Update Logistics Pipes to stop a CTD
+~
+- Update Guide-API
+~
+- Re-add the IC2 config. Why must it use a .ini?
+~~~
+- Update EiraIRC to a custom version. Fixes link issue. Introduces color issues! \o/
+~~~
+TPPI2v0.1.4~
+~
+- Minor mod fixes to fix server crash
+~~~
+TPPI2v0.1.3~
+~
+- Minor mod fixes to fix crash
+~~~
+TPPI2v0.1.2~
+~
+- Countless mod updates
+~
+- Un-hid Potions from NEI
+~
+- Added ores to the Blood Magic meteor
+~
+- Disabled the Hardcore Ender Expansion Decomposition Table
+~~~
+- Disabled the EnderIO skeleton override. Should fix many of the nether mishaps.
+~
+- Disabled generation of Nether Iridium
+~
+- Fixed a few Biome ID conflicts
+~~~
+- Fixed Buildcraft Quarry recipe
+~
+- Nerfed Buildcraft Quarry recipe even further
+~
+- Changed the EiraIRC Ident so it's easier to distinguish between versions.
+~~~
+TPPI2v0.1.0~
+~
+- Initial Release.
