@@ -150,22 +150,6 @@
       "type" = "remote";
       "md5" = "ff5aca99f8e04a8bb6077df853a9c72e";
     };
-    "binniepatcher" = {
-      "title" = "BinniePatcher";
-      "name" = "binniepatcher";
-      "id" = 242276;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["binnies-mods" "forestry"];
-      "filename" = "Binnie Patcher 1.8.jar";
-      "maturity" = "release";
-      "encoded" = "Binnie%20Patcher%201.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/binniepatcher/files/2300907";
-      "src" = "https://minecraft.curseforge.com/projects/binniepatcher/files/2300907/download";
-      "type" = "remote";
-      "md5" = "8dcf3217db4bab325e0f0cfb4a67d620";
-    };
     "binnies-mods" = {
       "title" = "Binnie's Mods";
       "name" = "binnies-mods";
@@ -1482,7 +1466,7 @@
       "title" = "ReAuth";
       "name" = "reauth";
       "id" = 237701;
-      "side" = "both";
+      "side" = "client";
       "required" = true;
       "default" = true;
       "deps" = [];
@@ -1753,22 +1737,6 @@
       "src" = "https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin/files/2241913/download";
       "type" = "remote";
       "md5" = "f71559fa64c1996b03e796b660914637";
-    };
-    "thaumic-energistics" = {
-      "title" = "Thaumic Energistics";
-      "name" = "thaumic-energistics";
-      "id" = 223666;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["applied-energistics-2" "thaumcraft"];
-      "filename" = "thaumicenergistics-1.0.0.5-RV2.jar";
-      "maturity" = "beta";
-      "encoded" = "thaumicenergistics-1.0.0.5-RV2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thaumic-energistics/files/2364447";
-      "src" = "https://minecraft.curseforge.com/projects/thaumic-energistics/files/2364447/download";
-      "type" = "remote";
-      "md5" = "fcfee9e84088cacec7f257beacdd0c39";
     };
     "thaumic-exploration" = {
       "title" = "Thaumic Exploration";

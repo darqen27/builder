@@ -13,9 +13,6 @@ mods:
 - name: "bibliocraft"
   id: 228027
   title: "BiblioCraft"
-- name: "binniepatcher"
-  id: 242276
-  title: "BinniePatcher"
 - name: "biomes-o-plenty"
   id: 220318
   title: "Biomes O' Plenty"
@@ -301,9 +298,6 @@ mods:
 - name: "thaumcraft-nei-plugin"
   id: 225095
   title: "Thaumcraft NEI Plugin"
-- name: "thaumic-energistics"
-  id: 223666
-  title: "Thaumic Energistics"
 - name: "the-twilight-forest"
   id: 227639
   title: "The Twilight Forest"

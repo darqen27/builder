@@ -53,6 +53,7 @@ rec {
       ./base-server
     ];
     extraClientDirs = [
+      ./client-tppi2
       # resources
     ];
     # These are all the mods we'd like to include in this pack.

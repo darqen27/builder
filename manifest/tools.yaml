@@ -21,6 +21,7 @@ mods:
 - name: "prometheus-integration"
   side: "server"
 - name: "reauth"
+  side: "client"
 - name: "just-enough-calculation"
 - name: "akashic-tome"
 - name: "tool-belt"
