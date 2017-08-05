@@ -58,7 +58,6 @@ rec {
     # These are all the mods we'd like to include in this pack.
     manifests = [
       ./manifest/TPPI2.nix
-      ./manifest/tools.nix
     ];
     # Not all mods are equally welcome.
     blacklist = [
