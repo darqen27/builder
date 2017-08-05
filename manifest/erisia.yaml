@@ -1,0 +1,7 @@
+version: "1.7.10"
+mods:
+- name: "realistic-terrain-generation"
+- name: "streams"
+imports:
+- "TPPI2.yaml"
+- "Reika.yaml"

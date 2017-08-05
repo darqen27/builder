@@ -28,15 +28,21 @@ with import ./lib/sprocket;
 rec {
 
   packs = {
-    tppi2 = buildPack tppi2;
+    e18 = buildPack e18;
   };
 
-  tppi2 = {
-    name = "TPPI2";
+  e18 = tppi2 // {
+    name = "e18";
     description = "Erisia #18: Test Pack, Don't Ignore";
     screenName = "e18";
     port = 25565;
-    ram = "10000m";
+    manifests = [
+      ./manifest/erisia.nix
+    ];
+  };
+
+  tppi2 = {
+    ram = "6000m";
     forge = {
       major = "1.7.10";
       minor = "10.13.4.1614";
