@@ -1,4 +1,5 @@
 mods:
+- name: "dragonapi"
 - name: "chromaticraft"
 - name: "rotarycraft"
 - name: "usefultnt"

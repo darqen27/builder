@@ -484,6 +484,22 @@
       "type" = "remote";
       "md5" = "1a02aec95248abbe9f795a27c6763d3e";
     };
+    "dragonapi" = {
+      "title" = "DragonAPI";
+      "name" = "dragonapi";
+      "id" = 235591;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "DragonAPI 1.7.10 V17c.jar";
+      "maturity" = "release";
+      "encoded" = "DragonAPI%201.7.10%20V17c.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2425718";
+      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2425718/download";
+      "type" = "remote";
+      "md5" = "152700f609263732be35c3b853e71f15";
+    };
     "dynmapforge" = {
       "title" = "DynmapForge";
       "name" = "dynmapforge";
@@ -1009,22 +1025,6 @@
       "src" = "https://minecraft.curseforge.com/projects/kitchencraft/files/2256127/download";
       "type" = "remote";
       "md5" = "c58de8f7601739832c2a69a91fe2e7fc";
-    };
-    "loading-profiler" = {
-      "title" = "Loading Profiler";
-      "name" = "loading-profiler";
-      "id" = 228513;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "LoadingProfiler-MC1.7.10-1.2.jar";
-      "maturity" = "release";
-      "encoded" = "LoadingProfiler-MC1.7.10-1.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2257233";
-      "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2257233/download";
-      "type" = "remote";
-      "md5" = "4514685906845da7db6ee6005ca917da";
     };
     "logistics-pipes" = {
       "title" = "Logistics Pipes";

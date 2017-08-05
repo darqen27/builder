@@ -1,6 +1,7 @@
 ---
 version: "1.7.10"
 mods:
+- name: "codechickencore"
 - name: "another-one-bites-the-dust"
   id: 221863
   title: "Another One Bites the Dust"

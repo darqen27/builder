@@ -13,7 +13,10 @@ mods:
   required: false
 - name: "chunkgen"
   side: "server"
-- name: "loading-profiler"
+  
+# Incompatible with DragonAPI
+# - name: "loading-profiler"
+
 - name: "helpfixer"
 - name: "schematica"
   side: "client"
