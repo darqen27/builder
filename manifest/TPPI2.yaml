@@ -4,414 +4,312 @@ mods:
 - name: "another-one-bites-the-dust"
   id: 221863
   title: "Another One Bites the Dust"
-  curse: true
 - name: "applecore"
   id: 224472
   title: "AppleCore"
-  curse: true
 - name: "automagy"
   id: 222153
   title: "Automagy"
-  curse: true
 - name: "bibliocraft"
   id: 228027
   title: "BiblioCraft"
-  curse: true
 - name: "binniepatcher"
   id: 242276
   title: "BinniePatcher"
-  curse: true
 - name: "biomes-o-plenty"
   id: 220318
   title: "Biomes O' Plenty"
-  curse: true
 - name: "blood-magic"
   id: 224791
   title: "Blood Magic"
-  curse: true
 - name: "botania"
   id: 225643
   title: "Botania"
-  curse: true
 - name: "carpenters-blocks"
   id: 228932
   title: "Carpenter's Blocks"
-  curse: true
 - name: "chisel"
   id: 235279
   title: "Chisel"
-  curse: true
 - name: "chiseltones"
   id: 228004
   title: "ChiselTones"
-  curse: true
 - name: "cofhcore"
   id: 69162
   title: "CoFH Core"
-  curse: true
 - name: "cookiecore"
   id: 222908
   title: "CookieCore"
-  curse: true
 - name: "crafttweaker"
   id: 239197
   title: "CraftTweaker"
-  curse: true
 - name: "customthings"
   id: 231056
   title: "CustomThings"
-  curse: true
 - name: "electrical-age"
   id: 253045
   title: "Electrical Age"
-  curse: true
 - name: "endercore"
   id: 231868
   title: "EnderCore"
-  curse: true
 - name: "ender-io"
   id: 64578
   title: "Ender IO"
-  curse: true
 - name: "ender-storage"
   id: 229306
   title: "Ender Storage"
-  curse: true
 - name: "extracells2"
   id: 229218
   title: "ExtraCells2"
-  curse: true
 - name: "extratic"
   id: 72728
   title: "ExtraTiC"
-  curse: true
 - name: "flaxbeards-steam-power"
   id: 224867
   title: "Flaxbeard's Steam Power"
-  curse: true
 - name: "flatsigns"
   id: 59856
   title: "FlatSigns"
-  curse: true
 - name: "forbidden-magic"
   id: 224237
   title: "Forbidden Magic"
-  curse: true
 - name: "guide-api"
   id: 228832
   title: "Guide-API"
-  curse: true
 - name: "hardcore-ender-expansion"
   id: 228015
   title: "Hardcore Ender Expansion"
-  curse: true
 - name: "hats"
   id: 229073
   title: "Hats"
-  curse: true
 - name: "nuclear-control-2"
   id: 236813
   title: "Nuclear Control 2"
-  curse: true
 - name: "inpurecore"
   id: 223792
   title: "INpureCore"
-  curse: true
 - name: "illuminated-bows"
   id: 225193
   title: "Illuminated Bows"
-  curse: true
 - name: "atomicstrykers-infernal-mobs"
   id: 227875
   title: "AtomicStryker's Infernal Mobs"
-  curse: true
 - name: "jabba"
   id: 73510
   title: "Jabba"
-  curse: true
 - name: "kitchencraft"
   id: 226688
   title: "KitchenCraft"
-  curse: true
 - name: "lookingglass"
   id: 230541
   title: "LookingGlass"
-  curse: true
 - name: "mantle"
   id: 74924
   title: "Mantle"
-  curse: true
 - name: "minefactory-reloaded"
   id: 66672
   title: "Minefactory Reloaded"
-  curse: true
 - name: "mmmmmmmmmmmm"
   id: 225738
   title: "MmmMmmMmmMmm"
-  curse: true
 - name: "mobiuscore"
   id: 76734
   title: "MobiusCore"
-  curse: true
 - name: "modtweaker"
   id: 220954
   title: "ModTweaker"
-  curse: true
 - name: "modular-armour"
   id: 224011
   title: "Modular Armour"
-  curse: true
 - name: "morechisels"
   id: 227904
   title: "MoreChisels"
-  curse: true
 - name: "morph"
   id: 229080
   title: "Morph"
-  curse: true
 - name: "nei-integration"
   id: 225251
   title: "NEI Integration"
-  curse: true
 - name: "netherores"
   id: 66675
   title: "NetherOres"
-  curse: true
 - name: "notenoughcodecs"
   id: 241058
   title: "NotEnoughCodecs"
-  curse: true
 - name: "notenoughitems"
   id: 222211
   title: "NotEnoughItems"
-  curse: true
 - name: "notenoughresources"
   id: 225815
   title: "NotEnoughResources"
-  curse: true
 - name: "openblocks"
   id: 228816
   title: "OpenBlocks"
-  curse: true
 - name: "opencomputers"
   id: 223008
   title: "OpenComputers"
-  curse: true
 - name: "openeye"
   id: 251457
   title: "OpenEye"
-  curse: true
 - name: "openmodslib"
   id: 228815
   title: "OpenModsLib"
-  curse: true
 - name: "railcraft"
   id: 51195
   title: "Railcraft"
-  curse: true
 - name: "random-things"
   id: 59816
   title: "Random Things"
-  curse: true
 - name: "redstone-armory"
   id: 229339
   title: "Redstone Armory"
-  curse: true
 - name: "redstone-arsenal"
   id: 70631
   title: "Redstone Arsenal"
-  curse: true
 - name: "refined-relocation"
   id: 75811
   title: "Refined Relocation"
-  curse: true
 - name: "reliquary-v1-3"
   id: 241319
   title: "Reliquary v1.3"
-  curse: true
 - name: "sanguimancy"
   id: 223722
   title: "Sanguimancy"
-  curse: true
 - name: "servertools-backup"
   id: 220713
   title: "ServerTools-BACKUP"
-  curse: true
 - name: "forgeservertools"
   id: 64744
   title: "ServerTools-CORE"
-  curse: true
 - name: "steves-addons"
   id: 226067
   title: "Steve's Addons"
-  curse: true
 - name: "steves-carts-2"
   id: 228625
   title: "Steve's Carts 2"
-  curse: true
 - name: "steves-factory-manager"
   id: 228626
   title: "Steve's Factory Manager"
-  curse: true
 - name: "storage-drawers"
   id: 223852
   title: "Storage Drawers"
-  curse: true
 - name: "super-massive-tech"
   id: 224363
   title: "Super Massive Tech"
-  curse: true
 - name: "tinkers-construct"
   id: 74072
   title: "Tinkers Construct"
-  curse: true
 - name: "tinkers-mechworks"
   id: 78057
   title: "Tinkers' Mechworks"
-  curse: true
 - name: "tinkers-steelworks-fork"
   id: 233076
   title: "Tinkers' Steelworks (fork)"
-  curse: true
 - name: "thaumcraft"
   id: 223628
   title: "Thaumcraft"
-  curse: true
 - name: "thaumic-exploration"
   id: 230969
   title: "Thaumic Exploration"
-  curse: true
 - name: "thermal-dynamics"
   id: 227443
   title: "Thermal Dynamics"
-  curse: true
 - name: "thermalexpansion"
   id: 69163
   title: "Thermal Expansion"
-  curse: true
 - name: "thermal-foundation"
   id: 222880
   title: "Thermal Foundation"
-  curse: true
 - name: "tic-tooltips"
   id: 76845
   title: "TiC Tooltips"
-  curse: true
 - name: "waila-plugins"
   id: 226119
   title: "WAILA Plugins"
-  curse: true
 - name: "wr-cbe-universal"
   id: 229314
   title: "WR-CBE-Universal"
-  curse: true
 - name: "waila"
   id: 73488
   title: "Waila"
-  curse: true
 - name: "wawla-what-are-we-looking-at"
   id: 224712
   title: "Wawla - What Are We Looking At"
-  curse: true
 - name: "ztones"
   id: 224369
   title: "Ztones"
-  curse: true
 - name: "armorstatushud"
   id: 225564
   title: "ArmorStatusHUD"
-  curse: true
 - name: "applied-energistics-2"
   id: 223794
   title: "Applied Energistics 2"
-  curse: true
 - name: "binnies-mods"
   id: 223525
   title: "Binnie's Mods"
-  curse: true
 - name: "buildcraft"
   id: 61811
   title: "Buildcraft"
-  curse: true
 - name: "buildcraft-compat"
   id: 233140
   title: "Buildcraft Compat"
-  curse: true
 - name: "dense-ores"
   id: 224942
   title: "Dense Ores"
-  curse: true
 - name: "eirairc"
   id: 68420
   title: "EiraIRC (Discontinued)"
-  curse: true
 - name: "extra-utilities"
   id: 225561
   title: "Extra Utilities"
-  curse: true
 - name: "fastcraft"
   id: 242677
   title: "FastCraft"
-  curse: true
 - name: "forestry"
   id: 59751
   title: "Forestry"
-  curse: true
 - name: "ichunutil"
   id: 229060
   title: "iChunUtil"
-  curse: true
 - name: "industrial-craft"
   id: 242638
   title: "Industrial Craft"
-  curse: true
 - name: "iron-chests"
   id: 228756
   title: "Iron Chests"
-  curse: true
 - name: "logistics-pipes"
   id: 232838
   title: "Logistics Pipes"
-  curse: true
 - name: "magic-bees"
   id: 65764
   title: "Magic Bees"
-  curse: true
 - name: "malisiscore"
   id: 223896
   title: "MalisisCore"
-  curse: true
 - name: "malisisdoors"
   id: 223891
   title: "MalisisDoors"
-  curse: true
 - name: "mystcraft"
   id: 224599
   title: "Mystcraft"
-  curse: true
 - name: "natura"
   id: 74120
   title: "Natura"
-  curse: true
 - name: "nei-addons"
   id: 63352
   title: "NEI Addons"
-  curse: true
 - name: "thaumcraft-nei-plugin"
   id: 225095
   title: "Thaumcraft NEI Plugin"
-  curse: true
 - name: "thaumic-energistics"
   id: 223666
   title: "Thaumic Energistics"
-  curse: true
 - name: "the-twilight-forest"
   id: 227639
   title: "The Twilight Forest"
-  curse: true
 - name: "witchery"
   id: 69673
   title: "Witchery"
-  curse: true
 
-imports: []
+imports:
+- "tools.yaml"

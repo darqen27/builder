@@ -1,23 +1,9 @@
-version: "1.10.2"
 mods:
 - name: "just-enough-resources-jer"
-- name: "custom-npcs"
 - name: "Ding"
   side: "client"
-- name: "Optifine"
-  required: false
-  default: false
-  side: "client"
-  curse: false
-  files:
-    - src: "https://madoka.brage.info/baughn/OptiFine_1.10.2_HD_U_D8.jar"
 - name: "thump"
   required: false
-- name: "foamfix"
-  required: false
-  curse: false
-  files:
-    - src: "../bundled/foamfix-0.6.2-anarchy.jar"
 - name: "tickprofiler"
   side: "server"
 - name: "dynmapforge"
