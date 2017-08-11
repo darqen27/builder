@@ -2,3 +2,5 @@ mods:
 - name: "thaumic-energistics"
   id: 223666
   title: "Thaumic Energistics"
+  files:
+  - src: "../bundled/thaumic-energistics-1.0.0.5.jar"

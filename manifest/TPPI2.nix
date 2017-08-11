@@ -1,6 +1,6 @@
 {
   "version" = "1.7.10";
-  "imports" = ["tools.yaml"];
+  "imports" = ["pinned.yaml" "tools.yaml"];
   "mods" = {
     "akashic-tome" = {
       "title" = "Akashic Tome";
@@ -1721,6 +1721,20 @@
       "src" = "https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin/files/2241913/download";
       "type" = "remote";
       "md5" = "f71559fa64c1996b03e796b660914637";
+    };
+    "thaumic-energistics" = {
+      "title" = "Thaumic Energistics";
+      "name" = "thaumic-energistics";
+      "id" = 223666;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["applied-energistics-2" "thaumcraft"];
+      "filename" = "thaumic-energistics-1.0.0.5.jar";
+      "encoded" = "thaumic-energistics-1.0.0.5.jar";
+      "src" = ../bundled/thaumic-energistics-1.0.0.5.jar;
+      "type" = "local";
+      "md5" = "f65cfaa416572b0e7ad410aba38823b4";
     };
     "thaumic-exploration" = {
       "title" = "Thaumic Exploration";
