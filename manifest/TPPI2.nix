@@ -157,14 +157,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
-      "filename" = "binnie-mods-1.7.10-2.0.20.jar";
+      "deps" = ["forestry"];
+      "filename" = "binnie-mods-1.7.10-2.0.21.jar";
       "maturity" = "release";
-      "encoded" = "binnie-mods-1.7.10-2.0.20.jar";
-      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2457391";
-      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2457391/download";
+      "encoded" = "binnie-mods-1.7.10-2.0.21.jar";
+      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2460776";
+      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2460776/download";
       "type" = "remote";
-      "md5" = "021c412e7d06feb4a62807fc7ab1a68e";
+      "md5" = "7ec3d06541301c3ca156ad0de6d8a877";
     };
     "biomes-o-plenty" = {
       "title" = "Biomes O' Plenty";
@@ -961,22 +961,6 @@
       "src" = "https://minecraft.curseforge.com/projects/kitchencraft/files/2256127/download";
       "type" = "remote";
       "md5" = "c58de8f7601739832c2a69a91fe2e7fc";
-    };
-    "loading-profiler" = {
-      "title" = "Loading Profiler";
-      "name" = "loading-profiler";
-      "id" = 228513;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "LoadingProfiler-MC1.7.10-1.2.jar";
-      "maturity" = "release";
-      "encoded" = "LoadingProfiler-MC1.7.10-1.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2257233";
-      "src" = "https://minecraft.curseforge.com/projects/loading-profiler/files/2257233/download";
-      "type" = "remote";
-      "md5" = "4514685906845da7db6ee6005ca917da";
     };
     "logistics-pipes" = {
       "title" = "Logistics Pipes";

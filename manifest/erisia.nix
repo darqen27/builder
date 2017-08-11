@@ -157,14 +157,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
-      "filename" = "binnie-mods-1.7.10-2.0.20.jar";
+      "deps" = ["forestry"];
+      "filename" = "binnie-mods-1.7.10-2.0.21.jar";
       "maturity" = "release";
-      "encoded" = "binnie-mods-1.7.10-2.0.20.jar";
-      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2457391";
-      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2457391/download";
+      "encoded" = "binnie-mods-1.7.10-2.0.21.jar";
+      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2460776";
+      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2460776/download";
       "type" = "remote";
-      "md5" = "021c412e7d06feb4a62807fc7ab1a68e";
+      "md5" = "7ec3d06541301c3ca156ad0de6d8a877";
     };
     "biomes-o-plenty" = {
       "title" = "Biomes O' Plenty";
@@ -328,13 +328,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ChromatiCraft 1.7.10 V17c.jar";
+      "filename" = "ChromatiCraft 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "ChromatiCraft%201.7.10%20V17c.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2425720";
-      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2425720/download";
+      "encoded" = "ChromatiCraft%201.7.10%20V18a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2461743";
+      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2461743/download";
       "type" = "remote";
-      "md5" = "0e9e2e9a21c7dfab150add0b0471b231";
+      "md5" = "36c25d9109bad5c0a4009e4b35d620b2";
     };
     "chunkgen" = {
       "title" = "chunkgen";
@@ -492,13 +492,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "DragonAPI 1.7.10 V17c.jar";
+      "filename" = "DragonAPI 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "DragonAPI%201.7.10%20V17c.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2425718";
-      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2425718/download";
+      "encoded" = "DragonAPI%201.7.10%20V18a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2461727";
+      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2461727/download";
       "type" = "remote";
-      "md5" = "152700f609263732be35c3b853e71f15";
+      "md5" = "bdc8a33424ba989c26ed9781e77c87c5";
     };
     "dynmapforge" = {
       "title" = "DynmapForge";
@@ -556,13 +556,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ElectriCraft 1.7.10 V17a.jar";
+      "filename" = "ElectriCraft 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "ElectriCraft%201.7.10%20V17a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2422925";
-      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2422925/download";
+      "encoded" = "ElectriCraft%201.7.10%20V18a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2461730";
+      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2461730/download";
       "type" = "remote";
-      "md5" = "e2c1d1aecb79d17cf0b77b6b6c68662f";
+      "md5" = "850c254c22ea74f374cc4119ef07cbf6";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -1624,13 +1624,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "RotaryCraft 1.7.10 V17c.jar";
+      "filename" = "RotaryCraft 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "RotaryCraft%201.7.10%20V17c.jar";
-      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2425717";
-      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2425717/download";
+      "encoded" = "RotaryCraft%201.7.10%20V18a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2461728";
+      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2461728/download";
       "type" = "remote";
-      "md5" = "685a4b11c3ea1e7d4dda61bfb5f77877";
+      "md5" = "da5022668f17442b26574acb35b1f9a2";
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
@@ -2022,13 +2022,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "UsefulTNT 1.7.10 V17a.jar";
+      "filename" = "UsefulTNT 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "UsefulTNT%201.7.10%20V17a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/usefultnt/files/2422936";
-      "src" = "https://minecraft.curseforge.com/projects/usefultnt/files/2422936/download";
+      "encoded" = "UsefulTNT%201.7.10%20V18a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/usefultnt/files/2461740";
+      "src" = "https://minecraft.curseforge.com/projects/usefultnt/files/2461740/download";
       "type" = "remote";
-      "md5" = "849e7cacbc33b90f150ed21c46359f3f";
+      "md5" = "b9247700347db060b9a50c60c652e661";
     };
     "void-monster" = {
       "title" = "Void Monster";
@@ -2038,13 +2038,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "VoidMonster 1.7.10 V17a.jar";
+      "filename" = "VoidMonster 1.7.10 V18a.jar";
       "maturity" = "release";
-      "encoded" = "VoidMonster%201.7.10%20V17a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/void-monster/files/2422934";
-      "src" = "https://minecraft.curseforge.com/projects/void-monster/files/2422934/download";
+      "encoded" = "VoidMonster%201.7.10%20V18a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/void-monster/files/2461738";
+      "src" = "https://minecraft.curseforge.com/projects/void-monster/files/2461738/download";
       "type" = "remote";
-      "md5" = "e782fff0d0750fc7ffb4d78a5a51e70e";
+      "md5" = "34164c6638d20659408241ea45aec2d1";
     };
     "waila" = {
       "title" = "Waila";
