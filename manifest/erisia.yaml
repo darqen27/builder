@@ -2,6 +2,11 @@ version: "1.7.10"
 mods:
 - name: "realistic-terrain-generation"
 - name: "streams"
+- name: "compact-machines"
+- name: "dimensional-doors"
+  curse: false
+  files:
+  - src: "../bundled/DimensionalDoors-2.2.5-test9.jar"
 imports:
 - "TPPI2.yaml"
 - "Reika.yaml"

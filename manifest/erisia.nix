@@ -404,6 +404,22 @@
       "type" = "remote";
       "md5" = "de527c101a1f2c62203f99515f3d0957";
     };
+    "compact-machines" = {
+      "title" = "Compact Machines";
+      "name" = "compact-machines";
+      "id" = 224218;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "compactmachines-1.7.10-1.21.jar";
+      "maturity" = "release";
+      "encoded" = "compactmachines-1.7.10-1.21.jar";
+      "page" = "https://minecraft.curseforge.com/projects/compact-machines/files/2268575";
+      "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2268575/download";
+      "type" = "remote";
+      "md5" = "02a553145402059c0b350d82e4d47a14";
+    };
     "cookiecore" = {
       "title" = "CookieCore";
       "name" = "cookiecore";
@@ -467,6 +483,19 @@
       "src" = "https://minecraft.curseforge.com/projects/dense-ores/files/2234692/download";
       "type" = "remote";
       "md5" = "aab8a8aad4385de5367987d64317562c";
+    };
+    "dimensional-doors" = {
+      "title" = "dimensional-doors";
+      "name" = "dimensional-doors";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "DimensionalDoors-2.2.5-test9.jar";
+      "encoded" = "DimensionalDoors-2.2.5-test9.jar";
+      "src" = ../bundled/DimensionalDoors-2.2.5-test9.jar;
+      "type" = "local";
+      "md5" = "8f58df5fdbf60da896f0d4da196e312f";
     };
     "ding" = {
       "title" = "Ding";
