@@ -1332,13 +1332,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["industrial-craft"];
-      "filename" = "IC2NuclearControl-2.4.2a.jar";
+      "filename" = "IC2NuclearControl-2.4.3a.jar";
       "maturity" = "release";
-      "encoded" = "IC2NuclearControl-2.4.2a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2328439";
-      "src" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2328439/download";
+      "encoded" = "IC2NuclearControl-2.4.3a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2464673";
+      "src" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2464673/download";
       "type" = "remote";
-      "md5" = "44a69caf8b38a08e388a365d504fe0e2";
+      "md5" = "8699c37cf6233651c8fdc745a395125f";
     };
     "openblocks" = {
       "title" = "OpenBlocks";

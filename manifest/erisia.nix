@@ -328,13 +328,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ChromatiCraft 1.7.10 V18a.jar";
+      "filename" = "ChromatiCraft 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "ChromatiCraft%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2461743";
-      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2461743/download";
+      "encoded" = "ChromatiCraft%201.7.10%20V18b.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015";
+      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015/download";
       "type" = "remote";
-      "md5" = "36c25d9109bad5c0a4009e4b35d620b2";
+      "md5" = "707107e785052dbc31e26b03142d7318";
     };
     "chunkgen" = {
       "title" = "chunkgen";
@@ -492,13 +492,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "DragonAPI 1.7.10 V18a.jar";
+      "filename" = "DragonAPI 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "DragonAPI%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2461727";
-      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2461727/download";
+      "encoded" = "DragonAPI%201.7.10%20V18b.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2463385";
+      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2463385/download";
       "type" = "remote";
-      "md5" = "bdc8a33424ba989c26ed9781e77c87c5";
+      "md5" = "f519de9d93d2217711bebc207e6453c6";
     };
     "dynmapforge" = {
       "title" = "DynmapForge";
@@ -556,13 +556,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ElectriCraft 1.7.10 V18a.jar";
+      "filename" = "ElectriCraft 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "ElectriCraft%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2461730";
-      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2461730/download";
+      "encoded" = "ElectriCraft%201.7.10%20V18b.jar";
+      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2464017";
+      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2464017/download";
       "type" = "remote";
-      "md5" = "850c254c22ea74f374cc4119ef07cbf6";
+      "md5" = "ce75a1a54875e30064cb54a4e7fd1337";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -1396,13 +1396,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["industrial-craft"];
-      "filename" = "IC2NuclearControl-2.4.2a.jar";
+      "filename" = "IC2NuclearControl-2.4.3a.jar";
       "maturity" = "release";
-      "encoded" = "IC2NuclearControl-2.4.2a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2328439";
-      "src" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2328439/download";
+      "encoded" = "IC2NuclearControl-2.4.3a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2464673";
+      "src" = "https://minecraft.curseforge.com/projects/nuclear-control-2/files/2464673/download";
       "type" = "remote";
-      "md5" = "44a69caf8b38a08e388a365d504fe0e2";
+      "md5" = "8699c37cf6233651c8fdc745a395125f";
     };
     "openblocks" = {
       "title" = "OpenBlocks";
@@ -1624,13 +1624,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "RotaryCraft 1.7.10 V18a.jar";
+      "filename" = "RotaryCraft 1.7.10 V18b.jar";
       "maturity" = "release";
-      "encoded" = "RotaryCraft%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2461728";
-      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2461728/download";
+      "encoded" = "RotaryCraft%201.7.10%20V18b.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592";
+      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592/download";
       "type" = "remote";
-      "md5" = "da5022668f17442b26574acb35b1f9a2";
+      "md5" = "436628172cb75f53b0fb1cc649624d6e";
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
