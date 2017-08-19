@@ -150,6 +150,22 @@
       "type" = "remote";
       "md5" = "ff5aca99f8e04a8bb6077df853a9c72e";
     };
+    "big-reactors" = {
+      "title" = "Big Reactors";
+      "name" = "big-reactors";
+      "id" = 241994;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["cofhcore"];
+      "filename" = "BigReactors-0.4.3A.jar";
+      "maturity" = "release";
+      "encoded" = "BigReactors-0.4.3A.jar";
+      "page" = "https://minecraft.curseforge.com/projects/big-reactors/files/2282591";
+      "src" = "https://minecraft.curseforge.com/projects/big-reactors/files/2282591/download";
+      "type" = "remote";
+      "md5" = "b1c71b6a64a84f154af2d83bdc0d33bf";
+    };
     "binnies-mods" = {
       "title" = "Binnie's Mods";
       "name" = "binnies-mods";

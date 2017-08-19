@@ -1,6 +1,7 @@
 ---
 version: "1.7.10"
 mods:
+- name: "big-reactors"
 - name: "project-red-compat"
 - name: "project-red-fabrication"
 - name: "project-red-integration"
