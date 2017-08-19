@@ -1,6 +1,10 @@
 ---
 version: "1.7.10"
 mods:
+- name: "project-red-compat"
+- name: "project-red-fabrication"
+- name: "project-red-integration"
+- name: "project-red-lighting"
 - name: "codechickencore"
 - name: "another-one-bites-the-dust"
   id: 221863
