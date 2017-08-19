@@ -10,6 +10,6 @@ git stash --keep-index -q
 nix-build --no-build-output
 RESULT=$?
 
-git stash pop -q
+git stash pop --index -q
 
 exit $RESULT
