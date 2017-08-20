@@ -29,6 +29,25 @@ rec {
 
   packs = {
     e18 = buildPack e18;
+    city = buildPack city;
+  };
+
+  city = {
+    name = "city";
+    ram = "8000m";
+    description = "Just cities";
+    forge = {
+      major = "1.10.2";
+      minor = "12.18.3.2422";
+    };
+    screenName = "city";
+    port = 25566;
+    extraServerDirs = [
+      ./base-server
+    ];
+    manifests = [
+      ./manifest/city.nix
+    ];
   };
 
   e18 = tppi2 // {

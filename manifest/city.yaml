@@ -1,0 +1,7 @@
+version: "1.10.2"
+mods:
+- name: "compatlayer"
+- name: "the-lost-cities"
+- name: "dynmapforge"
+- name: "chunkgen"
+- name: "biomes-o-plenty"
