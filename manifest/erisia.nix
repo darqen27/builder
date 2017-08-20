@@ -190,13 +190,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["forestry"];
-      "filename" = "binnie-mods-1.7.10-2.0.21.jar";
+      "filename" = "binnie-mods-1.7.10-2.0.22.7.jar";
       "maturity" = "release";
-      "encoded" = "binnie-mods-1.7.10-2.0.21.jar";
-      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2460776";
-      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2460776/download";
+      "encoded" = "binnie-mods-1.7.10-2.0.22.7.jar";
+      "page" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2467142";
+      "src" = "https://minecraft.curseforge.com/projects/binnies-mods/files/2467142/download";
       "type" = "remote";
-      "md5" = "7ec3d06541301c3ca156ad0de6d8a877";
+      "md5" = "d0e8ad1db21d4d9fa134d1f3e203f3da";
     };
     "biomes-o-plenty" = {
       "title" = "Biomes O' Plenty";
@@ -383,22 +383,6 @@
       "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015/download";
       "type" = "remote";
       "md5" = "707107e785052dbc31e26b03142d7318";
-    };
-    "chunkgen" = {
-      "title" = "chunkgen";
-      "name" = "chunkgen";
-      "id" = 235036;
-      "side" = "server";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "chunkgen-1.7.10-1.3.0.jar";
-      "maturity" = "release";
-      "encoded" = "chunkgen-1.7.10-1.3.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chunkgen/files/2257027";
-      "src" = "https://minecraft.curseforge.com/projects/chunkgen/files/2257027/download";
-      "type" = "remote";
-      "md5" = "14aa721f7012964513385754167598cc";
     };
     "climate-control-geographicraft" = {
       "title" = "Climate Control/Geographicraft";

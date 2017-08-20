@@ -11,8 +11,10 @@ mods:
 - name: "fullscreen-windowed-borderless-for-minecraft"
   side: "client"
   required: false
-- name: "chunkgen"
-  side: "server"
+
+# Get that guy to update curse!
+#- name: "chunkgen"
+#  side: "server"
   
 # Incompatible with DragonAPI
 # - name: "loading-profiler"
