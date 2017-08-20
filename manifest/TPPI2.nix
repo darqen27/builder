@@ -894,6 +894,22 @@
       "type" = "remote";
       "md5" = "89c7b3835cd2bdba7d8d054d75c7460c";
     };
+    "inventory-tweaks" = {
+      "title" = "Inventory Tweaks";
+      "name" = "inventory-tweaks";
+      "id" = 223094;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "InventoryTweaks-1.59-dev-152.jar";
+      "maturity" = "release";
+      "encoded" = "InventoryTweaks-1.59-dev-152.jar";
+      "page" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792";
+      "src" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792/download";
+      "type" = "remote";
+      "md5" = "83f7ddcd5f5fd8d640aa15dc62acc6bf";
+    };
     "iron-chests" = {
       "title" = "Iron Chests";
       "name" = "iron-chests";
@@ -1089,6 +1105,38 @@
       "src" = "https://minecraft.curseforge.com/projects/mantle/files/2264244/download";
       "type" = "remote";
       "md5" = "934fe4ef7a9b971f22b5dd53e57fa976";
+    };
+    "mekanism" = {
+      "title" = "Mekanism";
+      "name" = "mekanism";
+      "id" = 268560;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Mekanism-1.7.10-9.1.0.281.jar";
+      "maturity" = "release";
+      "encoded" = "Mekanism-1.7.10-9.1.0.281.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mekanism/files/2426270";
+      "src" = "https://minecraft.curseforge.com/projects/mekanism/files/2426270/download";
+      "type" = "remote";
+      "md5" = "e23ff9e4e135d787502059b660dcbdd7";
+    };
+    "mekanism-generators" = {
+      "title" = "Mekanism Generators";
+      "name" = "mekanism-generators";
+      "id" = 268566;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mekanism"];
+      "filename" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
+      "maturity" = "release";
+      "encoded" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2426269";
+      "src" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2426269/download";
+      "type" = "remote";
+      "md5" = "534898e919199b399624c56f6f826d1d";
     };
     "minefactory-reloaded" = {
       "title" = "Minefactory Reloaded";
@@ -1435,6 +1483,22 @@
       "src" = "https://minecraft.curseforge.com/projects/openmodslib/files/2386726/download";
       "type" = "remote";
       "md5" = "7af56161fea4b81d7c8504133b269710";
+    };
+    "opis" = {
+      "title" = "Opis";
+      "name" = "opis";
+      "id" = 73832;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mobiuscore"];
+      "filename" = "Opis-1.2.5_1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "Opis-1.2.5_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/opis/files/2232520";
+      "src" = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
+      "type" = "remote";
+      "md5" = "82e98ab306d952f3371a514333c226b4";
     };
     "project-red-base" = {
       "title" = "Project Red - Base";
@@ -1864,6 +1928,22 @@
       "type" = "remote";
       "md5" = "98e1277a33d6452c773fad1d28691815";
     };
+    "thaumic-tinkerer" = {
+      "title" = "Thaumic Tinkerer";
+      "name" = "thaumic-tinkerer";
+      "id" = 75598;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["codechickencore" "thaumcraft"];
+      "filename" = "ThaumicTinkerer-2.5-1.7.10-164.jar";
+      "maturity" = "release";
+      "encoded" = "ThaumicTinkerer-2.5-1.7.10-164.jar";
+      "page" = "https://minecraft.curseforge.com/projects/thaumic-tinkerer/files/2232793";
+      "src" = "https://minecraft.curseforge.com/projects/thaumic-tinkerer/files/2232793/download";
+      "type" = "remote";
+      "md5" = "8dc007673d1e79f00c3095317f53d0ce";
+    };
     "the-twilight-forest" = {
       "title" = "The Twilight Forest";
       "name" = "the-twilight-forest";
@@ -2027,6 +2107,22 @@
       "default" = true;
       "deps" = [];
       "type" = "missing";
+    };
+    "translocators" = {
+      "title" = "Translocators";
+      "name" = "translocators";
+      "id" = 229318;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["codechickencore"];
+      "filename" = "Translocator-1.7.10-1.1.2.16-universal.jar";
+      "maturity" = "release";
+      "encoded" = "Translocator-1.7.10-1.1.2.16-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/translocators/files/2300180";
+      "src" = "https://minecraft.curseforge.com/projects/translocators/files/2300180/download";
+      "type" = "remote";
+      "md5" = "541e87b5d6f522415f8d9a05811377d8";
     };
     "waila" = {
       "title" = "Waila";

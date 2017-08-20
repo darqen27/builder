@@ -1,6 +1,12 @@
 ---
 version: "1.7.10"
 mods:
+- name: "translocators"
+- name: "thaumic-tinkerer"
+- name: "opis"
+- name: "mekanism"
+- name: "mekanism-generators"
+- name: "inventory-tweaks"
 - name: "big-reactors"
 - name: "project-red-compat"
 - name: "project-red-fabrication"
