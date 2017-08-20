@@ -76,6 +76,22 @@
       "type" = "remote";
       "md5" = "0a555df010345a27e0956a3f05517510";
     };
+    "aquatweaks" = {
+      "title" = "AquaTweaks";
+      "name" = "aquatweaks";
+      "id" = 231659;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AquaTweaks-1.7.10-1.0.jar";
+      "maturity" = "release";
+      "encoded" = "AquaTweaks-1.7.10-1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aquatweaks/files/2243845";
+      "src" = "https://minecraft.curseforge.com/projects/aquatweaks/files/2243845/download";
+      "type" = "remote";
+      "md5" = "fb5c63447ce906f344c909a22c4a3f64";
+    };
     "armorstatushud" = {
       "title" = "ArmorStatusHUD";
       "name" = "armorstatushud";
@@ -304,7 +320,7 @@
       "deps" = [];
       "filename" = "Carpenter_s Blocks v3.3.8.1 - MC 1.7.10.jar";
       "maturity" = "release";
-      "encoded" = "Carpenter's%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
+      "encoded" = "Carpenter_s%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
       "page" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195";
       "src" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195/download";
       "type" = "remote";
@@ -383,6 +399,22 @@
       "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015/download";
       "type" = "remote";
       "md5" = "707107e785052dbc31e26b03142d7318";
+    };
+    "chunk-animator" = {
+      "title" = "Chunk Animator";
+      "name" = "chunk-animator";
+      "id" = 236484;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
+      "maturity" = "beta";
+      "encoded" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chunk-animator/files/2260030";
+      "src" = "https://minecraft.curseforge.com/projects/chunk-animator/files/2260030/download";
+      "type" = "remote";
+      "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
     };
     "climate-control-geographicraft" = {
       "title" = "Climate Control/Geographicraft";
@@ -1757,7 +1789,7 @@
       "deps" = [];
       "filename" = "Pam_s HarvestCraft 1.7.10Lb.jar";
       "maturity" = "release";
-      "encoded" = "Pam's%20HarvestCraft%201.7.10Lb.jar";
+      "encoded" = "Pam_s%20HarvestCraft%201.7.10Lb.jar";
       "page" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2270206";
       "src" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2270206/download";
       "type" = "remote";

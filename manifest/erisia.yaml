@@ -1,5 +1,10 @@
 version: "1.7.10"
 mods:
+- name: "aquatweaks"
+  side: "client"
+  required: false
+- name: "chunk-animator"
+  side: "client"
 - name: "recurrent-complex"
 - name: "dynamic-surroundings"
   side: "client"

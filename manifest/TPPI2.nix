@@ -288,7 +288,7 @@
       "deps" = [];
       "filename" = "Carpenter_s Blocks v3.3.8.1 - MC 1.7.10.jar";
       "maturity" = "release";
-      "encoded" = "Carpenter's%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
+      "encoded" = "Carpenter_s%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
       "page" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195";
       "src" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195/download";
       "type" = "remote";
