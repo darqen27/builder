@@ -1,6 +1,11 @@
 mods:
-- name: "thaumic-energistics"
-  id: 223666
-  title: "Thaumic Energistics"
+- name: "applied-energistics-2"
+  title: "Applied Energistics 2"
+  curse: false
   files:
-  - src: "../bundled/thaumic-energistics-1.0.0.5.jar"
+  - src: "../bundled/appliedenergistics2-rv2-stable-10.jar"
+- name: "thaumic-energistics"
+  title: "Thaumic Energistics"
+  curse: false
+  files:
+  - src: "../bundled/thaumicenergistics-1.0.0.5-RV2.jar"

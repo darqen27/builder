@@ -250,9 +250,6 @@ mods:
 - name: "armorstatushud"
   id: 225564
   title: "ArmorStatusHUD"
-- name: "applied-energistics-2"
-  id: 223794
-  title: "Applied Energistics 2"
 - name: "binnies-mods"
   id: 223525
   title: "Binnie's Mods"

@@ -47,18 +47,15 @@
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
       "name" = "applied-energistics-2";
-      "id" = 223794;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "appliedenergistics2-rv3-beta-6.jar";
-      "maturity" = "beta";
-      "encoded" = "appliedenergistics2-rv3-beta-6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430";
-      "src" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430/download";
-      "type" = "remote";
-      "md5" = "0a555df010345a27e0956a3f05517510";
+      "filename" = "appliedenergistics2-rv2-stable-10.jar";
+      "encoded" = "appliedenergistics2-rv2-stable-10.jar";
+      "src" = ../bundled/appliedenergistics2-rv2-stable-10.jar;
+      "type" = "local";
+      "md5" = "f7a60fa036240da11da4a739c5c4137d";
     };
     "armorstatushud" = {
       "title" = "ArmorStatusHUD";
@@ -1885,16 +1882,15 @@
     "thaumic-energistics" = {
       "title" = "Thaumic Energistics";
       "name" = "thaumic-energistics";
-      "id" = 223666;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["applied-energistics-2" "thaumcraft"];
-      "filename" = "thaumic-energistics-1.0.0.5.jar";
-      "encoded" = "thaumic-energistics-1.0.0.5.jar";
-      "src" = ../bundled/thaumic-energistics-1.0.0.5.jar;
+      "deps" = [];
+      "filename" = "thaumicenergistics-1.0.0.5-RV2.jar";
+      "encoded" = "thaumicenergistics-1.0.0.5-RV2.jar";
+      "src" = ../bundled/thaumicenergistics-1.0.0.5-RV2.jar;
       "type" = "local";
-      "md5" = "f65cfaa416572b0e7ad410aba38823b4";
+      "md5" = "fcfee9e84088cacec7f257beacdd0c39";
     };
     "thaumic-exploration" = {
       "title" = "Thaumic Exploration";
