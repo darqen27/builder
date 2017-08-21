@@ -974,6 +974,22 @@
       "type" = "remote";
       "md5" = "8797d422aa9768c3b570a0f90fa15d5a";
     };
+    "garden-stuff" = {
+      "title" = "Garden Stuff";
+      "name" = "garden-stuff";
+      "id" = 225903;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "GardenStuff-1.7.10-1.7.0.jar";
+      "maturity" = "release";
+      "encoded" = "GardenStuff-1.7.10-1.7.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2269692";
+      "src" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2269692/download";
+      "type" = "remote";
+      "md5" = "5abcd31ea6aa0c174a67d5f459fe5fe3";
+    };
     "guide-api" = {
       "title" = "Guide-API";
       "name" = "guide-api";
@@ -2347,6 +2363,22 @@
       "type" = "remote";
       "md5" = "8dc007673d1e79f00c3095317f53d0ce";
     };
+    "the-erebus" = {
+      "title" = "The Erebus";
+      "name" = "the-erebus";
+      "id" = 220698;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TheErebus-0.4.7.jar";
+      "maturity" = "beta";
+      "encoded" = "TheErebus-0.4.7.jar";
+      "page" = "https://minecraft.curseforge.com/projects/the-erebus/files/2305035";
+      "src" = "https://minecraft.curseforge.com/projects/the-erebus/files/2305035/download";
+      "type" = "remote";
+      "md5" = "9109c09d3489191c16cee6999c065bc8";
+    };
     "the-twilight-forest" = {
       "title" = "The Twilight Forest";
       "name" = "the-twilight-forest";
@@ -2516,6 +2548,22 @@
       "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2448169/download";
       "type" = "remote";
       "md5" = "9b63bb12c9ca1fccf5054334f169d43a";
+    };
+    "tombenpotters-icarus" = {
+      "title" = "Tombenpotter's Icarus";
+      "name" = "tombenpotters-icarus";
+      "id" = 235702;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Icarus-1.0.6-hotfix.jar";
+      "maturity" = "release";
+      "encoded" = "Icarus-1.0.6-hotfix.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tombenpotters-icarus/files/2262514";
+      "src" = "https://minecraft.curseforge.com/projects/tombenpotters-icarus/files/2262514/download";
+      "type" = "remote";
+      "md5" = "1cd98bcaa1daa701e44781f86a99f961";
     };
     "tool-belt" = {
       "title" = "Tool Belt";

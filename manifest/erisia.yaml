@@ -1,5 +1,8 @@
 version: "1.7.10"
 mods:
+- name: "tombenpotters-icarus"
+- name: "the-erebus"
+- name: "garden-stuff"
 - name: "aquatweaks"
   side: "client"
   required: false
