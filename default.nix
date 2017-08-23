@@ -58,6 +58,10 @@ rec {
     manifests = [
       ./manifest/erisia.nix
     ];
+    # Not all mods are equally welcome.
+    blacklist = [
+      "mystcraft"
+    ];
   };
 
   tppi2 = {
@@ -84,9 +88,6 @@ rec {
     # These are all the mods we'd like to include in this pack.
     manifests = [
       ./manifest/TPPI2.nix
-    ];
-    # Not all mods are equally welcome.
-    blacklist = [
     ];
   };
 
