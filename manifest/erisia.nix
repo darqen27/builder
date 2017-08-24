@@ -402,7 +402,7 @@
       "name" = "chunk-animator";
       "id" = 236484;
       "side" = "client";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
@@ -643,7 +643,7 @@
       "name" = "dynamic-surroundings";
       "id" = 238891;
       "side" = "client";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "DynamicSurroundings-1.7.10-1.0.5.12.jar";
@@ -2195,7 +2195,7 @@
       "name" = "sound-filters";
       "id" = 222789;
       "side" = "client";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "SoundFilters-0.8_for_1.7.X.jar";

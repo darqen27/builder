@@ -9,11 +9,14 @@ mods:
   required: false
 - name: "chunk-animator"
   side: "client"
+  required: false
 - name: "recurrent-complex"
 - name: "dynamic-surroundings"
   side: "client"
+  required: false
 - name: "sound-filters"
   side: "client"
+  required: false
 - name: "immersive-engineering"
 - name: "immersive-floofs"
 - name: "foxlib"
