@@ -1,6 +1,12 @@
 ---
 version: "1.7.10"
 mods:
+- name: "damage-indicators-mod"
+  side: "client"
+  required: false
+- name: "xaeros-minimap"
+  side: "client"
+  required: false
 - name: "translocators"
 - name: "thaumic-tinkerer"
 - name: "opis"

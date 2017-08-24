@@ -593,6 +593,16 @@
       "type" = "remote";
       "md5" = "87fe5ade98944a8deec9fee5f964b5d4";
     };
+    "damage-indicators-mod" = {
+      "title" = "Damage Indicators Mod";
+      "name" = "damage-indicators-mod";
+      "id" = 59489;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "decocraft2" = {
       "title" = "DecoCraft2";
       "name" = "decocraft2";
@@ -2766,6 +2776,22 @@
       "src" = "https://minecraft.curseforge.com/projects/wr-cbe-universal/files/2233235/download";
       "type" = "remote";
       "md5" = "c3477cd84ce90a85cce8ba8bb7b93809";
+    };
+    "xaeros-minimap" = {
+      "title" = "Xaero's Minimap";
+      "name" = "xaeros-minimap";
+      "id" = 263420;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Xaeros_Minimap_1.13.5_Forge_1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "Xaeros_Minimap_1.13.5_Forge_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2467960";
+      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2467960/download";
+      "type" = "remote";
+      "md5" = "2e081b59b704f33bab28193b1d3ce37b";
     };
     "ztones" = {
       "title" = "Ztones";
