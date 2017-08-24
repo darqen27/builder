@@ -3,8 +3,10 @@ mods:
 - name: "just-enough-resources-jer"
 - name: "Ding"
   side: "client"
-- name: "thump"
-  required: false
+
+# Just for 1.10 and on.
+#- name: "thump"
+#  required: false
 - name: "tickprofiler"
   side: "server"
 - name: "dynmapforge"

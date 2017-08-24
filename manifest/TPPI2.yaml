@@ -265,6 +265,8 @@ mods:
 - name: "eirairc"
   id: 68420
   title: "EiraIRC (Discontinued)"
+  required: false
+  default: false
 - name: "extra-utilities"
   id: 225561
   title: "Extra Utilities"

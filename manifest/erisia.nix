@@ -675,8 +675,8 @@
       "name" = "eirairc";
       "id" = 68420;
       "side" = "both";
-      "required" = true;
-      "default" = true;
+      "required" = false;
+      "default" = false;
       "deps" = [];
       "filename" = "eirairc-mc1.7.10-2.9.402.jar";
       "maturity" = "release";
@@ -2474,22 +2474,6 @@
       "src" = "https://minecraft.curseforge.com/projects/thermalexpansion/files/2388758/download";
       "type" = "remote";
       "md5" = "8c0ca9e6cc197a13e6cdbaf53b8d60f5";
-    };
-    "thump" = {
-      "title" = "Thump";
-      "name" = "thump";
-      "id" = 231124;
-      "side" = "both";
-      "required" = false;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Thump-1.7.10-2.1.0.8.jar";
-      "maturity" = "release";
-      "encoded" = "Thump-1.7.10-2.1.0.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thump/files/2283996";
-      "src" = "https://minecraft.curseforge.com/projects/thump/files/2283996/download";
-      "type" = "remote";
-      "md5" = "02b90a36c85e21cb37db4de1853be9eb";
     };
     "tic-tooltips" = {
       "title" = "TiC Tooltips";
