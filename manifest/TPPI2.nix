@@ -2200,7 +2200,7 @@
       "id" = 263420;
       "side" = "client";
       "required" = false;
-      "default" = true;
+      "default" = false;
       "deps" = [];
       "filename" = "Xaeros_Minimap_1.13.5_Forge_1.7.10.jar";
       "maturity" = "release";

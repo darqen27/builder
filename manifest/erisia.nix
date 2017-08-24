@@ -95,7 +95,7 @@
       "id" = 231659;
       "side" = "client";
       "required" = false;
-      "default" = true;
+      "default" = false;
       "deps" = [];
       "filename" = "AquaTweaks-1.7.10-1.0.jar";
       "maturity" = "release";
@@ -435,7 +435,7 @@
       "id" = 236484;
       "side" = "client";
       "required" = false;
-      "default" = true;
+      "default" = false;
       "deps" = [];
       "filename" = "ChunkAnimator-MC1.7.10-1.0.1.jar";
       "maturity" = "beta";
@@ -2767,7 +2767,7 @@
       "id" = 263420;
       "side" = "client";
       "required" = false;
-      "default" = true;
+      "default" = false;
       "deps" = [];
       "filename" = "Xaeros_Minimap_1.13.5_Forge_1.7.10.jar";
       "maturity" = "release";
