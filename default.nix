@@ -58,6 +58,10 @@ rec {
     manifests = [
       ./manifest/erisia.nix
     ];
+    extraDirs = [
+      ./base-erisia
+      ./base-tppi2
+    ];
     # Not all mods are equally welcome.
     blacklist = [
       "mystcraft"

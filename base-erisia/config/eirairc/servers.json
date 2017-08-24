@@ -1,0 +1,22 @@
+[
+  {
+    "address": "irc.rizon.net",
+    "nick": "Erisia-18",
+    "bot": {
+      "quitMessage": "Increase the rage quit count, sir."
+    },
+    "theme": {
+      "ircNameColor": "c",
+      "ircOpNameColor": "6",
+      "ircVoiceNameColor": "9",
+      "ircPrivateNameColor": "8",
+      "ircNoticeTextColor": "8",
+      "emoteTextColor": "8"
+    },
+    "channels": [
+      {
+        "name": "#erisia"
+      }
+    ]
+  }
+]
