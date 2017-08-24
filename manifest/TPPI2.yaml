@@ -10,6 +10,8 @@ mods:
 - name: "translocators"
 - name: "thaumic-tinkerer"
 - name: "opis"
+  required: false
+  default: false
 - name: "mekanism"
 - name: "mekanism-generators"
 - name: "inventory-tweaks"

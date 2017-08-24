@@ -728,22 +728,6 @@
       "type" = "remote";
       "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
     };
-    "eleccore-rendering-library" = {
-      "title" = "ElecCore | Rendering Library";
-      "name" = "eleccore-rendering-library";
-      "id" = 227391;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "ElecCore-1.7.10-1.4.294.jar";
-      "maturity" = "release";
-      "encoded" = "ElecCore-1.7.10-1.4.294.jar";
-      "page" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2309856";
-      "src" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2309856/download";
-      "type" = "remote";
-      "md5" = "f425da0b5eea4529467ea54b3ceee77c";
-    };
     "electrical-age" = {
       "title" = "Electrical Age";
       "name" = "electrical-age";
@@ -1399,7 +1383,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["eleccore-rendering-library" "forestry"];
+      "deps" = ["forestry"];
       "filename" = "magicbees-1.7.10-2.4.4.jar";
       "maturity" = "release";
       "encoded" = "magicbees-1.7.10-2.4.4.jar";
@@ -1855,8 +1839,8 @@
       "name" = "opis";
       "id" = 73832;
       "side" = "both";
-      "required" = true;
-      "default" = true;
+      "required" = false;
+      "default" = false;
       "deps" = ["mobiuscore"];
       "filename" = "Opis-1.2.5_1.7.10.jar";
       "maturity" = "release";
