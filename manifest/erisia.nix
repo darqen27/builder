@@ -686,6 +686,22 @@
       "type" = "remote";
       "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
     };
+    "eleccore-rendering-library" = {
+      "title" = "ElecCore | Rendering Library";
+      "name" = "eleccore-rendering-library";
+      "id" = 227391;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ElecCore-1.7.10-1.4.294.jar";
+      "maturity" = "release";
+      "encoded" = "ElecCore-1.7.10-1.4.294.jar";
+      "page" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2309856";
+      "src" = "https://minecraft.curseforge.com/projects/eleccore-rendering-library/files/2309856/download";
+      "type" = "remote";
+      "md5" = "f425da0b5eea4529467ea54b3ceee77c";
+    };
     "electrical-age" = {
       "title" = "Electrical Age";
       "name" = "electrical-age";
@@ -1341,14 +1357,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["forestry"];
-      "filename" = "magicbees-1.7.10-2.4.3.jar";
+      "deps" = ["eleccore-rendering-library" "forestry"];
+      "filename" = "magicbees-1.7.10-2.4.4.jar";
       "maturity" = "release";
-      "encoded" = "magicbees-1.7.10-2.4.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/magic-bees/files/2282734";
-      "src" = "https://minecraft.curseforge.com/projects/magic-bees/files/2282734/download";
+      "encoded" = "magicbees-1.7.10-2.4.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/magic-bees/files/2468320";
+      "src" = "https://minecraft.curseforge.com/projects/magic-bees/files/2468320/download";
       "type" = "remote";
-      "md5" = "ea1be6e038ddf7849757efeb3f24a33d";
+      "md5" = "37e76b00092972895c7e7118e82c9588";
     };
     "malisiscore" = {
       "title" = "MalisisCore";
@@ -2702,6 +2718,22 @@
       "src" = "https://minecraft.curseforge.com/projects/witchery/files/2234410/download";
       "type" = "remote";
       "md5" = "22096b8e462fa5cca3a6c8054116d4fc";
+    };
+    "worldedit" = {
+      "title" = "WorldEdit";
+      "name" = "worldedit";
+      "id" = 225608;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "worldedit-forge-mc1.7.10-6.1.1-dist.jar";
+      "maturity" = "release";
+      "encoded" = "worldedit-forge-mc1.7.10-6.1.1-dist.jar";
+      "page" = "https://minecraft.curseforge.com/projects/worldedit/files/2309699";
+      "src" = "https://minecraft.curseforge.com/projects/worldedit/files/2309699/download";
+      "type" = "remote";
+      "md5" = "2009d49df40267da5bba19e09e29463a";
     };
     "wr-cbe-universal" = {
       "title" = "WR-CBE-Universal";
