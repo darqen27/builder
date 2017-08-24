@@ -2,6 +2,22 @@
   "version" = "1.7.10";
   "imports" = ["TPPI2.yaml" "Reika.yaml" "pinned.yaml" "tools.yaml"];
   "mods" = {
+    "advanced-generators" = {
+      "title" = "Advanced Generators";
+      "name" = "advanced-generators";
+      "id" = 223622;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["bdlib"];
+      "filename" = "generators-0.9.20.123-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "generators-0.9.20.123-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/advanced-generators/files/2298965";
+      "src" = "https://minecraft.curseforge.com/projects/advanced-generators/files/2298965/download";
+      "type" = "remote";
+      "md5" = "bbaf7845843bf8d90082839bb417303b";
+    };
     "akashic-tome" = {
       "title" = "Akashic Tome";
       "name" = "akashic-tome";
@@ -162,6 +178,22 @@
       "src" = "https://minecraft.curseforge.com/projects/baubles/files/2224857/download";
       "type" = "remote";
       "md5" = "0e711d6535970f62d4964edaa26f4623";
+    };
+    "bdlib" = {
+      "title" = "BdLib";
+      "name" = "bdlib";
+      "id" = 70496;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259";
+      "src" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259/download";
+      "type" = "remote";
+      "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
     };
     "bibliocraft" = {
       "title" = "BiblioCraft";
