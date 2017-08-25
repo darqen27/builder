@@ -89,22 +89,6 @@
       "type" = "local";
       "md5" = "f7a60fa036240da11da4a739c5c4137d";
     };
-    "aquatweaks" = {
-      "title" = "AquaTweaks";
-      "name" = "aquatweaks";
-      "id" = 231659;
-      "side" = "client";
-      "required" = false;
-      "default" = false;
-      "deps" = [];
-      "filename" = "AquaTweaks-1.7.10-1.0.jar";
-      "maturity" = "release";
-      "encoded" = "AquaTweaks-1.7.10-1.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/aquatweaks/files/2243845";
-      "src" = "https://minecraft.curseforge.com/projects/aquatweaks/files/2243845/download";
-      "type" = "remote";
-      "md5" = "fb5c63447ce906f344c909a22c4a3f64";
-    };
     "armorstatushud" = {
       "title" = "ArmorStatusHUD";
       "name" = "armorstatushud";

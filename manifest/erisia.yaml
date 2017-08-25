@@ -9,10 +9,6 @@ mods:
 - name: "tombenpotters-icarus"
 - name: "the-erebus"
 - name: "garden-stuff"
-- name: "aquatweaks"
-  side: "client"
-  required: false
-  default: false
 - name: "chunk-animator"
   side: "client"
   required: false
