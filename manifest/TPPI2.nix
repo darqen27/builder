@@ -1241,6 +1241,22 @@
       "type" = "remote";
       "md5" = "134e1cc870742392bb809cb68f82c6b8";
     };
+    "mouse-tweaks" = {
+      "title" = "Mouse Tweaks";
+      "name" = "mouse-tweaks";
+      "id" = 60089;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "MouseTweaks-2.4.4-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "MouseTweaks-2.4.4-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2209265";
+      "src" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2209265/download";
+      "type" = "remote";
+      "md5" = "d4968eb0b513066313259fcd80bb8eb0";
+    };
     "mrtjpcore" = {
       "title" = "MrTJPCore";
       "name" = "mrtjpcore";

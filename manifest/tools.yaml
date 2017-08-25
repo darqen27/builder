@@ -1,4 +1,6 @@
 mods:
+- name: "mouse-tweaks"
+  side: "client"
 - name: "worldedit"
 - name: "just-enough-resources-jer"
 - name: "Ding"

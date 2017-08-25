@@ -603,6 +603,22 @@
       "deps" = [];
       "type" = "missing";
     };
+    "darkcore" = {
+      "title" = "Darkcore";
+      "name" = "darkcore";
+      "id" = 230156;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "darkcore-0.41-179.jar";
+      "maturity" = "beta";
+      "encoded" = "darkcore-0.41-179.jar";
+      "page" = "https://minecraft.curseforge.com/projects/darkcore/files/2305497";
+      "src" = "https://minecraft.curseforge.com/projects/darkcore/files/2305497/download";
+      "type" = "remote";
+      "md5" = "4593bc7d26caab4c89fdd8315887e442";
+    };
     "decocraft2" = {
       "title" = "DecoCraft2";
       "name" = "decocraft2";
@@ -1600,6 +1616,22 @@
       "type" = "remote";
       "md5" = "134e1cc870742392bb809cb68f82c6b8";
     };
+    "mouse-tweaks" = {
+      "title" = "Mouse Tweaks";
+      "name" = "mouse-tweaks";
+      "id" = 60089;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "MouseTweaks-2.4.4-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "MouseTweaks-2.4.4-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2209265";
+      "src" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2209265/download";
+      "type" = "remote";
+      "md5" = "d4968eb0b513066313259fcd80bb8eb0";
+    };
     "mrtjpcore" = {
       "title" = "MrTJPCore";
       "name" = "mrtjpcore";
@@ -2368,6 +2400,22 @@
       "src" = "https://minecraft.curseforge.com/projects/tails/files/2254706/download";
       "type" = "remote";
       "md5" = "dcd9904b1fc80e1b4bf343c245476a69";
+    };
+    "tardis-mod" = {
+      "title" = "TARDIS Mod";
+      "name" = "tardis-mod";
+      "id" = 230170;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "tardismod-1.7.10-0.995-350.jar";
+      "maturity" = "alpha";
+      "encoded" = "tardismod-1.7.10-0.995-350.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tardis-mod/files/2305503";
+      "src" = "https://minecraft.curseforge.com/projects/tardis-mod/files/2305503/download";
+      "type" = "remote";
+      "md5" = "8e90b19f79b2cc788e0a1c4986722014";
     };
     "thaumcraft" = {
       "title" = "Thaumcraft";

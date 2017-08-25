@@ -1,5 +1,7 @@
 version: "1.7.10"
 mods:
+- name: "tardis-mod"
+- name: "darkcore"
 - name: "iguanas-tinker-tweaks"
 - name: "advanced-generators"
 - name: "not-enough-wands"
