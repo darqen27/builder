@@ -1,4 +1,8 @@
 mods:
+- name: "better-foliage"
+  side: "client"
+  required: false
+  default: false
 - name: "journeymap"
   side: "client"
   required: false

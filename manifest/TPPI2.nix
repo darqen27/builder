@@ -131,6 +131,22 @@
       "type" = "remote";
       "md5" = "0e711d6535970f62d4964edaa26f4623";
     };
+    "better-foliage" = {
+      "title" = "Better Foliage";
+      "name" = "better-foliage";
+      "id" = 228529;
+      "side" = "client";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "BetterFoliage-MC1.7.10-2.0.16.jar";
+      "maturity" = "release";
+      "encoded" = "BetterFoliage-MC1.7.10-2.0.16.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2446633";
+      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2446633/download";
+      "type" = "remote";
+      "md5" = "3906a154fc4361efa3e2bdd36a9c6de8";
+    };
     "bibliocraft" = {
       "title" = "BiblioCraft";
       "name" = "bibliocraft";
