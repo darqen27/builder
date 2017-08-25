@@ -1,4 +1,8 @@
 mods:
+- name: "journeymap"
+  side: "client"
+  required: false
+  default: false
 - name: "mouse-tweaks"
   side: "client"
 - name: "worldedit"

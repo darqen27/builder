@@ -933,6 +933,22 @@
       "type" = "remote";
       "md5" = "9d35698387f75007c1c4dd0dcfec13e5";
     };
+    "journeymap" = {
+      "title" = "JourneyMap";
+      "name" = "journeymap";
+      "id" = 32274;
+      "side" = "client";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
+      "maturity" = "release";
+      "encoded" = "journeymap-1.7.10-5.1.4p2-unlimited.jar";
+      "page" = "https://minecraft.curseforge.com/projects/journeymap/files/2367915";
+      "src" = "https://minecraft.curseforge.com/projects/journeymap/files/2367915/download";
+      "type" = "remote";
+      "md5" = "0c3daa19789a67da328437a8635c2cf3";
+    };
     "just-enough-calculation" = {
       "title" = "Just Enough Calculation";
       "name" = "just-enough-calculation";
