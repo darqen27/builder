@@ -3,6 +3,9 @@ mods:
 - name: "just-enough-resources-jer"
 - name: "Ding"
   side: "client"
+- name: "notenoughkeys"
+  side: "client"
+  required: false
 
 # Just for 1.10 and on.
 #- name: "thump"
@@ -26,8 +29,6 @@ mods:
 - name: "schematica"
   side: "client"
   required: false
-- name: "prometheus-integration"
-  side: "server"
 - name: "reauth"
   side: "client"
 - name: "just-enough-calculation"

@@ -1,6 +1,11 @@
 ---
 version: "1.7.10"
 mods:
+- name: "prometheus-integration"
+  side: "server"
+  curse: false
+  files:
+  - src: "../bundled/prometheus-integration-1.2.0.jar"
 - name: "damage-indicators-mod"
   side: "client"
   required: false

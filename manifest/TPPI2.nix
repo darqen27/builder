@@ -1379,6 +1379,22 @@
       "type" = "remote";
       "md5" = "742e865a9a80071e80976ffedc05700e";
     };
+    "notenoughkeys" = {
+      "title" = "NotEnoughKeys";
+      "name" = "notenoughkeys";
+      "id" = 224614;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "NotEnoughKeys-1.7.10-3.0.0b45-dev-universal.jar";
+      "maturity" = "release";
+      "encoded" = "NotEnoughKeys-1.7.10-3.0.0b45-dev-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/notenoughkeys/files/2276280";
+      "src" = "https://minecraft.curseforge.com/projects/notenoughkeys/files/2276280/download";
+      "type" = "remote";
+      "md5" = "162f67054b9e7c262a4e89dc71a37842";
+    };
     "notenoughresources" = {
       "title" = "NotEnoughResources";
       "name" = "notenoughresources";
@@ -1572,14 +1588,17 @@
       "md5" = "e774c0bfc2f0e364a272cf159e89dc54";
     };
     "prometheus-integration" = {
-      "title" = "Prometheus Integration";
+      "title" = "prometheus-integration";
       "name" = "prometheus-integration";
-      "id" = 254573;
       "side" = "server";
       "required" = true;
       "default" = true;
-      "deps" = ["shadowfacts-forgelin"];
-      "type" = "missing";
+      "deps" = [];
+      "filename" = "prometheus-integration-1.2.0.jar";
+      "encoded" = "prometheus-integration-1.2.0.jar";
+      "src" = ../bundled/prometheus-integration-1.2.0.jar;
+      "type" = "local";
+      "md5" = "e13c9f8fe7c93e2f400239b038a552cf";
     };
     "railcraft" = {
       "title" = "Railcraft";
@@ -1750,16 +1769,6 @@
       "src" = "https://minecraft.curseforge.com/projects/servertools-backup/files/2232347/download";
       "type" = "remote";
       "md5" = "6b463d16e2558eb677ac8588e875ff25";
-    };
-    "shadowfacts-forgelin" = {
-      "title" = "Shadowfacts' Forgelin";
-      "name" = "shadowfacts-forgelin";
-      "id" = 248453;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "type" = "missing";
     };
     "signal-catcher" = {
       "title" = "Signal-Catcher";
