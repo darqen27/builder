@@ -696,6 +696,22 @@
       "type" = "remote";
       "md5" = "f519de9d93d2217711bebc207e6453c6";
     };
+    "dragons-radio-mod" = {
+      "title" = "Dragon's Radio Mod";
+      "name" = "dragons-radio-mod";
+      "id" = 74360;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Dragon_s Radio Mod-MC1.7.10-1.7.1.jar";
+      "maturity" = "release";
+      "encoded" = "Dragon_s%20Radio%20Mod-MC1.7.10-1.7.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dragons-radio-mod/files/2248689";
+      "src" = "https://minecraft.curseforge.com/projects/dragons-radio-mod/files/2248689/download";
+      "type" = "remote";
+      "md5" = "522ab8d48bb87cce062b9ff02557187a";
+    };
     "dynamic-surroundings" = {
       "title" = "Dynamic Surroundings";
       "name" = "dynamic-surroundings";
