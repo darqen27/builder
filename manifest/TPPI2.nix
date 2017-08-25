@@ -1273,6 +1273,22 @@
       "type" = "remote";
       "md5" = "134e1cc870742392bb809cb68f82c6b8";
     };
+    "morpheus" = {
+      "title" = "Morpheus";
+      "name" = "morpheus";
+      "id" = 69118;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Morpheus-1.7.10-1.6.21.jar";
+      "maturity" = "release";
+      "encoded" = "Morpheus-1.7.10-1.6.21.jar";
+      "page" = "https://minecraft.curseforge.com/projects/morpheus/files/2280761";
+      "src" = "https://minecraft.curseforge.com/projects/morpheus/files/2280761/download";
+      "type" = "remote";
+      "md5" = "5d31a1480db8b091757ea5ccd4e220d9";
+    };
     "mouse-tweaks" = {
       "title" = "Mouse Tweaks";
       "name" = "mouse-tweaks";
