@@ -12,6 +12,9 @@ mods:
 #  required: false
 - name: "tickprofiler"
   side: "server"
+  curse: false
+  files:
+  - src: "../bundled/TickProfiler-1.7.10.jenkins.37.jar"
 - name: "dynmapforge"
   side: "server"
 - name: "fullscreen-windowed-borderless-for-minecraft"

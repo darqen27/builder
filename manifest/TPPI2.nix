@@ -2024,14 +2024,17 @@
       "md5" = "d8178b20a554d3a0f3d0f374769acd02";
     };
     "tickprofiler" = {
-      "title" = "TickProfiler";
+      "title" = "tickprofiler";
       "name" = "tickprofiler";
-      "id" = 270330;
       "side" = "server";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "TickProfiler-1.7.10.jenkins.37.jar";
+      "encoded" = "TickProfiler-1.7.10.jenkins.37.jar";
+      "src" = ../bundled/TickProfiler-1.7.10.jenkins.37.jar;
+      "type" = "local";
+      "md5" = "99872ea843467c729866f761e1c9fcc9";
     };
     "tinkers-construct" = {
       "title" = "Tinkers Construct";
