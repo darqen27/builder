@@ -1,5 +1,6 @@
 version: "1.7.10"
 mods:
+- name: "iguanas-tinker-tweaks"
 - name: "advanced-generators"
 - name: "not-enough-wands"
 - name: "tombenpotters-icarus"

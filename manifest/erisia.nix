@@ -1122,6 +1122,22 @@
       "type" = "remote";
       "md5" = "9f90848755f2c3002996b86b57dee2f1";
     };
+    "iguanas-tinker-tweaks" = {
+      "title" = "Iguanas Tinker Tweaks";
+      "name" = "iguanas-tinker-tweaks";
+      "id" = 223248;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["tinkers-construct"];
+      "filename" = "IguanaTinkerTweaks-1.7.10-2.1.6.jar";
+      "maturity" = "release";
+      "encoded" = "IguanaTinkerTweaks-1.7.10-2.1.6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/iguanas-tinker-tweaks/files/2288329";
+      "src" = "https://minecraft.curseforge.com/projects/iguanas-tinker-tweaks/files/2288329/download";
+      "type" = "remote";
+      "md5" = "813bbff9847db4d4c4c9aa5702c047d6";
+    };
     "illuminated-bows" = {
       "title" = "Illuminated Bows";
       "name" = "illuminated-bows";
