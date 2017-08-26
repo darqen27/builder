@@ -640,7 +640,7 @@
       "name" = "fastcraft";
       "id" = 242677;
       "side" = "both";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "fastcraft-1.23.jar";
