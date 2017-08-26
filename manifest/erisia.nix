@@ -2773,22 +2773,6 @@
       "type" = "remote";
       "md5" = "b9247700347db060b9a50c60c652e661";
     };
-    "void-monster" = {
-      "title" = "Void Monster";
-      "name" = "void-monster";
-      "id" = 235609;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "VoidMonster 1.7.10 V18a.jar";
-      "maturity" = "release";
-      "encoded" = "VoidMonster%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/void-monster/files/2461738";
-      "src" = "https://minecraft.curseforge.com/projects/void-monster/files/2461738/download";
-      "type" = "remote";
-      "md5" = "34164c6638d20659408241ea45aec2d1";
-    };
     "waila" = {
       "title" = "Waila";
       "name" = "waila";
