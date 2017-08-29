@@ -1,6 +1,11 @@
 ---
 version: "1.7.10"
 mods:
+- name: "electrical-age"
+  title: "Electrical Age"
+  curse: false
+  files:
+  - src: "../bundled/ElectricalAge-1.14.666.jar"
 - name: "prometheus-integration"
   side: "server"
   curse: false
@@ -69,9 +74,6 @@ mods:
 - name: "customthings"
   id: 231056
   title: "CustomThings"
-- name: "electrical-age"
-  id: 253045
-  title: "Electrical Age"
 - name: "endercore"
   id: 231868
   title: "EnderCore"

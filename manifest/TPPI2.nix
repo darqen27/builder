@@ -526,18 +526,15 @@
     "electrical-age" = {
       "title" = "Electrical Age";
       "name" = "electrical-age";
-      "id" = 253045;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ElectricalAge-1.14.2.jar";
-      "maturity" = "release";
-      "encoded" = "ElectricalAge-1.14.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electrical-age/files/2385734";
-      "src" = "https://minecraft.curseforge.com/projects/electrical-age/files/2385734/download";
-      "type" = "remote";
-      "md5" = "f82dfa796f53d8e372a8a48553f0e99e";
+      "filename" = "ElectricalAge-1.14.666.jar";
+      "encoded" = "ElectricalAge-1.14.666.jar";
+      "src" = ../bundled/ElectricalAge-1.14.666.jar;
+      "type" = "local";
+      "md5" = "22f4d476eaf241c5512d8f85f5fc9f3a";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -1906,13 +1903,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["chameleon"];
-      "filename" = "StorageDrawers-1.7.10-1.10.8.jar";
+      "filename" = "StorageDrawers-1.7.10-1.10.9.jar";
       "maturity" = "release";
-      "encoded" = "StorageDrawers-1.7.10-1.10.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2355230";
-      "src" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2355230/download";
+      "encoded" = "StorageDrawers-1.7.10-1.10.9.jar";
+      "page" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2469586";
+      "src" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2469586/download";
       "type" = "remote";
-      "md5" = "87975170dba34246691aeea8b5e41ae7";
+      "md5" = "6fe615f1a9ff94dfe1b0641f1fc9fd18";
     };
     "super-massive-tech" = {
       "title" = "Super Massive Tech";
@@ -2278,13 +2275,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "filename" = "Xaeros_Minimap_1.13.5_Forge_1.7.10.jar";
+      "filename" = "Xaeros_Minimap_1.13.6_Forge_1.7.10.jar";
       "maturity" = "release";
-      "encoded" = "Xaeros_Minimap_1.13.5_Forge_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2467960";
-      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2467960/download";
+      "encoded" = "Xaeros_Minimap_1.13.6_Forge_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2470357";
+      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2470357/download";
       "type" = "remote";
-      "md5" = "2e081b59b704f33bab28193b1d3ce37b";
+      "md5" = "93dc26c6118f73b751e0ec59ded38782";
     };
     "ztones" = {
       "title" = "Ztones";
