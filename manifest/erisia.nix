@@ -1509,13 +1509,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Mekanism-1.7.10-9.1.0.281.jar";
+      "filename" = "Mekanism-1.7.10-9.1.1.1031.jar";
       "maturity" = "release";
-      "encoded" = "Mekanism-1.7.10-9.1.0.281.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mekanism/files/2426270";
-      "src" = "https://minecraft.curseforge.com/projects/mekanism/files/2426270/download";
+      "encoded" = "Mekanism-1.7.10-9.1.1.1031.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mekanism/files/2475797";
+      "src" = "https://minecraft.curseforge.com/projects/mekanism/files/2475797/download";
       "type" = "remote";
-      "md5" = "e23ff9e4e135d787502059b660dcbdd7";
+      "md5" = "7ad4fa0ac10fb1f163b93cba7d03d3d2";
     };
     "mekanism-generators" = {
       "title" = "Mekanism Generators";
@@ -1525,13 +1525,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["mekanism"];
-      "filename" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
+      "filename" = "MekanismGenerators-1.7.10-9.1.1.1031.jar";
       "maturity" = "release";
-      "encoded" = "MekanismGenerators-1.7.10-9.1.0.281.jar";
-      "page" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2426269";
-      "src" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2426269/download";
+      "encoded" = "MekanismGenerators-1.7.10-9.1.1.1031.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2475792";
+      "src" = "https://minecraft.curseforge.com/projects/mekanism-generators/files/2475792/download";
       "type" = "remote";
-      "md5" = "534898e919199b399624c56f6f826d1d";
+      "md5" = "db762b5e8cf1b64fc8f7d3d4979c4ed7";
     };
     "minefactory-reloaded" = {
       "title" = "Minefactory Reloaded";
