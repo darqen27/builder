@@ -767,11 +767,11 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ElectricalAge-1.14.666.jar";
-      "encoded" = "ElectricalAge-1.14.666.jar";
-      "src" = ../bundled/ElectricalAge-1.14.666.jar;
+      "filename" = "ElectricalAge-1.15.1.jar";
+      "encoded" = "ElectricalAge-1.15.1.jar";
+      "src" = ../bundled/ElectricalAge-1.15.1.jar;
       "type" = "local";
-      "md5" = "22f4d476eaf241c5512d8f85f5fc9f3a";
+      "md5" = "227d1236183eda7301cea5e7b9ecc25e";
     };
     "electricraft" = {
       "title" = "ElectriCraft";

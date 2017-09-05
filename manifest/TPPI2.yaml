@@ -5,7 +5,7 @@ mods:
   title: "Electrical Age"
   curse: false
   files:
-  - src: "../bundled/ElectricalAge-1.14.666.jar"
+  - src: "../bundled/ElectricalAge-1.15.1.jar"
 - name: "prometheus-integration"
   side: "server"
   curse: false
