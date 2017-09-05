@@ -1501,6 +1501,22 @@
       "type" = "remote";
       "md5" = "934fe4ef7a9b971f22b5dd53e57fa976";
     };
+    "mcjtylib" = {
+      "title" = "McJtyLib";
+      "name" = "mcjtylib";
+      "id" = 233105;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "mcjtylib-1.8.1.jar";
+      "maturity" = "release";
+      "encoded" = "mcjtylib-1.8.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2272449";
+      "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2272449/download";
+      "type" = "remote";
+      "md5" = "2ebbefd7fa32bf96159f6d305f932fcf";
+    };
     "mekanism" = {
       "title" = "Mekanism";
       "name" = "mekanism";
@@ -2221,6 +2237,22 @@
       "src" = "https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2323453/download";
       "type" = "remote";
       "md5" = "0ecaef9e320a3bf36b4125724cf1fe70";
+    };
+    "rftools" = {
+      "title" = "RFTools";
+      "name" = "rftools";
+      "id" = 224641;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib"];
+      "filename" = "rftools-4.23.jar";
+      "maturity" = "release";
+      "encoded" = "rftools-4.23.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools/files/2287287";
+      "src" = "https://minecraft.curseforge.com/projects/rftools/files/2287287/download";
+      "type" = "remote";
+      "md5" = "3f8210b1cfca520753532cc89fc961d8";
     };
     "rotarycraft" = {
       "title" = "RotaryCraft";

@@ -1,5 +1,6 @@
 version: "1.7.10"
 mods:
+- name: "rftools"
 - name: "dragons-radio-mod"
 - name: "tardis-mod"
 - name: "darkcore"
