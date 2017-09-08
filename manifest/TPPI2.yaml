@@ -6,6 +6,7 @@ mods:
   curse: false
   files:
   - src: "../bundled/ElectricalAge-1.15.1.jar"
+- name: "nuclearcraft-mod"
 - name: "prometheus-integration"
   side: "server"
   curse: false

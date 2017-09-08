@@ -30,6 +30,7 @@ rec {
   packs = {
     e18 = buildPack e18;
     city = buildPack city;
+    test = buildPack test;
   };
 
   city = {
@@ -48,6 +49,11 @@ rec {
     manifests = [
       ./manifest/city.nix
     ];
+  };
+
+  test = e18 // {
+    blacklist = e18.blacklist ++ [ "prometheus-integration" ];
+    port = 25569;
   };
 
   e18 = tppi2 // {

@@ -1488,6 +1488,22 @@
       "type" = "remote";
       "md5" = "8699c37cf6233651c8fdc745a395125f";
     };
+    "nuclearcraft-mod" = {
+      "title" = "NuclearCraft";
+      "name" = "nuclearcraft-mod";
+      "id" = 226254;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "NuclearCraft-1.9f--1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "NuclearCraft-1.9f--1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2408593";
+      "src" = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2408593/download";
+      "type" = "remote";
+      "md5" = "2b9826302409cab043124f0c7ea3da4c";
+    };
     "openblocks" = {
       "title" = "OpenBlocks";
       "name" = "openblocks";
