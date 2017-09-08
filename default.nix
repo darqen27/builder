@@ -30,7 +30,7 @@ rec {
   packs = {
     e18 = buildPack e18;
     city = buildPack city;
-    test = buildPack test;
+#    test = buildPack test;
   };
 
   city = {
