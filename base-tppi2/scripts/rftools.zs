@@ -135,8 +135,8 @@ recipes.remove(<rftools:invisibleShieldBlock>);
 NEI.hide(<rftools:invisibleShieldBlock>);
 recipes.remove(<rftools:itemFilterBlock>);
 NEI.hide(<rftools:itemFilterBlock>);
-recipes.remove(<rftools:knownDimlet>);
-NEI.hide(<rftools:knownDimlet>);
+recipes.remove(<rftools:knownDimlet:*>);
+NEI.hide(<rftools:knownDimlet:*>);
 recipes.remove(<rftools:liquidAbsorberBlock>);
 NEI.hide(<rftools:liquidAbsorberBlock>);
 #recipes.remove(<rftools:liquidMonitorBlock>);
@@ -162,7 +162,7 @@ NEI.hide(<rftools:matterTransmitterBlock>);
 recipes.remove(<rftools:mediocreEfficiencyEssenceItem>);
 NEI.hide(<rftools:mediocreEfficiencyEssenceItem>);
 recipes.remove(<rftools:modularStorageBlock>);
-NEI.hide(<rftools:modularStorageBlock>);
+#NEI.hide(<rftools:modularStorageBlock>);
 #recipes.remove(<rftools:networkMonitorItem>);
 #NEI.hide(<rftools:networkMonitorItem>);
 recipes.remove(<rftools:nightVisionEModuleItem>);
@@ -247,25 +247,25 @@ NEI.hide(<rftools:slownessEModuleItem>);
 #NEI.hide(<rftools:smartWrenchItem>);
 recipes.remove(<rftools:solidShieldBlock>);
 NEI.hide(<rftools:solidShieldBlock>);
-recipes.remove(<rftools:spaceChamberBlock>);
-NEI.hide(<rftools:spaceChamberBlock>);
-recipes.remove(<rftools:spaceChamberCardItem>);
-NEI.hide(<rftools:spaceChamberCardItem>);
-recipes.remove(<rftools:spaceChamberControllerBlock>);
-NEI.hide(<rftools:spaceChamberControllerBlock>);
-recipes.remove(<rftools:spaceProjectorBlock>);
-NEI.hide(<rftools:spaceProjectorBlock>);
+#recipes.remove(<rftools:spaceChamberBlock>);
+#NEI.hide(<rftools:spaceChamberBlock>);
+#recipes.remove(<rftools:spaceChamberCardItem>);
+#NEI.hide(<rftools:spaceChamberCardItem>);
+#recipes.remove(<rftools:spaceChamberControllerBlock>);
+#NEI.hide(<rftools:spaceChamberControllerBlock>);
+#recipes.remove(<rftools:spaceProjectorBlock>);
+#NEI.hide(<rftools:spaceProjectorBlock>);
 recipes.remove(<rftools:spawnerBlock>);
 NEI.hide(<rftools:spawnerBlock>);
 recipes.remove(<rftools:speedEModuleItem>);
 NEI.hide(<rftools:speedEModuleItem>);
 recipes.remove(<rftools:speedPlusEModuleItem>);
 NEI.hide(<rftools:speedPlusEModuleItem>);
-recipes.remove(<rftools:storageFilterItem>);
-NEI.hide(<rftools:storageFilterItem>);
-#recipes.remove(<rftools:storageModuleItem>);
+#recipes.remove(<rftools:storageFilterItem>);
+#NEI.hide(<rftools:storageFilterItem>);
+recipes.remove(<rftools:storageModuleItem>);
 #NEI.hide(<rftools:storageModuleItem>);
-#recipes.remove(<rftools:storageModuleTabletItem>);
+recipes.remove(<rftools:storageModuleTabletItem>);
 #NEI.hide(<rftools:storageModuleTabletItem>);
 #recipes.remove(<rftools:storageScannerBlock>);
 #NEI.hide(<rftools:storageScannerBlock>);
@@ -293,3 +293,34 @@ recipes.remove(<rftools:waterBreathingEModuleItem>);
 NEI.hide(<rftools:waterBreathingEModuleItem>);
 recipes.remove(<rftools:weaknessEModuleItem>);
 NEI.hide(<rftools:weaknessEModuleItem>);
+
+val glow = <ore:dustGlowstone>;
+val red = <minecraft:redstone>;
+val annihilationCore = <appliedenergistics2:item.ItemMultiMaterial:43>;
+val formationCore = <appliedenergistics2:item.ItemMultiMaterial:44>;
+val quartz = <ore:crystalCertusQuartz>;
+val blockQuartz = <appliedenergistics2:tile.BlockQuartz>;
+val iron = <ore:ingotIron>;
+val nquartz = <minecraft:quartz>;
+
+recipes.addShaped(<rftools:modularStorageBlock>, [
+  [glow, <minecraft:chest>, glow],
+  [annihilationCore, <rftools:machineFrame>, formationCore],
+  [red, glow, red]]);
+
+recipes.remove(<rftools:storageModuleItem:*>);
+
+recipes.addShaped(<rftools:storageModuleItem>, [
+  [null, <IronChest:BlockIronChest:2>, null],
+  [quartz, iron, quartz],
+  [nquartz, red, nquartz]]);
+
+recipes.addShaped(<rftools:storageModuleItem:1>, [
+  [null, <IronChest:BlockIronChest:3>, null],
+  [blockQuartz, <rftools:storageModuleItem>, blockQuartz],
+  [nquartz, glow, nquartz]]);
+
+recipes.addShaped(<rftools:storageModuleItem:2>, [
+  [blockQuartz, annihilationCore, blockQuartz],
+  [formationCore, <rftools:storageModuleItem:1>, formationCore],
+  [glow, null, glow]]);
