@@ -593,6 +593,22 @@
       "type" = "remote";
       "md5" = "a925408e3bf0adb9f1a8ce3f1412836e";
     };
+    "creativecore" = {
+      "title" = "CreativeCore";
+      "name" = "creativecore";
+      "id" = 257814;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CreativeCore v1.3.24 mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "CreativeCore%20v1.3.24%20mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/creativecore/files/2462369";
+      "src" = "https://minecraft.curseforge.com/projects/creativecore/files/2462369/download";
+      "type" = "remote";
+      "md5" = "5bb81c830c37c9aeff78228c4289a5de";
+    };
     "customthings" = {
       "title" = "CustomThings";
       "name" = "customthings";
@@ -1420,6 +1436,22 @@
       "src" = "https://minecraft.curseforge.com/projects/kitchencraft/files/2256127/download";
       "type" = "remote";
       "md5" = "c58de8f7601739832c2a69a91fe2e7fc";
+    };
+    "littletiles" = {
+      "title" = "LittleTiles";
+      "name" = "littletiles";
+      "id" = 257818;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["creativecore"];
+      "filename" = "LittleTiles v1.2.0 mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "LittleTiles%20v1.2.0%20mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/littletiles/files/2462370";
+      "src" = "https://minecraft.curseforge.com/projects/littletiles/files/2462370/download";
+      "type" = "remote";
+      "md5" = "642b021f1f861cdb063d7185e8fa66ae";
     };
     "logistics-pipes" = {
       "title" = "Logistics Pipes";

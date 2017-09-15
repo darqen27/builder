@@ -1,5 +1,6 @@
 version: "1.7.10"
 mods:
+- name: "littletiles"
 - name: "anti-id-conflict"
   side: "client"
   required: false
