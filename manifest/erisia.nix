@@ -2954,13 +2954,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "filename" = "Xaeros_Minimap_1.13.6_Forge_1.7.10.jar";
+      "filename" = "Xaeros_Minimap_1.13.7_Forge_1.7.10.jar";
       "maturity" = "release";
-      "encoded" = "Xaeros_Minimap_1.13.6_Forge_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2470357";
-      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2470357/download";
+      "encoded" = "Xaeros_Minimap_1.13.7_Forge_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2479493";
+      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2479493/download";
       "type" = "remote";
-      "md5" = "93dc26c6118f73b751e0ec59ded38782";
+      "md5" = "ce6c59c829db186a4cc8a6a0cbb24274";
     };
     "ztones" = {
       "title" = "Ztones";
