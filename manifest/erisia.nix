@@ -885,6 +885,22 @@
       "type" = "remote";
       "md5" = "699521ccceba33f148ecf0b40dae4809";
     };
+    "exotic-birds" = {
+      "title" = "Exotic Birds";
+      "name" = "exotic-birds";
+      "id" = 242830;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Exotic Birds 1.7.10-1.4.4.jar";
+      "maturity" = "release";
+      "encoded" = "Exotic%20Birds%201.7.10-1.4.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2459671";
+      "src" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2459671/download";
+      "type" = "remote";
+      "md5" = "5f09c1e4c7a6894127a864fa70b698b9";
+    };
     "extra-utilities" = {
       "title" = "Extra Utilities";
       "name" = "extra-utilities";
