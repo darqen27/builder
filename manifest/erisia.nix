@@ -2946,6 +2946,22 @@
       "type" = "remote";
       "md5" = "dbdf14b087e645bece12d1cab750f397";
     };
+    "wild-mobs-mod" = {
+      "title" = "Wild Mobs Mod";
+      "name" = "wild-mobs-mod";
+      "id" = 255711;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "WildMobsMod-1.7.10-1.3.1.jar";
+      "maturity" = "release";
+      "encoded" = "WildMobsMod-1.7.10-1.3.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/wild-mobs-mod/files/2427559";
+      "src" = "https://minecraft.curseforge.com/projects/wild-mobs-mod/files/2427559/download";
+      "type" = "remote";
+      "md5" = "ed0e36d76871eac0063014b057a479fc";
+    };
     "witchery" = {
       "title" = "Witchery";
       "name" = "witchery";
