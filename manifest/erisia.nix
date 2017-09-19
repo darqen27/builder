@@ -275,6 +275,22 @@
       "type" = "remote";
       "md5" = "a4783a2057d7eb0714d1fe4fdf77fe70";
     };
+    "birds-nests" = {
+      "title" = "Birds Nests";
+      "name" = "birds-nests";
+      "id" = 250466;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "BirdsNests1.7.10-1.4.jar";
+      "maturity" = "release";
+      "encoded" = "BirdsNests1.7.10-1.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/birds-nests/files/2340114";
+      "src" = "https://minecraft.curseforge.com/projects/birds-nests/files/2340114/download";
+      "type" = "remote";
+      "md5" = "80e0e4a45af0c83e6320a5efd19f25c6";
+    };
     "blood-magic" = {
       "title" = "Blood Magic";
       "name" = "blood-magic";
@@ -2832,13 +2848,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "TIS-3D-MC1.7.10-1.2.2.68.jar";
+      "filename" = "TIS-3D-MC1.7.10-1.2.4.70.jar";
       "maturity" = "release";
-      "encoded" = "TIS-3D-MC1.7.10-1.2.2.68.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2448169";
-      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2448169/download";
+      "encoded" = "TIS-3D-MC1.7.10-1.2.4.70.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2481454";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2481454/download";
       "type" = "remote";
-      "md5" = "9b63bb12c9ca1fccf5054334f169d43a";
+      "md5" = "b62e896f88472aa3d93de3c8402fdaad";
     };
     "tombenpotters-icarus" = {
       "title" = "Tombenpotter's Icarus";
