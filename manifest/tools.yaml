@@ -1,4 +1,8 @@
 mods:
+- name: "better-placement"
+  side: "client"
+  required: false
+  default: true
 - name: "morpheus"
 - name: "better-foliage"
   side: "client"

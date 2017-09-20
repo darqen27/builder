@@ -147,6 +147,22 @@
       "type" = "remote";
       "md5" = "3906a154fc4361efa3e2bdd36a9c6de8";
     };
+    "better-placement" = {
+      "title" = "Better Placement";
+      "name" = "better-placement";
+      "id" = 278406;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "BetterPlacement-MC1.7.10-1.0.0-1.jar";
+      "maturity" = "release";
+      "encoded" = "BetterPlacement-MC1.7.10-1.0.0-1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-placement/files/2481883";
+      "src" = "https://minecraft.curseforge.com/projects/better-placement/files/2481883/download";
+      "type" = "remote";
+      "md5" = "918cf416c64c1616fea0758723ff97da";
+    };
     "bibliocraft" = {
       "title" = "BiblioCraft";
       "name" = "bibliocraft";
