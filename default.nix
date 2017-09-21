@@ -60,6 +60,7 @@ rec {
     name = "e18";
     description = "Erisia #18: Test Pack, Don't Ignore";
     screenName = "e18";
+    ram = "10000m";
     port = 25565;
     manifests = [
       ./manifest/erisia.nix
