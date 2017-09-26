@@ -291,22 +291,6 @@
       "type" = "remote";
       "md5" = "a4783a2057d7eb0714d1fe4fdf77fe70";
     };
-    "birds-nests" = {
-      "title" = "Birds Nests";
-      "name" = "birds-nests";
-      "id" = 250466;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "BirdsNests1.7.10-1.4.jar";
-      "maturity" = "release";
-      "encoded" = "BirdsNests1.7.10-1.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/birds-nests/files/2340114";
-      "src" = "https://minecraft.curseforge.com/projects/birds-nests/files/2340114/download";
-      "type" = "remote";
-      "md5" = "80e0e4a45af0c83e6320a5efd19f25c6";
-    };
     "blood-magic" = {
       "title" = "Blood Magic";
       "name" = "blood-magic";
@@ -492,6 +476,22 @@
       "src" = "https://minecraft.curseforge.com/projects/chunk-animator/files/2260030/download";
       "type" = "remote";
       "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
+    };
+    "clay-soldiers-mod" = {
+      "title" = "Clay Soldiers Mod";
+      "name" = "clay-soldiers-mod";
+      "id" = 227543;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["sanandreasps-manager-pack"];
+      "filename" = "ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar";
+      "maturity" = "beta";
+      "encoded" = "ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/clay-soldiers-mod/files/2226264";
+      "src" = "https://minecraft.curseforge.com/projects/clay-soldiers-mod/files/2226264/download";
+      "type" = "remote";
+      "md5" = "f7ad5985318317f30d47ade6ef2c0a4e";
     };
     "climate-control-geographicraft" = {
       "title" = "Climate Control/Geographicraft";
@@ -925,13 +925,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Exotic Birds 1.7.10-1.4.4.jar";
+      "filename" = "Exotic Birds 1.7.10-1.4.5.jar";
       "maturity" = "release";
-      "encoded" = "Exotic%20Birds%201.7.10-1.4.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2459671";
-      "src" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2459671/download";
+      "encoded" = "Exotic%20Birds%201.7.10-1.4.5.jar";
+      "page" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2483727";
+      "src" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2483727/download";
       "type" = "remote";
-      "md5" = "5f09c1e4c7a6894127a864fa70b698b9";
+      "md5" = "7fdd3bfadde015fd570ce78298b11bdc";
     };
     "extra-utilities" = {
       "title" = "Extra Utilities";
@@ -2397,6 +2397,22 @@
       "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592/download";
       "type" = "remote";
       "md5" = "436628172cb75f53b0fb1cc649624d6e";
+    };
+    "sanandreasps-manager-pack" = {
+      "title" = "SanAndreasP's Manager Pack";
+      "name" = "sanandreasps-manager-pack";
+      "id" = 226994;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "SAPManPack-1.7.10-2.5.1.jar";
+      "maturity" = "release";
+      "encoded" = "SAPManPack-1.7.10-2.5.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/sanandreasps-manager-pack/files/2241025";
+      "src" = "https://minecraft.curseforge.com/projects/sanandreasps-manager-pack/files/2241025/download";
+      "type" = "remote";
+      "md5" = "601593c183b6ea2fa1f2ef8bca0ef35f";
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";

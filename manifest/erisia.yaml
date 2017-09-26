@@ -1,7 +1,7 @@
 version: "1.7.10"
 mods:
+- name: "clay-soldiers-mod"
 - name: "wild-mobs-mod"
-- name: "birds-nests"
 - name: "exotic-birds"
 - name: "littletiles"
 - name: "anti-id-conflict"
