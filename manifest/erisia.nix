@@ -477,22 +477,6 @@
       "type" = "remote";
       "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
     };
-    "clay-soldiers-mod" = {
-      "title" = "Clay Soldiers Mod";
-      "name" = "clay-soldiers-mod";
-      "id" = 227543;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["sanandreasps-manager-pack"];
-      "filename" = "ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar";
-      "maturity" = "beta";
-      "encoded" = "ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/clay-soldiers-mod/files/2226264";
-      "src" = "https://minecraft.curseforge.com/projects/clay-soldiers-mod/files/2226264/download";
-      "type" = "remote";
-      "md5" = "f7ad5985318317f30d47ade6ef2c0a4e";
-    };
     "climate-control-geographicraft" = {
       "title" = "Climate Control/Geographicraft";
       "name" = "climate-control-geographicraft";
@@ -2397,22 +2381,6 @@
       "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592/download";
       "type" = "remote";
       "md5" = "436628172cb75f53b0fb1cc649624d6e";
-    };
-    "sanandreasps-manager-pack" = {
-      "title" = "SanAndreasP's Manager Pack";
-      "name" = "sanandreasps-manager-pack";
-      "id" = 226994;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "SAPManPack-1.7.10-2.5.1.jar";
-      "maturity" = "release";
-      "encoded" = "SAPManPack-1.7.10-2.5.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/sanandreasps-manager-pack/files/2241025";
-      "src" = "https://minecraft.curseforge.com/projects/sanandreasps-manager-pack/files/2241025/download";
-      "type" = "remote";
-      "md5" = "601593c183b6ea2fa1f2ef8bca0ef35f";
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
