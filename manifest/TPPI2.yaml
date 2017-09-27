@@ -1,6 +1,7 @@
 ---
 version: "1.7.10"
 mods:
+- name: "chickenchunks"
 - name: "electrical-age"
   title: "Electrical Age"
   curse: false
