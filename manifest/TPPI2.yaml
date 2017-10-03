@@ -1,6 +1,13 @@
 ---
 version: "1.7.10"
 mods:
+- name: "blood-magic"
+  title: "Blood Magic"
+  curse: false
+  files:
+  - src: "https://github.com/calmofthestorm/BloodMagic/blob/binary/build/libs/BloodMagic-1.7.10-1.3.3-17-patched.jar?raw=true"
+    name: "BloodMagic-1.7.10-1.3.3-17-patched.jar"
+    maturity: release
 - name: "chickenchunks"
 - name: "electrical-age"
   title: "Electrical Age"
@@ -49,9 +56,6 @@ mods:
 - name: "biomes-o-plenty"
   id: 220318
   title: "Biomes O' Plenty"
-- name: "blood-magic"
-  id: 224791
-  title: "Blood Magic"
 - name: "botania"
   id: 225643
   title: "Botania"
