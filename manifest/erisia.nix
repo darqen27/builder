@@ -2862,13 +2862,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "TIS-3D-MC1.7.10-1.2.4.70.jar";
+      "filename" = "TIS-3D-MC1.7.10-1.3.0.72.jar";
       "maturity" = "release";
-      "encoded" = "TIS-3D-MC1.7.10-1.2.4.70.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2481454";
-      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2481454/download";
+      "encoded" = "TIS-3D-MC1.7.10-1.3.0.72.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2484837";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2484837/download";
       "type" = "remote";
-      "md5" = "b62e896f88472aa3d93de3c8402fdaad";
+      "md5" = "9bbe94cf34ccb98b8213dba07bf3b053";
     };
     "tombenpotters-icarus" = {
       "title" = "Tombenpotter's Icarus";
