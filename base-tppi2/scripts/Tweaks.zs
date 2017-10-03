@@ -13,3 +13,10 @@ recipes.addShaped(sheetMetalBlock*4, [
 val atlas = <antiqueatlas:emptyAntiqueAtlas>;
 recipes.remove(atlas);
 recipes.addShapeless(atlas, [<minecraft:stick>, <minecraft:stick>]);
+
+// Garden Stuff conflicts with Rotarycraft, at least.
+recipes.remove(<GardenStuff:lattice_wood>);
+recipes.addShaped(<GardenStuff:lattice_wood>*8, [
+  [null, <ore:plankWood>, null],
+  [<ore:plankWood>, null, <ore:plankWood>],
+  [null, <ore:plankWood>, null]]);
