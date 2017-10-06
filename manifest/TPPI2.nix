@@ -1845,6 +1845,19 @@
       "type" = "remote";
       "md5" = "0ecaef9e320a3bf36b4125724cf1fe70";
     };
+    "sampler" = {
+      "title" = "sampler";
+      "name" = "sampler";
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "sampler-1.60.1.jar";
+      "encoded" = "sampler-1.60.1.jar";
+      "src" = ../bundled/sampler-1.60.1.jar;
+      "type" = "local";
+      "md5" = "0a858e15ea1efd869dbed7218dc901a0";
+    };
     "sanguimancy" = {
       "title" = "Sanguimancy";
       "name" = "sanguimancy";

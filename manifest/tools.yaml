@@ -1,4 +1,10 @@
 mods:
+- name: "sampler"
+  required: false
+  default: true
+  curse: false
+  files:
+  - src: "../bundled/sampler-1.60.1.jar"
 - name: "chunkpurge"
   side: "server"
 - name: "better-placement"
