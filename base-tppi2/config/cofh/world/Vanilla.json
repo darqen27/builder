@@ -135,7 +135,7 @@
             1
         ]
     },
-    "quartz": {
+    "quartz2": {
         "template": "uniform",
         "block": "quartz_ore",
         "material": "minecraft:netherrack",
