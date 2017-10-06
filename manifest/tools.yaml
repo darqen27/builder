@@ -1,4 +1,6 @@
 mods:
+- name: "chunkpurge"
+  side: "server"
 - name: "better-placement"
   side: "client"
   required: false

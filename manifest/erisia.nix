@@ -491,6 +491,22 @@
       "type" = "remote";
       "md5" = "504d4a81f0d793ebcc21e23a86831b7f";
     };
+    "chunkpurge" = {
+      "title" = "ChunkPurge";
+      "name" = "chunkpurge";
+      "id" = 237027;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ChunkPurge-1.7.10-2.1.jar";
+      "maturity" = "release";
+      "encoded" = "ChunkPurge-1.7.10-2.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chunkpurge/files/2263206";
+      "src" = "https://minecraft.curseforge.com/projects/chunkpurge/files/2263206/download";
+      "type" = "remote";
+      "md5" = "1a644b27d4b42689b207bd65f4737597";
+    };
     "climate-control-geographicraft" = {
       "title" = "Climate Control/Geographicraft";
       "name" = "climate-control-geographicraft";
