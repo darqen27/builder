@@ -2133,6 +2133,22 @@
       "type" = "remote";
       "md5" = "27115781353d0528f6f1c280e48c7ae1";
     };
+    "pressure-pipes" = {
+      "title" = "Pressure Pipes";
+      "name" = "pressure-pipes";
+      "id" = 221214;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["bdlib"];
+      "filename" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2475630";
+      "src" = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2475630/download";
+      "type" = "remote";
+      "md5" = "127a9ba52a5ed7a9e9e782872159f855";
+    };
     "project-red-base" = {
       "title" = "Project Red - Base";
       "name" = "project-red-base";

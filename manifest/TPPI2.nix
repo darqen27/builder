@@ -131,6 +131,22 @@
       "type" = "remote";
       "md5" = "0e711d6535970f62d4964edaa26f4623";
     };
+    "bdlib" = {
+      "title" = "BdLib";
+      "name" = "bdlib";
+      "id" = 70496;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259";
+      "src" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259/download";
+      "type" = "remote";
+      "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
+    };
     "better-foliage" = {
       "title" = "Better Foliage";
       "name" = "better-foliage";
@@ -1629,6 +1645,22 @@
       "src" = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
       "type" = "remote";
       "md5" = "82e98ab306d952f3371a514333c226b4";
+    };
+    "pressure-pipes" = {
+      "title" = "Pressure Pipes";
+      "name" = "pressure-pipes";
+      "id" = 221214;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["bdlib"];
+      "filename" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2475630";
+      "src" = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2475630/download";
+      "type" = "remote";
+      "md5" = "127a9ba52a5ed7a9e9e782872159f855";
     };
     "project-red-base" = {
       "title" = "Project Red - Base";
