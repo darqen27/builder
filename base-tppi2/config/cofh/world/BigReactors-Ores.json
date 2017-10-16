@@ -17,5 +17,126 @@
             -1,
             1
         ]
+    },
+    
+    "uranium": {
+	"template": "uniform",
+	"block": {
+	    "name": "NuclearCraft:blockOre",
+	    "metadata": 4
+	},
+	"clusterSize": 6,
+	"numClusters": 2,
+	"minHeight": 1,
+	"maxHeight": 36,
+	"retrogen": "true",
+	"biomeRestriction": "none",
+	"biomes": [],
+	"dimensionRestriction": "blacklist",
+	"dimensions": [
+	    -1,
+	    1
+	]
+    },
+
+    "thorium": {
+	"template": "uniform",
+	"block": {
+	    "name": "NuclearCraft:blockOre",
+	    "metadata": 5
+	},
+	"clusterSize": 5,
+	"numClusters": 4,
+	"minHeight": 1,
+	"maxHeight": 36,
+	"retrogen": true,
+	"biomeRestriction": "none",
+	"biomes": [],
+	"dimensionRestriction": "blacklist",
+	"dimensions": [
+	    -1,
+	    1
+	]
+    },
+
+    "lithium": {
+	"template": "uniform",
+	"block": {
+	    "name": "NuclearCraft:blockOre",
+	    "metadata": 7
+	},
+	"clusterSize": 3,
+	"numClusters": 4,
+	"minHeight": 1,
+	"maxHeight": 32,
+	"retrogen": true,
+	"biomeRestriction": "none",
+	"biomes": [],
+	"dimensionRestriction": "blacklist",
+	"dimensions": [
+	    -1,
+	    1
+	]
+    },
+
+    "boron": {
+	"template": "uniform",
+	"block": {
+	    "name": "NuclearCraft:blockOre",
+	    "metadata": 8
+	},
+	"clusterSize": 3,
+	"numClusters": 4,
+	"minHeight": 1,
+	"maxHeight": 24,
+	"retrogen": true,
+	"biomeRestriction": "none",
+	"biomes": [],
+	"dimensionRestriction": "blacklist",
+	"dimensions": [
+	    -1,
+	    1
+	]
+    },
+
+    "magnesium": {
+	"template": "uniform",
+	"block": {
+	    "name": "NuclearCraft:blockOre",
+	    "metadata": 9
+	},
+	"clusterSize": 3,
+	"numClusters": 4,
+	"minHeight": 1,
+	"maxHeight": 24,
+	"retrogen": true,
+	"biomeRestriction": "none",
+	"biomes": [],
+	"dimensionRestriction": "blacklist",
+	"dimensions": [
+	    -1,
+	    1
+	]
+    },
+
+    "plutonium": {
+	"template": "uniform",
+	"block": {
+	    "name": "NuclearCraft:blockOre",
+	    "metadata": 6
+	},
+	"clusterSize": 3,
+	"numClusters": 1,
+	"minHeight": 1,
+	"maxHeight": 255,
+	"retrogen": true,
+	"biomeRestriction": "none",
+	"biomes": [],
+	"dimensionRestriction": "blacklist",
+	"dimensions": [
+	    -1,
+	    1
+	]
     }
+
 }
