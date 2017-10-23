@@ -195,6 +195,22 @@
       "type" = "remote";
       "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
     };
+    "better-boat" = {
+      "title" = "Better Boat";
+      "name" = "better-boat";
+      "id" = 230898;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["bookshelf"];
+      "filename" = "BetterBoat-1.7.10-1.1.0.jar";
+      "maturity" = "release";
+      "encoded" = "BetterBoat-1.7.10-1.1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-boat/files/2274165";
+      "src" = "https://minecraft.curseforge.com/projects/better-boat/files/2274165/download";
+      "type" = "remote";
+      "md5" = "fd707ffb3d10b1cc937e1c8bc1609670";
+    };
     "better-foliage" = {
       "title" = "Better Foliage";
       "name" = "better-foliage";
@@ -304,6 +320,22 @@
       "src" = "https://github.com/calmofthestorm/BloodMagic/blob/binary/build/libs/BloodMagic-1.7.10-1.3.3-17-patched.jar?raw=true";
       "type" = "remote";
       "md5" = "f0c4558408e8bf412f74d98c86e2e41e";
+    };
+    "bookshelf" = {
+      "title" = "Bookshelf";
+      "name" = "bookshelf";
+      "id" = 228525;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Bookshelf-1.7.10-1.0.4.187.jar";
+      "maturity" = "beta";
+      "encoded" = "Bookshelf-1.7.10-1.0.4.187.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bookshelf/files/2278984";
+      "src" = "https://minecraft.curseforge.com/projects/bookshelf/files/2278984/download";
+      "type" = "remote";
+      "md5" = "50c0f80e86292f11deb6f9e4a080390d";
     };
     "botania" = {
       "title" = "Botania";

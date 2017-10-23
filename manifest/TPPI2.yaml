@@ -1,6 +1,7 @@
 ---
 version: "1.7.10"
 mods:
+- name: "better-boat"
 - name: "pressure-pipes"
 - name: "blood-magic"
   title: "Blood Magic"
