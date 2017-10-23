@@ -1622,13 +1622,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
+      "filename" = "OpenComputers-MC1.7.10-1.7.0.1085-universal.jar";
       "maturity" = "release";
-      "encoded" = "OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2385983";
-      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2385983/download";
+      "encoded" = "OpenComputers-MC1.7.10-1.7.0.1085-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2490743";
+      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2490743/download";
       "type" = "remote";
-      "md5" = "b7bfcc875c49c7377e1372dccb455cfe";
+      "md5" = "4cfe4964032b4a2f9a1f76894181a262";
     };
     "openeye" = {
       "title" = "OpenEye";

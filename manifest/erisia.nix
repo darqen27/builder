@@ -2093,13 +2093,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
+      "filename" = "OpenComputers-MC1.7.10-1.7.0.1085-universal.jar";
       "maturity" = "release";
-      "encoded" = "OpenComputers-MC1.7.10-1.6.2.12-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2385983";
-      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2385983/download";
+      "encoded" = "OpenComputers-MC1.7.10-1.7.0.1085-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2490743";
+      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2490743/download";
       "type" = "remote";
-      "md5" = "b7bfcc875c49c7377e1372dccb455cfe";
+      "md5" = "4cfe4964032b4a2f9a1f76894181a262";
     };
     "openeye" = {
       "title" = "OpenEye";
@@ -2939,13 +2939,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "TIS-3D-MC1.7.10-1.3.0.72.jar";
+      "filename" = "TIS-3D-MC1.7.10-1.3.0.75.jar";
       "maturity" = "release";
-      "encoded" = "TIS-3D-MC1.7.10-1.3.0.72.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2484837";
-      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2484837/download";
+      "encoded" = "TIS-3D-MC1.7.10-1.3.0.75.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2490978";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2490978/download";
       "type" = "remote";
-      "md5" = "9bbe94cf34ccb98b8213dba07bf3b053";
+      "md5" = "5f0067f93bae58b76a5f25439ce19299";
     };
     "tombenpotters-icarus" = {
       "title" = "Tombenpotter's Icarus";
