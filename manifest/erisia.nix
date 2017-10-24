@@ -44,22 +44,6 @@
       "type" = "remote";
       "md5" = "0864caf4280229154ca7f158502d4bee";
     };
-    "anti-id-conflict" = {
-      "title" = "Anti Id Conflict";
-      "name" = "anti-id-conflict";
-      "id" = 246288;
-      "side" = "client";
-      "required" = false;
-      "default" = false;
-      "deps" = ["excore"];
-      "filename" = "AntiIdConflict-1.3.5-1.7.10.jar";
-      "maturity" = "release";
-      "encoded" = "AntiIdConflict-1.3.5-1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/anti-id-conflict/files/2308279";
-      "src" = "https://minecraft.curseforge.com/projects/anti-id-conflict/files/2308279/download";
-      "type" = "remote";
-      "md5" = "766f372c9f6d8c68e550f8509a7fdd66";
-    };
     "antique-atlas" = {
       "title" = "Antique Atlas";
       "name" = "antique-atlas";
@@ -946,22 +930,6 @@
       "src" = "https://minecraft.curseforge.com/projects/endercore/files/2331048/download";
       "type" = "remote";
       "md5" = "e6c8b5dc1ae0f01e34673ba608f8ffd9";
-    };
-    "excore" = {
-      "title" = "Excore";
-      "name" = "excore";
-      "id" = 233180;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Excore-1.5.3-1.7.10.jar";
-      "maturity" = "release";
-      "encoded" = "Excore-1.5.3-1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/excore/files/2297853";
-      "src" = "https://minecraft.curseforge.com/projects/excore/files/2297853/download";
-      "type" = "remote";
-      "md5" = "699521ccceba33f148ecf0b40dae4809";
     };
     "exotic-birds" = {
       "title" = "Exotic Birds";
