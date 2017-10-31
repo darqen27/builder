@@ -591,6 +591,22 @@
       "type" = "remote";
       "md5" = "de527c101a1f2c62203f99515f3d0957";
     };
+    "cofhtweaks" = {
+      "title" = "CoFHTweaks";
+      "name" = "cofhtweaks";
+      "id" = 230020;
+      "side" = "both";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "CoFHTweaks-[1.7.10]1.1.3B3-94.jar";
+      "maturity" = "alpha";
+      "encoded" = "CoFHTweaks-%5B1.7.10%5D1.1.3B3-94.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134";
+      "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134/download";
+      "type" = "remote";
+      "md5" = "30710ffb1c9bf405592f3bd823ab3ef6";
+    };
     "compact-machines" = {
       "title" = "Compact Machines";
       "name" = "compact-machines";

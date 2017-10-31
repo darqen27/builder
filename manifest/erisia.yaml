@@ -1,5 +1,8 @@
 version: "1.7.10"
 mods:
+- name: "cofhtweaks"
+  required: false
+  default: false
 - name: "wild-mobs-mod"
 - name: "exotic-birds"
 - name: "littletiles"
