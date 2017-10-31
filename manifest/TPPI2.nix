@@ -1307,7 +1307,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["crafttweaker" "mtlib"];
+      "deps" = ["mtlib"];
       "filename" = "ModTweaker2-0.9.6.jar";
       "maturity" = "release";
       "encoded" = "ModTweaker2-0.9.6.jar";
@@ -2414,13 +2414,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "filename" = "Xaeros_Minimap_1.13.9_Forge_1.7.10.jar";
+      "filename" = "Xaeros_Minimap_1.14_Forge_1.7.10.jar";
       "maturity" = "release";
-      "encoded" = "Xaeros_Minimap_1.13.9_Forge_1.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2489543";
-      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2489543/download";
+      "encoded" = "Xaeros_Minimap_1.14_Forge_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2494778";
+      "src" = "https://minecraft.curseforge.com/projects/xaeros-minimap/files/2494778/download";
       "type" = "remote";
-      "md5" = "653f9acbcde59a742404008440f20fb1";
+      "md5" = "b0e6ddd5642a52c5723c02a51c52941f";
     };
     "ztones" = {
       "title" = "Ztones";
