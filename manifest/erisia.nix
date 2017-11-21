@@ -203,13 +203,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "filename" = "BetterFoliage-MC1.7.10-2.0.16.jar";
+      "filename" = "BetterFoliage-MC1.7.10-2.0.17.jar";
       "maturity" = "release";
-      "encoded" = "BetterFoliage-MC1.7.10-2.0.16.jar";
-      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2446633";
-      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2446633/download";
+      "encoded" = "BetterFoliage-MC1.7.10-2.0.17.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2500869";
+      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2500869/download";
       "type" = "remote";
-      "md5" = "3906a154fc4361efa3e2bdd36a9c6de8";
+      "md5" = "5fb19402d629422302c2d22a4d1dc5ef";
     };
     "better-placement" = {
       "title" = "Better Placement";
@@ -283,13 +283,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
+      "filename" = "BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar";
       "maturity" = "beta";
-      "encoded" = "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122";
-      "src" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122/download";
+      "encoded" = "BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2499612";
+      "src" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2499612/download";
       "type" = "remote";
-      "md5" = "a4783a2057d7eb0714d1fe4fdf77fe70";
+      "md5" = "08d7ffbce53615cb516cb4d1916eecb5";
     };
     "blood-magic" = {
       "title" = "Blood Magic";
@@ -483,13 +483,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ChromatiCraft 1.7.10 V18b.jar";
+      "filename" = "ChromatiCraft 1.7.10 V19c.jar";
       "maturity" = "release";
-      "encoded" = "ChromatiCraft%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015";
-      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2464015/download";
+      "encoded" = "ChromatiCraft%201.7.10%20V19c.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2499991";
+      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2499991/download";
       "type" = "remote";
-      "md5" = "707107e785052dbc31e26b03142d7318";
+      "md5" = "d3569e41c7cb35bfde0c6f36d93bf8f2";
     };
     "chunk-animator" = {
       "title" = "Chunk Animator";
@@ -798,13 +798,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "DragonAPI 1.7.10 V18b.jar";
+      "filename" = "DragonAPI 1.7.10 V19c.jar";
       "maturity" = "release";
-      "encoded" = "DragonAPI%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2463385";
-      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2463385/download";
+      "encoded" = "DragonAPI%201.7.10%20V19c.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2499988";
+      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2499988/download";
       "type" = "remote";
-      "md5" = "f519de9d93d2217711bebc207e6453c6";
+      "md5" = "a7d8588fafb85bd3efd0f4f32f25d489";
     };
     "dragons-radio-mod" = {
       "title" = "Dragon's Radio Mod";
@@ -881,7 +881,7 @@
       "encoded" = "ElectricalAge-1.15.1.jar";
       "src" = ../bundled/ElectricalAge-1.15.1.jar;
       "type" = "local";
-      "md5" = "73771f5eb08bd534b5ddebd78799053b";
+      "md5" = "49e1f03d229a001cc48ad61418f38f6e";
     };
     "electricraft" = {
       "title" = "ElectriCraft";
@@ -891,13 +891,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ElectriCraft 1.7.10 V18b.jar";
+      "filename" = "ElectriCraft 1.7.10 V19b.jar";
       "maturity" = "release";
-      "encoded" = "ElectriCraft%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2464017";
-      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2464017/download";
+      "encoded" = "ElectriCraft%201.7.10%20V19b.jar";
+      "page" = "https://minecraft.curseforge.com/projects/electricraft/files/2498934";
+      "src" = "https://minecraft.curseforge.com/projects/electricraft/files/2498934/download";
       "type" = "remote";
-      "md5" = "ce75a1a54875e30064cb54a4e7fd1337";
+      "md5" = "5cdcd18da8fb3c54e24fb782e013233c";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -987,13 +987,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["applied-energistics-2"];
-      "filename" = "ExtraCells-1.7.10-2.3.14b197.jar";
+      "filename" = "ExtraCells-1.7.10-2.3.14b200.jar";
       "maturity" = "release";
-      "encoded" = "ExtraCells-1.7.10-2.3.14b197.jar";
-      "page" = "https://minecraft.curseforge.com/projects/extracells2/files/2308206";
-      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2308206/download";
+      "encoded" = "ExtraCells-1.7.10-2.3.14b200.jar";
+      "page" = "https://minecraft.curseforge.com/projects/extracells2/files/2497337";
+      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2497337/download";
       "type" = "remote";
-      "md5" = "3e54980cc468ea91567f806a9c0d53d4";
+      "md5" = "3189c5e624f5617d76579237f4d421b4";
     };
     "extratic" = {
       "title" = "ExtraTiC";
@@ -2436,13 +2436,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "RotaryCraft 1.7.10 V18b.jar";
+      "filename" = "RotaryCraft 1.7.10 V19c.jar";
       "maturity" = "release";
-      "encoded" = "RotaryCraft%201.7.10%20V18b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592";
-      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2463592/download";
+      "encoded" = "RotaryCraft%201.7.10%20V19c.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2499989";
+      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2499989/download";
       "type" = "remote";
-      "md5" = "436628172cb75f53b0fb1cc649624d6e";
+      "md5" = "63001ee5b88408d1e2804b849253a780";
     };
     "sampler" = {
       "title" = "sampler";
@@ -2981,13 +2981,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "UsefulTNT 1.7.10 V18a.jar";
+      "filename" = "UsefulTNT 1.7.10 V19a.jar";
       "maturity" = "release";
-      "encoded" = "UsefulTNT%201.7.10%20V18a.jar";
-      "page" = "https://minecraft.curseforge.com/projects/usefultnt/files/2461740";
-      "src" = "https://minecraft.curseforge.com/projects/usefultnt/files/2461740/download";
+      "encoded" = "UsefulTNT%201.7.10%20V19a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/usefultnt/files/2498659";
+      "src" = "https://minecraft.curseforge.com/projects/usefultnt/files/2498659/download";
       "type" = "remote";
-      "md5" = "b9247700347db060b9a50c60c652e661";
+      "md5" = "995fcd86f7c189b8a32dad5fbf9edbec";
     };
     "waila" = {
       "title" = "Waila";

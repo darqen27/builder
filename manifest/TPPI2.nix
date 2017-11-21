@@ -171,13 +171,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "filename" = "BetterFoliage-MC1.7.10-2.0.16.jar";
+      "filename" = "BetterFoliage-MC1.7.10-2.0.17.jar";
       "maturity" = "release";
-      "encoded" = "BetterFoliage-MC1.7.10-2.0.16.jar";
-      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2446633";
-      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2446633/download";
+      "encoded" = "BetterFoliage-MC1.7.10-2.0.17.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2500869";
+      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2500869/download";
       "type" = "remote";
-      "md5" = "3906a154fc4361efa3e2bdd36a9c6de8";
+      "md5" = "5fb19402d629422302c2d22a4d1dc5ef";
     };
     "better-placement" = {
       "title" = "Better Placement";
@@ -251,13 +251,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
+      "filename" = "BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar";
       "maturity" = "beta";
-      "encoded" = "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122";
-      "src" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122/download";
+      "encoded" = "BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2499612";
+      "src" = "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2499612/download";
       "type" = "remote";
-      "md5" = "a4783a2057d7eb0714d1fe4fdf77fe70";
+      "md5" = "08d7ffbce53615cb516cb4d1916eecb5";
     };
     "blood-magic" = {
       "title" = "Blood Magic";
@@ -628,7 +628,7 @@
       "encoded" = "ElectricalAge-1.15.1.jar";
       "src" = ../bundled/ElectricalAge-1.15.1.jar;
       "type" = "local";
-      "md5" = "73771f5eb08bd534b5ddebd78799053b";
+      "md5" = "49e1f03d229a001cc48ad61418f38f6e";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -702,13 +702,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["applied-energistics-2"];
-      "filename" = "ExtraCells-1.7.10-2.3.14b197.jar";
+      "filename" = "ExtraCells-1.7.10-2.3.14b200.jar";
       "maturity" = "release";
-      "encoded" = "ExtraCells-1.7.10-2.3.14b197.jar";
-      "page" = "https://minecraft.curseforge.com/projects/extracells2/files/2308206";
-      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2308206/download";
+      "encoded" = "ExtraCells-1.7.10-2.3.14b200.jar";
+      "page" = "https://minecraft.curseforge.com/projects/extracells2/files/2497337";
+      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2497337/download";
       "type" = "remote";
-      "md5" = "3e54980cc468ea91567f806a9c0d53d4";
+      "md5" = "3189c5e624f5617d76579237f4d421b4";
     };
     "extratic" = {
       "title" = "ExtraTiC";
