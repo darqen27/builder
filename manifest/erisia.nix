@@ -881,7 +881,7 @@
       "encoded" = "ElectricalAge-1.15.1.jar";
       "src" = ../bundled/ElectricalAge-1.15.1.jar;
       "type" = "local";
-      "md5" = "49e1f03d229a001cc48ad61418f38f6e";
+      "md5" = "857e39d3da107dd35d404ac0584de83d";
     };
     "electricraft" = {
       "title" = "ElectriCraft";
