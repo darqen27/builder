@@ -73,18 +73,38 @@ cleanup() {
     fi
 }
 
+antiChunkChurn() {
+    set +e
+    sleep 600
+    while true; do
+      sleep 60
+      say 'save-on'
+      say 'chunkpurge enable true'
+      say 'chunkpurge delay 60'
+      say 'save-all'
+      sleep 10
+      say 'chunkpurge delay 6000'
+      sleep 20   #@saveTime@
+      say 'chunkpurge enable false'
+      say 'save-off'
+      sleep 1800
+    done
+}
+
 set -x
 
 # TODO: Factor in scripts.sh, and other scripts.
 if [[ $EXTRAS -eq 1 ]]; then
     trap cleanup EXIT
     dailyRestart &
+    antiChunkChurn &
 fi
 
 java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts \
+  -XX:+UseTransparentHugePages \
   -XX:+UseG1GC \
   -XX:+UnlockExperimentalVMOptions \
   -XX:G1HeapRegionSize=32M \
