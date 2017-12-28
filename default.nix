@@ -29,31 +29,6 @@ rec {
 
   packs = {
     e18 = buildPack e18;
-    city = buildPack city;
-#    test = buildPack test;
-  };
-
-  city = {
-    name = "city";
-    ram = "8000m";
-    description = "Just cities";
-    forge = {
-      major = "1.10.2";
-      minor = "12.18.3.2422";
-    };
-    screenName = "city";
-    port = 25566;
-    extraServerDirs = [
-      ./base-server
-    ];
-    manifests = [
-      ./manifest/city.nix
-    ];
-  };
-
-  test = e18 // {
-    blacklist = e18.blacklist ++ [ "prometheus-integration" ];
-    port = 25569;
   };
 
   e18 = tppi2 // {
@@ -63,7 +38,7 @@ rec {
     ram = "10000m";
     port = 25565;
     manifests = [
-      ./manifest/erisia.nix
+      ./manifest/e18.nix
     ];
     extraDirs = [
       ./base-erisia

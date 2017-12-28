@@ -200,7 +200,7 @@ rec {
       stylesheet = ./serverpack.xsl;
       paramsText = writeText "params.xml" (builtins.toXML (lib.mapAttrs packParams packs));
     } ''
-      saxon8 $paramsText $stylesheet > $out
+      saxonb $paramsText $stylesheet > $out
     '';
     preconfiguredMCUpdater = runLocally "Preconfigured-MCUpdater" {
       mcupdater = ./MCUpdater-recommended.jar;

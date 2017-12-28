@@ -15,13 +15,13 @@ mods:
   title: "Electrical Age"
   curse: false
   files:
-  - src: "../bundled/ElectricalAge-1.15.1.jar"
+  - src: "../bundled-1.7.10/ElectricalAge-1.15.1.jar"
 - name: "nuclearcraft-mod"
 - name: "prometheus-integration"
   side: "server"
   curse: false
   files:
-  - src: "../bundled/prometheus-integration-1.2.0.jar"
+  - src: "../bundled-1.7.10/prometheus-integration-1.2.0.jar"
 - name: "damage-indicators-mod"
   side: "client"
   required: false

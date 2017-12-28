@@ -4,7 +4,7 @@ mods:
   default: true
   curse: false
   files:
-  - src: "../bundled/sampler-1.60.1.jar"
+  - src: "../bundled-1.7.10/sampler-1.60.1.jar"
 - name: "chunkpurge"
   side: "server"
 - name: "better-placement"
@@ -37,7 +37,7 @@ mods:
   side: "server"
   curse: false
   files:
-  - src: "../bundled/TickProfiler-1.7.10.jenkins.37.jar"
+  - src: "../bundled-1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
 - name: "dynmapforge"
   side: "server"
 - name: "fullscreen-windowed-borderless-for-minecraft"

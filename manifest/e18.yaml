@@ -42,7 +42,7 @@ mods:
 - name: "dimensional-doors"
   curse: false
   files:
-  - src: "../bundled/DimensionalDoors-2.2.5-test9.jar"
+  - src: "../bundled-1.7.10/DimensionalDoors-2.2.5-test9.jar"
 imports:
 - "TPPI2.yaml"
 - "Reika.yaml"
