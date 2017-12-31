@@ -29,6 +29,37 @@ rec {
 
   packs = {
     e18 = buildPack e18;
+    e19 = buildPack e19;
+  };
+
+  e19 = {
+    name = "e19";
+    screenName = "e19";
+    description = "Erisia #19: Carpe Novum";
+    ram = "10000m";
+    port = 25565;
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.1.2575";  # TODO: Should be able to get this from manifest.json
+    };
+    # These are copied to the client as well as the server.
+    # Suggested use: Configs. Scripts. That sort of thing.
+    # Higher entries override later ones.
+    extraDirs = [
+      ./base-erisia
+      ./ruins-1.12
+      ./base-revelation
+    ];
+    extraServerDirs = [
+      ./base-server
+    ];
+    extraClientDirs = [
+      # resources
+    ];
+    # These are all the mods we'd like to include in this pack.
+    manifests = [
+      ./manifest/e19.nix
+    ];
   };
 
   e18 = tppi2 // {

@@ -1,10 +1,4 @@
 mods:
-- name: "sampler"
-  required: false
-  default: true
-  curse: false
-  files:
-  - src: "../bundled-1.7.10/sampler-1.60.1.jar"
 - name: "chunkpurge"
   side: "server"
 - name: "better-placement"
@@ -33,11 +27,11 @@ mods:
 # Just for 1.10 and on.
 #- name: "thump"
 #  required: false
-- name: "tickprofiler"
-  side: "server"
-  curse: false
-  files:
-  - src: "../bundled-1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
+# - name: "tickprofiler"
+#   side: "server"
+#   curse: false
+#   files:
+#   - src: "../bundled-1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
 - name: "dynmapforge"
   side: "server"
 - name: "fullscreen-windowed-borderless-for-minecraft"

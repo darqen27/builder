@@ -1,0 +1,99 @@
+version: "1.12.2"
+mods:
+# Worldgen mods:
+- name: "wild-mobs-mod"
+- name: "exotic-birds"
+- name: "streams"
+- name: "ice-and-fire-dragons-in-a-whole-new-light"
+- name: "ruins-structure-spawning-system"
+- name: "recurrent-complex"
+# Configuration needed:
+- name: "bedrockores"
+
+# Decoration:
+- name: "dragons-radio-mod"
+- name: "garden-stuff"
+- name: "catwalks-2"
+- name: "decocraft2"
+
+# Experimental game-changing mods:
+- name: "scannable"
+- name: "nutrition"
+  curse: false
+  files:
+  - src: ../bundled-1.12.2/Nutrition.jar
+- name: "edible-bugs"
+
+# Useful/interesting mods we usually want:
+- name: "tardis-mod"
+- name: "not-enough-wands"
+- name: "tombenpotters-icarus"
+- name: "immersive-floofs"
+- name: "foxlib"
+- name: "tis-3d"
+- name: "cooking-for-blockheads"
+- name: "signposts"
+- name: "antique-atlas"
+# - name: "compact-machines"
+
+# Client-side enhancement mods:
+- name: "dynamic-surroundings"
+  side: "client"
+  required: false
+- name: "sound-filters"
+  side: "client"
+  required: false
+- name: "better-foliage"
+  side: "client"
+  required: false
+  default: false
+- name: "journeymap"
+  side: "client"
+  required: false
+  default: false
+- name: "mouse-tweaks"
+  side: "client"
+- name: "better-placement"
+  side: "client"
+  required: false
+  default: true
+- name: "Ding"
+  side: "client"
+- name: "notenoughkeys"
+  side: "client"
+  required: false
+- name: "fullscreen-windowed-borderless-for-minecraft"
+  side: "client"
+  required: false
+
+# Server management type mods:
+- name: "chunkpurge"
+  side: "server"
+- name: "worldedit"
+- name: "signal-catcher"
+# - name: "dynmapforge"
+#   side: "server"
+
+# Tool mods:
+- name: "morpheus"
+- name: "just-enough-resources-jer"
+- name: "just-enough-calculation"
+- name: "akashic-tome"
+- name: "tool-belt"
+- name: "helpfixer"
+- name: "schematica"
+  required: false
+- name: "reauth"
+  side: "client"
+- name: "chunkpregenerator"
+
+# Non-curse tools:
+- name: "sampler"
+  required: false
+  default: true
+  curse: false
+  files:
+  - src: "../bundled-1.12.2/sampler-1.73.jar"
+
+imports:
+- "revelation.yaml"
