@@ -85,7 +85,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "antiqueatlas-1.12-4.4.4.jar";
+      "maturity" = "beta";
+      "encoded" = "antiqueatlas-1.12-4.4.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2454270";
+      "src" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2454270/download";
+      "type" = "remote";
+      "md5" = "acdde0ed2c9542febc786b4db6130752";
     };
     "appleskin" = {
       "title" = "AppleSkin";
@@ -321,7 +327,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "BetterFoliage-MC1.12-2.1.10.jar";
+      "maturity" = "release";
+      "encoded" = "BetterFoliage-MC1.12-2.1.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2478147";
+      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2478147/download";
+      "type" = "remote";
+      "md5" = "06714eb2c13f59df5e3c92cec7370e11";
     };
     "better-placement" = {
       "title" = "Better Placement";
@@ -1274,7 +1286,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "GardenStuff-1.12-2.1.0.jar";
+      "maturity" = "beta";
+      "encoded" = "GardenStuff-1.12-2.1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2451393";
+      "src" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2451393/download";
+      "type" = "remote";
+      "md5" = "4120cdee03a4431f1bafbb27168a844b";
     };
     "gendustry" = {
       "title" = "Gendustry";
@@ -2272,7 +2290,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "Ruins-1.12.jar";
+      "maturity" = "release";
+      "encoded" = "Ruins-1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2480404";
+      "src" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2480404/download";
+      "type" = "remote";
+      "md5" = "837d2f75857271175c60e6ca0efe5a4f";
     };
     "rustic" = {
       "title" = "Rustic";
@@ -2387,7 +2411,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "signalcatcher-1.1.jar";
+      "maturity" = "release";
+      "encoded" = "signalcatcher-1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/signal-catcher/files/2467910";
+      "src" = "https://minecraft.curseforge.com/projects/signal-catcher/files/2467910/download";
+      "type" = "remote";
+      "md5" = "ad5931caa645a13f4b5d3db650eb5226";
     };
     "signals" = {
       "title" = "Signals";
@@ -2968,7 +2998,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "worldedit-forge-mc1.12-6.1.8-dist.jar";
+      "maturity" = "release";
+      "encoded" = "worldedit-forge-mc1.12-6.1.8-dist.jar";
+      "page" = "https://minecraft.curseforge.com/projects/worldedit/files/2460570";
+      "src" = "https://minecraft.curseforge.com/projects/worldedit/files/2460570/download";
+      "type" = "remote";
+      "md5" = "73ecbb8656a5fd5823852078f0fb7ca7";
     };
     "xnet" = {
       "title" = "XNet";
