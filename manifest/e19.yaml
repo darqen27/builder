@@ -23,6 +23,7 @@ mods:
   files:
   - src: ../bundled-1.12.2/Nutrition.jar
 - name: "edible-bugs"
+- name: "minecolonies"
 
 # Useful/interesting mods we usually want:
 - name: "tardis-mod"
@@ -34,7 +35,8 @@ mods:
 - name: "cooking-for-blockheads"
 - name: "signposts"
 - name: "antique-atlas"
-# - name: "compact-machines"
+- name: "compact-machines"
+- name: "psi"
 
 # Client-side enhancement mods:
 - name: "dynamic-surroundings"

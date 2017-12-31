@@ -1778,6 +1778,22 @@
       "type" = "remote";
       "md5" = "012494f701a6d80924588816cd904b4c";
     };
+    "minecolonies" = {
+      "title" = "Minecolonies";
+      "name" = "minecolonies";
+      "id" = 245506;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "minecolonies-universal-1.12.2-0.8.6403.jar";
+      "maturity" = "alpha";
+      "encoded" = "minecolonies-universal-1.12.2-0.8.6403.jar";
+      "page" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515019";
+      "src" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515019/download";
+      "type" = "remote";
+      "md5" = "9b7a64de0cb9c1ce9572a4b7e236ad01";
+    };
     "mob-grinding-utils" = {
       "title" = "Mob Grinding Utils";
       "name" = "mob-grinding-utils";
@@ -2085,6 +2101,22 @@
       "src" = "https://minecraft.curseforge.com/projects/platforms/files/2511432/download";
       "type" = "remote";
       "md5" = "2cd60e553c0a7ce3d727b7849c40cda4";
+    };
+    "psi" = {
+      "title" = "Psi";
+      "name" = "psi";
+      "id" = 241665;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["autoreglib"];
+      "filename" = "Psi-r1.1-59.jar";
+      "maturity" = "release";
+      "encoded" = "Psi-r1.1-59.jar";
+      "page" = "https://minecraft.curseforge.com/projects/psi/files/2499167";
+      "src" = "https://minecraft.curseforge.com/projects/psi/files/2499167/download";
+      "type" = "remote";
+      "md5" = "92aec994592bfcad6f09c810a2e9efb8";
     };
     "quark" = {
       "title" = "Quark";
