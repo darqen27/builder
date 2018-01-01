@@ -80,8 +80,8 @@ mods:
   side: "server"
 - name: "worldedit"
 - name: "signal-catcher"
-# - name: "dynmapforge"
-#   side: "server"
+- name: "dynmapforge"
+  side: "server"
 
 # Tool mods:
 - name: "morpheus"
@@ -95,6 +95,7 @@ mods:
 - name: "reauth"
   side: "client"
 - name: "chunkpregenerator"
+- name: "gotta-go-fast"
 
 # Non-curse tools:
 - name: "sampler"

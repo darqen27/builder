@@ -957,6 +957,22 @@
       "type" = "remote";
       "md5" = "ce790d3dcef5e776d1f7254e53e1d014";
     };
+    "dynmapforge" = {
+      "title" = "DynmapForge";
+      "name" = "dynmapforge";
+      "id" = 59433;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Dynmap-2.6-beta-1-forge-1.12.jar";
+      "maturity" = "beta";
+      "encoded" = "Dynmap-2.6-beta-1-forge-1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2436596";
+      "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2436596/download";
+      "type" = "remote";
+      "md5" = "193d389e984591ac1030ea2700b06d13";
+    };
     "edible-bugs" = {
       "title" = "Edible Bugs";
       "name" = "edible-bugs";
@@ -1341,6 +1357,22 @@
       "type" = "remote";
       "md5" = "202ad249247a8872d25ce54156fceae5";
     };
+    "gotta-go-fast" = {
+      "title" = "Gotta Go Fast";
+      "name" = "gotta-go-fast";
+      "id" = 282064;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "gottagofast-1.0.jar";
+      "maturity" = "release";
+      "encoded" = "gottagofast-1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/gotta-go-fast/files/2500781";
+      "src" = "https://minecraft.curseforge.com/projects/gotta-go-fast/files/2500781/download";
+      "type" = "remote";
+      "md5" = "2b961c851fb3856da75cb57a16dfecb2";
+    };
     "gravestone-mod" = {
       "title" = "GraveStone Mod";
       "name" = "gravestone-mod";
@@ -1395,7 +1427,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["llibrary"];
-      "type" = "missing";
+      "filename" = "iceandfire-1.3.0-1.12.2.jar";
+      "maturity" = "release";
+      "encoded" = "iceandfire-1.3.0-1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light/files/2515531";
+      "src" = "https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light/files/2515531/download";
+      "type" = "remote";
+      "md5" = "c1b4d1789bc87a04ffcb3b942348d8c5";
     };
     "immersive-engineering" = {
       "title" = "Immersive Engineering";
