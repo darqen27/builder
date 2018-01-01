@@ -77,6 +77,22 @@
       "type" = "remote";
       "md5" = "e5d6f7aa5bfe8987fcecc57dc2dc512b";
     };
+    "animania" = {
+      "title" = "Animania";
+      "name" = "animania";
+      "id" = 261199;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["craftstudio-api"];
+      "filename" = "animania-1.12.2-1.4.3.jar";
+      "maturity" = "release";
+      "encoded" = "animania-1.12.2-1.4.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/animania/files/2508867";
+      "src" = "https://minecraft.curseforge.com/projects/animania/files/2508867/download";
+      "type" = "remote";
+      "md5" = "9b72026c987f9c52d6304af044a973ac";
+    };
     "antique-atlas" = {
       "title" = "Antique Atlas";
       "name" = "antique-atlas";
@@ -701,6 +717,22 @@
       "src" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2503873/download";
       "type" = "remote";
       "md5" = "e160c709a90d85da32d5aa2e4e8db335";
+    };
+    "craftstudio-api" = {
+      "title" = "CraftStudio API";
+      "name" = "craftstudio-api";
+      "id" = 268704;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CraftStudio-1.0.0.93-mc1.12-alpha.jar";
+      "maturity" = "beta";
+      "encoded" = "CraftStudio-1.0.0.93-mc1.12-alpha.jar";
+      "page" = "https://minecraft.curseforge.com/projects/craftstudio-api/files/2480954";
+      "src" = "https://minecraft.curseforge.com/projects/craftstudio-api/files/2480954/download";
+      "type" = "remote";
+      "md5" = "eb23a10c2d246cf65affeb59116c881e";
     };
     "crafttweaker" = {
       "title" = "CraftTweaker";
@@ -1672,6 +1704,22 @@
       "type" = "remote";
       "md5" = "97929978be8b6aafd1174e571b36badd";
     };
+    "lost-souls" = {
+      "title" = "Lost Souls";
+      "name" = "lost-souls";
+      "id" = 271998;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["the-lost-cities"];
+      "filename" = "lostsouls-1.12-1.1.1.jar";
+      "maturity" = "release";
+      "encoded" = "lostsouls-1.12-1.1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/lost-souls/files/2515295";
+      "src" = "https://minecraft.curseforge.com/projects/lost-souls/files/2515295/download";
+      "type" = "remote";
+      "md5" = "c4a523e220847b67c95e18418e451ecc";
+    };
     "lunatriuscore" = {
       "title" = "LunatriusCore";
       "name" = "lunatriuscore";
@@ -2087,6 +2135,22 @@
       "type" = "remote";
       "md5" = "b280681c6544b8f96961d926c3433fe3";
     };
+    "plants" = {
+      "title" = "Plants";
+      "name" = "plants";
+      "id" = 257229;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Plants-2.2.2.jar";
+      "maturity" = "release";
+      "encoded" = "Plants-2.2.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plants/files/2503237";
+      "src" = "https://minecraft.curseforge.com/projects/plants/files/2503237/download";
+      "type" = "remote";
+      "md5" = "3246bba824c65a49df3be942b1c9c397";
+    };
     "platforms" = {
       "title" = "Platforms";
       "name" = "platforms";
@@ -2253,6 +2317,22 @@
       "src" = "https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2509540/download";
       "type" = "remote";
       "md5" = "874cfd02409f9856aa919f0debea5e8a";
+    };
+    "reptilemod" = {
+      "title" = "Reptile Mod";
+      "name" = "reptilemod";
+      "id" = 77994;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "reptilemod-1.12.2-3.8.4-79.jar";
+      "maturity" = "release";
+      "encoded" = "reptilemod-1.12.2-3.8.4-79.jar";
+      "page" = "https://minecraft.curseforge.com/projects/reptilemod/files/2505844";
+      "src" = "https://minecraft.curseforge.com/projects/reptilemod/files/2505844/download";
+      "type" = "remote";
+      "md5" = "e3758861f9ca1918f8fdba1f0f6c3dea";
     };
     "resource-loader" = {
       "title" = "Resource Loader";

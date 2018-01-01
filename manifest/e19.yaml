@@ -9,6 +9,7 @@ mods:
 - name: "recurrent-complex"
 # Configuration needed:
 - name: "bedrockores"
+- name: "lost-souls"
 
 # Decoration:
 - name: "dragons-radio-mod"
@@ -24,6 +25,11 @@ mods:
   - src: ../bundled-1.12.2/Nutrition.jar
 - name: "edible-bugs"
 - name: "minecolonies"
+
+# Super-experimental food/animal mod stuff:
+- name: "animania"
+- name: "plants"
+- name: "reptilemod"
 
 # Useful/interesting mods we usually want:
 - name: "tardis-mod"
