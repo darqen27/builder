@@ -43,6 +43,7 @@ mods:
 - name: "antique-atlas"
 - name: "compact-machines"
 - name: "psi"
+- name: "prefab"
 
 # Client-side enhancement mods:
 - name: "dynamic-surroundings"

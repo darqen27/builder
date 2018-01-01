@@ -2166,6 +2166,22 @@
       "type" = "remote";
       "md5" = "2cd60e553c0a7ce3d727b7849c40cda4";
     };
+    "prefab" = {
+      "title" = "Prefab";
+      "name" = "prefab";
+      "id" = 246550;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "prefab-1.3.0.13.jar";
+      "maturity" = "release";
+      "encoded" = "prefab-1.3.0.13.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2497633";
+      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2497633/download";
+      "type" = "remote";
+      "md5" = "a10308a89332fb954c2cecce82ae2a6e";
+    };
     "psi" = {
       "title" = "Psi";
       "name" = "psi";
