@@ -1419,22 +1419,6 @@
       "type" = "remote";
       "md5" = "52a1b001b58e67022b5465be12bc278f";
     };
-    "ice-and-fire-dragons-in-a-whole-new-light" = {
-      "title" = "Ice and Fire: Dragons in a whole new light!";
-      "name" = "ice-and-fire-dragons-in-a-whole-new-light";
-      "id" = 264231;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["llibrary"];
-      "filename" = "iceandfire-1.3.0-1.12.2.jar";
-      "maturity" = "release";
-      "encoded" = "iceandfire-1.3.0-1.12.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light/files/2515531";
-      "src" = "https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light/files/2515531/download";
-      "type" = "remote";
-      "md5" = "c1b4d1789bc87a04ffcb3b942348d8c5";
-    };
     "immersive-engineering" = {
       "title" = "Immersive Engineering";
       "name" = "immersive-engineering";
@@ -1710,22 +1694,6 @@
       "src" = "https://minecraft.curseforge.com/projects/light-level-overlay-reloaded/files/2436231/download";
       "type" = "remote";
       "md5" = "f48a17e61ec61a0be5eab679a16167ae";
-    };
-    "llibrary" = {
-      "title" = "LLibrary";
-      "name" = "llibrary";
-      "id" = 243298;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "llibrary-1.7.9-1.12.2.jar";
-      "maturity" = "release";
-      "encoded" = "llibrary-1.7.9-1.12.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/llibrary/files/2504999";
-      "src" = "https://minecraft.curseforge.com/projects/llibrary/files/2504999/download";
-      "type" = "remote";
-      "md5" = "fd81447d90da7ae9699ad8fc540105d1";
     };
     "long-fall-boots" = {
       "title" = "Long Fall Boots";

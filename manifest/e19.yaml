@@ -4,7 +4,8 @@ mods:
 - name: "wild-mobs-mod"
 - name: "exotic-birds"
 - name: "streams"
-- name: "ice-and-fire-dragons-in-a-whole-new-light"
+# But this doesn't work on servers yet!
+#- name: "ice-and-fire-dragons-in-a-whole-new-light"
 - name: "ruins-structure-spawning-system"
 - name: "recurrent-complex"
 # Configuration needed:
