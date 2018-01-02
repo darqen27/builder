@@ -60,6 +60,9 @@ rec {
     manifests = [
       ./manifest/e19.nix
     ];
+    blacklist = [
+      "creeperhost-minetogether"  # Fuck that.
+    ];
   };
 
   e18 = tppi2 // {
