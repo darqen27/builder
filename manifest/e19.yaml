@@ -96,6 +96,9 @@ mods:
   side: "client"
 - name: "chunkpregenerator"
 - name: "gotta-go-fast"
+# IRC
+- name: "thump"
+  required: false
 
 # Non-curse tools:
 - name: "sampler"

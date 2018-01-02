@@ -1718,13 +1718,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["the-lost-cities"];
-      "filename" = "lostsouls-1.12-1.1.1.jar";
+      "filename" = "lostsouls-1.12-1.1.2.jar";
       "maturity" = "release";
-      "encoded" = "lostsouls-1.12-1.1.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/lost-souls/files/2515295";
-      "src" = "https://minecraft.curseforge.com/projects/lost-souls/files/2515295/download";
+      "encoded" = "lostsouls-1.12-1.1.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/lost-souls/files/2515979";
+      "src" = "https://minecraft.curseforge.com/projects/lost-souls/files/2515979/download";
       "type" = "remote";
-      "md5" = "c4a523e220847b67c95e18418e451ecc";
+      "md5" = "cda341be97ce0d5c8a27b99ebe21dca7";
     };
     "lunatriuscore" = {
       "title" = "LunatriusCore";
@@ -1840,13 +1840,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "minecolonies-universal-1.12.2-0.8.6403.jar";
+      "filename" = "minecolonies-universal-1.12.2-0.8.6479.jar";
       "maturity" = "alpha";
-      "encoded" = "minecolonies-universal-1.12.2-0.8.6403.jar";
-      "page" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515019";
-      "src" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515019/download";
+      "encoded" = "minecolonies-universal-1.12.2-0.8.6479.jar";
+      "page" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515862";
+      "src" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515862/download";
       "type" = "remote";
-      "md5" = "9b7a64de0cb9c1ce9572a4b7e236ad01";
+      "md5" = "f8ef5e4ef3dab333d895929084ce452a";
     };
     "mob-grinding-utils" = {
       "title" = "Mob Grinding Utils";
@@ -2861,6 +2861,22 @@
       "src" = "https://minecraft.curseforge.com/projects/thermalexpansion/files/2506466/download";
       "type" = "remote";
       "md5" = "09befd84199f9140dbcd26cb59acf894";
+    };
+    "thump" = {
+      "title" = "Thump";
+      "name" = "thump";
+      "id" = 231124;
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Thump-1.12-4.7.0.2.jar";
+      "maturity" = "beta";
+      "encoded" = "Thump-1.12-4.7.0.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/thump/files/2434680";
+      "src" = "https://minecraft.curseforge.com/projects/thump/files/2434680/download";
+      "type" = "remote";
+      "md5" = "739c824cf4158d16ab7610921e8ee35d";
     };
     "thutcore" = {
       "title" = "ThutCore";
