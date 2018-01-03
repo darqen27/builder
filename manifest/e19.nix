@@ -199,6 +199,22 @@
       "type" = "remote";
       "md5" = "5e7e3436913056dd7ae670a62cd7f847";
     };
+    "automated-redstone" = {
+      "title" = "Automated Redstone";
+      "name" = "automated-redstone";
+      "id" = 229507;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["cd4017be-library"];
+      "filename" = "AutomatedRedstone-1.12.2-6.0.4.jar";
+      "maturity" = "release";
+      "encoded" = "AutomatedRedstone-1.12.2-6.0.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/automated-redstone/files/2512349";
+      "src" = "https://minecraft.curseforge.com/projects/automated-redstone/files/2512349/download";
+      "type" = "remote";
+      "md5" = "199897310f6950d7a768e8d6790e2239";
+    };
     "autoreglib" = {
       "title" = "AutoRegLib";
       "name" = "autoreglib";
@@ -481,6 +497,22 @@
       "default" = true;
       "deps" = [];
       "type" = "missing";
+    };
+    "cd4017be-library" = {
+      "title" = "CD4017BE Library";
+      "name" = "cd4017be-library";
+      "id" = 229208;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CD4017BE_lib-1.12.2-6.0.7.jar";
+      "maturity" = "release";
+      "encoded" = "CD4017BE_lib-1.12.2-6.0.7.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cd4017be-library/files/2512348";
+      "src" = "https://minecraft.curseforge.com/projects/cd4017be-library/files/2512348/download";
+      "type" = "remote";
+      "md5" = "3fae7bd9c0c96f32598222fdffc1765b";
     };
     "chameleon" = {
       "title" = "Chameleon";

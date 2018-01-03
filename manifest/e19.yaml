@@ -25,6 +25,7 @@ mods:
   - src: ../bundled-1.12.2/Nutrition.jar
 - name: "edible-bugs"
 - name: "minecolonies"
+- name: "automated-redstone"
 
 # Super-experimental food/animal mod stuff:
 - name: "animania"
