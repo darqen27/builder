@@ -97,7 +97,7 @@ set -x
 if [[ $EXTRAS -eq 1 ]]; then
     trap cleanup EXIT
     dailyRestart &
-    antiChunkChurn &
+#    antiChunkChurn &
 fi
 
 java -d64 -server -Xmx@ram@ \
