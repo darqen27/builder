@@ -95,7 +95,8 @@ mods:
   required: false
 - name: "reauth"
   side: "client"
-- name: "chunkpregenerator"
+# Seems to conflict with recccomplex
+#- name: "chunkpregenerator"
 - name: "gotta-go-fast"
 # IRC
 - name: "thump"
