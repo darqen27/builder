@@ -965,13 +965,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "filename" = "DynamicSurroundings-1.12.2-3.4.7.2.jar";
-      "maturity" = "release";
-      "encoded" = "DynamicSurroundings-1.12.2-3.4.7.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2482521";
-      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2482521/download";
+      "filename" = "DynamicSurroundings-1.12.2-3.4.8.0.jar";
+      "maturity" = "beta";
+      "encoded" = "DynamicSurroundings-1.12.2-3.4.8.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2516272";
+      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2516272/download";
       "type" = "remote";
-      "md5" = "ce790d3dcef5e776d1f7254e53e1d014";
+      "md5" = "d912ee01b89fd9608f64187c2cc0097a";
     };
     "dynmapforge" = {
       "title" = "DynmapForge";
@@ -1856,13 +1856,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "minecolonies-universal-1.12.2-0.8.6479.jar";
+      "filename" = "minecolonies-universal-1.12.2-0.8.6564.jar";
       "maturity" = "alpha";
-      "encoded" = "minecolonies-universal-1.12.2-0.8.6479.jar";
-      "page" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515862";
-      "src" = "https://minecraft.curseforge.com/projects/minecolonies/files/2515862/download";
+      "encoded" = "minecolonies-universal-1.12.2-0.8.6564.jar";
+      "page" = "https://minecraft.curseforge.com/projects/minecolonies/files/2516751";
+      "src" = "https://minecraft.curseforge.com/projects/minecolonies/files/2516751/download";
       "type" = "remote";
-      "md5" = "f8ef5e4ef3dab333d895929084ce452a";
+      "md5" = "23e9a3f25d07cf322b4d029d0a16992e";
     };
     "mob-grinding-utils" = {
       "title" = "Mob Grinding Utils";
@@ -2303,13 +2303,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["ivtoolkit"];
-      "filename" = "RecurrentComplex-1.4.6.jar";
+      "filename" = "RecurrentComplex-1.4.7.jar";
       "maturity" = "release";
-      "encoded" = "RecurrentComplex-1.4.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2499589";
-      "src" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2499589/download";
+      "encoded" = "RecurrentComplex-1.4.7.jar";
+      "page" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2516761";
+      "src" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2516761/download";
       "type" = "remote";
-      "md5" = "5e8cc1c50fa2b67bdb1c136d83d5bfff";
+      "md5" = "a4033c25cad58e021d0479768665c8b9";
     };
     "redstone-arsenal" = {
       "title" = "Redstone Arsenal";
