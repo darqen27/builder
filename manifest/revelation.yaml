@@ -371,22 +371,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "brandons-core"
-  id: 231382
-  title: "Brandon's Core"
-  files:
-  - name: "BrandonsCore-1.12-2.3.6.139-universal.jar"
-    id: 2512169
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231382/files/2512169"
-    src: "https://minecraft.curseforge.com/projects/brandons-core/files/2512169/download"
-    md5: "2e1257fc098f1f52feea561067a27b69"
-  side: "both"
-  deps:
-  - "codechicken-lib-1-8"
-  required: true
-  default: true
-  curse: true
 - name: "career-bees"
   id: 281791
   title: "Career Bees"
@@ -758,17 +742,6 @@ mods:
 - name: "draconic-evolution"
   id: 223565
   title: "Draconic Evolution"
-  files:
-  - name: "Draconic Evolution 1.10.2-2.1.8.273-universal"
-    id: null
-    maturity: "release"
-    filePageUrl: "https://minecraft.curseforge.com/projects/draconic-evolution/files/2512171"
-    src: null
-    md5: null
-  side: "both"
-  deps:
-  - "brandons-core"
-  - "codechicken-lib-1-8"
   required: true
   default: true
   curse: true

@@ -370,12 +370,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["codechicken-lib-1-8"];
-      "filename" = "BrandonsCore-1.12-2.3.6.139-universal.jar";
-      "encoded" = "BrandonsCore-1.12-2.3.6.139-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/231382/files/2512169";
-      "src" = "https://minecraft.curseforge.com/projects/brandons-core/files/2512169/download";
+      "filename" = "BrandonsCore-1.12-2.3.7.140-universal.jar";
+      "maturity" = "release";
+      "encoded" = "BrandonsCore-1.12-2.3.7.140-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/brandons-core/files/2514752";
+      "src" = "https://minecraft.curseforge.com/projects/brandons-core/files/2514752/download";
       "type" = "remote";
-      "md5" = "2e1257fc098f1f52feea561067a27b69";
+      "md5" = "eb6df1ea3640626004cca9c09c08cba2";
     };
     "career-bees" = {
       "title" = "Career Bees";
@@ -760,13 +761,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["brandons-core" "codechicken-lib-1-8"];
-      "filename" = "Draconic-Evolution-1.10.2-2.1.8.273-universal.jar";
+      "filename" = "Draconic-Evolution-1.12-2.3.7.278-universal.jar";
       "maturity" = "release";
-      "encoded" = "Draconic-Evolution-1.10.2-2.1.8.273-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2512171";
-      "src" = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2512171/download";
+      "encoded" = "Draconic-Evolution-1.12-2.3.7.278-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2514754";
+      "src" = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2514754/download";
       "type" = "remote";
-      "md5" = "832e863913bc86d7e17ad3586ecccac7";
+      "md5" = "380c20101db994c15ea1d5d7cbd6fdd1";
     };
     "eleccore" = {
       "title" = "ElecCore";
