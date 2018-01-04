@@ -98,7 +98,6 @@ This is a public pack
 (Open:Custom) Malisis Core by Ordinastie can be found at http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-1-7-2-1-7-10-forge-malisisdoors-1-7-10-1-1. The license is, .
 (Open:Custom) Malisis Doors by Ordinastie can be found at http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-1-7-2-1-7-10-forge-malisisdoors-1-7-10-1-1. The license is, .
 (Open:Custom) Mantle by mDiyo, progwml6 can be found at http://www.curse.com/mc-mods/minecraft/mantle. The license is, .
-(Open:Custom) McJtyLib by McJty can be found at http://www.curse.com/mc-mods/minecraft/233105-mcjtylib. The license is, .
 (Open:Custom) MCMultiPart by amadornes can be found at http://minecraft.curseforge.com/projects/mcmultipart. The license is, .
 (Open:Custom) MineTogether by Creeperhost, CloudyPSP can be found at https://www.curseforge.com/minecraft/mc-mods/creeperhost-minetogether. The license is, https://www.curseforge.com/minecraft/mc-mods/creeperhost-minetogether.
 (Open:Custom) Mob Grinding Utils by Vadis365, Darkosto, TheCyberBrick can be found at https://minecraft.curseforge.com/projects/mob-grinding-utils. The license is, https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils, and can be found https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils.
@@ -168,3 +167,5 @@ This is a public pack
 (Open:Custom) Xtones by TehNut, Original_Dutch can be found at https://minecraft.curseforge.com/projects/xtones. The license is, , and can be found https://minecraft.curseforge.com/projects/xtones/license.
 (Open:Custom) YABBA by LatvianModder can be found at https://minecraft.curseforge.com/projects/yabba. The license is, , and can be found https://minecraft.curseforge.com/projects/yabba/license.
 (Open:Custom) Zero CORE by ZeroNoRyouki can be found at https://minecraft.curseforge.com/projects/zerocore. The license is, .
+
+The file mcjtylib-1.12-2.6.1.jar could not be identified

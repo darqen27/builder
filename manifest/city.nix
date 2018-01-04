@@ -42,13 +42,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "compatlayer-1.10-0.2.9.jar";
+      "filename" = "compatlayer-1.10-0.3.0.jar";
       "maturity" = "release";
-      "encoded" = "compatlayer-1.10-0.2.9.jar";
-      "page" = "https://minecraft.curseforge.com/projects/compatlayer/files/2423623";
-      "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2423623/download";
+      "encoded" = "compatlayer-1.10-0.3.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/compatlayer/files/2511879";
+      "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2511879/download";
       "type" = "remote";
-      "md5" = "25b398c62a9b7a00fb0c9a9a9c43cbb7";
+      "md5" = "a4052f7116353dd1d7eda7c43a0b8215";
     };
     "dynmapforge" = {
       "title" = "DynmapForge";
@@ -74,13 +74,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "lostcities-1.1x-0.0.20beta.jar";
-      "maturity" = "beta";
-      "encoded" = "lostcities-1.1x-0.0.20beta.jar";
-      "page" = "https://minecraft.curseforge.com/projects/the-lost-cities/files/2463025";
-      "src" = "https://minecraft.curseforge.com/projects/the-lost-cities/files/2463025/download";
+      "filename" = "lostcities-1.1x-1.0.2.jar";
+      "maturity" = "release";
+      "encoded" = "lostcities-1.1x-1.0.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/the-lost-cities/files/2497880";
+      "src" = "https://minecraft.curseforge.com/projects/the-lost-cities/files/2497880/download";
       "type" = "remote";
-      "md5" = "7418506d5a4d76ebfa3edc08477c3d69";
+      "md5" = "f15e8555991c944791d169b91a3bdad6";
     };
   };
 }

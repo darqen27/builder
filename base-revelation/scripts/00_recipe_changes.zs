@@ -10,7 +10,7 @@ recipes.remove(<opencomputers:upgrade:4>);
 #Atempt to fix TiC grout shapless recipe
 recipes.addShapeless(<tconstruct:soil> * 2, [<minecraft:sand>, <minecraft:gravel>, <minecraft:clay_ball>]);
 
-#Fix wood gear recipe
+#Fix wood gear recipe in grindstone
 recipes.remove(<appliedenergistics2:material:40>);
 
 #Remove ExU2 Sickles to prevent overlap with Thermal Foundation Sickles
