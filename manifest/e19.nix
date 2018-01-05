@@ -2206,6 +2206,16 @@
       "type" = "remote";
       "md5" = "a10308a89332fb954c2cecce82ae2a6e";
     };
+    "prometheus-integration" = {
+      "title" = "Prometheus Integration";
+      "name" = "prometheus-integration";
+      "id" = 254573;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = ["shadowfacts-forgelin"];
+      "type" = "missing";
+    };
     "psi" = {
       "title" = "Psi";
       "name" = "psi";

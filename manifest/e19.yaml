@@ -83,6 +83,8 @@ mods:
 - name: "signal-catcher"
 - name: "dynmapforge"
   side: "server"
+- name: "prometheus-integration"
+  side: "server"
 
 # Tool mods:
 - name: "morpheus"
