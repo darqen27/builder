@@ -1683,6 +1683,22 @@
       "type" = "remote";
       "md5" = "52acf2a72f87a6a54ad89b1a5f6066a6";
     };
+    "laggoggles" = {
+      "title" = "LagGoggles";
+      "name" = "laggoggles";
+      "id" = 283525;
+      "side" = "both";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "LagGoggles-1.12.2-2.1.jar";
+      "maturity" = "release";
+      "encoded" = "LagGoggles-1.12.2-2.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/laggoggles/files/2516570";
+      "src" = "https://minecraft.curseforge.com/projects/laggoggles/files/2516570/download";
+      "type" = "remote";
+      "md5" = "375c50ede2ee614af4b68fe87d37a9e9";
+    };
     "libvulpes" = {
       "title" = "LibVulpes";
       "name" = "libvulpes";

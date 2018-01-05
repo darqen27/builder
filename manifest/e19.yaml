@@ -102,9 +102,13 @@ mods:
 - name: "gotta-go-fast"
 - name: "tickprofiler"
   required: false
+- name: "laggoggles"
+  required: false
+  default: false
 # IRC
 - name: "thump"
   required: false
+
 
 # Non-curse tools:
 - name: "sampler"
