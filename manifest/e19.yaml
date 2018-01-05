@@ -98,6 +98,8 @@ mods:
 # Seems to conflict with recccomplex
 #- name: "chunkpregenerator"
 - name: "gotta-go-fast"
+- name: "tickprofiler"
+  required: false
 # IRC
 - name: "thump"
   required: false

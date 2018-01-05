@@ -2926,6 +2926,22 @@
       "type" = "remote";
       "md5" = "6531e37327d55f0076c5c85acf295eb3";
     };
+    "tickprofiler" = {
+      "title" = "TickProfiler";
+      "name" = "tickprofiler";
+      "id" = 270330;
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TickProfiler-1.12-0.0.2.jar";
+      "maturity" = "beta";
+      "encoded" = "TickProfiler-1.12-0.0.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tickprofiler/files/2514812";
+      "src" = "https://minecraft.curseforge.com/projects/tickprofiler/files/2514812/download";
+      "type" = "remote";
+      "md5" = "2f2f34710f7479561051e22047a1d658";
+    };
     "tinkers-construct" = {
       "title" = "Tinkers Construct";
       "name" = "tinkers-construct";
