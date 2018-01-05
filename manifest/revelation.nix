@@ -1422,12 +1422,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "mcjtylib-1.12-2.6.1.jar";
-      "encoded" = "mcjtylib-1.12-2.6.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/233105/files/2514045";
-      "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2514045/download";
+      "filename" = "mcjtylib-1.12-2.6.2.jar";
+      "maturity" = "release";
+      "encoded" = "mcjtylib-1.12-2.6.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2516349";
+      "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2516349/download";
       "type" = "remote";
-      "md5" = "82fb871411cc10c29432ec5e291c1981";
+      "md5" = "6f16f46a407fe10eb44ed26f6a4a5b40";
     };
     "mcmultipart" = {
       "title" = "MCMultiPart";
@@ -1872,12 +1873,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["mcjtylib"];
-      "filename" = "rftools-1.12-7.21.jar";
-      "encoded" = "rftools-1.12-7.21.jar";
-      "page" = "https://minecraft.curseforge.com/projects/224641/files/2514048";
-      "src" = "https://minecraft.curseforge.com/projects/rftools/files/2514048/download";
+      "filename" = "rftools-1.12-7.23.jar";
+      "maturity" = "release";
+      "encoded" = "rftools-1.12-7.23.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools/files/2516350";
+      "src" = "https://minecraft.curseforge.com/projects/rftools/files/2516350/download";
       "type" = "remote";
-      "md5" = "d96e43ec6fdb699b41b88fd35e0e6f54";
+      "md5" = "a5bf321210e90cffcda89406bf50e187";
     };
     "rftools-control" = {
       "title" = "RFTools Control";
@@ -1888,8 +1890,9 @@
       "default" = true;
       "deps" = ["mcjtylib" "rftools"];
       "filename" = "rftoolsctrl-1.12-1.8.0.jar";
+      "maturity" = "release";
       "encoded" = "rftoolsctrl-1.12-1.8.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/250763/files/2514031";
+      "page" = "https://minecraft.curseforge.com/projects/rftools-control/files/2514031";
       "src" = "https://minecraft.curseforge.com/projects/rftools-control/files/2514031/download";
       "type" = "remote";
       "md5" = "3b1cc5a8e02b3b906783cff005bf4beb";

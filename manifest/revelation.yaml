@@ -1462,13 +1462,6 @@ mods:
 - name: "mcjtylib"
   id: 233105
   title: "McJtyLib"
-  files:
-  - name: "mcjtylib-1.12-2.6.1.jar"
-    id: 2514045
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233105/files/2514045"
-    src: "https://minecraft.curseforge.com/projects/mcjtylib/files/2514045/download"
-    md5: "82fb871411cc10c29432ec5e291c1981"
   side: "both"
   deps: []
   required: true
@@ -1936,33 +1929,14 @@ mods:
 - name: "rftools"
   id: 224641
   title: "RFTools"
-  files:
-  - name: "rftools-1.12-7.21.jar"
-    id: 2514048
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/224641/files/2514048"
-    src: "https://minecraft.curseforge.com/projects/rftools/files/2514048/download"
-    md5: "d96e43ec6fdb699b41b88fd35e0e6f54"
   side: "both"
-  deps:
-  - "mcjtylib"
   required: true
   default: true
   curse: true
 - name: "rftools-control"
   id: 250763
   title: "RFTools Control"
-  files:
-  - name: "rftoolsctrl-1.12-1.8.0.jar"
-    id: 2514031
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250763/files/2514031"
-    src: "https://minecraft.curseforge.com/projects/rftools-control/files/2514031/download"
-    md5: "3b1cc5a8e02b3b906783cff005bf4beb"
   side: "both"
-  deps:
-  - "mcjtylib"
-  - "rftools"
   required: true
   default: true
   curse: true
