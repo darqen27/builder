@@ -30,7 +30,6 @@ mods:
 # Super-experimental food/animal mod stuff:
 - name: "animania"
 - name: "plants"
-- name: "reptilemod"
 
 # Useful/interesting mods we usually want:
 - name: "tardis-mod"

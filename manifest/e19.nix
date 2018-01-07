@@ -967,13 +967,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "filename" = "DynamicSurroundings-1.12.2-3.4.8.0.jar";
+      "filename" = "DynamicSurroundings-1.12.2-3.4.8.1.jar";
       "maturity" = "beta";
-      "encoded" = "DynamicSurroundings-1.12.2-3.4.8.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2516272";
-      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2516272/download";
+      "encoded" = "DynamicSurroundings-1.12.2-3.4.8.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2517428";
+      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2517428/download";
       "type" = "remote";
-      "md5" = "d912ee01b89fd9608f64187c2cc0097a";
+      "md5" = "66b0ee8e369c03ae0325fe292407404e";
     };
     "dynmapforge" = {
       "title" = "DynmapForge";
@@ -2385,22 +2385,6 @@
       "type" = "remote";
       "md5" = "874cfd02409f9856aa919f0debea5e8a";
     };
-    "reptilemod" = {
-      "title" = "Reptile Mod";
-      "name" = "reptilemod";
-      "id" = 77994;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "reptilemod-1.12.2-3.8.4-79.jar";
-      "maturity" = "release";
-      "encoded" = "reptilemod-1.12.2-3.8.4-79.jar";
-      "page" = "https://minecraft.curseforge.com/projects/reptilemod/files/2505844";
-      "src" = "https://minecraft.curseforge.com/projects/reptilemod/files/2505844/download";
-      "type" = "remote";
-      "md5" = "e3758861f9ca1918f8fdba1f0f6c3dea";
-    };
     "resource-loader" = {
       "title" = "Resource Loader";
       "name" = "resource-loader";
@@ -2531,13 +2515,13 @@
       "required" = false;
       "default" = true;
       "deps" = ["lunatriuscore"];
-      "filename" = "Schematica-1.12.2-1.8.0.167-universal.jar";
+      "filename" = "Schematica-1.12.2-1.8.0.168-universal.jar";
       "maturity" = "release";
-      "encoded" = "Schematica-1.12.2-1.8.0.167-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/schematica/files/2504366";
-      "src" = "https://minecraft.curseforge.com/projects/schematica/files/2504366/download";
+      "encoded" = "Schematica-1.12.2-1.8.0.168-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/schematica/files/2517396";
+      "src" = "https://minecraft.curseforge.com/projects/schematica/files/2517396/download";
       "type" = "remote";
-      "md5" = "41e671e1649efcd2f6e38ea25365048b";
+      "md5" = "148aa1c779c46823fa17e2d5b97441c4";
     };
     "secretroomsmod" = {
       "title" = "SecretRoomsMod";
