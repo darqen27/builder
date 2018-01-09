@@ -17,6 +17,10 @@ mods:
 - name: "catwalks-2"
 - name: "decocraft2"
 
+# Project Dimension:
+- name: "general-laymans-aesthetic-spying-screen-glass"
+- name: "dimensionaldoors"
+
 # Experimental game-changing mods:
 - name: "scannable"
 - name: "nutrition"

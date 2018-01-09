@@ -902,6 +902,22 @@
       "type" = "remote";
       "md5" = "1d616cb7b25de3ae44f06e26d18bd07e";
     };
+    "dimensionaldoors" = {
+      "title" = "Dimensional Doors.";
+      "name" = "dimensionaldoors";
+      "id" = 284876;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "dimdoors-3.0.0-beta-4.jar";
+      "maturity" = "beta";
+      "encoded" = "dimdoors-3.0.0-beta-4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dimensionaldoors/files/2517426";
+      "src" = "https://minecraft.curseforge.com/projects/dimensionaldoors/files/2517426/download";
+      "type" = "remote";
+      "md5" = "4acc687f08b66905774de6105aa278ee";
+    };
     "ding" = {
       "title" = "Ding";
       "name" = "ding";
@@ -1375,6 +1391,22 @@
       "type" = "remote";
       "md5" = "202ad249247a8872d25ce54156fceae5";
     };
+    "general-laymans-aesthetic-spying-screen-glass" = {
+      "title" = "General Layman's Aesthetic Spying Screen (GLASS)";
+      "name" = "general-laymans-aesthetic-spying-screen-glass";
+      "id" = 282164;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["ichunutil"];
+      "filename" = "GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar";
+      "maturity" = "release";
+      "encoded" = "GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/general-laymans-aesthetic-spying-screen-glass/files/2501251";
+      "src" = "https://minecraft.curseforge.com/projects/general-laymans-aesthetic-spying-screen-glass/files/2501251/download";
+      "type" = "remote";
+      "md5" = "024e218a06c252eeb8811252cc7861d3";
+    };
     "gotta-go-fast" = {
       "title" = "Gotta Go Fast";
       "name" = "gotta-go-fast";
@@ -1436,6 +1468,22 @@
       "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2479308/download";
       "type" = "remote";
       "md5" = "52a1b001b58e67022b5465be12bc278f";
+    };
+    "ichunutil" = {
+      "title" = "iChunUtil";
+      "name" = "ichunutil";
+      "id" = 229060;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "iChunUtil-1.12.2-7.1.4.jar";
+      "maturity" = "release";
+      "encoded" = "iChunUtil-1.12.2-7.1.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ichunutil/files/2510760";
+      "src" = "https://minecraft.curseforge.com/projects/ichunutil/files/2510760/download";
+      "type" = "remote";
+      "md5" = "b81dab6549018c7b4b7829d30ef1d777";
     };
     "immersive-engineering" = {
       "title" = "Immersive Engineering";
