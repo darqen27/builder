@@ -950,22 +950,6 @@
       "type" = "remote";
       "md5" = "1d616cb7b25de3ae44f06e26d18bd07e";
     };
-    "dimensionaldoors" = {
-      "title" = "Dimensional Doors.";
-      "name" = "dimensionaldoors";
-      "id" = 284876;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "dimdoors-3.0.0-beta-4.jar";
-      "maturity" = "beta";
-      "encoded" = "dimdoors-3.0.0-beta-4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dimensionaldoors/files/2517426";
-      "src" = "https://minecraft.curseforge.com/projects/dimensionaldoors/files/2517426/download";
-      "type" = "remote";
-      "md5" = "4acc687f08b66905774de6105aa278ee";
-    };
     "ding" = {
       "title" = "Ding";
       "name" = "ding";
