@@ -234,13 +234,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Baubles-1.12-1.5.1.jar";
+      "filename" = "Baubles-1.12-1.5.2.jar";
       "maturity" = "release";
-      "encoded" = "Baubles-1.12-1.5.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/baubles/files/2459083";
-      "src" = "https://minecraft.curseforge.com/projects/baubles/files/2459083/download";
+      "encoded" = "Baubles-1.12-1.5.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/baubles/files/2518667";
+      "src" = "https://minecraft.curseforge.com/projects/baubles/files/2518667/download";
       "type" = "remote";
-      "md5" = "a2ca9d9efb67106026c4b0348a353ccf";
+      "md5" = "944dec4ef3fbfd4d498d94a7047af201";
     };
     "bdlib" = {
       "title" = "BdLib";
@@ -1658,13 +1658,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["mantle"];
-      "filename" = "natura-1.12-4.3.1.35.jar";
+      "filename" = "natura-1.12.2-4.3.2.39.jar";
       "maturity" = "release";
-      "encoded" = "natura-1.12-4.3.1.35.jar";
-      "page" = "https://minecraft.curseforge.com/projects/natura/files/2515905";
-      "src" = "https://minecraft.curseforge.com/projects/natura/files/2515905/download";
+      "encoded" = "natura-1.12.2-4.3.2.39.jar";
+      "page" = "https://minecraft.curseforge.com/projects/natura/files/2518591";
+      "src" = "https://minecraft.curseforge.com/projects/natura/files/2518591/download";
       "type" = "remote";
-      "md5" = "441b3816183042a3f14b28b4030e4ef3";
+      "md5" = "81c0580a7605d5c7900429133a4fa8a5";
     };
     "natures-compass" = {
       "title" = "Nature's Compass";
@@ -1802,13 +1802,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Pam_s HarvestCraft 1.12.2d.jar";
+      "filename" = "Pam_s HarvestCraft 1.12.2e.jar";
       "maturity" = "release";
-      "encoded" = "Pam_s%20HarvestCraft%201.12.2d.jar";
-      "page" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518213";
-      "src" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518213/download";
+      "encoded" = "Pam_s%20HarvestCraft%201.12.2e.jar";
+      "page" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518542";
+      "src" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518542/download";
       "type" = "remote";
-      "md5" = "31305674a704210f3be4bcb22d9e4855";
+      "md5" = "f795f7a5ee6b5393499995c595fdc0c5";
     };
     "placebo" = {
       "title" = "Placebo";
@@ -2491,7 +2491,7 @@
       "default" = true;
       "deps" = ["wanionlib"];
       "filename" = "UniDict-1.12.2-2.1.jar";
-      "maturity" = "release";
+      "maturity" = "beta";
       "encoded" = "UniDict-1.12.2-2.1.jar";
       "page" = "https://minecraft.curseforge.com/projects/unidict/files/2515662";
       "src" = "https://minecraft.curseforge.com/projects/unidict/files/2515662/download";
