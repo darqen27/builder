@@ -2601,6 +2601,22 @@
       "type" = "remote";
       "md5" = "3b1cc5a8e02b3b906783cff005bf4beb";
     };
+    "rftools-dimensions" = {
+      "title" = "RFTools Dimensions";
+      "name" = "rftools-dimensions";
+      "id" = 240950;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib" "rftools"];
+      "filename" = "rftoolsdim-1.12-5.50.jar";
+      "maturity" = "release";
+      "encoded" = "rftoolsdim-1.12-5.50.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2516650";
+      "src" = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2516650/download";
+      "type" = "remote";
+      "md5" = "ad888b77c97a51dd28d64a5dcbfa208b";
+    };
     "roots" = {
       "title" = "Roots";
       "name" = "roots";
