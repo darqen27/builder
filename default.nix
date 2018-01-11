@@ -46,12 +46,12 @@ rec {
     # Suggested use: Configs. Scripts. That sort of thing.
     # Higher entries override later ones.
     extraDirs = [
-      ./base-erisia
+      ./base/erisia
       ./third_party/ruins-1.12
-      ./base-revelation
+      ./base/revelation
     ];
     extraServerDirs = [
-      ./base-server
+      ./base/server
     ];
     extraClientDirs = [
       # resources
@@ -75,8 +75,8 @@ rec {
       ./manifest/e18.nix
     ];
     extraDirs = [
-      ./base-erisia
-      ./base-tppi2
+      ./base/erisia
+      ./base/tppi2
     ];
     # Not all mods are equally welcome.
     blacklist = [
@@ -94,12 +94,12 @@ rec {
     # Suggested use: Configs. Scripts. That sort of thing.
     # Higher entries override later ones.
     extraDirs = [
-      ./base-tppi2
+      ./base/tppi2
       # resources
       # (generateCustomOreGenConfig ./COGConfig)
     ];
     extraServerDirs = [
-      ./base-server
+      ./base/server
     ];
     extraClientDirs = [
       # resources
