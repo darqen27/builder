@@ -42,13 +42,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["libvulpes"];
-      "filename" = "AdvancedRocketry-1.12.2-1.2.6-46.jar";
+      "filename" = "AdvancedRocketry-1.12.2-1.2.6-47.jar";
       "maturity" = "alpha";
-      "encoded" = "AdvancedRocketry-1.12.2-1.2.6-46.jar";
-      "page" = "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2518434";
-      "src" = "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2518434/download";
+      "encoded" = "AdvancedRocketry-1.12.2-1.2.6-47.jar";
+      "page" = "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2518808";
+      "src" = "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2518808/download";
       "type" = "remote";
-      "md5" = "c8c2ca4e372a582a4fbe1e6747a9d8e5";
+      "md5" = "a4c860c8bcca56ad628716334e2fb5cf";
     };
     "ae2-stuff" = {
       "title" = "AE2 Stuff";
@@ -458,13 +458,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Bookshelf-1.12.2-2.3.518.jar";
-      "maturity" = "release";
-      "encoded" = "Bookshelf-1.12.2-2.3.518.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bookshelf/files/2514598";
-      "src" = "https://minecraft.curseforge.com/projects/bookshelf/files/2514598/download";
+      "filename" = "Bookshelf-1.12.2-2.3.519.jar";
+      "maturity" = "alpha";
+      "encoded" = "Bookshelf-1.12.2-2.3.519.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bookshelf/files/2518931";
+      "src" = "https://minecraft.curseforge.com/projects/bookshelf/files/2518931/download";
       "type" = "remote";
-      "md5" = "246827a6f1fa05f94011e7a8353fc0ab";
+      "md5" = "466eba75212afa9dc58a8b4f2825f582";
     };
     "botania" = {
       "title" = "Botania";
@@ -2217,13 +2217,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "NuclearCraft-2.8c--1.12.2.jar";
+      "filename" = "NuclearCraft-2.8d--1.12.2.jar";
       "maturity" = "release";
-      "encoded" = "NuclearCraft-2.8c--1.12.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2517776";
-      "src" = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2517776/download";
+      "encoded" = "NuclearCraft-2.8d--1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2518905";
+      "src" = "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2518905/download";
       "type" = "remote";
-      "md5" = "798712b01c5def1804aaa8ebe5bd0630";
+      "md5" = "abdc2d4dd9886bc12490389fe8c49dbe";
     };
     "nutrition" = {
       "title" = "nutrition";
@@ -2294,13 +2294,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Pam_s HarvestCraft 1.12.2e.jar";
+      "filename" = "Pam_s HarvestCraft 1.12.2f.jar";
       "maturity" = "release";
-      "encoded" = "Pam_s%20HarvestCraft%201.12.2e.jar";
-      "page" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518542";
-      "src" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518542/download";
+      "encoded" = "Pam_s%20HarvestCraft%201.12.2f.jar";
+      "page" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518832";
+      "src" = "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518832/download";
       "type" = "remote";
-      "md5" = "f795f7a5ee6b5393499995c595fdc0c5";
+      "md5" = "21fc4a5e04e69b49dfa777e8eab05166";
     };
     "placebo" = {
       "title" = "Placebo";
@@ -2701,13 +2701,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "secretroomsmod-1.12.2-5.1.12.jar";
+      "filename" = "secretroomsmod-1.12.2-5.1.13.jar";
       "maturity" = "release";
-      "encoded" = "secretroomsmod-1.12.2-5.1.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/secretroomsmod/files/2516479";
-      "src" = "https://minecraft.curseforge.com/projects/secretroomsmod/files/2516479/download";
+      "encoded" = "secretroomsmod-1.12.2-5.1.13.jar";
+      "page" = "https://minecraft.curseforge.com/projects/secretroomsmod/files/2518881";
+      "src" = "https://minecraft.curseforge.com/projects/secretroomsmod/files/2518881/download";
       "type" = "remote";
-      "md5" = "f775d591ff35fe483546397884d0b636";
+      "md5" = "2c5f44134ac38bbbaf14c69f3bc3f17e";
     };
     "shadowfacts-forgelin" = {
       "title" = "Shadowfacts' Forgelin";
@@ -3105,13 +3105,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "thutcore-1.12.2-5.15.1.jar";
+      "filename" = "thutcore-1.12.2-5.15.2.jar";
       "maturity" = "release";
-      "encoded" = "thutcore-1.12.2-5.15.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thutcore/files/2517482";
-      "src" = "https://minecraft.curseforge.com/projects/thutcore/files/2517482/download";
+      "encoded" = "thutcore-1.12.2-5.15.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/thutcore/files/2518922";
+      "src" = "https://minecraft.curseforge.com/projects/thutcore/files/2518922/download";
       "type" = "remote";
-      "md5" = "37dc8daa115aab641d394e7978862657";
+      "md5" = "de3b9a1bc01fa481246dd536bf6c5165";
     };
     "thuts-elevators" = {
       "title" = "Thut's Elevators";
@@ -3121,13 +3121,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["thutcore"];
-      "filename" = "thuttech-1.12.2-6.0.11.jar";
+      "filename" = "thuttech-1.12.2-6.0.12.jar";
       "maturity" = "release";
-      "encoded" = "thuttech-1.12.2-6.0.11.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thuts-elevators/files/2515918";
-      "src" = "https://minecraft.curseforge.com/projects/thuts-elevators/files/2515918/download";
+      "encoded" = "thuttech-1.12.2-6.0.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/thuts-elevators/files/2518971";
+      "src" = "https://minecraft.curseforge.com/projects/thuts-elevators/files/2518971/download";
       "type" = "remote";
-      "md5" = "2db8ef2d0e02630d484de06b5bb7f57d";
+      "md5" = "293fdf28525fbc52f4b3bc4366d102f4";
     };
     "tickprofiler" = {
       "title" = "TickProfiler";
