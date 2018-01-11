@@ -2234,7 +2234,7 @@
       "deps" = [];
       "filename" = "Nutrition.jar";
       "encoded" = "Nutrition.jar";
-      "src" = ../bundled-1.12.2/Nutrition.jar;
+      "src" = ../third_party/1.12.2/Nutrition.jar;
       "type" = "local";
       "md5" = "b6e7d402b37fb73687cfb18442a3ae85";
     };
@@ -2657,7 +2657,7 @@
       "deps" = [];
       "filename" = "sampler-1.73.jar";
       "encoded" = "sampler-1.73.jar";
-      "src" = ../bundled-1.12.2/sampler-1.73.jar;
+      "src" = ../third_party/1.12.2/sampler-1.73.jar;
       "type" = "local";
       "md5" = "0e114cfbcdcf95d6991f401b2c0318fe";
     };

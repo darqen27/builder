@@ -31,7 +31,7 @@ mods:
 #   side: "server"
 #   curse: false
 #   files:
-#   - src: "../bundled-1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
+#   - src: "../third_party/1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
 - name: "dynmapforge"
   side: "server"
 - name: "fullscreen-windowed-borderless-for-minecraft"

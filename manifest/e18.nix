@@ -85,7 +85,7 @@
       "deps" = [];
       "filename" = "appliedenergistics2-rv2-stable-10.jar";
       "encoded" = "appliedenergistics2-rv2-stable-10.jar";
-      "src" = ../bundled-1.7.10/appliedenergistics2-rv2-stable-10.jar;
+      "src" = ../third_party/1.7.10/appliedenergistics2-rv2-stable-10.jar;
       "type" = "local";
       "md5" = "f7a60fa036240da11da4a739c5c4137d";
     };
@@ -754,7 +754,7 @@
       "deps" = [];
       "filename" = "DimensionalDoors-2.2.5-test9.jar";
       "encoded" = "DimensionalDoors-2.2.5-test9.jar";
-      "src" = ../bundled-1.7.10/DimensionalDoors-2.2.5-test9.jar;
+      "src" = ../third_party/1.7.10/DimensionalDoors-2.2.5-test9.jar;
       "type" = "local";
       "md5" = "8f58df5fdbf60da896f0d4da196e312f";
     };
@@ -863,7 +863,7 @@
       "deps" = [];
       "filename" = "ElectricalAge-1.15.1.jar";
       "encoded" = "ElectricalAge-1.15.1.jar";
-      "src" = ../bundled-1.7.10/ElectricalAge-1.15.1.jar;
+      "src" = ../third_party/1.7.10/ElectricalAge-1.15.1.jar;
       "type" = "local";
       "md5" = "857e39d3da107dd35d404ac0584de83d";
     };
@@ -2238,7 +2238,7 @@
       "deps" = [];
       "filename" = "prometheus-integration-1.2.0.jar";
       "encoded" = "prometheus-integration-1.2.0.jar";
-      "src" = ../bundled-1.7.10/prometheus-integration-1.2.0.jar;
+      "src" = ../third_party/1.7.10/prometheus-integration-1.2.0.jar;
       "type" = "local";
       "md5" = "e13c9f8fe7c93e2f400239b038a552cf";
     };
@@ -2437,7 +2437,7 @@
       "deps" = [];
       "filename" = "sampler-1.60.1.jar";
       "encoded" = "sampler-1.60.1.jar";
-      "src" = ../bundled-1.7.10/sampler-1.60.1.jar;
+      "src" = ../third_party/1.7.10/sampler-1.60.1.jar;
       "type" = "local";
       "md5" = "0a858e15ea1efd869dbed7218dc901a0";
     };
@@ -2706,7 +2706,7 @@
       "deps" = [];
       "filename" = "thaumicenergistics-1.0.0.5-RV2.jar";
       "encoded" = "thaumicenergistics-1.0.0.5-RV2.jar";
-      "src" = ../bundled-1.7.10/thaumicenergistics-1.0.0.5-RV2.jar;
+      "src" = ../third_party/1.7.10/thaumicenergistics-1.0.0.5-RV2.jar;
       "type" = "local";
       "md5" = "fcfee9e84088cacec7f257beacdd0c39";
     };
@@ -2847,7 +2847,7 @@
       "deps" = [];
       "filename" = "TickProfiler-1.7.10.jenkins.37.jar";
       "encoded" = "TickProfiler-1.7.10.jenkins.37.jar";
-      "src" = ../bundled-1.7.10/TickProfiler-1.7.10.jenkins.37.jar;
+      "src" = ../third_party/1.7.10/TickProfiler-1.7.10.jenkins.37.jar;
       "type" = "local";
       "md5" = "99872ea843467c729866f761e1c9fcc9";
     };

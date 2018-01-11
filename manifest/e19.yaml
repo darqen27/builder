@@ -27,7 +27,7 @@ mods:
 - name: "nutrition"
   curse: false
   files:
-  - src: ../bundled-1.12.2/Nutrition.jar
+  - src: ../third_party/1.12.2/Nutrition.jar
 - name: "edible-bugs"
 - name: "minecolonies"
 - name: "automated-redstone"
@@ -127,7 +127,7 @@ mods:
   default: true
   curse: false
   files:
-  - src: "../bundled-1.12.2/sampler-1.73.jar"
+  - src: "../third_party/1.12.2/sampler-1.73.jar"
 
 imports:
 - "revelation.yaml"
