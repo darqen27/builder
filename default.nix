@@ -47,7 +47,7 @@ rec {
     # Higher entries override later ones.
     extraDirs = [
       ./base-erisia
-      ./ruins-1.12
+      ./third_party/ruins-1.12
       ./base-revelation
     ];
     extraServerDirs = [
