@@ -171,6 +171,13 @@ mods:
   id: 238222
 - name: "journeymap"
   id: 32274
+  files:
+  - name: "journeymap-1.12.2-5-5-2.jar"
+    id: 2498312
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/32274/files/2498312"
+    src: "https://minecraft.curseforge.com/projects/journeymap/files/2498312/download"
+    md5: "b743562dac1b5334c20ac87b54c0b518"
 - name: "just-enough-resources-jer"
   id: 240630
 - name: "kleeslabs"

@@ -1338,13 +1338,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "journeymap-1.12.2-5.6.0b1.jar";
-      "maturity" = "beta";
-      "encoded" = "journeymap-1.12.2-5.6.0b1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/journeymap/files/2514298";
-      "src" = "https://minecraft.curseforge.com/projects/journeymap/files/2514298/download";
+      "filename" = "journeymap-1.12.2-5.5.2.jar";
+      "encoded" = "journeymap-1.12.2-5.5.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/32274/files/2498312";
+      "src" = "https://minecraft.curseforge.com/projects/journeymap/files/2498312/download";
       "type" = "remote";
-      "md5" = "bfbad2ada1dad173e545f94899e79b7f";
+      "md5" = "b743562dac1b5334c20ac87b54c0b518";
     };
     "just-enough-harvestcraft" = {
       "title" = "Just Enough HarvestCraft (JEHC)";
