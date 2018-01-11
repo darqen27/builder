@@ -65,7 +65,13 @@ mods:
   side: "client"
   required: false
   default: false
-  version: "1.12.2-5.5.2"
+  files:
+  - name: "journeymap-1.12.2-5.5.2.jar"
+    id: 2498312
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/32274/files/2498312"
+    src: "https://minecraft.curseforge.com/projects/journeymap/files/2498312/download"
+    md5: "b743562dac1b5334c20ac87b54c0b518"
 - name: "mouse-tweaks"
   side: "client"
 - name: "better-placement"
