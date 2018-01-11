@@ -4,3 +4,10 @@ result
 eula.txt
 /result-*
 *~
+.gradle
+.idea
+cursetool/build
+cursetool/cursetool-0.1
+*.iml
+*.ipr
+*.iws

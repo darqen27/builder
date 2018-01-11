@@ -1,0 +1,5 @@
+version: 1.11.2
+imports:
+- common.yaml
+mods:
+- name: immersive-engineering

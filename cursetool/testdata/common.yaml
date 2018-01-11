@@ -1,0 +1,4 @@
+mods:
+- name: psi
+- name: prometheus-integration
+  side: server
