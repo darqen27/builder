@@ -2374,7 +2374,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["shadowfacts-forgelin"];
-      "type" = "missing";
+      "filename" = "prometheus-integration-0.2.2.jar";
+      "maturity" = "alpha";
+      "encoded" = "prometheus-integration-0.2.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2519411";
+      "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2519411/download";
+      "type" = "remote";
+      "md5" = "f3e834d363536c11894ea1e6625698bf";
     };
     "psi" = {
       "title" = "Psi";
