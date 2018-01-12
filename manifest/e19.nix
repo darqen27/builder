@@ -282,13 +282,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Baubles-1.12-1.5.2.jar";
-      "maturity" = "release";
-      "encoded" = "Baubles-1.12-1.5.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/baubles/files/2518667";
-      "src" = "https://minecraft.curseforge.com/projects/baubles/files/2518667/download";
+      "filename" = "Baubles-1.12-1.5.1.jar";
+      "encoded" = "Baubles-1.12-1.5.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/227083/files/2459083";
+      "src" = "https://minecraft.curseforge.com/projects/baubles/files/2459083/download";
       "type" = "remote";
-      "md5" = "944dec4ef3fbfd4d498d94a7047af201";
+      "md5" = "a2ca9d9efb67106026c4b0348a353ccf";
     };
     "bdlib" = {
       "title" = "BdLib";
