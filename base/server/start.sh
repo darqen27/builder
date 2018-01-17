@@ -62,6 +62,10 @@ dailyRestart() {
         ./stop.sh
         exit
       fi
+      if [[ $(date +%R) = 18:00 ]]; then
+        ./stop.sh
+        exit
+      fi
     done
 }
 
