@@ -260,12 +260,13 @@ rec {
    */
   mkZipDir = name: src: runLocally name {
     inherit name src;
-    buildInputs = [ zip xorg.lndir ];
+    buildInputs = [ zip rsync ];
   } ''
     # This is fiddly because we want very badly to make the output depend only on file contents.
     mkdir $name $out
-    lndir $src $name
-    touch -t 197001010000 $name
+    rsync -aL $src/ $name/
+    find $name -print0 | \
+      xargs -0r touch -t 197001010000
     TZ=UTC find $name -print0 | sort -z | \
       xargs -0 zip -X --latest-time $out/${name}.zip
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')
