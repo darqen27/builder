@@ -4,26 +4,18 @@ with stdenv;
 with import ./lib/lib.nix;
 with import ./lib/sprocket;
 
-# let resources = runLocally "resources-1.10" {
-#       seus = fetchurl {
-#         url = https://madoka.brage.info/baughn/SEUS-v11.0.zip;
-#         sha256 = "0mlasvmfvcbf9krl7r20h2gw0q34ws48gavpiiic6x66ngikilh3";
-#       };
-#       faithful = fetchurl {
-#         url = https://madoka.brage.info/baughn/F32-1.10.2.zip;
-#         sha256 = "0jk3sllhg1pgjpwkd8cyj3xlgrq44rriwjs7kz72jykxkcyw5h5p";
-#       };
-#       invictus = fetchurl {
-#         url = https://madoka.brage.info/baughn/Invictus-3.1.zip;
-#         sha256 = "0z03fhyxf51g5caf464gwqb3hcnpgf9n8csmf26cxq7fqfg0sbl8";
-#       };
-#     } ''
-#       mkdir -p $out/resourcepacks $out/shaderpacks
-#       ln -s $seus $out/shaderpacks/SEUS-v11.0.zip
-#       ln -s $faithful $out/resourcepacks/F32-1.10.2.zip
-#       ln -s $invictus $out/resourcepacks/Invictus-3.1.zip
-#     '';
-# in
+let resources = runLocally "resources-1.12" {
+      sphax = fetchurl {
+        url = https://madoka.brage.info/baughn/Sphax64x_FTB_Revelation.zip;
+        sha256 = "03jdl0y2z00gnvc18gw69jcx08qigf6fbj09ii21gikh1fg4imfi";
+      };
+    } ''
+      mkdir -p $out/resourcepacks $out/shaderpacks
+      #ln -s $seus $out/shaderpacks/SEUS-v11.0.zip
+      #ln -s $faithful $out/resourcepacks/F32-1.10.2.zip
+      ln -s $sphax $out/resourcepacks/Sphax.zip
+    '';
+in
 
 rec {
 
@@ -54,7 +46,7 @@ rec {
       ./base/server
     ];
     extraClientDirs = [
-      # resources
+      resources
     ];
     # These are all the mods we'd like to include in this pack.
     manifests = [
