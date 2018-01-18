@@ -75,7 +75,7 @@ rec {
     ];
 
     ## Server:
-    forgeDir = fetchForge forge;
+    forgeDir = wrapDir "forge" (fetchForge forge);
 
     serverMods = filterManifests {
       side = "server";

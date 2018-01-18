@@ -4,12 +4,14 @@
 set -eu
 
 BASE=$(dirname $0)
-JAR=forge-*-universal.jar
+JAR='forge/forge-*-universal.jar'
 
 fixperms() {
-    find $1 -exec chmod a+r {} +
-    find $1 -exec chmod u+w {} +
-    find $1 -type d -exec chmod a+x {} +
+    if [[ ! -L $1 ]]; then
+        find $1 -exec chmod a+r {} +
+        find $1 -exec chmod u+w {} +
+        find $1 -type d -exec chmod a+x {} +
+    fi
 }
 
 if [[ -z ${STY:-} ]]; then
@@ -31,21 +33,28 @@ fi
 # Yes, we delete everything on every startup.
 # This is very much intended. To avoid redownloads, let's put anything that got downloaded
 # into the pack definition in default.nix.
-rm -f forge-*-universal.jar
 for f in $BASE/*; do
     b=$(basename $f)
-    if [[ $b = "config" ]]; then
-        # Except for the config dir, just because a lot of mods cache things there.
-        # For some reason. Isn't this what the world dir is for, guys?
-        rsync -acL server/config .
-    elif [[ $b = "start.sh" ]]; then
-        # Don't copy this script.
-        continue
-    else
-        [[ -e $b ]] && fixperms $b && rm -rf $b
-        cp -aL $f .
-    fi
-    fixperms $b
+    case "$b" in
+        config)
+            # Don't overwrite the config dir, because some mods cache data there.
+            # Isn't this what the world dir is for, guys?
+            rsync -acL server/config .
+            ;;
+        start.sh)
+            # Don't copy this script.
+            continue
+            ;;
+        forge | resources)
+            # Don't copy at all.
+            ln -sf "$f" .
+            ;;
+        *)
+            [[ -e "$b" ]] && fixperms "$b" && rm -rf "$b"
+            cp -aL "$f" .
+            ;;
+    esac
+    fixperms "$b"
 done
 
 rm -f gc.log
