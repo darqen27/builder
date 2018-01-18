@@ -31,6 +31,7 @@ fi
 # Yes, we delete everything on every startup.
 # This is very much intended. To avoid redownloads, let's put anything that got downloaded
 # into the pack definition in default.nix.
+rm -f forge-*-universal.jar
 for f in $BASE/*; do
     b=$(basename $f)
     if [[ $b = "config" ]]; then
