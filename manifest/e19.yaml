@@ -51,6 +51,9 @@ mods:
 - name: "prefab"
 
 # Client-side enhancement mods:
+- name: "nofov"
+  side: "client"
+  required: false
 - name: "dynamic-surroundings"
   side: "client"
   required: false

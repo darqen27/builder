@@ -2166,6 +2166,22 @@
       "type" = "remote";
       "md5" = "c3a2aff88d5b46dd22a2635f403568eb";
     };
+    "nofov" = {
+      "title" = "NoFov";
+      "name" = "nofov";
+      "id" = 227965;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "NoFov-MC1.12-1.0.1.jar";
+      "maturity" = "release";
+      "encoded" = "NoFov-MC1.12-1.0.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nofov/files/2432421";
+      "src" = "https://minecraft.curseforge.com/projects/nofov/files/2432421/download";
+      "type" = "remote";
+      "md5" = "f97c4fbf422b513b0103eedca7a31a0e";
+    };
     "not-enough-wands" = {
       "title" = "Not Enough Wands";
       "name" = "not-enough-wands";
