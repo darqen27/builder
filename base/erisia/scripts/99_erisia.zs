@@ -18,12 +18,14 @@ recipes.addShaped(miner,
 recipes.addShapeless(<ic2:misc_resource:2>, [<ore:nuggetIridium>]);
 
 // Non-chisel crafting of Xtones.
-val xtones = [<xtones:agon>, <xtones:azur>, <xtones:base>, <xtones:bitt>, <xtones:cray>, <xtones:fort>, <xtones:glaxx>, <xtones:iszm>, <xtones:jelt>, <xtones:korp>, <xtones:kryp>, <xtones:lair>, <xtones:lamp_flat>, <xtones:lave>, <xtones:mint>, <xtones:myst>, <xtones:reds>, <xtones:reed>, <xtones:roen>, <xtones:sols>, <xtones:sync>, <xtones:tank>, <xtones:vect>, <xtones:vena>, <xtones:zane>, <xtones:zech>, <xtones:zest>, <xtones:zeta>, <xtones:zion>, <xtones:zkul>, <xtones:zoea>, <xtones:zome>, <xtones:zone>, <xtones:zorg>, <xtones:ztyl>, <xtones:zyth>] as IItemStack[];
+val xtones = [<xtones:agon>, <xtones:azur>, <xtones:bitt>, <xtones:cray>, <xtones:fort>, <xtones:glaxx>, <xtones:iszm>, <xtones:jelt>, <xtones:korp>, <xtones:kryp>, <xtones:lair>, <xtones:lamp_flat>, <xtones:lave>, <xtones:mint>, <xtones:myst>, <xtones:reds>, <xtones:reed>, <xtones:roen>, <xtones:sols>, <xtones:sync>, <xtones:tank>, <xtones:vect>, <xtones:vena>, <xtones:zane>, <xtones:zech>, <xtones:zest>, <xtones:zeta>, <xtones:zion>, <xtones:zkul>, <xtones:zoea>, <xtones:zome>, <xtones:zone>, <xtones:zorg>, <xtones:ztyl>, <xtones:zyth>] as IItemStack[];
 
 for i, xtone in xtones {
   val def = xtone.definition;
-  for j in 0 to 14 {
-    recipes.addShapeless(def.makeStack(j+1), [def.makeStack(j)]);
+  for j in 0 to 15 {
+    recipes.addShapeless(def.makeStack(j+1)*64, [def.makeStack(j)*64]);
+    recipes.addShapeless(def.makeStack(j+1)*8, [def.makeStack(j)*8]);
   }
-  recipes.addShapeless(def.makeStack(0), [def.makeStack(15)]);
+  recipes.addShapeless(def.makeStack(0)*64, [def.makeStack(15)*64]);
+  recipes.addShapeless(def.makeStack(0)*8, [def.makeStack(15)*8]);
 }
