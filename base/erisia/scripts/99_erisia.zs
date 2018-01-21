@@ -23,9 +23,13 @@ val xtones = [<xtones:agon>, <xtones:azur>, <xtones:bitt>, <xtones:cray>, <xtone
 for i, xtone in xtones {
   val def = xtone.definition;
   for j in 0 to 15 {
-    recipes.addShapeless(def.makeStack(j+1)*64, [def.makeStack(j)*64]);
-    recipes.addShapeless(def.makeStack(j+1)*8, [def.makeStack(j)*8]);
+    val input = def.makeStack(j);
+    recipes.addShapeless(def.makeStack(j+1)*9, [
+      input, input, input, input, input, input, input, input, input
+    ]);
   }
-  recipes.addShapeless(def.makeStack(0)*64, [def.makeStack(15)*64]);
-  recipes.addShapeless(def.makeStack(0)*8, [def.makeStack(15)*8]);
+  val input = def.makeStack(15);
+  recipes.addShapeless(def.makeStack(0)*9, [
+    input, input, input, input, input, input, input, input, input
+  ]);
 }
