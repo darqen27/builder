@@ -603,6 +603,22 @@
       "type" = "remote";
       "md5" = "b45910481fc3cc65d595b0a1f249a1e2";
     };
+    "chunkpregenerator" = {
+      "title" = "Chunk-Pregenerator";
+      "name" = "chunkpregenerator";
+      "id" = 267193;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Chunk Pregenerator V1.12-1.6.2.jar";
+      "maturity" = "release";
+      "encoded" = "Chunk%20Pregenerator%20V1.12-1.6.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2521893";
+      "src" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2521893/download";
+      "type" = "remote";
+      "md5" = "3a4b190bea5154c584dce691678872d7";
+    };
     "chunkpurge" = {
       "title" = "ChunkPurge";
       "name" = "chunkpurge";

@@ -111,8 +111,7 @@ mods:
   required: false
 - name: "reauth"
   side: "client"
-# Seems to conflict with recccomplex
-#- name: "chunkpregenerator"
+- name: "chunkpregenerator"
 - name: "gotta-go-fast"
 - name: "tickprofiler"
   required: false
