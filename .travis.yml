@@ -1,8 +1,0 @@
-matrix:
-    include:
-        - os: linux
-          language: generic
-          sudo: required
-          dist: trusty
-before_install: ./maintainers/travis-build.sh nix
-script: ./maintainers/travis-build.sh build
