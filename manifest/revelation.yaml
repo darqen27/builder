@@ -31,13 +31,6 @@ mods:
   id: 246996
 - name: "baubles"
   id: 227083
-  files:
-  - name: "Baubles-1.12-1.5.1.jar"
-    id: 2459083
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227083/files/2459083"
-    src: "https://minecraft.curseforge.com/projects/baubles/files/2459083/download"
-    md5: "a2ca9d9efb67106026c4b0348a353ccf"
 - name: "bdlib"
   id: 70496
 - name: "bed-patch"
