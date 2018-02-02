@@ -82,22 +82,6 @@
       "type" = "remote";
       "md5" = "e5d6f7aa5bfe8987fcecc57dc2dc512b";
     };
-    "animania" = {
-      "title" = "Animania";
-      "name" = "animania";
-      "id" = 261199;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["craftstudio-api"];
-      "filename" = "animania-1.12.2-1.4.4.jar";
-      "maturity" = "release";
-      "encoded" = "animania-1.12.2-1.4.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/animania/files/2522861";
-      "src" = "https://minecraft.curseforge.com/projects/animania/files/2522861/download";
-      "type" = "remote";
-      "md5" = "3f4edce2cf985909dce7cd154e99d89d";
-    };
     "antique-atlas" = {
       "title" = "Antique Atlas";
       "name" = "antique-atlas";

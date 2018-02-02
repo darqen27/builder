@@ -33,7 +33,6 @@ mods:
 - name: "automated-redstone"
 
 # Super-experimental food/animal mod stuff:
-- name: "animania"
 - name: "plants"
 
 # Useful/interesting mods we usually want:
