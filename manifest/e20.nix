@@ -82,6 +82,22 @@
       "type" = "remote";
       "md5" = "e5d6f7aa5bfe8987fcecc57dc2dc512b";
     };
+    "antique-atlas" = {
+      "title" = "Antique Atlas";
+      "name" = "antique-atlas";
+      "id" = 227795;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "antiqueatlas-1.12.2-4.4.8.jar";
+      "maturity" = "release";
+      "encoded" = "antiqueatlas-1.12.2-4.4.8.jar";
+      "page" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2558761";
+      "src" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2558761/download";
+      "type" = "remote";
+      "md5" = "b89e140ca4b7680cca37f5511da2b812";
+    };
     "appleskin" = {
       "title" = "AppleSkin";
       "name" = "appleskin";
@@ -274,6 +290,22 @@
       "type" = "remote";
       "md5" = "336fea80502d84a94a04791c64f1b071";
     };
+    "bedrockores" = {
+      "title" = "Bedrock Ores";
+      "name" = "bedrockores";
+      "id" = 275083;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Bedrock Ores-MC1.12-1.2.6.41.jar";
+      "maturity" = "release";
+      "encoded" = "Bedrock%20Ores-MC1.12-1.2.6.41.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bedrockores/files/2526145";
+      "src" = "https://minecraft.curseforge.com/projects/bedrockores/files/2526145/download";
+      "type" = "remote";
+      "md5" = "7556422cdadc5358b5866712195b9a09";
+    };
     "better-advancements" = {
       "title" = "Better Advancements";
       "name" = "better-advancements";
@@ -305,6 +337,38 @@
       "src" = "https://minecraft.curseforge.com/projects/better-builders-wands/files/2443194/download";
       "type" = "remote";
       "md5" = "64763e14d31cdc21cedd4c4e85fbec73";
+    };
+    "better-foliage" = {
+      "title" = "Better Foliage";
+      "name" = "better-foliage";
+      "id" = 228529;
+      "side" = "client";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "BetterFoliage-MC1.12-2.1.10.jar";
+      "maturity" = "release";
+      "encoded" = "BetterFoliage-MC1.12-2.1.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2478147";
+      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2478147/download";
+      "type" = "remote";
+      "md5" = "06714eb2c13f59df5e3c92cec7370e11";
+    };
+    "better-placement" = {
+      "title" = "Better Placement";
+      "name" = "better-placement";
+      "id" = 278406;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "BetterPlacement-1.0.0-1.jar";
+      "maturity" = "release";
+      "encoded" = "BetterPlacement-1.0.0-1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-placement/files/2481852";
+      "src" = "https://minecraft.curseforge.com/projects/better-placement/files/2481852/download";
+      "type" = "remote";
+      "md5" = "f4518692cd397dd5beda3903289352f7";
     };
     "bibliocraft" = {
       "title" = "BiblioCraft";
@@ -418,6 +482,16 @@
       "type" = "remote";
       "md5" = "2cf94e8f701ec1d4f90e516d200a1a50";
     };
+    "catwalks-2" = {
+      "title" = "Catwalks 2";
+      "name" = "catwalks-2";
+      "id" = 236460;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "chameleon" = {
       "title" = "Chameleon";
       "name" = "chameleon";
@@ -481,6 +555,32 @@
       "src" = "https://minecraft.curseforge.com/projects/chisels-bits/files/2541267/download";
       "type" = "remote";
       "md5" = "1e170d73dc846bab5bf0c484c44219ba";
+    };
+    "chunkpregenerator" = {
+      "title" = "Chunk-Pregenerator";
+      "name" = "chunkpregenerator";
+      "id" = 267193;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Chunk Pregenerator V1.12-1.8.jar";
+      "maturity" = "release";
+      "encoded" = "Chunk%20Pregenerator%20V1.12-1.8.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2556079";
+      "src" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2556079/download";
+      "type" = "remote";
+      "md5" = "a5d046fff02b0c57b6f9a57beba98184";
+    };
+    "chunkpurge" = {
+      "title" = "ChunkPurge";
+      "name" = "chunkpurge";
+      "id" = 237027;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "clumps" = {
       "title" = "Clumps";
@@ -738,6 +838,22 @@
       "type" = "remote";
       "md5" = "78ebcf1f24dae512d0da6f377bbd25f0";
     };
+    "decocraft2" = {
+      "title" = "DecoCraft2";
+      "name" = "decocraft2";
+      "id" = 79616;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["ptrlib"];
+      "filename" = "Decocraft-2.6.0_1.12.2.jar";
+      "maturity" = "release";
+      "encoded" = "Decocraft-2.6.0_1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/decocraft2/files/2550090";
+      "src" = "https://minecraft.curseforge.com/projects/decocraft2/files/2550090/download";
+      "type" = "remote";
+      "md5" = "0c4492914de0dfac38207cf356bb9f02";
+    };
     "deep-resonance" = {
       "title" = "Deep Resonance";
       "name" = "deep-resonance";
@@ -786,6 +902,22 @@
       "type" = "remote";
       "md5" = "1d616cb7b25de3ae44f06e26d18bd07e";
     };
+    "ding" = {
+      "title" = "Ding";
+      "name" = "ding";
+      "id" = 231275;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Ding-1.12.1-1.0.1.jar";
+      "maturity" = "release";
+      "encoded" = "Ding-1.12.1-1.0.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ding/files/2476271";
+      "src" = "https://minecraft.curseforge.com/projects/ding/files/2476271/download";
+      "type" = "remote";
+      "md5" = "5b15173c1a4d3a48afa382857a1c0faa";
+    };
     "dirt2path" = {
       "title" = "Dirt2Path";
       "name" = "dirt2path";
@@ -817,6 +949,48 @@
       "src" = "https://minecraft.curseforge.com/projects/draconic-evolution/files/2555898/download";
       "type" = "remote";
       "md5" = "5084a328cac3815bed5c0b56edde6ae8";
+    };
+    "dragons-radio-mod" = {
+      "title" = "Dragon's Radio Mod";
+      "name" = "dragons-radio-mod";
+      "id" = 74360;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
+    "dynamic-surroundings" = {
+      "title" = "Dynamic Surroundings";
+      "name" = "dynamic-surroundings";
+      "id" = 238891;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "DynamicSurroundings-1.12.2-3.4.9.13.jar";
+      "maturity" = "release";
+      "encoded" = "DynamicSurroundings-1.12.2-3.4.9.13.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2558747";
+      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2558747/download";
+      "type" = "remote";
+      "md5" = "35099addeb1119e535f780d67dafb37f";
+    };
+    "dynmapforge" = {
+      "title" = "DynmapForge";
+      "name" = "dynmapforge";
+      "id" = 59433;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Dynmap-2.6-beta-1-forge-1.12.jar";
+      "maturity" = "beta";
+      "encoded" = "Dynmap-2.6-beta-1-forge-1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2436596";
+      "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2436596/download";
+      "type" = "remote";
+      "md5" = "193d389e984591ac1030ea2700b06d13";
     };
     "eleccore" = {
       "title" = "ElecCore";
@@ -946,6 +1120,22 @@
       "type" = "remote";
       "md5" = "6f197a8d9fe2bd613d1d1832a36d141e";
     };
+    "exotic-birds" = {
+      "title" = "Exotic Birds";
+      "name" = "exotic-birds";
+      "id" = 242830;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Exotic Birds 1.12.2-1.4.1.jar";
+      "maturity" = "release";
+      "encoded" = "Exotic%20Birds%201.12.2-1.4.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2538927";
+      "src" = "https://minecraft.curseforge.com/projects/exotic-birds/files/2538927/download";
+      "type" = "remote";
+      "md5" = "e7b4d3be22391d80e2f82eace69d67b8";
+    };
     "extra-utilities" = {
       "title" = "Extra Utilities";
       "name" = "extra-utilities";
@@ -993,6 +1183,22 @@
       "src" = "https://minecraft.curseforge.com/projects/extreme-reactors/files/2545869/download";
       "type" = "remote";
       "md5" = "e83c3f177db7b64da358499181445f8f";
+    };
+    "farseek" = {
+      "title" = "Farseek";
+      "name" = "farseek";
+      "id" = 229708;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Farseek-1.12-2.2.5.jar";
+      "maturity" = "release";
+      "encoded" = "Farseek-1.12-2.2.5.jar";
+      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2548932";
+      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2548932/download";
+      "type" = "remote";
+      "md5" = "cbc5dae1ec65f7e4b2b9ccb5d8957813";
     };
     "fence-jumper" = {
       "title" = "Fence Jumper";
@@ -1058,6 +1264,16 @@
       "type" = "remote";
       "md5" = "7640638ad67bc23bb2c1bda4677b83f3";
     };
+    "foxlib" = {
+      "title" = "FoxLib";
+      "name" = "foxlib";
+      "id" = 223291;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "ftb-utilities" = {
       "title" = "FTB Utilities";
       "name" = "ftb-utilities";
@@ -1089,6 +1305,22 @@
       "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2558552/download";
       "type" = "remote";
       "md5" = "758536e2699925fb9a3d193bb32308f1";
+    };
+    "fullscreen-windowed-borderless-for-minecraft" = {
+      "title" = "Fullscreen Windowed (Borderless) for Minecraft";
+      "name" = "fullscreen-windowed-borderless-for-minecraft";
+      "id" = 227441;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "FullscreenWindowed-1.12-1.6.0.jar";
+      "maturity" = "release";
+      "encoded" = "FullscreenWindowed-1.12-1.6.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2456007";
+      "src" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2456007/download";
+      "type" = "remote";
+      "md5" = "c7679200bdf1f6cb71361555407a4c7f";
     };
     "gadgetry-core" = {
       "title" = "Gadgetry: Core";
@@ -1122,6 +1354,22 @@
       "type" = "remote";
       "md5" = "1103858d73161d7d8f38ee1ceb63fa16";
     };
+    "garden-stuff" = {
+      "title" = "Garden Stuff";
+      "name" = "garden-stuff";
+      "id" = 225903;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "GardenStuff-1.12-2.1.1.jar";
+      "maturity" = "beta";
+      "encoded" = "GardenStuff-1.12-2.1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2530535";
+      "src" = "https://minecraft.curseforge.com/projects/garden-stuff/files/2530535/download";
+      "type" = "remote";
+      "md5" = "5b2894324e0e8f8009b45d011ad162e3";
+    };
     "gendustry" = {
       "title" = "Gendustry";
       "name" = "gendustry";
@@ -1137,6 +1385,38 @@
       "src" = "https://minecraft.curseforge.com/projects/gendustry/files/2516215/download";
       "type" = "remote";
       "md5" = "81b4720925043e1b4c198cabca9bd87f";
+    };
+    "general-laymans-aesthetic-spying-screen-glass" = {
+      "title" = "General Layman's Aesthetic Spying Screen (GLASS)";
+      "name" = "general-laymans-aesthetic-spying-screen-glass";
+      "id" = 282164;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["ichunutil"];
+      "filename" = "GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar";
+      "maturity" = "release";
+      "encoded" = "GeneralLaymansAestheticSpyingScreen-1.12.2-7.0.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/general-laymans-aesthetic-spying-screen-glass/files/2501251";
+      "src" = "https://minecraft.curseforge.com/projects/general-laymans-aesthetic-spying-screen-glass/files/2501251/download";
+      "type" = "remote";
+      "md5" = "024e218a06c252eeb8811252cc7861d3";
+    };
+    "gotta-go-fast" = {
+      "title" = "Gotta Go Fast";
+      "name" = "gotta-go-fast";
+      "id" = 282064;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "gottagofast-1.1.jar";
+      "maturity" = "release";
+      "encoded" = "gottagofast-1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/gotta-go-fast/files/2553444";
+      "src" = "https://minecraft.curseforge.com/projects/gotta-go-fast/files/2553444/download";
+      "type" = "remote";
+      "md5" = "44a2277bc94b65fae3f0ee94cd31d2d1";
     };
     "gravestone-mod" = {
       "title" = "GraveStone Mod";
@@ -1170,6 +1450,38 @@
       "type" = "remote";
       "md5" = "e8513d27bb9d9ab00b47dd5065189687";
     };
+    "helpfixer" = {
+      "title" = "HelpFixer";
+      "name" = "helpfixer";
+      "id" = 223797;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "HelpFixer-1.12.1-1.5.18.jar";
+      "maturity" = "release";
+      "encoded" = "HelpFixer-1.12.1-1.5.18.jar";
+      "page" = "https://minecraft.curseforge.com/projects/helpfixer/files/2479308";
+      "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2479308/download";
+      "type" = "remote";
+      "md5" = "52a1b001b58e67022b5465be12bc278f";
+    };
+    "ichunutil" = {
+      "title" = "iChunUtil";
+      "name" = "ichunutil";
+      "id" = 229060;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "iChunUtil-1.12.2-7.1.4.jar";
+      "maturity" = "release";
+      "encoded" = "iChunUtil-1.12.2-7.1.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ichunutil/files/2510760";
+      "src" = "https://minecraft.curseforge.com/projects/ichunutil/files/2510760/download";
+      "type" = "remote";
+      "md5" = "b81dab6549018c7b4b7829d30ef1d777";
+    };
     "immersive-engineering" = {
       "title" = "Immersive Engineering";
       "name" = "immersive-engineering";
@@ -1186,6 +1498,16 @@
       "type" = "remote";
       "md5" = "106246da6c3c6f66e9efdfa94f64d948";
     };
+    "immersive-floofs" = {
+      "title" = "Immersive Floofs";
+      "name" = "immersive-floofs";
+      "id" = 250718;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["immersive-engineering" "tails"];
+      "type" = "missing";
+    };
     "immersive-petroleum" = {
       "title" = "Immersive Petroleum";
       "name" = "immersive-petroleum";
@@ -1201,6 +1523,22 @@
       "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2544919/download";
       "type" = "remote";
       "md5" = "57ba127778e579d10d705f9f8359d2e0";
+    };
+    "immersive-railroading" = {
+      "title" = "Immersive Railroading";
+      "name" = "immersive-railroading";
+      "id" = 277736;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["track-api"];
+      "filename" = "ImmersiveRailroading-1.0.1_1.12.jar";
+      "maturity" = "release";
+      "encoded" = "ImmersiveRailroading-1.0.1_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2550661";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2550661/download";
+      "type" = "remote";
+      "md5" = "d6a46dfc79d3214b432b179fa7b04ea7";
     };
     "industrial-craft" = {
       "title" = "Industrial Craft";
@@ -1282,6 +1620,22 @@
       "type" = "remote";
       "md5" = "ddf5b15f61a4d23afa268cb4f52d96b1";
     };
+    "ivtoolkit" = {
+      "title" = "IvToolkit";
+      "name" = "ivtoolkit";
+      "id" = 224535;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "IvToolkit-1.3.3-1.12.jar";
+      "maturity" = "release";
+      "encoded" = "IvToolkit-1.3.3-1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ivtoolkit/files/2443253";
+      "src" = "https://minecraft.curseforge.com/projects/ivtoolkit/files/2443253/download";
+      "type" = "remote";
+      "md5" = "f1a23cb6eaa682240c0ecdab65e7857f";
+    };
     "jei" = {
       "title" = "Just Enough Items (JEI)";
       "name" = "jei";
@@ -1344,6 +1698,16 @@
       "src" = "https://minecraft.curseforge.com/projects/journeymap/files/2498312/download";
       "type" = "remote";
       "md5" = "b743562dac1b5334c20ac87b54c0b518";
+    };
+    "just-enough-calculation" = {
+      "title" = "Just Enough Calculation";
+      "name" = "just-enough-calculation";
+      "id" = 242223;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["jei"];
+      "type" = "missing";
     };
     "just-enough-harvestcraft" = {
       "title" = "Just Enough HarvestCraft (JEHC)";
@@ -1441,6 +1805,22 @@
       "type" = "remote";
       "md5" = "97929978be8b6aafd1174e571b36badd";
     };
+    "lunatriuscore" = {
+      "title" = "LunatriusCore";
+      "name" = "lunatriuscore";
+      "id" = 225605;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "LunatriusCore-1.12.2-1.2.0.42-universal.jar";
+      "maturity" = "release";
+      "encoded" = "LunatriusCore-1.12.2-1.2.0.42-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/lunatriuscore/files/2489549";
+      "src" = "https://minecraft.curseforge.com/projects/lunatriuscore/files/2489549/download";
+      "type" = "remote";
+      "md5" = "0dae43ef5376822db0399ad254207aa3";
+    };
     "magic-bees" = {
       "title" = "Magic Bees";
       "name" = "magic-bees";
@@ -1536,6 +1916,22 @@
       "src" = "https://minecraft.curseforge.com/projects/mcmultipart/files/2556409/download";
       "type" = "remote";
       "md5" = "7a336be77ae656fafa9200a4e42094bf";
+    };
+    "millenaire" = {
+      "title" = "Millénaire";
+      "name" = "millenaire";
+      "id" = 270871;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "millenaire-6.2.1.jar";
+      "maturity" = "release";
+      "encoded" = "millenaire-6.2.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/millenaire/files/2559090";
+      "src" = "https://minecraft.curseforge.com/projects/millenaire/files/2559090/download";
+      "type" = "remote";
+      "md5" = "49cf2c9564eb7b296974b7f09bf0edab";
     };
     "mob-grinding-utils" = {
       "title" = "Mob Grinding Utils";
@@ -1697,6 +2093,22 @@
       "type" = "remote";
       "md5" = "c3a2aff88d5b46dd22a2635f403568eb";
     };
+    "nofov" = {
+      "title" = "NoFov";
+      "name" = "nofov";
+      "id" = 227965;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "NoFov-MC1.12-1.0.1.jar";
+      "maturity" = "release";
+      "encoded" = "NoFov-MC1.12-1.0.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nofov/files/2432421";
+      "src" = "https://minecraft.curseforge.com/projects/nofov/files/2432421/download";
+      "type" = "remote";
+      "md5" = "f97c4fbf422b513b0103eedca7a31a0e";
+    };
     "not-enough-wands" = {
       "title" = "Not Enough Wands";
       "name" = "not-enough-wands";
@@ -1728,6 +2140,16 @@
       "src" = "https://minecraft.curseforge.com/projects/notenoughids/files/2483500/download";
       "type" = "remote";
       "md5" = "0d5f584255c5edbe94cf1f6a6feacf96";
+    };
+    "notenoughkeys" = {
+      "title" = "NotEnoughKeys";
+      "name" = "notenoughkeys";
+      "id" = 224614;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "nuclearcraft-mod" = {
       "title" = "NuclearCraft";
@@ -1825,6 +2247,22 @@
       "type" = "remote";
       "md5" = "4293c2478f0f006ef6b35ec927fbbdc8";
     };
+    "plants" = {
+      "title" = "Plants";
+      "name" = "plants";
+      "id" = 257229;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["placebo"];
+      "filename" = "Plants-1.12.2-2.8.3.jar";
+      "maturity" = "release";
+      "encoded" = "Plants-1.12.2-2.8.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plants/files/2558928";
+      "src" = "https://minecraft.curseforge.com/projects/plants/files/2558928/download";
+      "type" = "remote";
+      "md5" = "7e7b30e579004c80e5d835a79ecddb81";
+    };
     "platforms" = {
       "title" = "Platforms";
       "name" = "platforms";
@@ -1840,6 +2278,70 @@
       "src" = "https://minecraft.curseforge.com/projects/platforms/files/2539161/download";
       "type" = "remote";
       "md5" = "2ddfe88b8f25c00152ee7aa0b1586156";
+    };
+    "prefab" = {
+      "title" = "Prefab";
+      "name" = "prefab";
+      "id" = 246550;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "prefab-1.3.0.20.jar";
+      "maturity" = "release";
+      "encoded" = "prefab-1.3.0.20.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2556916";
+      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2556916/download";
+      "type" = "remote";
+      "md5" = "eca194c12ef6a75b731f71de6c479bc9";
+    };
+    "prometheus-integration" = {
+      "title" = "Prometheus Integration";
+      "name" = "prometheus-integration";
+      "id" = 254573;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = ["shadowfacts-forgelin"];
+      "filename" = "prometheus-integration-0.2.2.jar";
+      "maturity" = "alpha";
+      "encoded" = "prometheus-integration-0.2.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2519411";
+      "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2519411/download";
+      "type" = "remote";
+      "md5" = "f3e834d363536c11894ea1e6625698bf";
+    };
+    "psi" = {
+      "title" = "Psi";
+      "name" = "psi";
+      "id" = 241665;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["autoreglib"];
+      "filename" = "Psi-r1.1-59.jar";
+      "maturity" = "release";
+      "encoded" = "Psi-r1.1-59.jar";
+      "page" = "https://minecraft.curseforge.com/projects/psi/files/2499167";
+      "src" = "https://minecraft.curseforge.com/projects/psi/files/2499167/download";
+      "type" = "remote";
+      "md5" = "92aec994592bfcad6f09c810a2e9efb8";
+    };
+    "ptrlib" = {
+      "title" = "PTRLib";
+      "name" = "ptrlib";
+      "id" = 291499;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "PTRLib-1.0.2.jar";
+      "maturity" = "release";
+      "encoded" = "PTRLib-1.0.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ptrlib/files/2550083";
+      "src" = "https://minecraft.curseforge.com/projects/ptrlib/files/2550083/download";
+      "type" = "remote";
+      "md5" = "50299a550a3e351defd61a2845caf9c1";
     };
     "quark" = {
       "title" = "Quark";
@@ -1920,6 +2422,22 @@
       "src" = "https://minecraft.curseforge.com/projects/reborncore/files/2559026/download";
       "type" = "remote";
       "md5" = "73435db5486ea13ce238b52f701f2b81";
+    };
+    "recurrent-complex" = {
+      "title" = "Recurrent Complex";
+      "name" = "recurrent-complex";
+      "id" = 223150;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["ivtoolkit"];
+      "filename" = "RecurrentComplex-1.4.7.jar";
+      "maturity" = "release";
+      "encoded" = "RecurrentComplex-1.4.7.jar";
+      "page" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2516761";
+      "src" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2516761/download";
+      "type" = "remote";
+      "md5" = "a4033c25cad58e021d0479768665c8b9";
     };
     "redstone-arsenal" = {
       "title" = "Redstone Arsenal";
@@ -2017,6 +2535,22 @@
       "type" = "remote";
       "md5" = "67b26a44f522db9e2bd9303024d81edc";
     };
+    "rftools-dimensions" = {
+      "title" = "RFTools Dimensions";
+      "name" = "rftools-dimensions";
+      "id" = 240950;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib" "rftools"];
+      "filename" = "rftoolsdim-1.12-5.53.jar";
+      "maturity" = "release";
+      "encoded" = "rftoolsdim-1.12-5.53.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2549121";
+      "src" = "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2549121/download";
+      "type" = "remote";
+      "md5" = "36e03975f60353196548932b8b163751";
+    };
     "roots" = {
       "title" = "Roots";
       "name" = "roots";
@@ -2033,6 +2567,22 @@
       "type" = "remote";
       "md5" = "35457c3d5b1e8668fd9ef4d7b93bb26f";
     };
+    "ruins-structure-spawning-system" = {
+      "title" = "Ruins (Structure Spawning System)";
+      "name" = "ruins-structure-spawning-system";
+      "id" = 227873;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Ruins-1.12.2.jar";
+      "maturity" = "release";
+      "encoded" = "Ruins-1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2549128";
+      "src" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2549128/download";
+      "type" = "remote";
+      "md5" = "f3342c626818be64c9164e66b3499476";
+    };
     "rustic" = {
       "title" = "Rustic";
       "name" = "rustic";
@@ -2048,6 +2598,35 @@
       "src" = "https://minecraft.curseforge.com/projects/rustic/files/2545348/download";
       "type" = "remote";
       "md5" = "5da6e902c20fe1fb8b67921f0a70d0d2";
+    };
+    "sampler" = {
+      "title" = "sampler";
+      "name" = "sampler";
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "sampler-1.73.jar";
+      "encoded" = "sampler-1.73.jar";
+      "src" = ../third_party/1.12.2/sampler-1.73.jar;
+      "type" = "local";
+      "md5" = "0e114cfbcdcf95d6991f401b2c0318fe";
+    };
+    "schematica" = {
+      "title" = "Schematica";
+      "name" = "schematica";
+      "id" = 225603;
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = ["lunatriuscore"];
+      "filename" = "Schematica-1.12.2-1.8.0.169-universal.jar";
+      "maturity" = "release";
+      "encoded" = "Schematica-1.12.2-1.8.0.169-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/schematica/files/2554100";
+      "src" = "https://minecraft.curseforge.com/projects/schematica/files/2554100/download";
+      "type" = "remote";
+      "md5" = "c779a8cd4fd0e99572385a529b790c73";
     };
     "secretroomsmod" = {
       "title" = "SecretRoomsMod";
@@ -2097,6 +2676,22 @@
       "type" = "remote";
       "md5" = "f0b47545bb11a0663740f1044bcf8ad1";
     };
+    "signal-catcher" = {
+      "title" = "Signal-Catcher";
+      "name" = "signal-catcher";
+      "id" = 268347;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "signalcatcher-1.1.jar";
+      "maturity" = "release";
+      "encoded" = "signalcatcher-1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/signal-catcher/files/2467910";
+      "src" = "https://minecraft.curseforge.com/projects/signal-catcher/files/2467910/download";
+      "type" = "remote";
+      "md5" = "ad5931caa645a13f4b5d3db650eb5226";
+    };
     "signals" = {
       "title" = "Signals";
       "name" = "signals";
@@ -2112,6 +2707,16 @@
       "src" = "https://minecraft.curseforge.com/projects/signals/files/2556328/download";
       "type" = "remote";
       "md5" = "1fc1577db2cd8d5b78ef2125d052e124";
+    };
+    "signposts" = {
+      "title" = "Signposts";
+      "name" = "signposts";
+      "id" = 262586;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["antique-atlas"];
+      "type" = "missing";
     };
     "simple-void-world" = {
       "title" = "Simple Void World";
@@ -2177,6 +2782,22 @@
       "type" = "remote";
       "md5" = "791174e6131629f5d806db7d23495058";
     };
+    "sound-filters" = {
+      "title" = "Sound Filters";
+      "name" = "sound-filters";
+      "id" = 222789;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "SoundFilters-0.10_for_1.12.jar";
+      "maturity" = "release";
+      "encoded" = "SoundFilters-0.10_for_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/sound-filters/files/2445236";
+      "src" = "https://minecraft.curseforge.com/projects/sound-filters/files/2445236/download";
+      "type" = "remote";
+      "md5" = "da0bef083b7eb63136f5d7b3152ad7ed";
+    };
     "steves-carts-reborn" = {
       "title" = "Steve's Carts Reborn";
       "name" = "steves-carts-reborn";
@@ -2224,6 +2845,48 @@
       "src" = "https://minecraft.curseforge.com/projects/storage-drawers-extras/files/2443623/download";
       "type" = "remote";
       "md5" = "972063ce9ceb8df9af49e73858e557fa";
+    };
+    "streams" = {
+      "title" = "Streams";
+      "name" = "streams";
+      "id" = 229769;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["farseek"];
+      "filename" = "Streams-1.12-0.4.3.jar";
+      "maturity" = "beta";
+      "encoded" = "Streams-1.12-0.4.3.jar";
+      "page" = "https://minecraft.curseforge.com/projects/streams/files/2540343";
+      "src" = "https://minecraft.curseforge.com/projects/streams/files/2540343/download";
+      "type" = "remote";
+      "md5" = "dd36f38412a90bbb3b79b991cfdc73d8";
+    };
+    "tails" = {
+      "title" = "Tails";
+      "name" = "tails";
+      "id" = 223584;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Tails-1.12-1.10.0.jar";
+      "maturity" = "release";
+      "encoded" = "Tails-1.12-1.10.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tails/files/2445532";
+      "src" = "https://minecraft.curseforge.com/projects/tails/files/2445532/download";
+      "type" = "remote";
+      "md5" = "2d8523ff0fcfc157292051395da6b78d";
+    };
+    "tardis-mod" = {
+      "title" = "TARDIS Mod";
+      "name" = "tardis-mod";
+      "id" = 230170;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "tesla" = {
       "title" = "TESLA";
@@ -2353,6 +3016,22 @@
       "type" = "remote";
       "md5" = "5477d679ed182820b571bd6158583267";
     };
+    "thump" = {
+      "title" = "Thump";
+      "name" = "thump";
+      "id" = 231124;
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Thump-1.12-4.7.0.2.jar";
+      "maturity" = "beta";
+      "encoded" = "Thump-1.12-4.7.0.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/thump/files/2434680";
+      "src" = "https://minecraft.curseforge.com/projects/thump/files/2434680/download";
+      "type" = "remote";
+      "md5" = "739c824cf4158d16ab7610921e8ee35d";
+    };
     "thutcore" = {
       "title" = "ThutCore";
       "name" = "thutcore";
@@ -2384,6 +3063,22 @@
       "src" = "https://minecraft.curseforge.com/projects/thuts-elevators/files/2530373/download";
       "type" = "remote";
       "md5" = "13aed072e151bb988f58b61ecfb4d4f3";
+    };
+    "tickprofiler" = {
+      "title" = "TickProfiler";
+      "name" = "tickprofiler";
+      "id" = 270330;
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TickProfiler-1.12-0.0.4.jar";
+      "maturity" = "beta";
+      "encoded" = "TickProfiler-1.12-0.0.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tickprofiler/files/2536494";
+      "src" = "https://minecraft.curseforge.com/projects/tickprofiler/files/2536494/download";
+      "type" = "remote";
+      "md5" = "0ad4903b26054386e040badc580ccb78";
     };
     "tinkers-construct" = {
       "title" = "Tinkers Construct";
@@ -2433,6 +3128,48 @@
       "type" = "remote";
       "md5" = "cab6f1d0fd02a725230262a39a13454a";
     };
+    "tis-3d" = {
+      "title" = "TIS-3D";
+      "name" = "tis-3d";
+      "id" = 238603;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TIS-3D-MC1.12-1.3.1.17.jar";
+      "maturity" = "release";
+      "encoded" = "TIS-3D-MC1.12-1.3.1.17.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2525853";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2525853/download";
+      "type" = "remote";
+      "md5" = "4648a9da70017176bb85bed9161c485f";
+    };
+    "tombenpotters-icarus" = {
+      "title" = "Tombenpotter's Icarus";
+      "name" = "tombenpotters-icarus";
+      "id" = 235702;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
+    "tool-belt" = {
+      "title" = "Tool Belt";
+      "name" = "tool-belt";
+      "id" = 260262;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ToolBelt-1.12.0-1.7.1.jar";
+      "maturity" = "release";
+      "encoded" = "ToolBelt-1.12.0-1.7.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461671";
+      "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461671/download";
+      "type" = "remote";
+      "md5" = "167acc144addada8c0ff75f2795073c6";
+    };
     "top-addons" = {
       "title" = "TOP Addons";
       "name" = "top-addons";
@@ -2464,6 +3201,22 @@
       "src" = "https://minecraft.curseforge.com/projects/torchmaster/files/2558000/download";
       "type" = "remote";
       "md5" = "2670c3dcb9ffbd70e082c7a86d6e1f45";
+    };
+    "track-api" = {
+      "title" = "Track API";
+      "name" = "track-api";
+      "id" = 282613;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TrackAPI-1.1_1.12.jar";
+      "maturity" = "release";
+      "encoded" = "TrackAPI-1.1_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/track-api/files/2535626";
+      "src" = "https://minecraft.curseforge.com/projects/track-api/files/2535626/download";
+      "type" = "remote";
+      "md5" = "4709936a20818766d0bec21e169677ec";
     };
     "traverse" = {
       "title" = "Traverse";
@@ -2561,6 +3314,16 @@
       "type" = "remote";
       "md5" = "bcefaebae8ec06965477c539feb4017d";
     };
+    "wild-mobs-mod" = {
+      "title" = "Wild Mobs Mod";
+      "name" = "wild-mobs-mod";
+      "id" = 255711;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "wireless-crafting-terminal" = {
       "title" = "Wireless Crafting Terminal";
       "name" = "wireless-crafting-terminal";
@@ -2576,6 +3339,22 @@
       "src" = "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2552069/download";
       "type" = "remote";
       "md5" = "220c2394f708dce80ea7ce0d9847e054";
+    };
+    "worldedit" = {
+      "title" = "WorldEdit";
+      "name" = "worldedit";
+      "id" = 225608;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "worldedit-forge-mc1.12-6.1.8-dist.jar";
+      "maturity" = "release";
+      "encoded" = "worldedit-forge-mc1.12-6.1.8-dist.jar";
+      "page" = "https://minecraft.curseforge.com/projects/worldedit/files/2460570";
+      "src" = "https://minecraft.curseforge.com/projects/worldedit/files/2460570/download";
+      "type" = "remote";
+      "md5" = "73ecbb8656a5fd5823852078f0fb7ca7";
     };
     "xnet" = {
       "title" = "XNet";
