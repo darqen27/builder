@@ -25,6 +25,7 @@ rec {
     name,
     description ? name,
     screenName,
+    serverName ? name,
     port,
     forge,
     ram ? "4000m",
@@ -95,10 +96,12 @@ rec {
       ] ++ extraServerDirs ++ extraDirs;
 
       postBuild = ''
-        substituteAll $out/start.sh start.sh
-        chmod +x start.sh
-        rm $out/start.sh
-        cp start.sh $out
+        for i in $out/*.sh; do
+          substituteAll $i $(basename $i)
+          chmod +x $(basename $i)
+          rm $i
+          cp $(basename $i) $out/
+        done
       '';
     };
   });
