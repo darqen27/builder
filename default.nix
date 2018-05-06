@@ -20,19 +20,18 @@ in
 rec {
 
   packs = {
-    e18 = buildPack e18;
-    e19 = buildPack e19;
+    e20 = buildPack e20;
   };
 
-  e19 = {
-    name = "e19";
-    screenName = "e19";
-    description = "Erisia #19: Carpe Novum";
+  e20 = {
+    name = "erisia20";
+    screenName = "e20";
+    description = "Erisia #20: Erisia Aeternum";
     ram = "10000m";
     port = 25565;
     forge = {
       major = "1.12.2";
-      minor = "14.23.1.2604";  # TODO: Should be able to get this from manifest.json
+      minor = "14.23.3.2655";  # TODO: Should be able to get this from manifest.json
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
@@ -40,7 +39,7 @@ rec {
     extraDirs = [
       ./base/erisia
       ./third_party/ruins-1.12
-      ./base/revelation
+      ./base/enigmatica2
     ];
     extraServerDirs = [
       ./base/server
@@ -50,55 +49,10 @@ rec {
     ];
     # These are all the mods we'd like to include in this pack.
     manifests = [
-      ./manifest/e19.nix
+      ./manifest/e20.nix
     ];
     blacklist = [
       "creeperhost-minetogether"  # Fuck that.
-    ];
-  };
-
-  e18 = tppi2 // {
-    name = "e18";
-    description = "Erisia #18: Test Pack, Don't Ignore";
-    screenName = "e18";
-    ram = "10000m";
-    port = 25565;
-    manifests = [
-      ./manifest/e18.nix
-    ];
-    extraDirs = [
-      ./base/erisia
-      ./base/tppi2
-    ];
-    # Not all mods are equally welcome.
-    blacklist = [
-      "mystcraft"
-    ];
-  };
-
-  tppi2 = {
-    ram = "6000m";
-    forge = {
-      major = "1.7.10";
-      minor = "10.13.4.1614";
-    };
-    # These are copied to the client as well as the server.
-    # Suggested use: Configs. Scripts. That sort of thing.
-    # Higher entries override later ones.
-    extraDirs = [
-      ./base/tppi2
-      # resources
-      # (generateCustomOreGenConfig ./COGConfig)
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      # resources
-    ];
-    # These are all the mods we'd like to include in this pack.
-    manifests = [
-      ./manifest/TPPI2.nix
     ];
   };
 
