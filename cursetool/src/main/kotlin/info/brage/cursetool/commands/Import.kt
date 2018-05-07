@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
 import com.fasterxml.jackson.module.kotlin.KotlinModule
 import info.brage.cursetool.lib.Curse
+import info.brage.cursetool.lib.FileInfo
 import info.brage.cursetool.lib.Manifest
 import info.brage.cursetool.lib.ModInfo
 import info.brage.cursetool.lib.PageNotFound
@@ -67,14 +68,11 @@ fun Import(version: String, files: List<String>) {
                                 println("Warning: Could not find project ID ${it.projectID}")
                                 bareModInfo
                             }
-                            val file = try {
+                            val file: List<FileInfo> = try {
                                 listOf(Curse.getFileInfo(it.projectID, it.fileID))
                             } catch (e: PageNotFound) {
                                 println("Warning: Did not find preferred file for project ${mod.id} (${mod.name})")
-                                if (mod.files.isEmpty()) {
-                                    println("  Nor anything else.")
-                                }
-                                mod.files.take(1)
+				emptyList()
                             }
                             mod.copy(files = file)
                         }
