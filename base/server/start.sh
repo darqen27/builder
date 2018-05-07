@@ -49,6 +49,10 @@ for f in $BASE/*; do
             # Don't copy at all.
             ln -sf "$f" .
             ;;
+        *.properties | *.json)
+            ## Copy, but only if nonexistent.
+            [[ -e "$b" ]] || cp -aL "$f" "$b"
+            ;;
         *)
             [[ -e "$b" ]] && fixperms "$b" && rm -rf "$b"
             cp -aL "$f" .
