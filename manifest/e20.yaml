@@ -133,4 +133,4 @@ mods:
   - src: "../third_party/1.12.2/sampler-1.73.jar"
 
 imports:
-- "revelation.yaml"
+- "enigmatica2.yaml"
