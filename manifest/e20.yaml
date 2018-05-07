@@ -46,7 +46,7 @@ mods:
 - name: "cooking-for-blockheads"
 - name: "signposts"
 - name: "antique-atlas"
-- name: "compact-machines"
+# - name: "compact-machines"
 - name: "psi"
 - name: "prefab"
 

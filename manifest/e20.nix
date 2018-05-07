@@ -813,13 +813,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "cm2-1.10.2-2.0.1-b141.jar";
-      "maturity" = "alpha";
-      "encoded" = "cm2-1.10.2-2.0.1-b141.jar";
-      "page" = "https://minecraft.curseforge.com/projects/compact-machines/files/2492907";
-      "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2492907/download";
+      "filename" = "compactmachines3-1.12.2-3.0.11-b207.jar";
+      "maturity" = "beta";
+      "encoded" = "compactmachines3-1.12.2-3.0.11-b207.jar";
+      "page" = "https://minecraft.curseforge.com/projects/compact-machines/files/2558529";
+      "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2558529/download";
       "type" = "remote";
-      "md5" = "80dec7b6c9516e9abb95f51fb9a45a83";
+      "md5" = "91f7ceeee86482e3aaf79c0088bbfab5";
     };
     "computercraft" = {
       "title" = "ComputerCraft";
