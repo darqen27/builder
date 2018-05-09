@@ -590,6 +590,22 @@
       "type" = "remote";
       "md5" = "82f5d98472aad671737cdebdb82493be";
     };
+    "buildcraft" = {
+      "title" = "Buildcraft";
+      "name" = "buildcraft";
+      "id" = 61811;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "buildcraft-7.99.16.jar";
+      "maturity" = "alpha";
+      "encoded" = "buildcraft-7.99.16.jar";
+      "page" = "https://minecraft.curseforge.com/projects/buildcraft/files/2551866";
+      "src" = "https://minecraft.curseforge.com/projects/buildcraft/files/2551866/download";
+      "type" = "remote";
+      "md5" = "3baa587bc3d927c82f26bd5cb39df764";
+    };
     "career-bees" = {
       "title" = "Career Bees";
       "name" = "career-bees";
@@ -2283,22 +2299,6 @@
       "type" = "remote";
       "md5" = "15b7d7eebd0ec214a3bc6816669e1f78";
     };
-    "millenaire" = {
-      "title" = "Millénaire";
-      "name" = "millenaire";
-      "id" = 270871;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "millenaire-6.2.1.jar";
-      "maturity" = "release";
-      "encoded" = "millenaire-6.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/millenaire/files/2559090";
-      "src" = "https://minecraft.curseforge.com/projects/millenaire/files/2559090/download";
-      "type" = "remote";
-      "md5" = "49cf2c9564eb7b296974b7f09bf0edab";
-    };
     "minecolonies" = {
       "title" = "Minecolonies";
       "name" = "minecolonies";
@@ -2679,12 +2679,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Placebo-1.12.2-1.3.3.jar";
-      "encoded" = "Placebo-1.12.2-1.3.3.jar";
-      "page" = "https://minecraft.curseforge.com/projects/283644/files/2552651";
-      "src" = "https://minecraft.curseforge.com/projects/placebo/files/2552651/download";
+      "filename" = "Placebo-1.12.2-1.3.4.jar";
+      "maturity" = "release";
+      "encoded" = "Placebo-1.12.2-1.3.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/placebo/files/2558924";
+      "src" = "https://minecraft.curseforge.com/projects/placebo/files/2558924/download";
       "type" = "remote";
-      "md5" = "32fae12272ba065dd2332bbac75701dc";
+      "md5" = "4293c2478f0f006ef6b35ec927fbbdc8";
     };
     "plants" = {
       "title" = "Plants";
@@ -3703,6 +3704,22 @@
       "src" = "https://minecraft.curseforge.com/projects/valkyrielib/files/2546308/download";
       "type" = "remote";
       "md5" = "b6d790885c28d1ed5918117f29e35a58";
+    };
+    "vanillafix" = {
+      "title" = "VanillaFix";
+      "name" = "vanillafix";
+      "id" = 292785;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "VanillaFix-1.0.1-6.jar";
+      "maturity" = "beta";
+      "encoded" = "VanillaFix-1.0.1-6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2558913";
+      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2558913/download";
+      "type" = "remote";
+      "md5" = "7fe2d077415ee54536548e6ffd5e9dd1";
     };
     "villager-market" = {
       "title" = "Villager Market";

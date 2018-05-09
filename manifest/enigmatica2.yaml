@@ -2416,9 +2416,7 @@ mods:
 - name: "the-twilight-forest"
   id: 227639
   title: "The Twilight Forest"
-  files: []
   side: "both"
-  deps: []
   required: true
   default: true
   curse: true
@@ -2973,14 +2971,6 @@ mods:
 - name: "placebo"
   id: 283644
   title: "Placebo"
-  files:
-  - name: "Placebo-1.12.2-1.3.3.jar"
-    id: 2552651
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/283644/files/2552651"
-    src: "https://minecraft.curseforge.com/projects/placebo/files/2552651/download"
-    md5: "32fae12272ba065dd2332bbac75701dc"
-  side: "both"
   deps: []
   required: true
   default: true
