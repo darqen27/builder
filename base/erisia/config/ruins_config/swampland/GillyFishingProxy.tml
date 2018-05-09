@@ -1,0 +1,21 @@
+# Gilly's fishing settlement spawn proxy
+
+weight=5
+embed_into_distance=4
+acceptable_target_blocks=water,waterlily
+unacceptable_target_blocks=
+biomesToSpawnIn=swampland,wetland,marsh,lush swamp,mini jungle
+dimensions=1,1,1
+cut_in_buffer=0
+max_leveling=2
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFishingSettlement ~ _ ~:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFishingVillage ~ _ ~:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFishingOutpost ~ _ ~:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFishingOutpost2 ~ _ ~:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFishingOutpost3 ~ _ ~:@
+
+layer
+1
+endlayer
+
