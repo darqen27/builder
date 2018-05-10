@@ -7,17 +7,14 @@ import crafttweaker.oredict.IOreDictEntry;
 //all credit to the all the mods team. They do amazing work.
 
 
-
-
-
-//Gives the player a AA Stone Aiot
+// Gives the player a AA Stone Aiot
 mods.initialinventory.InvHandler.addStartingItem(<actuallyadditions:stone_paxel>);
 
-
-//Gives the player a torch
+// Gives the player a torch
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:torch>);
 
-
+// And a building wand
+mods.initialinventory.InvHandler.addStartingItem(<betterbuilderswands:wandiron>);
 
 
 print(" =================== Akashic Tome =================== ");

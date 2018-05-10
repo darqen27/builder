@@ -598,13 +598,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "buildcraft-7.99.16.jar";
+      "filename" = "buildcraft-7.99.17.jar";
       "maturity" = "alpha";
-      "encoded" = "buildcraft-7.99.16.jar";
-      "page" = "https://minecraft.curseforge.com/projects/buildcraft/files/2551866";
-      "src" = "https://minecraft.curseforge.com/projects/buildcraft/files/2551866/download";
+      "encoded" = "buildcraft-7.99.17.jar";
+      "page" = "https://minecraft.curseforge.com/projects/buildcraft/files/2560476";
+      "src" = "https://minecraft.curseforge.com/projects/buildcraft/files/2560476/download";
       "type" = "remote";
-      "md5" = "3baa587bc3d927c82f26bd5cb39df764";
+      "md5" = "0b42eec4f9119309b11000e2a818ee6e";
     };
     "career-bees" = {
       "title" = "Career Bees";
@@ -1048,6 +1048,22 @@
       "type" = "remote";
       "md5" = "0c4492914de0dfac38207cf356bb9f02";
     };
+    "deep-resonance" = {
+      "title" = "Deep Resonance";
+      "name" = "deep-resonance";
+      "id" = 233398;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["eleccore" "mcjtylib"];
+      "filename" = "deepresonance-1.12-1.6.0.jar";
+      "maturity" = "release";
+      "encoded" = "deepresonance-1.12-1.6.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2514028";
+      "src" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2514028/download";
+      "type" = "remote";
+      "md5" = "a171b1e5cfb9af4fee3ef46ba2d5df45";
+    };
     "default-options" = {
       "title" = "Default Options";
       "name" = "default-options";
@@ -1135,6 +1151,22 @@
       "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2436596/download";
       "type" = "remote";
       "md5" = "193d389e984591ac1030ea2700b06d13";
+    };
+    "eleccore" = {
+      "title" = "ElecCore";
+      "name" = "eleccore";
+      "id" = 227391;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ElecCore-1.12.2-1.8.434.jar";
+      "maturity" = "release";
+      "encoded" = "ElecCore-1.12.2-1.8.434.jar";
+      "page" = "https://minecraft.curseforge.com/projects/eleccore/files/2510914";
+      "src" = "https://minecraft.curseforge.com/projects/eleccore/files/2510914/download";
+      "type" = "remote";
+      "md5" = "ad6b16a7b1f6fdbcf44ff0f99cb5b097";
     };
     "elulib" = {
       "title" = "EluLib";
@@ -1807,6 +1839,22 @@
       "src" = "https://minecraft.curseforge.com/projects/industrial-foregoing/files/2555991/download";
       "type" = "remote";
       "md5" = "8152061be68b69db625405a0b2652fdc";
+    };
+    "initial-inventory" = {
+      "title" = "Initial Inventory";
+      "name" = "initial-inventory";
+      "id" = 253230;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["crafttweaker" "mtlib"];
+      "filename" = "InitialInventory-3.0.0.jar";
+      "maturity" = "release";
+      "encoded" = "InitialInventory-3.0.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/initial-inventory/files/2465617";
+      "src" = "https://minecraft.curseforge.com/projects/initial-inventory/files/2465617/download";
+      "type" = "remote";
+      "md5" = "44a3ebc29fe9531ec290e292d07d7d84";
     };
     "integrated-dynamics" = {
       "title" = "Integrated Dynamics";
@@ -2695,13 +2743,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["placebo"];
-      "filename" = "Plants-1.12.2-2.8.4.jar";
+      "filename" = "Plants-1.12.2-2.8.5.jar";
       "maturity" = "release";
-      "encoded" = "Plants-1.12.2-2.8.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/plants/files/2559227";
-      "src" = "https://minecraft.curseforge.com/projects/plants/files/2559227/download";
+      "encoded" = "Plants-1.12.2-2.8.5.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plants/files/2560490";
+      "src" = "https://minecraft.curseforge.com/projects/plants/files/2560490/download";
       "type" = "remote";
-      "md5" = "0ed8ab59ec851c1417fb6074dd2bb954";
+      "md5" = "c24d376c657a271aca2da3490f53789f";
     };
     "playersdropheads" = {
       "title" = "PlayersDropHeads";

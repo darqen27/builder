@@ -50,6 +50,7 @@ mods:
 - name: "prefab"
 - name: "scannable"
 - name: "buildcraft"
+- name: "deep-resonance"
 
 # Client-side enhancement mods:
 - name: "nofov"
@@ -127,7 +128,7 @@ mods:
   side: "client"
   required: false
   default: true
-
+- name: "initial-inventory"
 
 # Non-curse tools:
 - name: "sampler"
