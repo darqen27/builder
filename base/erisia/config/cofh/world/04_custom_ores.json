@@ -1001,7 +1001,7 @@
                         "weight": 95
                     },
                     {
-                        "name": "deepresonance:redstone_ore",
+                        "name": "deepresonance:resonating_ore",
                         "metadata": 0,
                         "weight": 5
                     }
@@ -1046,7 +1046,7 @@
                     {
                         "name": "deepresonance:resonating_ore",
                         "metadata": 0,
-                        "weight": 95
+                        "weight": 35
                     },
                     {
                         "name": "minecraft:redstone_ore",

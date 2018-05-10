@@ -1,0 +1,55 @@
+[
+  {
+  "enabled": false,
+    "state": {
+      "name": "forestry:resources",
+      "properties": {
+        "resource": "copper"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 10,
+    "countMax": 16,
+    "yieldMin": 64,
+    "yieldMax": 80,
+    "group": "copper",
+    "groupOrder": "forestry"
+  },
+  {
+  "enabled": false,
+    "state": {
+      "name": "forestry:resources",
+      "properties": {
+        "resource": "tin"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 10,
+    "countMax": 16,
+    "yieldMin": 56,
+    "yieldMax": 70,
+    "group": "tin",
+    "groupOrder": "forestry"
+  },
+  {
+    "state": {
+      "name": "forestry:resources",
+      "properties": {
+        "resource": "apatite"
+      }
+    },
+	"biomeFilter": "whitelist",
+    "biomeSelector": "dictionary",
+    "biome": [ "MOUNTAIN", "HILLS" ],
+    "weight": 3,
+    "widthMin": 5,
+    "widthMax": 7,
+    "countMin": 10,
+    "countMax": 14,
+    "yieldMin": 128,
+    "yieldMax": 160,
+    "groupOrder": "forestry"
+  }
+]
