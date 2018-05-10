@@ -35,10 +35,9 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
         },
@@ -89,10 +88,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -125,10 +123,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                   0
                 ]
             }
         },
@@ -179,10 +176,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -224,10 +220,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -273,10 +268,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -298,8 +292,7 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -339,8 +332,7 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		}, 
@@ -391,10 +383,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -430,8 +421,7 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
         },
@@ -482,10 +472,62 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
+                ]
+            }
+        },
+		"Draconian_Vein": {
+            "distribution": "fractal",
+            "generator": {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "draconicevolution:draconium_ore",
+                        "metadata": 0,
+                        "weight": 90
+                    },
+                    {
+                        "name": "minecraft:gold_ore",
+                        "metadata": 0,
+                        "weight": 5
+                    },
+                    {
+                        "name": "minecraft:coal_ore",
+                        "metadata": 0,
+                        "weight": 5
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 100
+            },
+            "cluster-count": 15,
+            "chunk-chance": 35,
+            "min-height": 4,
+            "max-height": 26,
+            "vein-height": 20,
+            "vein-diameter": 10,
+            "vertical-density": 7,
+            "horizontal-density": 15,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "dictionary",
+                        "entry": "SANDY"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "MESA"
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
                 ]
             }
         },
@@ -519,61 +561,11 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
-        },
-        "Galena_Vein": {
-            "distribution": "fractal",
-            "generator": {
-                "type": "large-vein",
-                "block": [
-                    {
-                        "name": "techreborn:ore",
-                        "metadata": 0,
-                        "weight": 95
-                    },                 
-                    {
-                        "name": "minecraft:redstone_ore",
-                        "metadata": 0,
-                        "weight": 5
-                    }
-                ],
-                "material": "minecraft:stone",
-                "cluster-size": 60
-            },
-            "cluster-count": 25,
-            "chunk-chance": 35,
-            "min-height": 4,
-            "max-height": 45,
-            "vein-height": 32,
-            "vein-diameter": 5,
-            "vertical-density": 11,
-            "horizontal-density": 5,
-            "retrogen": "true",
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "dictionary",
-                        "entry": "JUNGLE"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "SWAMP"
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
         },
         "Gold_Vein": {
 			"distribution": "fractal",
@@ -609,10 +601,9 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
         },
@@ -663,10 +654,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -686,10 +676,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -727,10 +716,9 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
         },
@@ -760,10 +748,9 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
         },
@@ -804,10 +791,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -849,10 +835,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -898,10 +883,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                   0
                 ]
             }
         },
@@ -947,10 +931,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -1001,10 +984,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -1016,17 +998,7 @@
                     {
                         "name": "minecraft:redstone_ore",
                         "metadata": 0,
-                        "weight": 90
-                    },
-				    {
-                        "name": "techreborn:ore",
-                        "metadata": 2,
-                        "weight": 4
-                    },
-					{
-                        "name": "techreborn:ore",
-                        "metadata": 3,
-                        "weight": 1
+                        "weight": 95
                     },
                     {
                         "name": "deepresonance:redstone_ore",
@@ -1060,10 +1032,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -1109,64 +1080,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
-        },
-        "RubySapphire_Vein": {
-            "distribution": "uniform",
-            "generator": {
-                "block": [
-                    {
-                        "name": "techreborn:ore",
-                        "metadata": 3,
-                        "weight": 45
-                    },
-                    {
-                        "name": "techreborn:ore",
-                        "metadata": 2,
-                        "weight": 45
-                    },
-					{
-                        "name": "minecraft:redstone_ore",
-                        "metadata": 0,
-                        "weight": 4
-                    },
-					{
-                        "name": "deepresonance:redstone_ore",
-                        "metadata": 0,
-                        "weight": 1
-                    }
-                ],
-                "material": "minecraft:stone",
-                "cluster-size": 50
-            },
-            "cluster-count": 40,
-            "chunk-chance": 35,
-            "min-height": 3,
-            "max-height": 32,
-            "retrogen": "true",
-            "biome": {
                 "restriction": "whitelist",
                 "value": [
-                    {
-                        "type": "dictionary",
-                        "entry": "JUNGLE"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "SWAMP"
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -1217,122 +1133,12 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
-        "SilentGems_Vein": {
-            "distribution": "fractal",
-            "generator": {
-                "type": "large-vein",
-                "block": [
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 1,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 2,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 3,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 4,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 6,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 7,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 8,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 10,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 11,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 12,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 13,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 14,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:gemore",
-                        "metadata": 15,
-                        "weight": 7
-                    },
-                    {
-                        "name": "silentgems:essenceore",
-                        "metadata": 0,
-                        "weight": 9
-                    }
-                ],
-                "material": "minecraft:stone",
-                "cluster-size": 150
-            },
-            "cluster-count": 30,
-            "chunk-chance": 40,
-            "min-height": 40,
-            "max-height": 75,
-            "vein-height": 10,
-            "vein-diameter": 20,
-            "vertical-density": 7,
-            "horizontal-density": 5,
-            "retrogen": "true",
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "dictionary",
-                        "entry": "SANDY"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "MESA"
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
-        },     
         "Thorium_Vein": {
             "distribution": "fractal",
             "generator": {
@@ -1371,10 +1177,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -1425,10 +1230,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         },
@@ -1479,10 +1283,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    0
                 ]
             }
         }
