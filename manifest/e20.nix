@@ -213,6 +213,38 @@
       "type" = "remote";
       "md5" = "b26a46a991f1939b538dfa8e62100766";
     };
+    "aroma1997core" = {
+      "title" = "Aroma1997Core";
+      "name" = "aroma1997core";
+      "id" = 223735;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Aroma1997Core-1.12.2-2.0.0.0.b150.jar";
+      "maturity" = "beta";
+      "encoded" = "Aroma1997Core-1.12.2-2.0.0.0.b150.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2554530";
+      "src" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2554530/download";
+      "type" = "remote";
+      "md5" = "84b9edfb34806aa2ceb1259cf266fd1d";
+    };
+    "aroma1997s-dimensional-world" = {
+      "title" = "Aroma1997s Dimensional World";
+      "name" = "aroma1997s-dimensional-world";
+      "id" = 60092;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["aroma1997core"];
+      "filename" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b69.jar";
+      "maturity" = "alpha";
+      "encoded" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b69.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2554521";
+      "src" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2554521/download";
+      "type" = "remote";
+      "md5" = "c6eaa1ecc266e9cc700d17f655772d47";
+    };
     "astral-sorcery" = {
       "title" = "Astral Sorcery";
       "name" = "astral-sorcery";
@@ -3430,13 +3462,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "twilightforest-1.12.2-3.7.412-universal.jar";
-      "maturity" = "alpha";
-      "encoded" = "twilightforest-1.12.2-3.7.412-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2558640";
-      "src" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2558640/download";
+      "filename" = "twilightforest-1.12.2-3.6.345-universal.jar";
+      "maturity" = "release";
+      "encoded" = "twilightforest-1.12.2-3.6.345-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2528109";
+      "src" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2528109/download";
       "type" = "remote";
-      "md5" = "3e76964124cb74e67666c2a4fd94a18e";
+      "md5" = "21a022ef5c11156f6f8cc93abaf56c41";
     };
     "thermal-cultivation" = {
       "title" = "Thermal Cultivation";

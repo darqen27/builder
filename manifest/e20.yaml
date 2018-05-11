@@ -11,6 +11,7 @@ mods:
 # - name: "lost-souls"
 # But this doesn't work on servers yet!
 #- name: "ice-and-fire-dragons-in-a-whole-new-light"
+- name: "aroma1997s-dimensional-world"
 
 # Decoration:
 - name: "dragons-radio-mod"
