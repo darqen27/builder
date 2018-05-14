@@ -1,45 +1,45 @@
 {
     "dependencies": "thermalfoundation",
     "populate": {
-		"AmberBearingStone/Cinnabar_Vein": {
-			"distribution": "fractal",
-			"generator": {
-				"type": "large-vein",
-				"block": [
-				{"name": "thaumcraft:ore_amber","metadata": 0, "weight": 70},
-				{"name": "thaumcraft:ore_cinnabar", "metadata": 0, "weight": 30}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 50
-			},
-			"cluster-count": 40,
-			"chunk-chance": 35,
-			"min-height": 45,
-			"max-height": 60,
-			"vein-height": 30,
-			"vein-diameter": 20,
-			"vertical-density": 7,
-			"horizontal-density": 5,
-			"retrogen": "true",
+	"AmberBearingStone/Cinnabar_Vein": {
+	    "distribution": "fractal",
+	    "generator": {
+		"type": "large-vein",
+		"block": [
+		    {"name": "thaumcraft:ore_amber","metadata": 0, "weight": 70},
+		    {"name": "thaumcraft:ore_cinnabar", "metadata": 0, "weight": 30}
+		],
+		"material": "minecraft:stone",
+		"cluster-size": 50
+	    },
+	    "cluster-count": 40,
+	    "chunk-chance": 35,
+	    "min-height": 45,
+	    "max-height": 60,
+	    "vein-height": 30,
+	    "vein-diameter": 20,
+	    "vertical-density": 7,
+	    "horizontal-density": 5,
+	    "retrogen": "true",
             "biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "SANDY"
-						},
-						{
-							"type": "dictionary",
-							"entry": "MESA"
-							}		
-				]
-			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "SANDY"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "MESA"
+		    }		
+		]
+	    },
+	    "dimension": {
+		"restriction": "whitelist",
+		"value": [
+		    0
+		]
+	    }
         },
         "Aluminium_Vein": {
             "distribution": "fractal",
@@ -125,7 +125,7 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [
-                   0
+                    0
                 ]
             }
         },
@@ -139,7 +139,7 @@
                         "metadata": 3,
                         "weight": 90
                     },
-					{
+		    {
                         "name": "minecraft:redstone_ore",
                         "metadata": 0,
                         "weight": 10
@@ -274,68 +274,68 @@
                 ]
             }
         },
-		"Coal_SmallCluster": {
-			"distribution": "uniform",
-			"generator": {
-				"block": [
-				{"name": "minecraft:coal_ore","metadata": 0, "weight": 100}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 15
-			},
-			"cluster-count": 5,
-			"chunk-chance": 3,
-			"min-height": 40,
-			"max-height": 100,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					0
-				]
-			}
-		},
+	"Coal_SmallCluster": {
+	    "distribution": "uniform",
+	    "generator": {
+		"block": [
+		    {"name": "minecraft:coal_ore","metadata": 0, "weight": 100}
+		],
+		"material": "minecraft:stone",
+		"cluster-size": 15
+	    },
+	    "cluster-count": 5,
+	    "chunk-chance": 3,
+	    "min-height": 40,
+	    "max-height": 100,
+	    "retrogen": "true",
+	    "biome": "all",
+	    "dimension": {
+		"restriction": "blacklist",
+		"value": [
+		    0
+		]
+	    }
+	},
         "Coal_Vein": {
-			"distribution": "fractal",
-			"generator": {
-				"type": "large-vein",
-				"block": [
-				{"name": "minecraft:coal_ore","metadata": 0, "weight": 99},
-				{"name": "minecraft:diamond_ore", "metadata": 0, "weight": 1}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 100
-			},
-			"cluster-count": 75,
-			"chunk-chance": 25,
-			"min-height": 0,
-			"max-height": 128,
-			"vein-height": 30,
-			"vein-diameter": 20,
-			"vertical-density": 7,
-			"horizontal-density": 5,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "MOUNTAIN"
-						},
-						{
-							"type": "dictionary",
-							"entry": "HILLS"
-							}		
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					0
-				]
-			}
-		}, 
+	    "distribution": "fractal",
+	    "generator": {
+		"type": "large-vein",
+		"block": [
+		    {"name": "minecraft:coal_ore","metadata": 0, "weight": 99},
+		    {"name": "minecraft:diamond_ore", "metadata": 0, "weight": 1}
+		],
+		"material": "minecraft:stone",
+		"cluster-size": 100
+	    },
+	    "cluster-count": 75,
+	    "chunk-chance": 25,
+	    "min-height": 0,
+	    "max-height": 128,
+	    "vein-height": 30,
+	    "vein-diameter": 20,
+	    "vertical-density": 7,
+	    "horizontal-density": 5,
+	    "retrogen": "true",
+	    "biome": {
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "MOUNTAIN"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "HILLS"
+		    }		
+		]
+	    },
+	    "dimension": {
+		"restriction": "blacklist",
+		"value": [
+		    0
+		]
+	    }
+	}, 
         "Copper_Vein": {
             "distribution": "fractal",
             "generator": {
@@ -389,41 +389,41 @@
                 ]
             }
         },
-		"Diamond_Geode": {
-			"distribution": "uniform",
-			"generator": {
-					"type": "geode",
-					"block": {"name": "minecraft:diamond_ore","metadata":0, "weight":100},
-					"material": "minecraft:stone",
-					"hollow": false,
-					"filler": {"name": "minecraft:diamond_ore","metadata":0, "weight":100},
-					"crust": "minecraft:obsidian",
-					"cluster-size": 25
-			},
-			"cluster-count": 10,
-			"chunk-chance": 35,
-			"min-height": 1,
-			"max-height": 16,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "MOUNTAIN"
-						},
-						{
-							"type": "dictionary",
-							"entry": "HILLS"
-							}		
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					0
-				]
-			}
+	"Diamond_Geode": {
+	    "distribution": "uniform",
+	    "generator": {
+		"type": "geode",
+		"block": {"name": "minecraft:diamond_ore","metadata":0, "weight":100},
+		"material": "minecraft:stone",
+		"hollow": false,
+		"filler": {"name": "minecraft:diamond_ore","metadata":0, "weight":100},
+		"crust": "minecraft:obsidian",
+		"cluster-size": 25
+	    },
+	    "cluster-count": 10,
+	    "chunk-chance": 35,
+	    "min-height": 1,
+	    "max-height": 16,
+	    "retrogen": "true",
+	    "biome": {
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "MOUNTAIN"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "HILLS"
+		    }		
+		]
+	    },
+	    "dimension": {
+		"restriction": "blacklist",
+		"value": [
+		    0
+		]
+	    }
         },
         "Dilithium_Vein": {
             "distribution": "fractal",
@@ -478,7 +478,7 @@
                 ]
             }
         },
-		"Draconian_Vein": {
+	"Draconian_Vein": {
             "distribution": "fractal",
             "generator": {
                 "type": "large-vein",
@@ -532,80 +532,80 @@
             }
         },
         "Emerald_Geode": {
-			"distribution": "uniform",
-			"generator": {
-					"type": "geode",
-					"block": {"name": "minecraft:emerald_ore","metadata":0, "weight":100},
-					"material": "minecraft:stone",
-					"hollow": false,
-					"filler": {"name": "minecraft:emerald_ore","metadata":0, "weight":100},
-					"crust": "minecraft:obsidian",
-					"cluster-size": 25
-			},
-			"cluster-count": 10,
-			"chunk-chance": 40,
-			"min-height": 1,
-			"max-height": 16,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "MOUNTAIN"
-						},
-						{
-							"type": "dictionary",
-							"entry": "HILLS"
-							}		
-				]
-			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
+	    "distribution": "uniform",
+	    "generator": {
+		"type": "geode",
+		"block": {"name": "minecraft:emerald_ore","metadata":0, "weight":100},
+		"material": "minecraft:stone",
+		"hollow": false,
+		"filler": {"name": "minecraft:emerald_ore","metadata":0, "weight":100},
+		"crust": "minecraft:obsidian",
+		"cluster-size": 25
+	    },
+	    "cluster-count": 10,
+	    "chunk-chance": 40,
+	    "min-height": 1,
+	    "max-height": 16,
+	    "retrogen": false,
+	    "biome": {
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "MOUNTAIN"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "HILLS"
+		    }		
+		]
+	    },
+	    "dimension": {
+		"restriction": "whitelist",
+		"value": [
+		    0
+		]
+	    }
         },
         "Gold_Vein": {
-			"distribution": "fractal",
-			"generator": {
-				"type": "large-vein",
-				"block": [
-				{"name": "minecraft:gold_ore","metadata": 0, "weight": 95},
-				{"name": "thermalfoundation:ore", "metadata": 0, "weight": 5}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 60
-			},
-			"cluster-count": 25,
-			"chunk-chance": 30,
-			"min-height": 9,
-			"max-height": 21,
-			"vein-height": 30,
-			"vein-diameter": 20,
-			"vertical-density": 7,
-			"horizontal-density": 5,
-			"retrogen": false,
+	    "distribution": "fractal",
+	    "generator": {
+		"type": "large-vein",
+		"block": [
+		    {"name": "minecraft:gold_ore","metadata": 0, "weight": 95},
+		    {"name": "thermalfoundation:ore", "metadata": 0, "weight": 5}
+		],
+		"material": "minecraft:stone",
+		"cluster-size": 60
+	    },
+	    "cluster-count": 25,
+	    "chunk-chance": 30,
+	    "min-height": 9,
+	    "max-height": 21,
+	    "vein-height": 30,
+	    "vein-diameter": 20,
+	    "vertical-density": 7,
+	    "horizontal-density": 5,
+	    "retrogen": false,
             "biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "MOUNTAIN"
-						},
-						{
-							"type": "dictionary",
-							"entry": "HILLS"
-							}	
-				]
-			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "MOUNTAIN"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "HILLS"
+		    }	
+		]
+	    },
+	    "dimension": {
+		"restriction": "whitelist",
+		"value": [
+		    0
+		]
+	    }
         },
         "Iridium_Vein": {
             "distribution": "fractal",
@@ -661,98 +661,98 @@
             }
         },
         "Iron_SmallCluster": {
-			"distribution": "uniform",
-			"generator": {
-				"block": [
-				{"name": "minecraft:iron_ore","metadata": 0, "weight": 100}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 9
-			},
-			"cluster-count": 5,
-			"chunk-chance": 3,
-			"min-height": 40,
-			"max-height": 100,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
-		},
+	    "distribution": "uniform",
+	    "generator": {
+		"block": [
+		    {"name": "minecraft:iron_ore","metadata": 0, "weight": 100}
+		],
+		"material": "minecraft:stone",
+		"cluster-size": 9
+	    },
+	    "cluster-count": 5,
+	    "chunk-chance": 3,
+	    "min-height": 40,
+	    "max-height": 100,
+	    "retrogen": "true",
+	    "biome": "all",
+	    "dimension": {
+		"restriction": "whitelist",
+		"value": [
+		    0
+		]
+	    }
+	},
         "Iron_Vein": {
-			"distribution": "fractal",
-			"generator": {
-				"type": "large-vein",
-				"block": [
-				{"name": "minecraft:iron_ore","metadata": 0, "weight": 95},
-				{"name": "thermalfoundation:ore", "metadata": 5, "weight": 5}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 75
-			},
-			"cluster-count": 50,
-			"chunk-chance": 30,
-			"min-height": 33,
-			"max-height": 57,
-			"vein-height": 20,
-			"vein-diameter": 30,
-			"vertical-density": 7,
-			"horizontal-density": 5,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "PLAINS"
-						},
-						{
-							"type": "dictionary",
-							"entry": "FOREST"
-							}		
-				]
-			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
+	    "distribution": "fractal",
+	    "generator": {
+		"type": "large-vein",
+		"block": [
+		    {"name": "minecraft:iron_ore","metadata": 0, "weight": 95},
+		    {"name": "thermalfoundation:ore", "metadata": 5, "weight": 5}
+		],
+		"material": "minecraft:stone",
+		"cluster-size": 75
+	    },
+	    "cluster-count": 50,
+	    "chunk-chance": 30,
+	    "min-height": 33,
+	    "max-height": 57,
+	    "vein-height": 20,
+	    "vein-diameter": 30,
+	    "vertical-density": 7,
+	    "horizontal-density": 5,
+	    "retrogen": "true",
+	    "biome": {
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "PLAINS"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "FOREST"
+		    }		
+		]
+	    },
+	    "dimension": {
+		"restriction": "whitelist",
+		"value": [
+		    0
+		]
+	    }
         },
         "Lapis_Gauss": {
-			"distribution": "gaussian",
-			"generator": {
-				"block": "lapis_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 50
-			},
-			"cluster-count": 40,
-			"chunk-chance": 25,
-			"center-height": 13,
-			"spread": 16,
-			"retrogen": "true",
+	    "distribution": "gaussian",
+	    "generator": {
+		"block": "lapis_ore",
+		"material": "minecraft:stone",
+		"cluster-size": 50
+	    },
+	    "cluster-count": 40,
+	    "chunk-chance": 25,
+	    "center-height": 13,
+	    "spread": 16,
+	    "retrogen": "true",
             "biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "SANDY"
-						},
-						{
-							"type": "dictionary",
-							"entry": "MESA"
-						}		
-				]
-			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
+		"restriction": "whitelist",
+		"value": [
+		    {
+			"type": "dictionary",
+			"entry": "SANDY"
+		    },
+		    {
+			"type": "dictionary",
+			"entry": "MESA"
+		    }		
+		]
+	    },
+	    "dimension": {
+		"restriction": "whitelist",
+		"value": [
+		    0
+		]
+	    }
         },
         "Lead/Silver_Vein": {
             "distribution": "uniform",
@@ -885,7 +885,7 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [
-                   0
+                    0
                 ]
             }
         },
@@ -893,17 +893,17 @@
             "distribution": "uniform",
             "generator": {
                 "block": [
-					{
+		    {
                         "name": "mekanism:oreblock",
                         "metadata": 0,
                         "weight": 90
                     },
-					{
+		    {
                         "name": "minecraft:iron_ore",
                         "metadata": 0,
                         "weight": 10
                     }
-					],
+		],
                 "material": [
                     {
                         "name": "minecraft:stone",
@@ -1086,7 +1086,7 @@
                 ]
             }
         },
-		"Rutile_Vein": {
+	"Rutile_Vein": {
             "distribution": "fractal",
             "generator": {
                 "type": "large-vein",
