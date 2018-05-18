@@ -54,6 +54,7 @@ rec {
     ];
     blacklist = [
       "creeperhost-minetogether"  # Fuck that.
+      "fps-reducer"  # Seems to cause a memory leak?
     ];
   };
 
