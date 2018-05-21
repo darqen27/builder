@@ -55,6 +55,7 @@ rec {
     blacklist = [
       "creeperhost-minetogether"  # Fuck that.
       "fps-reducer"  # Seems to cause a memory leak?
+      "signals"  # Reduces TPS a lot. Wow this is terrible.
     ];
   };
 
