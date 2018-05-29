@@ -145,13 +145,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "antiqueatlas-1.12.2-4.4.8.jar";
+      "filename" = "antiqueatlas-1.12.2-4.4.9.jar";
       "maturity" = "release";
-      "encoded" = "antiqueatlas-1.12.2-4.4.8.jar";
-      "page" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2558761";
-      "src" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2558761/download";
+      "encoded" = "antiqueatlas-1.12.2-4.4.9.jar";
+      "page" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2562856";
+      "src" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2562856/download";
       "type" = "remote";
-      "md5" = "b89e140ca4b7680cca37f5511da2b812";
+      "md5" = "418efd525a64878d75a984e53670c1ef";
     };
     "applecore" = {
       "title" = "AppleCore";
@@ -252,7 +252,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["baubles"];
       "filename" = "astralsorcery-1.12.2-1.8.9.jar";
       "encoded" = "astralsorcery-1.12.2-1.8.9.jar";
       "page" = "https://minecraft.curseforge.com/projects/241721/files/2556379";
@@ -861,13 +861,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "compactmachines3-1.12.2-3.0.11-b207.jar";
+      "filename" = "compactmachines3-1.12.2-3.0.12-b215.jar";
       "maturity" = "beta";
-      "encoded" = "compactmachines3-1.12.2-3.0.11-b207.jar";
-      "page" = "https://minecraft.curseforge.com/projects/compact-machines/files/2558529";
-      "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2558529/download";
+      "encoded" = "compactmachines3-1.12.2-3.0.12-b215.jar";
+      "page" = "https://minecraft.curseforge.com/projects/compact-machines/files/2567196";
+      "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2567196/download";
       "type" = "remote";
-      "md5" = "91f7ceeee86482e3aaf79c0088bbfab5";
+      "md5" = "851574ecc9803579a8a622925cc86202";
     };
     "computercraft" = {
       "title" = "ComputerCraft";
@@ -2836,13 +2836,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "prefab-1.3.0.20.jar";
+      "filename" = "prefab-1.3.0.21.jar";
       "maturity" = "release";
-      "encoded" = "prefab-1.3.0.20.jar";
-      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2556916";
-      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2556916/download";
+      "encoded" = "prefab-1.3.0.21.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2567074";
+      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2567074/download";
       "type" = "remote";
-      "md5" = "eca194c12ef6a75b731f71de6c479bc9";
+      "md5" = "c3cbb8e3bb1171da81458aa2cce48c37";
     };
     "pretty-beaches" = {
       "title" = "Pretty Beaches";
@@ -3112,10 +3112,10 @@
       "filename" = "Ruins-1.12.2.jar";
       "maturity" = "release";
       "encoded" = "Ruins-1.12.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2549128";
-      "src" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2549128/download";
+      "page" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2563380";
+      "src" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2563380/download";
       "type" = "remote";
-      "md5" = "f3342c626818be64c9164e66b3499476";
+      "md5" = "9acd2a92349d62280ac27e6aa43c2fa9";
     };
     "rustic" = {
       "title" = "Rustic";
@@ -3462,13 +3462,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "twilightforest-1.12.2-3.6.345-universal.jar";
+      "filename" = "twilightforest-1.12.2-3.7.424-universal.jar";
       "maturity" = "release";
-      "encoded" = "twilightforest-1.12.2-3.6.345-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2528109";
-      "src" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2528109/download";
+      "encoded" = "twilightforest-1.12.2-3.7.424-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393";
+      "src" = "https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393/download";
       "type" = "remote";
-      "md5" = "21a022ef5c11156f6f8cc93abaf56c41";
+      "md5" = "259044e6377dab17697557033bbd7ff9";
     };
     "thermal-cultivation" = {
       "title" = "Thermal Cultivation";
@@ -3645,7 +3645,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["tombmanygraves-2-api"];
       "filename" = "TombManyGraves-1.12-4.0.3.jar";
       "encoded" = "TombManyGraves-1.12-4.0.3.jar";
       "page" = "https://minecraft.curseforge.com/projects/262823/files/2556918";
@@ -3662,6 +3662,22 @@
       "default" = true;
       "deps" = [];
       "type" = "missing";
+    };
+    "tombmanygraves-2-api" = {
+      "title" = "TombManyGraves 2 API";
+      "name" = "tombmanygraves-2-api";
+      "id" = 294202;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "tombmanygraves2api-1.12.2-1.0.0.jar";
+      "maturity" = "beta";
+      "encoded" = "tombmanygraves2api-1.12.2-1.0.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tombmanygraves-2-api/files/2563073";
+      "src" = "https://minecraft.curseforge.com/projects/tombmanygraves-2-api/files/2563073/download";
+      "type" = "remote";
+      "md5" = "9e6790d8ddc4617629ddf0ab08b318eb";
     };
     "tool-belt" = {
       "title" = "Tool Belt";
@@ -3793,13 +3809,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "filename" = "VanillaFix-1.0.1-6.jar";
+      "filename" = "VanillaFix-1.0.6-53.jar";
       "maturity" = "beta";
-      "encoded" = "VanillaFix-1.0.1-6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2558913";
-      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2558913/download";
+      "encoded" = "VanillaFix-1.0.6-53.jar";
+      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2566272";
+      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2566272/download";
       "type" = "remote";
-      "md5" = "7fe2d077415ee54536548e6ffd5e9dd1";
+      "md5" = "5bc332a91d6c1e3147c8365efbd9095c";
     };
     "villager-market" = {
       "title" = "Villager Market";
