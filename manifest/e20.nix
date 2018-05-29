@@ -2168,6 +2168,22 @@
       "type" = "remote";
       "md5" = "56a13adfead9a4a995d910014d926246";
     };
+    "laggoggles" = {
+      "title" = "LagGoggles";
+      "name" = "laggoggles";
+      "id" = 283525;
+      "side" = "both";
+      "required" = false;
+      "default" = false;
+      "deps" = [];
+      "filename" = "LagGoggles-FORGE-1.12.2-4.1.jar";
+      "maturity" = "release";
+      "encoded" = "LagGoggles-FORGE-1.12.2-4.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/laggoggles/files/2536205";
+      "src" = "https://minecraft.curseforge.com/projects/laggoggles/files/2536205/download";
+      "type" = "remote";
+      "md5" = "508e3da28e01551d9e140eaf033c18af";
+    };
     "librarianlib" = {
       "title" = "LibrarianLib";
       "name" = "librarianlib";
