@@ -37,11 +37,9 @@ case "${1:-}" in
     while true; do sleep 10; maybestop; done
     ;;
   '')
-    for grace in `seq 7 -1 0`; do
+    for grace in `seq 3 -1 1`; do
       maybestop
-      if [[ $(($grace % 3)) -eq 1 ]]; then
-        say "say Server restarting in $grace minutes, or when empty"
-      fi
+      say "say Server restarting in $grace minutes, or when empty"
       sleep 60
     done
     stop
