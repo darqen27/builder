@@ -130,6 +130,7 @@ mods:
   required: false
   default: true
 - name: "initial-inventory"
+- name: "fastworkbench"
 
 # Non-curse tools:
 - name: "sampler"
