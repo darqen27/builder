@@ -7,9 +7,9 @@ cd "$(dirname "$(readlink -f "$0")")"
 
 source ./scripts.sh
 
-say 'difficulty 0'
+#say 'difficulty 0'
 sleep 5
-say 'difficulty 3'
+#say 'difficulty 3'
 sleep 10
 
 maybestop() {
