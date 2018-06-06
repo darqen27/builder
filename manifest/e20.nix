@@ -221,13 +221,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Aroma1997Core-1.12.2-2.0.0.0.b150.jar";
+      "filename" = "Aroma1997Core-1.12.2-2.0.0.0.b154.jar";
       "maturity" = "beta";
-      "encoded" = "Aroma1997Core-1.12.2-2.0.0.0.b150.jar";
-      "page" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2554530";
-      "src" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2554530/download";
+      "encoded" = "Aroma1997Core-1.12.2-2.0.0.0.b154.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2568916";
+      "src" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2568916/download";
       "type" = "remote";
-      "md5" = "84b9edfb34806aa2ceb1259cf266fd1d";
+      "md5" = "f15148527e1f65c7d37ed4730c334501";
     };
     "aroma1997s-dimensional-world" = {
       "title" = "Aroma1997s Dimensional World";
@@ -426,51 +426,6 @@
       "src" = "https://minecraft.curseforge.com/projects/better-placement/files/2481852/download";
       "type" = "remote";
       "md5" = "f4518692cd397dd5beda3903289352f7";
-    };
-    "better-questing" = {
-      "title" = "Better Questing";
-      "name" = "better-questing";
-      "id" = 238856;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "BetterQuesting-3.5.256.jar";
-      "encoded" = "BetterQuesting-3.5.256.jar";
-      "page" = "https://minecraft.curseforge.com/projects/238856/files/2558221";
-      "src" = "https://minecraft.curseforge.com/projects/better-questing/files/2558221/download";
-      "type" = "remote";
-      "md5" = "245f82fc447246dd0c5def00c03b552c";
-    };
-    "better-questing-quest-book" = {
-      "title" = "Better Questing - Quest Book";
-      "name" = "better-questing-quest-book";
-      "id" = 242106;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["better-questing"];
-      "filename" = "questbook-3.1.1-1.12.jar";
-      "encoded" = "questbook-3.1.1-1.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/242106/files/2539562";
-      "src" = "https://minecraft.curseforge.com/projects/better-questing-quest-book/files/2539562/download";
-      "type" = "remote";
-      "md5" = "aa802b89cd4244d0bfaff4b60a0f5654";
-    };
-    "better-questing-standard-expansion" = {
-      "title" = "Better Questing - Standard Expansion";
-      "name" = "better-questing-standard-expansion";
-      "id" = 238857;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "StandardExpansion-3.4.141.jar";
-      "encoded" = "StandardExpansion-3.4.141.jar";
-      "page" = "https://minecraft.curseforge.com/projects/238857/files/2544426";
-      "src" = "https://minecraft.curseforge.com/projects/better-questing-standard-expansion/files/2544426/download";
-      "type" = "remote";
-      "md5" = "b0a01a56a08a30fba210bb4bfc213b2a";
     };
     "betterfps" = {
       "title" = "BetterFps";
@@ -1102,13 +1057,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["eleccore" "mcjtylib"];
-      "filename" = "deepresonance-1.12-1.6.0.jar";
+      "filename" = "deepresonance-1.12-1.7.0.jar";
       "maturity" = "release";
-      "encoded" = "deepresonance-1.12-1.6.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2514028";
-      "src" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2514028/download";
+      "encoded" = "deepresonance-1.12-1.7.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2569365";
+      "src" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2569365/download";
       "type" = "remote";
-      "md5" = "a171b1e5cfb9af4fee3ef46ba2d5df45";
+      "md5" = "659bbaeeff95068132dd317d0d537747";
     };
     "default-options" = {
       "title" = "Default Options";
@@ -1848,13 +1803,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["track-api"];
-      "filename" = "ImmersiveRailroading-1.0.1_1.12.jar";
+      "filename" = "ImmersiveRailroading-1.2.0_1.12.jar";
       "maturity" = "release";
-      "encoded" = "ImmersiveRailroading-1.0.1_1.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2550661";
-      "src" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2550661/download";
+      "encoded" = "ImmersiveRailroading-1.2.0_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2569589";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2569589/download";
       "type" = "remote";
-      "md5" = "d6a46dfc79d3214b432b179fa7b04ea7";
+      "md5" = "9874903ff7c15e196bfc6e62f48c8925";
     };
     "immersive-tech" = {
       "title" = "Immersive Tech";
@@ -2819,13 +2774,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["placebo"];
-      "filename" = "Plants-1.12.2-2.8.5.jar";
+      "filename" = "Plants-1.12.2-2.8.6.jar";
       "maturity" = "release";
-      "encoded" = "Plants-1.12.2-2.8.5.jar";
-      "page" = "https://minecraft.curseforge.com/projects/plants/files/2560490";
-      "src" = "https://minecraft.curseforge.com/projects/plants/files/2560490/download";
+      "encoded" = "Plants-1.12.2-2.8.6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plants/files/2568811";
+      "src" = "https://minecraft.curseforge.com/projects/plants/files/2568811/download";
       "type" = "remote";
-      "md5" = "c24d376c657a271aca2da3490f53789f";
+      "md5" = "8e895e8db01035fa6b0e2ecf13f84363";
     };
     "playersdropheads" = {
       "title" = "PlayersDropHeads";
@@ -2880,13 +2835,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "prefab-1.3.0.21.jar";
+      "filename" = "prefab-1.3.0.22.jar";
       "maturity" = "release";
-      "encoded" = "prefab-1.3.0.21.jar";
-      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2567074";
-      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2567074/download";
+      "encoded" = "prefab-1.3.0.22.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2568180";
+      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2568180/download";
       "type" = "remote";
-      "md5" = "c3cbb8e3bb1171da81458aa2cce48c37";
+      "md5" = "9c02007a0cf68466e2907629f1804c96";
     };
     "pretty-beaches" = {
       "title" = "Pretty Beaches";
@@ -3852,13 +3807,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "filename" = "VanillaFix-1.0.6-53.jar";
-      "maturity" = "beta";
-      "encoded" = "VanillaFix-1.0.6-53.jar";
-      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2566272";
-      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2566272/download";
+      "filename" = "VanillaFix-1.0.7-72.jar";
+      "maturity" = "release";
+      "encoded" = "VanillaFix-1.0.7-72.jar";
+      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2568470";
+      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2568470/download";
       "type" = "remote";
-      "md5" = "5bc332a91d6c1e3147c8365efbd9095c";
+      "md5" = "55d5d4954fd970b4babb43983fb78b82";
     };
     "villager-market" = {
       "title" = "Villager Market";

@@ -94,21 +94,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "better-questing"
-  id: 238856
-  title: "Better Questing"
-  files:
-  - name: "BetterQuesting-3.5.256.jar"
-    id: 2558221
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238856/files/2558221"
-    src: "https://minecraft.curseforge.com/projects/better-questing/files/2558221/download"
-    md5: "245f82fc447246dd0c5def00c03b552c"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "betterfps"
   id: 229876
   title: "BetterFps"
@@ -1915,22 +1900,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "better-questing-quest-book"
-  id: 242106
-  title: "Better Questing - Quest Book"
-  files:
-  - name: "questbook-3.1.1-1.12.jar"
-    id: 2539562
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/242106/files/2539562"
-    src: "https://minecraft.curseforge.com/projects/better-questing-quest-book/files/2539562/download"
-    md5: "aa802b89cd4244d0bfaff4b60a0f5654"
-  side: "both"
-  deps:
-  - "better-questing"
-  required: true
-  default: true
-  curse: true
 - name: "quick-leaf-decay"
   id: 225839
   title: "Quick Leaf Decay"
@@ -2329,21 +2298,6 @@ mods:
     filePageUrl: "https://minecraft.curseforge.com/projects/256141/files/2559659"
     src: "https://minecraft.curseforge.com/projects/rustic/files/2559659/download"
     md5: "53e3c3255b9d27c8c569dac4ee7294f4"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
-- name: "better-questing-standard-expansion"
-  id: 238857
-  title: "Better Questing - Standard Expansion"
-  files:
-  - name: "StandardExpansion-3.4.141.jar"
-    id: 2544426
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238857/files/2544426"
-    src: "https://minecraft.curseforge.com/projects/better-questing-standard-expansion/files/2544426/download"
-    md5: "b0a01a56a08a30fba210bb4bfc213b2a"
   side: "both"
   deps: []
   required: true
