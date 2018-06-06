@@ -1057,13 +1057,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["eleccore" "mcjtylib"];
-      "filename" = "deepresonance-1.12-1.7.0.jar";
+      "filename" = "deepresonance-1.12-1.6.0.jar";
       "maturity" = "release";
-      "encoded" = "deepresonance-1.12-1.7.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2569365";
-      "src" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2569365/download";
+      "encoded" = "deepresonance-1.12-1.6.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2514028";
+      "src" = "https://minecraft.curseforge.com/projects/deep-resonance/files/2514028/download";
       "type" = "remote";
-      "md5" = "659bbaeeff95068132dd317d0d537747";
+      "md5" = "a171b1e5cfb9af4fee3ef46ba2d5df45";
     };
     "default-options" = {
       "title" = "Default Options";
