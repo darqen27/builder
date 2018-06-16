@@ -221,13 +221,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Aroma1997Core-1.12.2-2.0.0.0.b154.jar";
+      "filename" = "Aroma1997Core-1.12.2-2.0.0.0.b155.jar";
       "maturity" = "beta";
-      "encoded" = "Aroma1997Core-1.12.2-2.0.0.0.b154.jar";
-      "page" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2568916";
-      "src" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2568916/download";
+      "encoded" = "Aroma1997Core-1.12.2-2.0.0.0.b155.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2570729";
+      "src" = "https://minecraft.curseforge.com/projects/aroma1997core/files/2570729/download";
       "type" = "remote";
-      "md5" = "f15148527e1f65c7d37ed4730c334501";
+      "md5" = "456083ad6c9b1f8e1ec1e01ed5caa820";
     };
     "aroma1997s-dimensional-world" = {
       "title" = "Aroma1997s Dimensional World";
@@ -237,13 +237,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["aroma1997core"];
-      "filename" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b69.jar";
+      "filename" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b77.jar";
       "maturity" = "alpha";
-      "encoded" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b69.jar";
-      "page" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2554521";
-      "src" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2554521/download";
+      "encoded" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b77.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2571960";
+      "src" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2571960/download";
       "type" = "remote";
-      "md5" = "c6eaa1ecc266e9cc700d17f655772d47";
+      "md5" = "4425ccb06f1674282b564dd4d3638984";
     };
     "astral-sorcery" = {
       "title" = "Astral Sorcery";
@@ -509,7 +509,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["elulib"];
+      "deps" = ["mysticallib"];
       "filename" = "blockcraftery-0.1.3.jar";
       "encoded" = "blockcraftery-0.1.3.jar";
       "page" = "https://minecraft.curseforge.com/projects/278882/files/2485336";
@@ -1144,13 +1144,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "filename" = "DynamicSurroundings-1.12.2-3.4.9.13.jar";
+      "filename" = "DynamicSurroundings-1.12.2-3.4.9.14.jar";
       "maturity" = "release";
-      "encoded" = "DynamicSurroundings-1.12.2-3.4.9.13.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2558747";
-      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2558747/download";
+      "encoded" = "DynamicSurroundings-1.12.2-3.4.9.14.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2571988";
+      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2571988/download";
       "type" = "remote";
-      "md5" = "35099addeb1119e535f780d67dafb37f";
+      "md5" = "414371b3992ae0da61b2eb5b22cd2a93";
     };
     "dynmapforge" = {
       "title" = "DynmapForge";
@@ -1183,21 +1183,6 @@
       "src" = "https://minecraft.curseforge.com/projects/eleccore/files/2510914/download";
       "type" = "remote";
       "md5" = "ad6b16a7b1f6fdbcf44ff0f99cb5b097";
-    };
-    "elulib" = {
-      "title" = "EluLib";
-      "name" = "elulib";
-      "id" = 277064;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "elulib-0.1.12.jar";
-      "encoded" = "elulib-0.1.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/277064/files/2533966";
-      "src" = "https://minecraft.curseforge.com/projects/elulib/files/2533966/download";
-      "type" = "remote";
-      "md5" = "473c5cc42c88e61db013eab03e39016a";
     };
     "embers" = {
       "title" = "Embers";
@@ -1803,13 +1788,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["track-api"];
-      "filename" = "ImmersiveRailroading-1.2.0_1.12.jar";
+      "filename" = "ImmersiveRailroading-1.2.1_1.12.jar";
       "maturity" = "release";
-      "encoded" = "ImmersiveRailroading-1.2.0_1.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2569589";
-      "src" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2569589/download";
+      "encoded" = "ImmersiveRailroading-1.2.1_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2570988";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2570988/download";
       "type" = "remote";
-      "md5" = "9874903ff7c15e196bfc6e62f48c8925";
+      "md5" = "14c99a5a1f57466e16bd14f966ad965f";
     };
     "immersive-tech" = {
       "title" = "Immersive Tech";
@@ -2515,6 +2500,21 @@
       "type" = "remote";
       "md5" = "4034d1d2f4b3d6cf3b3f0799594ca6bc";
     };
+    "mysticallib" = {
+      "title" = "MysticalLib";
+      "name" = "mysticallib";
+      "id" = 277064;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "elulib-0.1.12.jar";
+      "encoded" = "elulib-0.1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/277064/files/2533966";
+      "src" = "https://minecraft.curseforge.com/projects/mysticallib/files/2533966/download";
+      "type" = "remote";
+      "md5" = "473c5cc42c88e61db013eab03e39016a";
+    };
     "natura" = {
       "title" = "Natura";
       "name" = "natura";
@@ -2835,13 +2835,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "prefab-1.3.0.22.jar";
+      "filename" = "prefab-1.3.0.23.jar";
       "maturity" = "release";
-      "encoded" = "prefab-1.3.0.22.jar";
-      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2568180";
-      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2568180/download";
+      "encoded" = "prefab-1.3.0.23.jar";
+      "page" = "https://minecraft.curseforge.com/projects/prefab/files/2572740";
+      "src" = "https://minecraft.curseforge.com/projects/prefab/files/2572740/download";
       "type" = "remote";
-      "md5" = "9c02007a0cf68466e2907629f1804c96";
+      "md5" = "9377da93f46d44aab7d5a108ccda7745";
     };
     "pretty-beaches" = {
       "title" = "Pretty Beaches";
@@ -3807,13 +3807,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "filename" = "VanillaFix-1.0.7-72.jar";
+      "filename" = "VanillaFix-1.0.8-88.jar";
       "maturity" = "release";
-      "encoded" = "VanillaFix-1.0.7-72.jar";
-      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2568470";
-      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2568470/download";
+      "encoded" = "VanillaFix-1.0.8-88.jar";
+      "page" = "https://minecraft.curseforge.com/projects/vanillafix/files/2570263";
+      "src" = "https://minecraft.curseforge.com/projects/vanillafix/files/2570263/download";
       "type" = "remote";
-      "md5" = "55d5d4954fd970b4babb43983fb78b82";
+      "md5" = "3cecac2aa3f8b24c4da947ba6aeaccf8";
     };
     "villager-market" = {
       "title" = "Villager Market";
