@@ -1907,12 +1907,13 @@
       "name" = "inventory-tweaks";
       "id" = 223094;
       "side" = "both";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "InventoryTweaks-1.64-dev.jar";
+      "maturity" = "alpha";
       "encoded" = "InventoryTweaks-1.64-dev.jar";
-      "page" = "https://minecraft.curseforge.com/projects/223094/files/2514356";
+      "page" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2514356";
       "src" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2514356/download";
       "type" = "remote";
       "md5" = "30791650e1af0293a8fbc26756a0e92f";

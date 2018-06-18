@@ -1579,16 +1579,7 @@ mods:
 - name: "inventory-tweaks"
   id: 223094
   title: "Inventory Tweaks"
-  files:
-  - name: "InventoryTweaks-1.64-dev.jar"
-    id: 2514356
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223094/files/2514356"
-    src: "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2514356/download"
-    md5: "30791650e1af0293a8fbc26756a0e92f"
-  side: "both"
-  deps: []
-  required: true
+  required: false
   default: true
   curse: true
 - name: "jaopca"
