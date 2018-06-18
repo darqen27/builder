@@ -3805,7 +3805,7 @@
       "id" = 292785;
       "side" = "client";
       "required" = false;
-      "default" = true;
+      "default" = false;
       "deps" = [];
       "filename" = "VanillaFix-1.0.8-88.jar";
       "maturity" = "release";

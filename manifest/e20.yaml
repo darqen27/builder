@@ -128,7 +128,7 @@ mods:
 - name: "vanillafix"
   side: "client"
   required: false
-  default: true
+  default: false
 - name: "initial-inventory"
 - name: "fastworkbench"
 
