@@ -66,7 +66,7 @@ rec {
   };
 
   # To use:
-  # nix-build -A ServerPackLocal && (cd result && python -m SimpleHTTPServer)
+  # (nix build -f . ServerPackLocal && cd result && python -m SimpleHTTPServer)
   ServerPackLocal = buildServerPack rec {
     inherit packs;
     hostname = "localhost:8000";
