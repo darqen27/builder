@@ -1,0 +1,13 @@
+# Lines that begin with [<index>] will be loaded into the inventory slot at the given index.
+# Indexes for the vanilla inventory are:
+#     0-8  : player hotbar
+#     9-35 : main inventory
+#     36-39: armor inventory in the order boots, leggings, chestplate, helmet
+# If a given index is out of range the mod will attempt to load that item into the first available inventory slot after adding all other items.
+[36]minecraft:leather_boots, 1
+[37]minecraft:leather_leggings, 1
+[38]minecraft:leather_chestplate, 1
+[39]minecraft:leather_chestplate, 1
+simpleachievements:achievement_book, 1
+simpleachievements:achievement_stand:1, 1
+enchiridion:book.withTag({identifier: "Summon_The_Harvest_Goddess"}), 1

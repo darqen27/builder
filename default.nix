@@ -21,6 +21,7 @@ rec {
 
   packs = {
     e20 = buildPack e20;
+    incognito = buildPack farmingValley;
   };
 
   e20 = {
@@ -56,6 +57,31 @@ rec {
       "creeperhost-minetogether"  # Fuck that.
       "fps-reducer"  # Seems to cause a memory leak?
       "signals"  # Reduces TPS a lot. Wow this is terrible.
+    ];
+  };
+
+  farmingValley = {
+    name = "incognito";
+    screenName = "incognito";
+    description = "Incognito: Farming Valley (experimental Eln pack)";
+    ram = "7000m";
+    port = 25566;
+    forge = {
+      major = "1.10.2";
+      minor = "12.18.3.2511";
+    };
+    extraDirs = [
+      ./third_party/ruins-1.12
+      ./base/farmingvalley
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/farmingvalley.nix
     ];
   };
 

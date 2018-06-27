@@ -1,0 +1,193 @@
+{
+    "images":
+    {
+
+    },
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": -100,
+            "posY": -36,
+            "alignment": "center",
+            "width": 98,
+            "height": 20,
+            "texture" : "test:textures/gui/title/background/shortbutton.png",
+            "normalTextColor":5290180,			
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+			
+        },
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": 2,
+            "posY": -36,
+            "alignment": "center",
+            "width": 98,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/shortbutton.png",
+			"normalTextColor":5290180,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "Mods",
+            "posX": 2,
+            "posY": 12,
+            "alignment": "center",
+            "width": 98,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/shortbutton.png",
+			"normalTextColor":5290180,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "options": {
+            "text": "menu.options",
+            "posX": -100,
+            "posY": -12,
+            "alignment": "center",
+            "width": 98,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/shortbutton.png",
+			"normalTextColor":5290180,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "posX": 2,
+            "posY": -12,
+            "alignment": "center",
+            "width": 98,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/shortbutton.png",
+            "normalTextColor":5290180,
+            "hoverTextColor":16711680,			
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+
+        "Blog": {
+            "text": "Blog",
+            "posX": -50,
+            "posY": 36,
+            "alignment": "center",
+            "width": 50,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/tinybutton.png",
+			"normalTextColor":5290180,
+            "tooltip": "Link to Kehaans Blog",
+            "action": {
+                "type": "openLink",
+                "link": "http://kehaan.me/"
+            
+			}
+        },
+		        "YouTube": {
+            "text": "YouTube",
+            "posX": -100,
+            "posY": 36,
+            "alignment": "center",
+            "width": 50,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/tinybutton.png",
+			"normalTextColor":5290180,
+            "tooltip": "Link to Kehaans YouTube",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.youtube.com/user/Kehaan"
+            
+			}
+        },
+        "Twitter": {
+            "text": "Twitter",
+            "posX": 0,
+            "posY": 36,
+            "alignment": "center",
+            "width": 50,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/tinybutton.png",
+			"normalTextColor":5290180,
+            "tooltip": "Link to Kehaans Twitter",
+            "action": {
+                "type": "openLink",
+                "link": "https://twitter.com/KehaanDK"
+            }
+        
+    },
+         "Twitch": {
+            "text": "Twitch",
+            "posX": 50,
+            "posY": 36,
+            "alignment": "center",
+            "width": 50,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/tinybutton.png",
+			"normalTextColor":5290180,
+            "tooltip": "Link to Kehaans Twitch. ",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.twitch.tv/kehaan"
+            }
+        },
+         "Create Server": {
+            "text": "Create Server",
+            "posX": -100,
+            "posY": 12,
+            "alignment": "center",
+            "width": 98,
+            "height": 20,
+			"texture" : "test:textures/gui/title/background/shortbutton.png",
+			"normalTextColor":5290180,
+            "tooltip": "I recommend NodeCraft, for MC Server hosting.",
+            "action": {
+                "type": "openLink",
+                "link": "https://nodecraft.com/r/kehaan"
+            }
+        }
+    },  	
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -28,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		        "background":
+        {
+            "image" : "test:textures/gui/title/background/background.png",
+			            "mode" : "stretch"
+            }
+
+    }
+}
