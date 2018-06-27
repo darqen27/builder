@@ -9,21 +9,6 @@ mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <harvestrea
 <harvestreader:cropreader>.addTooltip(format.green("This item can be bought at Jenni"));
 <harvestreader:cropreader>.addTooltip(format.green("Right click on a crop, to get info about it"));
 
-// --- Decocraft ---
-recipes.remove(<props:props:508>);
-recipes.remove(<props:clay>);
-recipes.remove(<props:clay:1>);
-recipes.remove(<props:clay:2>);
-
-mods.harvestfestival.Shops.addPurchasableToBuilder(<props:props:508>, 0, 0, 5000);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<props:clay>, 0, 0, 10);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<props:clay:1>, 0, 0, 10);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<props:clay:2>, 0, 0, 10);
-
-<props:props:508>.addTooltip(format.green("This item can be bought at Yulif"));
-<props:clay>.addTooltip(format.green("This item can be bought at Yulif"));
-<props:clay:1>.addTooltip(format.green("This item can be bought at Yulif"));
-<props:clay:2>.addTooltip(format.green("This item can be bought at Yulif"));
 
 // --- Immersive Engineering ---
 recipes.remove(<immersiveengineering:material:8>);
@@ -44,6 +29,7 @@ recipes.remove(<immersiveengineering:metalDecoration0>);
 recipes.remove(<immersiveengineering:metalDecoration0:1>);
 recipes.remove(<immersiveengineering:metalDecoration0:2>);
 recipes.remove(<immersiveengineering:woodenDevice0:2>);
+recipes.remove(<immersiveengineering:metalDevice1:13>);
 recipes.remove(<immersiveengineering:tool:1>);
 recipes.remove(<immersiveengineering:tool>);
 recipes.remove(<immersiveengineering:tool:2>);
@@ -61,6 +47,7 @@ recipes.remove(<immersiveengineering:metalDecoration0:3>);
 <immersiveengineering:metalDecoration0:1>.addTooltip(format.green("This item can be bought at the General Store"));
 <immersiveengineering:metalDecoration0:2>.addTooltip(format.green("This item can be bought at the General Store"));
 <immersiveengineering:woodenDevice0:2>.addTooltip(format.green("This item can be bought at the General Store"));
+<immersiveengineering:metalDevice1:13>.addTooltip(format.green("This item can be bought at the General Store"));
 <immersiveengineering:tool:1>.addTooltip(format.green("This item can be bought at the General Store"));
 <immersiveengineering:tool>.addTooltip(format.green("This item can be bought at the General Store"));
 <immersiveengineering:tool:2>.addTooltip(format.green("This item can be bought at the General Store"));
@@ -80,6 +67,8 @@ recipes.remove(<immersiveengineering:metalDecoration0:3>);
 <immersiveengineering:drillhead:1>.addTooltip(format.green("This item can be bought at the Mining Hut"));
 <immersiveengineering:metalDecoration0:3>.addTooltip(format.green("This item can be bought at the BlackSmith"));
 
+mods.harvestfestival.Shops.addShopToNPC("daniel", "blacksmith", "Hello!", "friday,10000,16000;saturday,10000,16000;sunday,10000,16000;monday,10000,16000;tuesday,10000,16000;wednesday,10000,16000", "If you want to see what i sell, come back friday through wednesday between 10:00 to 16:00");
+
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <immersiveengineering:material:8>, 500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:connector>, 500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:connector:2>, 500);
@@ -91,23 +80,26 @@ mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveen
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:metalDecoration0:1>, 500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:metalDecoration0:2>, 500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:woodenDevice0:2>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:metalDevice1:13>, 5000000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:tool>, 2500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general",<immersiveengineering:tool:2>, 2500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:miner",<immersiveengineering:drillhead:1>, 10000);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metal:3>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metal:2>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metal>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metal:1>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metal:5>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metal:4>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:stoneDecoration:1>, 1000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metal:3>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metal:2>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metal>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metal:1>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metal:5>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metal:4>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:stoneDecoration:1>, 1000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:stoneDecoration:0>, 750);
 
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <immersiveengineering:metalDecoration0:3>, 2500);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <immersiveengineering:metalDecoration0:3>, 2500);
 
 // RailCraft
 recipes.remove(<railcraft:borehead_iron>);
 <railcraft:borehead_iron>.addTooltip(format.green("This item can be bought at the Mining Hut"));
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:miner", <railcraft:borehead_iron>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:miner", <minecraft:lapis_ore>, 500);
 
 // Psi
 
@@ -127,7 +119,7 @@ mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <psi:cadAss
 // SoulShard
 recipes.remove(<soulshardstow:BlockCage>);
 <soulshardstow:BlockCage>.addTooltip(format.green("This item can be bought at the BlackSmith"));
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <soulshardstow:BlockCage>, 1000000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <soulshardstow:BlockCage>, 1000000);
 
 // StorageDrawers
 
@@ -141,8 +133,8 @@ recipes.remove(<storagedrawers:upgradeTemplate>);
 <storagedrawers:compDrawers>.addTooltip(format.green("This item can be bought at the BlackSmith"));
 <storagedrawers:upgradeTemplate>.addTooltip(format.green("This item can be bought at the General Store"));
 
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <storagedrawers:controller>, 5000);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <storagedrawers:compDrawers>, 5000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <storagedrawers:controller>, 5000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <storagedrawers:compDrawers>, 5000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <storagedrawers:tape>, 250);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <storagedrawers:upgradeTemplate>, 500);
 
@@ -168,13 +160,13 @@ mods.harvestfestival.Shops.addPurchasable("harvestfestival:poultry", <forestry:f
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:poultry", <forestry:ffarm>.withTag({FarmBlock: 10}), 2000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:poultry", <forestry:ffarm>.withTag({FarmBlock: 11}), 2000);
 
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <forestry:ingotTin>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <forestry:sturdyMachine>, 20000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <forestry:ingotTin>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <forestry:sturdyMachine>, 20000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <forestry:scoop>, 2000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <forestry:smoker>, 2000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <forestry:grafter>, 2000);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:miner", <forestry:resources>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <forestry:ingotBronze>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <forestry:ingotBronze>, 100);
 
 <forestry:resources>.addTooltip(format.green("This item can be bought at the Mining Hut"));
 <forestry:sturdyMachine>.addTooltip(format.green("This item can be bought at the BlackSmith"));
@@ -210,9 +202,9 @@ mods.harvestfestival.Shops.addPurchasable("harvestfestival:miner", <forestry:min
 
 recipes.remove(<botania:altar>);
 
-mods.harvestfestival.Shops.addShopToNPC("katlin", "Gadgets", "Hello, i have a small shop with gadgets?!", "friday,5000,16000;monday,5000,16000;tuesday,5000,16000", "If you want to see what i sell, come back friday, monday and tuesday between 05:00 to 16:00");
+mods.harvestfestival.Shops.addShopToNPC("fenn", "Gadgets", "Hello, i have a small shop with gadgets?!", "friday,5000,16000;monday,5000,16000;tuesday,5000,16000", "If you want to see what i sell, come back friday, monday and tuesday between 05:00 to 16:00");
 mods.harvestfestival.Shops.addPurchasable("MineTweaker3:gadgets", <botania:altar>, 100000);
-<botania:altar>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
+<botania:altar>.addTooltip(format.green("This item can be bought at Fenn"));
 
 recipes.remove(<botania:pestleAndMortar>);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:general", <botania:pestleAndMortar>, 2500);
@@ -320,18 +312,18 @@ recipes.remove(<cyclicmagic:ender_wool>);
 recipes.remove(<cyclicmagic:mattock>);
 recipes.remove(<cyclicmagic:tool_trade>);
 
-<cyclicmagic:tool_warp_home>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:sprout_seed>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:tool_auto_torch>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:sleeping_mat>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:book_ender>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:apple_emerald>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:tool_mount>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:ender_pearl_mounted>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:uncrafting_block>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:chest_sack_empty>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:storage_bag>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:sack_ender>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
+<cyclicmagic:tool_warp_home>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:sprout_seed>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:tool_auto_torch>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:sleeping_mat>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:book_ender>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:apple_emerald>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:tool_mount>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:ender_pearl_mounted>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:uncrafting_block>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:chest_sack_empty>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:storage_bag>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:sack_ender>.addTooltip(format.green("This item can be bought at Fenn"));
 <cyclicmagic:horse_upgrade_speed>.addTooltip(format.green("This item can be bought at the Animal Ranch"));
 <cyclicmagic:horse_upgrade_variant>.addTooltip(format.green("This item can be bought at the Animal Ranch"));
 <cyclicmagic:horse_upgrade_jump>.addTooltip(format.green("This item can be bought at the Animal Ranch"));
@@ -339,25 +331,25 @@ recipes.remove(<cyclicmagic:tool_trade>);
 <cyclicmagic:horse_upgrade_type>.addTooltip(format.green("This item can be bought at the Animal Ranch"));
 <cyclicmagic:block_fishing>.addTooltip(format.green("This item can be bought at the Baitshop"));
 <cyclicmagic:ender_fishing>.addTooltip(format.green("This item can be bought at the Baitshop"));
-<cyclicmagic:glove_climb>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:ender_blaze>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:ender_lightning>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:fire_killer>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:ender_water>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:glowing_chorus>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<toughasnails:canteen>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
+<cyclicmagic:glove_climb>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:ender_blaze>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:ender_lightning>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:fire_killer>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:ender_water>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:glowing_chorus>.addTooltip(format.green("This item can be bought at Fenn"));
+<toughasnails:canteen>.addTooltip(format.green("This item can be bought at Fenn"));
 
-<cyclicmagic:block_shears>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:plate_vector>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:purple_boots>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:purple_leggings>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:password_remote>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:ender_dungeon>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:purple_helmet>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:purple_chestplate>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:ender_wool>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:mattock>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
-<cyclicmagic:tool_trade>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
+<cyclicmagic:block_shears>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:plate_vector>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:purple_boots>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:purple_leggings>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:password_remote>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:ender_dungeon>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:purple_helmet>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:purple_chestplate>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:ender_wool>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:mattock>.addTooltip(format.green("This item can be bought at Fenn"));
+<cyclicmagic:tool_trade>.addTooltip(format.green("This item can be bought at Fenn"));
 
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:barn",<cyclicmagic:horse_upgrade_speed>, 500);
 mods.harvestfestival.Shops.addPurchasable("harvestfestival:barn",<cyclicmagic:horse_upgrade_variant>, 500);
@@ -411,10 +403,10 @@ mods.harvestfestival.Shops.addPurchasable("harvestfestival:miner", <cyclicmagic:
 
 recipes.remove(<cyclicmagic:magic_net>);
 mods.harvestfestival.Shops.addPurchasable("MineTweaker3:gadgets", <cyclicmagic:magic_net>, 500);
-<cyclicmagic:magic_net>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
+<cyclicmagic:magic_net>.addTooltip(format.green("This item can be bought at Fenn"));
 recipes.remove(<cyclicmagic:exp_pylon>);
 mods.harvestfestival.Shops.addPurchasable("MineTweaker3:gadgets", <cyclicmagic:exp_pylon>, 25000);
-<cyclicmagic:exp_pylon>.addTooltip(format.green("This item can be bought at Katlin in the Cafe"));
+<cyclicmagic:exp_pylon>.addTooltip(format.green("This item can be bought at Fenn"));
 
 // Refined Storage
 recipes.remove(<refinedstorage:quartz_enriched_iron>);
@@ -423,8 +415,8 @@ recipes.remove(<refinedstorage:machine_casing>);
 <refinedstorage:quartz_enriched_iron>.addTooltip(format.green("This item can be bought at the BlackSmith"));
 <refinedstorage:machine_casing>.addTooltip(format.green("This item can be bought at the BlackSmith"));
 
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <refinedstorage:quartz_enriched_iron>, 100);
-mods.harvestfestival.Shops.addPurchasable("harvestfestival:blacksmith", <refinedstorage:machine_casing>, 25000);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <refinedstorage:quartz_enriched_iron>, 100);
+mods.harvestfestival.Shops.addPurchasable("MineTweaker3:blacksmith", <refinedstorage:machine_casing>, 25000);
 
 // --- Bibliocraft ---
 
@@ -474,28 +466,34 @@ recipes.remove(<bibliocraft:Bell>);
 <bibliocraft:ArmorStand>.addTooltip(format.green("This item can be bought at Yulif"));
 <bibliocraft:Bell>.addTooltip(format.green("This item can be bought at Yulif"));
 
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:LampGold>, 0, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:LampIron>, 0, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:LanternGold>, 0, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:LanternIron>, 0, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:FramingSaw>, 1, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:TypesettingTable>, 0, 0, 2000);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:PrintingPress>, 0, 0, 2000);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:BiblioClipboard>, 0, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Bookcase>, 6, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Shelf>, 6, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:PotionShelf>, 3, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:ToolRack>, 3, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Desk>, 32, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Table>, 16, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:FramedChest>, 16, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Seat>, 6, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Case>, 6, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:FancyWorkbench>, 16, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Label>, 2, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Clock>, 32, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:ArmorStand>, 16, 0, 500);
-mods.harvestfestival.Shops.addPurchasableToBuilder(<bibliocraft:Bell>, 16, 0, 250);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<minecraft:snow>, 50);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<minecraft:brick_block>, 50);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<minecraft:bookshelf>, 2000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<minecraft:sea_lantern>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<minecraft:lit_pumpkin>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<minecraft:glowstone>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:LampGold>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:LampIron>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:LanternGold>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:LanternIron>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:FramingSaw>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:TypesettingTable>, 2000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:PrintingPress>, 2000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:BiblioClipboard>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Bookcase>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Shelf>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:PotionShelf>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:ToolRack>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Desk>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Table>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:FramedChest>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Seat>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Case>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:FancyWorkbench>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Label>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Clock>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:ArmorStand>, 500);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:carpenter",<bibliocraft:Bell>, 250);
 
 // --- InventoryPets ---
 
@@ -707,46 +705,46 @@ recipes.remove(<soggytransportation:BlueBike>);
 recipes.remove(<soggytransportation:Bike>);
 recipes.remove(<soggytransportation:Biplane>);
 
-mods.harvestfestival.Shops.addShopToNPC("girafi", "mechanic", "I used to be an adventurer, but then i decided to become a mechanic.", "thursday,1000,14000;friday,1000,14000;saturday,1000,14000;sunday,1000,14000", "My small workshop only opens thursday to sunday between 01:00 and 14:00.");
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Car>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:WhiteBike>, 1000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:UFO>, 1000000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Glider>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:HotAirBalloon>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Helicopter>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:RainbowCar>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:PoliceCar>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Truck>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Rocket>, 1000000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Flintmobile>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:DirtBike>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Taxi>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:CoolCar>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:BumperCar>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:SoggyMobile>, 100000);
+
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Car>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:WhiteBike>, 1000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:UFO>, 1000000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Glider>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:HotAirBalloon>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Helicopter>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:RainbowCar>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:PoliceCar>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Truck>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Rocket>, 1000000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Flintmobile>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:DirtBike>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Taxi>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:CoolCar>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:BumperCar>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:SoggyMobile>, 100000);
 mods.harvestfestival.Shops.addPurchasable("MineTweaker3:church", <soggytransportation:Moon>, 1000000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Snowmobile>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Ambulance>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:HorseCarriage>, 10000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Jeep>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:HorseWagon>, 10000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:GolfCart>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:DuneBuggy>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Forklift>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Snowmobile>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Ambulance>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:HorseCarriage>, 10000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Jeep>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:HorseWagon>, 10000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:GolfCart>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:DuneBuggy>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Forklift>, 100000);
 mods.harvestfestival.Shops.addPurchasable("MineTweaker3:church", <soggytransportation:Earth>, 1000000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:BasketBike>, 1000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:ElectricScooter>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:GiantHamsterBall>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:FancyCar>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Wagon>, 10000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Unicycle>, 1000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Motorcycle>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Hovercraft>, 1000000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:WheelBarrel>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:GlassBall>, 100000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:BlueBike>, 1000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Bike>, 1000);
-mods.harvestfestival.Shops.addPurchasable("MineTweaker3:mechanic", <soggytransportation:Biplane>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:BasketBike>, 1000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:ElectricScooter>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:GiantHamsterBall>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:FancyCar>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Wagon>, 10000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Unicycle>, 1000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Motorcycle>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Hovercraft>, 1000000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:WheelBarrel>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:GlassBall>, 100000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:BlueBike>, 1000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Bike>, 1000);
+mods.harvestfestival.Shops.addPurchasable("harvestfestival:trader", <soggytransportation:Biplane>, 100000);
 
 <soggytransportation:Car>.addTooltip(format.green("This item can be bought at Johan at the General Store"));
 <soggytransportation:WhiteBike>.addTooltip(format.green("This item can be bought at Johan at the General Store"));
