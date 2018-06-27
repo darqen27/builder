@@ -81,7 +81,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/farmingvalley.nix
+      ./manifest/i20.nix
     ];
   };
 
