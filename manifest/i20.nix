@@ -438,6 +438,22 @@
       "deps" = [];
       "type" = "missing";
     };
+    "compatlayer" = {
+      "title" = "CompatLayer";
+      "name" = "compatlayer";
+      "id" = 253729;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "compatlayer-1.10-0.3.1.jar";
+      "maturity" = "release";
+      "encoded" = "compatlayer-1.10-0.3.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/compatlayer/files/2532012";
+      "src" = "https://minecraft.curseforge.com/projects/compatlayer/files/2532012/download";
+      "type" = "remote";
+      "md5" = "077f555b563fc1ced1309199c2c3f078";
+    };
     "cooking-for-blockheads" = {
       "title" = "Cooking for Blockheads";
       "name" = "cooking-for-blockheads";
@@ -582,22 +598,6 @@
       "type" = "remote";
       "md5" = "76d9d638dce84c64145ae694b2ccf88b";
     };
-    "dynmapforge" = {
-      "title" = "DynmapForge";
-      "name" = "dynmapforge";
-      "id" = 59433;
-      "side" = "server";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Dynmap-2.4-forge-1.10.2.jar";
-      "maturity" = "release";
-      "encoded" = "Dynmap-2.4-forge-1.10.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2380601";
-      "src" = "https://minecraft.curseforge.com/projects/dynmapforge/files/2380601/download";
-      "type" = "remote";
-      "md5" = "1521eb6831dea63bd914f648629b8196";
-    };
     "eiramoticons" = {
       "title" = "EiraMoticons";
       "name" = "eiramoticons";
@@ -671,6 +671,22 @@
       "default" = true;
       "deps" = [];
       "type" = "missing";
+    };
+    "foamfix-for-minecraft" = {
+      "title" = "FoamFix for Minecraft";
+      "name" = "foamfix-for-minecraft";
+      "id" = 278494;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "foamfix-0.7.3-anarchy.jar";
+      "maturity" = "release";
+      "encoded" = "foamfix-0.7.3-anarchy.jar";
+      "page" = "https://minecraft.curseforge.com/projects/foamfix-for-minecraft/files/2545197";
+      "src" = "https://minecraft.curseforge.com/projects/foamfix-for-minecraft/files/2545197/download";
+      "type" = "remote";
+      "md5" = "935db4eb9a152c42805bff8faa37a25e";
     };
     "forestry" = {
       "title" = "Forestry";
@@ -1140,6 +1156,22 @@
       "type" = "remote";
       "md5" = "4fb4b912351c96f4435809f3e1284bb0";
     };
+    "mtqfix" = {
+      "title" = "MTQFix";
+      "name" = "mtqfix";
+      "id" = 259059;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "mtqfix-1.10.2-1.0.0.jar";
+      "maturity" = "release";
+      "encoded" = "mtqfix-1.10.2-1.0.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mtqfix/files/2379094";
+      "src" = "https://minecraft.curseforge.com/projects/mtqfix/files/2379094/download";
+      "type" = "remote";
+      "md5" = "c3b000f11e83ccdc20474f68665e5b58";
+    };
     "natura" = {
       "title" = "Natura";
       "name" = "natura";
@@ -1230,22 +1262,6 @@
       "type" = "remote";
       "md5" = "6b47cab3be4614a6113c8f893eb76005";
     };
-    "prometheus-integration" = {
-      "title" = "Prometheus Integration";
-      "name" = "prometheus-integration";
-      "id" = 254573;
-      "side" = "server";
-      "required" = true;
-      "default" = true;
-      "deps" = ["shadowfacts-forgelin"];
-      "filename" = "prometheus-integration-0.2.1.jar";
-      "maturity" = "alpha";
-      "encoded" = "prometheus-integration-0.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655";
-      "src" = "https://minecraft.curseforge.com/projects/prometheus-integration/files/2352655/download";
-      "type" = "remote";
-      "md5" = "bf5d489de876b487b1a78b1b3040810f";
-    };
     "psi" = {
       "title" = "Psi";
       "name" = "psi";
@@ -1320,6 +1336,22 @@
       "type" = "remote";
       "md5" = "7e4e264ef75d32b094a18ced605dd001";
     };
+    "realistic-terrain-generation" = {
+      "title" = "Realistic Terrain Generation";
+      "name" = "realistic-terrain-generation";
+      "id" = 237989;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "RTG-1.10.2-4.1.3.0-FINAL.jar";
+      "maturity" = "release";
+      "encoded" = "RTG-1.10.2-4.1.3.0-FINAL.jar";
+      "page" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2550453";
+      "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2550453/download";
+      "type" = "remote";
+      "md5" = "ed7ba5b035f1225aadc4aee4ce628dd4";
+    };
     "reauth" = {
       "title" = "ReAuth";
       "name" = "reauth";
@@ -1385,20 +1417,17 @@
       "md5" = "fd851602890014f31b54ad0e009e5612";
     };
     "ruins-structure-spawning-system" = {
-      "title" = "Ruins (Structure Spawning System)";
+      "title" = "ruins-structure-spawning-system";
       "name" = "ruins-structure-spawning-system";
-      "id" = 227873;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Ruins-1.10.2.zip";
-      "maturity" = "release";
-      "encoded" = "Ruins-1.10.2.zip";
-      "page" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2367312";
-      "src" = "https://minecraft.curseforge.com/projects/ruins-structure-spawning-system/files/2367312/download";
-      "type" = "remote";
-      "md5" = "451b2f8993f723ef76dc9c6affde01fa";
+      "filename" = "Ruins-1.10.2.jar";
+      "encoded" = "Ruins-1.10.2.jar";
+      "src" = ../third_party/1.10.2/Ruins-1.10.2.jar;
+      "type" = "local";
+      "md5" = "be6a93a5289d04added96fbeb8501795";
     };
     "sampler" = {
       "title" = "Sampler";
@@ -1431,22 +1460,6 @@
       "src" = "https://minecraft.curseforge.com/projects/scannable/files/2567963/download";
       "type" = "remote";
       "md5" = "602968cae0c54919bb752bb83d5588ea";
-    };
-    "shadowfacts-forgelin" = {
-      "title" = "Shadowfacts' Forgelin";
-      "name" = "shadowfacts-forgelin";
-      "id" = 248453;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Forgelin-1.7.4.jar";
-      "maturity" = "release";
-      "encoded" = "Forgelin-1.7.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2573311";
-      "src" = "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2573311/download";
-      "type" = "remote";
-      "md5" = "0ab4c2ac9bc3bc2f6c4929b70a7bf7d2";
     };
     "signal-catcher" = {
       "title" = "Signal-Catcher";

@@ -1,11 +1,19 @@
 version: "1.10.2"
 
 mods:
+# Needed by..?
+- name: "compatlayer"
+- name: "foamfix-for-minecraft"
+
 # Worldgen mods:
+- name: "realistic-terrain-generation"
 #- name: "wild-mobs-mod"
 #- name: "exotic-birds"
 - name: "streams"
 - name: "ruins-structure-spawning-system"
+  curse: false
+  files:
+  - src: "../third_party/1.10.2/Ruins-1.10.2.jar"
 - name: "recurrent-complex"
 
 # Decoration:
@@ -57,10 +65,8 @@ mods:
 - name: "worldedit"
 - name: "signal-catcher"
   side: "server"
-- name: "dynmapforge"
-  side: "server"
-- name: "prometheus-integration"
-  side: "server"
+#- name: "prometheus-integration"
+#  side: "server"
 
 # Tool mods:
 - name: "morpheus"
@@ -73,6 +79,7 @@ mods:
   side: "client"
 - name: "chunkpregenerator"
 - name: "gotta-go-fast"
+- name: "mtqfix"
 - name: "tickprofiler"
   required: false
 - name: "laggoggles"
