@@ -438,6 +438,22 @@
       "deps" = [];
       "type" = "missing";
     };
+    "climate-control-geographicraft" = {
+      "title" = "Climate Control/Geographicraft";
+      "name" = "climate-control-geographicraft";
+      "id" = 76544;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "GeographiCraft-1.9-1.11-0.8.9.jar";
+      "maturity" = "release";
+      "encoded" = "GeographiCraft-1.9-1.11-0.8.9.jar";
+      "page" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2486027";
+      "src" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2486027/download";
+      "type" = "remote";
+      "md5" = "2993e8d56c4147fcc29c137ae3687e4c";
+    };
     "compatlayer" = {
       "title" = "CompatLayer";
       "name" = "compatlayer";

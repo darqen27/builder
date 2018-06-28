@@ -7,13 +7,8 @@ mods:
 
 # Worldgen mods:
 - name: "realistic-terrain-generation"
-#- name: "wild-mobs-mod"
-#- name: "exotic-birds"
+- name: "climate-control-geographicraft"
 - name: "streams"
-#- name: "ruins-structure-spawning-system"
-#  curse: false
-#  files:
-#  - src: "../third_party/1.10.2/Ruins-1.10.2.jar"
 - name: "recurrent-complex"
 
 # Decoration:
