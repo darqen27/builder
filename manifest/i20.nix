@@ -1416,19 +1416,6 @@
       "type" = "remote";
       "md5" = "fd851602890014f31b54ad0e009e5612";
     };
-    "ruins-structure-spawning-system" = {
-      "title" = "ruins-structure-spawning-system";
-      "name" = "ruins-structure-spawning-system";
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Ruins-1.10.2.jar";
-      "encoded" = "Ruins-1.10.2.jar";
-      "src" = ../third_party/1.10.2/Ruins-1.10.2.jar;
-      "type" = "local";
-      "md5" = "be6a93a5289d04added96fbeb8501795";
-    };
     "sampler" = {
       "title" = "Sampler";
       "name" = "sampler";
