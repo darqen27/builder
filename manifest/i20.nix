@@ -900,22 +900,6 @@
       "type" = "remote";
       "md5" = "05f321ecddd2253fa83742cd21feda9c";
     };
-    "inventory-pets" = {
-      "title" = "Inventory Pets";
-      "name" = "inventory-pets";
-      "id" = 229380;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "inventorypets-1.10-1.5.2.jar";
-      "maturity" = "release";
-      "encoded" = "inventorypets-1.10-1.5.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/inventory-pets/files/2576156";
-      "src" = "https://minecraft.curseforge.com/projects/inventory-pets/files/2576156/download";
-      "type" = "remote";
-      "md5" = "d016785a21e64eb8c95ed738d80ef0ee";
-    };
     "inventory-sorter" = {
       "title" = "Inventory Sorter";
       "name" = "inventory-sorter";

@@ -510,14 +510,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "inventory-pets"
-  id: 229380
-  title: "Inventory Pets"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "chance-cubes"
   id: 233113
   title: "Chance Cubes"

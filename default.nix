@@ -73,7 +73,7 @@ rec {
     name = "incognito";
     screenName = "incognito";
     description = "Incognito: Farming Valley (experimental Eln pack)";
-    ram = "7000m";
+    ram = "2800m";
     port = 25566;
     forge = {
       major = "1.10.2";
