@@ -510,13 +510,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "CTM-MC1.10.2-0.3.0.32.jar";
+      "filename" = "CTM-MC1.10.2-0.3.1.33.jar";
       "maturity" = "beta";
-      "encoded" = "CTM-MC1.10.2-0.3.0.32.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ctm/files/2568993";
-      "src" = "https://minecraft.curseforge.com/projects/ctm/files/2568993/download";
+      "encoded" = "CTM-MC1.10.2-0.3.1.33.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ctm/files/2578678";
+      "src" = "https://minecraft.curseforge.com/projects/ctm/files/2578678/download";
       "type" = "remote";
-      "md5" = "c7acb301aec14afecefff758cf0850f2";
+      "md5" = "65f335923e9aad89b9b1b31771c0cde2";
     };
     "custom-main-menu" = {
       "title" = "Custom Main Menu";
@@ -1172,22 +1172,6 @@
       "type" = "remote";
       "md5" = "c3b000f11e83ccdc20474f68665e5b58";
     };
-    "natura" = {
-      "title" = "Natura";
-      "name" = "natura";
-      "id" = 74120;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["mantle"];
-      "filename" = "natura-1.10.2-4.1.0.82.jar";
-      "maturity" = "beta";
-      "encoded" = "natura-1.10.2-4.1.0.82.jar";
-      "page" = "https://minecraft.curseforge.com/projects/natura/files/2496387";
-      "src" = "https://minecraft.curseforge.com/projects/natura/files/2496387/download";
-      "type" = "remote";
-      "md5" = "edc1caba7a7dcbdda7d6693acbced24f";
-    };
     "neat" = {
       "title" = "Neat";
       "name" = "neat";
@@ -1596,22 +1580,6 @@
       "deps" = [];
       "type" = "missing";
     };
-    "the-spice-of-life" = {
-      "title" = "The Spice of Life";
-      "name" = "the-spice-of-life";
-      "id" = 220811;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["applecore"];
-      "filename" = "SpiceOfLife-mc1.9.4-1.3.11.jar";
-      "maturity" = "release";
-      "encoded" = "SpiceOfLife-mc1.9.4-1.3.11.jar";
-      "page" = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2486846";
-      "src" = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2486846/download";
-      "type" = "remote";
-      "md5" = "21b6f3dd08a09007cd1617b3a68aeec9";
-    };
     "thump" = {
       "title" = "Thump";
       "name" = "thump";
@@ -1659,22 +1627,6 @@
       "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461668/download";
       "type" = "remote";
       "md5" = "cb3d3b33c4909217795da56c315d9382";
-    };
-    "tough-as-nails" = {
-      "title" = "Tough As Nails";
-      "name" = "tough-as-nails";
-      "id" = 246391;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "ToughAsNails-1.9.4-1.1.1.66-universal.jar";
-      "maturity" = "beta";
-      "encoded" = "ToughAsNails-1.9.4-1.1.1.66-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tough-as-nails/files/2480288";
-      "src" = "https://minecraft.curseforge.com/projects/tough-as-nails/files/2480288/download";
-      "type" = "remote";
-      "md5" = "f83e6c7e07b0255eee052acc656a1950";
     };
     "vanillafix" = {
       "title" = "VanillaFix";

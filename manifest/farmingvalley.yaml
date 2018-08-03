@@ -182,14 +182,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "tough-as-nails"
-  id: 246391
-  title: "Tough As Nails"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "soul-shards-the-old-ways"
   id: 226958
   title: "Soul Shards: The Old Ways"
@@ -410,15 +402,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "the-spice-of-life"
-  id: 220811
-  title: "The Spice of Life"
-  side: "both"
-  deps:
-  - "applecore"
-  required: true
-  default: true
-  curse: true
 - name: "better-foliage"
   id: 228529
   title: "Better Foliage"
@@ -473,15 +456,6 @@ mods:
   side: "both"
   deps:
   - "chameleon"
-  required: true
-  default: true
-  curse: true
-- name: "natura"
-  id: 74120
-  title: "Natura"
-  side: "both"
-  deps:
-  - "mantle"
   required: true
   default: true
   curse: true

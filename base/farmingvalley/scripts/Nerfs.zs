@@ -81,20 +81,20 @@ recipes.remove(<bibliocraft:Bookcase:3>);
 recipes.remove(<bibliocraft:Bookcase:1>);
 recipes.remove(<bibliocraft:Bookcase:2>);
 
-recipes.remove(<natura:seed_bags:3>);
-recipes.remove(<natura:seed_bags:2>);
-recipes.remove(<natura:seed_bags:1>);
-recipes.remove(<natura:seed_bags>);
-recipes.remove(<natura:bonemeal_bag>);
-recipes.remove(<natura:overworld_seed_bags>);
-recipes.remove(<natura:overworld_seed_bags:1>);
+// recipes.remove(<natura:seed_bags:3>);
+// recipes.remove(<natura:seed_bags:2>);
+// recipes.remove(<natura:seed_bags:1>);
+// recipes.remove(<natura:seed_bags>);
+// recipes.remove(<natura:bonemeal_bag>);
+// recipes.remove(<natura:overworld_seed_bags>);
+// recipes.remove(<natura:overworld_seed_bags:1>);
 
 recipes.addShaped(<immersiveengineering:drillhead>, [[<immersiveengineering:storage:8>, <immersiveengineering:storage:8>, <immersiveengineering:storage:8>], [<immersiveengineering:storage:8>, <immersiveengineering:drillhead:1>, <immersiveengineering:storage:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
 recipes.addShaped(<railcraft:borehead_steel>, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <railcraft:borehead_iron>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
 recipes.addShaped(<railcraft:borehead_diamond>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <railcraft:borehead_steel>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
 recipes.addShaped(<immersiveengineering:material:9>, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:material:8>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
 
-recipes.addShaped(<minecraft:saddle>, [[<natura:materials:6>, <natura:materials:6>, <natura:materials:6>], [null, <natura:materials:6>, null], [<natura:materials:6>, <natura:materials:6>, <natura:materials:6>]]);
+// recipes.addShaped(<minecraft:saddle>, [[<natura:materials:6>, <natura:materials:6>, <natura:materials:6>], [null, <natura:materials:6>, null], [<natura:materials:6>, <natura:materials:6>, <natura:materials:6>]]);
 
 furnace.remove(<ore:nuggetSteel>);
 
