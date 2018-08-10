@@ -1,0 +1,1934 @@
+---
+version: "1.12.2"
+mods:
+- name: "redstone-flux"
+  id: 270789
+  title: "Redstone Flux"
+  files:
+  - name: "RedstoneFlux-1.12-2.0.2.3-universal.jar"
+    id: 2567260
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/270789/files/2567260"
+    src: "https://minecraft.curseforge.com/projects/redstone-flux/files/2567260/download"
+    md5: "0d15cc1e59c8028cf17f6a78bda460dc"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "astral-sorcery"
+  id: 241721
+  title: "Astral Sorcery"
+  files:
+  - name: "astralsorcery-1.12.2-1.9.3.jar"
+    id: 2579492
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/241721/files/2579492"
+    src: "https://minecraft.curseforge.com/projects/astral-sorcery/files/2579492/download"
+    md5: "78f9318b6ec82f6b91db34802a60ff39"
+  side: "both"
+  deps:
+  - "baubles"
+  required: true
+  default: true
+  curse: true
+- name: "biomes-o-plenty"
+  id: 220318
+  title: "Biomes O' Plenty"
+  files:
+  - name: "BiomesOPlenty-1.12.2-7.0.1.2394-universal.jar"
+    id: 2578530
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/220318/files/2578530"
+    src: "https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2578530/download"
+    md5: "55d1b5e5f60d71423320b16c39da3db7"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "bibliocraft"
+  id: 228027
+  title: "BiblioCraft"
+  files:
+  - name: "BiblioCraft[v2.4.5][MC1.12.2].jar"
+    id: 2574880
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/228027/files/2574880"
+    src: "https://minecraft.curseforge.com/projects/bibliocraft/files/2574880/download"
+    md5: "5b9f1a1543a1fdf687fe4761e3d63ed4"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "pneumaticcraft-repressurized"
+  id: 281849
+  title: "PneumaticCraft: Repressurized"
+  files:
+  - name: "pneumaticcraft-repressurized-1.12.2-0.6.8-219.jar"
+    id: 2577005
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/281849/files/2577005"
+    src: "https://minecraft.curseforge.com/projects/pneumaticcraft-repressurized/files/2577005/download"
+    md5: "e5eafd33a4bef9db1fe1d636661a4c0c"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "cofh-world"
+  id: 271384
+  title: "CoFH World"
+  files:
+  - name: "CoFHWorld-1.12.2-1.2.0.5-universal.jar"
+    id: 2567263
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/271384/files/2567263"
+    src: "https://minecraft.curseforge.com/projects/cofh-world/files/2567263/download"
+    md5: "a5331d71497b0e670a3fa4684e25f4bc"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "light-level-overlay-reloaded"
+  id: 226670
+  title: "Light Level Overlay Reloaded"
+  files:
+  - name: "LLOverlayReloaded-1.1.6-mc1.12.2.jar"
+    id: 2563430
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/226670/files/2563430"
+    src: "https://minecraft.curseforge.com/projects/light-level-overlay-reloaded/files/2563430/download"
+    md5: "23f498874f1596b7a8c167ec4327b360"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "exchangers"
+  id: 270183
+  title: "Exchangers"
+  files:
+  - name: "Exchangers-1.12.2-2.7.3.jar"
+    id: 2579652
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/270183/files/2579652"
+    src: "https://minecraft.curseforge.com/projects/exchangers/files/2579652/download"
+    md5: "aa34386ca27f43285a69acea0b3c340e"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "futurepack"
+  id: 237333
+  title: "Futurepack Mod"
+  files:
+  - name: "Futurepack-1.12.2-26.3.210.jar"
+    id: 2557541
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/237333/files/2557541"
+    src: "https://minecraft.curseforge.com/projects/futurepack/files/2557541/download"
+    md5: "809ec52d021753c4562414d12bd73b60"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "dummycore-unofficial"
+  id: 266491
+  title: "DummyCore Unofficial"
+  files:
+  - name: "DummyCoreUnofficial-2.4.112.3.jar"
+    id: 2524335
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/266491/files/2524335"
+    src: "https://minecraft.curseforge.com/projects/dummycore-unofficial/files/2524335/download"
+    md5: "2ad34fdcaec429252452c3753017e851"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "pams-harvestcraft"
+  id: 221857
+  title: "Pam's HarvestCraft"
+  files:
+  - name: "Pam's HarvestCraft 1.12.2u.jar"
+    id: 2560919
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/221857/files/2560919"
+    src: "https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2560919/download"
+    md5: "d99dba2b235767d3098c0f07d7ae9a01"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "cofhcore"
+  id: 69162
+  title: "CoFH Core"
+  files:
+  - name: "CoFHCore-1.12.2-4.5.2.19-universal.jar"
+    id: 2568324
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/69162/files/2568324"
+    src: "https://minecraft.curseforge.com/projects/cofhcore/files/2568324/download"
+    md5: "042b4e46944453f48079b102f851fc77"
+  side: "both"
+  deps:
+  - "redstone-flux"
+  required: true
+  default: true
+  curse: true
+- name: "just-enough-harvestcraft"
+  id: 267939
+  title: "Just Enough HarvestCraft (JEHC)"
+  files:
+  - name: "JEHC-1.12.2-1.6.0.0.jar"
+    id: 2579543
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/267939/files/2579543"
+    src: "https://minecraft.curseforge.com/projects/just-enough-harvestcraft/files/2579543/download"
+    md5: "9100f6f01ea9561d77fad810c831cc4c"
+  side: "both"
+  deps:
+  - "jei"
+  - "pams-harvestcraft"
+  required: true
+  default: true
+  curse: true
+- name: "mod-name-tooltip"
+  id: 238747
+  title: "Mod Name Tooltip"
+  files:
+  - name: "modnametooltip_1.12.2-1.10.0.jar"
+    id: 2486868
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/238747/files/2486868"
+    src: "https://minecraft.curseforge.com/projects/mod-name-tooltip/files/2486868/download"
+    md5: "6dda75b858fc93e2d18ccd42585aec03"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "autoreglib"
+  id: 250363
+  title: "AutoRegLib"
+  files:
+  - name: "AutoRegLib-1.3-18.jar"
+    id: 2573417
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/250363/files/2573417"
+    src: "https://minecraft.curseforge.com/projects/autoreglib/files/2573417/download"
+    md5: "458d66f0d0a28ece3ac0bd853c13d751"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "extracells2"
+  id: 229218
+  title: "ExtraCells2"
+  files:
+  - name: "ExtraCells-1.12.2-2.5.13a60.jar"
+    id: 2574581
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/229218/files/2574581"
+    src: "https://minecraft.curseforge.com/projects/extracells2/files/2574581/download"
+    md5: "490b3590162b7a0582311d17ba97f5bf"
+  side: "both"
+  deps:
+  - "applied-energistics-2"
+  required: true
+  default: true
+  curse: true
+- name: "bad-wither-no-cookie-reloaded"
+  id: 261251
+  title: "Bad Wither No Cookie - Reloaded"
+  files:
+  - name: "badwithernocookiereloaded-1.12.2-3.1.14.jar"
+    id: 2574107
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/261251/files/2574107"
+    src: "https://minecraft.curseforge.com/projects/bad-wither-no-cookie-reloaded/files/2574107/download"
+    md5: "72383fa09725c689bbf4b8f1b9aa6515"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "nuclearcraft-mod"
+  id: 226254
+  title: "NuclearCraft"
+  files:
+  - name: "NuclearCraft-2.10p--1.12.2.jar"
+    id: 2570095
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/226254/files/2570095"
+    src: "https://minecraft.curseforge.com/projects/nuclearcraft-mod/files/2570095/download"
+    md5: "9c8399923ff725271515573c6a8ff8d0"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "diet-hoppers"
+  id: 278385
+  title: "Diet Hoppers"
+  files:
+  - name: "diethopper-1.1.jar"
+    id: 2482543
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/278385/files/2482543"
+    src: "https://minecraft.curseforge.com/projects/diet-hoppers/files/2482543/download"
+    md5: "1d616cb7b25de3ae44f06e26d18bd07e"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "morpheus"
+  id: 69118
+  title: "Morpheus"
+  files:
+  - name: "Morpheus-1.12-3.3.2.jar"
+    id: 2432272
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/69118/files/2432272"
+    src: "https://minecraft.curseforge.com/projects/morpheus/files/2432272/download"
+    md5: "6beb6c9b45a6526106f728ec35508a0c"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "platforms"
+  id: 244786
+  title: "Platforms"
+  files:
+  - name: "platforms-1.12.0-1.4.5.jar"
+    id: 2539161
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/244786/files/2539161"
+    src: "https://minecraft.curseforge.com/projects/platforms/files/2539161/download"
+    md5: "2ddfe88b8f25c00152ee7aa0b1586156"
+  side: "both"
+  deps:
+  - "shetiphiancore"
+  required: true
+  default: true
+  curse: true
+- name: "advanced-generators"
+  id: 223622
+  title: "Advanced Generators"
+  files:
+  - name: "generators-0.9.20.12-mc1.12.2.jar"
+    id: 2516219
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/223622/files/2516219"
+    src: "https://minecraft.curseforge.com/projects/advanced-generators/files/2516219/download"
+    md5: "7873749b116958f22a3af9d66db06a37"
+  side: "both"
+  deps:
+  - "bdlib"
+  required: true
+  default: true
+  curse: true
+- name: "guide-api"
+  id: 228832
+  title: "Guide-API"
+  files:
+  - name: "Guide-API-1.12-2.1.5-60.jar"
+    id: 2544043
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/228832/files/2544043"
+    src: "https://minecraft.curseforge.com/projects/guide-api/files/2544043/download"
+    md5: "e8513d27bb9d9ab00b47dd5065189687"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "magneticraft"
+  id: 224808
+  title: "Magneticraft"
+  files:
+  - name: "Magneticraft_1.12-2.4.0-dev.jar"
+    id: 2571506
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/224808/files/2571506"
+    src: "https://minecraft.curseforge.com/projects/magneticraft/files/2571506/download"
+    md5: "f80b38f4fe66c3af64c437e36b9309e3"
+  side: "both"
+  deps:
+  - "modelloader"
+  - "shadowfacts-forgelin"
+  required: true
+  default: true
+  curse: true
+- name: "immersive-engineering"
+  id: 231951
+  title: "Immersive Engineering"
+  files:
+  - name: "ImmersiveEngineering-0.12-82.jar"
+    id: 2559547
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/231951/files/2559547"
+    src: "https://minecraft.curseforge.com/projects/immersive-engineering/files/2559547/download"
+    md5: "31416c7c675faa0077b573c82920dc54"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "omlib"
+  id: 254334
+  title: "OMLib"
+  files:
+  - name: "omlib-1.12.2-3.0.0-148.jar"
+    id: 2566693
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/254334/files/2566693"
+    src: "https://minecraft.curseforge.com/projects/omlib/files/2566693/download"
+    md5: "8da4aa1f47c55cc1c6ab2d081bfaa7de"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "environmental-tech"
+  id: 245453
+  title: "Environmental Tech"
+  files:
+  - name: "environmentaltech-1.12.2-2.0.11a.jar"
+    id: 2569380
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/245453/files/2569380"
+    src: "https://minecraft.curseforge.com/projects/environmental-tech/files/2569380/download"
+    md5: "b9b2abeb2088cb7a53aea4d9d2d4dbd6"
+  side: "both"
+  deps:
+  - "valkyrielib"
+  required: true
+  default: true
+  curse: true
+- name: "immersive-petroleum"
+  id: 268250
+  title: "Immersive Petroleum"
+  files:
+  - name: "immersivepetroleum-1.12.2-1.1.9.jar"
+    id: 2544919
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/268250/files/2544919"
+    src: "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2544919/download"
+    md5: "57ba127778e579d10d705f9f8359d2e0"
+  side: "both"
+  deps:
+  - "immersive-engineering"
+  required: true
+  default: true
+  curse: true
+- name: "modelloader"
+  id: 277663
+  title: "ModelLoader"
+  files:
+  - name: "modelloader-1.0.5.jar"
+    id: 2479208
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/277663/files/2479208"
+    src: "https://minecraft.curseforge.com/projects/modelloader/files/2479208/download"
+    md5: "9877233d0cd505a3ff1e6831d5219a62"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "mcmultipart"
+  id: 239431
+  title: "MCMultiPart"
+  files:
+  - name: "MCMultiPart-2.5.1.jar"
+    id: 2556409
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/239431/files/2556409"
+    src: "https://minecraft.curseforge.com/projects/mcmultipart/files/2556409/download"
+    md5: "7a336be77ae656fafa9200a4e42094bf"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "common-capabilities"
+  id: 247007
+  title: "Common Capabilities"
+  files:
+  - name: "CommonCapabilities-1.12-1.4.0.jar"
+    id: 2467504
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/247007/files/2467504"
+    src: "https://minecraft.curseforge.com/projects/common-capabilities/files/2467504/download"
+    md5: "8d99dc5e5df88b6be61a3d12a15e9e36"
+  side: "both"
+  deps:
+  - "cyclops-core"
+  required: true
+  default: true
+  curse: true
+- name: "meecreeps"
+  id: 281390
+  title: "MeeCreeps"
+  files:
+  - name: "meecreeps-1.12-1.2.1.jar"
+    id: 2578658
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/281390/files/2578658"
+    src: "https://minecraft.curseforge.com/projects/meecreeps/files/2578658/download"
+    md5: "88402475354b33173415ebcaaa6fea45"
+  side: "both"
+  deps:
+  - "mcjtylib"
+  required: true
+  default: true
+  curse: true
+- name: "matteroverdrive"
+  id: 229694
+  title: "Matter Overdrive"
+  files:
+  - name: "MatterOverdrive-1.12.2-0.6.0.176-universal.jar"
+    id: 2574418
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/229694/files/2574418"
+    src: "https://minecraft.curseforge.com/projects/matteroverdrive/files/2574418/download"
+    md5: "59fba4c73e5a94e4e08e7f6448cf200b"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "chameleon"
+  id: 230497
+  title: "Chameleon"
+  files:
+  - name: "Chameleon-1.12-4.1.3.jar"
+    id: 2450900
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/230497/files/2450900"
+    src: "https://minecraft.curseforge.com/projects/chameleon/files/2450900/download"
+    md5: "e42efa8f4fd42d2918128a826b740e98"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "rebornstorage"
+  id: 256662
+  title: "Reborn Storage"
+  files:
+  - name: "RebornStorage-1.12.2-3.1.0.50.jar"
+    id: 2564368
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/256662/files/2564368"
+    src: "https://minecraft.curseforge.com/projects/rebornstorage/files/2564368/download"
+    md5: "2b1e4a263c1debd26a8fcc69a9b78c18"
+  side: "both"
+  deps:
+  - "reborncore"
+  - "refined-storage"
+  required: true
+  default: true
+  curse: true
+- name: "engineers-workshop-reborn"
+  id: 282354
+  title: "Engineers Workshop Reborn"
+  files:
+  - name: "EngineersWorkshopReborn-1.12.2-1.0.8.37.jar"
+    id: 2568639
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/282354/files/2568639"
+    src: "https://minecraft.curseforge.com/projects/engineers-workshop-reborn/files/2568639/download"
+    md5: "12aa6b52d0e91b47d79913cb024bea99"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "journeymap"
+  id: 32274
+  title: "JourneyMap"
+  files:
+  - name: "journeymap-1.12.2-5.5.2.jar"
+    id: 2498312
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/32274/files/2498312"
+    src: "https://minecraft.curseforge.com/projects/journeymap/files/2498312/download"
+    md5: "b743562dac1b5334c20ac87b54c0b518"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "fastworkbench"
+  id: 288885
+  title: "FastWorkbench"
+  files:
+  - name: "FastWorkbench-1.12.2-1.5.1.jar"
+    id: 2579685
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/288885/files/2579685"
+    src: "https://minecraft.curseforge.com/projects/fastworkbench/files/2579685/download"
+    md5: "f171417287b620730f4aa43dbeccae17"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "opencomputers"
+  id: 223008
+  title: "OpenComputers"
+  files:
+  - name: "OpenComputers-MC1.12.2-1.7.2.67.jar"
+    id: 2540146
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/223008/files/2540146"
+    src: "https://minecraft.curseforge.com/projects/opencomputers/files/2540146/download"
+    md5: "45ee059c7e7a4c5ff9e9662f82a9c523"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "natures-compass"
+  id: 252848
+  title: "Nature's Compass"
+  files:
+  - name: "NaturesCompass-1.12.2-1.5.1.jar"
+    id: 2513221
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/252848/files/2513221"
+    src: "https://minecraft.curseforge.com/projects/natures-compass/files/2513221/download"
+    md5: "8a1c19eb3a656ba4a577ba9864399540"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "foamfix-for-minecraft"
+  id: 278494
+  title: "FoamFix for Minecraft"
+  files:
+  - name: "foamfix-0.9.9.1-1.12.2-anarchy.jar"
+    id: 2559212
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/278494/files/2559212"
+    src: "https://minecraft.curseforge.com/projects/foamfix-for-minecraft/files/2559212/download"
+    md5: "7f8f1e58481d9acbb9e32caf8d59058a"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "redstone-arsenal"
+  id: 70631
+  title: "Redstone Arsenal"
+  files:
+  - name: "RedstoneArsenal-1.12.2-2.5.1.13-universal.jar"
+    id: 2568564
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/70631/files/2568564"
+    src: "https://minecraft.curseforge.com/projects/redstone-arsenal/files/2568564/download"
+    md5: "27b01b4f829ded381a98d4e160417255"
+  side: "both"
+  deps:
+  - "cofhcore"
+  required: true
+  default: true
+  curse: true
+- name: "integrated-dynamics"
+  id: 236307
+  title: "Integrated Dynamics"
+  files:
+  - name: "IntegratedDynamics-1.12.2-0.11.13.jar"
+    id: 2574981
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/236307/files/2574981"
+    src: "https://minecraft.curseforge.com/projects/integrated-dynamics/files/2574981/download"
+    md5: "3bed3ef4adec6aa32174ce6ed9907bf0"
+  side: "both"
+  deps:
+  - "common-capabilities"
+  - "cyclops-core"
+  required: true
+  default: true
+  curse: true
+- name: "refined-storage-addons"
+  id: 272302
+  title: "Refined Storage Addons"
+  files:
+  - name: "refinedstorageaddons-0.3.jar"
+    id: 2554173
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/272302/files/2554173"
+    src: "https://minecraft.curseforge.com/projects/refined-storage-addons/files/2554173/download"
+    md5: "7311ca9e9ff081810bb4be97d91e3b5c"
+  side: "both"
+  deps:
+  - "refined-storage"
+  required: true
+  default: true
+  curse: true
+- name: "better-builders-wands"
+  id: 238403
+  title: "Better Builder's Wands"
+  files:
+  - name: "BetterBuildersWands-1.12-0.12.0.251+d6c4d93.jar"
+    id: 2580273
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/238403/files/2580273"
+    src: "https://minecraft.curseforge.com/projects/better-builders-wands/files/2580273/download"
+    md5: "e3eb2dc3f11f83a7f24f445856b8f0d9"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "chisels-bits"
+  id: 231095
+  title: "Chisels & Bits"
+  files:
+  - name: "chiselsandbits-14.18.jar"
+    id: 2573151
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/231095/files/2573151"
+    src: "https://minecraft.curseforge.com/projects/chisels-bits/files/2573151/download"
+    md5: "c1c6c8f8845029a72d6c75ca72f01844"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "cooking-for-blockheads"
+  id: 231484
+  title: "Cooking for Blockheads"
+  files:
+  - name: "CookingForBlockheads_1.12.2-6.4.40.jar"
+    id: 2571784
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/231484/files/2571784"
+    src: "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2571784/download"
+    md5: "c2195d942d1bbae1ec1224059f52dacf"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "iron-backpacks"
+  id: 227049
+  title: "Iron Backpacks"
+  files:
+  - name: "IronBackpacks-1.12.2-3.0.8-12.jar"
+    id: 2564573
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/227049/files/2564573"
+    src: "https://minecraft.curseforge.com/projects/iron-backpacks/files/2564573/download"
+    md5: "9fd50b1827b711704c69789aa94ac2ca"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "improvedbackpacks"
+  id: 270457
+  title: "Improved Backpacks"
+  files:
+  - name: "ImprovedBackpacks-1.12.2-1.3.0.0.jar"
+    id: 2575685
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/270457/files/2575685"
+    src: "https://minecraft.curseforge.com/projects/improvedbackpacks/files/2575685/download"
+    md5: "61939d67883c7fe8ff2e508f70080394"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "mysticallib"
+  id: 277064
+  title: "MysticalLib"
+  files:
+  - name: "elulib-0.1.12.jar"
+    id: 2533966
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/277064/files/2533966"
+    src: "https://minecraft.curseforge.com/projects/mysticallib/files/2533966/download"
+    md5: "473c5cc42c88e61db013eab03e39016a"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "advanced-rocketry"
+  id: 236542
+  title: "Advanced Rocketry"
+  files:
+  - name: "AdvancedRocketry-1.12.2-1.4.0-88-universal.jar"
+    id: 2575801
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/236542/files/2575801"
+    src: "https://minecraft.curseforge.com/projects/advanced-rocketry/files/2575801/download"
+    md5: "257048a205c8a17330217a4b0cf0b6bc"
+  side: "both"
+  deps:
+  - "libvulpes"
+  required: true
+  default: true
+  curse: true
+- name: "drcyanos-lootable-bodies"
+  id: 240968
+  title: "DrCyano's Lootable Bodies"
+  files:
+  - name: "DrCyanosLootableBodies_1.12-2.4.0.jar"
+    id: 2529840
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/240968/files/2529840"
+    src: "https://minecraft.curseforge.com/projects/drcyanos-lootable-bodies/files/2529840/download"
+    md5: "c732f8eb0dda9e538bccd2b5bf1092f6"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "blockcraftery"
+  id: 278882
+  title: "Blockcraftery"
+  files:
+  - name: "blockcraftery-0.1.3.jar"
+    id: 2485336
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/278882/files/2485336"
+    src: "https://minecraft.curseforge.com/projects/blockcraftery/files/2485336/download"
+    md5: "73efa2d54b753b62dc0b492b2467115a"
+  side: "both"
+  deps:
+  - "mysticallib"
+  required: true
+  default: true
+  curse: true
+- name: "instantunify"
+  id: 277047
+  title: "InstantUnify"
+  files:
+  - name: "instantunify-1.12.2-1.1.2.jar"
+    id: 2578325
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/277047/files/2578325"
+    src: "https://minecraft.curseforge.com/projects/instantunify/files/2578325/download"
+    md5: "edd6718ffee3f11039c146d0cba47424"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "codechicken-lib-1-8"
+  id: 242818
+  title: "CodeChicken Lib 1.8.+"
+  files:
+  - name: "CodeChickenLib-1.12.2-3.2.0.345-universal.jar"
+    id: 2575906
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/242818/files/2575906"
+    src: "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2575906/download"
+    md5: "b796cd0180fff814afb75e16e46a035f"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "stimmedcow-nomorerecipeconflict"
+  id: 238123
+  title: "stimmedcow : NoMoreRecipeConflict"
+  files:
+  - name: "NoMoreRecipeConflict-0.11(1.12.2).jar"
+    id: 2580355
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/238123/files/2580355"
+    src: "https://minecraft.curseforge.com/projects/stimmedcow-nomorerecipeconflict/files/2580355/download"
+    md5: "1620a1638ec581454d62307419c0c2e3"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "mcjtylib"
+  id: 233105
+  title: "McJtyLib"
+  files:
+  - name: "mcjtylib-1.12-3.0.2.jar"
+    id: 2574696
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/233105/files/2574696"
+    src: "https://minecraft.curseforge.com/projects/mcjtylib/files/2574696/download"
+    md5: "be38cf23d612fad1fa0d39e9b84e3df6"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "ender-storage-1-8"
+  id: 245174
+  title: "Ender Storage 1.8.+"
+  files:
+  - name: "EnderStorage-1.12.2-2.4.4.132-universal.jar"
+    id: 2576657
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/245174/files/2576657"
+    src: "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2576657/download"
+    md5: "9241ec4063c7d0e9ee5c9e36da0f8c9e"
+  side: "both"
+  deps:
+  - "codechicken-lib-1-8"
+  required: true
+  default: true
+  curse: true
+- name: "earthworks"
+  id: 255427
+  title: "Earthworks"
+  files:
+  - name: "Earthworks-1.12-1.3.6.jar"
+    id: 2486190
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/255427/files/2486190"
+    src: "https://minecraft.curseforge.com/projects/earthworks/files/2486190/download"
+    md5: "ccf12258496a6e5936b6e0bc6def74b3"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "aromabackup"
+  id: 225658
+  title: "AromaBackup"
+  files:
+  - name: "AromaBackup-1.12.2-2.1.1.3.b103.jar"
+    id: 2571963
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/225658/files/2571963"
+    src: "https://minecraft.curseforge.com/projects/aromabackup/files/2571963/download"
+    md5: "cbce3436a0c596214b36269c01e32086"
+  side: "both"
+  deps:
+  - "aroma1997core"
+  required: true
+  default: true
+  curse: true
+- name: "shadowfacts-forgelin"
+  id: 248453
+  title: "Shadowfacts' Forgelin"
+  files:
+  - name: "Forgelin-1.7.4.jar"
+    id: 2573311
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/248453/files/2573311"
+    src: "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2573311/download"
+    md5: "0ab4c2ac9bc3bc2f6c4929b70a7bf7d2"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "inventory-tweaks"
+  id: 223094
+  title: "Inventory Tweaks"
+  files:
+  - name: "InventoryTweaks-1.63.jar"
+    id: 2482481
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/223094/files/2482481"
+    src: "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download"
+    md5: "1e2e33e5710394252abc4b014bc3dcbd"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "immersive-cables"
+  id: 283992
+  title: "Immersive Cables"
+  files:
+  - name: "ImmersiveCables-1.12.2-1.3.1.jar"
+    id: 2579102
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/283992/files/2579102"
+    src: "https://minecraft.curseforge.com/projects/immersive-cables/files/2579102/download"
+    md5: "b4f6122c7a933c283ef09ae7bbddd50d"
+  side: "both"
+  deps:
+  - "immersive-engineering"
+  required: true
+  default: true
+  curse: true
+- name: "crafttweaker"
+  id: 239197
+  title: "CraftTweaker"
+  files:
+  - name: "CraftTweaker2-1.12-4.1.9.jar"
+    id: 2576160
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/239197/files/2576160"
+    src: "https://minecraft.curseforge.com/projects/crafttweaker/files/2576160/download"
+    md5: "ca3fb924c8d9d213ace215d492d7b12b"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "chisel"
+  id: 235279
+  title: "Chisel"
+  files:
+  - name: "Chisel-MC1.12.2-0.2.0.31.jar"
+    id: 2535884
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/235279/files/2535884"
+    src: "https://minecraft.curseforge.com/projects/chisel/files/2535884/download"
+    md5: "853c56bd014423e424ecef6db2c1efb1"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "jei-integration"
+  id: 265917
+  title: "JEI Integration"
+  files:
+  - name: "jeiintegration_1.12.2-1.5.1.36.jar"
+    id: 2491927
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/265917/files/2491927"
+    src: "https://minecraft.curseforge.com/projects/jei-integration/files/2491927/download"
+    md5: "de73cdc5de95a2685e50d90f01c03a50"
+  side: "both"
+  deps:
+  - "jei"
+  required: true
+  default: true
+  curse: true
+- name: "baubles"
+  id: 227083
+  title: "Baubles"
+  files:
+  - name: "Baubles-1.12-1.5.2.jar"
+    id: 2518667
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/227083/files/2518667"
+    src: "https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
+    md5: "944dec4ef3fbfd4d498d94a7047af201"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "reliquary-v1-3"
+  id: 241319
+  title: "Reliquary v1.3"
+  files:
+  - name: "Reliquary-1.12.2-1.3.4.767.jar"
+    id: 2572716
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/241319/files/2572716"
+    src: "https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2572716/download"
+    md5: "2912c8b370af4112d606ee02f7cb187d"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "integrated-tunnels"
+  id: 251389
+  title: "Integrated Tunnels"
+  files:
+  - name: "IntegratedTunnels-1.12.2-1.5.6.jar"
+    id: 2563914
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/251389/files/2563914"
+    src: "https://minecraft.curseforge.com/projects/integrated-tunnels/files/2563914/download"
+    md5: "0369afe05f401860fdc2391129835b4a"
+  side: "both"
+  deps:
+  - "cyclops-core"
+  - "integrated-dynamics"
+  required: true
+  default: true
+  curse: true
+- name: "aroma1997core"
+  id: 223735
+  title: "Aroma1997Core"
+  files:
+  - name: "Aroma1997Core-1.12.2-2.0.0.0.b155.jar"
+    id: 2570729
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/223735/files/2570729"
+    src: "https://minecraft.curseforge.com/projects/aroma1997core/files/2570729/download"
+    md5: "456083ad6c9b1f8e1ec1e01ed5caa820"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "applied-energistics-2"
+  id: 223794
+  title: "Applied Energistics 2"
+  files:
+  - name: "appliedenergistics2-rv5-stable-11.jar"
+    id: 2543840
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2543840"
+    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download"
+    md5: "f22759d4dcdc8aec7811d457367e106a"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "blood-magic"
+  id: 224791
+  title: "Blood Magic"
+  files:
+  - name: "BloodMagic-1.12.2-2.2.12-97.jar"
+    id: 2558387
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/224791/files/2558387"
+    src: "https://minecraft.curseforge.com/projects/blood-magic/files/2558387/download"
+    md5: "5535681cdf63b34fe7b207aa743c6709"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "reborncore"
+  id: 237903
+  title: "Reborn Core"
+  files:
+  - name: "RebornCore-1.12.2-3.9.2.319-universal.jar"
+    id: 2578014
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/237903/files/2578014"
+    src: "https://minecraft.curseforge.com/projects/reborncore/files/2578014/download"
+    md5: "595f1ba8efcaeef61c7108242e23f911"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "ranged-pumps"
+  id: 247496
+  title: "Ranged Pumps"
+  files:
+  - name: "rangedpumps-0.5.jar"
+    id: 2441326
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/247496/files/2441326"
+    src: "https://minecraft.curseforge.com/projects/ranged-pumps/files/2441326/download"
+    md5: "29512482818fe06791e9af63c611e4b2"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "placebo"
+  id: 283644
+  title: "Placebo"
+  files:
+  - name: "Placebo-1.12.2-1.4.0.jar"
+    id: 2575473
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/283644/files/2575473"
+    src: "https://minecraft.curseforge.com/projects/placebo/files/2575473/download"
+    md5: "25500470a55216bf758b2142464a95ee"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "titanium"
+  id: 287342
+  title: "Titanium"
+  files:
+  - name: "CLib-1.0.2.31-universal.jar"
+    id: 2530936
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/287342/files/2530936"
+    src: "https://minecraft.curseforge.com/projects/titanium/files/2530936/download"
+    md5: "b4ae3a02325d90d59b6ec12eeb106394"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "ompd"
+  id: 254332
+  title: "Open Modular Passive Defense"
+  files:
+  - name: "ompd-1.12.2-3.0.0-36.jar"
+    id: 2578257
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/254332/files/2578257"
+    src: "https://minecraft.curseforge.com/projects/ompd/files/2578257/download"
+    md5: "9e54506beca8d7d76b5e8fc5b9f6b4a2"
+  side: "both"
+  deps:
+  - "omlib"
+  required: true
+  default: true
+  curse: true
+- name: "lunatriuscore"
+  id: 225605
+  title: "LunatriusCore"
+  files:
+  - name: "LunatriusCore-1.12.2-1.2.0.42-universal.jar"
+    id: 2489549
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/225605/files/2489549"
+    src: "https://minecraft.curseforge.com/projects/lunatriuscore/files/2489549/download"
+    md5: "0dae43ef5376822db0399ad254207aa3"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "forge-multipart-cbe"
+  id: 258426
+  title: "Forge MultiPart CBE"
+  files:
+  - name: "ForgeMultipart-1.12.2-2.4.2.60-universal.jar"
+    id: 2573197
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/258426/files/2573197"
+    src: "https://minecraft.curseforge.com/projects/forge-multipart-cbe/files/2573197/download"
+    md5: "b497c3aa87da3a394fc31c1d071e558b"
+  side: "both"
+  deps:
+  - "codechicken-lib-1-8"
+  required: true
+  default: true
+  curse: true
+- name: "openmodularturrets"
+  id: 224663
+  title: "OpenModularTurrets"
+  files:
+  - name: "openmodularturrets-1.12.2-3.0.1-257.jar"
+    id: 2570330
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/224663/files/2570330"
+    src: "https://minecraft.curseforge.com/projects/openmodularturrets/files/2570330/download"
+    md5: "b344c07bb5c323c3f8a3c1a80db967b2"
+  side: "both"
+  deps:
+  - "omlib"
+  required: true
+  default: true
+  curse: true
+- name: "immersive-tech"
+  id: 274159
+  title: "Immersive Tech"
+  files:
+  - name: "immersivetech-1.12-1.3.10.jar"
+    id: 2568579
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/274159/files/2568579"
+    src: "https://minecraft.curseforge.com/projects/immersive-tech/files/2568579/download"
+    md5: "3be088e1e5b1bea50f04cdfb4082a528"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "jei"
+  id: 238222
+  title: "Just Enough Items (JEI)"
+  files:
+  - name: "jei_1.12.2-4.11.0.204.jar"
+    id: 2579282
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/238222/files/2579282"
+    src: "https://minecraft.curseforge.com/projects/jei/files/2579282/download"
+    md5: "c46d40ac0fcda9fe934359226a97dbc2"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "refined-storage"
+  id: 243076
+  title: "Refined Storage"
+  files:
+  - name: "refinedstorage-1.5.34.jar"
+    id: 2564334
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/243076/files/2564334"
+    src: "https://minecraft.curseforge.com/projects/refined-storage/files/2564334/download"
+    md5: "f56c6f1381b9cfb6eaa99a85fa243a94"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "essentialcraft-4-unofficial"
+  id: 254817
+  title: "EssentialCraft 4 Unofficial"
+  files:
+  - name: "EssentialCraftUnofficial-4.9.112.3.jar"
+    id: 2528888
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/254817/files/2528888"
+    src: "https://minecraft.curseforge.com/projects/essentialcraft-4-unofficial/files/2528888/download"
+    md5: "dd3eabf418638e6ae57c4ee6d1794c3c"
+  side: "both"
+  deps:
+  - "baubles"
+  - "codechicken-lib-1-8"
+  - "dummycore-unofficial"
+  required: true
+  default: true
+  curse: true
+- name: "betterfps"
+  id: 229876
+  title: "BetterFps"
+  files:
+  - name: "BetterFps-1.4.8.jar"
+    id: 2483393
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/229876/files/2483393"
+    src: "https://minecraft.curseforge.com/projects/betterfps/files/2483393/download"
+    md5: "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "libvulpes"
+  id: 236541
+  title: "LibVulpes"
+  files:
+  - name: "LibVulpes-1.12.2-0.2.8-32-universal.jar"
+    id: 2568853
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/236541/files/2568853"
+    src: "https://minecraft.curseforge.com/projects/libvulpes/files/2568853/download"
+    md5: "b8f23ba8f448f731adc28bc741b24c6b"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "fast-leaf-decay"
+  id: 230976
+  title: "Fast Leaf Decay"
+  files:
+  - name: "FastLeafDecay-v14.jar"
+    id: 2463272
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/230976/files/2463272"
+    src: "https://minecraft.curseforge.com/projects/fast-leaf-decay/files/2463272/download"
+    md5: "18096ffb7f58d94f8e5a7bf2ff160f0f"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "extra-utilities"
+  id: 225561
+  title: "Extra Utilities"
+  files:
+  - name: "extrautils2-1.12-1.7.6.jar"
+    id: 2550371
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/225561/files/2550371"
+    src: "https://minecraft.curseforge.com/projects/extra-utilities/files/2550371/download"
+    md5: "f74de67942f0bb83bd5e590291238bd5"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "chicken-chunks-1-8"
+  id: 243883
+  title: "Chicken Chunks 1.8.+"
+  files:
+  - name: "ChickenChunks-1.12.2-2.4.1.71-universal.jar"
+    id: 2509854
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/243883/files/2509854"
+    src: "https://minecraft.curseforge.com/projects/chicken-chunks-1-8/files/2509854/download"
+    md5: "dde27f4c11da39eb25684e93d0c6b88b"
+  side: "both"
+  deps:
+  - "codechicken-lib-1-8"
+  required: true
+  default: true
+  curse: true
+- name: "pressure-pipes"
+  id: 221214
+  title: "Pressure Pipes"
+  files:
+  - name: "pressure-1.3.1.6-mc1.12.1.jar"
+    id: 2476931
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/221214/files/2476931"
+    src: "https://minecraft.curseforge.com/projects/pressure-pipes/files/2476931/download"
+    md5: "ba3cc8f060a1fdc13ce429be435d56a8"
+  side: "both"
+  deps:
+  - "bdlib"
+  required: true
+  default: true
+  curse: true
+- name: "openmodslib"
+  id: 228815
+  title: "OpenModsLib"
+  files:
+  - name: "OpenModsLib-1.12.2-0.11.5.jar"
+    id: 2525230
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/228815/files/2525230"
+    src: "https://minecraft.curseforge.com/projects/openmodslib/files/2525230/download"
+    md5: "96d12398277ed4f10609f90d789b191a"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "openblocks"
+  id: 228816
+  title: "OpenBlocks"
+  files:
+  - name: "OpenBlocks-1.12.2-1.7.6.jar"
+    id: 2530225
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/228816/files/2530225"
+    src: "https://minecraft.curseforge.com/projects/openblocks/files/2530225/download"
+    md5: "7581d1ce11ae5f433f9de0a33307ae3c"
+  side: "both"
+  deps:
+  - "openmodslib"
+  required: true
+  default: true
+  curse: true
+- name: "ctm"
+  id: 267602
+  title: "ConnectedTexturesMod"
+  files:
+  - name: "CTM-MC1.12.2-0.3.1.16.jar"
+    id: 2578680
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/267602/files/2578680"
+    src: "https://minecraft.curseforge.com/projects/ctm/files/2578680/download"
+    md5: "c66338cc38940398b22f7c6a8a44df98"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "players-choice"
+  id: 294419
+  title: "Player's Choice"
+  files:
+  - name: "PlayersChoice 1.2-4.jar"
+    id: 2572732
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/294419/files/2572732"
+    src: "https://minecraft.curseforge.com/projects/players-choice/files/2572732/download"
+    md5: "f7da632aff717f4d400311c1b7fbee1b"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "hwyla"
+  id: 253449
+  title: "Hwyla"
+  files:
+  - name: "Hwyla-1.8.26-B41_1.12.2.jar"
+    id: 2568751
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/253449/files/2568751"
+    src: "https://minecraft.curseforge.com/projects/hwyla/files/2568751/download"
+    md5: "bca1c069d9171d331d211d24e8a3b770"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "just-enough-resources-jer"
+  id: 240630
+  title: "Just Enough Resources (JER)"
+  files:
+  - name: "JustEnoughResources-1.12.2-0.8.6.28.jar"
+    id: 2500678
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/240630/files/2500678"
+    src: "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2500678/download"
+    md5: "cc97b42d64dc315e583a6f119b200fdd"
+  side: "both"
+  deps:
+  - "jei"
+  required: true
+  default: true
+  curse: true
+- name: "quark"
+  id: 243121
+  title: "Quark"
+  files:
+  - name: "Quark-r1.4-125.jar"
+    id: 2573421
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/243121/files/2573421"
+    src: "https://minecraft.curseforge.com/projects/quark/files/2573421/download"
+    md5: "5615751ada31e3de67b6f0f5c78560ab"
+  side: "both"
+  deps:
+  - "autoreglib"
+  required: true
+  default: true
+  curse: true
+- name: "better-advancements"
+  id: 272515
+  title: "Better Advancements"
+  files:
+  - name: "BetterAdvancements-1.12.2-0.0.5.17.jar"
+    id: 2504151
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/272515/files/2504151"
+    src: "https://minecraft.curseforge.com/projects/better-advancements/files/2504151/download"
+    md5: "a16be15706357e59ccb196e59d17e33d"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "cyclops-core"
+  id: 232758
+  title: "Cyclops Core"
+  files:
+  - name: "CyclopsCore-1.12.2-0.11.6.jar"
+    id: 2563905
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/232758/files/2563905"
+    src: "https://minecraft.curseforge.com/projects/cyclops-core/files/2563905/download"
+    md5: "10d7e56213a956c62a6c00d92e12b6ab"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "bdlib"
+  id: 70496
+  title: "BdLib"
+  files:
+  - name: "bdlib-1.14.3.12-mc1.12.2.jar"
+    id: 2518031
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/70496/files/2518031"
+    src: "https://minecraft.curseforge.com/projects/bdlib/files/2518031/download"
+    md5: "d2b8ba08414ac12737eb5ecbf92a19d9"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "embers"
+  id: 251918
+  title: "Embers"
+  files:
+  - name: "embers-0.230.jar"
+    id: 2495586
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/251918/files/2495586"
+    src: "https://minecraft.curseforge.com/projects/embers/files/2495586/download"
+    md5: "9efd4dc81771e958392be50cfd620068"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "thermal-foundation"
+  id: 222880
+  title: "Thermal Foundation"
+  files:
+  - name: "ThermalFoundation-1.12.2-2.5.0.19-universal.jar"
+    id: 2567555
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/222880/files/2567555"
+    src: "https://minecraft.curseforge.com/projects/thermal-foundation/files/2567555/download"
+    md5: "cb0ff0d6af0627792bdaaa23541dcad8"
+  side: "both"
+  deps:
+  - "cofhcore"
+  - "cofh-world"
+  required: true
+  default: true
+  curse: true
+- name: "shetiphiancore"
+  id: 71738
+  title: "ShetiPhianCore"
+  files:
+  - name: "shetiphiancore-1.12.0-3.5.7.jar"
+    id: 2571494
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/71738/files/2571494"
+    src: "https://minecraft.curseforge.com/projects/shetiphiancore/files/2571494/download"
+    md5: "68d8afb828699d5d3bdf2bfa51acf66e"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "storage-drawers"
+  id: 223852
+  title: "Storage Drawers"
+  files:
+  - name: "StorageDrawers-1.12.2-5.3.7.jar"
+    id: 2576611
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/223852/files/2576611"
+    src: "https://minecraft.curseforge.com/projects/storage-drawers/files/2576611/download"
+    md5: "c3af20c48dcc71e1ae10ca0e8f17c528"
+  side: "both"
+  deps:
+  - "chameleon"
+  required: true
+  default: true
+  curse: true
+- name: "runes-of-wizardry"
+  id: 235927
+  title: "Runes of Wizardry"
+  files:
+  - name: "Runes-of-Wizardry-1.12.2-0.9.0.jar"
+    id: 2579757
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/235927/files/2579757"
+    src: "https://minecraft.curseforge.com/projects/runes-of-wizardry/files/2579757/download"
+    md5: "ca44d360ebfd95b6d7eb696dbd3ac1e6"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "thermal-innovation"
+  id: 291737
+  title: "Thermal Innovation"
+  files:
+  - name: "ThermalInnovation-1.12.2-0.3.0.7-universal.jar"
+    id: 2567269
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/291737/files/2567269"
+    src: "https://minecraft.curseforge.com/projects/thermal-innovation/files/2567269/download"
+    md5: "c4d2c0a13399e4410a99073e6a1a6b52"
+  side: "both"
+  deps:
+  - "thermal-foundation"
+  required: true
+  default: true
+  curse: true
+- name: "viescraft-airships"
+  id: 246795
+  title: "ViesCraft - Airships!"
+  files:
+  - name: "ViesCraft-1.12.2-5.9.13.jar"
+    id: 2563103
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/246795/files/2563103"
+    src: "https://minecraft.curseforge.com/projects/viescraft-airships/files/2563103/download"
+    md5: "73c8c0017562e749e7a7bdf6c225a84e"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "storage-drawers-extras"
+  id: 254879
+  title: "Storage Drawers Extras"
+  files:
+  - name: "StorageDrawersExtras-1.12-3.1.0.jar"
+    id: 2443623
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/254879/files/2443623"
+    src: "https://minecraft.curseforge.com/projects/storage-drawers-extras/files/2443623/download"
+    md5: "972063ce9ceb8df9af49e73858e557fa"
+  side: "both"
+  deps:
+  - "chameleon"
+  - "storage-drawers"
+  required: true
+  default: true
+  curse: true
+- name: "valkyrielib"
+  id: 245480
+  title: "ValkyrieLib"
+  files:
+  - name: "valkyrielib-1.12.2-2.0.11a.jar"
+    id: 2569370
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/245480/files/2569370"
+    src: "https://minecraft.curseforge.com/projects/valkyrielib/files/2569370/download"
+    md5: "a2d7392643b9e554a5ee6f0e07e10f07"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "steves-carts-reborn"
+  id: 253462
+  title: "Steve's Carts Reborn"
+  files:
+  - name: "StevesCarts-1.12.2-2.4.21.107.jar"
+    id: 2578611
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/253462/files/2578611"
+    src: "https://minecraft.curseforge.com/projects/steves-carts-reborn/files/2578611/download"
+    md5: "688b28df839a93a44a8fbb6dd934b422"
+  side: "both"
+  deps:
+  - "reborncore"
+  required: true
+  default: true
+  curse: true
+- name: "runes-of-wizardry-classic-dusts-pack"
+  id: 243956
+  title: "Runes of Wizardry - Classic Dusts Pack"
+  files:
+  - name: "RunesofWizardry-Classics-1.12.2-0.5.7.jar"
+    id: 2556042
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/243956/files/2556042"
+    src: "https://minecraft.curseforge.com/projects/runes-of-wizardry-classic-dusts-pack/files/2556042/download"
+    md5: "9aeb4171d0895fe69d10b7a75fdfc853"
+  side: "both"
+  deps:
+  - "runes-of-wizardry"
+  required: true
+  default: true
+  curse: true
+- name: "simply-jetpacks-2"
+  id: 251792
+  title: "Simply Jetpacks 2"
+  files:
+  - name: "SimplyJetpacks2-1.12.2-2.2.7.45.jar"
+    id: 2571342
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/251792/files/2571342"
+    src: "https://minecraft.curseforge.com/projects/simply-jetpacks-2/files/2571342/download"
+    md5: "a4e3c2fe3a141fc3bab46495e302d465"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "super-sound-muffler"
+  id: 256343
+  title: "Super Sound Muffler"
+  files:
+  - name: "supersoundmuffler-1.12.1-1.0.2.9.jar"
+    id: 2477723
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/256343/files/2477723"
+    src: "https://minecraft.curseforge.com/projects/super-sound-muffler/files/2477723/download"
+    md5: "de3bc909dd091a0bf337a1f31f1ec95d"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "translocators-1-8"
+  id: 247695
+  title: "Translocators 1.8.+"
+  files:
+  - name: "Translocators-1.12.2-2.5.0.73-universal.jar"
+    id: 2570994
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/247695/files/2570994"
+    src: "https://minecraft.curseforge.com/projects/translocators-1-8/files/2570994/download"
+    md5: "21cf7ade4402d7e77a58e1982bb87944"
+  side: "both"
+  deps:
+  - "codechicken-lib-1-8"
+  - "forge-multipart-cbe"
+  required: true
+  default: true
+  curse: true
+- name: "silents-gems-extra-parts"
+  id: 245281
+  title: "Silent's Gems: Extra Parts"
+  files:
+  - name: "SGExtraParts-1.12-1.4.1-34.jar"
+    id: 2496969
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/245281/files/2496969"
+    src: "https://minecraft.curseforge.com/projects/silents-gems-extra-parts/files/2496969/download"
+    md5: "9bc8baabeeb0731a49f5b5682acdbb2c"
+  side: "both"
+  deps:
+  - "silents-gems"
+  required: true
+  default: true
+  curse: true
+- name: "thermal-dynamics"
+  id: 227443
+  title: "Thermal Dynamics"
+  files:
+  - name: "ThermalDynamics-1.12.2-2.5.1.14-universal.jar"
+    id: 2569008
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/227443/files/2569008"
+    src: "https://minecraft.curseforge.com/projects/thermal-dynamics/files/2569008/download"
+    md5: "82d0bf008f5e48a6efca3f7739982351"
+  side: "both"
+  deps:
+  - "codechicken-lib-1-8"
+  - "thermal-foundation"
+  required: true
+  default: true
+  curse: true
+- name: "toast-control"
+  id: 271740
+  title: "Toast Control"
+  files:
+  - name: "Toast Control-1.12.2-1.7.0.jar"
+    id: 2574517
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/271740/files/2574517"
+    src: "https://minecraft.curseforge.com/projects/toast-control/files/2574517/download"
+    md5: "08f7b074954824938f39788e67f6081e"
+  side: "both"
+  deps:
+  - "placebo"
+  required: true
+  default: true
+  curse: true
+- name: "swingthroughgrass"
+  id: 264353
+  title: "SwingThroughGrass"
+  files:
+  - name: "stg-1.12.2-1.2.3.jar"
+    id: 2508268
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/264353/files/2508268"
+    src: "https://minecraft.curseforge.com/projects/swingthroughgrass/files/2508268/download"
+    md5: "b836648006f1451c65d33f7132eec770"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "silent-lib"
+  id: 242998
+  title: "Silent Lib"
+  files:
+  - name: "SilentLib-1.12.2-2.3.5-117.jar"
+    id: 2580267
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/242998/files/2580267"
+    src: "https://minecraft.curseforge.com/projects/silent-lib/files/2580267/download"
+    md5: "38787c063150ac0116ad31893cac28a0"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "silents-gems"
+  id: 220311
+  title: "Silent's Gems"
+  files:
+  - name: "SilentsGems-1.12.2-2.7.4-272.jar"
+    id: 2580269
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/220311/files/2580269"
+    src: "https://minecraft.curseforge.com/projects/silents-gems/files/2580269/download"
+    md5: "883745843dc69f867f17afbaab9680b5"
+  side: "both"
+  deps:
+  - "silent-lib"
+  required: true
+  default: true
+  curse: true
+- name: "thermalexpansion"
+  id: 69163
+  title: "Thermal Expansion"
+  files:
+  - name: "ThermalExpansion-1.12.2-5.5.0.29-universal.jar"
+    id: 2567265
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/69163/files/2567265"
+    src: "https://minecraft.curseforge.com/projects/thermalexpansion/files/2567265/download"
+    md5: "d2fd230e7ee573974b5964d8647b76df"
+  side: "both"
+  deps:
+  - "codechicken-lib-1-8"
+  - "thermal-foundation"
+  required: true
+  default: true
+  curse: true
+- name: "traverse"
+  id: 267769
+  title: "Traverse"
+  files:
+  - name: "Traverse-1.12.2-1.5.4-61.jar"
+    id: 2571047
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/267769/files/2571047"
+    src: "https://minecraft.curseforge.com/projects/traverse/files/2571047/download"
+    md5: "74f9ebc1fd7113242e89d998060794f9"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "wanionlib"
+  id: 253043
+  title: "WanionLib"
+  files:
+  - name: "WanionLib-1.12.2-1.5.jar"
+    id: 2534271
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/253043/files/2534271"
+    src: "https://minecraft.curseforge.com/projects/wanionlib/files/2534271/download"
+    md5: "f0c6e0afb5383ed0653db531dd12c732"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "zetta-industries"
+  id: 278475
+  title: "Zetta Industries"
+  files:
+  - name: "zettaindustries-1.3-1.12.2-155.jar"
+    id: 2536420
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/278475/files/2536420"
+    src: "https://minecraft.curseforge.com/projects/zetta-industries/files/2536420/download"
+    md5: "6b28bbb657f877fb337c5694f4577558"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+- name: "wawla-what-are-we-looking-at"
+  id: 224712
+  title: "Wawla - What Are We Looking At"
+  files:
+  - name: "Wawla-1.12.2-2.5.257.jar"
+    id: 2569612
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/224712/files/2569612"
+    src: "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2569612/download"
+    md5: "7279e9c68a880a3e99a78e84e7b7bfd7"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
+imports: []

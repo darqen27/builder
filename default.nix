@@ -29,19 +29,19 @@ in
 rec {
 
   packs = {
-    e20 = buildPack e20;
+    e21 = buildPack e21;
     incognito = buildPack farmingValley;
   };
 
-  e20 = {
-    name = "erisia20";
-    screenName = "e20";
-    description = "Erisia #20: Erisia Aeternum";
+  e21 = {
+    name = "erisia21";
+    screenName = "e21";
+    description = "Erisia #21: Armodulu Emmayhus";
     ram = "10000m";
     port = 25565;
     forge = {
       major = "1.12.2";
-      minor = "14.23.3.2679";  # TODO: Should be able to get this from manifest.json
+      minor = "14.23.4.2727";  # TODO: Should be able to get this from manifest.json
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
@@ -49,7 +49,7 @@ rec {
     extraDirs = [
       ./base/erisia
       ./third_party/ruins-1.12
-      ./base/enigmatica2
+      ./base/mm2
     ];
     extraServerDirs = [
       ./base/server
@@ -60,7 +60,7 @@ rec {
     ];
     # These are all the mods we'd like to include in this pack.
     manifests = [
-      ./manifest/e20.nix
+      ./manifest/e21.nix
     ];
     blacklist = [
       "creeperhost-minetogether"  # Fuck that.

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "biomesoplenty",
+    "name": "Biomes o' Plenty",
+    "desc": "The world gen mod for the original version of the pack. Not needed for new worlds. Enable for worlds already in progress from older versions of this pack or if you prefer it.",
+    "category": "World Gen",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+  {
+    "id": "traverse",
+    "name": "Traverse",
+    "desc": "The world gen mod for the current version of the pack. Recommended by the pack author for the best experience. Can be enabled alongside Biome O' Plenty if desired.",
+    "category": "World Gen",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  }
+]

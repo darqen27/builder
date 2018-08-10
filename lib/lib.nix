@@ -88,7 +88,7 @@ rec {
     server = symlinkJoin {
       name = name + "-server";
 
-      inherit screenName ram;
+      inherit screenName ram serverName;
 
       paths = [
         forgeDir
