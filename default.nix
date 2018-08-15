@@ -63,6 +63,7 @@ rec {
       ./manifest/e21.nix
     ];
     blacklist = [
+      "just-enough-harvestcraft"
       "silents-gems"
       "silents-gems-extra-parts"
       "refined-storage-addons"

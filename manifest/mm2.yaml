@@ -1199,21 +1199,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "jei"
-  id: 238222
-  title: "Just Enough Items (JEI)"
-  files:
-  - name: "jei_1.12.2-4.11.0.204.jar"
-    id: 2579282
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238222/files/2579282"
-    src: "https://minecraft.curseforge.com/projects/jei/files/2579282/download"
-    md5: "c46d40ac0fcda9fe934359226a97dbc2"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "refined-storage"
   id: 243076
   title: "Refined Storage"

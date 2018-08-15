@@ -56,7 +56,7 @@ mods:
 - name: "cyclic"
 - name: "tinkers-construct"
 - name: "constructs-armory"
-# - name: "plustic"
+- name: "plustic"
 - name: "thermal-innovation"
 - name: "thermal-dynamics"
 - name: "thermalexpansion"
@@ -65,6 +65,7 @@ mods:
 - name: "cofhcore"
 - name: "redstone-arsenal"
 - name: "notenoughids"
+- name: "jei"
 
 ##- name: "deep-resonance"
 

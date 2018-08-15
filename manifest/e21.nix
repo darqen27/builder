@@ -1270,12 +1270,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "jei_1.12.2-4.11.0.204.jar";
-      "encoded" = "jei_1.12.2-4.11.0.204.jar";
-      "page" = "https://minecraft.curseforge.com/projects/238222/files/2579282";
-      "src" = "https://minecraft.curseforge.com/projects/jei/files/2579282/download";
+      "filename" = "jei_1.12.2-4.12.0.215.jar";
+      "maturity" = "beta";
+      "encoded" = "jei_1.12.2-4.12.0.215.jar";
+      "page" = "https://minecraft.curseforge.com/projects/jei/files/2603114";
+      "src" = "https://minecraft.curseforge.com/projects/jei/files/2603114/download";
       "type" = "remote";
-      "md5" = "c46d40ac0fcda9fe934359226a97dbc2";
+      "md5" = "1878884f98f1692d25c7fc65af301e78";
     };
     "jei-integration" = {
       "title" = "JEI Integration";
@@ -1828,6 +1829,21 @@
       "src" = "https://minecraft.curseforge.com/projects/players-choice/files/2572732/download";
       "type" = "remote";
       "md5" = "f7da632aff717f4d400311c1b7fbee1b";
+    };
+    "plustic" = {
+      "title" = "PlusTiC";
+      "name" = "plustic";
+      "id" = 260327;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mantle" "tinkers-construct"];
+      "filename" = "plustic-6.5.1.0.jar";
+      "encoded" = "plustic-6.5.1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plustic/files/2565372";
+      "src" = "https://minecraft.curseforge.com/projects/plustic/files/2565372/download";
+      "type" = "remote";
+      "md5" = "240622652190dde423b044e2f6376e56";
     };
     "pneumaticcraft-repressurized" = {
       "title" = "PneumaticCraft: Repressurized";
