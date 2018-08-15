@@ -41,7 +41,7 @@ rec {
     port = 25565;
     forge = {
       major = "1.12.2";
-      minor = "14.23.4.2727";  # TODO: Should be able to get this from manifest.json
+      minor = "14.23.4.2749";  # TODO: Should be able to get this from manifest.json
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
@@ -63,6 +63,13 @@ rec {
       ./manifest/e21.nix
     ];
     blacklist = [
+      "silents-gems"
+      "silents-gems-extra-parts"
+      "refined-storage-addons"
+      "refined-storage"
+      "rebornstorage"
+      "pams-harvestcraft"
+      "silent-lib"
       "creeperhost-minetogether"  # Fuck that.
       "fps-reducer"  # Seems to cause a memory leak?
       "signals"  # Reduces TPS a lot. Wow this is terrible.

@@ -77,21 +77,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "cofh-world"
-  id: 271384
-  title: "CoFH World"
-  files:
-  - name: "CoFHWorld-1.12.2-1.2.0.5-universal.jar"
-    id: 2567263
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/271384/files/2567263"
-    src: "https://minecraft.curseforge.com/projects/cofh-world/files/2567263/download"
-    md5: "a5331d71497b0e670a3fa4684e25f4bc"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "light-level-overlay-reloaded"
   id: 226670
   title: "Light Level Overlay Reloaded"
@@ -164,22 +149,6 @@ mods:
     md5: "d99dba2b235767d3098c0f07d7ae9a01"
   side: "both"
   deps: []
-  required: true
-  default: true
-  curse: true
-- name: "cofhcore"
-  id: 69162
-  title: "CoFH Core"
-  files:
-  - name: "CoFHCore-1.12.2-4.5.2.19-universal.jar"
-    id: 2568324
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/69162/files/2568324"
-    src: "https://minecraft.curseforge.com/projects/cofhcore/files/2568324/download"
-    md5: "042b4e46944453f48079b102f851fc77"
-  side: "both"
-  deps:
-  - "redstone-flux"
   required: true
   default: true
   curse: true
@@ -628,22 +597,6 @@ mods:
     md5: "7f8f1e58481d9acbb9e32caf8d59058a"
   side: "both"
   deps: []
-  required: true
-  default: true
-  curse: true
-- name: "redstone-arsenal"
-  id: 70631
-  title: "Redstone Arsenal"
-  files:
-  - name: "RedstoneArsenal-1.12.2-2.5.1.13-universal.jar"
-    id: 2568564
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/70631/files/2568564"
-    src: "https://minecraft.curseforge.com/projects/redstone-arsenal/files/2568564/download"
-    md5: "27b01b4f829ded381a98d4e160417255"
-  side: "both"
-  deps:
-  - "cofhcore"
   required: true
   default: true
   curse: true
@@ -1554,23 +1507,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "thermal-foundation"
-  id: 222880
-  title: "Thermal Foundation"
-  files:
-  - name: "ThermalFoundation-1.12.2-2.5.0.19-universal.jar"
-    id: 2567555
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/222880/files/2567555"
-    src: "https://minecraft.curseforge.com/projects/thermal-foundation/files/2567555/download"
-    md5: "cb0ff0d6af0627792bdaaa23541dcad8"
-  side: "both"
-  deps:
-  - "cofhcore"
-  - "cofh-world"
-  required: true
-  default: true
-  curse: true
 - name: "shetiphiancore"
   id: 71738
   title: "ShetiPhianCore"
@@ -1614,22 +1550,6 @@ mods:
     md5: "ca44d360ebfd95b6d7eb696dbd3ac1e6"
   side: "both"
   deps: []
-  required: true
-  default: true
-  curse: true
-- name: "thermal-innovation"
-  id: 291737
-  title: "Thermal Innovation"
-  files:
-  - name: "ThermalInnovation-1.12.2-0.3.0.7-universal.jar"
-    id: 2567269
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/291737/files/2567269"
-    src: "https://minecraft.curseforge.com/projects/thermal-innovation/files/2567269/download"
-    md5: "c4d2c0a13399e4410a99073e6a1a6b52"
-  side: "both"
-  deps:
-  - "thermal-foundation"
   required: true
   default: true
   curse: true
@@ -1775,23 +1695,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "thermal-dynamics"
-  id: 227443
-  title: "Thermal Dynamics"
-  files:
-  - name: "ThermalDynamics-1.12.2-2.5.1.14-universal.jar"
-    id: 2569008
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227443/files/2569008"
-    src: "https://minecraft.curseforge.com/projects/thermal-dynamics/files/2569008/download"
-    md5: "82d0bf008f5e48a6efca3f7739982351"
-  side: "both"
-  deps:
-  - "codechicken-lib-1-8"
-  - "thermal-foundation"
-  required: true
-  default: true
-  curse: true
 - name: "toast-control"
   id: 271740
   title: "Toast Control"
@@ -1851,23 +1754,6 @@ mods:
   side: "both"
   deps:
   - "silent-lib"
-  required: true
-  default: true
-  curse: true
-- name: "thermalexpansion"
-  id: 69163
-  title: "Thermal Expansion"
-  files:
-  - name: "ThermalExpansion-1.12.2-5.5.0.29-universal.jar"
-    id: 2567265
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/69163/files/2567265"
-    src: "https://minecraft.curseforge.com/projects/thermalexpansion/files/2567265/download"
-    md5: "d2fd230e7ee573974b5964d8647b76df"
-  side: "both"
-  deps:
-  - "codechicken-lib-1-8"
-  - "thermal-foundation"
   required: true
   default: true
   curse: true
