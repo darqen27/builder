@@ -3,7 +3,7 @@ version: "1.12.2"
 mods:
 # Worldgen mods:
 ##- name: "wild-mobs-mod"
-- name: "exotic-birds"
+#- name: "exotic-birds" # Disabling due to tick concerns for now
 - name: "streams"
 - name: "ruins-structure-spawning-system"
 - name: "recurrent-complex"
@@ -33,12 +33,13 @@ mods:
 ## - name: "immersive-railroading"
 
 # Super-experimental food/animal mod stuff:
-- name: "plants"
+# - name: "plants"
 
 # Useful/interesting mods we usually want:
 ##- name: "tardis-mod"
 ##- name: "not-enough-wands"
 ##- name: "tombenpotters-icarus"
+- name: "xnet"
 - name: "tis-3d"
 - name: "cooking-for-blockheads"
 - name: "signposts"
@@ -48,6 +49,24 @@ mods:
 - name: "prefab"
 - name: "scannable"
 - name: "buildcraft"
+- name: "botania"
+- name: "forestry"
+- name: "binnies-mods"
+- name: "wireless-crafting-terminal"
+- name: "cyclic"
+- name: "tinkers-construct"
+- name: "constructs-armory"
+- name: "plustic"
+- name: "thermal-innovation"
+- name: "thermal-dynamics"
+- name: "thermalexpansion"
+- name: "thermal-foundation"
+- name: "cofh-world"
+- name: "cofhcore"
+- name: "redstone-arsenal"
+- name: "notenoughids"
+- name: "jei"
+
 ##- name: "deep-resonance"
 
 # Client-side enhancement mods:
