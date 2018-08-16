@@ -2,6 +2,22 @@
   "version" = "1.12.2";
   "imports" = ["mm2.yaml"];
   "mods" = {
+    "actually-additions" = {
+      "title" = "Actually Additions";
+      "name" = "actually-additions";
+      "id" = 228404;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ActuallyAdditions-1.12.2-r140.jar";
+      "maturity" = "release";
+      "encoded" = "ActuallyAdditions-1.12.2-r140.jar";
+      "page" = "https://minecraft.curseforge.com/projects/actually-additions/files/2602048";
+      "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2602048/download";
+      "type" = "remote";
+      "md5" = "905b9b17959740c395920537f5b18c52";
+    };
     "advanced-generators" = {
       "title" = "Advanced Generators";
       "name" = "advanced-generators";
@@ -1018,6 +1034,22 @@
       "type" = "remote";
       "md5" = "5b2894324e0e8f8009b45d011ad162e3";
     };
+    "gendustry" = {
+      "title" = "Gendustry";
+      "name" = "gendustry";
+      "id" = 70492;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["bdlib" "forestry"];
+      "filename" = "gendustry-1.6.5.8-mc1.12.2.jar";
+      "maturity" = "beta";
+      "encoded" = "gendustry-1.6.5.8-mc1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/gendustry/files/2516215";
+      "src" = "https://minecraft.curseforge.com/projects/gendustry/files/2516215/download";
+      "type" = "remote";
+      "md5" = "81b4720925043e1b4c198cabca9bd87f";
+    };
     "gotta-go-fast" = {
       "title" = "Gotta Go Fast";
       "name" = "gotta-go-fast";
@@ -1838,12 +1870,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["mantle" "tinkers-construct"];
-      "filename" = "plustic-6.5.1.0.jar";
-      "encoded" = "plustic-6.5.1.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/plustic/files/2565372";
-      "src" = "https://minecraft.curseforge.com/projects/plustic/files/2565372/download";
+      "filename" = "plustic-6.5.2.0.jar";
+      "maturity" = "release";
+      "encoded" = "plustic-6.5.2.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/plustic/files/2566108";
+      "src" = "https://minecraft.curseforge.com/projects/plustic/files/2566108/download";
       "type" = "remote";
-      "md5" = "240622652190dde423b044e2f6376e56";
+      "md5" = "73afd629943bb33cf2f26965e43e6b69";
     };
     "pneumaticcraft-repressurized" = {
       "title" = "PneumaticCraft: Repressurized";
