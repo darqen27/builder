@@ -110,6 +110,22 @@
       "type" = "remote";
       "md5" = "456083ad6c9b1f8e1ec1e01ed5caa820";
     };
+    "aroma1997s-dimensional-world" = {
+      "title" = "Aroma1997s Dimensional World";
+      "name" = "aroma1997s-dimensional-world";
+      "id" = 60092;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["aroma1997core"];
+      "filename" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b77.jar";
+      "maturity" = "alpha";
+      "encoded" = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b77.jar";
+      "page" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2571960";
+      "src" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2571960/download";
+      "type" = "remote";
+      "md5" = "4425ccb06f1674282b564dd4d3638984";
+    };
     "aromabackup" = {
       "title" = "AromaBackup";
       "name" = "aromabackup";
@@ -986,6 +1002,38 @@
       "src" = "https://minecraft.curseforge.com/projects/forge-multipart-cbe/files/2573197/download";
       "type" = "remote";
       "md5" = "b497c3aa87da3a394fc31c1d071e558b";
+    };
+    "ftb-utilities" = {
+      "title" = "FTB Utilities";
+      "name" = "ftb-utilities";
+      "id" = 237102;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["ftblib"];
+      "filename" = "FTBUtilities-5.2.0.38.jar";
+      "maturity" = "release";
+      "encoded" = "FTBUtilities-5.2.0.38.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2603927";
+      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2603927/download";
+      "type" = "remote";
+      "md5" = "2fb50df6dd8e34f45072b03a711f8bd4";
+    };
+    "ftblib" = {
+      "title" = "FTBLib";
+      "name" = "ftblib";
+      "id" = 237167;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "FTBLib-5.2.0.33.jar";
+      "maturity" = "release";
+      "encoded" = "FTBLib-5.2.0.33.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2604412";
+      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2604412/download";
+      "type" = "remote";
+      "md5" = "0603c13b4951224d98fb8941a0eda8d7";
     };
     "fullscreen-windowed-borderless-for-minecraft" = {
       "title" = "Fullscreen Windowed (Borderless) for Minecraft";
@@ -1940,6 +1988,16 @@
       "type" = "remote";
       "md5" = "f3e834d363536c11894ea1e6625698bf";
     };
+    "protocharset" = {
+      "title" = "[Rift] ProtoCharset";
+      "name" = "protocharset";
+      "id" = 300848;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["rift"];
+      "type" = "missing";
+    };
     "psi" = {
       "title" = "Psi";
       "name" = "psi";
@@ -2139,6 +2197,16 @@
       "src" = "https://minecraft.curseforge.com/projects/reliquary-v1-3/files/2572716/download";
       "type" = "remote";
       "md5" = "2912c8b370af4112d606ee02f7cb187d";
+    };
+    "rift" = {
+      "title" = "Rift";
+      "name" = "rift";
+      "id" = 297501;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "ruins-structure-spawning-system" = {
       "title" = "Ruins (Structure Spawning System)";
@@ -2588,7 +2656,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["protocharset" "rift"];
       "filename" = "TIS-3D-MC1.12.2-1.4.0.29.jar";
       "maturity" = "release";
       "encoded" = "TIS-3D-MC1.12.2-1.4.0.29.jar";

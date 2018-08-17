@@ -11,7 +11,7 @@ mods:
 # - name: "lost-souls"
 # But this doesn't work on servers yet!
 #- name: "ice-and-fire-dragons-in-a-whole-new-light"
-##- name: "aroma1997s-dimensional-world"
+- name: "aroma1997s-dimensional-world"
 
 # Decoration:
 - name: "dragons-radio-mod"
@@ -123,6 +123,7 @@ mods:
   side: "server"
 
 # Tool mods:
+- name: "ftb-utilities"
 - name: "morpheus"
 - name: "just-enough-resources-jer"
 - name: "just-enough-calculation"
