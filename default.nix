@@ -69,7 +69,6 @@ rec {
       "refined-storage-addons"
       "refined-storage"
       "rebornstorage"
-      "pams-harvestcraft"
       "silent-lib"
       "creeperhost-minetogether"  # Fuck that.
       "fps-reducer"  # Seems to cause a memory leak?
