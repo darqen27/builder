@@ -618,13 +618,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Cyclic-1.12.2-1.16.9.jar";
+      "filename" = "Cyclic-1.12.2-1.16.10.jar";
       "maturity" = "release";
-      "encoded" = "Cyclic-1.12.2-1.16.9.jar";
-      "page" = "https://minecraft.curseforge.com/projects/cyclic/files/2601662";
-      "src" = "https://minecraft.curseforge.com/projects/cyclic/files/2601662/download";
+      "encoded" = "Cyclic-1.12.2-1.16.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cyclic/files/2604907";
+      "src" = "https://minecraft.curseforge.com/projects/cyclic/files/2604907/download";
       "type" = "remote";
-      "md5" = "6e3613587e12f4426ddda26bdcb6cfd2";
+      "md5" = "7ce8b87f33cf09ad5ba62e3faab56453";
     };
     "cyclops-core" = {
       "title" = "Cyclops Core";
@@ -1011,13 +1011,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["ftblib"];
-      "filename" = "FTBUtilities-5.2.0.38.jar";
+      "filename" = "FTBUtilities-5.2.0.39.jar";
       "maturity" = "release";
-      "encoded" = "FTBUtilities-5.2.0.38.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2603927";
-      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2603927/download";
+      "encoded" = "FTBUtilities-5.2.0.39.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2604906";
+      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2604906/download";
       "type" = "remote";
-      "md5" = "2fb50df6dd8e34f45072b03a711f8bd4";
+      "md5" = "a11ee66e018b77866cd5562cb274463b";
     };
     "ftblib" = {
       "title" = "FTBLib";
@@ -1027,13 +1027,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "FTBLib-5.2.0.33.jar";
+      "filename" = "FTBLib-5.2.0.38.jar";
       "maturity" = "release";
-      "encoded" = "FTBLib-5.2.0.33.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2604412";
-      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2604412/download";
+      "encoded" = "FTBLib-5.2.0.38.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2605264";
+      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2605264/download";
       "type" = "remote";
-      "md5" = "0603c13b4951224d98fb8941a0eda8d7";
+      "md5" = "9e485a357b8d72d0d983af71f06f80b1";
     };
     "fullscreen-windowed-borderless-for-minecraft" = {
       "title" = "Fullscreen Windowed (Borderless) for Minecraft";
