@@ -37,7 +37,7 @@ rec {
     name = "erisia21";
     screenName = "e21";
     description = "Erisia #21: Armodulu Emmayhus";
-    ram = "10000m";
+    ram = "12000m";
     port = 25565;
     forge = {
       major = "1.12.2";
@@ -74,6 +74,7 @@ rec {
       "creeperhost-minetogether"  # Fuck that.
       "fps-reducer"  # Seems to cause a memory leak?
       "signals"  # Reduces TPS a lot. Wow this is terrible.
+      "aromabackup"  # We use ZFS snapshots, so never want this.
     ];
   };
 
