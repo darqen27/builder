@@ -63,7 +63,7 @@ rec {
       ./manifest/e21.nix
     ];
     blacklist = [
-      "just-enough-harvestcraft"
+      "drcyanos-lootable-bodies"
       "silents-gems"
       "silents-gems-extra-parts"
       "refined-storage-addons"
