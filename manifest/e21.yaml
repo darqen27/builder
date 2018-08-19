@@ -37,7 +37,7 @@ mods:
 
 # Useful/interesting mods we usually want:
 ##- name: "tardis-mod"
-##- name: "not-enough-wands"
+- name: "not-enough-wands"
 ##- name: "tombenpotters-icarus"
 - name: "xnet"
 - name: "tis-3d"

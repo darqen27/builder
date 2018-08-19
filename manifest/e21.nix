@@ -1705,6 +1705,22 @@
       "type" = "remote";
       "md5" = "f97c4fbf422b513b0103eedca7a31a0e";
     };
+    "not-enough-wands" = {
+      "title" = "Not Enough Wands";
+      "name" = "not-enough-wands";
+      "id" = 235595;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib"];
+      "filename" = "notenoughwands-1.12-1.7.0.jar";
+      "maturity" = "release";
+      "encoded" = "notenoughwands-1.12-1.7.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2569375";
+      "src" = "https://minecraft.curseforge.com/projects/not-enough-wands/files/2569375/download";
+      "type" = "remote";
+      "md5" = "b876196a7501b6124806973bd6696589";
+    };
     "notenoughids" = {
       "title" = "NotEnoughIDs";
       "name" = "notenoughids";
