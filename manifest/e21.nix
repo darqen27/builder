@@ -1406,12 +1406,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["jei" "pams-harvestcraft"];
-      "filename" = "JEHC-1.12.2-1.6.0.0.jar";
-      "encoded" = "JEHC-1.12.2-1.6.0.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/267939/files/2579543";
-      "src" = "https://minecraft.curseforge.com/projects/just-enough-harvestcraft/files/2579543/download";
+      "filename" = "JEHC-1.12.2-1.6.1.0.jar";
+      "maturity" = "release";
+      "encoded" = "JEHC-1.12.2-1.6.1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/just-enough-harvestcraft/files/2587544";
+      "src" = "https://minecraft.curseforge.com/projects/just-enough-harvestcraft/files/2587544/download";
       "type" = "remote";
-      "md5" = "9100f6f01ea9561d77fad810c831cc4c";
+      "md5" = "65e4c72b440a4f0280755734f80fd76f";
     };
     "just-enough-resources-jer" = {
       "title" = "Just Enough Resources (JER)";
@@ -1421,12 +1422,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["jei"];
-      "filename" = "JustEnoughResources-1.12.2-0.8.6.28.jar";
-      "encoded" = "JustEnoughResources-1.12.2-0.8.6.28.jar";
-      "page" = "https://minecraft.curseforge.com/projects/240630/files/2500678";
-      "src" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2500678/download";
+      "filename" = "JustEnoughResources-1.12.2-0.8.10.50.jar";
+      "maturity" = "alpha";
+      "encoded" = "JustEnoughResources-1.12.2-0.8.10.50.jar";
+      "page" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2603567";
+      "src" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2603567/download";
       "type" = "remote";
-      "md5" = "cc97b42d64dc315e583a6f119b200fdd";
+      "md5" = "46eba58b0fb1ff7dd249588d8c3f1131";
     };
     "laggoggles" = {
       "title" = "LagGoggles";
