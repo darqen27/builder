@@ -152,23 +152,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "just-enough-harvestcraft"
-  id: 267939
-  title: "Just Enough HarvestCraft (JEHC)"
-  files:
-  - name: "JEHC-1.12.2-1.6.0.0.jar"
-    id: 2579543
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/267939/files/2579543"
-    src: "https://minecraft.curseforge.com/projects/just-enough-harvestcraft/files/2579543/download"
-    md5: "9100f6f01ea9561d77fad810c831cc4c"
-  side: "both"
-  deps:
-  - "jei"
-  - "pams-harvestcraft"
-  required: true
-  default: true
-  curse: true
 - name: "mod-name-tooltip"
   id: 238747
   title: "Mod Name Tooltip"

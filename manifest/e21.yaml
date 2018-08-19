@@ -126,6 +126,7 @@ mods:
 - name: "ftb-utilities"
 - name: "morpheus"
 - name: "just-enough-resources-jer"
+- name: "just-enough-harvestcraft"
 - name: "just-enough-calculation"
 - name: "akashic-tome"
 - name: "tool-belt"
