@@ -1400,22 +1400,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "just-enough-resources-jer"
-  id: 240630
-  title: "Just Enough Resources (JER)"
-  files:
-  - name: "JustEnoughResources-1.12.2-0.8.6.28.jar"
-    id: 2500678
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/240630/files/2500678"
-    src: "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2500678/download"
-    md5: "cc97b42d64dc315e583a6f119b200fdd"
-  side: "both"
-  deps:
-  - "jei"
-  required: true
-  default: true
-  curse: true
 - name: "quark"
   id: 243121
   title: "Quark"
