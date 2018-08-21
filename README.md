@@ -23,6 +23,18 @@ themselves. Cursetool will use a cached value if this happens. In the event
 that no cache can be found, it will backoff and retry until it can successfully
 retrieve the mod page.
 
+## General contribution workflow
+
+Requires nix package manager and a unix environment (You can also use nixos!) of your choice to run it in.
+
+1. Clone down this repository
+1. Create a directory to house the server
+1. Navigate into it and run `../update_and_start.sh` Choose the server you intend to build
+1. Assuming all this succeeds, you can safely a text editor like atom or vscode to edit the files under manifest and base in the builder folder.  These files are the ones that influence what mods the server is running as well as the configs that get deployed to the client. See Updating Manifests for how to actually update a manifest once you've made changes in it.
+
+Once you've updated with cursetool you can push your changes back up to the repo (use a branch or a fork please) and open a pull request against master.  At that point an admin can pull your changes into the server.
+
+
 # License
 
 Everything in this Git repository is MIT-licensed, with the exception
