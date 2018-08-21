@@ -37,7 +37,7 @@ rec {
     name = "erisia21";
     screenName = "e21";
     description = "Erisia #21: Armodulu Emmayhus";
-    ram = "12000m";
+    ram = "20000m";
     port = 25565;
     forge = {
       major = "1.12.2";
