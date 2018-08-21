@@ -32,7 +32,7 @@ Requires nix package manager and a unix environment (You can also use nixos!) of
 1. Navigate into it and run `../update_and_start.sh` Choose the server you intend to build
 1. Assuming all this succeeds, you can safely a text editor like atom or vscode to edit the files under manifest and base in the builder folder.  These files are the ones that influence what mods the server is running as well as the configs that get deployed to the client. See Updating Manifests for how to actually update a manifest once you've made changes in it.
 
-Once you've updated with cursetool you can push your changes back up to the repo (use a branch or a fork please) and open a pull request against master.  At that point an admin can pull your changes into the server.
+Once you've updated with cursetool and tried your changes with `update_and_start.sh` you can push your changes back up to the repo (use a branch or a fork please) and open a pull request against master.  At that point an admin can pull your changes into the server.
 
 
 # License
