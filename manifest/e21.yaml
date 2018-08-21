@@ -30,7 +30,7 @@ mods:
 #   files:
 #   - src: ../third_party/1.12.2/Nutrition.jar
 # - name: "automated-redstone"
-## - name: "immersive-railroading"
+- name: "immersive-railroading"
 
 # Super-experimental food/animal mod stuff:
 # - name: "plants"
@@ -68,10 +68,15 @@ mods:
 - name: "jei"
 - name: "actually-additions"
 - name: "gendustry"
+- name: "applecore"
+- name: "rftools"
+- name: "rftools-power"
+- name: "rftools-control"
+- name: "ae2-stuff"
 
 ##- name: "deep-resonance"
 
-# Client-side enhancement mods:
+# Client-side enhancement mods
 - name: "nofov"
   side: "client"
   required: false

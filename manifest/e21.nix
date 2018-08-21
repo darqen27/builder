@@ -48,6 +48,22 @@
       "type" = "remote";
       "md5" = "257048a205c8a17330217a4b0cf0b6bc";
     };
+    "ae2-stuff" = {
+      "title" = "AE2 Stuff";
+      "name" = "ae2-stuff";
+      "id" = 225194;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["applied-energistics-2" "bdlib"];
+      "filename" = "ae2stuff-0.7.0.4-mc1.12.2.jar";
+      "maturity" = "beta";
+      "encoded" = "ae2stuff-0.7.0.4-mc1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032";
+      "src" = "https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download";
+      "type" = "remote";
+      "md5" = "8594b7501c1ecc1bdaaa8ef42b7dbdda";
+    };
     "akashic-tome" = {
       "title" = "Akashic Tome";
       "name" = "akashic-tome";
@@ -79,6 +95,22 @@
       "src" = "https://minecraft.curseforge.com/projects/antique-atlas/files/2562856/download";
       "type" = "remote";
       "md5" = "418efd525a64878d75a984e53670c1ef";
+    };
+    "applecore" = {
+      "title" = "AppleCore";
+      "name" = "applecore";
+      "id" = 224472;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AppleCore-mc1.12.2-3.1.4.jar";
+      "maturity" = "release";
+      "encoded" = "AppleCore-mc1.12.2-3.1.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/applecore/files/2605923";
+      "src" = "https://minecraft.curseforge.com/projects/applecore/files/2605923/download";
+      "type" = "remote";
+      "md5" = "94ce127bf0586f0335aa3b4191a2d9d6";
     };
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
@@ -980,13 +1012,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "forestry_1.12.2-5.8.1.337.jar";
+      "filename" = "forestry_1.12.2-5.8.1.339.jar";
       "maturity" = "beta";
-      "encoded" = "forestry_1.12.2-5.8.1.337.jar";
-      "page" = "https://minecraft.curseforge.com/projects/forestry/files/2603081";
-      "src" = "https://minecraft.curseforge.com/projects/forestry/files/2603081/download";
+      "encoded" = "forestry_1.12.2-5.8.1.339.jar";
+      "page" = "https://minecraft.curseforge.com/projects/forestry/files/2606270";
+      "src" = "https://minecraft.curseforge.com/projects/forestry/files/2606270/download";
       "type" = "remote";
-      "md5" = "5f6fdbb8aac5eea4478553eb847e02d7";
+      "md5" = "e2e05b58e0d27ccc9b5a27ab50b33f05";
     };
     "forge-multipart-cbe" = {
       "title" = "Forge MultiPart CBE";
@@ -1011,13 +1043,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["ftblib"];
-      "filename" = "FTBUtilities-5.2.0.39.jar";
+      "filename" = "FTBUtilities-5.2.0.40.jar";
       "maturity" = "release";
-      "encoded" = "FTBUtilities-5.2.0.39.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2604906";
-      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2604906/download";
+      "encoded" = "FTBUtilities-5.2.0.40.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2606398";
+      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2606398/download";
       "type" = "remote";
-      "md5" = "a11ee66e018b77866cd5562cb274463b";
+      "md5" = "5b5cc9387415d5dd9e913197b85c27e7";
     };
     "ftblib" = {
       "title" = "FTBLib";
@@ -1027,13 +1059,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "FTBLib-5.2.0.38.jar";
+      "filename" = "FTBLib-5.2.0.39.jar";
       "maturity" = "release";
-      "encoded" = "FTBLib-5.2.0.38.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2605264";
-      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2605264/download";
+      "encoded" = "FTBLib-5.2.0.39.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2606397";
+      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2606397/download";
       "type" = "remote";
-      "md5" = "9e485a357b8d72d0d983af71f06f80b1";
+      "md5" = "7b65e1b3702a01da552696a19326ffe4";
     };
     "fullscreen-windowed-borderless-for-minecraft" = {
       "title" = "Fullscreen Windowed (Borderless) for Minecraft";
@@ -1204,6 +1236,22 @@
       "src" = "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2544919/download";
       "type" = "remote";
       "md5" = "57ba127778e579d10d705f9f8359d2e0";
+    };
+    "immersive-railroading" = {
+      "title" = "Immersive Railroading";
+      "name" = "immersive-railroading";
+      "id" = 277736;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["track-api"];
+      "filename" = "ImmersiveRailroading-1.3.2_1.12.jar";
+      "maturity" = "release";
+      "encoded" = "ImmersiveRailroading-1.3.2_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2596454";
+      "src" = "https://minecraft.curseforge.com/projects/immersive-railroading/files/2596454/download";
+      "type" = "remote";
+      "md5" = "b6c9fceb88e4a4d97d09116e7ecd20a8";
     };
     "immersive-tech" = {
       "title" = "Immersive Tech";
@@ -2006,16 +2054,6 @@
       "type" = "remote";
       "md5" = "f3e834d363536c11894ea1e6625698bf";
     };
-    "protocharset" = {
-      "title" = "[Rift] ProtoCharset";
-      "name" = "protocharset";
-      "id" = 300848;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["rift"];
-      "type" = "missing";
-    };
     "psi" = {
       "title" = "Psi";
       "name" = "psi";
@@ -2216,15 +2254,53 @@
       "type" = "remote";
       "md5" = "2912c8b370af4112d606ee02f7cb187d";
     };
-    "rift" = {
-      "title" = "Rift";
-      "name" = "rift";
-      "id" = 297501;
+    "rftools" = {
+      "title" = "RFTools";
+      "name" = "rftools";
+      "id" = 224641;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
-      "type" = "missing";
+      "deps" = ["mcjtylib"];
+      "filename" = "rftools-1.12-7.55.jar";
+      "maturity" = "release";
+      "encoded" = "rftools-1.12-7.55.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools/files/2581913";
+      "src" = "https://minecraft.curseforge.com/projects/rftools/files/2581913/download";
+      "type" = "remote";
+      "md5" = "356bdae9c396be1e6cefa1a96e384dee";
+    };
+    "rftools-control" = {
+      "title" = "RFTools Control";
+      "name" = "rftools-control";
+      "id" = 250763;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib" "rftools"];
+      "filename" = "rftoolsctrl-1.12-1.9.1.jar";
+      "maturity" = "release";
+      "encoded" = "rftoolsctrl-1.12-1.9.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools-control/files/2574700";
+      "src" = "https://minecraft.curseforge.com/projects/rftools-control/files/2574700/download";
+      "type" = "remote";
+      "md5" = "4b410eee1a8d62ae930859e90278ee11";
+    };
+    "rftools-power" = {
+      "title" = "RFTools Power";
+      "name" = "rftools-power";
+      "id" = 290209;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib"];
+      "filename" = "rftoolspower-1.12-1.1.1.jar";
+      "maturity" = "release";
+      "encoded" = "rftoolspower-1.12-1.1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools-power/files/2578676";
+      "src" = "https://minecraft.curseforge.com/projects/rftools-power/files/2578676/download";
+      "type" = "remote";
+      "md5" = "cf9da19863ffcf350bbba8e246e908bb";
     };
     "ruins-structure-spawning-system" = {
       "title" = "Ruins (Structure Spawning System)";
@@ -2674,14 +2750,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["protocharset" "rift"];
-      "filename" = "TIS-3D-MC1.12.2-1.4.0.29.jar";
+      "deps" = [];
+      "filename" = "TIS-3D-MC1.12.2-1.5.0.34.jar";
       "maturity" = "release";
-      "encoded" = "TIS-3D-MC1.12.2-1.4.0.29.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2588369";
-      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2588369/download";
+      "encoded" = "TIS-3D-MC1.12.2-1.5.0.34.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2605696";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2605696/download";
       "type" = "remote";
-      "md5" = "fdd878c216d494d4b0a83f4b25bdc785";
+      "md5" = "b8da2ee29577a0bf61de419b1a87af8d";
     };
     "titanium" = {
       "title" = "Titanium";
@@ -2728,6 +2804,22 @@
       "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461671/download";
       "type" = "remote";
       "md5" = "167acc144addada8c0ff75f2795073c6";
+    };
+    "track-api" = {
+      "title" = "Track API";
+      "name" = "track-api";
+      "id" = 282613;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TrackAPI-1.1_1.12.jar";
+      "maturity" = "release";
+      "encoded" = "TrackAPI-1.1_1.12.jar";
+      "page" = "https://minecraft.curseforge.com/projects/track-api/files/2535626";
+      "src" = "https://minecraft.curseforge.com/projects/track-api/files/2535626/download";
+      "type" = "remote";
+      "md5" = "4709936a20818766d0bec21e169677ec";
     };
     "translocators-1-8" = {
       "title" = "Translocators 1.8.+";
