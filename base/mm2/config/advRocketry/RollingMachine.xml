@@ -289,7 +289,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotMithriline</oreDict>
+			<oreDict>ingotMithrilineMetal</oreDict>
 		</input>
 		<output>
 			<itemStack>essentialcraft:genitem 1 49</itemStack>
