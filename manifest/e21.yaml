@@ -69,11 +69,15 @@ mods:
 - name: "actually-additions"
 - name: "gendustry"
 - name: "applecore"
+- name: "appleskin"
+- name: "craftstudio-api"
 - name: "rftools"
 - name: "rftools-power"
 - name: "rftools-control"
 - name: "ae2-stuff"
-
+- name: "torchmaster"
+- name: "ptrlib"
+- name: "comforts"
 ##- name: "deep-resonance"
 
 # Client-side enhancement mods
