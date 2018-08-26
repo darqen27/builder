@@ -112,6 +112,22 @@
       "type" = "remote";
       "md5" = "94ce127bf0586f0335aa3b4191a2d9d6";
     };
+    "appleskin" = {
+      "title" = "AppleSkin";
+      "name" = "appleskin";
+      "id" = 248787;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AppleSkin-mc1.12-1.0.9.jar";
+      "maturity" = "release";
+      "encoded" = "AppleSkin-mc1.12-1.0.9.jar";
+      "page" = "https://minecraft.curseforge.com/projects/appleskin/files/2496585";
+      "src" = "https://minecraft.curseforge.com/projects/appleskin/files/2496585/download";
+      "type" = "remote";
+      "md5" = "0e0af1e6f80ea2ee7ecfc2f8f44b897b";
+    };
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
       "name" = "applied-energistics-2";
@@ -566,6 +582,22 @@
       "type" = "remote";
       "md5" = "6670912dc337991f2845001907212a2d";
     };
+    "comforts" = {
+      "title" = "Comforts";
+      "name" = "comforts";
+      "id" = 276951;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "comforts-1.12.2-1.2.0.jar";
+      "maturity" = "release";
+      "encoded" = "comforts-1.12.2-1.2.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/comforts/files/2585000";
+      "src" = "https://minecraft.curseforge.com/projects/comforts/files/2585000/download";
+      "type" = "remote";
+      "md5" = "bf6ee7d26f77857c5f35b344a2f0384a";
+    };
     "common-capabilities" = {
       "title" = "Common Capabilities";
       "name" = "common-capabilities";
@@ -611,6 +643,22 @@
       "src" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2571784/download";
       "type" = "remote";
       "md5" = "c2195d942d1bbae1ec1224059f52dacf";
+    };
+    "craftstudio-api" = {
+      "title" = "CraftStudio API";
+      "name" = "craftstudio-api";
+      "id" = 268704;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CraftStudio-1.0.0.93-mc1.12-alpha.jar";
+      "maturity" = "beta";
+      "encoded" = "CraftStudio-1.0.0.93-mc1.12-alpha.jar";
+      "page" = "https://minecraft.curseforge.com/projects/craftstudio-api/files/2480954";
+      "src" = "https://minecraft.curseforge.com/projects/craftstudio-api/files/2480954/download";
+      "type" = "remote";
+      "md5" = "eb23a10c2d246cf65affeb59116c881e";
     };
     "crafttweaker" = {
       "title" = "CraftTweaker";
@@ -680,14 +728,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["ptrlib"];
-      "filename" = "Decocraft-2.6.0_1.12.2.jar";
+      "deps" = [];
+      "filename" = "Decocraft-2.6.1_1.12.2.jar";
       "maturity" = "release";
-      "encoded" = "Decocraft-2.6.0_1.12.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/decocraft2/files/2550090";
-      "src" = "https://minecraft.curseforge.com/projects/decocraft2/files/2550090/download";
+      "encoded" = "Decocraft-2.6.1_1.12.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/decocraft2/files/2606852";
+      "src" = "https://minecraft.curseforge.com/projects/decocraft2/files/2606852/download";
       "type" = "remote";
-      "md5" = "0c4492914de0dfac38207cf356bb9f02";
+      "md5" = "610ac6e0905b8a1377bb039277d6f563";
     };
     "diet-hoppers" = {
       "title" = "Diet Hoppers";
@@ -1043,13 +1091,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["ftblib"];
-      "filename" = "FTBUtilities-5.2.0.40.jar";
+      "filename" = "FTBUtilities-5.3.0.45.jar";
       "maturity" = "release";
-      "encoded" = "FTBUtilities-5.2.0.40.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2606398";
-      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2606398/download";
+      "encoded" = "FTBUtilities-5.3.0.45.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2608170";
+      "src" = "https://minecraft.curseforge.com/projects/ftb-utilities/files/2608170/download";
       "type" = "remote";
-      "md5" = "5b5cc9387415d5dd9e913197b85c27e7";
+      "md5" = "c133595b648236fd78174a26c6bd12a1";
     };
     "ftblib" = {
       "title" = "FTBLib";
@@ -1059,13 +1107,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "FTBLib-5.2.0.39.jar";
+      "filename" = "FTBLib-5.3.0.42.jar";
       "maturity" = "release";
-      "encoded" = "FTBLib-5.2.0.39.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2606397";
-      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2606397/download";
+      "encoded" = "FTBLib-5.3.0.42.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ftblib/files/2608171";
+      "src" = "https://minecraft.curseforge.com/projects/ftblib/files/2608171/download";
       "type" = "remote";
-      "md5" = "7b65e1b3702a01da552696a19326ffe4";
+      "md5" = "6eba44916a41cd78035e6a6ec39dd52e";
     };
     "fullscreen-windowed-borderless-for-minecraft" = {
       "title" = "Fullscreen Windowed (Borderless) for Minecraft";
@@ -2369,13 +2417,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Scannable-MC1.12-1.6.3.19.jar";
+      "filename" = "Scannable-MC1.12.2-1.6.3.22.jar";
       "maturity" = "release";
-      "encoded" = "Scannable-MC1.12-1.6.3.19.jar";
-      "page" = "https://minecraft.curseforge.com/projects/scannable/files/2567964";
-      "src" = "https://minecraft.curseforge.com/projects/scannable/files/2567964/download";
+      "encoded" = "Scannable-MC1.12.2-1.6.3.22.jar";
+      "page" = "https://minecraft.curseforge.com/projects/scannable/files/2608542";
+      "src" = "https://minecraft.curseforge.com/projects/scannable/files/2608542/download";
       "type" = "remote";
-      "md5" = "0eff0cc77d88b15f6a79befa4a8974a1";
+      "md5" = "7a2d907cd13b27ffad4d410327818717";
     };
     "schematica" = {
       "title" = "Schematica";
@@ -2501,7 +2549,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["redstone-flux"];
       "filename" = "SimplyJetpacks2-1.12.2-2.2.7.45.jar";
       "encoded" = "SimplyJetpacks2-1.12.2-2.2.7.45.jar";
       "page" = "https://minecraft.curseforge.com/projects/251792/files/2571342";
@@ -2804,6 +2852,22 @@
       "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461671/download";
       "type" = "remote";
       "md5" = "167acc144addada8c0ff75f2795073c6";
+    };
+    "torchmaster" = {
+      "title" = "TorchMaster";
+      "name" = "torchmaster";
+      "id" = 254268;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "torchmaster_1.12.2-1.6.4.62.jar";
+      "maturity" = "release";
+      "encoded" = "torchmaster_1.12.2-1.6.4.62.jar";
+      "page" = "https://minecraft.curseforge.com/projects/torchmaster/files/2560361";
+      "src" = "https://minecraft.curseforge.com/projects/torchmaster/files/2560361/download";
+      "type" = "remote";
+      "md5" = "a6fa50d23c6d4ebc629404ceabb633fc";
     };
     "track-api" = {
       "title" = "Track API";
