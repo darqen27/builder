@@ -590,13 +590,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "comforts-1.12.2-1.2.0.1.jar";
+      "filename" = "comforts-1.12.2-1.3.0.jar";
       "maturity" = "release";
-      "encoded" = "comforts-1.12.2-1.2.0.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/comforts/files/2610849";
-      "src" = "https://minecraft.curseforge.com/projects/comforts/files/2610849/download";
+      "encoded" = "comforts-1.12.2-1.3.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/comforts/files/2610959";
+      "src" = "https://minecraft.curseforge.com/projects/comforts/files/2610959/download";
       "type" = "remote";
-      "md5" = "227d4ee5b7b412f9535c4e7544609ab3";
+      "md5" = "296693a91f1d9c30ff6ae0c19c98e1f9";
     };
     "common-capabilities" = {
       "title" = "Common Capabilities";

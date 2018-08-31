@@ -41,7 +41,7 @@ rec {
     port = 25565;
     forge = {
       major = "1.12.2";
-      minor = "14.23.4.2749";  # TODO: Should be able to get this from manifest.json
+      minor = "14.23.4.2755";  # TODO: Should be able to get this from manifest.json
     };
     # These are copied to the client as well as the server.
     # Suggested use: Configs. Scripts. That sort of thing.
