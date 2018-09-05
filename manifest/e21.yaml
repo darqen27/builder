@@ -38,6 +38,9 @@ mods:
 # Useful/interesting mods we usually want:
 ##- name: "tardis-mod"
 - name: "not-enough-wands"
+- name: "ender-io"
+- name: "magic-bees"
+- name: "jei-bees"
 ##- name: "tombenpotters-icarus"
 - name: "xnet"
 - name: "tis-3d"
