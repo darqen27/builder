@@ -16,8 +16,10 @@ mods:
 # Decoration:
 - name: "dragons-radio-mod"
 - name: "garden-stuff"
-- name: "catwalks-2"
+- name: "catwalks-4"
 - name: "decocraft2"
+- name: "xtones"
+- name: "unlimited-chisel-works"
 
 # Project Dimension:
 ##- name: "general-laymans-aesthetic-spying-screen-glass"
@@ -55,8 +57,13 @@ mods:
 - name: "botania"
 - name: "forestry"
 - name: "binnies-mods"
-- name: "wireless-crafting-terminal"
 - name: "cyclic"
+- name: "wireless-crafting-terminal"
+  files:
+    - name: "WirelessCraftingTerminal-1.12.2-3.9.67.jar"
+      id: 2591010
+      filePageUrl: "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2591010"
+      src: "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2591010/download"
 - name: "tinkers-construct"
 - name: "constructs-armory"
 - name: "plustic"

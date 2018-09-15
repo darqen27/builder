@@ -524,20 +524,6 @@ mods:
   default: true
   curse: true
 - name: "fastworkbench"
-  id: 288885
-  title: "FastWorkbench"
-  files:
-  - name: "FastWorkbench-1.12.2-1.5.1.jar"
-    id: 2579685
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/288885/files/2579685"
-    src: "https://minecraft.curseforge.com/projects/fastworkbench/files/2579685/download"
-    md5: "f171417287b620730f4aa43dbeccae17"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "opencomputers"
   id: 223008
   title: "OpenComputers"
@@ -799,20 +785,6 @@ mods:
   default: true
   curse: true
 - name: "mcjtylib"
-  id: 233105
-  title: "McJtyLib"
-  files:
-  - name: "mcjtylib-1.12-3.0.2.jar"
-    id: 2574696
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233105/files/2574696"
-    src: "https://minecraft.curseforge.com/projects/mcjtylib/files/2574696/download"
-    md5: "be38cf23d612fad1fa0d39e9b84e3df6"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "ender-storage-1-8"
   id: 245174
   title: "Ender Storage 1.8.+"
@@ -1018,12 +990,11 @@ mods:
   id: 223794
   title: "Applied Energistics 2"
   files:
-  - name: "appliedenergistics2-rv5-stable-11.jar"
-    id: 2543840
+  - name: "appliedenergistics2-rv6-alpha-1.jar"
+    id: 2577127
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2543840"
-    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download"
-    md5: "f22759d4dcdc8aec7811d457367e106a"
+    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2577127"
+    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2577127/download"
   side: "both"
   deps: []
   required: true
