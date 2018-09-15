@@ -2468,6 +2468,22 @@
       "type" = "remote";
       "md5" = "9aeb4171d0895fe69d10b7a75fdfc853";
     };
+    "rustic" = {
+      "title" = "Rustic";
+      "name" = "rustic";
+      "id" = 256141;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "rustic-1.0.10.jar";
+      "maturity" = "alpha";
+      "encoded" = "rustic-1.0.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rustic/files/2616013";
+      "src" = "https://minecraft.curseforge.com/projects/rustic/files/2616013/download";
+      "type" = "remote";
+      "md5" = "4c5478a2d71026af57eb8c3932ba01f9";
+    };
     "sampler" = {
       "title" = "sampler";
       "name" = "sampler";
