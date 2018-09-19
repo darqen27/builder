@@ -8,7 +8,7 @@
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="5" />
 	</asteroid>
-        <asteroid name ="Highly Metallic Asteroid" distance="125" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.9" richnessVariability="0.3"$
+        <asteroid name ="Highly Metallic Asteroid" distance="125" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.9" richnessVariability="0.3">
                 <ore itemStack="minecraft:gold_ore" chance="15" />
                 <ore itemStack="libvulpes:ore0 10" chance="10" />
                 <ore itemStack="minecraft:diamond_ore" chance="5" />
@@ -16,7 +16,7 @@
                 <ore itemStack="libvulpes:ore0 8" chance="10" />
                 <ore itemStack="nuclearcraft:ore 4" chance="5" />
         </asteroid>
-        <asteroid name ="Dinosaur Killer Asteroid" distance="75" mass="1000" massVariability="0.2" minLevel="0" probability="0.5" richness="0.3" richnessVariability="0.5" $
+        <asteroid name ="Dinosaur Killer Asteroid" distance="75" mass="1000" massVariability="0.2" minLevel="0" probability="0.5" richness="0.3" richnessVariability="0.5">
                 <ore itemStack="minecraft:gold_ore" chance="10" />
                 <ore itemStack="minecraft:iron_ore" chance="25" />
                 <ore itemStack="nuclearcraft:ore 4" chance="5" />
