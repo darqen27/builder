@@ -1,27 +1,44 @@
 <Asteroids>
-	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.75" minLevel="0" probability="10" richness="0.5" richnessVariability="0.75">
 		<ore itemStack="minecraft:iron_ore" chance="15" />
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="1" />
 	</asteroid>
-	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+	<asteroid name="Iridium Enriched asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="0.75" richness="0.4" richnessVariability="0.3" timeMultiplier="2">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
-		<ore itemStack="libvulpes:ore0 10" chance="5" />
+		<ore itemStack="libvulpes:ore0 10" chance="1" />
 	</asteroid>
-        <asteroid name ="Highly Metallic Asteroid" distance="125" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.9" richnessVariability="0.3"$
+        <asteroid name ="Highly Metallic Asteroid" distance="125" mass="100" massVariability="0.5" minLevel="0" probability="2" richness="0.9" richnessVariability="0.3" timeMultiplier="3">
                 <ore itemStack="minecraft:gold_ore" chance="15" />
-                <ore itemStack="libvulpes:ore0 10" chance="10" />
+                <ore itemStack="libvulpes:ore0 10" chance="2" />
                 <ore itemStack="minecraft:diamond_ore" chance="5" />
-                <ore itemStack="minecraft:iron_ore" chance="20" />
-                <ore itemStack="libvulpes:ore0 8" chance="10" />
+                <ore itemStack="minecraft:iron_ore" chance="15" />
+                <ore itemStack="libvulpes:ore0 8" chance="5" />
                 <ore itemStack="nuclearcraft:ore 4" chance="5" />
         </asteroid>
-        <asteroid name ="Dinosaur Killer Asteroid" distance="75" mass="1000" massVariability="0.2" minLevel="0" probability="0.5" richness="0.3" richnessVariability="0.5" $
+        <asteroid name ="Dinosaur Killer Asteroid" distance="75" mass="1000" massVariability="0.5" minLevel="0" probability="1" richness="0.66" richnessVariability="0.5" timeMultiplier="10">
                 <ore itemStack="minecraft:gold_ore" chance="10" />
                 <ore itemStack="minecraft:iron_ore" chance="25" />
                 <ore itemStack="nuclearcraft:ore 4" chance="5" />
-                <ore itemStack="libvulpes:ore0 10" chance="5" />
+                <ore itemStack="libvulpes:ore0 10" chance="1" />
                 <ore itemStack="minecraft:coal 0" chance="15" />
         </asteroid>
-
+	<asteroid name="Iridium/Platinum Asteroid" distance="125" mass="100" massVariability="0.6" minLevel="0" probability="0.4" richness="0.8" richnessVariability="0.4" timeMultiplier="5">
+		<ore itemStack="libvulpes:ore0 10" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="20" />
+	</asteroid>
+	<asteroid name="Cakestroid" distance="25" mass="100" massVariability="0.9" minLevel="0" probability="0.8" richness="1" richnessVariability="0" timeMultiplier="0.5">
+		<ore itemStack="minecraft:cake" chance="100" />
+	</asteroid>
+	<asteroid name="Nickle/Iron Asteroid" distance="75" mass="100" massVariability="0.9" minLevel="0" probability="0.75" richness="1" richnessVariability="0" timeMultiplier="10">
+		<ore itemStack="minecraft:iron_ore" chance="75" />
+		<ore itemStack="thermalfoundation:ore 5" chance="25" />
+	</asteroid>
+	<asteroid name="Strange Magical Asteroid" distance="125" mass="100" massVariability="0.9" minLevel="0" probability="0.75" richness="0.75" richnessVariability="0" timeMultiplier="20">
+		<ore itemStack="astralsorcery:blockcustomsandore" chance="25" />
+		<ore itemStack="astralsorcery:blockblackmarble" chance="25" />
+		<ore itemStack="botania:storage" chance="25" />
+		<ore itemStack="botania:livingrocK" chance="25" />
+	</asteroid>
 </Asteroids>
